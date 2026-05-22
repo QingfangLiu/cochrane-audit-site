@@ -725,9 +725,22 @@
     return doi ? `https://www.cochranelibrary.com/cdsr/doi/${doi}/full` : "";
   }
 
+  function isGithubPagesHost() {
+    return typeof window !== "undefined" && /\.github\.io$/i.test(window.location.hostname);
+  }
+
+  function isRelativeHref(href) {
+    return href && !/^[a-z][a-z0-9+.-]*:/i.test(href) && !href.startsWith("//");
+  }
+
+  function shouldShowReviewPdfLink(href) {
+    return raw(href) && !(isGithubPagesHost() && isRelativeHref(href));
+  }
+
   function reviewSourceLinks(review) {
+    const pdfHref = reviewPdfHref(review);
     return [
-      { label: "Open PDF", href: reviewPdfHref(review) },
+      { label: "Open PDF", href: shouldShowReviewPdfLink(pdfHref) ? pdfHref : "" },
       { label: "Cochrane", href: cochraneReviewHref(review) },
       { label: "PubMed", href: pubmedReviewHref(review) },
     ].filter((link) => raw(link.href));
