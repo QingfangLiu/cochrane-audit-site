@@ -1,0 +1,1036 @@
+{
+  "schema_version": "review_domain_source_raw.v1",
+  "generated_by": "Cochrane_reviews/scripts/extract_cochrane_review_domain_sources.py",
+  "source_note": "Raw domain-relevant metadata extracted from Cochrane review PDFs. This file does not assign clinical-domain labels.",
+  "review_count": 26,
+  "reviews": [
+    {
+      "review_id": "CD002243_corticosteroids_sepsis",
+      "review_group": "after_pilot",
+      "review_pdf": "Cochrane_reviews/after_pilot/CD002243_corticosteroids_sepsis.pdf",
+      "review_title": "Corticosteroids for treating sepsis in children and adults",
+      "cochrane_editorial_group": {
+        "value": "Central Editorial Service",
+        "source": "front_matter",
+        "page": "",
+        "snippet": "versity of California, San Francisco, California, USA. 9Department of Medicine, McMaster University, Hamilton, Canada. 10Department of Health Research Methods, Evidence and Impact, McMaster University, Hamilton, Canada aDeceased Contact: Djillali Annane, djillali.annane@aphp.fr. Editorial group: Cochrane Central Editorial Service. Publication status and date: New search for studies and content updated (no change to conclusions), published in Issue 6, 2025. Citation: Annane D, Briegel J, Granton D, Bellissant E, Bollaert PE, Keh D, Kupfer Y, Pirracchio R, Rochwerg B. Corticosteroids for treating sepsis in children and adults"
+      },
+      "objective": {
+        "value": "To examine the benefits and harms of corticosteroids in children and adults with sepsis",
+        "source": "abstract_or_objectives",
+        "page": "",
+        "snippet": "urs when an infection is complicated by organ failure. Sepsis may be complicated by impaired corticosteroid metabolism. Thus, providing corticosteroids may benefit patients. This is an update of a review originally published in 2004 and previously updated in 2010, 2015 and 2019. Objectives To examine the benefits and harms of corticosteroids in children and adults with sepsis. Search methods We searched CENTRAL, MEDLINE, Embase, LILACS, ClinicalTrials.gov, ISRCTN and the WHO Clinical Trials Search Portal on 31 December 2023. In addition, we conducted reference checking and citation research, and contacted study authors, to identify additional studies as needed. We u"
+      },
+      "index_terms": {
+        "mesh_terms_raw": "*Adrenal Cortex Hormones [administration & dosage] [adverse effects] [therapeutic use]; Bias; Cause of Death; Length of Stay; Placebos [therapeutic use]; Randomized Controlled Trials as Topic; *Sepsis [drug therapy] [mortality]",
+        "mesh_terms": [
+          "*Adrenal Cortex Hormones [administration & dosage] [adverse effects] [therapeutic use]",
+          "Bias",
+          "Cause of Death",
+          "Length of Stay",
+          "Placebos [therapeutic use]",
+          "Randomized Controlled Trials as Topic",
+          "*Sepsis [drug therapy] [mortality]"
+        ],
+        "mesh_check_words_raw": "Adult; Child; Humans",
+        "mesh_check_words": [
+          "Adult",
+          "Child",
+          "Humans"
+        ],
+        "source": "index_terms",
+        "page": "",
+        "snippet": "ummary of findings' table. Sensitivity analyses based on methodological quality are now restricted to the primary outcome. Random-effects models are used only in cases of heterogeneity, with I/two.sups statistic > 30%. Otherwise, fixed-effect models are used. I N D E X T E R M S Medical Subject Headings (MeSH) *Adrenal Cortex Hormones [administration & dosage] [adverse effects] [therapeutic use]; Bias; Cause of Death; Length of Stay; Placebos [therapeutic use]; Randomized Controlled Trials as Topic; *Sepsis [drug therapy] [mortality] MeSH check words Adult; Child; Humans Corticosteroids for treating sepsis in children and adults (Review) Copyright © 2025 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.259"
+      },
+      "extraction_warnings": []
+    },
+    {
+      "review_id": "CD004376_exercise_knee_oa",
+      "review_group": "after_pilot",
+      "review_pdf": "Cochrane_reviews/after_pilot/CD004376_exercise_knee_oa.pdf",
+      "review_title": "Exercise for osteoarthritis of the knee",
+      "cochrane_editorial_group": {
+        "value": "Central Editorial Service",
+        "source": "front_matter",
+        "page": "",
+        "snippet": "University of Sydney, New South Wales, Australia. 5 Department of Clinical Sciences Lund, Clinical Epidemiology Unit, Orthopaedics, Lund University, Lund, Sweden aThese authors should be considered joint first authors. Contact: Belinda J Lawford, belinda.lawford@unimelb.edu.au. Editorial group: Cochrane Central Editorial Service. Publication status and date: New search for studies and content updated (conclusions changed), published in Issue 12, 2024. Citation: Lawford BJ, Hall M, Hinman RS, Van der Esch M, Harmer AR, Spiers L, Kimp A, Dell'Isola A, Bennell KL. Exercise for osteoarthritis of the knee. Cochrane Database of"
+      },
+      "objective": {
+        "value": "",
+        "source": "abstract_or_objectives",
+        "page": "",
+        "snippet": ""
+      },
+      "index_terms": {
+        "mesh_terms_raw": "Bias; Exercise; *Exercise Therapy [methods]; *Osteoarthritis, Knee [therapy]; Pain Measurement; *Quality of Life; *Randomized Controlled Trials as Topic",
+        "mesh_terms": [
+          "Bias",
+          "Exercise",
+          "*Exercise Therapy [methods]",
+          "*Osteoarthritis, Knee [therapy]",
+          "Pain Measurement",
+          "*Quality of Life",
+          "*Randomized Controlled Trials as Topic"
+        ],
+        "mesh_check_words_raw": "Aged; Female; Humans; Male; Middle Aged",
+        "mesh_check_words": [
+          "Aged",
+          "Female",
+          "Humans",
+          "Male",
+          "Middle Aged"
+        ],
+        "source": "index_terms",
+        "page": "",
+        "snippet": "•We examined the effects of exercise in subgroups that were not in the previous review, including the number of exercise sessions prescribed and the ratio (between exercise and control) of synchronous (i.e., live) contact occasions with a healthcare provider. I N D E X T E R M S Medical Subject Headings (MeSH) Bias; Exercise; *Exercise Therapy [methods]; *Osteoarthritis, Knee [therapy]; Pain Measurement; *Quality of Life; *Randomized Controlled Trials as Topic MeSH check words Aged; Female; Humans; Male; Middle Aged Exercise for osteoarthritis of the knee (Review) Copyright © 2024 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.441"
+      },
+      "extraction_warnings": [
+        "objective_not_found"
+      ]
+    },
+    {
+      "review_id": "CD012079_vaginal_prolapse_repair",
+      "review_group": "after_pilot",
+      "review_pdf": "Cochrane_reviews/after_pilot/CD012079_vaginal_prolapse_repair.pdf",
+      "review_title": "Transvaginal mesh or grafts or native tissue repair for vaginal prolapse",
+      "cochrane_editorial_group": {
+        "value": "Gynaecology and Fertility Group, Incontinence Group",
+        "source": "front_matter",
+        "page": "",
+        "snippet": "roup, Population Health Sciences Institute, Faculty of Medical Sciences, Newcastle University, Newcastle upon Tyne, UK. 8Greenslopes Hospital, Brisbane, Australia. 9Wesley and Royal Brisbane and Women's Hospitals, Brisbane, Australia Contact: Ellen Yeung, drellenyeung@gmail.com. Editorial group: Cochrane Gynaecology and Fertility Group, Cochrane Incontinence Group. Publication status and date: New search for studies and content updated (no change to conclusions), published in Issue 3, 2024. Citation: Yeung E, Baessler K, Christmann-Schmid C, Haya N, Chen Z, Wallace SA, Mowat A, Maher C. Transvaginal mesh or grafts or native tissue repair for vaginal prolapse"
+      },
+      "objective": {
+        "value": "To determine the safety and effectiveness of transvaginal mesh or biological grafts compared to native tissue repair or other grafts in the surgical treatment of vaginal prolapse",
+        "source": "abstract_or_objectives",
+        "page": "",
+        "snippet": "ansvaginal repairs. Graft material can be synthetic or biological. The aim is to reduce prolapse recurrence and surpass the effectiveness of traditional native tissue repair (colporrhaphy) for vaginal prolapse. This is a review update; the previous version was published in 2016. Objectives To determine the safety and effectiveness of transvaginal mesh or biological grafts compared to native tissue repair or other grafts in the surgical treatment of vaginal prolapse. Search methods We searched the Cochrane Incontinence Group Specialised Register, which contains trials identified from the Cochrane Central Register of Controlled Trials (CENTRAL), MEDLINE, and two clinical trials registers (March 2022). Selection criteria Randomised controlled trials (RCTs) c"
+      },
+      "index_terms": {
+        "mesh_terms_raw": "*Dyspareunia; Female; Humans; *Pelvic Organ Prolapse [surgery]; Surgical Mesh; *Urinary Bladder Diseases; *Urinary Incontinence; *Urinary Incontinence, Stress [surgery]; *Uterine Prolapse [surgery]",
+        "mesh_terms": [
+          "*Dyspareunia",
+          "Female",
+          "Humans",
+          "*Pelvic Organ Prolapse [surgery]",
+          "Surgical Mesh",
+          "*Urinary Bladder Diseases",
+          "*Urinary Incontinence",
+          "*Urinary Incontinence, Stress [surgery]",
+          "*Uterine Prolapse [surgery]"
+        ],
+        "mesh_check_words_raw": "",
+        "mesh_check_words": [],
+        "source": "index_terms",
+        "page": "",
+        "snippet": "h any other transvaginal repair. For the 2023 update, we decided to restrict primary analyses to studies judged to be at low risk of bias, such that studies defined as high risk in four or more categories in the risk of bias (ROB) table would not be included. I N D E X T E R M S Medical Subject Headings (MeSH) *Dyspareunia; Female; Humans; *Pelvic Organ Prolapse [surgery]; Surgical Mesh; *Urinary Bladder Diseases; *Urinary Incontinence; *Urinary Incontinence, Stress [surgery]; *Uterine Prolapse [surgery] Transvaginal mesh or grafts or native tissue repair for vaginal prolapse (Review) Copyright © 2024 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.188"
+      },
+      "extraction_warnings": []
+    },
+    {
+      "review_id": "CD013729_dash_cvd",
+      "review_group": "after_pilot",
+      "review_pdf": "Cochrane_reviews/after_pilot/CD013729_dash_cvd.pdf",
+      "review_title": "Dietary Approaches to",
+      "cochrane_editorial_group": {
+        "value": "Central Editorial Service",
+        "source": "front_matter",
+        "page": "",
+        "snippet": "est of Ireland Cardiac Foundation, Galway, Ireland. 4School of Nursing and Midwifery, University of Galway, Galway, Ireland. 5Department of Vascular and Endovascular Surgery, University College Hospital, Galway, Ireland Contact: Abdelsalam Bensaaud, abdallsalambensaod@gmail.com. Editorial group: Cochrane Central Editorial Service. Publication status and date: New, published in Issue 5, 2025. Citation: Bensaaud A, Seery S, Gibson I, Jones J, Flaherty G, McEvoy JW, Jordan F, Tawfick W, Sultan SAH. Dietary Approaches to Stop Hypertension (DASH) for the primary and secondary prevention of cardiovascular diseases. Cochrane Datab"
+      },
+      "objective": {
+        "value": "To assess the effects of the DASH diet for the primary and secondary prevention of cardiovascular diseases",
+        "source": "abstract_or_objectives",
+        "page": "",
+        "snippet": "sium, and fibre. While evidence supports its benefits for managing cardiovascular risk factors, gaps remain in understanding its long-term impact on preventing cardiovascular disease (CVD), particularly in terms of hard clinical outcomes such as myocardial infarction and stroke. Objectives To assess the effects of the DASH diet for the primary and secondary prevention of cardiovascular diseases. Search methods We used standard extensive Cochrane search methods. The latest search date was in May 2024. Selection criteria We included randomised controlled trials (RCTs) comparing a DASH diet intervention to no intervention (including usual care), minimal intervention, or other dietary int"
+      },
+      "index_terms": {
+        "mesh_terms_raw": "",
+        "mesh_terms": [],
+        "mesh_check_words_raw": "",
+        "mesh_check_words": [],
+        "source": "index_terms",
+        "page": "",
+        "snippet": ""
+      },
+      "extraction_warnings": [
+        "mesh_terms_not_found"
+      ]
+    },
+    {
+      "review_id": "CD014606_digital_cf_infections",
+      "review_group": "after_pilot",
+      "review_pdf": "Cochrane_reviews/after_pilot/CD014606_digital_cf_infections.pdf",
+      "review_title": "Digital technology for early identification of exacerbations in people with cystic fibrosis Chu-Hai Wong 1,",
+      "cochrane_editorial_group": {
+        "value": "Cystic Fibrosis and Genetic Disorders Group",
+        "source": "front_matter",
+        "page": "",
+        "snippet": "al Kansra1 1Department of Paediatric Respiratory Medicine, Sheffield Children's Hospital NHS Trust, Sheffield, UK. 2Division of Child Health, Obstetrics & Gynaecology (COG), School of Medicine, University of Nottingham, Nottingham, UK Contact: Sonal Kansra, sonal.kansra@nhs.net. Editorial group: Cochrane Cystic Fibrosis and Genetic Disorders Group. Publication status and date: New, published in Issue 4, 2023. Citation: Wong C-H, Smith S, Kansra S. Digital technology for early identification of exacerbations in people with cystic fibrosis. Cochrane Database of Systematic Reviews 2023, Issue 4. Art. No.: CD014606. DOI: 10.1002/14651858.CD01460"
+      },
+      "objective": {
+        "value": "To evaluate whether digital technology can effectively predict pulmonary exacerbations to allow earlier intervention and improved health outcomes without increasing the burden of treatment in people with CF",
+        "source": "abstract_or_objectives",
+        "page": "",
+        "snippet": "ct. Pulmonary exacerbations in CF result in increased symptoms, an acceleration in the rate of lung decline and an increased need for treatment. Early detection of infections or clinical worsening provides an opportunity for proactive treatment that may affect clinical outcomes. Objectives To evaluate whether digital technology can effectively predict pulmonary exacerbations to allow earlier intervention and improved health outcomes without increasing the burden of treatment in people with CF. Search methods We used standard, extensive Cochrane search methods. We searched the Cochrane Cystic Fibrosis Trials Register and the reference lists of relevant articles and reviews on 13 October 2022. We searched Embase and the clinical trial registries on 3 January 2023. Selection criteria W"
+      },
+      "index_terms": {
+        "mesh_terms_raw": "Anti-Bacterial Agents [therapeutic use]; *Cystic Fibrosis [complications] [diagnosis] [genetics]; *Digital Technology; Disease Progression; Hospitalization; Quality of Life; Randomized Controlled Trials as Topic",
+        "mesh_terms": [
+          "Anti-Bacterial Agents [therapeutic use]",
+          "*Cystic Fibrosis [complications] [diagnosis] [genetics]",
+          "*Digital Technology",
+          "Disease Progression",
+          "Hospitalization",
+          "Quality of Life",
+          "Randomized Controlled Trials as Topic"
+        ],
+        "mesh_check_words_raw": "Adolescent; Adult; Child; Humans",
+        "mesh_check_words": [
+          "Adolescent",
+          "Adult",
+          "Child",
+          "Humans"
+        ],
+        "source": "index_terms",
+        "page": "",
+        "snippet": "N D R E V I E W We had aimed to review data points at six-monthly intervals (Wong 2021 ); however, for the studies included, these were often not provided. Therefore, we analysed results at the end of the study periods (which were all 12 months or 52 weeks). I N D E X T E R M S Medical Subject Headings (MeSH) Anti-Bacterial Agents [therapeutic use]; *Cystic Fibrosis [complications] [diagnosis] [genetics]; *Digital Technology; Disease Progression; Hospitalization; Quality of Life; Randomized Controlled Trials as Topic MeSH check words Adolescent; Adult; Child; Humans Digital technology for early identification of exacerbations in people with cystic fibrosis (Review) Copyright © 2023 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.55"
+      },
+      "extraction_warnings": []
+    },
+    {
+      "review_id": "CD014861_home_iv_cancer_therapy",
+      "review_group": "after_pilot",
+      "review_pdf": "Cochrane_reviews/after_pilot/CD014861_home_iv_cancer_therapy.pdf",
+      "review_title": "Delivery of intravenous anti-cancer therapy at home versus in hospital or community settings for adults with cancer",
+      "cochrane_editorial_group": {
+        "value": "Central Editorial Service",
+        "source": "front_matter",
+        "page": "",
+        "snippet": "of Melbourne, Melbourne, Australia. 4Flinders Health and Medical Research Institute, College of Medicine and Public Health, Flinders University, Adelaide, Australia. 5Department of Physical Therapy, Ariel University, Ariel, Israel Contact: Liesl Grobler, liesl.nicol@monash.edu. Editorial group: Cochrane Central Editorial Service. Publication status and date: New, published in Issue 4, 2025. Citation: Grobler L, O'Connor D, Rischin D, Putrik P, Karnon J, Rischin KJ, McKenzie BJ, Ben Ami N, Whale R, Buchbinder R. Delivery of intravenous anti-cancer therapy at home versus in hospital or community settings for adults with canc"
+      },
+      "objective": {
+        "value": "To assess the safety, patient preference for, and cost of IV (including subcutaneous) anti-cancer therapy (chemotherapy or immunotherapy) delivered at home as an alternative to the same IV anti-cancer therapy regimen delivered in a hospital or community setting in adults with cancer",
+        "source": "abstract_or_objectives",
+        "page": "",
+        "snippet": "tment sessions lasting between 20 minutes and several hours for adults with cancer. These treatments are usually given in chemotherapy day units in hospitals as same-day treatments. However, less complex anti-cancer therapy regimens may be administered in the participant's home. Objectives To assess the safety, patient preference for, and cost of IV (including subcutaneous) anti-cancer therapy (chemotherapy or immunotherapy) delivered at home as an alternative to the same IV anti-cancer therapy regimen delivered in a hospital or community setting in adults with cancer. Search methods We searched CENTRAL, Cochrane Database of Systematic Reviews, MEDLINE, Embase, CINAHL, NHS Economic Evaluation Database, Cost- Effectiveness Analysis Registry and trial registries (ClinicalTrials.gov and WHO-ICTRP) from inception until 16 October 2024. We also searched PDQ Evide"
+      },
+      "index_terms": {
+        "mesh_terms_raw": "",
+        "mesh_terms": [],
+        "mesh_check_words_raw": "",
+        "mesh_check_words": [],
+        "source": "index_terms",
+        "page": "",
+        "snippet": ""
+      },
+      "extraction_warnings": [
+        "mesh_terms_not_found"
+      ]
+    },
+    {
+      "review_id": "CD015148_steroid_carpal_tunnel",
+      "review_group": "after_pilot",
+      "review_pdf": "Cochrane_reviews/after_pilot/CD015148_steroid_carpal_tunnel.pdf",
+      "review_title": "Local corticosteroid injection versus placebo for carpal tunnel syndrome",
+      "cochrane_editorial_group": {
+        "value": "Neuromuscular Group",
+        "source": "front_matter",
+        "page": "",
+        "snippet": ", Gold Coast, Australia. 6Department of Clinical Neurophysiology, National Hospital for Neurology and Neurosurgery, London, UK. 7Department of Clinical Neurophysiology, London North West University Healthcare NHS Trust, London, UK Contact: Nigel L Ashworth, ashworth@ualberta.ca. Editorial group: Cochrane Neuromuscular Group. Publication status and date: New, published in Issue 2, 2023. Citation: Ashworth NL, Bland JD P, Chapman KM, Tardif G, Albarqouni L, Nagendran A. Local corticosteroid injection versus placebo for carpal tunnel syndrome. Cochrane Database of Systematic Reviews 2023, Issue 2. Art. No.: CD015148. DOI"
+      },
+      "objective": {
+        "value": "To evaluate the benefits and harms of corticosteroids injected in or around the carpal tunnel for the treatment of carpal tunnel syndrome compared to no treatment or a placebo injection",
+        "source": "abstract_or_objectives",
+        "page": "",
+        "snippet": "wrist. Direct and indirect costs of CTS are substantial, with estimated costs of two billion US dollars for CTS surgery in the USA in 1995 alone. Local corticosteroid injection has been used as a non-surgical treatment for CTS many years, but its effectiveness is still debated. Objectives To evaluate the benefits and harms of corticosteroids injected in or around the carpal tunnel for the treatment of carpal tunnel syndrome compared to no treatment or a placebo injection. Search methods We used standard, extensive Cochrane search Methods. The searches were 7 June 2020 and 26 May 2022. Selection criteria We included randomised controlled trials (RCTs) or quasi-randomised trials of adults with CTS that included at least one comparison group of local injection of"
+      },
+      "index_terms": {
+        "mesh_terms_raw": "*Adrenal Cortex Hormones [adverse effects]; *Carpal Tunnel Syndrome [drug therapy]; Hand; Randomized Controlled Trials as Topic",
+        "mesh_terms": [
+          "*Adrenal Cortex Hormones [adverse effects]",
+          "*Carpal Tunnel Syndrome [drug therapy]",
+          "Hand",
+          "Randomized Controlled Trials as Topic"
+        ],
+        "mesh_check_words_raw": "Adult; Humans",
+        "mesh_check_words": [
+          "Adult",
+          "Humans"
+        ],
+        "source": "index_terms",
+        "page": "",
+        "snippet": "tely and to pool them if there was no difference between the two subgroups. N O T E S This review is one of a series of reviews that replaces Marshall 2007. The published protocol is \"Local corticosteroid injection for carpal tunnel syndrome\" (Ashworth 2020). I N D E X T E R M S Medical Subject Headings (MeSH) *Adrenal Cortex Hormones [adverse effects]; *Carpal Tunnel Syndrome [drug therapy]; Hand; Randomized Controlled Trials as Topic MeSH check words Adult; Humans Local corticosteroid injection versus placebo for carpal tunnel syndrome (Review) Copyright © 2023 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.93"
+      },
+      "extraction_warnings": []
+    },
+    {
+      "review_id": "CD015332_cbt_schizophrenia",
+      "review_group": "after_pilot",
+      "review_pdf": "Cochrane_reviews/after_pilot/CD015332_cbt_schizophrenia.pdf",
+      "review_title": "Cognitive behavioural therapy without medication for schizophrenia",
+      "cochrane_editorial_group": {
+        "value": "Schizophrenia Group",
+        "source": "front_matter",
+        "page": "",
+        "snippet": "Department, Mardin, Turkey. 4Section for Evidence-Based Medicine in Psychiatry and Psychotherapy, School of Medicine and Health, Technical University of Munich, Munich, Germany aThese authors should be considered joint first author Contact: Irene Bighelli, irene.bighelli@tum.de. Editorial group: Cochrane Schizophrenia Group. Publication status and date: New, published in Issue 2, 2024. Citation: Bighelli I, Çıray O, Salahuddin NH, Leucht S. Cognitive behavioural therapy without medication for schizophrenia. Cochrane Database of Systematic Reviews 2024, Issue 2. Art. No.: CD015332. DOI: 10.1002/14651858.CD015332.pub2 ."
+      },
+      "objective": {
+        "value": "To investigate the effects of CBT for schizophrenia when administered without concomitant pharmacological treatment with antipsychotics",
+        "source": "abstract_or_objectives",
+        "page": "",
+        "snippet": "T Background Cognitive behavioural therapy (CBT) can be effective in people with schizophrenia when provided in combination with antipsychotic medication. It remains unclear whether CBT could be safely and effectively offered in the absence of concomitant antipsychotic therapy. Objectives To investigate the effects of CBT for schizophrenia when administered without concomitant pharmacological treatment with antipsychotics. Search methods We conducted a systematic search on 6 March 2022 in the Cochrane Schizophrenia Group's Study-Based Register of Trials, which is based on CENTRAL, MEDLINE, Embase, CINAHL, PsycINFO, PubMed, ClinicalTrials.gov, and WHO ICTRP. Selection criteria We included randomised controlled tr"
+      },
+      "index_terms": {
+        "mesh_terms_raw": "*Antipsychotic Agents [therapeutic use]; *Cognitive Behavioral Therapy [methods]; Neoplasm Recurrence, Local [drug therapy]; Randomized Controlled Trials as Topic; *Schizophrenia [drug therapy]",
+        "mesh_terms": [
+          "*Antipsychotic Agents [therapeutic use]",
+          "*Cognitive Behavioral Therapy [methods]",
+          "Neoplasm Recurrence, Local [drug therapy]",
+          "Randomized Controlled Trials as Topic",
+          "*Schizophrenia [drug therapy]"
+        ],
+        "mesh_check_words_raw": "Humans; Young Adult",
+        "mesh_check_words": [
+          "Humans",
+          "Young Adult"
+        ],
+        "source": "index_terms",
+        "page": "",
+        "snippet": "several sensitivity and subgroup analyses; however, this was not possible, since all analyses included a maximum of three studies only. We added the outcome 'average endpoint or change on adverse effects scale' as a possible measure of adverse events/effects. I N D E X T E R M S Medical Subject Headings (MeSH) *Antipsychotic Agents [therapeutic use]; *Cognitive Behavioral Therapy [methods]; Neoplasm Recurrence, Local [drug therapy]; Randomized Controlled Trials as Topic; *Schizophrenia [drug therapy] MeSH check words Humans; Young Adult Cognitive behavioural therapy without medication for schizophrenia (Review) Copyright © 2024 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.109"
+      },
+      "extraction_warnings": []
+    },
+    {
+      "review_id": "CD004508_early_feeding_gyn_surgery",
+      "review_group": "first_pass",
+      "review_pdf": "Cochrane_reviews/first_pass/CD004508_early_feeding_gyn_surgery.pdf",
+      "review_title": "Early versus delayed oral feeding after major gynaecologic surgery",
+      "cochrane_editorial_group": {
+        "value": "Gynaecology and Fertility Group",
+        "source": "front_matter",
+        "page": "",
+        "snippet": "ntasupha1, Tanarat Muangmool1, Elizabeth Matovinovic2 1Department of Obstetrics and Gynecology, Faculty of Medicine, Chiang Mai University, Chiang Mai, Thailand. 2Cause Health, Norwegian University of Life Sciences, Ås, Norway Contact: Kittipat Charoenkwan, kittipat.c@cmu.ac.th. Editorial group: Cochrane Gynaecology and Fertility Group. Publication status and date: New search for studies and content updated (conclusions changed), published in Issue 8, 2024. Citation: Charoenkwan K, Nantasupha C, Muangmool T, Matovinovic E. Early versus delayed oral feeding after major gynaecologic surgery. Cochrane Database of Systematic Reviews"
+      },
+      "objective": {
+        "value": "To assess the effects of early versus delayed (traditional) initiation of oral intake of food and fluids after major gynaecologic surgery",
+        "source": "abstract_or_objectives",
+        "page": "",
+        "snippet": "ntake. Currently, gynaecologic surgery can be performed through various routes: open abdominal, vaginal, laparoscopic, robotic, or a combination. In this version, we included women undergoing major gynaecologic surgery through all of these routes, either alone or in combination. Objectives To assess the effects of early versus delayed (traditional) initiation of oral intake of food and fluids after major gynaecologic surgery. Search methods On 13 June 2023, we searched the Cochrane Gynaecology and Fertility Group's Specialised Register, CENTRAL, MEDLINE, Embase, the citation lists of relevant publications, and two trial registries. We also contacted experts in the field for any additional studies. Selection criteri"
+      },
+      "index_terms": {
+        "mesh_terms_raw": "Bias; Drinking; Eating; Enteral Nutrition [methods]; *Gynecologic Surgical Procedures [adverse effects]; Intestinal Pseudo- Obstruction [etiology]; Length of Stay; Postoperative Care [methods]; Postoperative Complications [etiology] [prevention & control]; Postoperative Nausea and Vomiting [epidemiology] [etiology]; *Randomized Controlled Trials as Topic; Time Factors",
+        "mesh_terms": [
+          "Bias",
+          "Drinking",
+          "Eating",
+          "Enteral Nutrition [methods]",
+          "*Gynecologic Surgical Procedures [adverse effects]",
+          "Intestinal Pseudo- Obstruction [etiology]",
+          "Length of Stay",
+          "Postoperative Care [methods]",
+          "Postoperative Complications [etiology] [prevention & control]",
+          "Postoperative Nausea and Vomiting [epidemiology] [etiology]",
+          "*Randomized Controlled Trials as Topic",
+          "Time Factors"
+        ],
+        "mesh_check_words_raw": "Female; Humans",
+        "mesh_check_words": [
+          "Female",
+          "Humans"
+        ],
+        "source": "index_terms",
+        "page": "",
+        "snippet": "and Fertility Group’s editorial team, we expanded the scope of the 2024 review to include women who had major gynaecologic surgery through vaginal, laparoscopic, and robotic routes, in addition to those undergoing open laparotomy, as in the previous versions. I N D E X T E R M S Medical Subject Headings (MeSH) Bias; Drinking; Eating; Enteral Nutrition [methods]; *Gynecologic Surgical Procedures [adverse effects]; Intestinal Pseudo- Obstruction [etiology]; Length of Stay; Postoperative Care [methods]; Postoperative Complications [etiology] [prevention & control]; Postoperative Nausea and Vomiting [epidemiology] [etiology]; *Randomized Controlled Trials as Topic; Time Factors MeSH check words Female; Humans Early versus delayed oral feeding after major gynaecologic surgery (Review) Copyright © 2024 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.47"
+      },
+      "extraction_warnings": []
+    },
+    {
+      "review_id": "CD007895_decongestants_bp",
+      "review_group": "first_pass",
+      "review_pdf": "Cochrane_reviews/first_pass/CD007895_decongestants_bp.pdf",
+      "review_title": "Effect of adrenergic agonist oral decongestants on blood pressure",
+      "cochrane_editorial_group": {
+        "value": "Central Editorial Service",
+        "source": "front_matter",
+        "page": "",
+        "snippet": "] Effect of adrenergic agonist oral decongestants on blood pressure Jocelyn Joy Chan1, Magnus Chan 1, James M Wright 1 1Department of Anesthesiology, Pharmacology and Therapeutics, University of British Columbia, Vancouver, Canada Contact: Jocelyn Joy Chan, joy29@student.ubc.ca. Editorial group: Cochrane Central Editorial Service. Publication status and date: New, published in Issue 3, 2025. Citation: Chan JJ, Chan M, Wright JM. Effect of adrenergic agonist oral decongestants on blood pressure. Cochrane Database of Systematic Reviews 2025, Issue 3. Art. No.: CD007895. DOI: 10.1002/14651858.CD007895.pub3 . Copyright © 2025 T"
+      },
+      "objective": {
+        "value": "to reflect the main comparison of this review, which was interested in the effect of any dose of decongestants versus Effect of adrenergic agonist oral decongestants on blood pressure (Review) Copyright © 2025 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.41 Cochrane LibraryTrusted evidence. Informed decisions. Better health. Cochrane Database of Systematic Reviews placebo. As outlined in the protocol, we intended to perform a subgroup analysis based on dosages; however, there were not enough included studies to perform such an analysis. Methods",
+        "source": "abstract_or_objectives",
+        "page": "",
+        "snippet": "ystolic and diastolic blood pressure compared to placebo.\" to \"To assess the effects of various adrenergic agonist oral decongestants on systolic and diastolic blood pressure compared to placebo.\" We also removed dose-related effects from the secondary objectives. We changed the objectives to reflect the main comparison of this review, which was interested in the effect of any dose of decongestants versus Effect of adrenergic agonist oral decongestants on blood pressure (Review) Copyright © 2025 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.41 Cochrane LibraryTrusted evidence. Informed decisions. Better health. Cochrane Database of Systematic Reviews placebo. As outlined in the protocol, we intended to perform a subgroup analysis based on dosages; however, there were not enough included studies to perform such an analysis. Methods Search methods The protocol preplanned direct searches of the WHO International Clinical Trials Registry Platform (WHO ICTRP). For this review, a separate search of WHO ICTRP was not conducted because records from WHO ICTRP are regularly integrated into the CENTRAL database, which we searched."
+      },
+      "index_terms": {
+        "mesh_terms_raw": "Administration, Oral; *Adrenergic Agonists [administration & dosage] [adverse effects] [pharmacology]; Bias; *Blood Pressure [drug effects]; Heart Rate [drug effects]; Hypertension [chemically induced]; *Nasal Decongestants [administration & dosage] [adverse effects]; Placebos [administration & dosage]; Randomized Controlled Trials as Topic",
+        "mesh_terms": [
+          "Administration, Oral",
+          "*Adrenergic Agonists [administration & dosage] [adverse effects] [pharmacology]",
+          "Bias",
+          "*Blood Pressure [drug effects]",
+          "Heart Rate [drug effects]",
+          "Hypertension [chemically induced]",
+          "*Nasal Decongestants [administration & dosage] [adverse effects]",
+          "Placebos [administration & dosage]",
+          "Randomized Controlled Trials as Topic"
+        ],
+        "mesh_check_words_raw": "Adult; Female; Humans; Male",
+        "mesh_check_words": [
+          "Adult",
+          "Female",
+          "Humans",
+          "Male"
+        ],
+        "source": "index_terms",
+        "page": "",
+        "snippet": "on of heterogeneity We were unable to perform the planned subgroup analyses due to the insufficient number of included studies. Sensitivity analysis We were unable to perform the planned sensitivity analyses due to the insufficient number of included studies. I N D E X T E R M S Medical Subject Headings (MeSH) Administration, Oral; *Adrenergic Agonists [administration & dosage] [adverse effects] [pharmacology]; Bias; *Blood Pressure [drug effects]; Heart Rate [drug effects]; Hypertension [chemically induced]; *Nasal Decongestants [administration & dosage] [adverse effects]; Placebos [administration & dosage]; Randomized Controlled Trials as Topic MeSH check words Adult; Female; Humans; Male Effect of adrenergic agonist oral decongestants on blood pressure (Review) Copyright © 2025 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.42"
+      },
+      "extraction_warnings": []
+    },
+    {
+      "review_id": "CD010441_hyaluronidase_perineal",
+      "review_group": "first_pass",
+      "review_pdf": "Cochrane_reviews/first_pass/CD010441_hyaluronidase_perineal.pdf",
+      "review_title": "Hyaluronidase for reducing perineal trauma",
+      "cochrane_editorial_group": {
+        "value": "Central Editorial Service",
+        "source": "front_matter",
+        "page": "",
+        "snippet": "try of Education, Chengdu, China. 3Department of Obstetrics and Gynaecology, West China Second University Hospital, Sichuan University, Chengdu, China. 4Chinese Cochrane Centre, West China Hospital, Sichuan University, Chengdu, China Contact: Xiao Dong Wang, wangxd_scu@sina.com. Editorial group: Cochrane Central Editorial Service. Publication status and date: New search for studies and content updated (no change to conclusions), published in Issue 11, 2024. Citation: Zhou F, Zhang J, Li Y, Huang GQiong, Li J, Wang XDong. Hyaluronidase for reducing perineal trauma. Cochrane Database of Systematic Reviews 2024, Issue 11. Art."
+      },
+      "objective": {
+        "value": "To assess the effectiveness and safety of perineal HAase injection for reducing perineal trauma, episiotomy and perineal pain during vaginal delivery",
+        "source": "abstract_or_objectives",
+        "page": "",
+        "snippet": "HAase) injection has been widely used to reduce perineal trauma, perineal pain and the need for episiotomy since the 1950s. The administration of HAase is considered to be a simple, low risk, low cost and effective way to decrease perineal trauma without causing adverse effects. Objectives To assess the effectiveness and safety of perineal HAase injection for reducing perineal trauma, episiotomy and perineal pain during vaginal delivery. Search methods To identify studies for inclusion in this review, we searched the Cochrane Central Register of Controlled Trials, Ovid MEDLINE, Embase, CINAHL (EBSCOhost), ClinicalTrials.gov and WHO International Clinical Trials Registry Platform (ICTRP) in November 2023. Selection criteria Ran"
+      },
+      "index_terms": {
+        "mesh_terms_raw": "Bias; Delivery, Obstetric [adverse effects] [methods]; *Episiotomy [adverse effects]; *Hyaluronoglucosaminidase [administration & dosage] [therapeutic use]; Lacerations [prevention & control]; *Perineum [injuries]; Randomized Controlled Trials as Topic",
+        "mesh_terms": [
+          "Bias",
+          "Delivery, Obstetric [adverse effects] [methods]",
+          "*Episiotomy [adverse effects]",
+          "*Hyaluronoglucosaminidase [administration & dosage] [therapeutic use]",
+          "Lacerations [prevention & control]",
+          "*Perineum [injuries]",
+          "Randomized Controlled Trials as Topic"
+        ],
+        "mesh_check_words_raw": "Female; Humans; Pregnancy",
+        "mesh_check_words": [
+          "Female",
+          "Humans",
+          "Pregnancy"
+        ],
+        "source": "index_terms",
+        "page": "",
+        "snippet": "latest Cochrane Handbook for Systematic Reviews of Interventions (Higgins 2023 ). This update now includes the use of GRADE to assess the certainty of the body of evidence and includes summary of findings tables (Summary of findings 1; Summary of findings 2). I N D E X T E R M S Medical Subject Headings (MeSH) Bias; Delivery, Obstetric [adverse effects] [methods]; *Episiotomy [adverse effects]; *Hyaluronoglucosaminidase [administration & dosage] [therapeutic use]; Lacerations [prevention & control]; *Perineum [injuries]; Randomized Controlled Trials as Topic Hyaluronidase for reducing perineal trauma (Review) Copyright © 2024 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.41 Cochrane LibraryTrusted evidence. Informed decisions. Better health. Cochrane Database of Systematic Reviews MeSH check words Female; Humans; Pregnancy Hyaluronidase for reducing perineal trauma (Review) Copyright © 2024 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.42"
+      },
+      "extraction_warnings": []
+    },
+    {
+      "review_id": "CD012178_lutein_preterm",
+      "review_group": "first_pass",
+      "review_pdf": "Cochrane_reviews/first_pass/CD012178_lutein_preterm.pdf",
+      "review_title": "Lutein and zeaxanthin for reducing morbidity and mortality in preterm infants",
+      "cochrane_editorial_group": {
+        "value": "Central Editorial Service",
+        "source": "front_matter",
+        "page": "",
+        "snippet": "ity of Malaya, Kuala Lumpur, Malaysia. 5Department of Paediatrics, Monash University, Melbourne, Australia. 6Monash Newborn, Monash Children's Hospital, Melbourne, Australia. 7School of Medicine, Taylor's University, Subang Jaya, Malaysia Contact: Yao Mun Choo, yaomun@um.edu.my. Editorial group: Cochrane Central Editorial Service. Publication status and date: New, published in Issue 4, 2025. Citation: Choo YM, Yip KX, Fiander M, Ahmad Kamar A, Kamalden TA, Tan K, Lai NM. Lutein and zeaxanthin for reducing morbidity and mortality in preterm infants. Cochrane Database of Systematic Reviews 2025, Issue 4. Art. No.: CD012178. D"
+      },
+      "objective": {
+        "value": "To assess the effectiveness of lutein and zeaxanthin supplementation in reducing morbidity and mortality in preterm infants",
+        "source": "abstract_or_objectives",
+        "page": "",
+        "snippet": "fants, which leads to morbidities such as retinopathy of prematurity (ROP), intraventricular haemorrhage (IVH), and necrotising enterocolitis (NEC). Supplementation with lutein and zeaxanthin may reduce oxidative damage, hence reducing morbidity and mortality in preterm infants. Objectives To assess the effectiveness of lutein and zeaxanthin supplementation in reducing morbidity and mortality in preterm infants. Search methods We conducted searches up to 17 December 2024 in CENTRAL, MEDLINE, Embase, and two trial registries. We also searched the reference lists of included studies, and related reviews and studies. Selection criteria We included randomised controlled trials (RCTs), cluster-RCT, cross-o"
+      },
+      "index_terms": {
+        "mesh_terms_raw": "*Antioxidants [administration & dosage] [therapeutic use]; Bias; Cerebral Intraventricular Hemorrhage [epidemiology] [prevention & control]; *Dietary Supplements; Enterocolitis, Necrotizing [epidemiology] [prevention & control]; Infant Mortality; *Infant, Premature; *Infant, Premature, Diseases [mortality] [prevention & control]; *Lutein [administration & dosage] [adverse effects] [therapeutic",
+        "mesh_terms": [
+          "*Antioxidants [administration & dosage] [therapeutic use]",
+          "Bias",
+          "Cerebral Intraventricular Hemorrhage [epidemiology] [prevention & control]",
+          "*Dietary Supplements",
+          "Enterocolitis, Necrotizing [epidemiology] [prevention & control]",
+          "Infant Mortality",
+          "*Infant, Premature",
+          "*Infant, Premature, Diseases [mortality] [prevention & control]",
+          "*Lutein [administration & dosage] [adverse effects] [therapeutic"
+        ],
+        "mesh_check_words_raw": "Humans; Infant; Infant, Newborn",
+        "mesh_check_words": [
+          "Humans",
+          "Infant",
+          "Infant, Newborn"
+        ],
+        "source": "index_terms",
+        "page": "",
+        "snippet": "nsufficient studies. 7.Sensitivity analysis: none of the pre-defined sensitivity analyses were possible due to insufficient studies. 8.Under 'Types of studies', we added cluster-RCTs with definition, and added a statement on why we excluded cross-over trials. I N D E X T E R M S Medical Subject Headings (MeSH) *Antioxidants [administration & dosage] [therapeutic use]; Bias; Cerebral Intraventricular Hemorrhage [epidemiology] [prevention & control]; *Dietary Supplements; Enterocolitis, Necrotizing [epidemiology] [prevention & control]; Infant Mortality; *Infant, Premature; *Infant, Premature, Diseases [mortality] [prevention & control]; *Lutein [administration & dosage] [adverse effects] [therapeutic Lutein and zeaxanthin for reducing morbidity and mortality in preterm infants (Review) Copyright © 2025 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.51 Cochrane LibraryTrusted evidence. Informed decisions. Better health. Cochrane Database of Systematic Reviews use]; Randomized Controlled Trials as Topic; Retinopathy of Prematurity [epidemiology] [prevention & control]; *Zeaxanthins [administration & dosage] [adverse effects] [therapeutic use] MeSH check words Humans; Infant; Infant, Newborn Lutein and zeaxanthin for reducing morbidity and mortality in preterm infants (Review) Copyright © 2025 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.52"
+      },
+      "extraction_warnings": []
+    },
+    {
+      "review_id": "CD012214_metformin_hyperplasia",
+      "review_group": "first_pass",
+      "review_pdf": "Cochrane_reviews/first_pass/CD012214_metformin_hyperplasia.pdf",
+      "review_title": "Metformin for endometrial hyperplasia",
+      "cochrane_editorial_group": {
+        "value": "Gynaecology and Fertility Group",
+        "source": "front_matter",
+        "page": "",
+        "snippet": "eds Teaching Hospitals NHS Trust, Leeds, UK. 3Nottingham Clinical Trials Unit, University of Nottingham, Nottingham, UK. 4College of Medicine, Mohammed Bin Rashid University of Medicine and Health Sciences, Dubai, United Arab Emirates Contact: Hunain Shiwani, hshiwani@gmail.com. Editorial group: Cochrane Gynaecology and Fertility Group. Publication status and date: New search for studies and content updated (no change to conclusions), published in Issue 5, 2024. Citation: Shiwani H, Clement NS, Daniels JP, Atiomo W. Metformin for endometrial hyperplasia. Cochrane Database of Systematic Reviews 2024, Issue 5. Art. No.: CD012214. D"
+      },
+      "objective": {
+        "value": "To determine the effectiveness and safety of metformin in treating women with endometrial hyperplasia",
+        "source": "abstract_or_objectives",
+        "page": "",
+        "snippet": "ten used to treat people with diabetes, has been shown, in some human studies, to reverse endometrial hyperplasia. However, the effectiveness and safety of metformin for treatment of endometrial hyperplasia remain uncertain. This is an update of a review first published in 2017. Objectives To determine the effectiveness and safety of metformin in treating women with endometrial hyperplasia. Search methods We searched the Cochrane Gynaecology and Fertility Specialised Register, CENTRAL, MEDLINE, PubMed, Embase, Google Scholar, OpenGrey, LILACS, and two trials registers from inception to 5 September 2022. We searched the bibliographies of all relevant studies, and contacted experts"
+      },
+      "index_terms": {
+        "mesh_terms_raw": "*Endometrial Hyperplasia [drug therapy]; Hypoglycemic Agents [therapeutic use]; *Metformin [therapeutic use]; *Randomized Controlled Trials as Topic",
+        "mesh_terms": [
+          "*Endometrial Hyperplasia [drug therapy]",
+          "Hypoglycemic Agents [therapeutic use]",
+          "*Metformin [therapeutic use]",
+          "*Randomized Controlled Trials as Topic"
+        ],
+        "mesh_check_words_raw": "Female; Humans",
+        "mesh_check_words": [
+          "Female",
+          "Humans"
+        ],
+        "source": "index_terms",
+        "page": "",
+        "snippet": "was 'To determine the efficacy and safety of metformin in treating women with endometrial hyperplasia'. Upon editorial recommendation, we changed this to, 'To determine the effectiveness and safety of metformin in treating women with endometrial hyperplasia'. I N D E X T E R M S Medical Subject Headings (MeSH) *Endometrial Hyperplasia [drug therapy]; Hypoglycemic Agents [therapeutic use]; *Metformin [therapeutic use]; *Randomized Controlled Trials as Topic Metformin for endometrial hyperplasia (Review) Copyright © 2024 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.59 Cochrane LibraryTrusted evidence. Informed decisions. Better health. Cochrane Database of Systematic Reviews MeSH check words Female; Humans Metformin for endometrial hyperplasia (Review) Copyright © 2024 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.60"
+      },
+      "extraction_warnings": []
+    },
+    {
+      "review_id": "CD014762_nsaids_uti",
+      "review_group": "first_pass",
+      "review_pdf": "Cochrane_reviews/first_pass/CD014762_nsaids_uti.pdf",
+      "review_title": "Non-steroidal anti-inflammatory drugs for treating symptomatic uncomplicated urinary tract infections in non-pregnant adult women",
+      "cochrane_editorial_group": {
+        "value": "Kidney and Transplant Group",
+        "source": "front_matter",
+        "page": "",
+        "snippet": "3, Arjun Nambiar 3 1Division of Cancer Sciences, University of Manchester, Manchester, UK. 2Department of Surgery, The Christie Hospital, Manchester, UK. 3Department of Urology, Freeman Hospital, Newcastle upon Tyne, UK Contact: Ashwin Sachdeva, ashwin.sachdeva@manchester.ac.uk. Editorial group: Cochrane Kidney and Transplant Group. Publication status and date: New, published in Issue 12, 2024. Citation: Sachdeva A, Rai BP, Veeratterapillay R, Harding C, Nambiar A. Non-steroidal anti-inflammatory drugs for treating symptomatic uncomplicated urinary tract infections in non-pregnant adult women. Cochrane Database of Systematic"
+      },
+      "objective": {
+        "value": "",
+        "source": "abstract_or_objectives",
+        "page": "",
+        "snippet": ""
+      },
+      "index_terms": {
+        "mesh_terms_raw": "",
+        "mesh_terms": [],
+        "mesh_check_words_raw": "",
+        "mesh_check_words": [],
+        "source": "index_terms",
+        "page": "",
+        "snippet": ""
+      },
+      "extraction_warnings": [
+        "mesh_terms_not_found",
+        "objective_not_found"
+      ]
+    },
+    {
+      "review_id": "CD014811_loop_diuretics_hf",
+      "review_group": "first_pass",
+      "review_pdf": "Cochrane_reviews/first_pass/CD014811_loop_diuretics_hf.pdf",
+      "review_title": "Continuous infusion versus bolus injection of loop diuretics for acute heart failure",
+      "cochrane_editorial_group": {
+        "value": "Heart Group",
+        "source": "front_matter",
+        "page": "",
+        "snippet": "verpool John Moores University, Liverpool, UK. 15Cardiology, Liverpool Heart & Chest Hospital, Liverpool, UK. 16Danish Center for Health Services Research, Department of Clinical Medicine, Aalborg University, Aalborg, Denmark Contact: Gregory YH Lip, gregory.lip@liverpool.ac.uk. Editorial group: Cochrane Heart Group. Publication status and date: New, published in Issue 5, 2024. Citation: Rasoul D, Zhang J, Farnell E, Tsangarides AA, Chong SChin, Fernando R, Zhou C, Ihsan M, Ahmed S, Lwin TS, Bateman J, Hill RA, Lip GYH, Sankaranarayanan R. Continuous infusion versus bolus injection of loop diuretics for acute"
+      },
+      "objective": {
+        "value": "To assess the effects of intravenous continuous infusion versus bolus injection of loop diuretics for the initial treatment of acute heart failure in adults",
+        "source": "abstract_or_objectives",
+        "page": "",
+        "snippet": "requires urgent escalation of diuretic therapy, mainly through hospitalisation. This Cochrane review evaluated the efficacy of intravenous loop diuretics strategies in treating AHF in individuals with New York Heart Association (NYHA) classification III or IV and fluid overload. Objectives To assess the effects of intravenous continuous infusion versus bolus injection of loop diuretics for the initial treatment of acute heart failure in adults. Search methods We identified trials through systematic searches of bibliographic databases and in clinical trials registers including CENTRAL, MEDLINE, Embase, CPCI-S on the Web of Science, ClinicalTrials.gov, the World Health Organization (WHO) International Clinical Trials Registry platform"
+      },
+      "index_terms": {
+        "mesh_terms_raw": "Acute Disease; Bias; Cause of Death; *Heart Failure [drug therapy]; Infusions, Intravenous; Injections, Intravenous; Length of Stay; Randomized Controlled Trials as Topic; *Sodium Potassium Chloride Symporter Inhibitors [administration & dosage] [adverse effects]",
+        "mesh_terms": [
+          "Acute Disease",
+          "Bias",
+          "Cause of Death",
+          "*Heart Failure [drug therapy]",
+          "Infusions, Intravenous",
+          "Injections, Intravenous",
+          "Length of Stay",
+          "Randomized Controlled Trials as Topic",
+          "*Sodium Potassium Chloride Symporter Inhibitors [administration & dosage] [adverse effects]"
+        ],
+        "mesh_check_words_raw": "Adult; Aged; Humans",
+        "mesh_check_words": [
+          "Adult",
+          "Aged",
+          "Humans"
+        ],
+        "source": "index_terms",
+        "page": "",
+        "snippet": "sing a funnel plot (Zhang 2021 ). However, due to the insufficient number of studies meeting our inclusion criteria (fewer than 10), we did not to create a funnel plot as planned. N O T E S This review supersedes a previous review publication (Salvador 2005). I N D E X T E R M S Medical Subject Headings (MeSH) Acute Disease; Bias; Cause of Death; *Heart Failure [drug therapy]; Infusions, Intravenous; Injections, Intravenous; Length of Stay; Randomized Controlled Trials as Topic; *Sodium Potassium Chloride Symporter Inhibitors [administration & dosage] [adverse effects] MeSH check words Adult; Aged; Humans Continuous infusion versus bolus injection of loop diuretics for acute heart failure (Review) Copyright © 2024 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.59"
+      },
+      "extraction_warnings": []
+    },
+    {
+      "review_id": "CD014960_antibiotics_leptospirosis",
+      "review_group": "first_pass",
+      "review_pdf": "Cochrane_reviews/first_pass/CD014960_antibiotics_leptospirosis.pdf",
+      "review_title": "Antibiotics for treatment of leptospirosis",
+      "cochrane_editorial_group": {
+        "value": "Hepato-Biliary Group",
+        "source": "front_matter",
+        "page": "",
+        "snippet": "USA. 5Department of Clinical Research, Faculty of Infectious and Tropical Diseases, London School of Hygiene & Tropical Medicine, London, UK. 6School of Tropical Medicine and Global Health, Nagasaki University, Nagasaki, Japan Contact: Chris Smith, christopher.smith@lshtm.ac.uk. Editorial group: Cochrane Hepato-Biliary Group. Publication status and date: New, published in Issue 3, 2024. Citation: Win TZ, Han SM, Edwards T, Maung HT, Brett-Major DM, Smith C, Lee N. Antibiotics for treatment of leptospirosis. Cochrane Database of Systematic Reviews 2024, Issue 3. Art. No.: CD014960. DOI: 10.1002/14651858.CD014960.pub2 ."
+      },
+      "objective": {
+        "value": "To evaluate the benefits and harms of antibiotics versus placebo, no intervention, or another antibiotic for the treatment of people with leptospirosis",
+        "source": "abstract_or_objectives",
+        "page": "",
+        "snippet": "icient evidence to determine its effectiveness or to recommend antibiotic use as a standard practice. This updated systematic review evaluated the available evidence regarding the use of antibiotics in treating leptospirosis, building upon a previously published Cochrane review. Objectives To evaluate the benefits and harms of antibiotics versus placebo, no intervention, or another antibiotic for the treatment of people with leptospirosis. Search methods We identified randomised clinical trials following standard Cochrane procedures. The date of the last search was 27 March 2023. Selection criteria We searched for randomised clinical trials of various designs that examined the use of antibiotics for treating leptospirosis. We di"
+      },
+      "index_terms": {
+        "mesh_terms_raw": "*Anti-Bacterial Agents [therapeutic use]; *Bias; Ceftriaxone [therapeutic use]; Doxycycline [therapeutic use]; *Leptospirosis [drug therapy]; Placebos [therapeutic use]; Quality of Life; *Randomized Controlled Trials as Topic",
+        "mesh_terms": [
+          "*Anti-Bacterial Agents [therapeutic use]",
+          "*Bias",
+          "Ceftriaxone [therapeutic use]",
+          "Doxycycline [therapeutic use]",
+          "*Leptospirosis [drug therapy]",
+          "Placebos [therapeutic use]",
+          "Quality of Life",
+          "*Randomized Controlled Trials as Topic"
+        ],
+        "mesh_check_words_raw": "Humans",
+        "mesh_check_words": [
+          "Humans"
+        ],
+        "source": "index_terms",
+        "page": "",
+        "snippet": "e, as opposed to the two review authors we had originally anticipated. The remaining authors checked the assessments. N O T E S We share common authors in three leptospirosis reviews for systematic review of interventions and, therefore, our text may overlap. I N D E X T E R M S Medical Subject Headings (MeSH) *Anti-Bacterial Agents [therapeutic use]; *Bias; Ceftriaxone [therapeutic use]; Doxycycline [therapeutic use]; *Leptospirosis [drug therapy]; Placebos [therapeutic use]; Quality of Life; *Randomized Controlled Trials as Topic MeSH check words Humans Antibiotics for treatment of leptospirosis (Review) Copyright © 2024 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.46"
+      },
+      "extraction_warnings": []
+    },
+    {
+      "review_id": "CD015040_rtms_ptsd",
+      "review_group": "first_pass",
+      "review_pdf": "Cochrane_reviews/first_pass/CD015040_rtms_ptsd.pdf",
+      "review_title": "Repetitive transcranial magnetic stimulation for post-traumatic stress disorder in adults",
+      "cochrane_editorial_group": {
+        "value": "Common Mental Disorders Group",
+        "source": "front_matter",
+        "page": "",
+        "snippet": "tanford University School of Medicine, Stanford, CA, USA. 3Sheffield Centre for Health and Related Research, University of Sheffield, Sheffield, UK. 4Department of Psychological Sciences, Northern Arizona University, Flagstaff, AZ, USA Contact: Randi Brown, rbrown@paloaltou.edu. Editorial group: Cochrane Z_INACTIVE_Common Mental Disorders Group. Publication status and date: New, published in Issue 8, 2024. Citation: Brown R, Cherian K, Jones K, Wickham R, Gomez R, Sahlem G. Repetitive transcranial magnetic stimulation for post-traumatic stress disorder in adults. Cochrane Database of Systematic Reviews 2024, Issue 8. Art. No.: CD015040. D"
+      },
+      "objective": {
+        "value": "To assess the effects of repetitive transcranial magnetic stimulation (rTMS) on post-traumatic stress disorder (PTSD) in adults",
+        "source": "abstract_or_objectives",
+        "page": "",
+        "snippet": "ates. Repetitive transcranial magnetic stimulation (rTMS), a non-invasive therapy involving induction of electrical currents in cortical brain tissue, may be an important treatment option for PTSD to improve remission rates and for people who cannot tolerate existing treatments. Objectives To assess the effects of repetitive transcranial magnetic stimulation (rTMS) on post-traumatic stress disorder (PTSD) in adults. Search methods We searched the Cochrane Common Mental Disorders Controlled Trials Register, CENTRAL, MEDLINE, Embase, three other databases, and two clinical trials registers. We checked reference lists of relevant articles. The most recent search was January 2023. Selection criteria We includ"
+      },
+      "index_terms": {
+        "mesh_terms_raw": "Bias; *Randomized Controlled Trials as Topic; *Stress Disorders, Post-Traumatic [therapy]; *Transcranial Magnetic Stimulation [adverse effects] [methods]; Treatment Outcome",
+        "mesh_terms": [
+          "Bias",
+          "*Randomized Controlled Trials as Topic",
+          "*Stress Disorders, Post-Traumatic [therapy]",
+          "*Transcranial Magnetic Stimulation [adverse effects] [methods]",
+          "Treatment Outcome"
+        ],
+        "mesh_check_words_raw": "Adult; Female; Humans; Male",
+        "mesh_check_words": [
+          "Adult",
+          "Female",
+          "Humans",
+          "Male"
+        ],
+        "source": "index_terms",
+        "page": "",
+        "snippet": "ssment of heterogeneity to the Methods section, Assessment of heterogeneity, at the recommendation of peer reviewers. •We provided more detail about sham rTMS stimulation to the Methods section, Types of interventions, at the recommendation of peer reviewers. I N D E X T E R M S Medical Subject Headings (MeSH) Bias; *Randomized Controlled Trials as Topic; *Stress Disorders, Post-Traumatic [therapy]; *Transcranial Magnetic Stimulation [adverse effects] [methods]; Treatment Outcome MeSH check words Adult; Female; Humans; Male Repetitive transcranial magnetic stimulation for post-traumatic stress disorder in adults (Review) Copyright © 2024 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.117"
+      },
+      "extraction_warnings": []
+    },
+    {
+      "review_id": "CD015751_lubricating_drops_lens",
+      "review_group": "first_pass",
+      "review_pdf": "Cochrane_reviews/first_pass/CD015751_lubricating_drops_lens.pdf",
+      "review_title": "Lubricating drops for contact lens discomfort in adults",
+      "cochrane_editorial_group": {
+        "value": "Eyes and Vision Group",
+        "source": "front_matter",
+        "page": "",
+        "snippet": "Department of Ophthalmology, University of Colorado Anschutz Medical Campus, Aurora, Colorado, USA. 11Centre for Ocular Research & Education (CORE), School of Optometry and Vision Science, University of Waterloo, Waterloo, Canada Contact: Barbara Caffery, dr.b.caffery@gmail.com. Editorial group: Cochrane Eyes and Vision Group. Publication status and date: New, published in Issue 9, 2024. Citation: Caffery B, Pucker AD, Chidi-Egboka NC, Obinwanne CJ, Harkness B, Carnt NA, Liu S-H, Ng A. Lubricating drops for contact lens discomfort in adults. Cochrane Database of Systematic Reviews 2024, Issue 9. Art. No.: CD015751. DOI:"
+      },
+      "objective": {
+        "value": "To evaluate the efficacy and safety of lubricating drops for ocular discomfort associated with contact lens wear in adults",
+        "source": "abstract_or_objectives",
+        "page": "",
+        "snippet": "al staining, altered blinking patterns, lid wiper epitheliopathy, and meibomian gland dysfunction. Eye care specialists often treat contact lens discomfort with lubricating drops, including saline, although there is no clear evidence showing this treatment is effective and safe. Objectives To evaluate the efficacy and safety of lubricating drops for ocular discomfort associated with contact lens wear in adults. Search methods We searched CENTRAL (which contains the Cochrane Eyes and Vision Trials Register), MEDLINE, Embase.com, two other databases, and two trials registries to May 2024, without date or language restrictions. Selection criteria We included parallel-group randomized controlled trials ("
+      },
+      "index_terms": {
+        "mesh_terms_raw": "Blinking; Conjunctival Diseases [etiology]; *Contact Lenses [adverse effects]; Hyperemia; *Lubricant Eye Drops [administration & dosage] [therapeutic use]; Lubricants [administration & dosage] [therapeutic use]; Meibomian Gland Dysfunction [therapy]; Ophthalmic Solutions [therapeutic use]; *Randomized Controlled Trials as Topic; Saline Solution [administration & dosage] [therapeutic use]",
+        "mesh_terms": [
+          "Blinking",
+          "Conjunctival Diseases [etiology]",
+          "*Contact Lenses [adverse effects]",
+          "Hyperemia",
+          "*Lubricant Eye Drops [administration & dosage] [therapeutic use]",
+          "Lubricants [administration & dosage] [therapeutic use]",
+          "Meibomian Gland Dysfunction [therapy]",
+          "Ophthalmic Solutions [therapeutic use]",
+          "*Randomized Controlled Trials as Topic",
+          "Saline Solution [administration & dosage] [therapeutic use]"
+        ],
+        "mesh_check_words_raw": "Adult; Humans",
+        "mesh_check_words": [
+          "Adult",
+          "Humans"
+        ],
+        "source": "index_terms",
+        "page": "",
+        "snippet": "addition to two review outcomes specified in the protocol, we added all other review outcomes to the summary of findings tables. •In addition to three trials comparing lubricating drops to no treatment, we included one study comparing saline to no treatment. I N D E X T E R M S Medical Subject Headings (MeSH) Blinking; Conjunctival Diseases [etiology]; *Contact Lenses [adverse effects]; Hyperemia; *Lubricant Eye Drops [administration & dosage] [therapeutic use]; Lubricants [administration & dosage] [therapeutic use]; Meibomian Gland Dysfunction [therapy]; Ophthalmic Solutions [therapeutic use]; *Randomized Controlled Trials as Topic; Saline Solution [administration & dosage] [therapeutic use] MeSH check words Adult; Humans Lubricating drops for contact lens discomfort in adults (Review) Copyright © 2024 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.61"
+      },
+      "extraction_warnings": []
+    },
+    {
+      "review_id": "CD004661_magnesium_preterm_neuro",
+      "review_group": "second_pass",
+      "review_pdf": "Cochrane_reviews/second_pass/CD004661_magnesium_preterm_neuro.pdf",
+      "review_title": "Magnesium sulphate for women at risk of preterm birth for neuroprotection of the fetus",
+      "cochrane_editorial_group": {
+        "value": "Pregnancy and Childbirth Group",
+        "source": "front_matter",
+        "page": "",
+        "snippet": "l of Medicine and Public Health, Madison, Wisconsin, USA. 9Department of Gynaecology and Obstetrics, Hvidovre University Hospital, Hvidovre, Denmark. 10Liggins Institute, The University of Auckland, Auckland, New Zealand Contact: Emily S Shepherd, emily.shepherd@adelaide.edu.au. Editorial group: Cochrane Z_INACTIVE_Pregnancy and Childbirth Group. Publication status and date: Edited (no change to conclusions), published in Issue 7, 2024. Citation: Shepherd ES, Goldsmith S, Doyle LW, Middleton P, Marret S, Rouse DJ, Pryde P, Wolf HT, Crowther CA. Magnesium sulphate for women at risk of preterm birth for neuroprotection of the fetus. Cochrane"
+      },
+      "objective": {
+        "value": "To assess the effectiveness and safety of magnesium sulphate as a fetal neuroprotective agent when given to women considered to be at risk of preterm birth",
+        "source": "abstract_or_objectives",
+        "page": "",
+        "snippet": "view. Internationally, use of magnesium sulphate for preterm cerebral palsy prevention is now recommended practice. As new randomised controlled trials (RCTs) and longer-term follow-up of prior RCTs have since been conducted, this review updates the previously published version. Objectives To assess the effectiveness and safety of magnesium sulphate as a fetal neuroprotective agent when given to women considered to be at risk of preterm birth. Search methods We searched Cochrane Pregnancy and Childbirth's Trials Register, ClinicalTrials.gov, and the World Health Organization (WHO) International Clinical Trials Registry Platform (ICTRP) on 17 March 2023, as well as reference lists of retrieved studies. Selection criteria We included"
+      },
+      "index_terms": {
+        "mesh_terms_raw": "*Bias; *Cerebral Palsy [prevention & control]; Female; Humans; Infant, Newborn; *Magnesium Sulfate [adverse effects] [therapeutic use]; *Neuroprotective Agents [therapeutic use]; Pregnancy; *Premature Birth [prevention & control]; *Randomized Controlled Trials as Topic; Tocolytic Agents [therapeutic use]",
+        "mesh_terms": [
+          "*Bias",
+          "*Cerebral Palsy [prevention & control]",
+          "Female",
+          "Humans",
+          "Infant, Newborn",
+          "*Magnesium Sulfate [adverse effects] [therapeutic use]",
+          "*Neuroprotective Agents [therapeutic use]",
+          "Pregnancy",
+          "*Premature Birth [prevention & control]",
+          "*Randomized Controlled Trials as Topic",
+          "Tocolytic Agents [therapeutic use]"
+        ],
+        "mesh_check_words_raw": "",
+        "mesh_check_words": [],
+        "source": "index_terms",
+        "page": "",
+        "snippet": "indings tables to present the certainty of the evidence for key prespecified outcomes. Previous version We added the outcome of intraventricular haemorrhage 3/4 at the review stage. We added a subgroup examining the impact of permitting magnesium retreatment. I N D E X T E R M S Medical Subject Headings (MeSH) *Bias; *Cerebral Palsy [prevention & control]; Female; Humans; Infant, Newborn; *Magnesium Sulfate [adverse effects] [therapeutic use]; *Neuroprotective Agents [therapeutic use]; Pregnancy; *Premature Birth [prevention & control]; *Randomized Controlled Trials as Topic; Tocolytic Agents [therapeutic use] Magnesium sulphate for women at risk of preterm birth for neuroprotection of the fetus (Review) Copyright © 2024 The Authors. Cochrane Database of Systematic Reviews published by John Wiley & Sons, Ltd. on behalf of The Cochrane Collaboration.174"
+      },
+      "extraction_warnings": []
+    },
+    {
+      "review_id": "CD006586_drospirenone_pms",
+      "review_group": "second_pass",
+      "review_pdf": "Cochrane_reviews/second_pass/CD006586_drospirenone_pms.pdf",
+      "review_title": "Oral contraceptives containing drospirenone for premenstrual syndrome",
+      "cochrane_editorial_group": {
+        "value": "Gynaecology and Fertility Group",
+        "source": "front_matter",
+        "page": "",
+        "snippet": "alth. Cochrane Database of Systematic Reviews [Intervention Review] Oral contraceptives containing drospirenone for premenstrual syndrome Siyan Ma1, Sae Jin Song 1 1Women's Health, Te Whatu Ora Counties Manukau, Auckland, New Zealand Contact: Siyan Ma, mayanyansally@hotmail.com. Editorial group: Cochrane Gynaecology and Fertility Group. Publication status and date: New search for studies and content updated (no change to conclusions), published in Issue 6, 2023. Citation: Ma S, Song SJ. Oral contraceptives containing drospirenone for premenstrual syndrome. Cochrane Database of Systematic Reviews 2023, Issue 6. Art. No.: CD006586."
+      },
+      "objective": {
+        "value": "To evaluate the effectiveness and safety of COCs containing drospirenone in women with PMS",
+        "source": "abstract_or_objectives",
+        "page": "",
+        "snippet": "progestin and oestrogen, have been examined for their ability to relieve premenstrual symptoms. A combined oral contraceptive containing drospirenone and a low oestrogen dose has been approved for treating PMDD in women who choose combined oral contraceptives for contraception. Objectives To evaluate the effectiveness and safety of COCs containing drospirenone in women with PMS. Search methods We searched the Cochrane Gynaecology and Fertility Group trial register, CENTRAL (now containing output from two trials registers and CINAHL), MEDLINE, Embase, PsycINFO, LILACS, Google Scholar, and Epistemonikos on 29 June 2022. We checked included studies' reference lists and c"
+      },
+      "index_terms": {
+        "mesh_terms_raw": "Androstenes; Contraceptives, Oral, Combined [adverse effects]; *Drug-Related Side Effects and Adverse Reactions; Estrogens [therapeutic use]; Female; Humans; *Premenstrual Dysphoric Disorder; *Premenstrual Syndrome [drug therapy]; Progestins [therapeutic use]",
+        "mesh_terms": [
+          "Androstenes",
+          "Contraceptives, Oral, Combined [adverse effects]",
+          "*Drug-Related Side Effects and Adverse Reactions",
+          "Estrogens [therapeutic use]",
+          "Female",
+          "Humans",
+          "*Premenstrual Dysphoric Disorder",
+          "*Premenstrual Syndrome [drug therapy]",
+          "Progestins [therapeutic use]"
+        ],
+        "mesh_check_words_raw": "",
+        "mesh_check_words": [],
+        "source": "index_terms",
+        "page": "",
+        "snippet": "d in the previous version but not indicated as a predetermined outcome, was specified as a secondary outcome for more consistent analysis. We opted to only include the first-phase data from cross-over trials to ensure no contamination from inadequate washout. I N D E X T E R M S Medical Subject Headings (MeSH) Androstenes; Contraceptives, Oral, Combined [adverse effects]; *Drug-Related Side Effects and Adverse Reactions; Estrogens [therapeutic use]; Female; Humans; *Premenstrual Dysphoric Disorder; *Premenstrual Syndrome [drug therapy]; Progestins [therapeutic use] Oral contraceptives containing drospirenone for premenstrual syndrome (Review) Copyright © 2023 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.41"
+      },
+      "extraction_warnings": []
+    },
+    {
+      "review_id": "CD012664_calcium_vitd_bone",
+      "review_group": "second_pass",
+      "review_pdf": "Cochrane_reviews/second_pass/CD012664_calcium_vitd_bone.pdf",
+      "review_title": "Calcium and vitamin D for increasing bone mineral density in premenopausal women Lucía Méndez-Sánchez1,2,",
+      "cochrane_editorial_group": {
+        "value": "Musculoskeletal Group",
+        "source": "front_matter",
+        "page": "",
+        "snippet": "Ottawa, Ottawa, Canada. 5Department of Human Nutrition, Institute of Nutrition & Food Technology, University of Chile, Santiago de Chile, Chile. 6Office of Dietary Supplements, National Institutes of Health, Bethesda, Maryland, USA Contact: Patricia Clark, osteoclark@gmail.com. Editorial group: Cochrane Musculoskeletal Group. Publication status and date: New, published in Issue 1, 2023. Citation: Méndez-Sánchez L, Clark P, Winzenberg TM, Tugwell P, Correa-Burrows P, Costello R. Calcium and vitamin D for increasing bone mineral density in premenopausal women. Cochrane Database of Systematic Reviews 2023, Issue 1. Art. N"
+      },
+      "objective": {
+        "value": "To evaluate the benefits and harms of calcium and vitamin D supplementation, alone or in combination, to increase the BMD, reduce fractures, and report the potential adverse events in healthy premenopausal women compared to placebo",
+        "source": "abstract_or_objectives",
+        "page": "",
+        "snippet": "The evidence on whether supplementation with calcium and vitamin D improves bone mineral density (BMD) in premenopausal women is still inconclusive. In this age group, bone accrual is considered to be the goal of supplementation, so BMD is relevant for the future stages of life. Objectives To evaluate the benefits and harms of calcium and vitamin D supplementation, alone or in combination, to increase the BMD, reduce fractures, and report the potential adverse events in healthy premenopausal women compared to placebo. Search methods We used standard, extensive Cochrane search methods. The latest search was 12 April 2022. Selection criteria We included randomised controlled trials in healthy premenopausal women (with or without calcium or vitamin D deficiency) comparing supplementation of calcium or vitamin"
+      },
+      "index_terms": {
+        "mesh_terms_raw": "Bone Density; Calcium [therapeutic use]; Calcium, Dietary [therapeutic use]; Cholecalciferol [adverse effects]; *Fractures, Bone [prevention & control]; *Osteoporosis [drug therapy] [prevention & control]; Quality of Life; Randomized Controlled Trials as Topic; Vitamin D [adverse effects]; Vitamins [adverse effects]",
+        "mesh_terms": [
+          "Bone Density",
+          "Calcium [therapeutic use]",
+          "Calcium, Dietary [therapeutic use]",
+          "Cholecalciferol [adverse effects]",
+          "*Fractures, Bone [prevention & control]",
+          "*Osteoporosis [drug therapy] [prevention & control]",
+          "Quality of Life",
+          "Randomized Controlled Trials as Topic",
+          "Vitamin D [adverse effects]",
+          "Vitamins [adverse effects]"
+        ],
+        "mesh_check_words_raw": "Adolescent; Adult; Female; Humans; Middle Aged; Young Adult",
+        "mesh_check_words": [
+          "Adolescent",
+          "Adult",
+          "Female",
+          "Humans",
+          "Middle Aged",
+          "Young Adult"
+        ],
+        "source": "index_terms",
+        "page": "",
+        "snippet": "g/mL to 29 ng/mL; or deficiency less than 10 ng/mL). We did not find data to calculate measures of the intervention in conceptual outcomes as quality of life and the number needed to treat for an additional beneficial outcome (NNTB) or harmful outcome (NNTH). I N D E X T E R M S Medical Subject Headings (MeSH) Bone Density; Calcium [therapeutic use]; Calcium, Dietary [therapeutic use]; Cholecalciferol [adverse effects]; *Fractures, Bone [prevention & control]; *Osteoporosis [drug therapy] [prevention & control]; Quality of Life; Randomized Controlled Trials as Topic; Vitamin D [adverse effects]; Vitamins [adverse effects] MeSH check words Adolescent; Adult; Female; Humans; Middle Aged; Young Adult Calcium and vitamin D for increasing bone mineral density in premenopausal women (Review) Copyright © 2023 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.49"
+      },
+      "extraction_warnings": []
+    },
+    {
+      "review_id": "CD013476_aspirin_desensitisation",
+      "review_group": "second_pass",
+      "review_pdf": "Cochrane_reviews/second_pass/CD013476_aspirin_desensitisation.pdf",
+      "review_title": "Oral and intranasal aspirin desensitisation for non-steroidal anti- inflammatory drug (NSAID)-exacerbated respiratory disease",
+      "cochrane_editorial_group": {
+        "value": "Central Editorial Service",
+        "source": "front_matter",
+        "page": "",
+        "snippet": "ementina Avdeeva1, Kit Liang Gan 2, Wytske Fokkens1 1Department of Otorhinolaryngology, Amsterdam University Medical Centre, Amsterdam, Netherlands. 2Department of Otorhinolaryngology, Mahkota Medical Center, Melaka, Malaysia Contact: Wytske Fokkens, w.j.fokkens@amsterdamumc.nl. Editorial group: Cochrane Central Editorial Service. Publication status and date: New, published in Issue 1, 2025. Citation: Lourijsen E, Avdeeva K, Gan KL, Fokkens W. Oral and intranasal aspirin desensitisation for non-steroidal anti-inflammatory drug (NSAID)-exacerbated respiratory disease. Cochrane Database of Systematic Reviews 2025, Issue 1. Ar"
+      },
+      "objective": {
+        "value": "To assess the effectiveness of oral or intranasal aspirin desensitisation, as monotherapy or as adjunctive therapy, in adults with NSAID- exacerbated respiratory disease",
+        "source": "abstract_or_objectives",
+        "page": "",
+        "snippet": "reduction in prostaglandin D2. This therapy can be useful for people who have progressive airway disease and are in great need of medical intervention (mostly systemic corticosteroids) or surgery. An up-to-date Cochrane review is vital to investigate the effects of this therapy. Objectives To assess the effectiveness of oral or intranasal aspirin desensitisation, as monotherapy or as adjunctive therapy, in adults with NSAID- exacerbated respiratory disease. Search methods The Cochrane Ear Nose and Throat (ENT) Information Specialist searched the Cochrane ENT and Airways Trials Registers; Central Register of Controlled Trials (CENTRAL); Ovid MEDLINE; Ovid Embase; Web of Science; ClinicalTrials.gov; International Clinical Trials Registry Platform a"
+      },
+      "index_terms": {
+        "mesh_terms_raw": "Administration, Intranasal; Administration, Oral; *Anti-Inflammatory Agents, Non-Steroidal [administration & dosage] [adverse effects]; *Aspirin [administration & dosage] [adverse effects]; *Asthma, Aspirin-Induced [immunology] [therapy]; *Desensitization, Immunologic [methods]; *Nasal Polyps [chemically induced] [immunology] [therapy]; Randomized Controlled Trials as Topic; *Rhinosinusitis [chemically induced] [immunology] [therapy]",
+        "mesh_terms": [
+          "Administration, Intranasal",
+          "Administration, Oral",
+          "*Anti-Inflammatory Agents, Non-Steroidal [administration & dosage] [adverse effects]",
+          "*Aspirin [administration & dosage] [adverse effects]",
+          "*Asthma, Aspirin-Induced [immunology] [therapy]",
+          "*Desensitization, Immunologic [methods]",
+          "*Nasal Polyps [chemically induced] [immunology] [therapy]",
+          "Randomized Controlled Trials as Topic",
+          "*Rhinosinusitis [chemically induced] [immunology] [therapy]"
+        ],
+        "mesh_check_words_raw": "Adult; Humans Oral and intranasal aspirin desensitisation for non-steroidal anti-inflammatory drug (NSAID)-exacerbated respiratory disease (Review)",
+        "mesh_check_words": [
+          "Adult",
+          "Humans Oral and intranasal aspirin desensitisation for non-steroidal anti-inflammatory drug (NSAID)-exacerbated respiratory disease (Review)"
+        ],
+        "source": "index_terms",
+        "page": "",
+        "snippet": "e for mid-term follow-up (6 to 12 months) and one for long-term follow-up (> 12 months). In case of differences in opinion with respect to certainty of the evidence, this would have been discussed and a definitive choice made. However, this was not necessary. I N D E X T E R M S Medical Subject Headings (MeSH) Administration, Intranasal; Administration, Oral; *Anti-Inflammatory Agents, Non-Steroidal [administration & dosage] [adverse effects]; *Aspirin [administration & dosage] [adverse effects]; *Asthma, Aspirin-Induced [immunology] [therapy]; *Desensitization, Immunologic [methods]; *Nasal Polyps [chemically induced] [immunology] [therapy]; Randomized Controlled Trials as Topic; *Rhinosinusitis [chemically induced] [immunology] [therapy] MeSH check words Adult; Humans Oral and intranasal aspirin desensitisation for non-steroidal anti-inflammatory drug (NSAID)-exacerbated respiratory disease (Review) Copyright © 2025 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.53"
+      },
+      "extraction_warnings": []
+    },
+    {
+      "review_id": "CD013595_daratumumab_ndmm",
+      "review_group": "second_pass",
+      "review_pdf": "Cochrane_reviews/second_pass/CD013595_daratumumab_ndmm.pdf",
+      "review_title": "Daratumumab and antineoplastic therapy versus antineoplastic therapy only for adults with newly diagnosed multiple myeloma ineligible for transplant",
+      "cochrane_editorial_group": {
+        "value": "Haematology Group",
+        "source": "front_matter",
+        "page": "",
+        "snippet": "gne, Germany. 4Cochrane Haematology, Department I of Internal Medicine, Center for Integrated Oncology Aachen Bonn Cologne Duesseldorf, Faculty of Medicine and University Hospital Cologne, University of Cologne, Cologne, Germany Contact: Nicole Skoetz, nicole.skoetz@uk-koeln.de. Editorial group: Cochrane Haematology Group. Publication status and date: New, published in Issue 5, 2024. Citation: Langer P, John L, Monsef I, Scheid C, Piechotta V, Skoetz N. Daratumumab and antineoplastic therapy versus antineoplastic therapy only for adults with newly diagnosed multiple myeloma ineligible for transplant. Cochrane Databa"
+      },
+      "objective": {
+        "value": "To determine the benefits and harms of daratumumab in addition to antineoplastic therapy compared to antineoplastic therapy only for adults with newly diagnosed MM who are ineligible for transplant",
+        "source": "abstract_or_objectives",
+        "page": "",
+        "snippet": "D38-targeting, human IgG1k monoclonal antibody recently developed and approved for the treatment of people diagnosed with MM. Multiple myeloma cells uniformly over-express CD-38, a 46-kDa type II transmembrane glycoprotein, making myeloma cells a specific target for daratumumab. Objectives To determine the benefits and harms of daratumumab in addition to antineoplastic therapy compared to antineoplastic therapy only for adults with newly diagnosed MM who are ineligible for transplant. Search methods We searched the Cochrane Central Register of Controlled Trials (CENTRAL), MEDLINE, Embase, EU Clinical Trials Register, ClinicalTrials.gov, WHO ICTRP, and conference proceedings from 2010 to September 2023. Selection criteria We included randomised controlled trials that compare"
+      },
+      "index_terms": {
+        "mesh_terms_raw": "*Antibodies, Monoclonal [therapeutic use]; Antineoplastic Agents [therapeutic use]; *Antineoplastic Combined Chemotherapy Protocols [therapeutic use]; *Bias; Bortezomib [therapeutic use]; *Multiple Myeloma [drug therapy]; Progression-Free Survival; Quality of Life; Randomized Controlled Trials as Topic",
+        "mesh_terms": [
+          "*Antibodies, Monoclonal [therapeutic use]",
+          "Antineoplastic Agents [therapeutic use]",
+          "*Antineoplastic Combined Chemotherapy Protocols [therapeutic use]",
+          "*Bias",
+          "Bortezomib [therapeutic use]",
+          "*Multiple Myeloma [drug therapy]",
+          "Progression-Free Survival",
+          "Quality of Life",
+          "Randomized Controlled Trials as Topic"
+        ],
+        "mesh_check_words_raw": "Adult; Aged; Female; Humans; Middle Aged",
+        "mesh_check_words": [
+          "Adult",
+          "Aged",
+          "Female",
+          "Humans",
+          "Middle Aged"
+        ],
+        "source": "index_terms",
+        "page": "",
+        "snippet": "rent backbone chemotherapies, we changed the methods to use the random-effects model as the standard model and the fixed-effect model as a sensitivity analysis. N O T E S Part of this review (methods) is from the standard Cochrane Haematology review template. I N D E X T E R M S Medical Subject Headings (MeSH) *Antibodies, Monoclonal [therapeutic use]; Antineoplastic Agents [therapeutic use]; *Antineoplastic Combined Chemotherapy Protocols [therapeutic use]; *Bias; Bortezomib [therapeutic use]; *Multiple Myeloma [drug therapy]; Progression-Free Survival; Quality of Life; Randomized Controlled Trials as Topic MeSH check words Adult; Aged; Female; Humans; Middle Aged Daratumumab and antineoplastic therapy versus antineoplastic therapy only for adults with newly diagnosed multiple myeloma ineligible for transplant (Review) Copyright © 2024 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd"
+      },
+      "extraction_warnings": []
+    },
+    {
+      "review_id": "CD013765_af_ablation_drugs",
+      "review_group": "second_pass",
+      "review_pdf": "Cochrane_reviews/second_pass/CD013765_af_ablation_drugs.pdf",
+      "review_title": "Oral",
+      "cochrane_editorial_group": {
+        "value": "Heart Group",
+        "source": "front_matter",
+        "page": "",
+        "snippet": "don, UK. 15Barts Heart Centre, St Bartholomew's Hospital, Barts Health NHS Trust, London, UK aThese authors contributed equally to this work as first authors.. bThese authors contributed equally to this work as second authors. Contact: Jonathan JH Bray, jonathanjhbray@gmail.com. Editorial group: Cochrane Heart Group. Publication status and date: New, published in Issue 3, 2023. Citation: Bray JJH, Warraich M, Whitfield MG, Peter CU, Baral R, Ahmad M, Ahmad S, Abraham GR, Kirresh A, Sahibzada MS, Muzaffar A, Tomson J, Lambiase PD, Captur G, Banerjee A, Providencia R. Oral Class I and III antiarrhythmic drugs fo"
+      },
+      "objective": {
+        "value": "To assess the effects of oral Class I and III antiarrhythmic drugs versus control (standard medical therapy without Class I or III antiarrhythmics, or placebo) for maintaining sinus rhythm in people undergoing catheter ablation for AF",
+        "source": "abstract_or_objectives",
+        "page": "",
+        "snippet": "tiarrhythmic drugs have been used shortly after ablation in an attempt to maintain sinus rhythm, particularly Class I and III agents. However, it still needs to be established if the use of Class I or III antiarrhythmic medications, or both, reduce the risk of recurrence of ATa. Objectives To assess the effects of oral Class I and III antiarrhythmic drugs versus control (standard medical therapy without Class I or III antiarrhythmics, or placebo) for maintaining sinus rhythm in people undergoing catheter ablation for AF. Search methods We systematically searched CENTRAL, MEDLINE, Embase, Web of Science Core Collection, and two clinical trial registers without restrictions on language or date to 5 August 2022. Selection criteria We sought published, unpublished, and ongoing parallel-design, randomised controlle"
+      },
+      "index_terms": {
+        "mesh_terms_raw": "Anti-Arrhythmia Agents [adverse effects]; *Atrial Fibrillation [drug therapy] [surgery]; *Catheter Ablation [adverse effects]; *Heart Failure [drug therapy]; *Myocardial Infarction",
+        "mesh_terms": [
+          "Anti-Arrhythmia Agents [adverse effects]",
+          "*Atrial Fibrillation [drug therapy] [surgery]",
+          "*Catheter Ablation [adverse effects]",
+          "*Heart Failure [drug therapy]",
+          "*Myocardial Infarction"
+        ],
+        "mesh_check_words_raw": "Adult; Female; Humans; Male; Middle Aged",
+        "mesh_check_words": [
+          "Adult",
+          "Female",
+          "Humans",
+          "Male",
+          "Middle Aged"
+        ],
+        "source": "index_terms",
+        "page": "",
+        "snippet": "2014 ; Hayashi 2014; Roux 2009), yet two other studies reported similar data on cardioversion rates, Kaitani 2016, and all-cause rehospitalisation, Ad 2016. We thought that these data could yield relevant insights and so included them in sensitivity analysis. I N D E X T E R M S Medical Subject Headings (MeSH) Anti-Arrhythmia Agents [adverse effects]; *Atrial Fibrillation [drug therapy] [surgery]; *Catheter Ablation [adverse effects]; *Heart Failure [drug therapy]; *Myocardial Infarction MeSH check words Adult; Female; Humans; Male; Middle Aged Oral Class I and III antiarrhythmic drugs for maintaining sinus rhythm after catheter ablation of atrial fibrillation (Review) Copyright © 2023 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.80"
+      },
+      "extraction_warnings": []
+    },
+    {
+      "review_id": "CD013823_b12_pregnancy",
+      "review_group": "second_pass",
+      "review_pdf": "Cochrane_reviews/second_pass/CD013823_b12_pregnancy.pdf",
+      "review_title": "Vitamin B12 supplementation during pregnancy for maternal and child health outcomes",
+      "cochrane_editorial_group": {
+        "value": "Pregnancy and Childbirth Group",
+        "source": "front_matter",
+        "page": "",
+        "snippet": "USA. 2National Center on Birth Defects and Developmental Disabilities, Centers for Disease Control and Prevention, Atlanta, Georgia, USA. 3Department of Epidemiology, University of Pittsburgh, Pittsburgh, Pennsylvania, USA Contact: Julia L Finkelstein, jfinkelstein@cornell.edu. Editorial group: Cochrane Pregnancy and Childbirth Group. Publication status and date: New, published in Issue 1, 2024. Citation: Finkelstein JL, Fothergill A, Venkatramanan S, Layden AJ, Williams JL, Crider KS, Qi YP. Vitamin B12 supplementation during pregnancy for maternal and child health outcomes. Cochrane Database of Systematic Reviews 2024, Issue"
+      },
+      "objective": {
+        "value": "To evaluate the benefits and harms of oral vitamin B12 supplementation during pregnancy on maternal and child health outcomes",
+        "source": "abstract_or_objectives",
+        "page": "",
+        "snippet": "the highest burden in elderly people, pregnant women, and young children. Due to its role in DNA synthesis and methylation, folate metabolism, and erythropoiesis, vitamin B12 supplementation during pregnancy may confer longer-term benefits to maternal and child health outcomes. Objectives To evaluate the benefits and harms of oral vitamin B12 supplementation during pregnancy on maternal and child health outcomes. Search methods We searched the Cochrane Pregnancy and Childbirth's Trials Register, ClinicalTrials.gov, the World Health Organization International Clinical Trials Registry Platform (ICTRP) on 2 June 2023, and reference lists of retrieved studies. Selection criteria Randomised controlled trial"
+      },
+      "index_terms": {
+        "mesh_terms_raw": "*Abortion, Spontaneous; *Anemia; Dietary Supplements; Outcome Assessment, Health Care; Vitamin B 12; Vitamins",
+        "mesh_terms": [
+          "*Abortion, Spontaneous",
+          "*Anemia",
+          "Dietary Supplements",
+          "Outcome Assessment, Health Care",
+          "Vitamin B 12",
+          "Vitamins"
+        ],
+        "mesh_check_words_raw": "Child; Child, Preschool; Female; Humans; Infant; Infant, Newborn; Pregnancy",
+        "mesh_check_words": [
+          "Child",
+          "Child, Preschool",
+          "Female",
+          "Humans",
+          "Infant",
+          "Infant, Newborn",
+          "Pregnancy"
+        ],
+        "source": "index_terms",
+        "page": "",
+        "snippet": "E N C E S B E T W E E N P R O T O C O L A N D R E V I E W Any differences between our published protocol (Finkelstein 2020) and the full review are listed below. •We incorporated the Cochrane Pregnancy and Childbirth Trustworthiness Screening Tool (CPC-TST). I N D E X T E R M S Medical Subject Headings (MeSH) *Abortion, Spontaneous; *Anemia; Dietary Supplements; Outcome Assessment, Health Care; Vitamin B 12; Vitamins MeSH check words Child; Child, Preschool; Female; Humans; Infant; Infant, Newborn; Pregnancy Vitamin B12 supplementation during pregnancy for maternal and child health outcomes (Review) Copyright © 2024 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.42"
+      },
+      "extraction_warnings": []
+    },
+    {
+      "review_id": "CD014803_omega3_depression_youth",
+      "review_group": "second_pass",
+      "review_pdf": "Cochrane_reviews/second_pass/CD014803_omega3_depression_youth.pdf",
+      "review_title": "Omega-3 fatty acid supplementation for depression in children and adolescents",
+      "cochrane_editorial_group": {
+        "value": "Central Editorial Service",
+        "source": "front_matter",
+        "page": "",
+        "snippet": "of Toronto, Toronto, Canada. 5Division of Child and Youth Mental Health, Department of Psychiatry, University of Toronto, Toronto, Canada. 6 Department of Psychiatry, Faculty of Medicine, University of Toronto, Toronto, Canada Contact: Susan C Campisi, susan.campisi@sickkids.ca. Editorial group: Cochrane Central Editorial Service. Publication status and date: New, published in Issue 11, 2024. Citation: Campisi SC, Zasowski C, Bradley-Ridout G, Schumacher A, Szatmari P, Korczak D. Omega-3 fatty acid supplementation for depression in children and adolescents. Cochrane Database of Systematic Reviews 2024, Issue 11. Art. No.: C"
+      },
+      "objective": {
+        "value": "To estimate the size of the effect of omega-3 PUFAs on depression symptoms. To estimate the effect of each type of omega-3 PUFA (EPA or DHA), compared with placebo, on depression. To determine if the effect is modified by dosage, format (capsule or liquid), sex, or age. To determine compliance and attrition for omega-3 PUFAs as an intervention for depression in children and adolescents. Omega-3 fatty acid supplementation for depression in children and adolescents (Review) Copyright © 2024 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.1 Cochrane LibraryTrusted evidence. Informed decisions. Better health. Cochrane Database of Systematic Reviews To determine the safety of omega-3 PUFAs as an intervention for depression in children and adolescents",
+        "source": "abstract_or_objectives",
+        "page": "",
+        "snippet": "objective To determine the impact of omega-3 PUFA supplementation versus a comparator (e.g. placebo, wait list controls, no treatment/ supplementation, or standard care) on clinician-diagnosed depression or self-reported depression symptoms in children and adolescents. Secondary objectives To estimate the size of the effect of omega-3 PUFAs on depression symptoms. To estimate the effect of each type of omega-3 PUFA (EPA or DHA), compared with placebo, on depression. To determine if the effect is modified by dosage, format (capsule or liquid), sex, or age. To determine compliance and attrition for omega-3 PUFAs as an intervention for depression in children and adolescents. Omega-3 fatty acid supplementation for depression in children and adolescents (Review) Copyright © 2024 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.1 Cochrane LibraryTrusted evidence. Informed decisions. Better health. Cochrane Database of Systematic Reviews To determine the safety of omega-3 PUFAs as an intervention for depression in children and adolescents. Search methods We searched CENTRAL, MEDLINE, Embase, three other databases, reference lists of included studies, grey literature, and relevant reviews. The latest search date was 18 May 2023. Selection criteria We included randomized controlled trials (RCTs) involving males and females aged 19"
+      },
+      "index_terms": {
+        "mesh_terms_raw": "Adolescent; Child; COVID-19; Depression [drug therapy]; *Dietary Supplements; Docosahexaenoic Acids [administration & dosage] [therapeutic use]; Eicosapentaenoic Acid [administration & dosage] [therapeutic use]; *Fatty Acids, Omega-3 [administration & dosage] [therapeutic use]; Female; Humans; *Major Depressive Disorder [drug therapy]; Male; *Randomized Controlled Trials as Topic",
+        "mesh_terms": [
+          "Adolescent",
+          "Child",
+          "COVID-19",
+          "Depression [drug therapy]",
+          "*Dietary Supplements",
+          "Docosahexaenoic Acids [administration & dosage] [therapeutic use]",
+          "Eicosapentaenoic Acid [administration & dosage] [therapeutic use]",
+          "*Fatty Acids, Omega-3 [administration & dosage] [therapeutic use]",
+          "Female",
+          "Humans",
+          "*Major Depressive Disorder [drug therapy]",
+          "Male",
+          "*Randomized Controlled Trials as Topic"
+        ],
+        "mesh_check_words_raw": "",
+        "mesh_check_words": [],
+        "source": "index_terms",
+        "page": "",
+        "snippet": "cipants For future updates, we plan to also pursue subgroup analysis by types of comparators (including placebo, wait list controls, no treatment/ supplementation, or standard care) to assess differences in effect size due to the use of different comparators. I N D E X T E R M S Medical Subject Headings (MeSH) Adolescent; Child; COVID-19; Depression [drug therapy]; *Dietary Supplements; Docosahexaenoic Acids [administration & dosage] [therapeutic use]; Eicosapentaenoic Acid [administration & dosage] [therapeutic use]; *Fatty Acids, Omega-3 [administration & dosage] [therapeutic use]; Female; Humans; *Major Depressive Disorder [drug therapy]; Male; *Randomized Controlled Trials as Topic Omega-3 fatty acid supplementation for depression in children and adolescents (Review) Copyright © 2024 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.58"
+      },
+      "extraction_warnings": []
+    }
+  ]
+}
