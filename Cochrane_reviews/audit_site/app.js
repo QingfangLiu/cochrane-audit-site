@@ -1,143 +1,32 @@
 (function () {
-  const SOURCE_FILES = [
-    {
-      key: "curation",
-      label: "Review curation summary",
-      path: "../provisional_data/review_curation_summary.tsv",
-      required: true,
-    },
-    {
-      key: "reviewIndex",
-      label: "Review PubMed/PMC index",
-      path: "../review_pubmed_pmc_indexing.csv",
-      required: false,
-      delimiter: ",",
-    },
-    {
-      key: "protocol",
-      label: "Review protocol and eligibility",
-      path: "../provisional_data/review_protocol_eligibility.tsv",
-      required: true,
-    },
-    {
-      key: "summary",
-      label: "Review summary",
-      path: "../provisional_data/pubmed_pmc_summary.tsv",
-      required: true,
-    },
-    {
-      key: "studies",
-      label: "Included trials",
-      path: "../provisional_data/included_study_indexing.tsv",
-      required: true,
-    },
-    {
-      key: "records",
-      label: "Matched PubMed records",
-      path: "../provisional_data/included_pubmed_records.tsv",
-      required: true,
-    },
-    {
-      key: "reports",
-      label: "Included report candidates",
-      path: "../provisional_data/included_report_indexing.tsv",
-      required: false,
-    },
-    {
-      key: "registries",
-      label: "Included trial registry records",
-      path: "../provisional_data/included_trial_registry_records.tsv",
-      required: false,
-    },
-    {
-      key: "excludedStudies",
-      label: "Excluded trials",
-      path: "../provisional_data/excluded_study_indexing.tsv",
-      required: false,
-    },
-    {
-      key: "excludedReports",
-      label: "Excluded report candidates",
-      path: "../provisional_data/excluded_report_indexing.tsv",
-      required: false,
-    },
-    {
-      key: "excludedRecords",
-      label: "Excluded PubMed records",
-      path: "../provisional_data/excluded_pubmed_records.tsv",
-      required: false,
-    },
-    {
-      key: "excludedRegistries",
-      label: "Excluded trial registry records",
-      path: "../provisional_data/excluded_trial_registry_records.tsv",
-      required: false,
-    },
-    {
-      key: "excludedSummary",
-      label: "Excluded PubMed summary",
-      path: "../provisional_data/excluded_pubmed_summary.tsv",
-      required: false,
-    },
-    {
-      key: "analysisResults",
-      label: "Analysis result metadata",
-      path: "../provisional_data/analysis_results_first_pass.tsv",
-      required: false,
-    },
-    {
-      key: "analysisResultsRaw",
-      label: "Analysis result metadata raw JSON",
-      path: "../provisional_data/analysis_results_first_pass_raw.json",
-      required: false,
-      format: "json",
-    },
-    {
-      key: "analysisStudyRows",
-      label: "Forest plot study rows",
-      path: "../provisional_data/analysis_study_rows_first_pass.tsv",
-      required: false,
-    },
-    {
-      key: "analysisStudyRowsRaw",
-      label: "Forest plot study rows raw JSON",
-      path: "../provisional_data/analysis_study_rows_first_pass_raw.json",
-      required: false,
-      format: "json",
-    },
-    {
-      key: "analysisRiskOfBiasRows",
-      label: "Analysis risk-of-bias rows",
-      path: "../provisional_data/analysis_risk_of_bias_rows_first_pass.tsv",
-      required: false,
-    },
-    {
-      key: "analysisReproducedResults",
-      label: "Reproduced meta-analysis results",
-      path: "../provisional_data/analysis_reproduced_results_first_pass.tsv",
-      required: false,
-    },
-    {
-      key: "analysisReproducedForestPlots",
-      label: "Reproduced forest plot payloads",
-      path: "../provisional_data/analysis_reproduced_forest_plots_first_pass.json",
-      required: false,
-      format: "json",
-    },
-    {
-      key: "domainSources",
-      label: "Domain source metadata",
-      path: "../provisional_data/review_domain_source_raw.json",
-      required: false,
-      format: "json",
-    },
-    {
-      key: "domainLabels",
-      label: "AI domain labels",
-      path: "../provisional_data/review_domain_labels_ai.json",
-      required: false,
-      format: "json",
-    },
+  const BENCHMARK_DATA_ROOT = "../benchmark_data/";
+  const BENCHMARK_REGISTRY_PATH = `${BENCHMARK_DATA_ROOT}reviews.json`;
+  const ROW_BUCKET_KEYS = [
+    "summary",
+    "curation",
+    "reviewIndex",
+    "protocol",
+    "studies",
+    "records",
+    "reports",
+    "registries",
+    "excludedStudies",
+    "excludedReports",
+    "excludedRecords",
+    "excludedRegistries",
+    "excludedSummary",
+    "referenceCandidates",
+    "referenceCandidateReports",
+    "referenceCandidateRecords",
+    "referenceCandidateRegistries",
+    "referenceCandidateSummary",
+    "analysisResults",
+    "analysisResultsRaw",
+    "analysisStudyRows",
+    "analysisRiskOfBiasRows",
+    "analysisReproducedResults",
+    "domainSources",
+    "domainLabels",
   ];
 
   const GROUP_ORDER = ["first_pass", "second_pass", "after_pilot"];
@@ -152,8 +41,38 @@
     { key: "pmcidAmongPmids", label: "PMCID/PMID %" },
     { key: "reviewTitle", label: "Review title" },
   ];
+  const AUDIT_FINDINGS_STORAGE_KEY = "cochraneAuditFindings.v1";
+  const AUDIT_REVIEWER_STORAGE_KEY = "cochraneAuditReviewer.v1";
+  const AUDIT_FINDING_FIELDS = [
+    "finding_id",
+    "created_at",
+    "review_id",
+    "section",
+    "item_type",
+    "item_id",
+    "source_file",
+    "field_name",
+    "displayed_value",
+    "issue_type",
+    "correct_value",
+    "source_location",
+    "source_excerpt",
+    "notes",
+    "reviewer",
+    "status",
+  ];
+  const AUDIT_ISSUE_TYPES = [
+    ["incorrect", "Incorrect value"],
+    ["missing", "Missing value"],
+    ["unclear", "Unclear / needs checking"],
+    ["duplicate", "Duplicate"],
+    ["wrong_match", "Wrong match"],
+    ["not_in_source", "Not in source"],
+    ["other", "Other"],
+  ];
 
   const app = document.getElementById("app");
+  let currentReviews = [];
   const state = {
     files: {},
     rows: {},
@@ -164,6 +83,11 @@
     view: "home",
     includedTrialSortKey: "trials",
     includedTrialSortDirection: "desc",
+    auditFindings: [],
+    auditModalContext: null,
+    auditReviewOpen: false,
+    auditEditingFindingId: "",
+    auditMessage: "",
   };
   let tocScrollSpyBound = false;
   let tocScrollSpyFrame = 0;
@@ -222,7 +146,7 @@
   }
 
   function reviewTitle(row) {
-    return sentenceCaseId(row.review_id || row.review_pdf || "Review");
+    return raw(row.review_title) || raw(row.extracted_title) || raw(row.pubmed_title) || sentenceCaseId(row.review_id || row.review_pdf || "Review");
   }
 
   function reviewIdFromPath(path) {
@@ -327,29 +251,585 @@
       .join("");
   }
 
-  async function loadSource(file) {
-    const response = await fetch(file.path, { cache: "no-store" });
+  function benchmarkAssetPath(path) {
+    const text = raw(path);
+    if (!text || /^[a-z][a-z0-9+.-]*:/i.test(text) || text.startsWith("/") || text.startsWith("../")) {
+      return text;
+    }
+    return `${BENCHMARK_DATA_ROOT}${text}`;
+  }
+
+  function benchmarkSourceFile(reviewId) {
+    const id = raw(reviewId) || "<review_id>";
+    return `benchmark_data/${id}/benchmark.json`;
+  }
+
+  function benchmarkSourceLabel(review) {
+    return `Rendered from ${benchmarkSourceFile(review?.review_id || state.selectedReviewId)}.`;
+  }
+
+  async function loadJsonFile(path, required = true) {
+    const response = await fetch(path, { cache: "no-store" });
     if (!response.ok) {
-      if (file.required) {
-        throw new Error(`Could not load ${file.path}: HTTP ${response.status}`);
+      if (required) {
+        throw new Error(`Could not load ${path}: HTTP ${response.status}`);
       }
-      return { ...file, loaded: false, rows: [], bytes: 0, hash: "" };
+      return { path, loaded: false, data: null, bytes: 0, hash: "" };
     }
 
     const text = await response.text();
-    const data = file.format === "json" ? JSON.parse(text) : null;
-    const rows = file.format === "json"
-      ? (Array.isArray(data) ? data : (Array.isArray(data?.rows) ? data.rows : (Array.isArray(data?.reviews) ? data.reviews : [])))
-      : parseDelimited(text, file.delimiter || "\t");
+    const data = JSON.parse(text);
     const hash = await sha256(text);
     return {
-      ...file,
+      path,
       loaded: true,
-      rows,
       data,
       bytes: text.length,
       hash,
     };
+  }
+
+  function emptyRowBuckets() {
+    return ROW_BUCKET_KEYS.reduce((buckets, key) => {
+      buckets[key] = [];
+      return buckets;
+    }, {});
+  }
+
+  function ensureArray(value) {
+    return Array.isArray(value) ? value : [];
+  }
+
+  function withReviewIdentity(row, review) {
+    const value = row && typeof row === "object" ? row : {};
+    return {
+      ...value,
+      review_id: raw(value.review_id) || raw(review.review_id),
+      review_title: raw(value.review_title) || raw(review.review_title),
+      review_group: raw(value.review_group) || raw(review.review_group),
+      review_pdf: raw(value.review_pdf) || raw(review.review_pdf) || raw(review.source_pdf_path),
+    };
+  }
+
+  function adaptBenchmarkRows(benchmark, registryReview = {}) {
+    const buckets = emptyRowBuckets();
+    const review = {
+      ...(registryReview || {}),
+      ...(benchmark?.review || {}),
+    };
+    const reviewSummary = benchmark?.review_summary || {};
+    const references = benchmark?.references || {};
+    const metaAnalysis = benchmark?.meta_analysis || {};
+    const summary = withReviewIdentity(reviewSummary.pubmed_pmc || {}, review);
+
+    buckets.summary.push({
+      ...summary,
+      review_id: raw(summary.review_id) || raw(review.review_id),
+      review_group: raw(summary.review_group) || raw(review.review_group),
+      review_pdf: raw(summary.review_pdf) || raw(review.review_pdf),
+    });
+    buckets.curation.push(withReviewIdentity(reviewSummary.curation || {}, review));
+    buckets.reviewIndex.push(withReviewIdentity(reviewSummary.review_index || {}, review));
+    buckets.protocol.push(withReviewIdentity(benchmark?.protocol_and_eligibility || {}, review));
+    buckets.domainSources.push(withReviewIdentity(reviewSummary.domain_source || {}, review));
+    buckets.domainLabels.push(withReviewIdentity(reviewSummary.domain_label || {}, review));
+
+    buckets.studies.push(...ensureArray(references.included_studies).map((row) => withReviewIdentity(row, review)));
+    buckets.records.push(...ensureArray(references.included_pubmed_records).map((row) => withReviewIdentity(row, review)));
+    buckets.reports.push(...ensureArray(references.included_report_candidates).map((row) => withReviewIdentity(row, review)));
+    buckets.registries.push(...ensureArray(references.included_trial_registry_records).map((row) => withReviewIdentity(row, review)));
+    buckets.excludedStudies.push(...ensureArray(references.excluded_studies).map((row) => withReviewIdentity(row, review)));
+    buckets.excludedRecords.push(...ensureArray(references.excluded_pubmed_records).map((row) => withReviewIdentity(row, review)));
+    buckets.excludedReports.push(...ensureArray(references.excluded_report_candidates).map((row) => withReviewIdentity(row, review)));
+    buckets.excludedRegistries.push(...ensureArray(references.excluded_trial_registry_records).map((row) => withReviewIdentity(row, review)));
+    buckets.excludedSummary.push(...ensureArray(references.excluded_pubmed_summary).map((row) => withReviewIdentity(row, review)));
+    buckets.referenceCandidates.push(...ensureArray(references.reference_candidates).map((row) => withReviewIdentity(row, review)));
+    buckets.referenceCandidateRecords.push(...ensureArray(references.reference_candidate_pubmed_records).map((row) => withReviewIdentity(row, review)));
+    buckets.referenceCandidateReports.push(...ensureArray(references.reference_candidate_report_candidates).map((row) => withReviewIdentity(row, review)));
+    buckets.referenceCandidateRegistries.push(...ensureArray(references.reference_candidate_trial_registry_records).map((row) => withReviewIdentity(row, review)));
+    buckets.referenceCandidateSummary.push(...ensureArray(references.reference_candidate_summary).map((row) => withReviewIdentity(row, review)));
+
+    buckets.analysisResults.push(...ensureArray(metaAnalysis.analysis_results).map((row) => withReviewIdentity(row, review)));
+    buckets.analysisStudyRows.push(...ensureArray(metaAnalysis.analysis_study_rows).map((row) => withReviewIdentity(row, review)));
+    buckets.analysisRiskOfBiasRows.push(...ensureArray(metaAnalysis.analysis_risk_of_bias_rows).map((row) => withReviewIdentity(row, review)));
+    buckets.analysisReproducedResults.push(...ensureArray(metaAnalysis.analysis_reproduced_results).map((row) => withReviewIdentity(row, review)));
+
+    return {
+      rows: buckets,
+      plots: metaAnalysis.analysis_reproduced_forest_plots || {},
+    };
+  }
+
+  function appendBenchmarkRows(target, adapted, plots) {
+    ROW_BUCKET_KEYS.forEach((key) => {
+      target[key].push(...(adapted.rows[key] || []));
+    });
+    return {
+      ...(plots || {}),
+      ...(adapted.plots || {}),
+    };
+  }
+
+  async function loadBenchmarkData() {
+    const registryFile = await loadJsonFile(BENCHMARK_REGISTRY_PATH);
+    const registryReviews = ensureArray(registryFile.data?.reviews);
+    if (!registryReviews.length) {
+      throw new Error(`No reviews listed in ${BENCHMARK_REGISTRY_PATH}`);
+    }
+
+    const rows = emptyRowBuckets();
+    const loadedBenchmarks = await Promise.all(registryReviews.map(async (registryReview) => {
+      const path = benchmarkAssetPath(registryReview.benchmark_path);
+      const file = await loadJsonFile(path);
+      const adapted = adaptBenchmarkRows(file.data, registryReview);
+      return {
+        registryReview,
+        adapted,
+        ...file,
+      };
+    }));
+    let analysisReproducedForestPlots = {};
+    loadedBenchmarks.forEach((file) => {
+      analysisReproducedForestPlots = appendBenchmarkRows(rows, file.adapted, analysisReproducedForestPlots);
+    });
+    const benchmarkFiles = loadedBenchmarks.map(({ adapted, ...file }) => file);
+
+    return {
+      files: {
+        benchmarkRegistry: registryFile,
+        benchmarks: benchmarkFiles,
+        analysisReproducedForestPlots: {
+          loaded: true,
+          data: { plots: analysisReproducedForestPlots },
+        },
+      },
+      rows,
+    };
+  }
+
+  function auditStorageAvailable() {
+    return typeof window.localStorage !== "undefined";
+  }
+
+  function normalizeAuditFinding(row) {
+    const normalized = {};
+    AUDIT_FINDING_FIELDS.forEach((field) => {
+      normalized[field] = raw(row?.[field]);
+    });
+    normalized.finding_id = normalized.finding_id || `finding_${Date.now()}_${Math.random().toString(36).slice(2, 8)}`;
+    normalized.created_at = normalized.created_at || new Date().toISOString();
+    normalized.status = normalized.status || "open";
+    return normalized;
+  }
+
+  function loadAuditFindings() {
+    if (!auditStorageAvailable()) {
+      state.auditFindings = [];
+      return;
+    }
+    try {
+      const parsed = JSON.parse(window.localStorage.getItem(AUDIT_FINDINGS_STORAGE_KEY) || "[]");
+      state.auditFindings = Array.isArray(parsed) ? parsed.map(normalizeAuditFinding) : [];
+    } catch (error) {
+      state.auditFindings = [];
+      state.auditMessage = "Could not load saved audit findings from this browser.";
+    }
+  }
+
+  function saveAuditFindings() {
+    if (!auditStorageAvailable()) {
+      state.auditMessage = "Browser localStorage is unavailable; findings were not saved.";
+      return;
+    }
+    window.localStorage.setItem(AUDIT_FINDINGS_STORAGE_KEY, JSON.stringify(state.auditFindings));
+  }
+
+  function savedReviewerName() {
+    if (!auditStorageAvailable()) {
+      return "";
+    }
+    return raw(window.localStorage.getItem(AUDIT_REVIEWER_STORAGE_KEY));
+  }
+
+  function saveReviewerName(value) {
+    if (auditStorageAvailable() && raw(value)) {
+      window.localStorage.setItem(AUDIT_REVIEWER_STORAGE_KEY, raw(value));
+    }
+  }
+
+  function auditContextAttr(context) {
+    return escapeHtml(JSON.stringify(context || {}));
+  }
+
+  function auditContextFromFinding(finding) {
+    return {
+      review_id: finding.review_id,
+      section: finding.section,
+      item_type: finding.item_type,
+      item_id: finding.item_id,
+      source_file: finding.source_file,
+      field_name: finding.field_name,
+      displayed_value: finding.displayed_value,
+    };
+  }
+
+  function parseAuditContext(value) {
+    try {
+      const parsed = JSON.parse(value || "{}");
+      return parsed && typeof parsed === "object" ? parsed : {};
+    } catch (error) {
+      return {};
+    }
+  }
+
+  function auditFileDate() {
+    return new Date().toISOString().replace(/[:.]/g, "-").slice(0, 19);
+  }
+
+  function tsvCell(value) {
+    const text = String(value ?? "");
+    if (/[\t\r\n"]/.test(text)) {
+      return `"${text.replaceAll('"', '""')}"`;
+    }
+    return text;
+  }
+
+  function auditFindingsTsv(findings) {
+    const rows = [AUDIT_FINDING_FIELDS.join("\t")];
+    (findings || []).forEach((finding) => {
+      rows.push(AUDIT_FINDING_FIELDS.map((field) => tsvCell(finding[field])).join("\t"));
+    });
+    return `${rows.join("\n")}\n`;
+  }
+
+  function downloadText(filename, text, type) {
+    const blob = new Blob([text], { type });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = filename;
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+    URL.revokeObjectURL(url);
+  }
+
+  function exportAuditFindings(format) {
+    const findings = state.auditFindings || [];
+    if (!findings.length) {
+      state.auditMessage = "No audit findings to export.";
+      render();
+      return;
+    }
+    const stamp = auditFileDate();
+    if (format === "json") {
+      const payload = {
+        artifact_version: "2026-06-02-manual-audit-findings-v1",
+        exported_at: new Date().toISOString(),
+        findings,
+      };
+      downloadText(
+        `manual_audit_findings_${stamp}.json`,
+        `${JSON.stringify(payload, null, 2)}\n`,
+        "application/json",
+      );
+    } else {
+      downloadText(
+        `manual_audit_findings_${stamp}.tsv`,
+        auditFindingsTsv(findings),
+        "text/tab-separated-values",
+      );
+    }
+    state.auditMessage = `Exported ${findings.length} audit finding${findings.length === 1 ? "" : "s"}.`;
+    render();
+  }
+
+  function mergeAuditFindings(importedRows) {
+    const merged = new Map();
+    (state.auditFindings || []).forEach((finding) => merged.set(finding.finding_id, finding));
+    (importedRows || []).map(normalizeAuditFinding).forEach((finding) => {
+      merged.set(finding.finding_id, finding);
+    });
+    state.auditFindings = Array.from(merged.values()).sort((left, right) => {
+      return raw(left.created_at).localeCompare(raw(right.created_at));
+    });
+    saveAuditFindings();
+  }
+
+  function importAuditFindingsFile(file) {
+    if (!file) {
+      return;
+    }
+    const reader = new FileReader();
+    reader.onload = () => {
+      try {
+        const text = String(reader.result || "");
+        const data = JSON.parse(text);
+        const rows = Array.isArray(data) ? data : (Array.isArray(data.findings) ? data.findings : []);
+        mergeAuditFindings(rows);
+        state.auditMessage = `Imported ${rows.length} audit finding${rows.length === 1 ? "" : "s"} from JSON.`;
+      } catch (jsonError) {
+        try {
+          const rows = parseDelimited(String(reader.result || ""), "\t");
+          mergeAuditFindings(rows);
+          state.auditMessage = `Imported ${rows.length} audit finding${rows.length === 1 ? "" : "s"} from TSV.`;
+        } catch (tsvError) {
+          state.auditMessage = "Could not import audit findings. Use exported JSON or TSV.";
+        }
+      }
+      render();
+    };
+    reader.readAsText(file);
+  }
+
+  function renderAuditIssueActions(context, className = "") {
+    const encoded = auditContextAttr(context);
+    return `
+      <div class="audit-issue-actions ${className}">
+        <button class="small-button audit-action-button" type="button" data-audit-report data-audit-context="${encoded}">Report</button>
+      </div>
+    `;
+  }
+
+  function auditDisplayedValue(row, fields) {
+    return fields
+      .map((field) => {
+        const value = raw(row?.[field]);
+        return value ? `${field}: ${value}` : "";
+      })
+      .filter(Boolean)
+      .join("\n");
+  }
+
+  function analysisStudyRowAuditDisplayedValue(row) {
+    const rowValue = auditDisplayedValue(row, [
+      "matched_reference_block_label",
+      "study_label_raw",
+      "data_type",
+      "arm1_label",
+      "arm1_events",
+      "arm1_total",
+      "arm1_mean",
+      "arm1_sd",
+      "arm2_label",
+      "arm2_events",
+      "arm2_total",
+      "arm2_mean",
+      "arm2_sd",
+      "effect",
+      "ci_lower",
+      "ci_upper",
+    ]);
+    const riskOfBias = row?._riskOfBias || {};
+    const robValue = "ABCDEFGHIJ".split("")
+      .map((code) => {
+        const symbol = raw(riskOfBias[`rob_${code}`]);
+        return symbol ? `rob_${code}: ${symbol}` : "";
+      })
+      .filter(Boolean)
+      .join("\n");
+    return [rowValue, robValue].filter(Boolean).join("\n");
+  }
+
+  function auditIssueTypeLabel(value) {
+    const issueType = raw(value);
+    const match = AUDIT_ISSUE_TYPES.find(([key]) => key === issueType);
+    return match ? match[1] : issueType;
+  }
+
+  function auditReviewPreview(value, fallback = "None") {
+    const text = raw(value);
+    if (!text) {
+      return `<span class="muted">${escapeHtml(fallback)}</span>`;
+    }
+    const preview = text.length > 260 ? `${text.slice(0, 260)}...` : text;
+    return escapeHtml(preview);
+  }
+
+  function auditTimestamp(value) {
+    const text = raw(value);
+    const parsed = new Date(text);
+    if (!text || Number.isNaN(parsed.getTime())) {
+      return display(text, "No timestamp");
+    }
+    return escapeHtml(parsed.toLocaleString());
+  }
+
+  function auditSourceEvidence(finding) {
+    return [raw(finding?.source_location), raw(finding?.source_excerpt)].filter(Boolean).join("\n");
+  }
+
+  function renderAuditFindingControls() {
+    const count = (state.auditFindings || []).length;
+    return `
+      <div class="sidebar-section audit-findings-panel">
+        <h3>Audit Findings</h3>
+        <p class="muted">${count} finding${count === 1 ? "" : "s"} saved in this browser.</p>
+        <div class="button-row audit-review-row">
+          <button class="small-button" type="button" data-audit-review-findings${count ? "" : " disabled"}>Review findings</button>
+        </div>
+        <div class="button-row audit-export-row">
+          <button class="small-button" type="button" data-audit-export="tsv"${count ? "" : " disabled"}>Export TSV</button>
+          <button class="small-button" type="button" data-audit-export="json"${count ? "" : " disabled"}>Export JSON</button>
+        </div>
+        <div class="button-row audit-import-row">
+          <label class="small-button audit-import-label">
+            Import
+            <input type="file" accept=".json,.tsv,application/json,text/tab-separated-values,text/plain" data-audit-import-file>
+          </label>
+          <button class="small-button" type="button" data-audit-clear${count ? "" : " disabled"}>Clear local</button>
+        </div>
+        ${state.auditMessage ? `<p class="muted audit-message">${escapeHtml(state.auditMessage)}</p>` : ""}
+      </div>
+    `;
+  }
+
+  function renderAuditFindingsReviewModal() {
+    if (!state.auditReviewOpen) {
+      return "";
+    }
+    const findings = [...(state.auditFindings || [])].sort((left, right) => {
+      return raw(right.created_at).localeCompare(raw(left.created_at));
+    });
+    return `
+      <div class="audit-modal-backdrop" role="presentation">
+        <section class="audit-modal audit-review-modal panel" role="dialog" aria-modal="true" aria-labelledby="audit-review-title">
+          <div class="section-head audit-modal-head">
+            <div>
+              <h2 id="audit-review-title">Review Findings</h2>
+              <p class="muted">${findings.length} local finding${findings.length === 1 ? "" : "s"} saved in this browser. Edit or delete mistaken rows before exporting.</p>
+            </div>
+            <button class="small-button" type="button" data-audit-close>Close</button>
+          </div>
+          ${findings.length ? `
+            <div class="record-table-wrap audit-review-table">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Finding</th>
+                    <th>Issue</th>
+                    <th>Displayed / correction</th>
+                    <th>Source evidence</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  ${findings.map((finding) => `
+                    <tr>
+                      <td>
+                        <div class="audit-review-primary">${display(finding.review_id, "No review")}</div>
+                        <div class="audit-review-detail">${display(finding.section, "No section")}</div>
+                        <div class="audit-review-detail">${display(finding.item_id, "No item")}</div>
+                        <div class="audit-review-detail">${display(finding.source_file, "No source file")}</div>
+                      </td>
+                      <td>
+                        <div class="audit-review-primary">${display(auditIssueTypeLabel(finding.issue_type), "No issue type")}</div>
+                        <div class="audit-review-detail">Field: ${display(finding.field_name, "None")}</div>
+                        <div class="audit-review-detail">Reviewer: ${display(finding.reviewer, "None")}</div>
+                        <div class="audit-review-detail">${auditTimestamp(finding.created_at)}</div>
+                      </td>
+                      <td class="audit-review-text">
+                        <div><span class="audit-review-label">Displayed value</span>${auditReviewPreview(finding.displayed_value)}</div>
+                        <div><span class="audit-review-label">Correct value</span>${auditReviewPreview(finding.correct_value)}</div>
+                        <div><span class="audit-review-label">Notes</span>${auditReviewPreview(finding.notes)}</div>
+                      </td>
+                      <td class="audit-review-text">
+                        <div><span class="audit-review-label">Evidence</span>${auditReviewPreview(auditSourceEvidence(finding))}</div>
+                      </td>
+                      <td>
+                        <div class="audit-review-actions">
+                          <button class="small-button" type="button" data-audit-edit-finding="${escapeHtml(finding.finding_id)}">Edit</button>
+                          <button class="small-button audit-delete-button" type="button" data-audit-delete-finding="${escapeHtml(finding.finding_id)}">Delete</button>
+                        </div>
+                      </td>
+                    </tr>
+                  `).join("")}
+                </tbody>
+              </table>
+            </div>
+          ` : `<p class="muted audit-review-empty">No audit findings are saved in this browser.</p>`}
+        </section>
+      </div>
+    `;
+  }
+
+  function renderAuditModal() {
+    const editingFinding = state.auditEditingFindingId
+      ? state.auditFindings.find((finding) => finding.finding_id === state.auditEditingFindingId)
+      : null;
+    const isEditing = Boolean(editingFinding);
+    const context = state.auditModalContext || (editingFinding ? auditContextFromFinding(editingFinding) : null);
+    if (!context) {
+      return "";
+    }
+    const reviewer = isEditing ? raw(editingFinding.reviewer) : savedReviewerName();
+    const selectedIssueType = raw(editingFinding?.issue_type);
+    const modalTitle = isEditing ? "Edit Finding" : "Report";
+    const submitLabel = isEditing ? "Save changes" : "Save finding";
+    return `
+      <div class="audit-modal-backdrop" role="presentation">
+        <section class="audit-modal panel" role="dialog" aria-modal="true" aria-labelledby="audit-modal-title">
+          <form data-audit-form>
+            <div class="section-head audit-modal-head">
+              <div>
+                <h2 id="audit-modal-title">${modalTitle}</h2>
+              </div>
+              <button class="small-button" type="button" data-audit-close>Close</button>
+            </div>
+            <div class="audit-context-grid">
+              <div>
+                <span class="field-label">Review</span>
+                <span>${display(context.review_id || state.selectedReviewId)}</span>
+              </div>
+              <div>
+                <span class="field-label">Section</span>
+                <span>${display(context.section)}</span>
+              </div>
+              <div>
+                <span class="field-label">Item</span>
+                <span>${display(context.item_id)}</span>
+              </div>
+              <div>
+                <span class="field-label">Field</span>
+                <span>${display(context.field_name)}</span>
+              </div>
+            </div>
+            <label class="audit-form-field audit-displayed-value-field">
+              <span>Displayed value</span>
+              <textarea readonly>${escapeHtml(context.displayed_value || "")}</textarea>
+            </label>
+            <div class="audit-form-grid">
+              <label class="audit-form-field">
+                <span>Issue type</span>
+                <select name="issue_type" required>
+                  ${AUDIT_ISSUE_TYPES.map(([value, label]) => `<option value="${escapeHtml(value)}"${selectedIssueType === value ? " selected" : ""}>${escapeHtml(label)}</option>`).join("")}
+                </select>
+              </label>
+              <label class="audit-form-field">
+                <span>Reviewer</span>
+                <input name="reviewer" value="${escapeHtml(reviewer)}" autocomplete="name">
+              </label>
+            </div>
+            <label class="audit-form-field">
+              <span>Correct value</span>
+              <textarea name="correct_value" placeholder="Enter the corrected value, or leave blank if not applicable.">${escapeHtml(editingFinding?.correct_value || "")}</textarea>
+            </label>
+            <label class="audit-form-field">
+              <span>Source evidence</span>
+              <textarea name="source_evidence" placeholder="Page/section plus short supporting excerpt from the Cochrane review.">${escapeHtml(auditSourceEvidence(editingFinding))}</textarea>
+            </label>
+            <label class="audit-form-field">
+              <span>Notes</span>
+              <textarea name="notes" placeholder="Optional audit notes.">${escapeHtml(editingFinding?.notes || "")}</textarea>
+            </label>
+            <div class="button-row audit-form-actions">
+              <button class="small-button" type="submit">${submitLabel}</button>
+              <button class="small-button" type="button" data-audit-close>Cancel</button>
+            </div>
+          </form>
+        </section>
+      </div>
+    `;
   }
 
   function keyForRecord(row) {
@@ -370,6 +850,10 @@
     const excludedRecords = state.rows.excludedRecords || [];
     const excludedRegistries = state.rows.excludedRegistries || [];
     const excludedSummary = state.rows.excludedSummary || [];
+    const referenceCandidates = state.rows.referenceCandidates || [];
+    const referenceCandidateReports = state.rows.referenceCandidateReports || [];
+    const referenceCandidateRecords = state.rows.referenceCandidateRecords || [];
+    const referenceCandidateRegistries = state.rows.referenceCandidateRegistries || [];
     const analysisResults = state.rows.analysisResults || [];
     const analysisResultsRaw = state.rows.analysisResultsRaw || [];
     const analysisStudyRows = state.rows.analysisStudyRows || [];
@@ -431,6 +915,33 @@
         excludedRegistriesByStudy.set(key, []);
       }
       excludedRegistriesByStudy.get(key).push(registry);
+    });
+
+    const referenceCandidateRecordsByStudy = new Map();
+    referenceCandidateRecords.forEach((record) => {
+      const key = keyForRecord(record);
+      if (!referenceCandidateRecordsByStudy.has(key)) {
+        referenceCandidateRecordsByStudy.set(key, []);
+      }
+      referenceCandidateRecordsByStudy.get(key).push(record);
+    });
+
+    const referenceCandidateReportsByStudy = new Map();
+    referenceCandidateReports.forEach((report) => {
+      const key = keyForRecord(report);
+      if (!referenceCandidateReportsByStudy.has(key)) {
+        referenceCandidateReportsByStudy.set(key, []);
+      }
+      referenceCandidateReportsByStudy.get(key).push(report);
+    });
+
+    const referenceCandidateRegistriesByStudy = new Map();
+    referenceCandidateRegistries.forEach((registry) => {
+      const key = keyForRecord(registry);
+      if (!referenceCandidateRegistriesByStudy.has(key)) {
+        referenceCandidateRegistriesByStudy.set(key, []);
+      }
+      referenceCandidateRegistriesByStudy.get(key).push(registry);
     });
 
     const excludedSummaryByReview = new Map();
@@ -561,6 +1072,21 @@
       });
     });
 
+    const referenceCandidatesByReview = new Map();
+    referenceCandidates.forEach((study, index) => {
+      const reviewId = study.review_id || "";
+      if (!referenceCandidatesByReview.has(reviewId)) {
+        referenceCandidatesByReview.set(reviewId, []);
+      }
+      referenceCandidatesByReview.get(reviewId).push({
+        ...study,
+        _rowIndex: index + 1,
+        _records: referenceCandidateRecordsByStudy.get(keyForRecord(study)) || [],
+        _reports: referenceCandidateReportsByStudy.get(keyForRecord(study)) || [],
+        _registries: referenceCandidateRegistriesByStudy.get(keyForRecord(study)) || [],
+      });
+    });
+
     return summary
       .map((review, index) => {
         const curation = curationByReview.get(review.review_id) || {};
@@ -569,9 +1095,10 @@
         return {
           ...review,
           _rowIndex: index + 1,
-          _title: raw(curation.review_title) || raw(domainSource.review_title) || reviewTitle(review),
+          _title: raw(curation.review_title) || raw(domainSource.review_title) || reviewTitle({ ...reviewIndex, ...review }),
           _studies: studiesByReview.get(review.review_id) || [],
           _excludedStudies: excludedStudiesByReview.get(review.review_id) || [],
+          _referenceCandidates: referenceCandidatesByReview.get(review.review_id) || [],
           _excludedSummary: excludedSummaryByReview.get(review.review_id) || {},
           _analysisResults: analysisResultsByReview.get(review.review_id) || [],
           _analysisStudyRows: analysisStudyRowsByReview.get(review.review_id) || [],
@@ -939,7 +1466,7 @@
         <div class="section-head">
           <div>
             <h2>Included Trial Distribution</h2>
-            <p class="muted">Per-review counts from provisional_data/included_study_indexing.tsv.</p>
+            <p class="muted">Per-review counts from benchmark_data/reviews.json and each review benchmark.json.</p>
           </div>
           <div class="section-summary">${rows.length} reviews; ${trialTotal} included trials</div>
         </div>
@@ -1120,7 +1647,7 @@
         <div class="section-head">
           <div>
             <h2>Domain Distribution</h2>
-            <p class="muted">AI-derived clinical domains from provisional_data/review_domain_labels_ai.json; unverified until manual audit.</p>
+            <p class="muted">Clinical domains from each review benchmark.json; unverified until manual audit.</p>
           </div>
         </div>
         <div class="domain-pie-layout">
@@ -1149,16 +1676,17 @@
     `;
   }
 
-  function reviewTocItems() {
+  function reviewTocItems(review = null) {
+    const hasReferenceCandidates = (review?._referenceCandidates || []).length > 0;
     return [
       { label: "Review header", href: "#review-header" },
-      { label: "Review curation summary", href: "#review-curation-summary" },
       { label: "Protocol and eligibility", href: "#protocol-eligibility" },
       { label: "References", href: "#trials" },
       { label: "Included trials", href: "#included-trials", branch: true },
       { label: "Excluded trials", href: "#excluded-trials", branch: true },
-      { label: "Forest Plots", href: "#analysis-study-rows" },
-      { label: "Reproduced meta-analysis", href: "#reproduced-meta-analysis", branch: true },
+      ...(hasReferenceCandidates ? [{ label: "Reference candidates", href: "#reference-candidates", branch: true }] : []),
+      { label: "Meta analysis", href: "#analysis-study-rows" },
+      { label: "Reproduced", href: "#reproduced-meta-analysis", branch: true },
     ];
   }
 
@@ -1171,7 +1699,7 @@
       <div class="review-toc-inline">
         ${renderReviewSourceActions(review, "sidebar-source-actions")}
         <nav class="review-toc" aria-label="Current review sections">
-          ${reviewTocItems().map((item) => `
+          ${reviewTocItems(review).map((item) => `
             <a class="${item.branch ? "toc-branch" : ""}" href="${escapeHtml(item.href)}" data-section-id="${escapeHtml(item.href.replace(/^#/, ""))}">${escapeHtml(item.label)}</a>
           `).join("")}
         </nav>
@@ -1190,6 +1718,7 @@
             <button class="tab-button${state.view === "review" ? " active" : ""}" type="button" data-view="review">Review Check</button>
           </div>
         </div>
+        ${renderAuditFindingControls()}
         <div class="sidebar-section">
           <div class="review-list">
             ${reviews.map((review) => `
@@ -1214,84 +1743,28 @@
   }
 
   function renderReviewHeader(review) {
+    const extractedTitle = raw((review._reviewIndex || {}).extracted_title);
+    const subtitle = extractedTitle && extractedTitle !== raw(review._title)
+      ? `<p class="review-subtitle">${escapeHtml(extractedTitle)}</p>`
+      : "";
     return `
       <section class="panel review-header" id="review-header">
         <div>
           <h2>${escapeHtml(review._title)}</h2>
+          ${subtitle}
         </div>
         ${renderReviewSourceActions(review, "review-header-actions")}
       </section>
     `;
   }
 
-  function renderCurationField(label, value, wide = false) {
+  function renderCurationField(label, value, wide = false, auditContext = null) {
     return `
       <div class="curation-field${wide ? " wide" : ""}">
         <div class="field-label">${escapeHtml(label)}</div>
         <div class="field-value">${display(value)}</div>
+        ${auditContext ? renderAuditIssueActions(auditContext, "field-audit-actions") : ""}
       </div>
-    `;
-  }
-
-  function renderReviewCurationPanel(review) {
-    const curation = review._curation || {};
-    const domainSource = review._domainSource || {};
-    const domainLabel = review._domainLabel || {};
-    const editorialGroup = raw(domainSource.cochrane_editorial_group?.value);
-    const objective = raw(domainSource.objective?.value);
-    const meshTerms = Array.isArray(domainSource.index_terms?.mesh_terms)
-      ? domainSource.index_terms.mesh_terms.join("; ")
-      : raw(domainSource.index_terms?.mesh_terms_raw);
-    const meshCheckWords = Array.isArray(domainSource.index_terms?.mesh_check_words)
-      ? domainSource.index_terms.mesh_check_words.join("; ")
-      : raw(domainSource.index_terms?.mesh_check_words_raw);
-    const extractionWarnings = Array.isArray(domainSource.extraction_warnings)
-      ? domainSource.extraction_warnings.join("; ")
-      : raw(domainSource.extraction_warnings);
-
-    if (!raw(curation.review_id)) {
-      return `
-        <section class="panel curation-panel" id="review-curation-summary">
-          <div class="section-head">
-            <div>
-              <h2>Review Curation Summary</h2>
-              <p class="muted">No matching row was loaded from provisional_data/review_curation_summary.tsv for this review.</p>
-            </div>
-          </div>
-        </section>
-      `;
-    }
-
-    return `
-      <section class="panel curation-panel" id="review-curation-summary">
-        <div class="section-head">
-          <div>
-            <h2>Review Curation Summary</h2>
-            <p class="muted">Rendered from review curation TSV plus domain source/label JSON. Clinical-domain labels are AI-generated from Cochrane metadata and should be audited before benchmark use.</p>
-          </div>
-          <div class="muted">${display(curation.pdf_status, "No PDF status")}</div>
-        </div>
-        <div class="curation-grid">
-          ${renderCurationField("Clinical domain (AI)", domainLabel.clinical_domain)}
-          ${renderCurationField("Domain confidence", domainLabel.confidence)}
-          ${renderCurationField("Domain rationale", domainLabel.domain_rationale, true)}
-          ${renderCurationField("Cochrane editorial group", editorialGroup, true)}
-          ${renderCurationField("MeSH terms", meshTerms, true)}
-          ${renderCurationField("MeSH check words", meshCheckWords, true)}
-          ${renderCurationField("Detailed domain", curation.domain)}
-          ${renderCurationField("Published", curation.published_issue)}
-          ${raw(objective) ? renderCurationField("Objective source text", objective, true) : ""}
-          ${raw(extractionWarnings) ? renderCurationField("Domain extraction warnings", extractionWarnings, true) : ""}
-          ${renderCurationField("Studies", curation.studies_summary)}
-          ${renderCurationField("Reports / refs", curation.reports_refs_summary)}
-          ${renderCurationField("Comparisons", curation.comparisons, true)}
-          ${renderCurationField("Outcomes", curation.outcomes, true)}
-          ${renderCurationField("Timepoint burden", curation.timepoint_burden, true)}
-          ${renderCurationField("Curation notes", curation.curation_notes, true)}
-          ${raw(curation.manual_status) ? renderCurationField("Manual status", curation.manual_status) : ""}
-          ${raw(curation.manual_audit_notes) ? renderCurationField("Manual audit notes", curation.manual_audit_notes, true) : ""}
-        </div>
-      </section>
     `;
   }
 
@@ -1303,7 +1776,7 @@
           <div class="section-head">
             <div>
               <h2>Protocol And Eligibility</h2>
-              <p class="muted">No matching row was loaded from provisional_data/review_protocol_eligibility.tsv for this review.</p>
+              <p class="muted">No protocol and eligibility data was loaded from ${escapeHtml(benchmarkSourceFile(review.review_id))}.</p>
             </div>
           </div>
         </section>
@@ -1315,22 +1788,38 @@
         <div class="section-head">
           <div>
             <h2>Protocol And Eligibility</h2>
-            <p class="muted">Rendered from provisional_data/review_protocol_eligibility.tsv. AI-prefilled values are marked unverified and should be checked against the full-text review.</p>
+            <p class="muted">${escapeHtml(benchmarkSourceLabel(review))} Values should be checked against the full-text review.</p>
           </div>
           <div class="muted">${display(protocol.pdf_status, "No PDF status")}</div>
         </div>
         <div class="curation-grid">
-          ${renderCurationField("Research question", protocol.research_question, true)}
-          ${renderCurationField("Review objective", protocol.review_objective, true)}
-          ${renderCurationField("Population", protocol.population, true)}
-          ${renderCurationField("Intervention", protocol.intervention, true)}
-          ${renderCurationField("Study designs", protocol.eligibility_study_designs)}
-          ${renderCurationField("Setting", protocol.eligibility_setting)}
-          ${renderCurationField("Inclusion criteria", protocol.eligibility_inclusion_criteria, true)}
-          ${renderCurationField("Exclusion criteria", protocol.eligibility_exclusion_criteria, true)}
-          ${renderCurationField("Protocol notes", protocol.protocol_notes, true)}
-          ${raw(protocol.manual_status) ? renderCurationField("Manual status", protocol.manual_status) : ""}
-          ${raw(protocol.manual_audit_notes) ? renderCurationField("Manual audit notes", protocol.manual_audit_notes, true) : ""}
+          ${renderCurationField("Research question", protocol.research_question, true, {
+            review_id: protocol.review_id,
+            section: "Protocol and eligibility",
+            item_type: "protocol_field",
+            item_id: `${protocol.review_id}:research_question`,
+            source_file: benchmarkSourceFile(protocol.review_id),
+            field_name: "research_question",
+            displayed_value: raw(protocol.research_question),
+          })}
+          ${renderCurationField("Inclusion criteria", protocol.eligibility_inclusion_criteria, true, {
+            review_id: protocol.review_id,
+            section: "Protocol and eligibility",
+            item_type: "protocol_field",
+            item_id: `${protocol.review_id}:eligibility_inclusion_criteria`,
+            source_file: benchmarkSourceFile(protocol.review_id),
+            field_name: "eligibility_inclusion_criteria",
+            displayed_value: raw(protocol.eligibility_inclusion_criteria),
+          })}
+          ${renderCurationField("Exclusion criteria", protocol.eligibility_exclusion_criteria, true, {
+            review_id: protocol.review_id,
+            section: "Protocol and eligibility",
+            item_type: "protocol_field",
+            item_id: `${protocol.review_id}:eligibility_exclusion_criteria`,
+            source_file: benchmarkSourceFile(protocol.review_id),
+            field_name: "eligibility_exclusion_criteria",
+            displayed_value: raw(protocol.eligibility_exclusion_criteria),
+          })}
         </div>
       </section>
     `;
@@ -1898,8 +2387,8 @@
       <section class="panel reproduced-meta-panel" id="reproduced-meta-analysis">
         <div class="section-head">
           <div>
-            <h2>Reproduced Meta-Analysis</h2>
-            <p class="muted">Rendered from provisional_data/analysis_reproduced_results_first_pass.tsv and analysis_reproduced_forest_plots_first_pass.json. Totals use CI-derived inverse-variance pooling from extracted study-level effects.</p>
+            <h2>Reproduced</h2>
+            <p class="muted">${escapeHtml(benchmarkSourceLabel(review))} Totals use CI-derived inverse-variance pooling from extracted study-level effects.</p>
           </div>
           <div class="muted">${rows.length ? `${rows.length} subset rows` : "No rows"}</div>
         </div>
@@ -1945,12 +2434,14 @@
   function renderStudyDataFields(row) {
     if (row.data_type === "dichotomous") {
       return `
+        <div class="data-type-line"><span class="data-type-chip">Dichotomous</span></div>
         <div>${display(row.arm1_label)}: ${display(row.arm1_events)}/${display(row.arm1_total)}</div>
         <div>${display(row.arm2_label)}: ${display(row.arm2_events)}/${display(row.arm2_total)}</div>
       `;
     }
     if (row.data_type === "continuous") {
       return `
+        <div class="data-type-line"><span class="data-type-chip">Continuous</span></div>
         <div>${display(row.arm1_label)}: mean ${display(row.arm1_mean)}, SD ${display(row.arm1_sd)}, n ${display(row.arm1_total)}</div>
         <div>${display(row.arm2_label)}: mean ${display(row.arm2_mean)}, SD ${display(row.arm2_sd)}, n ${display(row.arm2_total)}</div>
       `;
@@ -1960,10 +2451,7 @@
 
   function renderStudyEffect(row) {
     const effect = raw(row.effect) ? `${row.effect} [${row.ci_lower}, ${row.ci_upper}]` : "";
-    return `
-      <div>${display(effect)}</div>
-      <div class="muted">weight ${display(row.weight)}${raw(row.weight) ? "%" : ""}; ${display(row.row_result_status)}</div>
-    `;
+    return `<div>${display(effect)}</div>`;
   }
 
   function groupStudyRowsByAnalysis(rows) {
@@ -2004,21 +2492,32 @@
     const overallCi = overallEffect || ciLower || ciUpper
       ? `${overallEffect || "?"} [${ciLower || "?"}, ${ciUpper || "?"}]`
       : "";
-    const extractionStatus = raw(analysisMeta.extraction_status);
+    const outcomeTitle = raw(analysisMeta.outcome || first.outcome);
+    const displayedValue = [
+      ["outcome", outcomeTitle],
+      ["comparison", comparisonLabel],
+      ["measure", effectMeasure],
+      ["overall_ci", overallCi],
+    ].map(([field, value]) => `${field}: ${value || ""}`).join("\n");
     return `
-      <div>
+      <div class="analysis-summary-layout">
         <strong>Analysis ${display(first.analysis_id)}</strong>
-        <div>${display(analysisMeta.outcome || first.outcome)}</div>
-        ${comparisonLabel ? `
-          <div class="analysis-comparison-summary">
-            <span class="field-label">Comparison</span>
-            <span>${display(comparisonLabel)}</span>
+        <div class="analysis-summary-bottom">
+          <div class="analysis-study-group-meta analysis-summary-fields">
+            <span><strong>Outcome:</strong> ${display(outcomeTitle)}</span>
+            <span><strong>Comparison:</strong> ${display(comparisonLabel)}</span>
+            <span><strong>Measure:</strong> ${display(effectMeasure)}</span>
+            <span><strong>Overall CI:</strong> ${display(overallCi)}</span>
           </div>
-        ` : ""}
-        <div class="analysis-study-group-meta">
-          ${effectMeasure ? `<span><strong>Measure:</strong> ${display(effectMeasure)}</span>` : ""}
-          ${overallCi ? `<span><strong>Overall CI:</strong> ${display(overallCi)}</span>` : ""}
-          ${extractionStatus ? `<span><strong>Status:</strong> <span class="status-chip ${sourceStatusClass(extractionStatus)}">${display(extractionStatus)}</span></span>` : ""}
+          ${renderAuditIssueActions({
+            review_id: first.review_id || analysisMeta.review_id,
+            section: "Meta analysis",
+            item_type: "analysis_summary",
+            item_id: `${first.review_id || analysisMeta.review_id || ""}:analysis_${first.analysis_id || analysisMeta.analysis_id || ""}`,
+            source_file: benchmarkSourceFile(first.review_id || analysisMeta.review_id),
+            field_name: "analysis_summary",
+            displayed_value: displayedValue,
+          }, "analysis-summary-audit-actions")}
         </div>
       </div>
     `;
@@ -2035,7 +2534,7 @@
               <th>Data fields</th>
               <th>Effect</th>
               <th>Risk of bias</th>
-              <th>Status</th>
+              <th>Audit</th>
             </tr>
           </thead>
           <tbody>
@@ -2053,8 +2552,15 @@
                 <td>${renderStudyEffect(row)}</td>
                 <td>${renderRiskOfBiasCell(row)}</td>
                 <td>
-                  <span class="status-chip ${sourceStatusClass(row.row_extraction_status)}">${display(row.row_extraction_status)}</span>
-                  <div class="muted">${display(row.row_extraction_notes, "")}</div>
+                  ${renderAuditIssueActions({
+                    review_id: row.review_id,
+                    section: "Meta analysis",
+                    item_type: "analysis_study_row",
+                    item_id: `${row.review_id || ""}:analysis_${row.analysis_id || ""}:study_${row.study_order || row.study_label_raw || ""}`,
+                    source_file: benchmarkSourceFile(row.review_id),
+                    field_name: "analysis_study_row",
+                    displayed_value: analysisStudyRowAuditDisplayedValue(row),
+                  }, "table-audit-actions")}
                 </td>
               </tr>
             `).join("")}
@@ -2073,19 +2579,19 @@
       <section class="panel analysis-study-rows-panel" id="analysis-study-rows">
         <div class="section-head">
           <div>
-            <h2>Forest Plots</h2>
-            <p class="muted">Rendered from provisional_data/analysis_study_rows_first_pass.tsv, with effect-measure and overall-CI metadata from provisional_data/analysis_results_first_pass.tsv and row-level RoB symbols from provisional_data/analysis_risk_of_bias_rows_first_pass.tsv when available.</p>
+            <h2>Meta Analysis</h2>
+            <p class="muted">${escapeHtml(benchmarkSourceLabel(review))} Includes effect-measure, overall-CI, study-row, and row-level RoB data when available.</p>
           </div>
           <div class="muted">${rows.length ? `${rows.length} rows` : "No rows"}</div>
         </div>
         ${rows.length ? `
+          ${renderRiskOfBiasLegend(rows)}
           <div class="analysis-study-group-list">
             ${groupStudyRowsByAnalysis(rows).map(([analysisId, analysisRows]) => `
               <section class="analysis-study-group" id="${analysisStudyRowsId(analysisId)}">
                 <div class="analysis-study-group-head">
                   ${analysisSummaryForStudyRows(analysisRows, analysisMetaById.get(raw(analysisId)) || {})}
                 </div>
-                ${renderRiskOfBiasLegend(analysisRows)}
                 ${renderAnalysisStudyRowsTable(analysisRows)}
               </section>
             `).join("")}
@@ -2286,11 +2792,11 @@
     `;
   }
 
-  function trialSummaryText(studies) {
+  function trialSummaryText(studies, noun = "trials") {
     const total = studies.length;
     const withPmid = studies.filter((study) => isYes(study.has_pubmed)).length;
     const withPmcid = studies.filter((study) => isYes(study.has_pmc)).length;
-    return `${total} trials; ${withPmid} with PMID; ${withPmcid} with PMCID`;
+    return `${total} ${noun}; ${withPmid} with PMID; ${withPmcid} with PMCID`;
   }
 
   function renderIncludedTrialsTable(review) {
@@ -2300,16 +2806,71 @@
         <div class="section-head">
           <div>
             <h2>Included trials</h2>
-            <p class="muted">Rendered from provisional_data/included_study_indexing.tsv.</p>
+            <p class="muted">${escapeHtml(benchmarkSourceLabel(review))}</p>
           </div>
           <div class="section-summary">${escapeHtml(trialSummaryText(studies))}</div>
         </div>
-        <div class="record-table-wrap trial-summary-table">
+        ${studies.length ? `
+          <div class="record-table-wrap trial-summary-table">
+            <table>
+              ${renderTrialSummaryColgroup()}
+              <thead>
+                <tr>
+                  <th>Trial</th>
+                  <th>PMID record</th>
+                  <th>PMC record</th>
+                  <th>Matched PMIDs</th>
+                  <th>PMCIDs</th>
+                  <th>Registry</th>
+                  <th>Source records</th>
+                </tr>
+              </thead>
+              <tbody>
+                ${studies.map((study) => `
+                  <tr class="${state.selectedTrialSource === "included" && String(study._rowIndex) === String(state.selectedTrialRowIndex) ? "selected-trial-row" : ""}">
+                    <td>
+                      <button class="table-review-link trial-detail-link" type="button" data-trial-row-index="${escapeHtml(study._rowIndex)}" data-trial-source="included">
+                        ${escapeHtml(study.study_label || "Unnamed study")}
+                      </button>
+                    </td>
+                    <td>${renderFoundCell(isYes(study.has_pubmed), "PMID")}</td>
+                    <td>${renderFoundCell(isYes(study.has_pmc), "PMCID")}</td>
+                    <td>${renderCompactLinks(study.matched_pmids, "pmid")}</td>
+                    <td>${renderCompactLinks(study.pmcids, "pmcid")}</td>
+                    <td>${renderRegistryLinks(study)}</td>
+                    <td>${renderSourceRecordCoverage(study)}</td>
+                  </tr>
+                `).join("")}
+              </tbody>
+            </table>
+          </div>
+        ` : `
+          <p class="muted excerpt">No included-trial rows were loaded for this review.</p>
+        `}
+      </section>
+    `;
+  }
+
+  function renderReferenceCandidatesTable(review) {
+    const studies = review._referenceCandidates || [];
+    if (!studies.length) {
+      return "";
+    }
+    return `
+      <section class="panel trial-summary-panel reference-candidate-panel" id="reference-candidates">
+        <div class="section-head">
+          <div>
+            <h2>Reference candidates</h2>
+            <p class="muted">${escapeHtml(benchmarkSourceLabel(review))}</p>
+          </div>
+          <div class="section-summary">${escapeHtml(trialSummaryText(studies, "candidates"))}</div>
+        </div>
+        <div class="record-table-wrap trial-summary-table reference-candidate-table">
           <table>
             ${renderTrialSummaryColgroup()}
             <thead>
               <tr>
-                <th>Trial</th>
+                <th>Reference</th>
                 <th>PMID record</th>
                 <th>PMC record</th>
                 <th>Matched PMIDs</th>
@@ -2320,10 +2881,10 @@
             </thead>
             <tbody>
               ${studies.map((study) => `
-                <tr class="${state.selectedTrialSource === "included" && String(study._rowIndex) === String(state.selectedTrialRowIndex) ? "selected-trial-row" : ""}">
+                <tr class="${state.selectedTrialSource === "candidate" && String(study._rowIndex) === String(state.selectedTrialRowIndex) ? "selected-trial-row" : ""}">
                   <td>
-                    <button class="table-review-link trial-detail-link" type="button" data-trial-row-index="${escapeHtml(study._rowIndex)}" data-trial-source="included">
-                      ${escapeHtml(study.study_label || "Unnamed study")}
+                    <button class="table-review-link trial-detail-link" type="button" data-trial-row-index="${escapeHtml(study._rowIndex)}" data-trial-source="candidate">
+                      ${escapeHtml(study.study_label || "Unnamed reference")}
                     </button>
                   </td>
                   <td>${renderFoundCell(isYes(study.has_pubmed), "PMID")}</td>
@@ -2349,7 +2910,7 @@
         <div class="section-head">
           <div>
             <h2>Excluded trials</h2>
-            <p class="muted">Rendered from provisional_data/excluded_study_indexing.tsv.</p>
+            <p class="muted">${escapeHtml(benchmarkSourceLabel(review))}</p>
           </div>
           <div class="section-summary">${escapeHtml(trialSummaryText(studies))}</div>
         </div>
@@ -2397,7 +2958,7 @@
   function renderRawRows(row) {
     return `
       <details>
-        <summary>Show raw TSV row</summary>
+        <summary>Show raw benchmark row</summary>
         <div class="raw-table-wrap">
           <table>
             <tbody>
@@ -2428,10 +2989,11 @@
     `;
   }
 
-  function renderRecords(study) {
+  function renderRecords(study, source = "included") {
     const records = study._records || [];
+    const entity = source === "candidate" ? "reference" : "trial";
     if (!records.length) {
-      return `<p class="muted excerpt">No PMID-level rows are available for this trial.</p>`;
+      return `<p class="muted excerpt">No PMID-level rows are available for this ${entity}.</p>`;
     }
 
     return `
@@ -2445,6 +3007,7 @@
               <th>Journal / year</th>
               <th>DOI</th>
               <th>Method</th>
+              <th>Audit</th>
             </tr>
           </thead>
           <tbody>
@@ -2456,6 +3019,26 @@
                 <td>${display(record.journal)}<br><span class="muted">${display(record.year, "No year")}</span></td>
                 <td>${raw(record.doi) ? `<a href="https://doi.org/${encodeURI(raw(record.doi))}" target="_blank" rel="noopener noreferrer">${display(record.doi)}</a>` : display(record.doi)}</td>
                 <td>${display(record.match_methods)}</td>
+                <td>
+                  ${renderAuditIssueActions({
+                    review_id: record.review_id,
+                    section: "References",
+                    item_type: "pubmed_record",
+                    item_id: `${record.review_id || ""}:${record.study_label || ""}:pmid_${record.pmid || ""}`,
+                    source_file: benchmarkSourceFile(record.review_id),
+                    field_name: "pubmed_record",
+                    displayed_value: auditDisplayedValue(record, [
+                      "study_label",
+                      "pmid",
+                      "pmcid",
+                      "title",
+                      "journal",
+                      "year",
+                      "doi",
+                      "match_methods",
+                    ]),
+                  }, "table-audit-actions")}
+                </td>
               </tr>
             `).join("")}
           </tbody>
@@ -2464,10 +3047,11 @@
     `;
   }
 
-  function renderReportCandidates(study) {
+  function renderReportCandidates(study, source = "included") {
     const reports = study._reports || [];
+    const entity = source === "candidate" ? "reference" : "trial";
     if (!reports.length) {
-      return `<p class="muted excerpt">No report-candidate rows are available for this trial.</p>`;
+      return `<p class="muted excerpt">No report-candidate rows are available for this ${entity}.</p>`;
     }
 
     return `
@@ -2481,6 +3065,7 @@
               <th>Lookup method</th>
               <th>Lookup notes</th>
               <th>Matched PubMed titles</th>
+              <th>Audit</th>
             </tr>
           </thead>
           <tbody>
@@ -2496,6 +3081,28 @@
                 <td>${display(report.lookup_methods)}</td>
                 <td>${display(report.lookup_errors)}</td>
                 <td>${display(report.pubmed_titles)}</td>
+                <td>
+                  ${renderAuditIssueActions({
+                    review_id: report.review_id,
+                    section: "References",
+                    item_type: "report_candidate",
+                    item_id: `${report.review_id || ""}:${report.study_label || ""}:report_${report.report_index || ""}`,
+                    source_file: benchmarkSourceFile(report.review_id),
+                    field_name: "report_candidate",
+                    displayed_value: auditDisplayedValue(report, [
+                      "study_label",
+                      "report_index",
+                      "candidate_type",
+                      "candidate_text",
+                      "query_text",
+                      "matched_pmids",
+                      "pmcids",
+                      "lookup_methods",
+                      "lookup_errors",
+                      "pubmed_titles",
+                    ]),
+                  }, "table-audit-actions")}
+                </td>
               </tr>
             `).join("")}
           </tbody>
@@ -2504,7 +3111,7 @@
     `;
   }
 
-  function renderTrialRegistryRecords(study) {
+  function renderTrialRegistryRecords(study, source = "included") {
     const registries = study._registries || [];
     if (!registries.length) {
       return "";
@@ -2520,6 +3127,7 @@
               <th>Source</th>
               <th>Status</th>
               <th>Notes</th>
+              <th>Audit</th>
             </tr>
           </thead>
           <tbody>
@@ -2530,6 +3138,25 @@
                 <td>${display(registry.source)}</td>
                 <td>${display(registry.lookup_status)}</td>
                 <td>${display(registry.notes)}</td>
+                <td>
+                  ${renderAuditIssueActions({
+                    review_id: registry.review_id,
+                    section: "References",
+                    item_type: "trial_registry_record",
+                    item_id: `${registry.review_id || ""}:${registry.study_label || ""}:${registryIdForRow(registry) || ""}`,
+                    source_file: benchmarkSourceFile(registry.review_id),
+                    field_name: "trial_registry_record",
+                    displayed_value: auditDisplayedValue(registry, [
+                      "study_label",
+                      "registry_id",
+                      "nct_id",
+                      "registry_type",
+                      "source",
+                      "lookup_status",
+                      "notes",
+                    ]),
+                  }, "table-audit-actions")}
+                </td>
               </tr>
             `).join("")}
           </tbody>
@@ -2540,20 +3167,48 @@
 
   function renderTrialDetailCard(study, source = "included") {
     const status = trialStatus(study);
-    const sourceFile = source === "excluded"
-      ? "provisional_data/excluded_study_indexing.tsv"
-      : "provisional_data/included_study_indexing.tsv";
+    const sourceFile = benchmarkSourceFile(study.review_id);
+    const sectionLabel = source === "excluded"
+      ? "Excluded trials"
+      : (source === "candidate" ? "Reference candidates" : "Included trials");
+    const itemType = source === "excluded"
+      ? "excluded_trial"
+      : (source === "candidate" ? "reference_candidate" : "included_trial");
+    const unnamedLabel = source === "candidate" ? "Unnamed reference" : "Unnamed study";
     return `
       <article class="trial-card ${trialCardClass(study)}" id="trial-${source}-${study._rowIndex}" data-trial-detail>
         <div class="trial-head">
           <div>
             <div class="trial-title">
-              <h3>${escapeHtml(study.study_label || "Unnamed study")}</h3>
+              <h3>${escapeHtml(study.study_label || unnamedLabel)}</h3>
               <span class="muted">${display(study.reference_status, "No reference status")}</span>
             </div>
-            <p class="muted">Row ${study._rowIndex} in ${sourceFile}</p>
+            <p class="muted">Row ${study._rowIndex} in ${escapeHtml(sourceFile)}</p>
           </div>
-          <span class="status-chip ${status.className}">${escapeHtml(status.label)}</span>
+          <div class="trial-head-actions">
+            <span class="status-chip ${status.className}">${escapeHtml(status.label)}</span>
+            ${renderAuditIssueActions({
+              review_id: study.review_id,
+              section: sectionLabel,
+              item_type: itemType,
+              item_id: `${study.review_id || ""}:${study.study_label || ""}:row_${study._rowIndex || ""}`,
+              source_file: sourceFile,
+              field_name: "study_block",
+              displayed_value: auditDisplayedValue(study, [
+                "study_label",
+                "reference_status",
+                "explicit_pmids",
+                "dois",
+                "nct_ids",
+                "trial_registry_ids",
+                "matched_pmids",
+                "pmcids",
+                "lookup_methods",
+                "lookup_errors",
+                "reference_excerpt",
+              ]),
+            }, "inline-audit-actions")}
+          </div>
         </div>
 
         <div class="field-grid">
@@ -2572,9 +3227,9 @@
           <div>${display(study.reference_excerpt, "No excerpt")}</div>
         </div>
 
-        ${renderTrialRegistryRecords(study)}
-        ${renderReportCandidates(study)}
-        ${renderRecords(study)}
+        ${renderTrialRegistryRecords(study, source)}
+        ${renderReportCandidates(study, source)}
+        ${renderRecords(study, source)}
         ${renderRawRows(study)}
       </article>
     `;
@@ -2583,7 +3238,7 @@
   function renderSelectedTrialDetail(review) {
     const selectedRows = state.selectedTrialSource === "excluded"
       ? (review._excludedStudies || [])
-      : (review._studies || []);
+      : (state.selectedTrialSource === "candidate" ? (review._referenceCandidates || []) : (review._studies || []));
     const selectedStudy = selectedRows.find((study) => String(study._rowIndex) === String(state.selectedTrialRowIndex));
     if (!selectedStudy) {
       return "";
@@ -2596,7 +3251,7 @@
   }
 
   function renderReview(reviews) {
-    const review = reviews.find((item) => item.review_id === state.selectedReviewId);
+    const review = selectedReview(reviews);
     if (!review) {
       return `
         <div class="content-stack">
@@ -2611,16 +3266,20 @@
     return `
       <div class="content-stack">
         ${renderReviewHeader(review)}
-        ${renderReviewCurationPanel(review)}
         ${renderProtocolEligibilityPanel(review)}
         ${renderTrialsPlaceholder()}
         ${renderIncludedTrialsTable(review)}
         ${renderExcludedTrialsTable(review)}
+        ${renderReferenceCandidatesTable(review)}
         ${renderSelectedTrialDetail(review)}
         ${renderAnalysisStudyRowsPanel(review)}
         ${renderReproducedMetaAnalysisPanel(review)}
       </div>
     `;
+  }
+
+  function selectedReview(reviews) {
+    return reviews.find((item) => item.review_id === state.selectedReviewId);
   }
 
   function bindEvents(reviews) {
@@ -2689,11 +3348,167 @@
       });
     });
 
+    document.querySelectorAll("[data-audit-report]").forEach((button) => {
+      button.addEventListener("click", (event) => {
+        event.preventDefault();
+        event.stopPropagation();
+        state.auditModalContext = parseAuditContext(button.getAttribute("data-audit-context"));
+        state.auditReviewOpen = false;
+        state.auditEditingFindingId = "";
+        render();
+      });
+    });
+
+    document.querySelectorAll("[data-audit-review-findings]").forEach((button) => {
+      button.addEventListener("click", (event) => {
+        event.preventDefault();
+        event.stopPropagation();
+        if (!state.auditFindings.length) {
+          return;
+        }
+        state.auditModalContext = null;
+        state.auditReviewOpen = true;
+        state.auditEditingFindingId = "";
+        render();
+      });
+    });
+
+    document.querySelectorAll("[data-audit-export]").forEach((button) => {
+      button.addEventListener("click", (event) => {
+        event.preventDefault();
+        event.stopPropagation();
+        exportAuditFindings(button.getAttribute("data-audit-export") || "tsv");
+      });
+    });
+
+    document.querySelectorAll("[data-audit-import-file]").forEach((input) => {
+      input.addEventListener("change", (event) => {
+        event.preventDefault();
+        event.stopPropagation();
+        importAuditFindingsFile(input.files?.[0]);
+      });
+    });
+
+    document.querySelectorAll("[data-audit-clear]").forEach((button) => {
+      button.addEventListener("click", (event) => {
+        event.preventDefault();
+        event.stopPropagation();
+        if (!state.auditFindings.length) {
+          return;
+        }
+        if (window.confirm("Clear all audit findings saved in this browser? Export first if you need to keep them.")) {
+          state.auditFindings = [];
+          saveAuditFindings();
+          state.auditReviewOpen = false;
+          state.auditEditingFindingId = "";
+          state.auditMessage = "Cleared local audit findings.";
+          render();
+        }
+      });
+    });
+
+    document.querySelectorAll("[data-audit-close]").forEach((button) => {
+      button.addEventListener("click", (event) => {
+        event.preventDefault();
+        event.stopPropagation();
+        state.auditModalContext = null;
+        state.auditReviewOpen = false;
+        state.auditEditingFindingId = "";
+        render();
+      });
+    });
+
+    document.querySelectorAll("[data-audit-edit-finding]").forEach((button) => {
+      button.addEventListener("click", (event) => {
+        event.preventDefault();
+        event.stopPropagation();
+        const findingId = button.getAttribute("data-audit-edit-finding") || "";
+        const finding = state.auditFindings.find((candidate) => candidate.finding_id === findingId);
+        if (!finding) {
+          state.auditMessage = "Could not find that local audit finding.";
+          render();
+          return;
+        }
+        state.auditEditingFindingId = finding.finding_id;
+        state.auditModalContext = auditContextFromFinding(finding);
+        state.auditReviewOpen = false;
+        render();
+      });
+    });
+
+    document.querySelectorAll("[data-audit-delete-finding]").forEach((button) => {
+      button.addEventListener("click", (event) => {
+        event.preventDefault();
+        event.stopPropagation();
+        const findingId = button.getAttribute("data-audit-delete-finding") || "";
+        if (!findingId) {
+          return;
+        }
+        if (window.confirm("Delete this local audit finding?")) {
+          state.auditFindings = state.auditFindings.filter((finding) => finding.finding_id !== findingId);
+          saveAuditFindings();
+          if (state.auditEditingFindingId === findingId) {
+            state.auditEditingFindingId = "";
+            state.auditModalContext = null;
+          }
+          state.auditMessage = "Deleted audit finding.";
+          render();
+        }
+      });
+    });
+
+    document.querySelectorAll("[data-audit-form]").forEach((form) => {
+      form.addEventListener("submit", (event) => {
+        event.preventDefault();
+        event.stopPropagation();
+        const context = state.auditModalContext || {};
+        const formData = new FormData(form);
+        const reviewer = raw(formData.get("reviewer"));
+        const sourceEvidence = raw(formData.get("source_evidence"));
+        const existingFinding = state.auditEditingFindingId
+          ? state.auditFindings.find((finding) => finding.finding_id === state.auditEditingFindingId)
+          : null;
+        saveReviewerName(reviewer);
+        const finding = normalizeAuditFinding({
+          finding_id: existingFinding?.finding_id || `finding_${Date.now()}_${Math.random().toString(36).slice(2, 8)}`,
+          created_at: existingFinding?.created_at || new Date().toISOString(),
+          review_id: context.review_id || state.selectedReviewId,
+          section: context.section,
+          item_type: context.item_type,
+          item_id: context.item_id,
+          source_file: context.source_file,
+          field_name: context.field_name,
+          displayed_value: context.displayed_value,
+          issue_type: formData.get("issue_type"),
+          correct_value: formData.get("correct_value"),
+          source_location: "",
+          source_excerpt: sourceEvidence,
+          notes: formData.get("notes"),
+          reviewer,
+          status: existingFinding?.status || "open",
+        });
+        if (existingFinding) {
+          state.auditFindings = state.auditFindings.map((candidate) => (
+            candidate.finding_id === existingFinding.finding_id ? finding : candidate
+          ));
+        } else {
+          state.auditFindings = [...state.auditFindings, finding];
+        }
+        saveAuditFindings();
+        state.auditModalContext = null;
+        state.auditEditingFindingId = "";
+        state.auditReviewOpen = Boolean(existingFinding);
+        state.auditMessage = existingFinding ? "Updated audit finding." : "Saved audit finding.";
+        render();
+      });
+    });
+
     setupReviewTocScrollSpy();
   }
 
   function visibleReviewTocSectionIds() {
-    return reviewTocItems()
+    const review = selectedReview(currentReviews);
+    return reviewTocItems(review)
       .map((item) => item.href.replace(/^#/, ""))
       .filter((id) => document.getElementById(id));
   }
@@ -2775,6 +3590,7 @@
 
   function render() {
     const reviews = prepareData();
+    currentReviews = reviews;
     const hashId = decodeURIComponent(window.location.hash.replace(/^#/, ""));
     if (hashId && reviews.some((review) => review.review_id === hashId)) {
       if (state.selectedReviewId !== hashId) {
@@ -2791,6 +3607,8 @@
     app.innerHTML = `
       ${renderSidebar(reviews)}
       ${state.view === "home" ? renderHome(reviews) : renderReview(reviews)}
+      ${renderAuditModal()}
+      ${renderAuditFindingsReviewModal()}
     `;
     bindEvents(reviews);
   }
@@ -2798,7 +3616,7 @@
   function renderError(error) {
     app.innerHTML = `
       <section class="error-state">
-        <h2>Could not load the TSV files</h2>
+        <h2>Could not load the benchmark data</h2>
         <p>${escapeHtml(error.message || error)}</p>
         <p class="muted">Serve the repository root with a local web server, then open /Cochrane_reviews/audit_site/.</p>
       </section>
@@ -2807,11 +3625,10 @@
 
   async function init() {
     try {
-      const loaded = await Promise.all(SOURCE_FILES.map(loadSource));
-      loaded.forEach((file) => {
-        state.files[file.key] = file;
-        state.rows[file.key] = file.rows;
-      });
+      const loaded = await loadBenchmarkData();
+      state.files = loaded.files;
+      state.rows = loaded.rows;
+      loadAuditFindings();
       render();
     } catch (error) {
       renderError(error);
