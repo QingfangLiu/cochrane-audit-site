@@ -149,6 +149,12 @@
     return raw(row.review_title) || raw(row.extracted_title) || raw(row.pubmed_title) || sentenceCaseId(row.review_id || row.review_pdf || "Review");
   }
 
+  function reviewCode(review) {
+    const text = raw(review?.review_id) || raw(review?.review_pdf) || "Review";
+    const match = text.match(/CD\d+/i);
+    return match ? match[0].toUpperCase() : text;
+  }
+
   function reviewIdFromPath(path) {
     return String(path || "")
       .split("/")
@@ -796,7 +802,7 @@
             </div>
             <label class="audit-form-field audit-displayed-value-field">
               <span>Displayed value</span>
-              <textarea readonly>${escapeHtml(context.displayed_value || "")}</textarea>
+              <textarea data-audit-displayed-value readonly>${escapeHtml(context.displayed_value || "")}</textarea>
             </label>
             <div class="audit-form-grid">
               <label class="audit-form-field">
@@ -811,8 +817,14 @@
               </label>
             </div>
             <label class="audit-form-field">
-              <span>Correct value</span>
-              <textarea name="correct_value" placeholder="Enter the corrected value, or leave blank if not applicable.">${escapeHtml(editingFinding?.correct_value || "")}</textarea>
+              <span class="audit-field-label-row">
+                <span>Correct value</span>
+                <span class="audit-field-actions">
+                  <button class="small-button" type="button" data-audit-copy-displayed>Copy displayed</button>
+                  <button class="small-button" type="button" data-audit-clear-correct>Clear</button>
+                </span>
+              </span>
+              <textarea name="correct_value" data-audit-correct-value placeholder="Enter the corrected value, or leave blank if not applicable.">${escapeHtml(editingFinding?.correct_value || "")}</textarea>
             </label>
             <label class="audit-form-field">
               <span>Source evidence</span>
@@ -1711,7 +1723,8 @@
           <div class="review-list">
             ${reviews.map((review) => `
               <button class="review-button${state.view === "review" && review.review_id === state.selectedReviewId ? " active" : ""}" type="button" data-review-id="${escapeHtml(review.review_id)}">
-                <span class="review-title">${escapeHtml(review._title)}</span>
+                <span class="review-title">${escapeHtml(reviewCode(review))}</span>
+                ${raw(review._title) && raw(review._title) !== reviewCode(review) ? `<span class="review-button-subtitle">${escapeHtml(review._title)}</span>` : ""}
               </button>
               ${state.view === "review" && review.review_id === state.selectedReviewId && state.reviewTocOpen ? renderReviewToc(review) : ""}
             `).join("") || `<div class="empty-state">No reviews loaded.</div>`}
@@ -3441,6 +3454,32 @@
           }
           state.auditMessage = "Deleted audit finding.";
           render();
+        }
+      });
+    });
+
+    document.querySelectorAll("[data-audit-copy-displayed]").forEach((button) => {
+      button.addEventListener("click", (event) => {
+        event.preventDefault();
+        event.stopPropagation();
+        const form = button.closest("[data-audit-form]");
+        const correctValue = form?.querySelector("[data-audit-correct-value]");
+        const displayedValue = form?.querySelector("[data-audit-displayed-value]")?.value || "";
+        if (correctValue) {
+          correctValue.value = displayedValue;
+          correctValue.focus();
+        }
+      });
+    });
+
+    document.querySelectorAll("[data-audit-clear-correct]").forEach((button) => {
+      button.addEventListener("click", (event) => {
+        event.preventDefault();
+        event.stopPropagation();
+        const correctValue = button.closest("[data-audit-form]")?.querySelector("[data-audit-correct-value]");
+        if (correctValue) {
+          correctValue.value = "";
+          correctValue.focus();
         }
       });
     });

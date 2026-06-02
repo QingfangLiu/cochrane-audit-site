@@ -206,7 +206,6 @@ h4 {
 }
 
 .tab-button.active,
-.review-button.active,
 .small-button:hover {
   border-color: var(--ink);
   background: var(--ink);
@@ -225,9 +224,30 @@ h4 {
   text-align: left;
 }
 
+.review-button:hover,
+.review-button.active {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.review-button.active {
+  box-shadow: inset 3px 0 0 var(--accent);
+}
+
 .review-title {
   display: block;
   font-weight: 800;
+  line-height: 1.25;
+  overflow-wrap: anywhere;
+}
+
+.review-button-subtitle {
+  display: block;
+  margin-top: 5px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
   line-height: 1.25;
   overflow-wrap: anywhere;
 }
@@ -239,8 +259,9 @@ h4 {
   font-size: 12px;
 }
 
+.review-button.active .review-button-subtitle,
 .review-button.active .review-meta {
-  color: rgba(255, 255, 255, 0.75);
+  color: var(--muted);
 }
 
 .review-toc-inline {
@@ -1703,6 +1724,25 @@ summary {
   font-weight: 800;
   letter-spacing: 0.04em;
   text-transform: uppercase;
+}
+
+.audit-field-label-row {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.audit-field-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  justify-content: flex-end;
+}
+
+.audit-field-actions .small-button {
+  min-height: 30px;
+  padding: 4px 10px;
 }
 
 .audit-form-field input,
