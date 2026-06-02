@@ -1,0 +1,9 @@
+{
+  "artifact_version": "2026-06-02-review-benchmark-v1",
+  "review_id": "CD014811_loop_diuretics_hf",
+  "status": "draft_extracted",
+  "generated_at": "2026-06-02T14:01:19+00:00",
+  "benchmark_path": "benchmark.json",
+  "audit_findings_path": "audit_findings.tsv",
+  "notes": ""
+}

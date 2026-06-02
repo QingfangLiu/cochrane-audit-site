@@ -1,0 +1,16 @@
+﻿Study,Arm,Description,Intervention
+Hansen 2023,Control,No NIRS  monitoring plus standard care,Control
+Hansen 2023,Intervention,"Continous cerebral NIRS monitoring
+",Intervention
+Hyttel-Sorensen 2015,Control,Blinded cerebral NIRS  monitoring plus standard care,Control
+Hyttel-Sorensen 2015,Intervention,Continous cerebral NIRS monitoring,Intervention
+Pichler 2016,Control,No NIRS  monitoring plus standard care,Control
+Pichler 2016,Intervention,"Continous cerebral NIRS monitoring
+",Intervention
+Pichler 2018,Control,"Blinded cerebral NIRS  monitoring plus standard care
+",Control
+Pichler 2018,Intervention,Continous cerebral NIRS monitoring,Intervention
+Pichler 2023,Control,"Blinded cerebral NIRS  monitoring plus standard care
+",Control
+Pichler 2023,Intervention,"Continous cerebral NIRS monitoring
+",Intervention

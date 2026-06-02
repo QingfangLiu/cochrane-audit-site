@@ -1,0 +1,9 @@
+{
+  "artifact_version": "2026-06-02-review-benchmark-v1",
+  "review_id": "CD004366",
+  "status": "draft_extracted",
+  "generated_at": "2026-06-02T16:34:31+00:00",
+  "benchmark_path": "benchmark.json",
+  "audit_findings_path": "audit_findings.tsv",
+  "notes": ""
+}
