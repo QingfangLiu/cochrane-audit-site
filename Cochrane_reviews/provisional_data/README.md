@@ -10,7 +10,7 @@ Current files:
 
 - `review_curation_summary.tsv`: review-level triage and curation context.
 - `review_protocol_eligibility.tsv`: AI-prefilled, unverified research question, objective, population and intervention eligibility, and inclusion/exclusion fields.
-- `review_outcomes.tsv`: provisional planned/review-level outcome rows extracted from each review's `Types of outcome measures` section, with short `outcome_name` labels, full `outcome_text_raw` audit text, and heuristic links to saved analysis-result outcome labels when available.
+- `review_outcomes.tsv`: provisional outcome rows derived from saved Cochrane forest-plot analysis results, with short `outcome_name` labels and links to the contributing saved analysis-result rows.
 - `review_domain_source_raw.json`: raw domain-relevant metadata extracted from the Cochrane PDFs, including editorial group and Index Terms/MeSH fields when found.
 - `review_domain_labels_ai.json`: AI-generated, unverified clinical-domain labels derived from `review_domain_source_raw.json`.
 - `analysis_counts.tsv`: heuristic scan of Cochrane `Analysis X.Y` entries.
@@ -21,6 +21,8 @@ Current files:
 - `analysis_comparisons_first_pass.tsv`: provisional first-pass comparison families, automatic comparison-role labels, cleaned/canonical comparison labels, and parsed comparison arms derived from saved analysis-result rows.
 - `analysis_study_rows_first_pass.tsv`: provisional first-pass forest-plot study rows, cleaned/canonical comparison labels, matched reference blocks, per-arm data, weights, study-level effects, and PMID/PMCID coverage.
 - `analysis_study_rows_first_pass_raw.json`: selected raw analysis-block excerpts used to audit the forest-plot study-row extraction.
+- `analysis_risk_of_bias_rows_first_pass.tsv`: provisional first-pass row-level risk-of-bias symbols parsed from Cochrane forest-plot RoB columns and aligned to extracted forest-plot study rows by analysis ID and study order.
+- `analysis_risk_of_bias_rows_first_pass_raw.json`: per-analysis RoB symbol blocks, legends, extraction statuses, and source excerpts used to audit the row-level RoB extraction.
 - `analysis_reproduced_results_first_pass.tsv`: provisional first-pass reproduction checks for each saved analysis using `all_studies` and `pmcid_only` subsets, carrying the cleaned/canonical comparison labels and CI IoU against the Cochrane-reported overall CI forward.
 - `analysis_reproduced_forest_plots_first_pass.json`: structured forest-plot payloads for the reproduced totals shown in the audit website.
 - `pubmed_pmc_summary.tsv`: review-level PubMed/PMC indexing summary generated from PubMed HTML reference blocks.

@@ -1,0 +1,1982 @@
+{
+  "scope_groups": [
+    "first_pass"
+  ],
+  "source_analysis_study_rows": "/Users/liuq13/project-meta-analysis-agent/Cochrane_reviews/provisional_data/analysis_study_rows_first_pass.tsv",
+  "source_analysis_results_raw": "/Users/liuq13/project-meta-analysis-agent/Cochrane_reviews/provisional_data/analysis_results_first_pass_raw.json",
+  "rows": [
+    {
+      "review_id": "CD004508_early_feeding_gyn_surgery",
+      "analysis_id": "1.1",
+      "study_row_count": 4,
+      "rob_domain_count": 6,
+      "rob_domain_values": {
+        "A": [
+          "+",
+          "+",
+          "+",
+          "+"
+        ],
+        "B": [
+          "?",
+          "+",
+          "+",
+          "-"
+        ],
+        "C": [
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "D": [
+          "-",
+          "?",
+          "?",
+          "+"
+        ],
+        "E": [
+          "+",
+          "+",
+          "+",
+          "+"
+        ],
+        "F": [
+          "?",
+          "+",
+          "+",
+          "?"
+        ]
+      },
+      "rob_legend": {
+        "A": "Random sequence generation (selection bias)",
+        "B": "Allocation concealment (selection bias)",
+        "C": "Blinding of participants and personnel (performance bias)",
+        "D": "Blinding of outcome assessment (detection bias)",
+        "E": "Incomplete outcome data (attrition bias)",
+        "F": "Selective reporting (reporting bias)"
+      },
+      "rob_extraction_status": "extracted",
+      "rob_extraction_notes": [],
+      "source_excerpt": "A + + + +B ? + + -C - - - -D - ? ? +E + + + +F ? + + ? Risk of bias legend (A) Random sequence generation (selection bias) (B) Allocation concealment (selection bias) (C) Blinding of participants and personnel (performance bias) (D) Blinding of outcome assessment (detection bias) (E) Incomplete outcome data (attrition bias) (F) Selective reporting (reporting bias)"
+    },
+    {
+      "review_id": "CD004508_early_feeding_gyn_surgery",
+      "analysis_id": "1.2",
+      "study_row_count": 6,
+      "rob_domain_count": 6,
+      "rob_domain_values": {
+        "A": [
+          "+",
+          "+",
+          "+",
+          "+",
+          "+",
+          "+"
+        ],
+        "B": [
+          "+",
+          "+",
+          "?",
+          "+",
+          "+",
+          "+"
+        ],
+        "C": [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "D": [
+          "?",
+          "?",
+          "-",
+          "?",
+          "?",
+          "?"
+        ],
+        "E": [
+          "+",
+          "+",
+          "+",
+          "+",
+          "+",
+          "+"
+        ],
+        "F": [
+          "?",
+          "?",
+          "?",
+          "+",
+          "+",
+          "?"
+        ]
+      },
+      "rob_legend": {
+        "A": "Random sequence generation (selection bias)",
+        "B": "Allocation concealment (selection bias)",
+        "C": "Blinding of participants and personnel (performance bias)",
+        "D": "Blinding of outcome assessment (detection bias)",
+        "E": "Incomplete outcome data (attrition bias)",
+        "F": "Selective reporting (reporting bias) Early versus delayed oral feeding after major gynaecologic surgery (Review) Copyright \u00a9 2024 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.34 Cochrane LibraryTrusted evidence. Informed decisions. Better health. Cochrane Database of Systematic Reviews"
+      },
+      "rob_extraction_status": "extracted",
+      "rob_extraction_notes": [],
+      "source_excerpt": "A + + + + + +B + + ? + + +C - - - - - -D ? ? - ? ? ?E + + + + + +F ? ? ? + + ? Risk of bias legend (A) Random sequence generation (selection bias) (B) Allocation concealment (selection bias) (C) Blinding of participants and personnel (performance bias) (D) Blinding of outcome assessment (detection bias) (E) Incomplete outcome data (attrition bias) (F) Selective reporting (reporting bias) Early versus delayed oral feeding after major gynaecologic surgery (Review) Copyright \u00a9 2024 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.34 Cochrane LibraryTrusted evidence. Informed decisions. Better health. Cochrane Database of Systematic Reviews"
+    },
+    {
+      "review_id": "CD004508_early_feeding_gyn_surgery",
+      "analysis_id": "1.3",
+      "study_row_count": 3,
+      "rob_domain_count": 6,
+      "rob_domain_values": {
+        "A": [
+          "+",
+          "+",
+          "+"
+        ],
+        "B": [
+          "+",
+          "?",
+          "+"
+        ],
+        "C": [
+          "-",
+          "-",
+          "-"
+        ],
+        "D": [
+          "?",
+          "-",
+          "?"
+        ],
+        "E": [
+          "+",
+          "+",
+          "+"
+        ],
+        "F": [
+          "?",
+          "?",
+          "?"
+        ]
+      },
+      "rob_legend": {
+        "A": "Random sequence generation (selection bias)",
+        "B": "Allocation concealment (selection bias)",
+        "C": "Blinding of participants and personnel (performance bias)",
+        "D": "Blinding of outcome assessment (detection bias)",
+        "E": "Incomplete outcome data (attrition bias)",
+        "F": "Selective reporting (reporting bias)"
+      },
+      "rob_extraction_status": "extracted",
+      "rob_extraction_notes": [],
+      "source_excerpt": "A + + +B + ? +C - - -D ? - ?E + + +F ? ? ? Risk of bias legend (A) Random sequence generation (selection bias) (B) Allocation concealment (selection bias) (C) Blinding of participants and personnel (performance bias) (D) Blinding of outcome assessment (detection bias) (E) Incomplete outcome data (attrition bias) (F) Selective reporting (reporting bias)"
+    },
+    {
+      "review_id": "CD004508_early_feeding_gyn_surgery",
+      "analysis_id": "1.4",
+      "study_row_count": 4,
+      "rob_domain_count": 6,
+      "rob_domain_values": {
+        "A": [
+          "+",
+          "+",
+          "+",
+          "+"
+        ],
+        "B": [
+          "+",
+          "+",
+          "?",
+          "+"
+        ],
+        "C": [
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "D": [
+          "?",
+          "?",
+          "-",
+          "?"
+        ],
+        "E": [
+          "+",
+          "+",
+          "+",
+          "+"
+        ],
+        "F": [
+          "?",
+          "?",
+          "?",
+          "?"
+        ]
+      },
+      "rob_legend": {
+        "A": "Random sequence generation (selection bias)",
+        "B": "Allocation concealment (selection bias)",
+        "C": "Blinding of participants and personnel (performance bias)",
+        "D": "Blinding of outcome assessment (detection bias)",
+        "E": "Incomplete outcome data (attrition bias)",
+        "F": "Selective reporting (reporting bias) Early versus delayed oral feeding after major gynaecologic surgery (Review) Copyright \u00a9 2024 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.35 Cochrane LibraryTrusted evidence. Informed decisions. Better health. Cochrane Database of Systematic Reviews"
+      },
+      "rob_extraction_status": "extracted",
+      "rob_extraction_notes": [],
+      "source_excerpt": "A + + + +B + + ? +C - - - -D ? ? - ?E + + + +F ? ? ? ? Risk of bias legend (A) Random sequence generation (selection bias) (B) Allocation concealment (selection bias) (C) Blinding of participants and personnel (performance bias) (D) Blinding of outcome assessment (detection bias) (E) Incomplete outcome data (attrition bias) (F) Selective reporting (reporting bias) Early versus delayed oral feeding after major gynaecologic surgery (Review) Copyright \u00a9 2024 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.35 Cochrane LibraryTrusted evidence. Informed decisions. Better health. Cochrane Database of Systematic Reviews"
+    },
+    {
+      "review_id": "CD004508_early_feeding_gyn_surgery",
+      "analysis_id": "1.5",
+      "study_row_count": 4,
+      "rob_domain_count": 6,
+      "rob_domain_values": {
+        "A": [
+          "+",
+          "+",
+          "+",
+          "+"
+        ],
+        "B": [
+          "+",
+          "+",
+          "?",
+          "+"
+        ],
+        "C": [
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "D": [
+          "?",
+          "?",
+          "-",
+          "?"
+        ],
+        "E": [
+          "+",
+          "+",
+          "+",
+          "+"
+        ],
+        "F": [
+          "?",
+          "?",
+          "?",
+          "?"
+        ]
+      },
+      "rob_legend": {
+        "A": "Random sequence generation (selection bias)",
+        "B": "Allocation concealment (selection bias)",
+        "C": "Blinding of participants and personnel (performance bias)",
+        "D": "Blinding of outcome assessment (detection bias)",
+        "E": "Incomplete outcome data (attrition bias)",
+        "F": "Selective reporting (reporting bias)"
+      },
+      "rob_extraction_status": "extracted",
+      "rob_extraction_notes": [],
+      "source_excerpt": "A + + + +B + + ? +C - - - -D ? ? - ?E + + + +F ? ? ? ? Risk of bias legend (A) Random sequence generation (selection bias) (B) Allocation concealment (selection bias) (C) Blinding of participants and personnel (performance bias) (D) Blinding of outcome assessment (detection bias) (E) Incomplete outcome data (attrition bias) (F) Selective reporting (reporting bias)"
+    },
+    {
+      "review_id": "CD004508_early_feeding_gyn_surgery",
+      "analysis_id": "1.6",
+      "study_row_count": 3,
+      "rob_domain_count": 6,
+      "rob_domain_values": {
+        "A": [
+          "+",
+          "+",
+          "+"
+        ],
+        "B": [
+          "+",
+          "?",
+          "+"
+        ],
+        "C": [
+          "-",
+          "-",
+          "-"
+        ],
+        "D": [
+          "?",
+          "-",
+          "?"
+        ],
+        "E": [
+          "+",
+          "+",
+          "+"
+        ],
+        "F": [
+          "?",
+          "?",
+          "?"
+        ]
+      },
+      "rob_legend": {
+        "A": "Random sequence generation (selection bias)",
+        "B": "Allocation concealment (selection bias)",
+        "C": "Blinding of participants and personnel (performance bias)",
+        "D": "Blinding of outcome assessment (detection bias)",
+        "E": "Incomplete outcome data (attrition bias)",
+        "F": "Selective reporting (reporting bias) Early versus delayed oral feeding after major gynaecologic surgery (Review) Copyright \u00a9 2024 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.36 Cochrane LibraryTrusted evidence. Informed decisions. Better health. Cochrane Database of Systematic Reviews"
+      },
+      "rob_extraction_status": "extracted",
+      "rob_extraction_notes": [],
+      "source_excerpt": "A + + +B + ? +C - - -D ? - ?E + + +F ? ? ? Risk of bias legend (A) Random sequence generation (selection bias) (B) Allocation concealment (selection bias) (C) Blinding of participants and personnel (performance bias) (D) Blinding of outcome assessment (detection bias) (E) Incomplete outcome data (attrition bias) (F) Selective reporting (reporting bias) Early versus delayed oral feeding after major gynaecologic surgery (Review) Copyright \u00a9 2024 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.36 Cochrane LibraryTrusted evidence. Informed decisions. Better health. Cochrane Database of Systematic Reviews"
+    },
+    {
+      "review_id": "CD004508_early_feeding_gyn_surgery",
+      "analysis_id": "1.7",
+      "study_row_count": 3,
+      "rob_domain_count": 6,
+      "rob_domain_values": {
+        "A": [
+          "+",
+          "+",
+          "+"
+        ],
+        "B": [
+          "?",
+          "+",
+          "+"
+        ],
+        "C": [
+          "-",
+          "-",
+          "-"
+        ],
+        "D": [
+          "-",
+          "?",
+          "?"
+        ],
+        "E": [
+          "+",
+          "+",
+          "+"
+        ],
+        "F": [
+          "?",
+          "+",
+          "?"
+        ]
+      },
+      "rob_legend": {
+        "A": "Random sequence generation (selection bias)",
+        "B": "Allocation concealment (selection bias)",
+        "C": "Blinding of participants and personnel (performance bias)",
+        "D": "Blinding of outcome assessment (detection bias)",
+        "E": "Incomplete outcome data (attrition bias)",
+        "F": "Selective reporting (reporting bias)"
+      },
+      "rob_extraction_status": "extracted",
+      "rob_extraction_notes": [],
+      "source_excerpt": "A + + +B ? + +C - - -D - ? ?E + + +F ? + ? Risk of bias legend (A) Random sequence generation (selection bias) (B) Allocation concealment (selection bias) (C) Blinding of participants and personnel (performance bias) (D) Blinding of outcome assessment (detection bias) (E) Incomplete outcome data (attrition bias) (F) Selective reporting (reporting bias)"
+    },
+    {
+      "review_id": "CD004508_early_feeding_gyn_surgery",
+      "analysis_id": "1.8",
+      "study_row_count": 5,
+      "rob_domain_count": 6,
+      "rob_domain_values": {
+        "A": [
+          "+",
+          "+",
+          "+",
+          "+",
+          "+"
+        ],
+        "B": [
+          "+",
+          "+",
+          "?",
+          "+",
+          "+"
+        ],
+        "C": [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "D": [
+          "?",
+          "?",
+          "-",
+          "?",
+          "?"
+        ],
+        "E": [
+          "+",
+          "+",
+          "+",
+          "+",
+          "+"
+        ],
+        "F": [
+          "?",
+          "?",
+          "?",
+          "+",
+          "?"
+        ]
+      },
+      "rob_legend": {
+        "A": "Random sequence generation (selection bias)",
+        "B": "Allocation concealment (selection bias)",
+        "C": "Blinding of participants and personnel (performance bias)",
+        "D": "Blinding of outcome assessment (detection bias)",
+        "E": "Incomplete outcome data (attrition bias)",
+        "F": "Selective reporting (reporting bias)"
+      },
+      "rob_extraction_status": "extracted",
+      "rob_extraction_notes": [],
+      "source_excerpt": "A + + + + +B + + ? + +C - - - - -D ? ? - ? ?E + + + + +F ? ? ? + ? Risk of bias legend (A) Random sequence generation (selection bias) (B) Allocation concealment (selection bias) (C) Blinding of participants and personnel (performance bias) (D) Blinding of outcome assessment (detection bias) (E) Incomplete outcome data (attrition bias) (F) Selective reporting (reporting bias)"
+    },
+    {
+      "review_id": "CD004508_early_feeding_gyn_surgery",
+      "analysis_id": "1.9",
+      "study_row_count": 4,
+      "rob_domain_count": 6,
+      "rob_domain_values": {
+        "A": [
+          "+",
+          "+",
+          "+",
+          "+"
+        ],
+        "B": [
+          "+",
+          "+",
+          "?",
+          "+"
+        ],
+        "C": [
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "D": [
+          "?",
+          "?",
+          "-",
+          "?"
+        ],
+        "E": [
+          "+",
+          "+",
+          "+",
+          "+"
+        ],
+        "F": [
+          "?",
+          "?",
+          "?",
+          "+"
+        ]
+      },
+      "rob_legend": {
+        "A": "Random sequence generation (selection bias)",
+        "B": "Allocation concealment (selection bias)",
+        "C": "Blinding of participants and personnel (performance bias)",
+        "D": "Blinding of outcome assessment (detection bias)",
+        "E": "Incomplete outcome data (attrition bias)",
+        "F": "Selective reporting (reporting bias) Early versus delayed oral feeding after major gynaecologic surgery (Review) Copyright \u00a9 2024 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.37 Cochrane LibraryTrusted evidence. Informed decisions. Better health. Cochrane Database of Systematic Reviews"
+      },
+      "rob_extraction_status": "extracted",
+      "rob_extraction_notes": [],
+      "source_excerpt": "A + + + +B + + ? +C - - - -D ? ? - ?E + + + +F ? ? ? + Risk of bias legend (A) Random sequence generation (selection bias) (B) Allocation concealment (selection bias) (C) Blinding of participants and personnel (performance bias) (D) Blinding of outcome assessment (detection bias) (E) Incomplete outcome data (attrition bias) (F) Selective reporting (reporting bias) Early versus delayed oral feeding after major gynaecologic surgery (Review) Copyright \u00a9 2024 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.37 Cochrane LibraryTrusted evidence. Informed decisions. Better health. Cochrane Database of Systematic Reviews"
+    },
+    {
+      "review_id": "CD004508_early_feeding_gyn_surgery",
+      "analysis_id": "1.10",
+      "study_row_count": 3,
+      "rob_domain_count": 0,
+      "rob_domain_values": {},
+      "rob_legend": {},
+      "rob_extraction_status": "not_extracted_no_rob_block",
+      "rob_extraction_notes": [
+        "No Risk of Bias block was detected in the selected analysis text."
+      ],
+      "source_excerpt": ""
+    },
+    {
+      "review_id": "CD004508_early_feeding_gyn_surgery",
+      "analysis_id": "1.11",
+      "study_row_count": 5,
+      "rob_domain_count": 0,
+      "rob_domain_values": {},
+      "rob_legend": {},
+      "rob_extraction_status": "not_extracted_no_rob_block",
+      "rob_extraction_notes": [
+        "No Risk of Bias block was detected in the selected analysis text."
+      ],
+      "source_excerpt": ""
+    },
+    {
+      "review_id": "CD004508_early_feeding_gyn_surgery",
+      "analysis_id": "1.12",
+      "study_row_count": 3,
+      "rob_domain_count": 0,
+      "rob_domain_values": {},
+      "rob_legend": {},
+      "rob_extraction_status": "not_extracted_no_rob_block",
+      "rob_extraction_notes": [
+        "No Risk of Bias block was detected in the selected analysis text."
+      ],
+      "source_excerpt": ""
+    },
+    {
+      "review_id": "CD004508_early_feeding_gyn_surgery",
+      "analysis_id": "1.13",
+      "study_row_count": 2,
+      "rob_domain_count": 0,
+      "rob_domain_values": {},
+      "rob_legend": {},
+      "rob_extraction_status": "not_extracted_no_rob_block",
+      "rob_extraction_notes": [
+        "No Risk of Bias block was detected in the selected analysis text."
+      ],
+      "source_excerpt": ""
+    },
+    {
+      "review_id": "CD004508_early_feeding_gyn_surgery",
+      "analysis_id": "1.14",
+      "study_row_count": 4,
+      "rob_domain_count": 0,
+      "rob_domain_values": {},
+      "rob_legend": {},
+      "rob_extraction_status": "not_extracted_no_rob_block",
+      "rob_extraction_notes": [
+        "No Risk of Bias block was detected in the selected analysis text."
+      ],
+      "source_excerpt": ""
+    },
+    {
+      "review_id": "CD004508_early_feeding_gyn_surgery",
+      "analysis_id": "1.15",
+      "study_row_count": 3,
+      "rob_domain_count": 0,
+      "rob_domain_values": {},
+      "rob_legend": {},
+      "rob_extraction_status": "not_extracted_no_rob_block",
+      "rob_extraction_notes": [
+        "No Risk of Bias block was detected in the selected analysis text."
+      ],
+      "source_excerpt": ""
+    },
+    {
+      "review_id": "CD012214_metformin_hyperplasia",
+      "analysis_id": "1.1",
+      "study_row_count": 2,
+      "rob_domain_count": 7,
+      "rob_domain_values": {
+        "A": [
+          "+",
+          "+"
+        ],
+        "B": [
+          "+",
+          "?"
+        ],
+        "C": [
+          "-",
+          "?"
+        ],
+        "D": [
+          "-",
+          "?"
+        ],
+        "E": [
+          "+",
+          "+"
+        ],
+        "F": [
+          "+",
+          "-"
+        ],
+        "G": [
+          "+",
+          "-"
+        ]
+      },
+      "rob_legend": {
+        "A": "Random sequence generation (selection bias)",
+        "B": "Allocation concealment (selection bias)",
+        "C": "Blinding of participants and personnel (performance bias)",
+        "D": "Blinding of outcome assessment (detection bias)",
+        "E": "Incomplete outcome data (attrition bias)",
+        "F": "Selective reporting (reporting bias)",
+        "G": "Other bias Metformin for endometrial hyperplasia (Review) Copyright \u00a9 2024 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.49 Cochrane LibraryTrusted evidence. Informed decisions. Better health. Cochrane Database of Systematic Reviews"
+      },
+      "rob_extraction_status": "extracted",
+      "rob_extraction_notes": [],
+      "source_excerpt": "A + +B + ?C - ?D - ?E + +F + -G + - Risk of bias legend (A) Random sequence generation (selection bias) (B) Allocation concealment (selection bias) (C) Blinding of participants and personnel (performance bias) (D) Blinding of outcome assessment (detection bias) (E) Incomplete outcome data (attrition bias) (F) Selective reporting (reporting bias) (G) Other bias Metformin for endometrial hyperplasia (Review) Copyright \u00a9 2024 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.49 Cochrane LibraryTrusted evidence. Informed decisions. Better health. Cochrane Database of Systematic Reviews"
+    },
+    {
+      "review_id": "CD012214_metformin_hyperplasia",
+      "analysis_id": "1.2",
+      "study_row_count": 2,
+      "rob_domain_count": 7,
+      "rob_domain_values": {
+        "A": [
+          "+",
+          "+"
+        ],
+        "B": [
+          "+",
+          "?"
+        ],
+        "C": [
+          "-",
+          "?"
+        ],
+        "D": [
+          "-",
+          "?"
+        ],
+        "E": [
+          "+",
+          "+"
+        ],
+        "F": [
+          "+",
+          "-"
+        ],
+        "G": [
+          "+",
+          "-"
+        ]
+      },
+      "rob_legend": {
+        "A": "Random sequence generation (selection bias)",
+        "B": "Allocation concealment (selection bias)",
+        "C": "Blinding of participants and personnel (performance bias)",
+        "D": "Blinding of outcome assessment (detection bias)",
+        "E": "Incomplete outcome data (attrition bias)",
+        "F": "Selective reporting (reporting bias)",
+        "G": "Other bias"
+      },
+      "rob_extraction_status": "extracted",
+      "rob_extraction_notes": [],
+      "source_excerpt": "A + +B + ?C - ?D - ?E + +F + -G + - Risk of bias legend (A) Random sequence generation (selection bias) (B) Allocation concealment (selection bias) (C) Blinding of participants and personnel (performance bias) (D) Blinding of outcome assessment (detection bias) (E) Incomplete outcome data (attrition bias) (F) Selective reporting (reporting bias) (G) Other bias"
+    },
+    {
+      "review_id": "CD012214_metformin_hyperplasia",
+      "analysis_id": "1.3",
+      "study_row_count": 2,
+      "rob_domain_count": 7,
+      "rob_domain_values": {
+        "A": [
+          "+",
+          "+"
+        ],
+        "B": [
+          "+",
+          "?"
+        ],
+        "C": [
+          "-",
+          "?"
+        ],
+        "D": [
+          "-",
+          "?"
+        ],
+        "E": [
+          "+",
+          "+"
+        ],
+        "F": [
+          "+",
+          "-"
+        ],
+        "G": [
+          "+",
+          "-"
+        ]
+      },
+      "rob_legend": {
+        "A": "Random sequence generation (selection bias)",
+        "B": "Allocation concealment (selection bias)",
+        "C": "Blinding of participants and personnel (performance bias)",
+        "D": "Blinding of outcome assessment (detection bias)",
+        "E": "Incomplete outcome data (attrition bias)",
+        "F": "Selective reporting (reporting bias)",
+        "G": "Other bias Metformin for endometrial hyperplasia (Review) Copyright \u00a9 2024 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.50 Cochrane LibraryTrusted evidence. Informed decisions. Better health. Cochrane Database of Systematic Reviews"
+      },
+      "rob_extraction_status": "extracted",
+      "rob_extraction_notes": [],
+      "source_excerpt": "A + +B + ?C - ?D - ?E + +F + -G + - Risk of bias legend (A) Random sequence generation (selection bias) (B) Allocation concealment (selection bias) (C) Blinding of participants and personnel (performance bias) (D) Blinding of outcome assessment (detection bias) (E) Incomplete outcome data (attrition bias) (F) Selective reporting (reporting bias) (G) Other bias Metformin for endometrial hyperplasia (Review) Copyright \u00a9 2024 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.50 Cochrane LibraryTrusted evidence. Informed decisions. Better health. Cochrane Database of Systematic Reviews"
+    },
+    {
+      "review_id": "CD012214_metformin_hyperplasia",
+      "analysis_id": "2.1",
+      "study_row_count": 4,
+      "rob_domain_count": 7,
+      "rob_domain_values": {
+        "A": [
+          "+",
+          "+",
+          "+",
+          "+"
+        ],
+        "B": [
+          "+",
+          "?",
+          "+",
+          "+"
+        ],
+        "C": [
+          "-",
+          "-",
+          "+",
+          "-"
+        ],
+        "D": [
+          "-",
+          "+",
+          "+",
+          "-"
+        ],
+        "E": [
+          "+",
+          "-",
+          "+",
+          "+"
+        ],
+        "F": [
+          "+",
+          "-",
+          "+",
+          "+"
+        ],
+        "G": [
+          "+",
+          "+",
+          "+",
+          "?"
+        ]
+      },
+      "rob_legend": {
+        "A": "Random sequence generation (selection bias)",
+        "B": "Allocation concealment (selection bias)",
+        "C": "Blinding of participants and personnel (performance bias)",
+        "D": "Blinding of outcome assessment (detection bias)",
+        "E": "Incomplete outcome data (attrition bias)",
+        "F": "Selective reporting (reporting bias)",
+        "G": "Other bias Metformin for endometrial hyperplasia (Review) Copyright \u00a9 2024 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.51 Cochrane LibraryTrusted evidence. Informed decisions. Better health. Cochrane Database of Systematic Reviews"
+      },
+      "rob_extraction_status": "extracted",
+      "rob_extraction_notes": [],
+      "source_excerpt": "A + + + +B + ? + +C - - + -D - + + -E + - + +F + - + +G + + + ? Risk of bias legend (A) Random sequence generation (selection bias) (B) Allocation concealment (selection bias) (C) Blinding of participants and personnel (performance bias) (D) Blinding of outcome assessment (detection bias) (E) Incomplete outcome data (attrition bias) (F) Selective reporting (reporting bias) (G) Other bias Metformin for endometrial hyperplasia (Review) Copyright \u00a9 2024 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.51 Cochrane LibraryTrusted evidence. Informed decisions. Better health. Cochrane Database of Systematic Reviews"
+    },
+    {
+      "review_id": "CD012214_metformin_hyperplasia",
+      "analysis_id": "2.2",
+      "study_row_count": 1,
+      "rob_domain_count": 7,
+      "rob_domain_values": {
+        "A": [
+          "+"
+        ],
+        "B": [
+          "?"
+        ],
+        "C": [
+          "-"
+        ],
+        "D": [
+          "+"
+        ],
+        "E": [
+          "-"
+        ],
+        "F": [
+          "-"
+        ],
+        "G": [
+          "+"
+        ]
+      },
+      "rob_legend": {
+        "A": "Random sequence generation (selection bias)",
+        "B": "Allocation concealment (selection bias)",
+        "C": "Blinding of participants and personnel (performance bias)",
+        "D": "Blinding of outcome assessment (detection bias)",
+        "E": "Incomplete outcome data (attrition bias)",
+        "F": "Selective reporting (reporting bias)",
+        "G": "Other bias"
+      },
+      "rob_extraction_status": "extracted",
+      "rob_extraction_notes": [],
+      "source_excerpt": "A +B ?C -D +E -F -G + Risk of bias legend (A) Random sequence generation (selection bias) (B) Allocation concealment (selection bias) (C) Blinding of participants and personnel (performance bias) (D) Blinding of outcome assessment (detection bias) (E) Incomplete outcome data (attrition bias) (F) Selective reporting (reporting bias) (G) Other bias"
+    },
+    {
+      "review_id": "CD012214_metformin_hyperplasia",
+      "analysis_id": "2.3",
+      "study_row_count": 3,
+      "rob_domain_count": 7,
+      "rob_domain_values": {
+        "A": [
+          "+",
+          "+",
+          "+"
+        ],
+        "B": [
+          "+",
+          "?",
+          "+"
+        ],
+        "C": [
+          "-",
+          "-",
+          "+"
+        ],
+        "D": [
+          "-",
+          "+",
+          "+"
+        ],
+        "E": [
+          "+",
+          "-",
+          "+"
+        ],
+        "F": [
+          "+",
+          "-",
+          "+"
+        ],
+        "G": [
+          "+",
+          "+",
+          "+"
+        ]
+      },
+      "rob_legend": {
+        "A": "Random sequence generation (selection bias)",
+        "B": "Allocation concealment (selection bias)",
+        "C": "Blinding of participants and personnel (performance bias)",
+        "D": "Blinding of outcome assessment (detection bias)",
+        "E": "Incomplete outcome data (attrition bias)",
+        "F": "Selective reporting (reporting bias)",
+        "G": "Other bias Metformin for endometrial hyperplasia (Review) Copyright \u00a9 2024 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.52 Cochrane LibraryTrusted evidence. Informed decisions. Better health. Cochrane Database of Systematic Reviews"
+      },
+      "rob_extraction_status": "extracted",
+      "rob_extraction_notes": [],
+      "source_excerpt": "A + + +B + ? +C - - +D - + +E + - +F + - +G + + + Risk of bias legend (A) Random sequence generation (selection bias) (B) Allocation concealment (selection bias) (C) Blinding of participants and personnel (performance bias) (D) Blinding of outcome assessment (detection bias) (E) Incomplete outcome data (attrition bias) (F) Selective reporting (reporting bias) (G) Other bias Metformin for endometrial hyperplasia (Review) Copyright \u00a9 2024 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.52 Cochrane LibraryTrusted evidence. Informed decisions. Better health. Cochrane Database of Systematic Reviews"
+    },
+    {
+      "review_id": "CD012214_metformin_hyperplasia",
+      "analysis_id": "2.4",
+      "study_row_count": 2,
+      "rob_domain_count": 7,
+      "rob_domain_values": {
+        "A": [
+          "+",
+          "+"
+        ],
+        "B": [
+          "?",
+          "+"
+        ],
+        "C": [
+          "-",
+          "+"
+        ],
+        "D": [
+          "+",
+          "+"
+        ],
+        "E": [
+          "-",
+          "+"
+        ],
+        "F": [
+          "-",
+          "+"
+        ],
+        "G": [
+          "+",
+          "+"
+        ]
+      },
+      "rob_legend": {
+        "A": "Random sequence generation (selection bias)",
+        "B": "Allocation concealment (selection bias)",
+        "C": "Blinding of participants and personnel (performance bias)",
+        "D": "Blinding of outcome assessment (detection bias)",
+        "E": "Incomplete outcome data (attrition bias)",
+        "F": "Selective reporting (reporting bias)",
+        "G": "Other bias"
+      },
+      "rob_extraction_status": "extracted",
+      "rob_extraction_notes": [],
+      "source_excerpt": "A + +B ? +C - +D + +E - +F - +G + + Risk of bias legend (A) Random sequence generation (selection bias) (B) Allocation concealment (selection bias) (C) Blinding of participants and personnel (performance bias) (D) Blinding of outcome assessment (detection bias) (E) Incomplete outcome data (attrition bias) (F) Selective reporting (reporting bias) (G) Other bias"
+    },
+    {
+      "review_id": "CD014811_loop_diuretics_hf",
+      "analysis_id": "1.1",
+      "study_row_count": 5,
+      "rob_domain_count": 6,
+      "rob_domain_values": {
+        "A": [
+          "?",
+          "+",
+          "-",
+          "+",
+          "?"
+        ],
+        "B": [
+          "+",
+          "+",
+          "?",
+          "+",
+          "?"
+        ],
+        "C": [
+          "+",
+          "+",
+          "+",
+          "+",
+          "-"
+        ],
+        "D": [
+          "+",
+          "+",
+          "+",
+          "+",
+          "+"
+        ],
+        "E": [
+          "?",
+          "+",
+          "?",
+          "?",
+          "?"
+        ],
+        "F": [
+          "?",
+          "+",
+          "-",
+          "?",
+          "-"
+        ]
+      },
+      "rob_legend": {
+        "A": "Bias arising from the randomization process",
+        "B": "Bias due to deviations from intended interventions",
+        "C": "Bias due to missing outcome data",
+        "D": "Bias in measurement of the outcome",
+        "E": "Bias in selection of the reported result",
+        "F": "Overall bias"
+      },
+      "rob_extraction_status": "extracted",
+      "rob_extraction_notes": [],
+      "source_excerpt": "A ? + - + ?B + + ? + ?C + + + + -D + + + + +E ? + ? ? ?F ? + - ? - Footnotes (1) Until hospital day 3 or discharge, whichever came first. (2) At 72 hours. (3) Until discharge. (4) Until decompensation. Risk of bias legend (A) Bias arising from the randomization process (B) Bias due to deviations from intended interventions (C) Bias due to missing outcome data (D) Bias in measurement of the outcome (E) Bias in selection of the reported result (F) Overall bias"
+    },
+    {
+      "review_id": "CD014811_loop_diuretics_hf",
+      "analysis_id": "1.2",
+      "study_row_count": 5,
+      "rob_domain_count": 6,
+      "rob_domain_values": {
+        "A": [
+          "?",
+          "+",
+          "-",
+          "?",
+          "?"
+        ],
+        "B": [
+          "+",
+          "+",
+          "?",
+          "?",
+          "?"
+        ],
+        "C": [
+          "+",
+          "+",
+          "+",
+          "+",
+          "-"
+        ],
+        "D": [
+          "+",
+          "+",
+          "+",
+          "+",
+          "+"
+        ],
+        "E": [
+          "?",
+          "+",
+          "?",
+          "?",
+          "?"
+        ],
+        "F": [
+          "?",
+          "+",
+          "-",
+          "?",
+          "-"
+        ]
+      },
+      "rob_legend": {
+        "A": "Bias arising from the randomization process",
+        "B": "Bias due to deviations from intended interventions",
+        "C": "Bias due to missing outcome data",
+        "D": "Bias in measurement of the outcome",
+        "E": "Bias in selection of the reported result",
+        "F": "Overall bias Continuous infusion versus bolus injection of loop diuretics for acute heart failure (Review) Copyright \u00a9 2024 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.46 Cochrane LibraryTrusted evidence. Informed decisions. Better health. Cochrane Database of Systematic Reviews"
+      },
+      "rob_extraction_status": "extracted",
+      "rob_extraction_notes": [],
+      "source_excerpt": "A ? + - ? ?B + + ? ? ?C + + + + -D + + + + +E ? + ? ? ?F ? + - ? - Footnotes (1) 90 days. (2) 60 days. (3) 30 days. (4) During hospitalisation. Risk of bias legend (A) Bias arising from the randomization process (B) Bias due to deviations from intended interventions (C) Bias due to missing outcome data (D) Bias in measurement of the outcome (E) Bias in selection of the reported result (F) Overall bias Continuous infusion versus bolus injection of loop diuretics for acute heart failure (Review) Copyright \u00a9 2024 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.46 Cochrane LibraryTrusted evidence. Informed decisions. Better health. Cochrane Database of Systematic Reviews"
+    },
+    {
+      "review_id": "CD014811_loop_diuretics_hf",
+      "analysis_id": "1.3",
+      "study_row_count": 4,
+      "rob_domain_count": 6,
+      "rob_domain_values": {
+        "A": [
+          "?",
+          "?",
+          "+",
+          "?"
+        ],
+        "B": [
+          "+",
+          "+",
+          "+",
+          "?"
+        ],
+        "C": [
+          "+",
+          "+",
+          "+",
+          "-"
+        ],
+        "D": [
+          "+",
+          "+",
+          "+",
+          "+"
+        ],
+        "E": [
+          "?",
+          "?",
+          "?",
+          "?"
+        ],
+        "F": [
+          "?",
+          "?",
+          "?",
+          "-"
+        ]
+      },
+      "rob_legend": {
+        "A": "Bias arising from the randomization process",
+        "B": "Bias due to deviations from intended interventions",
+        "C": "Bias due to missing outcome data",
+        "D": "Bias in measurement of the outcome",
+        "E": "Bias in selection of the reported result",
+        "F": "Overall bias"
+      },
+      "rob_extraction_status": "extracted",
+      "rob_extraction_notes": [],
+      "source_excerpt": "A ? ? + ?B + + + ?C + + + -D + + + +E ? ? ? ?F ? ? ? - Risk of bias legend (A) Bias arising from the randomization process (B) Bias due to deviations from intended interventions (C) Bias due to missing outcome data (D) Bias in measurement of the outcome (E) Bias in selection of the reported result (F) Overall bias"
+    },
+    {
+      "review_id": "CD014811_loop_diuretics_hf",
+      "analysis_id": "1.4",
+      "study_row_count": 3,
+      "rob_domain_count": 6,
+      "rob_domain_values": {
+        "A": [
+          "+",
+          "-",
+          "?"
+        ],
+        "B": [
+          "+",
+          "?",
+          "?"
+        ],
+        "C": [
+          "+",
+          "+",
+          "+"
+        ],
+        "D": [
+          "+",
+          "+",
+          "+"
+        ],
+        "E": [
+          "+",
+          "?",
+          "?"
+        ],
+        "F": [
+          "+",
+          "-",
+          "?"
+        ]
+      },
+      "rob_legend": {
+        "A": "Bias arising from the randomization process",
+        "B": "Bias due to deviations from intended interventions",
+        "C": "Bias due to missing outcome data",
+        "D": "Bias in measurement of the outcome",
+        "E": "Bias in selection of the reported result",
+        "F": "Overall bias Continuous infusion versus bolus injection of loop diuretics for acute heart failure (Review) Copyright \u00a9 2024 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.47 Cochrane LibraryTrusted evidence. Informed decisions. Better health. Cochrane Database of Systematic Reviews"
+      },
+      "rob_extraction_status": "extracted",
+      "rob_extraction_notes": [],
+      "source_excerpt": "A + - ?B + ? ?C + + +D + + +E + ? ?F + - ? Footnotes (1) 60 days. (2) 30 days. Risk of bias legend (A) Bias arising from the randomization process (B) Bias due to deviations from intended interventions (C) Bias due to missing outcome data (D) Bias in measurement of the outcome (E) Bias in selection of the reported result (F) Overall bias Continuous infusion versus bolus injection of loop diuretics for acute heart failure (Review) Copyright \u00a9 2024 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.47 Cochrane LibraryTrusted evidence. Informed decisions. Better health. Cochrane Database of Systematic Reviews"
+    },
+    {
+      "review_id": "CD014811_loop_diuretics_hf",
+      "analysis_id": "1.5",
+      "study_row_count": 3,
+      "rob_domain_count": 6,
+      "rob_domain_values": {
+        "A": [
+          "+",
+          "+",
+          "?"
+        ],
+        "B": [
+          "+",
+          "+",
+          "?"
+        ],
+        "C": [
+          "+",
+          "+",
+          "-"
+        ],
+        "D": [
+          "+",
+          "+",
+          "+"
+        ],
+        "E": [
+          "+",
+          "+",
+          "?"
+        ],
+        "F": [
+          "+",
+          "+",
+          "-"
+        ]
+      },
+      "rob_legend": {
+        "A": "Bias arising from the randomization process",
+        "B": "Bias due to deviations from intended interventions",
+        "C": "Bias due to missing outcome data",
+        "D": "Bias in measurement of the outcome",
+        "E": "Bias in selection of the reported result",
+        "F": "Overall bias"
+      },
+      "rob_extraction_status": "extracted",
+      "rob_extraction_notes": [],
+      "source_excerpt": "A + + ?B + + ?C + + -D + + +E + + ?F + + - Risk of bias legend (A) Bias arising from the randomization process (B) Bias due to deviations from intended interventions (C) Bias due to missing outcome data (D) Bias in measurement of the outcome (E) Bias in selection of the reported result (F) Overall bias"
+    },
+    {
+      "review_id": "CD014811_loop_diuretics_hf",
+      "analysis_id": "2.1",
+      "study_row_count": 3,
+      "rob_domain_count": 6,
+      "rob_domain_values": {
+        "A": [
+          "?",
+          "+",
+          "+"
+        ],
+        "B": [
+          "+",
+          "+",
+          "+"
+        ],
+        "C": [
+          "+",
+          "+",
+          "+"
+        ],
+        "D": [
+          "+",
+          "+",
+          "+"
+        ],
+        "E": [
+          "?",
+          "+",
+          "?"
+        ],
+        "F": [
+          "?",
+          "+",
+          "?"
+        ]
+      },
+      "rob_legend": {
+        "A": "Bias arising from the randomization process",
+        "B": "Bias due to deviations from intended interventions",
+        "C": "Bias due to missing outcome data",
+        "D": "Bias in measurement of the outcome",
+        "E": "Bias in selection of the reported result",
+        "F": "Overall bias"
+      },
+      "rob_extraction_status": "extracted",
+      "rob_extraction_notes": [],
+      "source_excerpt": ", Outcome 1: Net weight loss (kg) Study or Subgroup Allen 2010 (1) Felker 2011 (2) Yayla 2015 (3) Total (95% CI) Heterogeneity: Tau\u00b2 = 0.00; Chi\u00b2 = 0.25, df = 2 (P = 0.88); I\u00b2 = 0% Test for overall effect: Z = 1.81 (P = 0.07) Test for subgroup differences: Not applicableContinuous infusion Mean 2.66 3.67 4.6SD 2.44 4.67 5.2Total 20 152 15 187Bolus injection Mean 1.64 3.08 4.1SD 2.34 3.54 2.7Total 21 156 14 191Weight 26.8% 66.8% 6.4% 100.0%Mean Difference IV, Random, 95% CI 1.02 [-0.44, 2.48] 0.59 [-0.34, 1.52] 0.50 [-2.49, 3.49] 0.70 [-0.06, 1.46]Mean Difference IV, Random, 95% CI -4 -2 0 2 4 Favours bolus injection Favours continuous infusionRisk of Bias A ? + +B + + +C + + +D + + +E ? + ?F ? + ? Footnotes (1) Until hospital day 3 or discharge, whichever came first. (2) At 72 hours. (3) Until decompensation. Risk of bias legend (A) Bias arising from the randomization process (B) Bias due to deviations from intended interventions (C) Bias due to missing outcome data (D) Bias in measur..."
+    },
+    {
+      "review_id": "CD014811_loop_diuretics_hf",
+      "analysis_id": "2.2",
+      "study_row_count": 3,
+      "rob_domain_count": 6,
+      "rob_domain_values": {
+        "A": [
+          "?",
+          "+",
+          "?"
+        ],
+        "B": [
+          "+",
+          "+",
+          "?"
+        ],
+        "C": [
+          "+",
+          "+",
+          "+"
+        ],
+        "D": [
+          "+",
+          "+",
+          "+"
+        ],
+        "E": [
+          "?",
+          "+",
+          "?"
+        ],
+        "F": [
+          "?",
+          "+",
+          "?"
+        ]
+      },
+      "rob_legend": {
+        "A": "Bias arising from the randomization process",
+        "B": "Bias due to deviations from intended interventions",
+        "C": "Bias due to missing outcome data",
+        "D": "Bias in measurement of the outcome",
+        "E": "Bias in selection of the reported result",
+        "F": "Overall bias Continuous infusion versus bolus injection of loop diuretics for acute heart failure (Review) Copyright \u00a9 2024 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.49 Cochrane LibraryTrusted evidence. Informed decisions. Better health. Cochrane Database of Systematic Reviews"
+      },
+      "rob_extraction_status": "extracted",
+      "rob_extraction_notes": [],
+      "source_excerpt": ", Outcome 2: All-cause mortality Study or Subgroup Allen 2010 (1) Felker 2011 (2) Shah 2014 (3) Total (95% CI) Total events: Heterogeneity: Tau\u00b2 = 0.00; Chi\u00b2 = 0.91, df = 2 (P = 0.63); I\u00b2 = 0% Test for overall effect: Z = 0.60 (P = 0.55) Test for subgroup differences: Not applicableContinuous infusion Events 1 16 1 18Total 20 152 30 202Bolus injection Events 0 13 2 15Total 21 156 30 207Weight 4.3% 87.9% 7.8% 100.0%Risk Ratio M-H, Random, 95% CI 3.14 [0.14, 72.92] 1.26 [0.63, 2.54] 0.50 [0.05, 5.22] 1.22 [0.64, 2.35]Risk Ratio M-H, Random, 95% CI 0.01 0.1 1 10 100 Favours continuous infusion Favours bolus injectionRisk of Bias A ? + ?B + + ?C + + +D + + +E ? + ?F ? + ? Footnotes (1) 90 days. (2) 60 days. (3) 30 days. Risk of bias legend (A) Bias arising from the randomization process (B) Bias due to deviations from intended interventions (C) Bias due to missing outcome data (D) Bias in measurement of the outcome (E) Bias in selection of the reported result (F) Overall bias Continuous i..."
+    },
+    {
+      "review_id": "CD014811_loop_diuretics_hf",
+      "analysis_id": "2.3",
+      "study_row_count": 3,
+      "rob_domain_count": 6,
+      "rob_domain_values": {
+        "A": [
+          "?",
+          "?",
+          "+"
+        ],
+        "B": [
+          "+",
+          "+",
+          "+"
+        ],
+        "C": [
+          "+",
+          "+",
+          "+"
+        ],
+        "D": [
+          "+",
+          "+",
+          "+"
+        ],
+        "E": [
+          "?",
+          "?",
+          "?"
+        ],
+        "F": [
+          "?",
+          "?",
+          "?"
+        ]
+      },
+      "rob_legend": {
+        "A": "Bias arising from the randomization process",
+        "B": "Bias due to deviations from intended interventions",
+        "C": "Bias due to missing outcome data",
+        "D": "Bias in measurement of the outcome",
+        "E": "Bias in selection of the reported result",
+        "F": "Overall bias"
+      },
+      "rob_extraction_status": "extracted",
+      "rob_extraction_notes": [],
+      "source_excerpt": ", Outcome 3: Length of hospital stay (days) Study or Subgroup Allen 2010 Shah 2014 Yayla 2015 Total (95% CI) Heterogeneity: Tau\u00b2 = 1.53; Chi\u00b2 = 3.44, df = 2 (P = 0.18); I\u00b2 = 42% Test for overall effect: Z = 0.56 (P = 0.58) Test for subgroup differences: Not applicableContinuous infusion Mean 9.85 6.77 6.6SD 11.72 3.21 3.4Total 20 30 15 65Bolus injection Mean 8.86 5.03 7.9SD 3.82 3.33 4.1Total 21 30 14 65Weight 13.1% 53.0% 33.9% 100.0%Mean Difference IV, Random, 95% CI 0.99 [-4.40, 6.38] 1.74 [0.08, 3.40] -1.30 [-4.05, 1.45] 0.61 [-1.53, 2.75]Mean Difference IV, Random, 95% CI -20 -10 0 10 20 Favours continuous infusion Favours bolus injectionRisk of Bias A ? ? +B + + +C + + +D + + +E ? ? ?F ? ? ? Risk of bias legend (A) Bias arising from the randomization process (B) Bias due to deviations from intended interventions (C) Bias due to missing outcome data (D) Bias in measurement of the outcome (E) Bias in selection of the reported result (F) Overall bias"
+    },
+    {
+      "review_id": "CD014811_loop_diuretics_hf",
+      "analysis_id": "2.4",
+      "study_row_count": 2,
+      "rob_domain_count": 6,
+      "rob_domain_values": {
+        "A": [
+          "+",
+          "?"
+        ],
+        "B": [
+          "+",
+          "?"
+        ],
+        "C": [
+          "+",
+          "+"
+        ],
+        "D": [
+          "+",
+          "+"
+        ],
+        "E": [
+          "+",
+          "?"
+        ],
+        "F": [
+          "+",
+          "?"
+        ]
+      },
+      "rob_legend": {
+        "A": "Bias arising from the randomization process",
+        "B": "Bias due to deviations from intended interventions",
+        "C": "Bias due to missing outcome data",
+        "D": "Bias in measurement of the outcome",
+        "E": "Bias in selection of the reported result",
+        "F": "Overall bias Continuous infusion versus bolus injection of loop diuretics for acute heart failure (Review) Copyright \u00a9 2024 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.50 Cochrane LibraryTrusted evidence. Informed decisions. Better health. Cochrane Database of Systematic Reviews"
+      },
+      "rob_extraction_status": "extracted",
+      "rob_extraction_notes": [],
+      "source_excerpt": ", Outcome 4: Readmission to hospital following discharge for the longest available follow-up stated in the trials Study or Subgroup Felker 2011 (1) Shah 2014 (2) Total (95% CI) Total events: Heterogeneity: Chi\u00b2 = 0.00, df = 1 (P = 0.98); I\u00b2 = 0% Test for overall effect: Z = 0.90 (P = 0.37) Test for subgroup differences: Not applicableContinuous infusion Events 42 7 49Total 152 30 182Bolus injection Events 50 8 58Total 156 30 186Weight 86.7% 13.3% 100.0%Risk Ratio IV, Fixed, 95% CI 0.86 [0.61, 1.22] 0.88 [0.36, 2.11] 0.86 [0.63, 1.19]Risk Ratio IV, Fixed, 95% CI 0.05 0.2 1 5 20 Favours continuous infusion Favours bolus injectionRisk of Bias A + ?B + ?C + +D + +E + ?F + ? Footnotes (1) 60 days. (2) 30 days. Risk of bias legend (A) Bias arising from the randomization process (B) Bias due to deviations from intended interventions (C) Bias due to missing outcome data (D) Bias in measurement of the outcome (E) Bias in selection of the reported result (F) Overall bias Continuous infusion ver..."
+    },
+    {
+      "review_id": "CD014811_loop_diuretics_hf",
+      "analysis_id": "2.5",
+      "study_row_count": 2,
+      "rob_domain_count": 6,
+      "rob_domain_values": {
+        "A": [
+          "+",
+          "+"
+        ],
+        "B": [
+          "+",
+          "+"
+        ],
+        "C": [
+          "+",
+          "+"
+        ],
+        "D": [
+          "+",
+          "+"
+        ],
+        "E": [
+          "+",
+          "+"
+        ],
+        "F": [
+          "+",
+          "+"
+        ]
+      },
+      "rob_legend": {
+        "A": "Bias arising from the randomization process",
+        "B": "Bias due to deviations from intended interventions",
+        "C": "Bias due to missing outcome data",
+        "D": "Bias in measurement of the outcome",
+        "E": "Bias in selection of the reported result",
+        "F": "Overall bias A D D I T I O N A L T A B L E S Study ID Net urinary output in continuous infusion (millilitre, mean, n)Net urinary output in bolus in- jection (millilitre, mean, n)Duration of ob- servationP value Felker 2011 4249 (SD 3104), n = 152 4237 (SD 3208), n = 156 72 hours 0.89 Zheng 2021 5145.98 (SD 621.37), n = 42 3755.95 (SD 456.93), n = 39 72 hours 0.01Table 1. Accumulative net urinary output volume n: number of participants; SD: standard deviation."
+      },
+      "rob_extraction_status": "extracted",
+      "rob_extraction_notes": [],
+      "source_excerpt": ", Outcome 5: Acute kidney injury (adverse event) Study or Subgroup Felker 2011 Llorens 2014 Total (95% CI) Total events: Heterogeneity: Tau\u00b2 = 0.00; Chi\u00b2 = 0.00, df = 1 (P = 0.99); I\u00b2 = 0% Test for overall effect: Z = 0.45 (P = 0.65) Test for subgroup differences: Not applicableContinuous infusion Events 28 6 34Total 146 36 182Bolus injection Events 27 11 38Total 155 73 228Weight 78.4% 21.6% 100.0%Risk Ratio M-H, Random, 95% CI 1.10 [0.68, 1.78] 1.11 [0.44, 2.75] 1.10 [0.72, 1.68]Risk Ratio M-H, Random, 95% CI 0.01 0.1 1 10 100 Favours continuous infusion Favours bolus injectionRisk of Bias A + +B + +C + +D + +E + +F + + Risk of bias legend (A) Bias arising from the randomization process (B) Bias due to deviations from intended interventions (C) Bias due to missing outcome data (D) Bias in measurement of the outcome (E) Bias in selection of the reported result (F) Overall bias A D D I T I O N A L T A B L E S Study ID Net urinary output in continuous infusion (millilitre, mean, n)Net u..."
+    },
+    {
+      "review_id": "CD014960_antibiotics_leptospirosis",
+      "analysis_id": "1.1",
+      "study_row_count": 3,
+      "rob_domain_count": 6,
+      "rob_domain_values": {
+        "A": [
+          "?",
+          "?",
+          "?"
+        ],
+        "B": [
+          "+",
+          "+",
+          "+"
+        ],
+        "C": [
+          "+",
+          "+",
+          "+"
+        ],
+        "D": [
+          "+",
+          "+",
+          "+"
+        ],
+        "E": [
+          "+",
+          "+",
+          "+"
+        ],
+        "F": [
+          "?",
+          "?",
+          "?"
+        ]
+      },
+      "rob_legend": {
+        "A": "Bias arising from the randomization process",
+        "B": "Bias due to deviations from intended interventions",
+        "C": "Bias due to missing outcome data",
+        "D": "Bias in measurement of the outcome",
+        "E": "Bias in selection of the reported result",
+        "F": "Overall bias"
+      },
+      "rob_extraction_status": "extracted",
+      "rob_extraction_notes": [],
+      "source_excerpt": "A ? ? ?B + + +C + + +D + + +E + + +F ? ? ? Risk of bias legend (A) Bias arising from the randomization process (B) Bias due to deviations from intended interventions (C) Bias due to missing outcome data (D) Bias in measurement of the outcome (E) Bias in selection of the reported result (F) Overall bias"
+    },
+    {
+      "review_id": "CD014960_antibiotics_leptospirosis",
+      "analysis_id": "1.2",
+      "study_row_count": 2,
+      "rob_domain_count": 6,
+      "rob_domain_values": {
+        "A": [
+          "?",
+          "?"
+        ],
+        "B": [
+          "+",
+          "+"
+        ],
+        "C": [
+          "+",
+          "+"
+        ],
+        "D": [
+          "+",
+          "-"
+        ],
+        "E": [
+          "?",
+          "?"
+        ],
+        "F": [
+          "?",
+          "-"
+        ]
+      },
+      "rob_legend": {
+        "A": "Bias arising from the randomization process",
+        "B": "Bias due to deviations from intended interventions",
+        "C": "Bias due to missing outcome data",
+        "D": "Bias in measurement of the outcome",
+        "E": "Bias in selection of the reported result",
+        "F": "Overall bias"
+      },
+      "rob_extraction_status": "extracted",
+      "rob_extraction_notes": [],
+      "source_excerpt": "A ? ?B + +C + +D + -E ? ?F ? - Risk of bias legend (A) Bias arising from the randomization process (B) Bias due to deviations from intended interventions (C) Bias due to missing outcome data (D) Bias in measurement of the outcome (E) Bias in selection of the reported result (F) Overall bias"
+    },
+    {
+      "review_id": "CD014960_antibiotics_leptospirosis",
+      "analysis_id": "1.3",
+      "study_row_count": 2,
+      "rob_domain_count": 6,
+      "rob_domain_values": {
+        "A": [
+          "?",
+          "?"
+        ],
+        "B": [
+          "+",
+          "+"
+        ],
+        "C": [
+          "+",
+          "+"
+        ],
+        "D": [
+          "-",
+          "-"
+        ],
+        "E": [
+          "?",
+          "?"
+        ],
+        "F": [
+          "-",
+          "-"
+        ]
+      },
+      "rob_legend": {
+        "A": "Bias arising from the randomization process",
+        "B": "Bias due to deviations from intended interventions",
+        "C": "Bias due to missing outcome data",
+        "D": "Bias in measurement of the outcome",
+        "E": "Bias in selection of the reported result",
+        "F": "Overall bias Antibiotics for treatment of leptospirosis (Review) Copyright \u00a9 2024 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.37 Cochrane LibraryTrusted evidence. Informed decisions. Better health. Cochrane Database of Systematic Reviews"
+      },
+      "rob_extraction_status": "extracted",
+      "rob_extraction_notes": [],
+      "source_excerpt": "A ? ?B + +C + +D - -E ? ?F - - Risk of bias legend (A) Bias arising from the randomization process (B) Bias due to deviations from intended interventions (C) Bias due to missing outcome data (D) Bias in measurement of the outcome (E) Bias in selection of the reported result (F) Overall bias Antibiotics for treatment of leptospirosis (Review) Copyright \u00a9 2024 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.37 Cochrane LibraryTrusted evidence. Informed decisions. Better health. Cochrane Database of Systematic Reviews"
+    },
+    {
+      "review_id": "CD014960_antibiotics_leptospirosis",
+      "analysis_id": "2.1",
+      "study_row_count": 2,
+      "rob_domain_count": 6,
+      "rob_domain_values": {
+        "A": [
+          "+",
+          "+"
+        ],
+        "B": [
+          "+",
+          "?"
+        ],
+        "C": [
+          "+",
+          "+"
+        ],
+        "D": [
+          "+",
+          "+"
+        ],
+        "E": [
+          "+",
+          "+"
+        ],
+        "F": [
+          "+",
+          "?"
+        ]
+      },
+      "rob_legend": {
+        "A": "Bias arising from the randomization process",
+        "B": "Bias due to deviations from intended interventions",
+        "C": "Bias due to missing outcome data",
+        "D": "Bias in measurement of the outcome",
+        "E": "Bias in selection of the reported result",
+        "F": "Overall bias Antibiotics for treatment of leptospirosis (Review) Copyright \u00a9 2024 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.38 Cochrane LibraryTrusted evidence. Informed decisions. Better health. Cochrane Database of Systematic Reviews"
+      },
+      "rob_extraction_status": "extracted",
+      "rob_extraction_notes": [],
+      "source_excerpt": "A + +B + ?C + +D + +E + +F + ? Risk of bias legend (A) Bias arising from the randomization process (B) Bias due to deviations from intended interventions (C) Bias due to missing outcome data (D) Bias in measurement of the outcome (E) Bias in selection of the reported result (F) Overall bias Antibiotics for treatment of leptospirosis (Review) Copyright \u00a9 2024 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.38 Cochrane LibraryTrusted evidence. Informed decisions. Better health. Cochrane Database of Systematic Reviews"
+    },
+    {
+      "review_id": "CD015040_rtms_ptsd",
+      "analysis_id": "1.1",
+      "study_row_count": 3,
+      "rob_domain_count": 6,
+      "rob_domain_values": {
+        "A": [
+          "+",
+          "+",
+          "?"
+        ],
+        "B": [
+          "?",
+          "+",
+          "?"
+        ],
+        "C": [
+          "?",
+          "+",
+          "?"
+        ],
+        "D": [
+          "+",
+          "+",
+          "+"
+        ],
+        "E": [
+          "+",
+          "+",
+          "+"
+        ],
+        "F": [
+          "?",
+          "+",
+          "?"
+        ]
+      },
+      "rob_legend": {
+        "A": "Bias arising from the randomization process",
+        "B": "Bias due to deviations from intended interventions",
+        "C": "Bias due to missing outcome data",
+        "D": "Bias in measurement of the outcome",
+        "E": "Bias in selection of the reported result",
+        "F": "Overall bias"
+      },
+      "rob_extraction_status": "extracted",
+      "rob_extraction_notes": [],
+      "source_excerpt": "A + + ?B ? + ?C ? + ?D + + +E + + +F ? + ? Risk of bias legend (A) Bias arising from the randomization process (B) Bias due to deviations from intended interventions (C) Bias due to missing outcome data (D) Bias in measurement of the outcome (E) Bias in selection of the reported result (F) Overall bias"
+    },
+    {
+      "review_id": "CD015040_rtms_ptsd",
+      "analysis_id": "1.2",
+      "study_row_count": 5,
+      "rob_domain_count": 0,
+      "rob_domain_values": {},
+      "rob_legend": {},
+      "rob_extraction_status": "not_extracted_no_rob_block",
+      "rob_extraction_notes": [
+        "No Risk of Bias block was detected in the selected analysis text."
+      ],
+      "source_excerpt": ""
+    },
+    {
+      "review_id": "CD015040_rtms_ptsd",
+      "analysis_id": "1.3",
+      "study_row_count": 6,
+      "rob_domain_count": 6,
+      "rob_domain_values": {
+        "A": [
+          "?",
+          "+",
+          "+",
+          "+",
+          "+",
+          "?"
+        ],
+        "B": [
+          "?",
+          "?",
+          "?",
+          "?",
+          "+",
+          "?"
+        ],
+        "C": [
+          "?",
+          "?",
+          "-",
+          "?",
+          "+",
+          "?"
+        ],
+        "D": [
+          "+",
+          "+",
+          "+",
+          "+",
+          "+",
+          "+"
+        ],
+        "E": [
+          "?",
+          "+",
+          "+",
+          "+",
+          "+",
+          "+"
+        ],
+        "F": [
+          "-",
+          "?",
+          "-",
+          "?",
+          "+",
+          "?"
+        ]
+      },
+      "rob_legend": {
+        "A": "Bias arising from the randomization process",
+        "B": "Bias due to deviations from intended interventions",
+        "C": "Bias due to missing outcome data",
+        "D": "Bias in measurement of the outcome",
+        "E": "Bias in selection of the reported result",
+        "F": "Overall bias Repetitive transcranial magnetic stimulation for post-traumatic stress disorder in adults (Review) Copyright \u00a9 2024 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.93 Cochrane LibraryTrusted evidence. Informed decisions. Better health. Cochrane Database of Systematic Reviews"
+      },
+      "rob_extraction_status": "extracted",
+      "rob_extraction_notes": [],
+      "source_excerpt": "A ? + + + + ?B ? ? ? ? + ?C ? ? - ? + ?D + + + + + +E ? + + + + +F - ? - ? + ? Risk of bias legend (A) Bias arising from the randomization process (B) Bias due to deviations from intended interventions (C) Bias due to missing outcome data (D) Bias in measurement of the outcome (E) Bias in selection of the reported result (F) Overall bias Repetitive transcranial magnetic stimulation for post-traumatic stress disorder in adults (Review) Copyright \u00a9 2024 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.93 Cochrane LibraryTrusted evidence. Informed decisions. Better health. Cochrane Database of Systematic Reviews"
+    },
+    {
+      "review_id": "CD015040_rtms_ptsd",
+      "analysis_id": "1.4",
+      "study_row_count": 3,
+      "rob_domain_count": 0,
+      "rob_domain_values": {},
+      "rob_legend": {},
+      "rob_extraction_status": "not_extracted_no_rob_block",
+      "rob_extraction_notes": [
+        "No Risk of Bias block was detected in the selected analysis text."
+      ],
+      "source_excerpt": ""
+    },
+    {
+      "review_id": "CD015040_rtms_ptsd",
+      "analysis_id": "2.1",
+      "study_row_count": 6,
+      "rob_domain_count": 0,
+      "rob_domain_values": {},
+      "rob_legend": {},
+      "rob_extraction_status": "not_extracted_no_rob_block",
+      "rob_extraction_notes": [
+        "No Risk of Bias block was detected in the selected analysis text."
+      ],
+      "source_excerpt": ""
+    },
+    {
+      "review_id": "CD015040_rtms_ptsd",
+      "analysis_id": "2.2",
+      "study_row_count": 6,
+      "rob_domain_count": 0,
+      "rob_domain_values": {},
+      "rob_legend": {},
+      "rob_extraction_status": "not_extracted_no_rob_block",
+      "rob_extraction_notes": [
+        "No Risk of Bias block was detected in the selected analysis text."
+      ],
+      "source_excerpt": ""
+    },
+    {
+      "review_id": "CD015040_rtms_ptsd",
+      "analysis_id": "4.1",
+      "study_row_count": 1,
+      "rob_domain_count": 0,
+      "rob_domain_values": {},
+      "rob_legend": {},
+      "rob_extraction_status": "not_extracted_no_rob_block",
+      "rob_extraction_notes": [
+        "No Risk of Bias block was detected in the selected analysis text."
+      ],
+      "source_excerpt": ""
+    },
+    {
+      "review_id": "CD015040_rtms_ptsd",
+      "analysis_id": "6.1",
+      "study_row_count": 3,
+      "rob_domain_count": 0,
+      "rob_domain_values": {},
+      "rob_legend": {},
+      "rob_extraction_status": "not_extracted_no_rob_block",
+      "rob_extraction_notes": [
+        "No Risk of Bias block was detected in the selected analysis text."
+      ],
+      "source_excerpt": ""
+    },
+    {
+      "review_id": "CD015040_rtms_ptsd",
+      "analysis_id": "6.2",
+      "study_row_count": 4,
+      "rob_domain_count": 0,
+      "rob_domain_values": {},
+      "rob_legend": {},
+      "rob_extraction_status": "not_extracted_no_rob_block",
+      "rob_extraction_notes": [
+        "No Risk of Bias block was detected in the selected analysis text."
+      ],
+      "source_excerpt": ""
+    },
+    {
+      "review_id": "CD015040_rtms_ptsd",
+      "analysis_id": "6.3",
+      "study_row_count": 4,
+      "rob_domain_count": 0,
+      "rob_domain_values": {},
+      "rob_legend": {},
+      "rob_extraction_status": "not_extracted_no_rob_block",
+      "rob_extraction_notes": [
+        "No Risk of Bias block was detected in the selected analysis text."
+      ],
+      "source_excerpt": ""
+    },
+    {
+      "review_id": "CD015040_rtms_ptsd",
+      "analysis_id": "7.1",
+      "study_row_count": 2,
+      "rob_domain_count": 0,
+      "rob_domain_values": {},
+      "rob_legend": {},
+      "rob_extraction_status": "not_extracted_no_rob_block",
+      "rob_extraction_notes": [
+        "No Risk of Bias block was detected in the selected analysis text."
+      ],
+      "source_excerpt": ""
+    },
+    {
+      "review_id": "CD015040_rtms_ptsd",
+      "analysis_id": "7.2",
+      "study_row_count": 2,
+      "rob_domain_count": 0,
+      "rob_domain_values": {},
+      "rob_legend": {},
+      "rob_extraction_status": "not_extracted_no_rob_block",
+      "rob_extraction_notes": [
+        "No Risk of Bias block was detected in the selected analysis text."
+      ],
+      "source_excerpt": ""
+    },
+    {
+      "review_id": "CD015751_lubricating_drops_lens",
+      "analysis_id": "1.4",
+      "study_row_count": 2,
+      "rob_domain_count": 6,
+      "rob_domain_values": {
+        "A": [
+          "?",
+          "?"
+        ],
+        "B": [
+          "+",
+          "?"
+        ],
+        "C": [
+          "+",
+          "+"
+        ],
+        "D": [
+          "+",
+          "?"
+        ],
+        "E": [
+          "+",
+          "?"
+        ],
+        "F": [
+          "+",
+          "-"
+        ]
+      },
+      "rob_legend": {
+        "A": "Bias arising from the randomization process",
+        "B": "Bias due to deviations from intended interventions",
+        "C": "Bias due to missing outcome data",
+        "D": "Bias in measurement of the outcome",
+        "E": "Bias in selection of the reported result",
+        "F": "Overall bias Lubricating drops for contact lens discomfort in adults (Review) Copyright \u00a9 2024 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.51 Cochrane LibraryTrusted evidence. Informed decisions. Better health. Cochrane Database of Systematic Reviews"
+      },
+      "rob_extraction_status": "extracted",
+      "rob_extraction_notes": [],
+      "source_excerpt": "A ? ?B + ?C + +D + ?E + ?F + - Footnotes aSystane(R) Ultra vs no treatment bSaline vs no treatment Risk of bias legend (A) Bias arising from the randomization process (B) Bias due to deviations from intended interventions (C) Bias due to missing outcome data (D) Bias in measurement of the outcome (E) Bias in selection of the reported result (F) Overall bias Lubricating drops for contact lens discomfort in adults (Review) Copyright \u00a9 2024 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.51 Cochrane LibraryTrusted evidence. Informed decisions. Better health. Cochrane Database of Systematic Reviews"
+    },
+    {
+      "review_id": "CD015751_lubricating_drops_lens",
+      "analysis_id": "1.5",
+      "study_row_count": 1,
+      "rob_domain_count": 0,
+      "rob_domain_values": {},
+      "rob_legend": {},
+      "rob_extraction_status": "not_extracted_no_rob_block",
+      "rob_extraction_notes": [
+        "No Risk of Bias block was detected in the selected analysis text."
+      ],
+      "source_excerpt": ""
+    },
+    {
+      "review_id": "CD015751_lubricating_drops_lens",
+      "analysis_id": "2.2",
+      "study_row_count": 3,
+      "rob_domain_count": 6,
+      "rob_domain_values": {
+        "A": [
+          "?",
+          "?",
+          "?"
+        ],
+        "B": [
+          "+",
+          "+",
+          "+"
+        ],
+        "C": [
+          "+",
+          "?",
+          "+"
+        ],
+        "D": [
+          "?",
+          "+",
+          "+"
+        ],
+        "E": [
+          "?",
+          "+",
+          "+"
+        ],
+        "F": [
+          "-",
+          "?",
+          "?"
+        ]
+      },
+      "rob_legend": {
+        "A": "Bias arising from the randomization process",
+        "B": "Bias due to deviations from intended interventions",
+        "C": "Bias due to missing outcome data",
+        "D": "Bias in measurement of the outcome",
+        "E": "Bias in selection of the reported result",
+        "F": "Overall bias Lubricating drops for contact lens discomfort in adults (Review) Copyright \u00a9 2024 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.53 Cochrane LibraryTrusted evidence. Informed decisions. Better health. Cochrane Database of Systematic Reviews"
+      },
+      "rob_extraction_status": "extracted",
+      "rob_extraction_notes": [],
+      "source_excerpt": "A ? ? ?B + + +C + ? +D ? + +E ? + +F - ? ? Footnotes aSystane(R) test eye drop vs saline bPVP 2% vs saline cFID114657 vs saline Risk of bias legend (A) Bias arising from the randomization process (B) Bias due to deviations from intended interventions (C) Bias due to missing outcome data (D) Bias in measurement of the outcome (E) Bias in selection of the reported result (F) Overall bias Lubricating drops for contact lens discomfort in adults (Review) Copyright \u00a9 2024 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.53 Cochrane LibraryTrusted evidence. Informed decisions. Better health. Cochrane Database of Systematic Reviews"
+    },
+    {
+      "review_id": "CD015751_lubricating_drops_lens",
+      "analysis_id": "2.3",
+      "study_row_count": 2,
+      "rob_domain_count": 0,
+      "rob_domain_values": {},
+      "rob_legend": {},
+      "rob_extraction_status": "not_extracted_no_rob_block",
+      "rob_extraction_notes": [
+        "No Risk of Bias block was detected in the selected analysis text."
+      ],
+      "source_excerpt": ""
+    }
+  ]
+}

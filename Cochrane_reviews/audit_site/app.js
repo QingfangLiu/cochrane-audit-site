@@ -20,12 +20,6 @@
       required: true,
     },
     {
-      key: "outcomes",
-      label: "Outcomes",
-      path: "../provisional_data/review_outcomes.tsv",
-      required: false,
-    },
-    {
       key: "summary",
       label: "Review summary",
       path: "../provisional_data/pubmed_pmc_summary.tsv",
@@ -86,55 +80,36 @@
       required: false,
     },
     {
-      key: "analysisCounts",
-      label: "Analysis counts",
-      path: "../provisional_data/analysis_counts.tsv",
-      required: false,
-    },
-    {
-      key: "studyCharacteristics",
-      label: "Study characteristics",
-      path: "../provisional_data/study_characteristics_first_pass.tsv",
-      required: false,
-    },
-    {
-      key: "studyCharacteristicsRaw",
-      label: "Study characteristics raw JSON",
-      path: "../provisional_data/study_characteristics_first_pass_raw.json",
-      required: false,
-      format: "json",
-    },
-    {
       key: "analysisResults",
-      label: "Summary of analysis results",
+      label: "Analysis result metadata",
       path: "../provisional_data/analysis_results_first_pass.tsv",
       required: false,
     },
     {
       key: "analysisResultsRaw",
-      label: "Summary of analysis results raw JSON",
+      label: "Analysis result metadata raw JSON",
       path: "../provisional_data/analysis_results_first_pass_raw.json",
       required: false,
       format: "json",
     },
     {
-      key: "analysisComparisons",
-      label: "Comparisons",
-      path: "../provisional_data/analysis_comparisons_first_pass.tsv",
-      required: false,
-    },
-    {
       key: "analysisStudyRows",
-      label: "Details of analysis results",
+      label: "Forest plot study rows",
       path: "../provisional_data/analysis_study_rows_first_pass.tsv",
       required: false,
     },
     {
       key: "analysisStudyRowsRaw",
-      label: "Details of analysis results raw JSON",
+      label: "Forest plot study rows raw JSON",
       path: "../provisional_data/analysis_study_rows_first_pass_raw.json",
       required: false,
       format: "json",
+    },
+    {
+      key: "analysisRiskOfBiasRows",
+      label: "Analysis risk-of-bias rows",
+      path: "../provisional_data/analysis_risk_of_bias_rows_first_pass.tsv",
+      required: false,
     },
     {
       key: "analysisReproducedResults",
@@ -235,12 +210,8 @@
     return raw(value).replace(/[^A-Za-z0-9_-]+/g, "-").replace(/^-+|-+$/g, "") || "unknown";
   }
 
-  function analysisResultId(analysisId) {
-    return `analysis-result-${fragmentPart(analysisId)}`;
-  }
-
-  function analysisComparisonId(comparisonId) {
-    return `analysis-comparison-${fragmentPart(comparisonId)}`;
+  function analysisStudyRowsId(analysisId) {
+    return `analysis-study-rows-${fragmentPart(analysisId)}`;
   }
 
   function sentenceCaseId(value) {
@@ -390,7 +361,6 @@
     const curationRows = state.rows.curation || [];
     const reviewIndexRows = state.rows.reviewIndex || [];
     const protocolRows = state.rows.protocol || [];
-    const outcomeRows = state.rows.outcomes || [];
     const studies = state.rows.studies || [];
     const records = state.rows.records || [];
     const reports = state.rows.reports || [];
@@ -400,13 +370,10 @@
     const excludedRecords = state.rows.excludedRecords || [];
     const excludedRegistries = state.rows.excludedRegistries || [];
     const excludedSummary = state.rows.excludedSummary || [];
-    const analysisCounts = state.rows.analysisCounts || [];
-    const studyCharacteristics = state.rows.studyCharacteristics || [];
-    const studyCharacteristicsRaw = state.rows.studyCharacteristicsRaw || [];
     const analysisResults = state.rows.analysisResults || [];
     const analysisResultsRaw = state.rows.analysisResultsRaw || [];
-    const analysisComparisons = state.rows.analysisComparisons || [];
     const analysisStudyRows = state.rows.analysisStudyRows || [];
+    const analysisRiskOfBiasRows = state.rows.analysisRiskOfBiasRows || [];
     const analysisReproducedResults = state.rows.analysisReproducedResults || [];
     const reproducedForestPlots = state.files.analysisReproducedForestPlots?.data?.plots || {};
     const domainSources = state.rows.domainSources || [];
@@ -473,29 +440,6 @@
       }
     });
 
-    const analysisByReview = new Map();
-    analysisCounts.forEach((row) => {
-      analysisByReview.set(row.review_id || row.pdf_stem || reviewIdFromPath(row.pdf), row);
-    });
-
-    const studyCharacteristicsRawByKey = new Map();
-    studyCharacteristicsRaw.forEach((row) => {
-      studyCharacteristicsRawByKey.set(`${row.review_id || ""}|||${row.study_label || ""}`, row);
-    });
-
-    const studyCharacteristicsByReview = new Map();
-    studyCharacteristics.forEach((row, index) => {
-      const reviewId = row.review_id || "";
-      if (!studyCharacteristicsByReview.has(reviewId)) {
-        studyCharacteristicsByReview.set(reviewId, []);
-      }
-      studyCharacteristicsByReview.get(reviewId).push({
-        ...row,
-        _rowIndex: index + 1,
-        _rawJson: studyCharacteristicsRawByKey.get(`${reviewId}|||${row.study_label || ""}`) || null,
-      });
-    });
-
     const analysisResultsRawByKey = new Map();
     analysisResultsRaw.forEach((row) => {
       analysisResultsRawByKey.set(`${row.review_id || ""}|||${row.analysis_id || ""}`, row);
@@ -514,32 +458,25 @@
       });
     });
 
-    const analysisComparisonsByReview = new Map();
-    const analysisComparisonByKey = new Map();
-    analysisComparisons.forEach((row, index) => {
-      const reviewId = row.review_id || "";
-      if (!analysisComparisonsByReview.has(reviewId)) {
-        analysisComparisonsByReview.set(reviewId, []);
-      }
-      const withIndex = { ...row, _rowIndex: index + 1 };
-      analysisComparisonsByReview.get(reviewId).push(withIndex);
-      analysisComparisonByKey.set(`${reviewId}|||${row.comparison_id || ""}`, withIndex);
+    const analysisRiskOfBiasByRow = new Map();
+    analysisRiskOfBiasRows.forEach((row) => {
+      const key = `${row.review_id || ""}|||${row.analysis_id || ""}|||${row.study_order || ""}`;
+      analysisRiskOfBiasByRow.set(key, row);
     });
 
     const analysisStudyRowsByReview = new Map();
-    const analysisStudyRowsByAnalysis = new Map();
     analysisStudyRows.forEach((row, index) => {
       const reviewId = row.review_id || "";
-      const withIndex = { ...row, _rowIndex: index + 1 };
+      const riskOfBiasKey = `${reviewId}|||${row.analysis_id || ""}|||${row.study_order || ""}`;
+      const withIndex = {
+        ...row,
+        _rowIndex: index + 1,
+        _riskOfBias: analysisRiskOfBiasByRow.get(riskOfBiasKey) || null,
+      };
       if (!analysisStudyRowsByReview.has(reviewId)) {
         analysisStudyRowsByReview.set(reviewId, []);
       }
       analysisStudyRowsByReview.get(reviewId).push(withIndex);
-      const key = `${reviewId}|||${row.analysis_id || ""}`;
-      if (!analysisStudyRowsByAnalysis.has(key)) {
-        analysisStudyRowsByAnalysis.set(key, []);
-      }
-      analysisStudyRowsByAnalysis.get(key).push(withIndex);
     });
 
     const analysisReproducedByReview = new Map();
@@ -556,15 +493,6 @@
         analysisReproducedByReview.set(reviewId, []);
       }
       analysisReproducedByReview.get(reviewId).push(withIndex);
-    });
-
-    analysisResultsByReview.forEach((analysisRows) => {
-      analysisRows.forEach((analysisRow) => {
-        analysisRow._comparisonMeta = analysisComparisonByKey.get(
-          `${analysisRow.review_id || ""}|||${String(analysisRow.analysis_id || "").split(".")[0]}`,
-        ) || {};
-        analysisRow._studyRows = analysisStudyRowsByAnalysis.get(`${analysisRow.review_id || ""}|||${analysisRow.analysis_id || ""}`) || [];
-      });
     });
 
     const curationByReview = new Map();
@@ -587,36 +515,6 @@
       if (row.review_id) {
         protocolByReview.set(row.review_id, row);
       }
-    });
-
-    const outcomesByReview = new Map();
-    outcomeRows.forEach((row, index) => {
-      const reviewId = row.review_id || "";
-      if (!reviewId) {
-        return;
-      }
-      if (!outcomesByReview.has(reviewId)) {
-        outcomesByReview.set(reviewId, []);
-      }
-      outcomesByReview.get(reviewId).push({
-        ...row,
-        _rowIndex: index + 1,
-      });
-    });
-    outcomesByReview.forEach((rows) => {
-      rows.sort((left, right) => (
-        asNumber(left.section_order) - asNumber(right.section_order)
-        || asNumber(left.outcome_order) - asNumber(right.outcome_order)
-        || left._rowIndex - right._rowIndex
-      ));
-    });
-    analysisResultsByReview.forEach((analysisRows, reviewId) => {
-      const plannedRows = outcomesByReview.get(reviewId) || [];
-      analysisRows.forEach((analysisRow) => {
-        analysisRow._plannedOutcomeMatches = plannedRows.filter((plannedRow) => (
-          splitCell(plannedRow.matched_analysis_ids).includes(analysisRow.analysis_id)
-        ));
-      });
     });
 
     const domainSourceByReview = new Map();
@@ -675,16 +573,12 @@
           _studies: studiesByReview.get(review.review_id) || [],
           _excludedStudies: excludedStudiesByReview.get(review.review_id) || [],
           _excludedSummary: excludedSummaryByReview.get(review.review_id) || {},
-          _analysis: analysisByReview.get(review.review_id) || {},
-          _studyCharacteristics: studyCharacteristicsByReview.get(review.review_id) || [],
           _analysisResults: analysisResultsByReview.get(review.review_id) || [],
-          _analysisComparisons: analysisComparisonsByReview.get(review.review_id) || [],
           _analysisStudyRows: analysisStudyRowsByReview.get(review.review_id) || [],
           _analysisReproducedResults: analysisReproducedByReview.get(review.review_id) || [],
           _curation: curation,
           _reviewIndex: reviewIndex,
           _protocol: protocolByReview.get(review.review_id) || {},
-          _outcomes: outcomesByReview.get(review.review_id) || [],
           _domainSource: domainSource,
           _domainLabel: domainLabelByReview.get(review.review_id) || {},
         };
@@ -1258,20 +1152,13 @@
   function reviewTocItems() {
     return [
       { label: "Review header", href: "#review-header" },
-      { label: "Data contents", href: "#data-contents" },
       { label: "Review curation summary", href: "#review-curation-summary" },
       { label: "Protocol and eligibility", href: "#protocol-eligibility" },
       { label: "References", href: "#trials" },
       { label: "Included trials", href: "#included-trials", branch: true },
       { label: "Excluded trials", href: "#excluded-trials", branch: true },
-      { label: "Outcomes", href: "#review-outcomes" },
-      { label: "Comparisons", href: "#analysis-comparisons" },
-      { label: "Analysis quick check", href: "#analysis-count-scan" },
-      { label: "Summary of analysis results", href: "#analysis-results", branch: true },
-      { label: "Details of analysis results", href: "#analysis-study-rows", branch: true },
+      { label: "Forest Plots", href: "#analysis-study-rows" },
       { label: "Reproduced meta-analysis", href: "#reproduced-meta-analysis", branch: true },
-      { label: "Study characteristics", href: "#study-characteristics" },
-      { label: "Risk of bias", href: "#risk-of-bias" },
     ];
   }
 
@@ -1408,231 +1295,6 @@
     `;
   }
 
-  function curationFieldCount(curation) {
-    return [
-      "domain",
-      "published_issue",
-      "studies_summary",
-      "reports_refs_summary",
-      "comparisons",
-      "outcomes",
-      "timepoint_burden",
-      "curation_notes",
-    ].filter((field) => raw(curation[field])).length;
-  }
-
-  function protocolFieldCount(protocol) {
-    return [
-      "research_question",
-      "review_objective",
-      "population",
-      "intervention",
-      "eligibility_study_designs",
-      "eligibility_setting",
-      "eligibility_inclusion_criteria",
-      "eligibility_exclusion_criteria",
-      "protocol_notes",
-    ].filter((field) => raw(protocol[field])).length;
-  }
-
-  function renderDataContents(review) {
-    const curation = review._curation || {};
-    const protocol = review._protocol || {};
-    const domainSource = review._domainSource || {};
-    const domainLabel = review._domainLabel || {};
-    const outcomes = review._outcomes || [];
-    const studies = review._studies || [];
-    const excludedStudies = review._excludedStudies || [];
-    const excludedSummary = review._excludedSummary || {};
-    const analysis = review._analysis || {};
-    const studyCharacteristics = review._studyCharacteristics || [];
-    const analysisResults = review._analysisResults || [];
-    const analysisComparisons = review._analysisComparisons || [];
-    const analysisStudyRows = review._analysisStudyRows || [];
-    const analysisReproducedResults = review._analysisReproducedResults || [];
-    const pubmedRecords = studies.reduce((sum, study) => sum + (study._records || []).length, 0);
-    const reportCandidates = studies.reduce((sum, study) => sum + (study._reports || []).length, 0);
-    const nctRecords = studies.reduce((sum, study) => sum + (study._registries || []).length, 0);
-    const matchedReportCandidates = studies.reduce(
-      (sum, study) => sum + (study._reports || []).filter((report) => isYes(report.has_pubmed)).length,
-      0,
-    );
-    const curationFields = curationFieldCount(curation);
-    const protocolFields = protocolFieldCount(protocol);
-    const pubmedTrials = studies.filter((study) => isYes(study.has_pubmed)).length;
-    const pmcTrials = studies.filter((study) => isYes(study.has_pmc)).length;
-    const needsAttention = studies.filter(needsReview).length;
-    const excludedPubmedTrials = excludedStudies.filter((study) => isYes(study.has_pubmed)).length;
-    const excludedPmcTrials = excludedStudies.filter((study) => isYes(study.has_pmc)).length;
-    const characteristicStatusCounts = countBy(studyCharacteristics, "characteristics_status");
-    const analysisStatusCounts = countBy(analysisResults, "extraction_status");
-    const analysisStudyRowStatusCounts = countBy(analysisStudyRows, "row_extraction_status");
-    const reproducedStatusCounts = countBy(analysisReproducedResults, "reported_match_status");
-    const outcomeStatusCounts = countBy(outcomes, "extraction_status");
-    const domainSourceFields = [
-      domainSource.cochrane_editorial_group?.value,
-      domainSource.objective?.value,
-      Array.isArray(domainSource.index_terms?.mesh_terms) && domainSource.index_terms.mesh_terms.length ? "mesh_terms" : "",
-    ].filter((field) => raw(field)).length;
-
-    const rows = [
-      {
-        section: "Review curation summary",
-        href: "#review-curation-summary",
-        source: "provisional_data/review_curation_summary.tsv",
-        availability: raw(curation.review_id) ? `${curationFields}/8 fields populated` : "Missing",
-        notes: "Detailed domain, publication issue, studies, reports, comparisons, outcomes, timepoint burden, notes",
-      },
-      {
-        section: "Clinical domain source",
-        href: "#review-curation-summary",
-        source: "provisional_data/review_domain_source_raw.json + provisional_data/review_domain_labels_ai.json",
-        availability: raw(domainLabel.clinical_domain) ? `${raw(domainLabel.clinical_domain)} label; ${domainSourceFields}/3 raw sources` : "Missing",
-        notes: "AI label plus raw editorial group, objective, and MeSH/index terms extracted from the PDF",
-      },
-      {
-        section: "Protocol and eligibility",
-        href: "#protocol-eligibility",
-        source: "provisional_data/review_protocol_eligibility.tsv",
-        availability: raw(protocol.review_id) ? `${protocolFields}/9 displayed fields populated` : "Missing",
-        notes: "Research question, objective, population and intervention criteria, study designs, inclusion/exclusion criteria",
-      },
-      {
-        section: "References",
-        href: "#trials",
-        source: "provisional_data/included_study_indexing.tsv + provisional_data/excluded_study_indexing.tsv",
-        availability: `${studies.length} included trials; ${excludedStudies.length} excluded trials`,
-        notes: "Parent section for included and excluded Cochrane trial audits",
-      },
-      {
-        section: "Included trials",
-        href: "#included-trials",
-        source: "provisional_data/included_study_indexing.tsv + provisional_data/included_trial_registry_records.tsv",
-        availability: `${studies.length} trials`,
-        notes: `${pubmedTrials} with PMID; ${pmcTrials} with PMCID; ${nctRecords} registry records; ${needsAttention} needing attention`,
-      },
-      {
-        section: "Excluded trials",
-        href: "#excluded-trials",
-        source: "provisional_data/excluded_study_indexing.tsv + provisional_data/excluded_report_indexing.tsv + provisional_data/excluded_pubmed_records.tsv + provisional_data/excluded_trial_registry_records.tsv",
-        availability: excludedStudies.length
-          ? `${excludedStudies.length} trials; ${excludedPubmedTrials} with PMID; ${excludedPmcTrials} with PMCID`
-          : "No excluded-trial rows for this review",
-        notes: raw(excludedSummary.unique_pmids)
-          ? `${raw(excludedSummary.unique_pmids)} unique excluded PMIDs; used only as audit/evaluation ground truth`
-          : "Cochrane References to studies excluded from this review, when extracted",
-      },
-      {
-        section: "Detailed citation cards",
-        href: "#trial-details",
-        source: "provisional_data/included_study_indexing.tsv + provisional_data/excluded_study_indexing.tsv + report, PubMed, and registry detail TSVs",
-        availability: state.selectedTrialRowIndex ? "One selected trial shown" : "Hidden until a checklist link is clicked",
-        notes: `${reportCandidates} report candidates; ${matchedReportCandidates} with PMID; ${pubmedRecords} matched PubMed record rows`,
-      },
-      {
-        section: "Outcomes",
-        href: "#review-outcomes",
-        source: "provisional_data/review_outcomes.tsv",
-        availability: outcomes.length
-          ? `${outcomes.length} rows; ${statusSummary(outcomeStatusCounts)}`
-          : "No outcome rows loaded",
-        notes: "Planned/review-level outcome extraction; mapping columns link to saved analysis-result rows when heuristic matches exist",
-      },
-      {
-        section: "Comparisons",
-        href: "#analysis-comparisons",
-        source: "provisional_data/analysis_comparisons_first_pass.tsv",
-        availability: analysisComparisons.length ? `${analysisComparisons.length} comparison rows` : "No rows for this review",
-        notes: "Comparison family, sensitivity/subgroup role, parent comparison, and intervention/comparator parsing",
-      },
-      {
-        section: "Analysis quick check",
-        href: "#analysis-count-scan",
-        source: "provisional_data/analysis_counts.tsv",
-        availability: raw(analysis.analysis_count) ? `${analysis.analysis_count} analyses` : "Missing",
-        notes: raw(analysis.analysis_count)
-          ? `${raw(analysis.estimable_analysis_count) || "0"} estimable; ${raw(analysis.uncertain_analysis_count) || "0"} uncertain; ${raw(analysis.not_estimable_analysis_count) || "0"} not estimable`
-          : "No matching analysis-count row loaded",
-      },
-      {
-        section: "Summary of analysis results",
-        href: "#analysis-results",
-        source: "provisional_data/analysis_results_first_pass.tsv + raw JSON",
-        availability: analysisResults.length
-          ? `${analysisResults.length} analyses; ${statusSummary(analysisStatusCounts)}`
-          : "No rows for this review",
-        notes: "Overall CI is filled only when a Total (95% CI) row is detected; first-pass reviews only for now",
-      },
-      {
-        section: "Details of analysis results",
-        href: "#analysis-study-rows",
-        source: "provisional_data/analysis_study_rows_first_pass.tsv",
-        availability: analysisStudyRows.length
-          ? `${analysisStudyRows.length} study rows; ${statusSummary(analysisStudyRowStatusCounts)}`
-          : "No rows for this review",
-        notes: "Trial rows, per-arm data, weights, study-level effect estimates, and PMID/PMCID coverage",
-      },
-      {
-        section: "Reproduced meta-analysis",
-        href: "#reproduced-meta-analysis",
-        source: "provisional_data/analysis_reproduced_results_first_pass.tsv + forest-plot JSON",
-        availability: analysisReproducedResults.length
-          ? `${analysisReproducedResults.length} subset rows; ${statusSummary(reproducedStatusCounts)}`
-          : "No reproduced rows for this review",
-        notes: "CI-derived inverse-variance reproduction for all studies and PMCID-only subsets; first-pass reviews only for now",
-      },
-      {
-        section: "Study characteristics",
-        href: "#study-characteristics",
-        source: "provisional_data/study_characteristics_first_pass.tsv + raw JSON",
-        availability: studyCharacteristics.length
-          ? `${studyCharacteristics.length} rows; ${statusSummary(characteristicStatusCounts)}`
-          : "No rows for this review",
-        notes: "Provisional Cochrane characteristics-table extraction; first-pass reviews only for now",
-      },
-      {
-        section: "Risk of bias",
-        href: "#risk-of-bias",
-        source: "not extracted yet",
-        availability: "Placeholder",
-        notes: "Reserved for Cochrane risk-of-bias judgements and domain-level support once the audit extractor is added",
-      },
-    ];
-
-    return `
-      <section class="panel contents-panel" id="data-contents">
-        <div class="section-head">
-          <div>
-            <h2>Data Contents</h2>
-            <p class="muted">Per-review map of the data currently available in this audit page.</p>
-          </div>
-        </div>
-        <div class="record-table-wrap contents-table">
-          <table>
-            <thead>
-              <tr>
-                <th>Section</th>
-                <th>Available data</th>
-                <th>What to check</th>
-              </tr>
-            </thead>
-            <tbody>
-              ${rows.map((row) => `
-                <tr>
-                  <td title="Source data: ${escapeHtml(row.source)}">
-                    <a href="${escapeHtml(row.href)}" aria-label="${escapeHtml(`${row.section}. Source data: ${row.source}`)}">${escapeHtml(row.section)}</a>
-                  </td>
-                  <td>${escapeHtml(row.availability)}</td>
-                  <td>${escapeHtml(row.notes)}</td>
-                </tr>
-              `).join("")}
-            </tbody>
-          </table>
-        </div>
-      </section>
-    `;
-  }
-
   function renderProtocolEligibilityPanel(review) {
     const protocol = review._protocol || {};
     if (!raw(protocol.review_id)) {
@@ -1674,85 +1336,6 @@
     `;
   }
 
-  function groupOutcomeRows(rows) {
-    const grouped = new Map();
-    rows.forEach((row) => {
-      const section = raw(row.outcome_section) || "Outcomes";
-      if (!grouped.has(section)) {
-        grouped.set(section, []);
-      }
-      grouped.get(section).push(row);
-    });
-
-    return Array.from(grouped.entries()).sort((left, right) => {
-      const leftOrder = asNumber(left[1][0]?.section_order);
-      const rightOrder = asNumber(right[1][0]?.section_order);
-      return leftOrder - rightOrder || left[0].localeCompare(right[0]);
-    });
-  }
-
-  function renderOutcomeAnalysisMapping(row) {
-    const analysisIds = splitCell(row.matched_analysis_ids);
-    const analysisOutcomes = splitCell(row.matched_analysis_outcomes);
-    if (analysisIds.length) {
-      return `
-        <div class="outcome-map">
-          <strong>Mapped saved analysis rows:</strong>
-          ${analysisIds.map((id) => `<a href="#${analysisResultId(id)}">${escapeHtml(id)}</a>`).join(", ")}
-          ${analysisOutcomes.length ? `<div class="muted">Analysis outcome labels: ${escapeHtml(analysisOutcomes.join("; "))}</div>` : ""}
-        </div>
-      `;
-    }
-
-    const status = raw(row.analysis_mapping_status);
-    let message = "No saved analysis-result outcome label was automatically matched to this planned outcome.";
-    if (status === "analysis_results_not_available") {
-      message = "No saved analysis-result rows are available for this review.";
-    }
-
-    return `
-      <div class="outcome-map muted">
-        ${escapeHtml(message)}
-      </div>
-    `;
-  }
-
-  function renderReviewOutcomesPanel(review) {
-    const rows = review._outcomes || [];
-    const statusCounts = countBy(rows, "extraction_status");
-    return `
-      <section class="panel outcomes-panel" id="review-outcomes">
-        <div class="section-head">
-          <div>
-            <h2>Outcomes</h2>
-            <p class="muted">Rendered from provisional_data/review_outcomes.tsv. These are planned/review-level outcomes from the PDF Types of outcome measures section; actual meta-analyzed outcomes must be checked against Summary of analysis results.</p>
-          </div>
-          <div class="muted">${rows.length ? `${rows.length} rows; ${escapeHtml(statusSummary(statusCounts))}` : "No rows"}</div>
-        </div>
-        <div class="excerpt">
-          <strong>Scope note:</strong> Outcome rows here are planned or review-level outcomes. The mapping fields show whether the saved analysis-result extraction currently contains a matching meta-analysis outcome label.
-        </div>
-        ${rows.length ? `
-          <div class="outcome-section-list">
-            ${groupOutcomeRows(rows).map(([section, sectionRows]) => `
-              <section class="outcome-section">
-                <h3>${escapeHtml(section)}</h3>
-                <ol>
-                  ${sectionRows.map((row) => `
-                    <li id="planned-outcome-${escapeHtml(row._rowIndex)}">
-                      <div>${display(raw(row.outcome_name) || raw(row.outcome_text_raw), "No outcome text")}</div>
-                      ${renderOutcomeAnalysisMapping(row)}
-                    </li>
-                  `).join("")}
-                </ol>
-              </section>
-            `).join("")}
-          </div>
-        ` : `<p class="muted excerpt">No review-outcome rows were loaded for this review.</p>`}
-      </section>
-    `;
-  }
-
   function sourceStatusClass(value) {
     const status = raw(value).toLowerCase();
     if (["overall_ci_extracted", "single_candidate_ci_extracted", "completed", "extracted"].includes(status)) {
@@ -1771,265 +1354,92 @@
     return "warn";
   }
 
-  function renderStudyCharacteristicsPanel(review) {
-    const rows = review._studyCharacteristics || [];
-    return `
-      <section class="panel study-characteristics-panel collapsed-panel" id="study-characteristics">
-        <details>
-          <summary class="section-head">
-            <div>
-              <h2>Study Characteristics</h2>
-              <p class="muted">Rendered from provisional_data/study_characteristics_first_pass.tsv. These are provisional PDF-table extractions for first-pass reviews only.</p>
-            </div>
-            <div class="muted">${rows.length ? `${rows.length} rows` : "No rows"}</div>
-          </summary>
-          ${rows.length ? `
-            <div class="record-table-wrap study-characteristics-table">
-              <table>
-                <thead>
-                  <tr>
-                    <th>Trial</th>
-                    <th>Status</th>
-                    <th>Design / methods</th>
-                    <th>Population</th>
-                    <th>Interventions</th>
-                    <th>Notes / reason</th>
-                    <th>Raw row</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  ${rows.map((row) => `
-                    <tr>
-                      <td>
-                        <strong>${escapeHtml(row.study_label || "Unnamed study")}</strong>
-                        <div class="muted">row ${escapeHtml(row._rowIndex)}</div>
-                      </td>
-                      <td><span class="status-chip ${sourceStatusClass(row.characteristics_status)}">${display(row.characteristics_status, "none")}</span></td>
-                      <td>${display(raw(row.study_design) || raw(row.methods_text))}</td>
-                      <td>${display(raw(row.population_description) || raw(row.participants_text))}</td>
-                      <td>${display(raw(row.interventions_text) || raw(row.intervention_groups_json))}</td>
-                      <td>${display(raw(row.non_extraction_reason) || raw(row.parse_warnings) || raw(row.notes))}</td>
-                      <td>${renderRawRows(row)}${renderRawJson(row._rawJson)}</td>
-                    </tr>
-                  `).join("")}
-                </tbody>
-              </table>
-            </div>
-          ` : `<p class="muted excerpt">No study-characteristics rows were loaded for this review. The current saved extraction covers the first-pass group only.</p>`}
-        </details>
-      </section>
-      `;
+  function parseJsonCell(value) {
+    const text = raw(value);
+    if (!text) {
+      return null;
     }
+    try {
+      return JSON.parse(text);
+    } catch (error) {
+      return null;
+    }
+  }
 
-  function renderRiskOfBiasPlaceholderPanel() {
+  function robSymbolClass(symbol) {
+    if (symbol === "+") {
+      return "rob-low";
+    }
+    if (symbol === "-") {
+      return "rob-high";
+    }
+    if (symbol === "?") {
+      return "rob-unclear";
+    }
+    return "rob-missing";
+  }
+
+  function robStatusLabel(status) {
+    if (status === "not_extracted_no_rob_block") {
+      return "No RoB block";
+    }
+    if (status === "partial_count_mismatch") {
+      return "Partial";
+    }
+    return sentenceCaseId(status || "Not extracted");
+  }
+
+  function robLegendForRows(rows) {
+    for (const row of rows) {
+      const legend = parseJsonCell(row._riskOfBias?.rob_legend_json);
+      if (legend && Object.keys(legend).length) {
+        return legend;
+      }
+    }
+    return null;
+  }
+
+  function renderRiskOfBiasLegend(rows) {
+    const legend = robLegendForRows(rows);
+    if (!legend) {
+      return "";
+    }
     return `
-      <section class="panel risk-of-bias-panel" id="risk-of-bias">
-        <div class="section-head">
-          <div>
-            <h2>Risk of bias</h2>
-            <p class="muted">Placeholder for a future Cochrane risk-of-bias audit component.</p>
-          </div>
-          <div class="muted">Not extracted yet</div>
+      <details class="rob-legend">
+        <summary>RoB legend</summary>
+        <div class="rob-legend-list">
+          ${Object.entries(legend).map(([code, label]) => `
+            <span><strong>${escapeHtml(code)}</strong> ${escapeHtml(label)}</span>
+          `).join("")}
         </div>
-        <div class="excerpt">
-          This section is reserved for study-level and domain-level risk-of-bias judgements from the Cochrane review. No RoB source artifact is currently loaded for this audit page.
-        </div>
-      </section>
+      </details>
     `;
   }
 
-  function renderPlannedOutcomeMatches(row) {
-    const matches = row._plannedOutcomeMatches || [];
-    if (!matches.length) {
-      return `<span class="muted">No mapped planned outcome in review_outcomes.tsv</span>`;
+  function renderRiskOfBiasCell(row) {
+    const riskOfBias = row._riskOfBias;
+    if (!riskOfBias) {
+      return `<span class="muted">No RoB row</span>`;
     }
-
+    const status = raw(riskOfBias.rob_extraction_status);
+    const symbols = "ABCDEFGHIJ".split("")
+      .map((code) => [code, raw(riskOfBias[`rob_${code}`])])
+      .filter(([, symbol]) => symbol);
+    if (!symbols.length) {
+      return `
+        <span class="status-chip ${sourceStatusClass(status)}">${escapeHtml(robStatusLabel(status))}</span>
+        ${raw(riskOfBias.rob_extraction_notes) ? `<div class="muted">${display(riskOfBias.rob_extraction_notes, "")}</div>` : ""}
+      `;
+    }
     return `
-      <div class="planned-match-list">
-        ${matches.map((match) => `
-          <div>
-            <a href="#planned-outcome-${escapeHtml(match._rowIndex)}">${display(match.outcome_name || match.outcome_text_raw, "Unnamed planned outcome")}</a>
-            <div class="muted">${display(match.outcome_section, "Outcome section")} row ${escapeHtml(match._rowIndex)}</div>
-          </div>
+      <div class="rob-chip-list">
+        ${symbols.map(([code, symbol]) => `
+          <span class="rob-chip ${robSymbolClass(symbol)}">
+            <span class="rob-domain">${escapeHtml(code)}</span>
+            <span>${escapeHtml(symbol)}</span>
+          </span>
         `).join("")}
       </div>
-    `;
-  }
-
-  function roleLabel(value) {
-    return sentenceCaseId(value || "unclear");
-  }
-
-  function comparisonRoleClass(value) {
-    const role = raw(value).toLowerCase();
-    if (role === "main_comparison") {
-      return "role-main";
-    }
-    if (role === "sensitivity_analysis" || role === "subgroup_variant" || role === "alternative_model") {
-      return "role-derived";
-    }
-    return "role-unclear";
-  }
-
-  function renderComparisonRoleChip(value) {
-    return `<span class="status-chip role-chip ${comparisonRoleClass(value)}">${escapeHtml(roleLabel(value))}</span>`;
-  }
-
-  function renderComparisonLink(row) {
-    const comparisonId = raw(row.comparison_id) || raw(row.analysis_id).split(".")[0];
-    if (!comparisonId || !row._comparisonMeta?.comparison_id) {
-      return `<span class="muted">No comparison row</span>`;
-    }
-    const roleValue = row._comparisonMeta.comparison_role;
-    const parentId = raw(row._comparisonMeta.parent_comparison_id);
-    return `
-      <div class="comparison-link">
-        <a href="#${analysisComparisonId(comparisonId)}">Comparison ${escapeHtml(comparisonId)}</a>
-        ${renderComparisonRoleChip(roleValue)}
-        ${parentId ? `<div class="muted">Parent: <a href="#${analysisComparisonId(parentId)}">Comparison ${escapeHtml(parentId)}</a></div>` : ""}
-      </div>
-    `;
-  }
-
-  function renderAnalysisLinks(values) {
-    const ids = splitCell(values);
-    if (!ids.length) {
-      return display(values);
-    }
-    return ids.map((id) => `<a href="#${analysisResultId(id)}">${escapeHtml(id)}</a>`).join(", ");
-  }
-
-  function renderAnalysisComparisonsPanel(review) {
-    const rows = review._analysisComparisons || [];
-    const comparisonLabel = (row) => {
-      const clean = raw(row.comparison_label_clean);
-      const original = raw(row.comparison_label_raw);
-      const canonical = raw(row.comparison_label_canonical);
-      const primary = clean || original;
-      const details = [];
-      if (canonical && canonical.toLowerCase() !== primary.toLowerCase()) {
-        details.push(`Canonical: ${escapeHtml(canonical)}`);
-      }
-      if (original && primary && original !== primary) {
-        details.push(`Raw: ${escapeHtml(original)}`);
-      }
-      return `
-        <div>${display(primary)}</div>
-        ${details.length ? `<div class="muted">${details.join("<br>")}</div>` : ""}
-      `;
-    };
-    return `
-      <section class="panel analysis-comparisons-panel" id="analysis-comparisons">
-        <div class="section-head">
-          <div>
-            <h2>Comparisons</h2>
-            <p class="muted">Rendered from provisional_data/analysis_comparisons_first_pass.tsv. Roles and parent links are automatic and unverified.</p>
-          </div>
-          <div class="muted">${rows.length ? `${rows.length} rows` : "No rows"}</div>
-        </div>
-        ${rows.length ? `
-          <div class="record-table-wrap analysis-comparisons-table">
-            <table>
-              <thead>
-                <tr>
-                  <th>ID</th>
-                  <th>Role</th>
-                  <th>Parent</th>
-                  <th>Comparison</th>
-                  <th>Intervention</th>
-                  <th>Comparator</th>
-                  <th>Analyses</th>
-                </tr>
-              </thead>
-              <tbody>
-                ${rows.map((row) => `
-                  <tr id="${analysisComparisonId(row.comparison_id)}">
-                    <td><strong>${display(row.comparison_id)}</strong></td>
-                    <td>${renderComparisonRoleChip(row.comparison_role)}</td>
-                    <td>${display(row.parent_comparison_id)}</td>
-                    <td>${comparisonLabel(row)}</td>
-                    <td>${display(row.intervention)}</td>
-                    <td>${display(row.comparator)}</td>
-                    <td>${renderAnalysisLinks(row.analysis_ids)}</td>
-                  </tr>
-                `).join("")}
-              </tbody>
-            </table>
-          </div>
-        ` : `<p class="muted excerpt">No analysis-comparison rows were loaded for this review. The current saved extraction covers the first-pass group only.</p>`}
-      </section>
-    `;
-  }
-
-  function renderStudyRowCount(row) {
-    const studyRows = row._studyRows || [];
-    if (!studyRows.length) {
-      return `<span class="muted">No study rows</span>`;
-    }
-    const noPmc = studyRows.filter((studyRow) => raw(studyRow.study_has_pmc) === "no").length;
-    const partial = studyRows.filter((studyRow) => raw(studyRow.row_extraction_status) !== "extracted").length;
-    const parts = [`${studyRows.length} rows`];
-    if (noPmc) {
-      parts.push(`${noPmc} without PMCID`);
-    }
-    if (partial) {
-      parts.push(`${partial} partial`);
-    }
-    return `<a href="#analysis-study-rows-${escapeHtml(row.analysis_id || "")}">${escapeHtml(parts.join("; "))}</a>`;
-  }
-
-  function renderAnalysisResultsPanel(review) {
-    const rows = review._analysisResults || [];
-    return `
-      <section class="panel analysis-results-panel" id="analysis-results">
-        <div class="section-head">
-          <div>
-            <h2>Summary of analysis results</h2>
-            <p class="muted">Rendered from provisional_data/analysis_results_first_pass.tsv. Planned-outcome matches come from mapping columns in provisional_data/review_outcomes.tsv.</p>
-          </div>
-          <div class="muted">${rows.length ? `${rows.length} rows` : "No rows"}</div>
-        </div>
-        ${rows.length ? `
-          <div class="record-table-wrap analysis-results-table">
-            <table>
-              <thead>
-                <tr>
-                  <th>Analysis</th>
-                  <th>Comparison</th>
-                  <th>Outcome</th>
-                  <th>Planned outcome match</th>
-                  <th>Measure</th>
-                  <th>Study rows</th>
-                  <th>Status</th>
-                  <th>Overall CI</th>
-                </tr>
-              </thead>
-              <tbody>
-                ${rows.map((row) => {
-                  const overall = raw(row.overall_effect)
-                    ? `${row.overall_effect} [${row.ci_lower}, ${row.ci_upper}]`
-                    : "";
-                  return `
-                    <tr id="${analysisResultId(row.analysis_id)}">
-                      <td>
-                        <strong>${escapeHtml(row.analysis_id || "Analysis")}</strong>
-                        <div>${display(raw(row.comparison) || raw(row.analysis_title))}</div>
-                      </td>
-                      <td>${renderComparisonLink(row)}</td>
-                      <td>${display(raw(row.outcome) || raw(row.analysis_title))}</td>
-                      <td>${renderPlannedOutcomeMatches(row)}</td>
-                      <td>${display(row.effect_measure)}</td>
-                      <td>${renderStudyRowCount(row)}</td>
-                      <td><span class="status-chip ${sourceStatusClass(row.extraction_status)}">${display(row.extraction_status, "none")}</span></td>
-                      <td>${display(overall)}</td>
-                    </tr>
-                  `;
-                }).join("")}
-              </tbody>
-            </table>
-          </div>
-        ` : `<p class="muted excerpt">No analysis-result rows were loaded for this review. The current saved extraction covers the first-pass group only.</p>`}
-      </section>
     `;
   }
 
@@ -2580,22 +1990,36 @@
     ];
   }
 
-  function analysisSummaryForStudyRows(analysisRows) {
+  function analysisSummaryForStudyRows(analysisRows, analysisMeta = {}) {
     const first = analysisRows[0] || {};
-    const withPmc = analysisRows.filter((row) => raw(row.study_has_pmc) === "yes").length;
-    const noPmc = analysisRows.filter((row) => raw(row.study_has_pmc) === "no").length;
-    const partial = analysisRows.filter((row) => raw(row.row_extraction_status) !== "extracted").length;
-    const bits = [`${analysisRows.length} study rows`];
-    bits.push(`${withPmc} with PMCID`);
-    bits.push(`${noPmc} without PMCID`);
-    if (partial) {
-      bits.push(`${partial} partial/not extracted`);
-    }
+    const comparisonLabel = raw(first.comparison_label_clean)
+      || raw(first.comparison)
+      || raw(analysisMeta.comparison_label_clean)
+      || raw(analysisMeta.comparison)
+      || (raw(first.comparison_id) ? `Comparison ${raw(first.comparison_id)}` : "");
+    const effectMeasure = raw(analysisMeta.effect_measure);
+    const overallEffect = raw(analysisMeta.overall_effect);
+    const ciLower = raw(analysisMeta.ci_lower);
+    const ciUpper = raw(analysisMeta.ci_upper);
+    const overallCi = overallEffect || ciLower || ciUpper
+      ? `${overallEffect || "?"} [${ciLower || "?"}, ${ciUpper || "?"}]`
+      : "";
+    const extractionStatus = raw(analysisMeta.extraction_status);
     return `
       <div>
         <strong>Analysis ${display(first.analysis_id)}</strong>
-        <div>${display(first.outcome)}</div>
-        <div class="muted">Comparison ${display(first.comparison_id)}; ${display(roleLabel(first.comparison_role))}; ${bits.join("; ")}</div>
+        <div>${display(analysisMeta.outcome || first.outcome)}</div>
+        ${comparisonLabel ? `
+          <div class="analysis-comparison-summary">
+            <span class="field-label">Comparison</span>
+            <span>${display(comparisonLabel)}</span>
+          </div>
+        ` : ""}
+        <div class="analysis-study-group-meta">
+          ${effectMeasure ? `<span><strong>Measure:</strong> ${display(effectMeasure)}</span>` : ""}
+          ${overallCi ? `<span><strong>Overall CI:</strong> ${display(overallCi)}</span>` : ""}
+          ${extractionStatus ? `<span><strong>Status:</strong> <span class="status-chip ${sourceStatusClass(extractionStatus)}">${display(extractionStatus)}</span></span>` : ""}
+        </div>
       </div>
     `;
   }
@@ -2610,6 +2034,7 @@
               <th>Source coverage</th>
               <th>Data fields</th>
               <th>Effect</th>
+              <th>Risk of bias</th>
               <th>Status</th>
             </tr>
           </thead>
@@ -2626,6 +2051,7 @@
                 </td>
                 <td>${renderStudyDataFields(row)}</td>
                 <td>${renderStudyEffect(row)}</td>
+                <td>${renderRiskOfBiasCell(row)}</td>
                 <td>
                   <span class="status-chip ${sourceStatusClass(row.row_extraction_status)}">${display(row.row_extraction_status)}</span>
                   <div class="muted">${display(row.row_extraction_notes, "")}</div>
@@ -2640,90 +2066,31 @@
 
   function renderAnalysisStudyRowsPanel(review) {
     const rows = review._analysisStudyRows || [];
+    const analysisMetaById = new Map(
+      (review._analysisResults || []).map((row) => [raw(row.analysis_id), row]),
+    );
     return `
       <section class="panel analysis-study-rows-panel" id="analysis-study-rows">
         <div class="section-head">
           <div>
-            <h2>Details of analysis results</h2>
-            <p class="muted">Rendered from provisional_data/analysis_study_rows_first_pass.tsv. These are provisional forest-plot rows matched to included Cochrane trials.</p>
+            <h2>Forest Plots</h2>
+            <p class="muted">Rendered from provisional_data/analysis_study_rows_first_pass.tsv, with effect-measure and overall-CI metadata from provisional_data/analysis_results_first_pass.tsv and row-level RoB symbols from provisional_data/analysis_risk_of_bias_rows_first_pass.tsv when available.</p>
           </div>
           <div class="muted">${rows.length ? `${rows.length} rows` : "No rows"}</div>
         </div>
         ${rows.length ? `
           <div class="analysis-study-group-list">
             ${groupStudyRowsByAnalysis(rows).map(([analysisId, analysisRows]) => `
-              <section class="analysis-study-group" id="analysis-study-rows-${escapeHtml(analysisId)}">
+              <section class="analysis-study-group" id="${analysisStudyRowsId(analysisId)}">
                 <div class="analysis-study-group-head">
-                  ${analysisSummaryForStudyRows(analysisRows)}
+                  ${analysisSummaryForStudyRows(analysisRows, analysisMetaById.get(raw(analysisId)) || {})}
                 </div>
+                ${renderRiskOfBiasLegend(analysisRows)}
                 ${renderAnalysisStudyRowsTable(analysisRows)}
               </section>
             `).join("")}
           </div>
         ` : `<p class="muted excerpt">No analysis study rows were loaded for this review. The current saved extraction covers the first-pass group only.</p>`}
-      </section>
-    `;
-  }
-
-  function renderAnalysisIds(label, values, className = "") {
-    const ids = splitCell(values);
-    return `
-      <div class="analysis-id-group ${className}">
-        <div class="field-label">${escapeHtml(label)}</div>
-        <div class="analysis-id-list">
-          ${ids.length ? ids.map((id) => `<span class="analysis-id">${escapeHtml(id)}</span>`).join("") : `<span class="muted">None</span>`}
-        </div>
-      </div>
-    `;
-  }
-
-  function renderAnalysisScanPanel(review) {
-    const analysis = review._analysis || {};
-    if (!raw(analysis.analysis_count)) {
-      return `
-        <section class="panel analysis-panel" id="analysis-count-scan">
-          <div class="section-head">
-            <div>
-              <h2>Analysis quick check</h2>
-              <p class="muted">No matching row was loaded from provisional_data/analysis_counts.tsv for this review.</p>
-            </div>
-          </div>
-        </section>
-      `;
-    }
-
-    const stats = [
-      ["Total analyses", analysis.analysis_count, "Unique Cochrane Analysis X.Y labels"],
-      ["Estimable", analysis.estimable_analysis_count, "Heuristic effect-estimate pattern found"],
-      ["Uncertain", analysis.uncertain_analysis_count, "Found, but not clearly estimable"],
-      ["Not estimable", analysis.not_estimable_analysis_count, "No-data or not-estimable marker found"],
-    ];
-
-    return `
-      <section class="panel analysis-panel" id="analysis-count-scan">
-        <div class="section-head">
-          <div>
-            <h2>Analysis quick check</h2>
-            <p class="muted">Rendered from provisional_data/analysis_counts.tsv. Treat estimability as a triage heuristic, not final manual verification.</p>
-          </div>
-          <div class="muted">${display(analysis.pdf, "No PDF path")}</div>
-        </div>
-        <div class="analysis-stat-grid">
-          ${stats.map(([label, value, detail]) => `
-            <div class="analysis-stat">
-              <div class="stat-label">${escapeHtml(label)}</div>
-              <div class="stat-value">${display(value, "0")}</div>
-              <div class="stat-detail">${escapeHtml(detail)}</div>
-            </div>
-          `).join("")}
-        </div>
-        <div class="analysis-id-grid">
-          ${renderAnalysisIds("All analysis IDs", analysis.analysis_ids)}
-          ${renderAnalysisIds("Estimable IDs", analysis.estimable_analysis_ids, "ok")}
-          ${renderAnalysisIds("Uncertain IDs", analysis.uncertain_analysis_ids, "warn")}
-          ${renderAnalysisIds("Not-estimable IDs", analysis.not_estimable_analysis_ids, "bad")}
-        </div>
-        ${raw(analysis.error) ? `<div class="excerpt"><strong>Scan error:</strong> ${display(analysis.error)}</div>` : ""}
       </section>
     `;
   }
@@ -3244,21 +2611,14 @@
     return `
       <div class="content-stack">
         ${renderReviewHeader(review)}
-        ${renderDataContents(review)}
         ${renderReviewCurationPanel(review)}
         ${renderProtocolEligibilityPanel(review)}
         ${renderTrialsPlaceholder()}
         ${renderIncludedTrialsTable(review)}
         ${renderExcludedTrialsTable(review)}
         ${renderSelectedTrialDetail(review)}
-        ${renderReviewOutcomesPanel(review)}
-        ${renderAnalysisComparisonsPanel(review)}
-        ${renderAnalysisScanPanel(review)}
-        ${renderAnalysisResultsPanel(review)}
         ${renderAnalysisStudyRowsPanel(review)}
         ${renderReproducedMetaAnalysisPanel(review)}
-        ${renderStudyCharacteristicsPanel(review)}
-        ${renderRiskOfBiasPlaceholderPanel()}
       </div>
     `;
   }
