@@ -154,9 +154,11 @@ The target workflow should be:
 8. Update the benchmark `meta_analysis` block directly from the Cochrane CSV
    exports.
 9. Load the review in the audit site through `reviews.json`.
-10. Export human audit findings.
-11. Resolve findings by editing `benchmark.json`.
-12. Mark the review `verified` or `frozen_for_evaluation`.
+10. Refresh `benchmark_questions.tsv` so the agent can launch the review by
+    number or review ID.
+11. Export human audit findings.
+12. Resolve findings by editing `benchmark.json`.
+13. Mark the review `verified` or `frozen_for_evaluation`.
 
 Example CD013524 command sequence:
 
@@ -196,6 +198,8 @@ python3 Cochrane_reviews/benchmark_tools/build_review_benchmark_json.py CD013524
 
 python3 Cochrane_reviews/benchmark_tools/update_review_benchmark_from_cochrane_analysis_csv.py \
   CD013524
+
+python3 Cochrane_reviews/benchmark_tools/update_benchmark_questions.py
 ```
 
 The final update step searches recursively under the review source collection
@@ -203,6 +207,10 @@ folder, then reads `CD013524-overall-estimates-and-settings.csv` and
 `CD013524-data-rows.csv` directly from the Cochrane data package. It replaces
 the benchmark `meta_analysis` block without writing intermediate analysis TSV
 files.
+
+The benchmark question refresh reads `benchmark_data/reviews.json`, writes the
+root `benchmark_questions.tsv`, and preserves existing manual question wording
+unless `--overwrite` is passed.
 
 If the Cochrane analysis CSV exports are not available for a future review, the
 older PDF text extractors can still be used for meta-analysis summaries, study
