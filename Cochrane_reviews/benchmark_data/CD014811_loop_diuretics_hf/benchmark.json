@@ -1,11 +1,14 @@
 {
   "artifact_version": "2026-06-02-review-benchmark-v1",
-  "generated_at": "2026-06-02T14:01:19+00:00",
+  "generated_at": "2026-06-08T10:17:22+00:00",
   "review": {
     "review_id": "CD014811_loop_diuretics_hf",
     "review_group": "first_pass",
     "review_pdf": "Cochrane_reviews/first_pass/CD014811_loop_diuretics_hf.pdf",
     "source_pdf_path": "../../first_pass/CD014811_loop_diuretics_hf.pdf",
+    "source_collection": "2024_issue_5",
+    "publication_year": "2024",
+    "publication_issue": "5",
     "review_title": "Loop diuretics for acute heart failure",
     "clinical_domain": "Cardiovascular"
   },
@@ -89,6 +92,36 @@
       "row_count": 1
     },
     {
+      "key": "reference_candidates",
+      "format": "tsv",
+      "path": "../../provisional_data/reference_candidate_indexing.tsv",
+      "row_count": 0
+    },
+    {
+      "key": "reference_candidate_pubmed_records",
+      "format": "tsv",
+      "path": "../../provisional_data/reference_candidate_pubmed_records.tsv",
+      "row_count": 0
+    },
+    {
+      "key": "reference_candidate_report_candidates",
+      "format": "tsv",
+      "path": "../../provisional_data/reference_candidate_report_indexing.tsv",
+      "row_count": 0
+    },
+    {
+      "key": "reference_candidate_trial_registry_records",
+      "format": "tsv",
+      "path": "../../provisional_data/reference_candidate_trial_registry_records.tsv",
+      "row_count": 0
+    },
+    {
+      "key": "reference_candidate_summary",
+      "format": "tsv",
+      "path": "../../provisional_data/reference_candidate_summary.tsv",
+      "row_count": 0
+    },
+    {
       "key": "analysis_results",
       "format": "tsv",
       "path": "../../provisional_data/analysis_results_first_pass.tsv",
@@ -111,6 +144,12 @@
       "format": "tsv",
       "path": "../../provisional_data/analysis_reproduced_results_first_pass.tsv",
       "row_count": 20
+    },
+    {
+      "key": "excluded_reference_reasons",
+      "format": "ris",
+      "path": "../../source_reviews/others/CD014811-dataPackage/CD014811-study-data/CD014811-excluded.ris",
+      "row_count": 34
     },
     {
       "key": "domain_source",
@@ -891,7 +930,8 @@
         "lookup_methods": "direct_pubmed_link",
         "title_queries": "Effect of bolus injection versus continuous infusion of furosemide on diuresis and neurohormonal activation in patients with severe congestive heart failure",
         "lookup_errors": ".",
-        "reference_excerpt": "Aaser E, Gullestad L, Tollofsrud S, Lundberg J, Hall C, Djoseland O, et al. Effect of bolus injection versus continuous infusion of furosemide on diuresis and neurohormonal activation in patients with severe congestive heart failure. Scandinavian Journal of Clinical and Laboratory Investigation 1997;57(4):361-7. [DOI: 10.3109/00365519709099409] - DOI - PubMed"
+        "reference_excerpt": "Aaser E, Gullestad L, Tollofsrud S, Lundberg J, Hall C, Djoseland O, et al. Effect of bolus injection versus continuous infusion of furosemide on diuresis and neurohormonal activation in patients with severe congestive heart failure. Scandinavian Journal of Clinical and Laboratory Investigation 1997;57(4):361-7. [DOI: 10.3109/00365519709099409] - DOI - PubMed",
+        "exclusion_reason": "Ineligible study design: cross-over study."
       },
       {
         "review_group": "first_pass",
@@ -912,7 +952,8 @@
         "lookup_methods": "direct_pubmed_link",
         "title_queries": "Frusemide administration in critically ill patients by continuous compared to bolus therapy",
         "lookup_errors": ".",
-        "reference_excerpt": "Alvarez G, Sharpe MD, Martin CM, Ostermann M. Frusemide administration in critically ill patients by continuous compared to bolus therapy. Nephron – Clinical Practice 2007;107(2):c70-6. [DOI: 10.1159/000108641] - DOI - PubMed"
+        "reference_excerpt": "Alvarez G, Sharpe MD, Martin CM, Ostermann M. Frusemide administration in critically ill patients by continuous compared to bolus therapy. Nephron – Clinical Practice 2007;107(2):c70-6. [DOI: 10.1159/000108641] - DOI - PubMed",
+        "exclusion_reason": "Ineligible population: people with fluid overload in intensive care unit, including but not exclusively acute decompensated heart failure."
       },
       {
         "review_group": "first_pass",
@@ -933,7 +974,8 @@
         "lookup_methods": ".",
         "title_queries": "Diuretic efficiency of furosemide in continuous intravenous infusion vs",
         "lookup_errors": "title_search_no_match",
-        "reference_excerpt": "Bagatin J, Sardelic S, Gancevic I, Rumboldt Z, Polic S, Miric D, et al. Diuretic efficiency of furosemide in continuous intravenous infusion vs. bolus injection in congestive heart failure: results of a pilot study. Pharmaca 1993;31(3-4):279-86."
+        "reference_excerpt": "Bagatin J, Sardelic S, Gancevic I, Rumboldt Z, Polic S, Miric D, et al. Diuretic efficiency of furosemide in continuous intravenous infusion vs. bolus injection in congestive heart failure: results of a pilot study. Pharmaca 1993;31(3-4):279-86.",
+        "exclusion_reason": "Ineligible study design: cross-over study.Ineligible intervention: intravenous infusion of loop diuretics over 1 hour."
       },
       {
         "review_group": "first_pass",
@@ -954,7 +996,8 @@
         "lookup_methods": ".",
         "title_queries": "Exploration of recombinant hypertonic saline combined with furosemide in the treatment of heart failure.",
         "lookup_errors": ".",
-        "reference_excerpt": "ChiCTR1800017270. Exploration of recombinant hypertonic saline combined with furosemide in the treatment of heart failure. trialsearch.who.int/Trial2.aspx?TrialID=ChiCTR1800017270 (first received 20 July 2018)."
+        "reference_excerpt": "ChiCTR1800017270. Exploration of recombinant hypertonic saline combined with furosemide in the treatment of heart failure. trialsearch.who.int/Trial2.aspx?TrialID=ChiCTR1800017270 (first received 20 July 2018).",
+        "exclusion_reason": "Ineligible intervention: hypertonic saline plus furosemide versus furosemide alone."
       },
       {
         "review_group": "first_pass",
@@ -975,7 +1018,8 @@
         "lookup_methods": "direct_pubmed_link",
         "title_queries": "Diuretic efficacy of high dose furosemide in severe heart failure: bolus injection versus continuous infusion",
         "lookup_errors": ".",
-        "reference_excerpt": "Dormans TP, Meyel JJ, Gerlag PG, Tan Y, Russel FG, Smits P. Diuretic efficacy of high dose furosemide in severe heart failure: bolus injection versus continuous infusion. Journal of the American College of Cardiology 1996;28(2):376-82. - PubMed"
+        "reference_excerpt": "Dormans TP, Meyel JJ, Gerlag PG, Tan Y, Russel FG, Smits P. Diuretic efficacy of high dose furosemide in severe heart failure: bolus injection versus continuous infusion. Journal of the American College of Cardiology 1996;28(2):376-82. - PubMed",
+        "exclusion_reason": "Ineligible study design: cross-over study."
       },
       {
         "review_group": "first_pass",
@@ -996,7 +1040,8 @@
         "lookup_methods": ".",
         "title_queries": "Administering high-dose furosemide in severe congestive heart failure",
         "lookup_errors": "title_search_no_match",
-        "reference_excerpt": "Dormans TP, Meyel JJ, Gerlag PG, Tan Y, Russel FG, Smits P. Administering high-dose furosemide in severe congestive heart failure. Cardiology Review 1997;14(3):39-43."
+        "reference_excerpt": "Dormans TP, Meyel JJ, Gerlag PG, Tan Y, Russel FG, Smits P. Administering high-dose furosemide in severe congestive heart failure. Cardiology Review 1997;14(3):39-43.",
+        "exclusion_reason": "Ineligible study design: cross-over study."
       },
       {
         "review_group": "first_pass",
@@ -1017,7 +1062,8 @@
         "lookup_methods": ".",
         "title_queries": "Comparison between high and low doses and between two different intravenous administration modalities in patients with advanced heart failure.",
         "lookup_errors": ".",
-        "reference_excerpt": "EUCTR2013-000866-12-IT. Comparison between high and low doses and between two different intravenous administration modalities in patients with advanced heart failure. trialsearch.who.int/Trial2.aspx?TrialID=EUCTR2013-000866-12-IT (first received 9 April 2013)."
+        "reference_excerpt": "EUCTR2013-000866-12-IT. Comparison between high and low doses and between two different intravenous administration modalities in patients with advanced heart failure. trialsearch.who.int/Trial2.aspx?TrialID=EUCTR2013-000866-12-IT (first received 9 April 2013).",
+        "exclusion_reason": "Ineligible intervention: inotropes used alongside intravenous loop diuretics."
       },
       {
         "review_group": "first_pass",
@@ -1038,7 +1084,8 @@
         "lookup_methods": "direct_pubmed_link",
         "title_queries": "Diuretic treatment in high-risk acute decompensation of advanced chronic heart failure-bolus intermittent vs",
         "lookup_errors": ".",
-        "reference_excerpt": "Frea S, Pidello S, Volpe A, Canavosio FG, Galluzzo A, Bovolo V, et al. Diuretic treatment in high-risk acute decompensation of advanced chronic heart failure-bolus intermittent vs. continuous infusion of furosemide: a randomized controlled trial. Clinical Research in Cardiology 2020;109(4):417-25. [DOI: 10.1007/s00392-019-01521-y] - DOI - PubMed"
+        "reference_excerpt": "Frea S, Pidello S, Volpe A, Canavosio FG, Galluzzo A, Bovolo V, et al. Diuretic treatment in high-risk acute decompensation of advanced chronic heart failure-bolus intermittent vs. continuous infusion of furosemide: a randomized controlled trial. Clinical Research in Cardiology 2020;109(4):417-25. [DOI: 10.1007/s00392-019-01521-y] - DOI - PubMed",
+        "exclusion_reason": "Ineligible intervention: inotropes used alongside intravenous loop diuretics."
       },
       {
         "review_group": "first_pass",
@@ -1059,7 +1106,8 @@
         "lookup_methods": "direct_pubmed_link",
         "title_queries": "Early diuretic strategies and the association with in-hospital and post-discharge outcomes in acute heart failure",
         "lookup_errors": ".",
-        "reference_excerpt": "Fudim M, Spates T, Sun JL, Kittipibul V, Testani JM, Starling RC, et al. Early diuretic strategies and the association with in-hospital and post-discharge outcomes in acute heart failure. American Heart Journal 2021;239:110-9. [DOI: 10.1016/j.ahj.2021.05.011] - DOI - PubMed"
+        "reference_excerpt": "Fudim M, Spates T, Sun JL, Kittipibul V, Testani JM, Starling RC, et al. Early diuretic strategies and the association with in-hospital and post-discharge outcomes in acute heart failure. American Heart Journal 2021;239:110-9. [DOI: 10.1016/j.ahj.2021.05.011] - DOI - PubMed",
+        "exclusion_reason": "Ineligible study design: retrospective analysis using participants from ASCEND-HF (Acute Study of Clinical Effectiveness of Nesiritide in Decompensated Heart Failure) trial with a stable diuretic strategy in the first 24 hours following randomisation."
       },
       {
         "review_group": "first_pass",
@@ -1080,7 +1128,8 @@
         "lookup_methods": ".",
         "title_queries": "Protocolized diuretic strategy in cardiorenal failure",
         "lookup_errors": ".",
-        "reference_excerpt": "Kelly V Liang. Protocolized diuretic strategy in cardiorenal failure. International Journal of Clinical Nephrology 2022;4(3):1-14. [NCT01921829]"
+        "reference_excerpt": "Kelly V Liang. Protocolized diuretic strategy in cardiorenal failure. International Journal of Clinical Nephrology 2022;4(3):1-14. [NCT01921829]",
+        "exclusion_reason": "Ineligible intervention."
       },
       {
         "review_group": "first_pass",
@@ -1101,7 +1150,8 @@
         "lookup_methods": "direct_pubmed_link",
         "title_queries": "Pharmacodynamics of torsemide administered as an intravenous injection and as a continuous infusion to patients with congestive heart failure",
         "lookup_errors": ".",
-        "reference_excerpt": "Kramer WG, Smith WB, Ferguson J, Serpas T, Grant AG 3rd, Black PK, et al. Pharmacodynamics of torsemide administered as an intravenous injection and as a continuous infusion to patients with congestive heart failure. Journal of Clinical Pharmacology 1996;36(3):265-70. - PubMed"
+        "reference_excerpt": "Kramer WG, Smith WB, Ferguson J, Serpas T, Grant AG 3rd, Black PK, et al. Pharmacodynamics of torsemide administered as an intravenous injection and as a continuous infusion to patients with congestive heart failure. Journal of Clinical Pharmacology 1996;36(3):265-70. - PubMed",
+        "exclusion_reason": "Ineligible population: compensated stable heart failure."
       },
       {
         "review_group": "first_pass",
@@ -1122,7 +1172,8 @@
         "lookup_methods": "direct_pubmed_link",
         "title_queries": "Intermittent administration of furosemide vs continuous infusion preceded by a loading dose for congestive heart failure",
         "lookup_errors": ".",
-        "reference_excerpt": "Lahav M, Regev A, Ra'anani P, Theodor E. Intermittent administration of furosemide vs continuous infusion preceded by a loading dose for congestive heart failure. Chest 1992;102(3):725-31. - PubMed"
+        "reference_excerpt": "Lahav M, Regev A, Ra'anani P, Theodor E. Intermittent administration of furosemide vs continuous infusion preceded by a loading dose for congestive heart failure. Chest 1992;102(3):725-31. - PubMed",
+        "exclusion_reason": "Ineligible study design: cross-over design."
       },
       {
         "review_group": "first_pass",
@@ -1143,7 +1194,8 @@
         "lookup_methods": "direct_pubmed_link",
         "title_queries": "A clinical trial of furosemide in patients with congestive heart failure",
         "lookup_errors": ".",
-        "reference_excerpt": "McFarland MD. A clinical trial of furosemide in patients with congestive heart failure. Missouri Medicine 1968;65(8):655-9. - PubMed"
+        "reference_excerpt": "McFarland MD. A clinical trial of furosemide in patients with congestive heart failure. Missouri Medicine 1968;65(8):655-9. - PubMed",
+        "exclusion_reason": "Ineligible intervention: oral furosemide."
       },
       {
         "review_group": "first_pass",
@@ -1164,7 +1216,8 @@
         "lookup_methods": ".",
         "title_queries": "Diuretic strategies in persons with acute decompensated heart failure",
         "lookup_errors": "title_search_no_match",
-        "reference_excerpt": "Moon KT. Diuretic strategies in persons with acute decompensated heart failure. American Family Physician 2012;85(9):E1."
+        "reference_excerpt": "Moon KT. Diuretic strategies in persons with acute decompensated heart failure. American Family Physician 2012;85(9):E1.",
+        "exclusion_reason": "Ineligible study design: summary article for  Felker 2011 (publication in New England Journal of Medicine)."
       },
       {
         "review_group": "first_pass",
@@ -1185,7 +1238,8 @@
         "lookup_methods": ".",
         "title_queries": "Oral metolazone and intermittent intravenous furosemide versus continuous infusion furosemide in acute heart failure.",
         "lookup_errors": ".",
-        "reference_excerpt": "NCT00904488. Oral metolazone and intermittent intravenous furosemide versus continuous infusion furosemide in acute heart failure. clinicaltrials.gov/study/NCT00904488 (first received 17 May 2009)."
+        "reference_excerpt": "NCT00904488. Oral metolazone and intermittent intravenous furosemide versus continuous infusion furosemide in acute heart failure. clinicaltrials.gov/study/NCT00904488 (first received 17 May 2009).",
+        "exclusion_reason": "Ineligible intervention: oral metolazone and intermittent intravenous furosemide versus continuous infusion furosemide."
       },
       {
         "review_group": "first_pass",
@@ -1206,7 +1260,8 @@
         "lookup_methods": ".",
         "title_queries": "Loop diuretics administration and acute heart failure.",
         "lookup_errors": ".",
-        "reference_excerpt": "NCT01441245. Loop diuretics administration and acute heart failure. clinicaltrials.gov/study/NCT01441245 (first received 22 September 2011)."
+        "reference_excerpt": "NCT01441245. Loop diuretics administration and acute heart failure. clinicaltrials.gov/study/NCT01441245 (first received 22 September 2011).",
+        "exclusion_reason": "Ineligible intervention: use of inotropes and hypertonic saline alongside furosemide."
       },
       {
         "review_group": "first_pass",
@@ -1227,7 +1282,8 @@
         "lookup_methods": ".",
         "title_queries": "Diuretic response in advanced heart failure: bolus intermittent vs continuous infusion.",
         "lookup_errors": ".",
-        "reference_excerpt": "NCT03592836. Diuretic response in advanced heart failure: bolus intermittent vs continuous infusion. clinicaltrials.gov/study/NCT03592836 (first received 18 June 2018)."
+        "reference_excerpt": "NCT03592836. Diuretic response in advanced heart failure: bolus intermittent vs continuous infusion. clinicaltrials.gov/study/NCT03592836 (first received 18 June 2018).",
+        "exclusion_reason": "Ineligible intervention: inotropes used alongside intravenous loop diuretics."
       },
       {
         "review_group": "first_pass",
@@ -1248,7 +1304,8 @@
         "lookup_methods": ".",
         "title_queries": "Protocol of diuretics use in congestive therapy in heart failure.",
         "lookup_errors": ".",
-        "reference_excerpt": "NCT03892148. Protocol of diuretics use in congestive therapy in heart failure. clinicaltrials.gov/study/NCT03892148 (first received 22 February 2019)."
+        "reference_excerpt": "NCT03892148. Protocol of diuretics use in congestive therapy in heart failure. clinicaltrials.gov/study/NCT03892148 (first received 22 February 2019).",
+        "exclusion_reason": "Ineligible intervention: use of loop diuretics and thiazide diuretics as per attending physician versus loop diuretics and thiazide diuretics as per CARRESS-HF (Cardiorenal Rescue Study in Acute Decompensated Heart Failure) protocol."
       },
       {
         "review_group": "first_pass",
@@ -1269,7 +1326,8 @@
         "lookup_methods": ".",
         "title_queries": "Comparing diuretic strategies in hospitalized heart failure.",
         "lookup_errors": ".",
-        "reference_excerpt": "NCT03999216. Comparing diuretic strategies in hospitalized heart failure. clinicaltrials.gov/study/NCT03999216 (first received 24 June 2019)."
+        "reference_excerpt": "NCT03999216. Comparing diuretic strategies in hospitalized heart failure. clinicaltrials.gov/study/NCT03999216 (first received 24 June 2019).",
+        "exclusion_reason": "Ineligible intervention: loop diuretics versus loop plus thiazide diuretics."
       },
       {
         "review_group": "first_pass",
@@ -1290,7 +1348,8 @@
         "lookup_methods": ".",
         "title_queries": "Continuous versus intermittent loop diuretics infusion dosing in acute heart failure: effects on renal function, outcome and BNP levels",
         "lookup_errors": "title_search_no_match",
-        "reference_excerpt": "Palazzuoli A, Martini G, Franci B, Campagna MS, Pellegrini M, Beltrami M, et al. Continuous versus intermittent loop diuretics infusion dosing in acute heart failure: effects on renal function, outcome and BNP levels. European Journal of Heart Failure 2013;12:S9. [DOI: 10.1093/eurjhf/hst006] - DOI"
+        "reference_excerpt": "Palazzuoli A, Martini G, Franci B, Campagna MS, Pellegrini M, Beltrami M, et al. Continuous versus intermittent loop diuretics infusion dosing in acute heart failure: effects on renal function, outcome and BNP levels. European Journal of Heart Failure 2013;12:S9. [DOI: 10.1093/eurjhf/hst006] - DOI",
+        "exclusion_reason": "Ineligible intervention: use of inotropes and hypertonic saline alongside furosemide."
       },
       {
         "review_group": "first_pass",
@@ -1311,7 +1370,8 @@
         "lookup_methods": "direct_pubmed_link",
         "title_queries": "Continuous versus bolus intermittent loop diuretic infusion in acutely decompensated heart failure: a prospective randomized trial",
         "lookup_errors": ".",
-        "reference_excerpt": "Palazzuoli A, Pellegrini M, Ruocco G, Martini G, Franci B, Campagna MS, et al. Continuous versus bolus intermittent loop diuretic infusion in acutely decompensated heart failure: a prospective randomized trial. Critical Care (London, England) 2014;18(3):R134. [DOI: 10.1186/cc13952] - DOI - PMC - PubMed"
+        "reference_excerpt": "Palazzuoli A, Pellegrini M, Ruocco G, Martini G, Franci B, Campagna MS, et al. Continuous versus bolus intermittent loop diuretic infusion in acutely decompensated heart failure: a prospective randomized trial. Critical Care (London, England) 2014;18(3):R134. [DOI: 10.1186/cc13952] - DOI - PMC - PubMed",
+        "exclusion_reason": "Ineligible intervention: use of inotropes and hypertonic saline alongside furosemide."
       },
       {
         "review_group": "first_pass",
@@ -1332,7 +1392,8 @@
         "lookup_methods": "direct_pubmed_link",
         "title_queries": "Continuous versus bolus intermittent loop diuretic infusion in acutely decompensated heart failure: a prospective randomized trial",
         "lookup_errors": ".",
-        "reference_excerpt": "Palazzuoli A, Pellegrini M, Ruocco G, Martini G, Franci B, Campagna MS, et al. Continuous versus bolus intermittent loop diuretic infusion in acutely decompensated heart failure: a prospective randomized trial. European Heart Journal 2014;35:386. - PMC - PubMed"
+        "reference_excerpt": "Palazzuoli A, Pellegrini M, Ruocco G, Martini G, Franci B, Campagna MS, et al. Continuous versus bolus intermittent loop diuretic infusion in acutely decompensated heart failure: a prospective randomized trial. European Heart Journal 2014;35:386. - PMC - PubMed",
+        "exclusion_reason": "Ineligible intervention: use of inotropes and hypertonic saline alongside furosemide."
       },
       {
         "review_group": "first_pass",
@@ -1353,7 +1414,8 @@
         "lookup_methods": ".",
         "title_queries": "Impact of loop diuretic infusion modalities on congestion signs and outcomes in patients with acute heart failure",
         "lookup_errors": "title_search_no_match",
-        "reference_excerpt": "Palazzuoli A, Ruocco G, Pellegrini M, Franci B, Campagna MS, Nuti R, et al. Impact of loop diuretic infusion modalities on congestion signs and outcomes in patients with acute heart failure. European Heart Journal 2015;36:672. [DOI: 10.1093/eurheartj/ehv400] - DOI"
+        "reference_excerpt": "Palazzuoli A, Ruocco G, Pellegrini M, Franci B, Campagna MS, Nuti R, et al. Impact of loop diuretic infusion modalities on congestion signs and outcomes in patients with acute heart failure. European Heart Journal 2015;36:672. [DOI: 10.1093/eurheartj/ehv400] - DOI",
+        "exclusion_reason": "Ineligible intervention: use of inotropes and hypertonic saline alongside furosemide."
       },
       {
         "review_group": "first_pass",
@@ -1374,7 +1436,8 @@
         "lookup_methods": "direct_pubmed_link",
         "title_queries": "Short and long-term effects of continuous versus intermittent loop diuretics treatment in acute heart failure with renal dysfunction",
         "lookup_errors": ".",
-        "reference_excerpt": "Palazzuoli A, Pellegrini M, Franci B, Beltrami M, Ruocco G, Gonnelli S, et al. Short and long-term effects of continuous versus intermittent loop diuretics treatment in acute heart failure with renal dysfunction. Internal and Emergency Medicine 2015;10(1):41-9. [DOI: 10.1007/s11739-014-1112-5] - DOI - PubMed"
+        "reference_excerpt": "Palazzuoli A, Pellegrini M, Franci B, Beltrami M, Ruocco G, Gonnelli S, et al. Short and long-term effects of continuous versus intermittent loop diuretics treatment in acute heart failure with renal dysfunction. Internal and Emergency Medicine 2015;10(1):41-9. [DOI: 10.1007/s11739-014-1112-5] - DOI - PubMed",
+        "exclusion_reason": "Ineligible intervention: use of inotropes and hypertonic saline alongside furosemide."
       },
       {
         "review_group": "first_pass",
@@ -1395,7 +1458,8 @@
         "lookup_methods": "direct_pubmed_link",
         "title_queries": "Diuretic effects of furosemide infusion versus bolus injection in congestive heart failure",
         "lookup_errors": ".",
-        "reference_excerpt": "Pivac N, Rumboldt Z, Sardelic S, Bagatin J, Polic S, Ljutic D, et al. Diuretic effects of furosemide infusion versus bolus injection in congestive heart failure. International Journal of Clinical Pharmacology Research 1998;18(3):121-8. - PubMed"
+        "reference_excerpt": "Pivac N, Rumboldt Z, Sardelic S, Bagatin J, Polic S, Ljutic D, et al. Diuretic effects of furosemide infusion versus bolus injection in congestive heart failure. International Journal of Clinical Pharmacology Research 1998;18(3):121-8. - PubMed",
+        "exclusion_reason": "Ineligible study design: cross-over study."
       },
       {
         "review_group": "first_pass",
@@ -1416,7 +1480,8 @@
         "lookup_methods": "direct_pubmed_link",
         "title_queries": "Continuous infusion of furosemide versus intermittent boluses in acute decompensated heart failure: non-invasive evaluation of the effect on thoracic fluid content",
         "lookup_errors": ".",
-        "reference_excerpt": "Ragab D, Taema K, Farouk W, Saad M. Continuous infusion of furosemide versus intermittent boluses in acute decompensated heart failure: non-invasive evaluation of the effect on thoracic fluid content. Critical Care (London, England) 2017;21(1):65-70. [DOI: 10.1186/s13054-017-1628-y] - DOI - PMC - PubMed"
+        "reference_excerpt": "Ragab D, Taema K, Farouk W, Saad M. Continuous infusion of furosemide versus intermittent boluses in acute decompensated heart failure: non-invasive evaluation of the effect on thoracic fluid content. Critical Care (London, England) 2017;21(1):65-70. [DOI: 10.1186/s13054-017-1628-y] - DOI - PMC - PubMed",
+        "exclusion_reason": "Ineligible intervention: inotropes used in both arms."
       },
       {
         "review_group": "first_pass",
@@ -1437,7 +1502,8 @@
         "lookup_methods": "direct_pubmed_link",
         "title_queries": "Continuous infusion of furosemide versus intermittent boluses in acute decompensated heart failure: effect on thoracic fluid content",
         "lookup_errors": ".",
-        "reference_excerpt": "Ragab D, Taema KM, Farouk W, Saad M. Continuous infusion of furosemide versus intermittent boluses in acute decompensated heart failure: effect on thoracic fluid content. Egyptian Heart Journal 2018;70(2):65-70. [DOI: 10.1016/j.ehj.2017.12.005] - DOI - PMC - PubMed"
+        "reference_excerpt": "Ragab D, Taema KM, Farouk W, Saad M. Continuous infusion of furosemide versus intermittent boluses in acute decompensated heart failure: effect on thoracic fluid content. Egyptian Heart Journal 2018;70(2):65-70. [DOI: 10.1016/j.ehj.2017.12.005] - DOI - PMC - PubMed",
+        "exclusion_reason": "Ineligible intervention: inotropes used in both arms."
       },
       {
         "review_group": "first_pass",
@@ -1458,7 +1524,8 @@
         "lookup_methods": "direct_pubmed_link",
         "title_queries": "Loop diuretic administration in patients with acute heart failure and reduced systolic function: effects of different intravenous diuretic doses and diuretic response measurements",
         "lookup_errors": ".",
-        "reference_excerpt": "Ruocco G, Feola M, Nuti R, Luschi L, EvangelistaI, Palazzuoli A. Loop diuretic administration in patients with acute heart failure and reduced systolic function: effects of different intravenous diuretic doses and diuretic response measurements. Journal of Clinical Medicine 2019;8(11):1854. [DOI: 10.3390/jcm8111854] - DOI - PMC - PubMed"
+        "reference_excerpt": "Ruocco G, Feola M, Nuti R, Luschi L, EvangelistaI, Palazzuoli A. Loop diuretic administration in patients with acute heart failure and reduced systolic function: effects of different intravenous diuretic doses and diuretic response measurements. Journal of Clinical Medicine 2019;8(11):1854. [DOI: 10.3390/jcm8111854] - DOI - PMC - PubMed",
+        "exclusion_reason": "Ineligible study design: retrospective analysis of low-dose loop diuretics versus high-dose diuretics."
       },
       {
         "review_group": "first_pass",
@@ -1479,7 +1546,8 @@
         "lookup_methods": "direct_pubmed_link",
         "title_queries": "Protocol-guided diuretic management – comparison of furosemide by continuous infusion and intermittent bolus",
         "lookup_errors": ".",
-        "reference_excerpt": "Schuller D, Lynch J P, Fine D. Protocol-guided diuretic management – comparison of furosemide by continuous infusion and intermittent bolus. Critical Care Medicine 1997;25(12):1969-75. [DOI: 10.1097/00003246-199712000-00011] - DOI - PubMed"
+        "reference_excerpt": "Schuller D, Lynch J P, Fine D. Protocol-guided diuretic management – comparison of furosemide by continuous infusion and intermittent bolus. Critical Care Medicine 1997;25(12):1969-75. [DOI: 10.1097/00003246-199712000-00011] - DOI - PubMed",
+        "exclusion_reason": "Ineligible intervention type. They adjusted diuretic therapy by either continuous or bolus infusions of furosemide, titrated to achieve negative hourly fluid balance."
       },
       {
         "review_group": "first_pass",
@@ -1500,7 +1568,8 @@
         "lookup_methods": "direct_pubmed_link",
         "title_queries": "Effect of admission oral diuretic dose on response to continuous versus bolus intravenous diuretics in acute heart failure: an analysis from diuretic optimization strategies in acute heart failure",
         "lookup_errors": ".",
-        "reference_excerpt": "Shah RV, McNulty S, O'Connor CM, Felker GM, Braunwald E, Givertz MM. Effect of admission oral diuretic dose on response to continuous versus bolus intravenous diuretics in acute heart failure: an analysis from diuretic optimization strategies in acute heart failure. American Heart Journal 2012;164(6):862-8. [DOI: 10.1016/j.ahj.2012.08.019] - DOI - PMC - PubMed"
+        "reference_excerpt": "Shah RV, McNulty S, O'Connor CM, Felker GM, Braunwald E, Givertz MM. Effect of admission oral diuretic dose on response to continuous versus bolus intravenous diuretics in acute heart failure: an analysis from diuretic optimization strategies in acute heart failure. American Heart Journal 2012;164(6):862-8. [DOI: 10.1016/j.ahj.2012.08.019] - DOI - PMC - PubMed",
+        "exclusion_reason": "Ineligible study design: post hoc analysis of the DOSE-AHF (Diuretic Optimization Strategies Evaluation in Acute Heart Failure) trial data, with a focus on the association of regular oral diuretic dosages with outcomes and response to intravenous diuretics."
       },
       {
         "review_group": "first_pass",
@@ -1521,7 +1590,8 @@
         "lookup_methods": "direct_pubmed_link",
         "title_queries": "Continuous infusion of furosemide versus intermittent boluses in acute heart failure: effect on thoracic fluid content",
         "lookup_errors": ".",
-        "reference_excerpt": "Taema K, Ragab D, Farouk W, Saad M. Continuous infusion of furosemide versus intermittent boluses in acute heart failure: effect on thoracic fluid content. European Heart Journal: Acute Cardiovascular Care 2018;7(1):71. [DOI: 10.1177/2048872617751067] - DOI - PMC - PubMed"
+        "reference_excerpt": "Taema K, Ragab D, Farouk W, Saad M. Continuous infusion of furosemide versus intermittent boluses in acute heart failure: effect on thoracic fluid content. European Heart Journal: Acute Cardiovascular Care 2018;7(1):71. [DOI: 10.1177/2048872617751067] - DOI - PMC - PubMed",
+        "exclusion_reason": "Ineligible intervention: vasopressor and inotropes used alongside loop diuretics."
       },
       {
         "review_group": "first_pass",
@@ -1542,7 +1612,8 @@
         "lookup_methods": "direct_pubmed_link",
         "title_queries": "Continuous versus intermittent infusion of furosemide in acute decompensated heart failure",
         "lookup_errors": ".",
-        "reference_excerpt": "Thomson MR, Nappi JM, Dunn SP, Hollis IB, Rodgers JE, Bakel AB. Continuous versus intermittent infusion of furosemide in acute decompensated heart failure. Journal of Cardiac Failure 2010;16(3):188-93. [DOI: 10.1016/j.cardfail.2009.11.005] - DOI - PubMed"
+        "reference_excerpt": "Thomson MR, Nappi JM, Dunn SP, Hollis IB, Rodgers JE, Bakel AB. Continuous versus intermittent infusion of furosemide in acute decompensated heart failure. Journal of Cardiac Failure 2010;16(3):188-93. [DOI: 10.1016/j.cardfail.2009.11.005] - DOI - PubMed",
+        "exclusion_reason": "Ineligible intervention: inotropes used alongside loop diuretics."
       },
       {
         "review_group": "first_pass",
@@ -1563,7 +1634,8 @@
         "lookup_methods": ".",
         "title_queries": "Diuretic efficacy of different modes of administration of furosemide in patients with compensated and decompensated heart failure",
         "lookup_errors": "title_search_no_match",
-        "reference_excerpt": "Meyel JJ, Dormans T, Smits P. Diuretic efficacy of different modes of administration of furosemide in patients with compensated and decompensated heart failure. Pharmacy World & Science 1993;15(6):L6."
+        "reference_excerpt": "Meyel JJ, Dormans T, Smits P. Diuretic efficacy of different modes of administration of furosemide in patients with compensated and decompensated heart failure. Pharmacy World & Science 1993;15(6):L6.",
+        "exclusion_reason": "Ineligible study design: cross-over study"
       },
       {
         "review_group": "first_pass",
@@ -1584,7 +1656,8 @@
         "lookup_methods": "direct_pubmed_link",
         "title_queries": "A clinical trial of frusemide",
         "lookup_errors": ".",
-        "reference_excerpt": "Verel D, Stentiford N H, Rahman F, Saynor R. A clinical trial of frusemide. Lancet 1964;2(7369):1088-9. - PubMed"
+        "reference_excerpt": "Verel D, Stentiford N H, Rahman F, Saynor R. A clinical trial of frusemide. Lancet 1964;2(7369):1088-9. - PubMed",
+        "exclusion_reason": "Ineligible comparison and intervention: comparison of oral furosemide of variable doses alongside other diuretics."
       }
     ],
     "excluded_pubmed_records": [
@@ -1602,7 +1675,8 @@
         "year": "1997",
         "doi": "10.3109/00365519709099409",
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/9249883/",
-        "pmc_url": "."
+        "pmc_url": ".",
+        "exclusion_reason": "Ineligible study design: cross-over study."
       },
       {
         "review_group": "first_pass",
@@ -1618,7 +1692,8 @@
         "year": "2007",
         "doi": "10.1159/000108641",
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/17890871/",
-        "pmc_url": "."
+        "pmc_url": ".",
+        "exclusion_reason": "Ineligible population: people with fluid overload in intensive care unit, including but not exclusively acute decompensated heart failure."
       },
       {
         "review_group": "first_pass",
@@ -1634,7 +1709,8 @@
         "year": "1996",
         "doi": ".",
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/8800113/",
-        "pmc_url": "."
+        "pmc_url": ".",
+        "exclusion_reason": "Ineligible study design: cross-over study."
       },
       {
         "review_group": "first_pass",
@@ -1650,7 +1726,8 @@
         "year": "2020",
         "doi": "10.1007/s00392-019-01521-y",
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/31256261/",
-        "pmc_url": "."
+        "pmc_url": ".",
+        "exclusion_reason": "Ineligible intervention: inotropes used alongside intravenous loop diuretics."
       },
       {
         "review_group": "first_pass",
@@ -1666,7 +1743,8 @@
         "year": "2021",
         "doi": "10.1016/j.ahj.2021.05.011",
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/34052212/",
-        "pmc_url": "."
+        "pmc_url": ".",
+        "exclusion_reason": "Ineligible study design: retrospective analysis using participants from ASCEND-HF (Acute Study of Clinical Effectiveness of Nesiritide in Decompensated Heart Failure) trial with a stable diuretic strategy in the first 24 hours following randomisation."
       },
       {
         "review_group": "first_pass",
@@ -1682,7 +1760,8 @@
         "year": "1996",
         "doi": ".",
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/8690821/",
-        "pmc_url": "."
+        "pmc_url": ".",
+        "exclusion_reason": "Ineligible population: compensated stable heart failure."
       },
       {
         "review_group": "first_pass",
@@ -1698,7 +1777,8 @@
         "year": "1992",
         "doi": ".",
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/1516394/",
-        "pmc_url": "."
+        "pmc_url": ".",
+        "exclusion_reason": "Ineligible study design: cross-over design."
       },
       {
         "review_group": "first_pass",
@@ -1714,7 +1794,8 @@
         "year": "1968",
         "doi": ".",
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/4874707/",
-        "pmc_url": "."
+        "pmc_url": ".",
+        "exclusion_reason": "Ineligible intervention: oral furosemide."
       },
       {
         "review_group": "first_pass",
@@ -1730,7 +1811,8 @@
         "year": "2014",
         "doi": "10.1186/cc13952",
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/24974232/",
-        "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4227080/"
+        "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4227080/",
+        "exclusion_reason": "Ineligible intervention: use of inotropes and hypertonic saline alongside furosemide."
       },
       {
         "review_group": "first_pass",
@@ -1746,7 +1828,8 @@
         "year": "2014",
         "doi": ".",
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/24974232/",
-        "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4227080/"
+        "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4227080/",
+        "exclusion_reason": "Ineligible intervention: use of inotropes and hypertonic saline alongside furosemide."
       },
       {
         "review_group": "first_pass",
@@ -1762,7 +1845,8 @@
         "year": "2015",
         "doi": "10.1007/s11739-014-1112-5",
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/25087085/",
-        "pmc_url": "."
+        "pmc_url": ".",
+        "exclusion_reason": "Ineligible intervention: use of inotropes and hypertonic saline alongside furosemide."
       },
       {
         "review_group": "first_pass",
@@ -1778,7 +1862,8 @@
         "year": "1998",
         "doi": ".",
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/9825268/",
-        "pmc_url": "."
+        "pmc_url": ".",
+        "exclusion_reason": "Ineligible study design: cross-over study."
       },
       {
         "review_group": "first_pass",
@@ -1794,7 +1879,8 @@
         "year": "2017",
         "doi": "10.1186/s13054-017-1628-y",
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/30166884/",
-        "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6112354/"
+        "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6112354/",
+        "exclusion_reason": "Ineligible intervention: inotropes used in both arms."
       },
       {
         "review_group": "first_pass",
@@ -1810,7 +1896,8 @@
         "year": "2018",
         "doi": "10.1016/j.ehj.2017.12.005",
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/30166884/",
-        "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6112354/"
+        "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6112354/",
+        "exclusion_reason": "Ineligible intervention: inotropes used in both arms."
       },
       {
         "review_group": "first_pass",
@@ -1826,7 +1913,8 @@
         "year": "2019",
         "doi": "10.3390/jcm8111854",
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/31684094/",
-        "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6912499/"
+        "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6912499/",
+        "exclusion_reason": "Ineligible study design: retrospective analysis of low-dose loop diuretics versus high-dose diuretics."
       },
       {
         "review_group": "first_pass",
@@ -1842,7 +1930,8 @@
         "year": "1997",
         "doi": "10.1097/00003246-199712000-00011",
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/9403744/",
-        "pmc_url": "."
+        "pmc_url": ".",
+        "exclusion_reason": "Ineligible intervention type. They adjusted diuretic therapy by either continuous or bolus infusions of furosemide, titrated to achieve negative hourly fluid balance."
       },
       {
         "review_group": "first_pass",
@@ -1858,7 +1947,8 @@
         "year": "2012",
         "doi": "10.1016/j.ahj.2012.08.019",
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/23194486/",
-        "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3909675/"
+        "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3909675/",
+        "exclusion_reason": "Ineligible study design: post hoc analysis of the DOSE-AHF (Diuretic Optimization Strategies Evaluation in Acute Heart Failure) trial data, with a focus on the association of regular oral diuretic dosages with outcomes and response to intravenous diuretics."
       },
       {
         "review_group": "first_pass",
@@ -1874,7 +1964,8 @@
         "year": "2018",
         "doi": "10.1177/2048872617751067",
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/30166884/",
-        "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6112354/"
+        "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6112354/",
+        "exclusion_reason": "Ineligible intervention: vasopressor and inotropes used alongside loop diuretics."
       },
       {
         "review_group": "first_pass",
@@ -1890,7 +1981,8 @@
         "year": "2010",
         "doi": "10.1016/j.cardfail.2009.11.005",
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/20206891/",
-        "pmc_url": "."
+        "pmc_url": ".",
+        "exclusion_reason": "Ineligible intervention: inotropes used alongside loop diuretics."
       },
       {
         "review_group": "first_pass",
@@ -1906,7 +1998,8 @@
         "year": "1964",
         "doi": ".",
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/14207894/",
-        "pmc_url": "."
+        "pmc_url": ".",
+        "exclusion_reason": "Ineligible comparison and intervention: comparison of oral furosemide of variable doses alongside other diuretics."
       }
     ],
     "excluded_report_candidates": [
@@ -2713,7 +2806,12 @@
         "percent_blocks_with_any_pmc": "20.6",
         "lookup_errors": "title_search_no_match"
       }
-    ]
+    ],
+    "reference_candidates": [],
+    "reference_candidate_pubmed_records": [],
+    "reference_candidate_report_candidates": [],
+    "reference_candidate_trial_registry_records": [],
+    "reference_candidate_summary": []
   },
   "meta_analysis": {
     "analysis_results": [

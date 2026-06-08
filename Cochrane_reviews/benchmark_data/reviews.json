@@ -1,6 +1,6 @@
 {
   "artifact_version": "2026-06-02-review-benchmark-v1",
-  "generated_at": "2026-06-02T16:34:24+00:00",
+  "generated_at": "2026-06-08T10:17:22+00:00",
   "reviews": [
     {
       "review_id": "CD004366",
@@ -44,6 +44,21 @@
       "benchmark_path": "CD013524/benchmark.json",
       "status_path": "CD013524/status.json",
       "audit_findings_path": "CD013524/audit_findings.tsv",
+      "status": "draft_extracted",
+      "included_in_evaluation": false
+    },
+    {
+      "review_id": "CD014811_loop_diuretics_hf",
+      "review_title": "Loop diuretics for acute heart failure",
+      "review_group": "first_pass",
+      "source_collection": "2024_issue_5",
+      "publication_year": "2024",
+      "publication_issue": "5",
+      "clinical_domain": "Cardiovascular",
+      "source_pdf_path": "../first_pass/CD014811_loop_diuretics_hf.pdf",
+      "benchmark_path": "CD014811_loop_diuretics_hf/benchmark.json",
+      "status_path": "CD014811_loop_diuretics_hf/status.json",
+      "audit_findings_path": "CD014811_loop_diuretics_hf/audit_findings.tsv",
       "status": "draft_extracted",
       "included_in_evaluation": false
     }
