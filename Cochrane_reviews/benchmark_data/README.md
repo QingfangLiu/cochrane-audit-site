@@ -102,6 +102,9 @@ The active intake path builds a review-level benchmark from a source PDF plus
 Cochrane package files. The source scanner expects the PDF and data package to
 live under `Cochrane_reviews/source_reviews/<year>_issue_<issue>/` and searches
 the data package recursively for the review-specific files.
+Search-method fields are staged separately in
+`provisional_data/review_search_methods.tsv` because they come from review text
+rather than the Cochrane data package and need a separate audit pass.
 
 The legacy migration path can still build or refresh one benchmark from current
 provisional data:
@@ -148,17 +151,18 @@ The target workflow should be:
    `<review_id>-data-rows.csv` under `*-analysis-data/`.
 4. Build a review-level PubMed/PMC index for the Cochrane review article.
 5. Convert the RIS exports into included/excluded reference TSV artifacts.
-6. Run the PDF text extractor for protocol/eligibility.
-7. Build `<review_id>/benchmark.json` from the header/protocol/reference
+6. Run the review-text extractor for protocol/eligibility.
+7. Run the review-text extractor for search methods and search strategies.
+8. Build `<review_id>/benchmark.json` from the header/protocol/search/reference
    outputs.
-8. Update the benchmark `meta_analysis` block directly from the Cochrane CSV
+9. Update the benchmark `meta_analysis` block directly from the Cochrane CSV
    exports.
-9. Load the review in the audit site through `reviews.json`.
-10. Refresh `benchmark_questions.tsv` so the agent can launch the review by
+10. Load the review in the audit site through `reviews.json`.
+11. Refresh `benchmark_questions.tsv` so the agent can launch the review by
     number or review ID.
-11. Export human audit findings.
-12. Resolve findings by editing `benchmark.json`.
-13. Mark the review `verified` or `frozen_for_evaluation`.
+12. Export human audit findings.
+13. Resolve findings by editing `benchmark.json`.
+14. Mark the review `verified` or `frozen_for_evaluation`.
 
 Example CD013524 command sequence:
 
@@ -181,6 +185,14 @@ python3 Cochrane_reviews/benchmark_tools/build_reference_indexing_from_cochrane_
 python3 Cochrane_reviews/benchmark_tools/update_cochrane_review_protocol_eligibility.py \
   Cochrane_reviews/source_reviews \
   --output "$WORK/review_protocol_eligibility.tsv" \
+  --prefill-from-review-text \
+  --overwrite-prefill \
+  --source pdf \
+  --quiet
+
+python3 Cochrane_reviews/benchmark_tools/update_cochrane_review_search_methods.py \
+  Cochrane_reviews/source_reviews \
+  --output "$WORK/review_search_methods.tsv" \
   --prefill-from-review-text \
   --overwrite-prefill \
   --source pdf \

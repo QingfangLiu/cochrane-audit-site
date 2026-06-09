@@ -1,0 +1,7 @@
+﻿Study,Outcome,Data type,Effect measure,Arm,Reference arm,Sample size,Cases,Mean,SD,SE,Variance,CI level,CI start,CI end,Exp mean,Exp CI start,Exp CI end,t-test,z-test,P value,Covariance method,Covariance,Other arm 1,Other arm 2,Correlation arm 1,Correlation arm 2,Correlation,Other mean,Other SE,Other variance,Other CI level,Other CI start,Other CI end,Other exp mean,Other exp CI start,Other exp CI end,Other t-test,Other z-test,Other P value,Footnotes
+Hosseinzadeh 2014,Catheter occlusion,Arm level,,Clinically indicated replacement,,75,9,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Hosseinzadeh 2014,Catheter occlusion,Arm level,,Routine replacement - 72 hours,,75,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Hosseinzadeh 2014,Infilitration,Arm level,,Clinically indicated replacement,,75,11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Hosseinzadeh 2014,Infilitration,Arm level,,Routine replacement - 72 hours,,75,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Hosseinzadeh 2014,Thrombophlebitis,Arm level,,Clinically indicated replacement,,75,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Hosseinzadeh 2014,Thrombophlebitis,Arm level,,Routine replacement - 72 hours,,75,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

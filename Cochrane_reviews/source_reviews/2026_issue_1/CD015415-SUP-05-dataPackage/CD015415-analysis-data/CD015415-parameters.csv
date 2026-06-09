@@ -1,0 +1,66 @@
+﻿Analysis number,Analysis name,Test number,Test name,Subgroup by,Subgroup item,Subgroup,Model,Lambda,Theta,beta,Var(accuracy),Var(threshold),E(logitSe),E(logitSp),Var(logitSe),Var(logitSp),Cov(logits),Corr(logits),SE(E(logitSe)),SE(E(logitSp)),Cov(Es),Studies,Summary point,Summary curve,Confidence reg,Conf reg level,Prediction reg,Pred reg level,ID
+1,LSM by VCTE (CSPH) any cut-off,1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,HSROC,3.2758,-0.4796,-0.1519,1.0162,0.4475,,,,,,,0.1877,0.1877,-0.0068,29,false,true,false,0.95,false,0.95,test:443873385154920886
+2,LSM by VCTE (CSPH) cut-off 11.4-14.4 kPa,2,LSM by VCTE (CSPH) cut-off 11.4-14.4 kPa,None,,,Bivariate,,,,,,3.548,0.5377,3.8489,2.2846,-2.2165,,0.94425,0.60049,-0.32843,7,true,false,true,0.95,true,0.95,test:443917932222388372
+3,LSM by VCTE (CSPH) cut-off 15-18 kPa,3,LSM by VCTE (CSPH) cut-off 15-18 kPa,None,,,Bivariate,,,,,,2.1797,1.3864,0.1239,0.1869,0.004342,,0.1977,0.20263,2.0E-4,9,true,false,true,0.95,true,0.95,test:444136021294902676
+4,LSM by VCTE (CSPH) cut-off 20-23 kPa,4,LSM by VCTE (CSPH) cut-off 20-23 kPa,None,,,Bivariate,,,,,,1.3271,1.7569,0.1371,0.4522,0.1382,,0.1579,0.2603,0.012,11,true,false,true,0.95,true,0.95,test:444136032758197655
+5,LSM by VCTE (CSPH) cut-off 25-28 kPa,5,LSM by VCTE (CSPH) cut-off 25-28 kPa,None,,,Bivariate,,,,,,0.434,2.8529,0.2088,0.7397,0.1902,,0.1662,0.3593,0.0182,12,true,false,true,0.95,true,0.95,test:444136037493304730
+6,LSM by VCTE (CSPH) cut-off 25 kPa,6,LSM by VCTE (CSPH) cut-off 25 kPa,None,,,Bivariate,,,,,,0.5007,2.7617,0.2471,0.9313,0.3027,,0.19456,0.42802,0.0353,9,true,false,true,0.95,true,0.95,test:444533831039431271
+7,"LSM by VCTE (SPH) ""any cut-off""",7,"LSM by VCTE (SPH) ""any cut-off""",None,,,HSROC,2.6136,0.1655,0.5419,0.1163,0.3612,,,,,,,0.21472,0.35772,-0.04351,8,false,true,false,0.95,false,0.95,test:442574396242358331
+8,LSM by VCTE (SPH) cut-off 16-18 kPa,8,LSM by VCTE (SPH) cut-off 16-18 kPa,None,,,HSROC,2.8487,-0.1578,-1.4749,1.022,0.0,,,,,,,0.72895,0.30336,0.0839,3,true,false,true,0.95,true,0.95,test:444136044987739551
+9,LSM by VCTE (SPH) cut-off 20-22 kPa,9,LSM by VCTE (SPH) cut-off 20-22 kPa,None,,,HSROC,2.6228,0.2192,0.07833,0.242,7.0E-5,,,,,,,0.23387,0.25581,0.01992,3,true,false,true,0.95,true,0.95,test:444136092904517028
+10,LSM by VCTE (SPH) cut-off 24-26 kPa,10,LSM by VCTE (SPH) cut-off 24-26 kPa,None,,,HSROC,2.6245,-0.06832,0.675,0.5,0.4809,,,,,,,0.36239,0.64793,-0.16053,3,true,false,true,0.95,true,0.95,test:444136095666728359
+11,"SSM by VCTE (CSPH) ""any cut-off""",11,"SSM by VCTE (CSPH) ""any cut-off""",None,,,HSROC,3.5417,-0.3661,-0.4503,0.04491,0.5349,,,,,,,0.44895,0.34389,-0.09103,6,false,true,false,0.95,false,0.95,test:442574423346475079
+12,SSM by VCTE (CSPH) cut-off 40-44 kPa,12,SSM by VCTE (CSPH) cut-off 40-44 kPa,None,,,HSROC,3.7616,-0.6352,-1.2348,0.0,0.3275,,,,,,,0.65216,0.34075,-0.09324,4,true,false,true,0.95,true,0.95,test:444136100095651242
+13,SSM by VCTE (CSPH) cut-off 46-50 kPa,13,SSM by VCTE (CSPH) cut-off 46-50 kPa,None,,,Bivariate,,,,,,1.0259,2.3013,0.3606,0.1065,-0.1266,,0.34682,0.35283,-0.03233,4,true,false,true,0.95,true,0.95,test:444136103843524013
+14,"SSM by VCTE (SPH) ""any cut-off""",14,"SSM by VCTE (SPH) ""any cut-off""",None,,,HSROC,5.28,-2.1048,-2.2199,0.0,0.02122,,,,,,,0.30047,0.23105,-0.00489,4,false,true,false,0.95,false,0.95,test:442574429130682443
+15,SSM by VCTE (SPH) cut-off 47-51 kPa,15,SSM by VCTE (SPH) cut-off 47-51 kPa,None,,,Bivariate,,,,,,1.6186,1.5592,0.1837,0.001271,-0.01376,,0.29467,0.19511,-0.00366,4,true,false,true,0.95,true,0.95,test:444136107945291188
+16,"LSM by pSWE (CSPH) ""any cut-off""",16,"LSM by pSWE (CSPH) ""any cut-off""",None,,,HSROC,6.3428,-2.5631,-2.4167,0.0,0.06797,,,,,,,0.52195,0.34789,-0.01704,4,false,true,false,0.95,false,0.95,test:442574435554259022
+17,"LSM by pSWE (SPH) ""any cut-off""",18,"LSM by pSWE (SPH) ""any cut-off""",None,,,HSROC,,,,,,,,,,,,,,,,false,false,false,0.95,false,0.95,test:442574440476799058
+18,"SSM by pSWE (CSPH) ""any cut-off""",19,"SSM by pSWE (CSPH) ""any cut-off""",None,,,HSROC,4.0147,0.238,-0.3503,0.0,0.7795,,,,,,,0.6513,0.50215,-0.18267,4,false,true,false,0.95,false,0.95,test:442574444550516821
+19,"SSM by pSWE (SPH) ""any cut-off""",21,"SSM by pSWE (SPH) ""any cut-off""",None,,,HSROC,,,,,,,,,,,,,,,,false,false,false,0.95,false,0.95,test:442574450132873304
+20,"LSM by 2D-SWE (CSPH) ""any cut-off""",22,"LSM by 2D-SWE (CSPH) ""any cut-off""",None,,,HSROC,3.0293,0.2725,0.4613,0.319,0.02108,,,,,,,0.1486,0.238,0.0075,10,false,true,false,0.95,false,0.95,test:442574454083645531
+21,LSM by 2D-SWE (CSPH) cut-off 11-14 kPa,23,LSM by 2D-SWE (CSPH) cut-off 11-14 kPa,None,,,Bivariate,,,,,,1.7898,1.1126,0.0851,0.1481,0.006413,,0.24924,0.2841,0.00114,6,true,false,true,0.95,false,0.95,test:444136124232560061
+22,LSM by 2D-SWE (CSPH) cut-off 15-17 kPa,24,LSM by 2D-SWE (CSPH) cut-off 15-17 kPa,None,,,HSROC,2.8019,-0.2584,-0.8698,0.0,0.02983,,,,,,,0.21001,0.22864,-0.0081,5,true,false,true,0.95,false,0.95,test:444136130810277315
+23,"LSM by 2D-SWE (SPH) ""any cut-off""",26,"LSM by 2D SWE (SPH) ""any cut-off""",None,,,HSROC,2.7752,-0.5217,-0.1866,0.3524,0.0674,,,,,,,0.2184,0.26422,0.00396,7,false,true,false,0.95,false,0.95,test:442574463318978657
+24,LSM by 2D SWE (SPH) cut-off 21.5-23.5 kPa,28,LSM by 2D SWE (SPH) cut-off 21.5-23.5 kPa,None,,,HSROC,4.3101,1.4942,1.8242,1.725E-6,1.277E-6,,,,,,,0.18443,0.32508,0.00291,3,true,false,true,0.95,false,0.95,test:444136140681833932
+25,"SSM by 2D-SWE (CSPH) ""any cut-off""",29,"SSM by 2D SWE (CSPH) ""any cut-off""",None,,,HSROC,4.8789,1.9083,2.2022,0.0,0.03051,,,,,,,0.17249,0.38656,-0.0081,6,false,true,false,0.95,false,0.95,test:442574470285717604
+26,SSM by 2D SWE (CSPH) cut-off 25.3-26.3 kPa,30,SSM by 2D SWE (CSPH) cut-off 25.3-26.3 kPa,None,,,HSROC,5.4645,2.3905,2.4767,0.03586,0.0,,,,,,,0.21338,0.32816,0.0014,3,true,false,false,0.95,false,0.95,test:444136144239914447
+27,"SSM by 2D-SWE (SPH) ""any cut-off""",34,"SSM by 2D SWE (SPH) ""any cut-off""",None,,,HSROC,,,,,,,,,,,,,,,,false,false,false,0.95,false,0.95,test:442574479856595049
+28,"LSM by MRE (CSPH) ""any cut-off""",35,"LSM by MRE (CSPH) ""any cut-off""",None,,,HSROC,,,,,,,,,,,,,,,,false,false,false,0.95,false,0.95,test:442574485085843567
+29,"LSM by MRE (SPH) ""any cut-off""",36,"LSM by MRE (SPH) ""any cut-off""",None,,,HSROC,,,,,,,,,,,,,,,,false,false,false,0.95,false,0.95,test:442574499838783607
+30,"SSM by MRE (CSPH) ""any cut-off""",37,"SSM by MRE (CSPH) ""any cut-off""",None,,,HSROC,,,,,,,,,,,,,,,,false,false,false,0.95,false,0.95,test:442574503577481340
+31,"SSM by MRE (SPH) ""any cut-off""",38,"SSM by MRE (SPH) ""any cut-off""",None,,,HSROC,,,,,,,,,,,,,,,,false,false,false,0.95,false,0.95,test:442574508462272639
+32,"LSM + SSM by VCTE (CSPH) ""any cut-off""",39,"LSM + SSM combination by VCTE (CSPH) ""any cut-off""",None,,,HSROC,,,,,,,,,,,,,,,,false,false,false,0.95,false,0.95,test:442574524258021506
+33,"LSM + SSM by 2D-SWE (CSPH) ""any cut-off""",40,"LSM + SSM combination by 2D-SWE (CSPH) ""any cut-off""",None,,,HSROC,,,,,,,,,,,,,,,,false,false,false,0.95,false,0.95,test:442574533054001289
+34,"LSM + SSM by 2D-SWE (SPH) ""any cut-off""",41,"LSM + SSM combination by 2D-SWE (SPH) ""any cut-off""",None,,,HSROC,,,,,,,,,,,,,,,,false,false,false,0.95,false,0.95,test:444137498590378612
+35,Direct comparison LSM VCTE vs SSM VCTE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,HSROC,,,,,,,,,,,,,,,,false,false,false,0.95,false,0.95,test:444529453993529388
+35,Direct comparison LSM VCTE vs SSM VCTE (CSPH),11,"SSM by VCTE (CSPH) ""any cut-off""",None,,,HSROC,,,,,,,,,,,,,,,,false,false,false,0.95,false,0.95,test:444529455677542446
+36,Direct comparison LSM 2D-SWE vs SSM 2D-SWE (CSPH),22,"LSM by 2D-SWE (CSPH) ""any cut-off""",None,,,HSROC,,,,,,,,,,,,,,,,false,false,false,0.95,false,0.95,test:444534517832856640
+36,Direct comparison LSM 2D-SWE vs SSM 2D-SWE (CSPH),29,"SSM by 2D SWE (CSPH) ""any cut-off""",None,,,HSROC,,,,,,,,,,,,,,,,false,false,false,0.95,false,0.95,test:444534522082473026
+37,Direct comparison LSM VCTE vs LSM 2D-SWE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,HSROC,,,,,,,,,,,,,,,,false,false,false,0.95,false,0.95,test:444534151636562737
+37,Direct comparison LSM VCTE vs LSM 2D-SWE (CSPH),22,"LSM by 2D-SWE (CSPH) ""any cut-off""",None,,,HSROC,,,,,,,,,,,,,,,,false,false,false,0.95,false,0.95,test:444534154664063795
+38,Direct comparison SSM VCTE vs SSM 2D-SWE (CSPH),11,"SSM by VCTE (CSPH) ""any cut-off""",None,,,HSROC,,,,,,,,,,,,,,,,false,false,false,0.95,false,0.95,test:449780084722548175
+38,Direct comparison SSM VCTE vs SSM 2D-SWE (CSPH),29,"SSM by 2D SWE (CSPH) ""any cut-off""",None,,,HSROC,,,,,,,,,,,,,,,,false,false,false,0.95,false,0.95,test:449780089952058835
+39,Indirect comparison LSM VCTE vs SSM VCTE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,HSROC,3.3072,-0.5695,-0.2659,0.9825,0.345,,,,,,,0.183,0.1682,-0.0034,29,false,true,false,0.95,false,0.95,test:449805106686543946
+39,Indirect comparison LSM VCTE vs SSM VCTE (CSPH),11,"SSM by VCTE (CSPH) ""any cut-off""",None,,,HSROC,5.3966,2.3438,2.0637,0.9825,0.345,,,,,,,0.2011,0.74675,0.00622,6,false,true,false,0.95,false,0.95,test:449805109083064421
+40,Indirect comparison LSM 2D-SWE vs SSM 2D-SWE (CSPH),22,"LSM by 2D-SWE (CSPH) ""any cut-off""",None,,,HSROC,2.9629,0.2767,0.4687,0.243,0.02054,,,,,,,0.1393,0.2186,0.0041,10,false,true,false,0.95,false,0.95,test:449805147319650603
+40,Indirect comparison LSM 2D-SWE vs SSM 2D-SWE (CSPH),29,"SSM by 2D SWE (CSPH) ""any cut-off""",None,,,HSROC,4.0485,1.2607,1.5536,0.243,0.02054,,,,,,,0.18769,0.41811,0.00203,6,false,true,false,0.95,false,0.95,test:449805148401256749
+41,Indirect comparison LSM VCTE vs LSM 2D-SWE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,HSROC,3.2248,-0.5322,-0.2592,0.8287,0.3155,,,,,,,0.1699,0.1578,-0.0037,29,false,true,false,0.95,false,0.95,test:449805175212296725
+41,Indirect comparison LSM VCTE vs LSM 2D-SWE (CSPH),22,"LSM by 2D-SWE (CSPH) ""any cut-off""",None,,,HSROC,3.2408,0.3808,0.5924,0.8287,0.3155,,,,,,,0.2053,0.3636,-0.0094,10,false,true,false,0.95,false,0.95,test:449805177670945328
+42,Indirect comparison SSM VCTE vs SSM 2D-SWE (CSPH),11,"SSM by VCTE (CSPH) ""any cut-off""",None,,,HSROC,3.5577,-0.3854,-0.594,0.0,0.3933,,,,,,,0.39265,0.27783,-0.05332,6,false,true,false,0.95,false,0.95,test:449805192703593041
+42,Indirect comparison SSM VCTE vs SSM 2D-SWE (CSPH),29,"SSM by 2D SWE (CSPH) ""any cut-off""",None,,,HSROC,3.5033,0.6544,1.1196,0.0,0.3933,,,,,,,0.22556,0.56957,-0.0623,6,false,true,false,0.95,false,0.95,test:449805193415314003
+43,LSM by VCTE (CSPH) bivariate analysis,2,LSM by VCTE (CSPH) cut-off 11.4-14.4 kPa,None,,,Bivariate,,,,,,,,,,,,,,,,false,false,false,0.95,false,0.95,test:457932502583055758
+43,LSM by VCTE (CSPH) bivariate analysis,3,LSM by VCTE (CSPH) cut-off 15-18 kPa,None,,,HSROC,,,,,,,,,,,,,,,,false,false,false,0.95,false,0.95,test:457932503011399056
+43,LSM by VCTE (CSPH) bivariate analysis,4,LSM by VCTE (CSPH) cut-off 20-23 kPa,None,,,HSROC,,,,,,,,,,,,,,,,false,false,false,0.95,false,0.95,test:457932503305000339
+43,LSM by VCTE (CSPH) bivariate analysis,5,LSM by VCTE (CSPH) cut-off 25-28 kPa,None,,,HSROC,,,,,,,,,,,,,,,,false,false,false,0.95,false,0.95,test:457932503553512853
+43,LSM by VCTE (CSPH) bivariate analysis,6,LSM by VCTE (CSPH) cut-off 25 kPa,None,,,HSROC,,,,,,,,,,,,,,,,false,false,false,0.95,false,0.95,test:457932503797568919
+44,LSM by VCTE (SPH) bivariate analysis,8,LSM by VCTE (SPH) cut-off 16-18 kPa,None,,,Bivariate,,,,,,,,,,,,,,,,false,false,false,0.95,false,0.95,test:457932573208581613
+44,LSM by VCTE (SPH) bivariate analysis,9,LSM by VCTE (SPH) cut-off 20-22 kPa,None,,,HSROC,,,,,,,,,,,,,,,,false,false,false,0.95,false,0.95,test:457932573496415727
+44,LSM by VCTE (SPH) bivariate analysis,10,LSM by VCTE (SPH) cut-off 24-26 kPa,None,,,HSROC,,,,,,,,,,,,,,,,false,false,false,0.95,false,0.95,test:457932573835367921
+45,SSM by VCTE (CSPH) bivariate analysis,12,SSM by VCTE (CSPH) cut-off 40-44 kPa,None,,,Bivariate,,,,,,,,,,,,,,,,false,false,false,0.95,false,0.95,test:457932582946706935
+45,SSM by VCTE (CSPH) bivariate analysis,13,SSM by VCTE (CSPH) cut-off 46-50 kPa,None,,,HSROC,,,,,,,,,,,,,,,,false,false,false,0.95,false,0.95,test:457932583187617273
+46,SSM by VCTE (SPH) bivariate analysis,15,SSM by VCTE (SPH) cut-off 47-51 kPa,None,,,Bivariate,,,,,,,,,,,,,,,,false,false,false,0.95,false,0.95,test:457932745664468575
+47,LSM by 2D-SWE (CSPH) bivariate analysis,23,LSM by 2D-SWE (CSPH) cut-off 11-14 kPa,None,,,Bivariate,,,,,,,,,,,,,,,,false,false,false,0.95,false,0.95,test:457932696214935091
+47,LSM by 2D-SWE (CSPH) bivariate analysis,24,LSM by 2D-SWE (CSPH) cut-off 15-17 kPa,None,,,HSROC,,,,,,,,,,,,,,,,false,false,false,0.95,false,0.95,test:457932696535799349
+48,LSM by 2D-SWE (SPH) bivariate analysis,28,LSM by 2D SWE (SPH) cut-off 21.5-23.5 kPa,None,,,Bivariate,,,,,,,,,,,,,,,,false,false,false,0.95,false,0.95,test:457932711330158169
+49,SSM by 2D-SWE (CSPH) bivariate analysis,30,SSM by 2D SWE (CSPH) cut-off 25.3-26.3 kPa,None,,,Bivariate,,,,,,,,,,,,,,,,false,false,false,0.95,false,0.95,test:457932721449703004

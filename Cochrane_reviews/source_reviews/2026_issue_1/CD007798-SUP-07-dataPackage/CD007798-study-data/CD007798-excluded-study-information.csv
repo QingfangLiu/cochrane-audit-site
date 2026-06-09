@@ -1,0 +1,13 @@
+﻿Study,Year,Data source,ID: CRS,Char: Reason for exclusion
+Arnold 1977,1977,PUB,3182353,<p>Not an RCT</p>
+Cobb 1992,1992,PUB,3182355,"<p>Involved central, not peripheral lines</p>"
+Eyer 1990,1990,PUB,3182357,"<p>Involved pulmonary artery or arterial catheters, not peripheral catheters</p>"
+Haddad 2006,2006,PUB,3182359,<p>End point was lymphangitis</p>
+Johann 2016,2016,PUB,27742826,<p>Study does not compare clinically indicated change with routine replacement</p>
+Kang 2021,2021,PUB,27742828,<p>Study is a cross-over cluster trial</p>
+Kerin 1991,1991,PUB,3182361,<p>Participants were receiving parenteral nutrition</p>
+May 1996,1996,PUB,3182363,<p>Participants were receiving parenteral nutrition</p>
+Nakae 2010,2010,PUB,3182365,"<p>Involved central, not peripheral lines</p>"
+Panadero 2002,2002,PUB,3182367,"<p>Compared the use of a single intraoperative and postoperative catheters with 2 catheters, 1 used intraoperatively and a separate catheter for postoperative use</p>"
+Rijnders 2004,2004,PUB,3182369,"<p>Involved central, not peripheral lines</p>"
+Wang 2014,2014,PUB,27742830,<p>Intervention arm - removal not clinically indicated&nbsp;</p>

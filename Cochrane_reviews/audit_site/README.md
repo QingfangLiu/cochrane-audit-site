@@ -54,6 +54,7 @@ The current viewer shows these provisional audit components:
 - review header metadata and links to the local PDF, Cochrane, and PubMed when
   available
 - research question and inclusion/exclusion criteria from `benchmark.json`
+- search methods and search strategies from `benchmark.json` when available
 - included and excluded Cochrane references, usually generated from Cochrane RIS
   exports
 - meta-analysis summaries and study rows generated from Cochrane analysis CSV

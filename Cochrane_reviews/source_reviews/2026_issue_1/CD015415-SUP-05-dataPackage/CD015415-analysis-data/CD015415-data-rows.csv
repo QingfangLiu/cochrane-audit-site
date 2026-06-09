@@ -1,0 +1,393 @@
+﻿Analysis number,Analysis name,Test number,Test name,Subgroup by,Subgroup item,Subgroup,Study,TP,FP,FN,TN,Sensitivity,Sens CI start,Sens CI end,Specificity,Spec CI start,Spec CI end
+1,LSM by VCTE (CSPH) any cut-off,1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Augustin 2015,17,1,9,13,0.653846,0.443328,0.827856,0.928571,0.661316,0.998193
+1,LSM by VCTE (CSPH) any cut-off,1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Banini 2022,9,33,7,93,0.5625,0.298777,0.802466,0.738095,0.652302,0.81236
+1,LSM by VCTE (CSPH) any cut-off,1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Bureau 2008,68,5,8,69,0.894737,0.803083,0.953447,0.932432,0.849321,0.977699
+1,LSM by VCTE (CSPH) any cut-off,1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Colecchia 2012,30,1,35,34,0.461538,0.337021,0.589675,0.971429,0.850828,0.999277
+1,LSM by VCTE (CSPH) any cut-off,1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Dajti 2022,30,7,30,128,0.5,0.368062,0.631938,0.948148,0.896083,0.978902
+1,LSM by VCTE (CSPH) any cut-off,1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Gomez-Escolar 2013,40,1,4,6,0.909091,0.783314,0.974671,0.857143,0.421277,0.99639
+1,LSM by VCTE (CSPH) any cut-off,1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Grgurević 2016,10,1,1,8,0.909091,0.58722,0.997701,0.888889,0.517503,0.997191
+1,LSM by VCTE (CSPH) any cut-off,1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Grgurević 2022,31,5,9,31,0.775,0.615488,0.891603,0.861111,0.705025,0.953322
+1,LSM by VCTE (CSPH) any cut-off,1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,He 2022,45,0,5,51,0.9,0.781865,0.966725,1.0,0.930223,1.0
+1,LSM by VCTE (CSPH) any cut-off,1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Hong 2013,30,6,6,17,0.833333,0.671884,0.93628,0.73913,0.515948,0.897714
+1,LSM by VCTE (CSPH) any cut-off,1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Jachs 2022,119,11,69,103,0.632979,0.559752,0.701939,0.903509,0.833907,0.950841
+1,LSM by VCTE (CSPH) any cut-off,1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Jachs 2023,19,3,13,16,0.59375,0.406449,0.763016,0.842105,0.604216,0.966174
+1,LSM by VCTE (CSPH) any cut-off,1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Jindal 2022,258,30,222,116,0.5375,0.49174,0.582795,0.794521,0.719844,0.856862
+1,LSM by VCTE (CSPH) any cut-off,1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Kumar 2017,219,16,59,32,0.78777,0.734953,0.834336,0.666667,0.515892,0.796041
+1,LSM by VCTE (CSPH) any cut-off,1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Lemoine 2008 (alcoholic aetiology),36,1,4,7,0.9,0.763362,0.972075,0.875,0.47349,0.99684
+1,LSM by VCTE (CSPH) any cut-off,1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Lemoine 2008 (viral aetiology),21,3,13,7,0.617647,0.43564,0.778335,0.7,0.347547,0.933261
+1,LSM by VCTE (CSPH) any cut-off,1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Levick 2019,3,0,1,9,0.75,0.194121,0.993691,1.0,0.663733,1.0
+1,LSM by VCTE (CSPH) any cut-off,1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Maruyama 2016,9,0,7,6,0.5625,0.298777,0.802466,1.0,0.540741,1.0
+1,LSM by VCTE (CSPH) any cut-off,1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Odriozola 2023,13,2,16,53,0.448276,0.264455,0.643061,0.963636,0.874736,0.995565
+1,LSM by VCTE (CSPH) any cut-off,1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Podrug 2022,27,4,13,32,0.675,0.508705,0.814271,0.888889,0.739389,0.968884
+1,LSM by VCTE (CSPH) any cut-off,1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Procopet 2015b (training group),55,25,3,75,0.948276,0.856196,0.989203,0.75,0.653447,0.83122
+1,LSM by VCTE (CSPH) any cut-off,1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Procopet 2015b (validation group),13,9,2,20,0.866667,0.595397,0.983424,0.689655,0.491677,0.847154
+1,LSM by VCTE (CSPH) any cut-off,1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Reiberger 2012,227,38,49,188,0.822464,0.772174,0.865677,0.831858,0.776597,0.878181
+1,LSM by VCTE (CSPH) any cut-off,1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Salzl 2014,38,4,4,13,0.904762,0.773775,0.973436,0.764706,0.501006,0.931892
+1,LSM by VCTE (CSPH) any cut-off,1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Schwabl 2015,44,15,3,100,0.93617,0.824608,0.986639,0.869565,0.794007,0.925121
+1,LSM by VCTE (CSPH) any cut-off,1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Taru 2023,14,0,11,37,0.56,0.349281,0.755977,1.0,0.90511,1.0
+1,LSM by VCTE (CSPH) any cut-off,1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Vizzutti 2007,46,1,1,13,0.978723,0.887062,0.999461,0.928571,0.661316,0.998193
+1,LSM by VCTE (CSPH) any cut-off,1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Zhang 2022,78,9,29,21,0.728972,0.634474,0.810385,0.7,0.506041,0.852655
+1,LSM by VCTE (CSPH) any cut-off,1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Zykus 2015,69,4,9,25,0.884615,0.792232,0.945859,0.862069,0.683359,0.961105
+2,LSM by VCTE (CSPH) cut-off 11.4-14.4 kPa,2,LSM by VCTE (CSPH) cut-off 11.4-14.4 kPa,None,,,Bureau 2008,71,12,5,62,0.934211,0.853109,0.978295,0.837838,0.733864,0.913301
+2,LSM by VCTE (CSPH) cut-off 11.4-14.4 kPa,2,LSM by VCTE (CSPH) cut-off 11.4-14.4 kPa,None,,,Colecchia 2012,65,34,0,1,1.0,0.944829,1.0,0.028571,7.23E-4,0.149172
+2,LSM by VCTE (CSPH) cut-off 11.4-14.4 kPa,2,LSM by VCTE (CSPH) cut-off 11.4-14.4 kPa,None,,,Procopet 2015b (training group),55,25,3,75,0.948276,0.856196,0.989203,0.75,0.653447,0.83122
+2,LSM by VCTE (CSPH) cut-off 11.4-14.4 kPa,2,LSM by VCTE (CSPH) cut-off 11.4-14.4 kPa,None,,,Procopet 2015b (validation group),13,9,2,20,0.866667,0.595397,0.983424,0.689655,0.491677,0.847154
+2,LSM by VCTE (CSPH) cut-off 11.4-14.4 kPa,2,LSM by VCTE (CSPH) cut-off 11.4-14.4 kPa,None,,,Vizzutti 2007,46,1,1,13,0.978723,0.887062,0.999461,0.928571,0.661316,0.998193
+2,LSM by VCTE (CSPH) cut-off 11.4-14.4 kPa,2,LSM by VCTE (CSPH) cut-off 11.4-14.4 kPa,None,,,Zhang 2022,78,9,29,21,0.728972,0.634474,0.810385,0.7,0.506041,0.852655
+2,LSM by VCTE (CSPH) cut-off 11.4-14.4 kPa,2,LSM by VCTE (CSPH) cut-off 11.4-14.4 kPa,None,,,Zykus 2015,78,13,0,16,1.0,0.953807,1.0,0.551724,0.356939,0.735545
+3,LSM by VCTE (CSPH) cut-off 15-18 kPa,3,LSM by VCTE (CSPH) cut-off 15-18 kPa,None,,,Bureau 2008,71,9,5,65,0.934211,0.853109,0.978295,0.878378,0.781639,0.94285
+3,LSM by VCTE (CSPH) cut-off 15-18 kPa,3,LSM by VCTE (CSPH) cut-off 15-18 kPa,None,,,Colecchia 2012,62,11,3,24,0.953846,0.870989,0.990379,0.685714,0.50712,0.831483
+3,LSM by VCTE (CSPH) cut-off 15-18 kPa,3,LSM by VCTE (CSPH) cut-off 15-18 kPa,None,,,Gomez-Escolar 2013,40,1,4,6,0.909091,0.783314,0.974671,0.857143,0.421277,0.99639
+3,LSM by VCTE (CSPH) cut-off 15-18 kPa,3,LSM by VCTE (CSPH) cut-off 15-18 kPa,None,,,Grgurević 2022,36,10,4,25,0.9,0.763362,0.972075,0.714286,0.536955,0.853645
+3,LSM by VCTE (CSPH) cut-off 15-18 kPa,3,LSM by VCTE (CSPH) cut-off 15-18 kPa,None,,,Jachs 2023,27,9,5,10,0.84375,0.672121,0.94725,0.526316,0.288643,0.755526
+3,LSM by VCTE (CSPH) cut-off 15-18 kPa,3,LSM by VCTE (CSPH) cut-off 15-18 kPa,None,,,Reiberger 2012,227,38,49,188,0.822464,0.772174,0.865677,0.831858,0.776597,0.878181
+3,LSM by VCTE (CSPH) cut-off 15-18 kPa,3,LSM by VCTE (CSPH) cut-off 15-18 kPa,None,,,Salzl 2014,38,4,4,13,0.904762,0.773775,0.973436,0.764706,0.501006,0.931892
+3,LSM by VCTE (CSPH) cut-off 15-18 kPa,3,LSM by VCTE (CSPH) cut-off 15-18 kPa,None,,,Schwabl 2015,44,15,3,100,0.93617,0.824608,0.986639,0.869565,0.794007,0.925121
+3,LSM by VCTE (CSPH) cut-off 15-18 kPa,3,LSM by VCTE (CSPH) cut-off 15-18 kPa,None,,,Zykus 2015,69,4,9,25,0.884615,0.792232,0.945859,0.862069,0.683359,0.961105
+4,LSM by VCTE (CSPH) cut-off 20-23 kPa,4,LSM by VCTE (CSPH) cut-off 20-23 kPa,None,,,Augustin 2015,19,3,7,11,0.730769,0.522126,0.884268,0.785714,0.492024,0.953421
+4,LSM by VCTE (CSPH) cut-off 20-23 kPa,4,LSM by VCTE (CSPH) cut-off 20-23 kPa,None,,,Banini 2022,9,33,7,93,0.5625,0.298777,0.802466,0.738095,0.652302,0.81236
+4,LSM by VCTE (CSPH) cut-off 20-23 kPa,4,LSM by VCTE (CSPH) cut-off 20-23 kPa,None,,,Bureau 2008,68,5,8,69,0.894737,0.803083,0.953447,0.932432,0.849321,0.977699
+4,LSM by VCTE (CSPH) cut-off 20-23 kPa,4,LSM by VCTE (CSPH) cut-off 20-23 kPa,None,,,Colecchia 2012,52,4,13,31,0.8,0.682312,0.888984,0.885714,0.732622,0.967969
+4,LSM by VCTE (CSPH) cut-off 20-23 kPa,4,LSM by VCTE (CSPH) cut-off 20-23 kPa,None,,,Grgurević 2022,31,5,9,31,0.775,0.615488,0.891603,0.861111,0.705025,0.953322
+4,LSM by VCTE (CSPH) cut-off 20-23 kPa,4,LSM by VCTE (CSPH) cut-off 20-23 kPa,None,,,Hong 2013,30,6,6,17,0.833333,0.671884,0.93628,0.73913,0.515948,0.897714
+4,LSM by VCTE (CSPH) cut-off 20-23 kPa,4,LSM by VCTE (CSPH) cut-off 20-23 kPa,None,,,Kumar 2017,219,16,59,32,0.78777,0.734953,0.834336,0.666667,0.515892,0.796041
+4,LSM by VCTE (CSPH) cut-off 20-23 kPa,4,LSM by VCTE (CSPH) cut-off 20-23 kPa,None,,,Lemoine 2008 (viral aetiology),21,3,13,7,0.617647,0.43564,0.778335,0.7,0.347547,0.933261
+4,LSM by VCTE (CSPH) cut-off 20-23 kPa,4,LSM by VCTE (CSPH) cut-off 20-23 kPa,None,,,Procopet 2015b (training group),52,12,6,88,0.896552,0.788314,0.961079,0.88,0.799765,0.936431
+4,LSM by VCTE (CSPH) cut-off 20-23 kPa,4,LSM by VCTE (CSPH) cut-off 20-23 kPa,None,,,Procopet 2015b (validation group),12,1,3,28,0.8,0.519109,0.956688,0.965517,0.822355,0.999127
+4,LSM by VCTE (CSPH) cut-off 20-23 kPa,4,LSM by VCTE (CSPH) cut-off 20-23 kPa,None,,,Zykus 2015,58,0,20,29,0.74359,0.632142,0.83581,1.0,0.880555,1.0
+5,LSM by VCTE (CSPH) cut-off 25-28 kPa,5,LSM by VCTE (CSPH) cut-off 25-28 kPa,None,,,Augustin 2015,17,1,9,13,0.653846,0.443328,0.827856,0.928571,0.661316,0.998193
+5,LSM by VCTE (CSPH) cut-off 25-28 kPa,5,LSM by VCTE (CSPH) cut-off 25-28 kPa,None,,,Colecchia 2012,30,1,35,34,0.461538,0.337021,0.589675,0.971429,0.850828,0.999277
+5,LSM by VCTE (CSPH) cut-off 25-28 kPa,5,LSM by VCTE (CSPH) cut-off 25-28 kPa,None,,,Dajti 2022,30,7,30,128,0.5,0.368062,0.631938,0.948148,0.896083,0.978902
+5,LSM by VCTE (CSPH) cut-off 25-28 kPa,5,LSM by VCTE (CSPH) cut-off 25-28 kPa,None,,,Grgurević 2022,22,2,18,34,0.55,0.384907,0.707411,0.944444,0.813364,0.9932
+5,LSM by VCTE (CSPH) cut-off 25-28 kPa,5,LSM by VCTE (CSPH) cut-off 25-28 kPa,None,,,He 2022,45,0,5,51,0.9,0.781865,0.966725,1.0,0.930223,1.0
+5,LSM by VCTE (CSPH) cut-off 25-28 kPa,5,LSM by VCTE (CSPH) cut-off 25-28 kPa,None,,,Jachs 2022,119,11,69,103,0.632979,0.559752,0.701939,0.903509,0.833907,0.950841
+5,LSM by VCTE (CSPH) cut-off 25-28 kPa,5,LSM by VCTE (CSPH) cut-off 25-28 kPa,None,,,Jachs 2023,19,3,13,16,0.59375,0.406449,0.763016,0.842105,0.604216,0.966174
+5,LSM by VCTE (CSPH) cut-off 25-28 kPa,5,LSM by VCTE (CSPH) cut-off 25-28 kPa,None,,,Jindal 2022,258,30,222,116,0.5375,0.49174,0.582795,0.794521,0.719844,0.856862
+5,LSM by VCTE (CSPH) cut-off 25-28 kPa,5,LSM by VCTE (CSPH) cut-off 25-28 kPa,None,,,Levick 2019,3,0,1,9,0.75,0.194121,0.993691,1.0,0.663733,1.0
+5,LSM by VCTE (CSPH) cut-off 25-28 kPa,5,LSM by VCTE (CSPH) cut-off 25-28 kPa,None,,,Odriozola 2023,13,2,16,53,0.448276,0.264455,0.643061,0.963636,0.874736,0.995565
+5,LSM by VCTE (CSPH) cut-off 25-28 kPa,5,LSM by VCTE (CSPH) cut-off 25-28 kPa,None,,,Podrug 2022,27,4,13,32,0.675,0.508705,0.814271,0.888889,0.739389,0.968884
+5,LSM by VCTE (CSPH) cut-off 25-28 kPa,5,LSM by VCTE (CSPH) cut-off 25-28 kPa,None,,,Taru 2023,14,0,11,37,0.56,0.349281,0.755977,1.0,0.90511,1.0
+6,LSM by VCTE (CSPH) cut-off 25 kPa,6,LSM by VCTE (CSPH) cut-off 25 kPa,None,,,Augustin 2015,17,1,9,13,0.653846,0.443328,0.827856,0.928571,0.661316,0.998193
+6,LSM by VCTE (CSPH) cut-off 25 kPa,6,LSM by VCTE (CSPH) cut-off 25 kPa,None,,,Colecchia 2012,30,1,35,34,0.461538,0.337021,0.589675,0.971429,0.850828,0.999277
+6,LSM by VCTE (CSPH) cut-off 25 kPa,6,LSM by VCTE (CSPH) cut-off 25 kPa,None,,,Dajti 2022,30,7,30,128,0.5,0.368062,0.631938,0.948148,0.896083,0.978902
+6,LSM by VCTE (CSPH) cut-off 25 kPa,6,LSM by VCTE (CSPH) cut-off 25 kPa,None,,,He 2022,45,0,5,51,0.9,0.781865,0.966725,1.0,0.930223,1.0
+6,LSM by VCTE (CSPH) cut-off 25 kPa,6,LSM by VCTE (CSPH) cut-off 25 kPa,None,,,Jachs 2022,119,11,69,103,0.632979,0.559752,0.701939,0.903509,0.833907,0.950841
+6,LSM by VCTE (CSPH) cut-off 25 kPa,6,LSM by VCTE (CSPH) cut-off 25 kPa,None,,,Jachs 2023,19,3,13,16,0.59375,0.406449,0.763016,0.842105,0.604216,0.966174
+6,LSM by VCTE (CSPH) cut-off 25 kPa,6,LSM by VCTE (CSPH) cut-off 25 kPa,None,,,Jindal 2022,258,30,222,116,0.5375,0.49174,0.582795,0.794521,0.719844,0.856862
+6,LSM by VCTE (CSPH) cut-off 25 kPa,6,LSM by VCTE (CSPH) cut-off 25 kPa,None,,,Podrug 2022,27,4,13,32,0.675,0.508705,0.814271,0.888889,0.739389,0.968884
+6,LSM by VCTE (CSPH) cut-off 25 kPa,6,LSM by VCTE (CSPH) cut-off 25 kPa,None,,,Taru 2023,14,0,11,37,0.56,0.349281,0.755977,1.0,0.90511,1.0
+7,"LSM by VCTE (SPH) ""any cut-off""",7,"LSM by VCTE (SPH) ""any cut-off""",None,,,Chandan 2012,50,14,17,27,0.746269,0.625127,0.844715,0.658537,0.494052,0.799166
+7,"LSM by VCTE (SPH) ""any cut-off""",7,"LSM by VCTE (SPH) ""any cut-off""",None,,,Colecchia 2012,30,1,24,45,0.555556,0.414,0.690803,0.978261,0.884728,0.99945
+7,"LSM by VCTE (SPH) ""any cut-off""",7,"LSM by VCTE (SPH) ""any cut-off""",None,,,Hirooka 2022,22,9,9,41,0.709677,0.519639,0.857772,0.82,0.68563,0.914238
+7,"LSM by VCTE (SPH) ""any cut-off""",7,"LSM by VCTE (SPH) ""any cut-off""",None,,,Hong 2013,26,8,5,20,0.83871,0.662728,0.945476,0.714286,0.513332,0.867763
+7,"LSM by VCTE (SPH) ""any cut-off""",7,"LSM by VCTE (SPH) ""any cut-off""",None,,,Maruyama 2016,9,0,7,6,0.5625,0.298777,0.802466,1.0,0.540741,1.0
+7,"LSM by VCTE (SPH) ""any cut-off""",7,"LSM by VCTE (SPH) ""any cut-off""",None,,,Tseng 2018,67,6,19,7,0.77907,0.676688,0.861434,0.538462,0.251345,0.807768
+7,"LSM by VCTE (SPH) ""any cut-off""",7,"LSM by VCTE (SPH) ""any cut-off""",None,,,Vizzutti 2007,33,5,2,21,0.942857,0.808429,0.993003,0.807692,0.606494,0.934452
+7,"LSM by VCTE (SPH) ""any cut-off""",7,"LSM by VCTE (SPH) ""any cut-off""",None,,,Zykus 2015,55,8,12,32,0.820896,0.708036,0.903881,0.8,0.643522,0.909478
+8,LSM by VCTE (SPH) cut-off 16-18 kPa,8,LSM by VCTE (SPH) cut-off 16-18 kPa,None,,,Colecchia 2012,64,11,1,22,0.984615,0.917237,0.999611,0.666667,0.481732,0.820395
+8,LSM by VCTE (SPH) cut-off 16-18 kPa,8,LSM by VCTE (SPH) cut-off 16-18 kPa,None,,,Tseng 2018,67,6,19,7,0.77907,0.676688,0.861434,0.538462,0.251345,0.807768
+8,LSM by VCTE (SPH) cut-off 16-18 kPa,8,LSM by VCTE (SPH) cut-off 16-18 kPa,None,,,Vizzutti 2007,33,5,2,21,0.942857,0.808429,0.993003,0.807692,0.606494,0.934452
+9,LSM by VCTE (SPH) cut-off 20-22 kPa,9,LSM by VCTE (SPH) cut-off 20-22 kPa,None,,,Chandan 2012,50,14,17,27,0.746269,0.625127,0.844715,0.658537,0.494052,0.799166
+9,LSM by VCTE (SPH) cut-off 20-22 kPa,9,LSM by VCTE (SPH) cut-off 20-22 kPa,None,,,Colecchia 2012,47,9,7,37,0.87037,0.750988,0.946257,0.804348,0.660853,0.906424
+9,LSM by VCTE (SPH) cut-off 20-22 kPa,9,LSM by VCTE (SPH) cut-off 20-22 kPa,None,,,Zykus 2015,55,8,12,32,0.820896,0.708036,0.903881,0.8,0.643522,0.909478
+10,LSM by VCTE (SPH) cut-off 24-26 kPa,10,LSM by VCTE (SPH) cut-off 24-26 kPa,None,,,Colecchia 2012,30,1,24,45,0.555556,0.414,0.690803,0.978261,0.884728,0.99945
+10,LSM by VCTE (SPH) cut-off 24-26 kPa,10,LSM by VCTE (SPH) cut-off 24-26 kPa,None,,,Hirooka 2022,22,9,9,41,0.709677,0.519639,0.857772,0.82,0.68563,0.914238
+10,LSM by VCTE (SPH) cut-off 24-26 kPa,10,LSM by VCTE (SPH) cut-off 24-26 kPa,None,,,Hong 2013,26,8,5,20,0.83871,0.662728,0.945476,0.714286,0.513332,0.867763
+11,"SSM by VCTE (CSPH) ""any cut-off""",11,"SSM by VCTE (CSPH) ""any cut-off""",None,,,Colecchia 2012,64,9,1,26,0.984615,0.917237,0.999611,0.742857,0.567441,0.875106
+11,"SSM by VCTE (CSPH) ""any cut-off""",11,"SSM by VCTE (CSPH) ""any cut-off""",None,,,Grgurević 2016,7,0,4,9,0.636364,0.307905,0.890736,1.0,0.663733,1.0
+11,"SSM by VCTE (CSPH) ""any cut-off""",11,"SSM by VCTE (CSPH) ""any cut-off""",None,,,Grgurević 2022,31,8,4,18,0.885714,0.732622,0.967969,0.692308,0.482103,0.85674
+11,"SSM by VCTE (CSPH) ""any cut-off""",11,"SSM by VCTE (CSPH) ""any cut-off""",None,,,Odriozola 2023,20,2,9,43,0.689655,0.491677,0.847154,0.955556,0.848507,0.994572
+11,"SSM by VCTE (CSPH) ""any cut-off""",11,"SSM by VCTE (CSPH) ""any cut-off""",None,,,Stefanescu 2013,13,4,1,19,0.928571,0.661316,0.998193,0.826087,0.612188,0.950492
+11,"SSM by VCTE (CSPH) ""any cut-off""",11,"SSM by VCTE (CSPH) ""any cut-off""",None,,,Zykus 2015,59,5,17,18,0.776316,0.666195,0.863963,0.782609,0.562969,0.925397
+12,SSM by VCTE (CSPH) cut-off 40-44 kPa,12,SSM by VCTE (CSPH) cut-off 40-44 kPa,None,,,Colecchia 2012,64,9,1,26,0.984615,0.917237,0.999611,0.742857,0.567441,0.875106
+12,SSM by VCTE (CSPH) cut-off 40-44 kPa,12,SSM by VCTE (CSPH) cut-off 40-44 kPa,None,,,Grgurević 2016,7,0,4,9,0.636364,0.307905,0.890736,1.0,0.663733,1.0
+12,SSM by VCTE (CSPH) cut-off 40-44 kPa,12,SSM by VCTE (CSPH) cut-off 40-44 kPa,None,,,Grgurević 2022,31,8,4,18,0.885714,0.732622,0.967969,0.692308,0.482103,0.85674
+12,SSM by VCTE (CSPH) cut-off 40-44 kPa,12,SSM by VCTE (CSPH) cut-off 40-44 kPa,None,,,Stefanescu 2013,13,4,1,19,0.928571,0.661316,0.998193,0.826087,0.612188,0.950492
+13,SSM by VCTE (CSPH) cut-off 46-50 kPa,13,SSM by VCTE (CSPH) cut-off 46-50 kPa,None,,,Colecchia 2012,57,3,8,32,0.876923,0.771814,0.945336,0.914286,0.769425,0.981962
+13,SSM by VCTE (CSPH) cut-off 46-50 kPa,13,SSM by VCTE (CSPH) cut-off 46-50 kPa,None,,,Grgurević 2022,18,2,17,24,0.514286,0.339891,0.686172,0.923077,0.748697,0.990545
+13,SSM by VCTE (CSPH) cut-off 46-50 kPa,13,SSM by VCTE (CSPH) cut-off 46-50 kPa,None,,,Odriozola 2023,20,2,9,43,0.689655,0.491677,0.847154,0.955556,0.848507,0.994572
+13,SSM by VCTE (CSPH) cut-off 46-50 kPa,13,SSM by VCTE (CSPH) cut-off 46-50 kPa,None,,,Zykus 2015,59,5,17,18,0.776316,0.666195,0.863963,0.782609,0.562969,0.925397
+14,"SSM by VCTE (SPH) ""any cut-off""",14,"SSM by VCTE (SPH) ""any cut-off""",None,,,Colecchia 2012,51,8,3,38,0.944444,0.846115,0.988394,0.826087,0.685809,0.921796
+14,"SSM by VCTE (SPH) ""any cut-off""",14,"SSM by VCTE (SPH) ""any cut-off""",None,,,Hirooka 2022,26,9,5,41,0.83871,0.662728,0.945476,0.82,0.68563,0.914238
+14,"SSM by VCTE (SPH) ""any cut-off""",14,"SSM by VCTE (SPH) ""any cut-off""",None,,,Tseng 2018,65,0,21,13,0.755814,0.651274,0.84205,1.0,0.752947,1.0
+14,"SSM by VCTE (SPH) ""any cut-off""",14,"SSM by VCTE (SPH) ""any cut-off""",None,,,Zykus 2015,51,8,14,26,0.784615,0.665113,0.876947,0.764706,0.588292,0.892538
+15,SSM by VCTE (SPH) cut-off 47-51 kPa,15,SSM by VCTE (SPH) cut-off 47-51 kPa,None,,,Colecchia 2012,51,8,3,38,0.944444,0.846115,0.988394,0.826087,0.685809,0.921796
+15,SSM by VCTE (SPH) cut-off 47-51 kPa,15,SSM by VCTE (SPH) cut-off 47-51 kPa,None,,,Hirooka 2022,26,9,5,41,0.83871,0.662728,0.945476,0.82,0.68563,0.914238
+15,SSM by VCTE (SPH) cut-off 47-51 kPa,15,SSM by VCTE (SPH) cut-off 47-51 kPa,None,,,Tseng 2018,65,0,21,13,0.755814,0.651274,0.84205,1.0,0.752947,1.0
+15,SSM by VCTE (SPH) cut-off 47-51 kPa,15,SSM by VCTE (SPH) cut-off 47-51 kPa,None,,,Zykus 2015,51,8,14,26,0.784615,0.665113,0.876947,0.764706,0.588292,0.892538
+16,"LSM by pSWE (CSPH) ""any cut-off""",16,"LSM by pSWE (CSPH) ""any cut-off""",None,,,Attia 2015,68,1,2,7,0.971429,0.900571,0.996521,0.875,0.47349,0.99684
+16,"LSM by pSWE (CSPH) ""any cut-off""",16,"LSM by pSWE (CSPH) ""any cut-off""",None,,,Salzl 2014,30,2,12,15,0.714286,0.554161,0.842809,0.882353,0.635591,0.985421
+16,"LSM by pSWE (CSPH) ""any cut-off""",16,"LSM by pSWE (CSPH) ""any cut-off""",None,,,Schonemier 2013,21,3,5,16,0.807692,0.606494,0.934452,0.842105,0.604216,0.966174
+16,"LSM by pSWE (CSPH) ""any cut-off""",16,"LSM by pSWE (CSPH) ""any cut-off""",None,,,Zocco 2022,22,4,2,18,0.916667,0.730027,0.989744,0.818182,0.597154,0.948133
+17,"LSM by pSWE (SPH) ""any cut-off""",18,"LSM by pSWE (SPH) ""any cut-off""",None,,,Attia 2015,58,4,4,12,0.935484,0.842972,0.982144,0.75,0.476229,0.927338
+17,"LSM by pSWE (SPH) ""any cut-off""",18,"LSM by pSWE (SPH) ""any cut-off""",None,,,Zocco 2022,17,4,4,21,0.809524,0.580934,0.945537,0.84,0.639171,0.954621
+18,"SSM by pSWE (CSPH) ""any cut-off""",19,"SSM by pSWE (CSPH) ""any cut-off""",None,,,Attia 2015,67,1,3,7,0.957143,0.879822,0.991073,0.875,0.47349,0.99684
+18,"SSM by pSWE (CSPH) ""any cut-off""",19,"SSM by pSWE (CSPH) ""any cut-off""",None,,,Borghi 2012,20,1,8,11,0.714286,0.513332,0.867763,0.916667,0.615204,0.997893
+18,"SSM by pSWE (CSPH) ""any cut-off""",19,"SSM by pSWE (CSPH) ""any cut-off""",None,,,Roselli 2017,25,7,1,37,0.961538,0.803631,0.999027,0.840909,0.699347,0.933556
+18,"SSM by pSWE (CSPH) ""any cut-off""",19,"SSM by pSWE (CSPH) ""any cut-off""",None,,,Takuma 2016,33,11,1,15,0.970588,0.846733,0.999255,0.576923,0.369181,0.766478
+19,"SSM by pSWE (SPH) ""any cut-off""",21,"SSM by pSWE (SPH) ""any cut-off""",None,,,Attia 2015,58,2,4,14,0.935484,0.842972,0.982144,0.875,0.616524,0.984486
+19,"SSM by pSWE (SPH) ""any cut-off""",21,"SSM by pSWE (SPH) ""any cut-off""",None,,,Takuma 2016,33,10,1,16,0.970588,0.846733,0.999255,0.615385,0.405707,0.79774
+20,"LSM by 2D-SWE (CSPH) ""any cut-off""",22,"LSM by 2D-SWE (CSPH) ""any cut-off""",None,,,Corina 2018,47,2,10,22,0.824561,0.700942,0.912527,0.916667,0.730027,0.989744
+20,"LSM by 2D-SWE (CSPH) ""any cut-off""",22,"LSM by 2D-SWE (CSPH) ""any cut-off""",None,,,Grgurević 2016,10,1,1,8,0.909091,0.58722,0.997701,0.888889,0.517503,0.997191
+20,"LSM by 2D-SWE (CSPH) ""any cut-off""",22,"LSM by 2D-SWE (CSPH) ""any cut-off""",None,,,Grgurević 2022,31,2,8,33,0.794872,0.635356,0.907036,0.942857,0.808429,0.993003
+20,"LSM by 2D-SWE (CSPH) ""any cut-off""",22,"LSM by 2D-SWE (CSPH) ""any cut-off""",None,,,Jansen 2017,71,10,33,41,0.682692,0.584156,0.770511,0.803922,0.668843,0.901756
+20,"LSM by 2D-SWE (CSPH) ""any cut-off""",22,"LSM by 2D-SWE (CSPH) ""any cut-off""",None,,,Kim 2015,66,3,11,12,0.857143,0.758749,0.92647,0.8,0.519109,0.956688
+20,"LSM by 2D-SWE (CSPH) ""any cut-off""",22,"LSM by 2D-SWE (CSPH) ""any cut-off""",None,,,Maruyama 2016,14,1,2,5,0.875,0.616524,0.984486,0.833333,0.358766,0.99579
+20,"LSM by 2D-SWE (CSPH) ""any cut-off""",22,"LSM by 2D-SWE (CSPH) ""any cut-off""",None,,,Procopet 2015a,23,5,5,22,0.821429,0.631066,0.939357,0.814815,0.61917,0.937
+20,"LSM by 2D-SWE (CSPH) ""any cut-off""",22,"LSM by 2D-SWE (CSPH) ""any cut-off""",None,,,Yoo 2018,63,9,19,15,0.768293,0.662048,0.854361,0.625,0.405937,0.812007
+20,"LSM by 2D-SWE (CSPH) ""any cut-off""",22,"LSM by 2D-SWE (CSPH) ""any cut-off""",None,,,Zhu 2019,66,6,18,14,0.785714,0.682645,0.867776,0.7,0.457211,0.881068
+20,"LSM by 2D-SWE (CSPH) ""any cut-off""",22,"LSM by 2D-SWE (CSPH) ""any cut-off""",None,,,Zhu 2020,41,2,6,9,0.87234,0.742586,0.951678,0.818182,0.482244,0.977169
+21,LSM by 2D-SWE (CSPH) cut-off 11-14 kPa,23,LSM by 2D-SWE (CSPH) cut-off 11-14 kPa,None,,,Corina 2018,47,2,10,22,0.824561,0.700942,0.912527,0.916667,0.730027,0.989744
+21,LSM by 2D-SWE (CSPH) cut-off 11-14 kPa,23,LSM by 2D-SWE (CSPH) cut-off 11-14 kPa,None,,,Grgurević 2016,10,1,1,8,0.909091,0.58722,0.997701,0.888889,0.517503,0.997191
+21,LSM by 2D-SWE (CSPH) cut-off 11-14 kPa,23,LSM by 2D-SWE (CSPH) cut-off 11-14 kPa,None,,,Grgurević 2022,36,10,3,25,0.923077,0.791298,0.983847,0.714286,0.536955,0.853645
+21,LSM by 2D-SWE (CSPH) cut-off 11-14 kPa,23,LSM by 2D-SWE (CSPH) cut-off 11-14 kPa,None,,,Procopet 2015a,26,10,2,17,0.928571,0.764966,0.99123,0.62963,0.423679,0.805993
+21,LSM by 2D-SWE (CSPH) cut-off 11-14 kPa,23,LSM by 2D-SWE (CSPH) cut-off 11-14 kPa,None,,,Yoo 2018,63,9,19,15,0.768293,0.662048,0.854361,0.625,0.405937,0.812007
+21,LSM by 2D-SWE (CSPH) cut-off 11-14 kPa,23,LSM by 2D-SWE (CSPH) cut-off 11-14 kPa,None,,,Zhu 2020,41,2,6,9,0.87234,0.742586,0.951678,0.818182,0.482244,0.977169
+22,LSM by 2D-SWE (CSPH) cut-off 15-17 kPa,24,LSM by 2D-SWE (CSPH) cut-off 15-17 kPa,None,,,Jansen 2017,95,16,9,35,0.913462,0.842073,0.959663,0.686275,0.541127,0.808896
+22,LSM by 2D-SWE (CSPH) cut-off 15-17 kPa,24,LSM by 2D-SWE (CSPH) cut-off 15-17 kPa,None,,,Kim 2015,66,3,11,12,0.857143,0.758749,0.92647,0.8,0.519109,0.956688
+22,LSM by 2D-SWE (CSPH) cut-off 15-17 kPa,24,LSM by 2D-SWE (CSPH) cut-off 15-17 kPa,None,,,Maruyama 2016,14,1,2,5,0.875,0.616524,0.984486,0.833333,0.358766,0.99579
+22,LSM by 2D-SWE (CSPH) cut-off 15-17 kPa,24,LSM by 2D-SWE (CSPH) cut-off 15-17 kPa,None,,,Procopet 2015a,23,5,5,22,0.821429,0.631066,0.939357,0.814815,0.61917,0.937
+22,LSM by 2D-SWE (CSPH) cut-off 15-17 kPa,24,LSM by 2D-SWE (CSPH) cut-off 15-17 kPa,None,,,Zhu 2019,66,6,18,14,0.785714,0.682645,0.867776,0.7,0.457211,0.881068
+23,"LSM by 2D-SWE (SPH) ""any cut-off""",26,"LSM by 2D SWE (SPH) ""any cut-off""",None,,,Hirooka 2022,20,3,11,47,0.645161,0.453696,0.807733,0.94,0.834518,0.987451
+23,"LSM by 2D-SWE (SPH) ""any cut-off""",26,"LSM by 2D SWE (SPH) ""any cut-off""",None,,,Kim 2015,55,5,11,21,0.833333,0.721326,0.913752,0.807692,0.606494,0.934452
+23,"LSM by 2D-SWE (SPH) ""any cut-off""",26,"LSM by 2D SWE (SPH) ""any cut-off""",None,,,Maruyama 2016,12,1,3,6,0.8,0.519109,0.956688,0.857143,0.421277,0.99639
+23,"LSM by 2D-SWE (SPH) ""any cut-off""",26,"LSM by 2D SWE (SPH) ""any cut-off""",None,,,Sohn 2011,15,0,5,12,0.75,0.508954,0.913429,1.0,0.735351,1.0
+23,"LSM by 2D-SWE (SPH) ""any cut-off""",26,"LSM by 2D SWE (SPH) ""any cut-off""",None,,,Yoo 2018,43,7,32,21,0.573333,0.453765,0.68693,0.75,0.551284,0.893092
+23,"LSM by 2D-SWE (SPH) ""any cut-off""",26,"LSM by 2D SWE (SPH) ""any cut-off""",None,,,Zhu 2019,60,6,14,24,0.810811,0.702995,0.892527,0.8,0.614334,0.922864
+23,"LSM by 2D-SWE (SPH) ""any cut-off""",26,"LSM by 2D SWE (SPH) ""any cut-off""",None,,,Zhu 2020,20,5,14,19,0.588235,0.40697,0.753529,0.791667,0.578487,0.928681
+24,LSM by 2D SWE (SPH) cut-off 21.5-23.5 kPa,28,LSM by 2D SWE (SPH) cut-off 21.5-23.5 kPa,None,,,Kim 2015,55,5,11,21,0.833333,0.721326,0.913752,0.807692,0.606494,0.934452
+24,LSM by 2D SWE (SPH) cut-off 21.5-23.5 kPa,28,LSM by 2D SWE (SPH) cut-off 21.5-23.5 kPa,None,,,Sohn 2011,15,0,5,12,0.75,0.508954,0.913429,1.0,0.735351,1.0
+24,LSM by 2D SWE (SPH) cut-off 21.5-23.5 kPa,28,LSM by 2D SWE (SPH) cut-off 21.5-23.5 kPa,None,,,Zhu 2019,60,6,14,24,0.810811,0.702995,0.892527,0.8,0.614334,0.922864
+25,"SSM by 2D-SWE (CSPH) ""any cut-off""",29,"SSM by 2D SWE (CSPH) ""any cut-off""",None,,,Grgurević 2016,7,0,4,9,0.636364,0.307905,0.890736,1.0,0.663733,1.0
+25,"SSM by 2D-SWE (CSPH) ""any cut-off""",29,"SSM by 2D SWE (CSPH) ""any cut-off""",None,,,Grgurević 2022,30,5,6,22,0.833333,0.671884,0.93628,0.814815,0.61917,0.937
+25,"SSM by 2D-SWE (CSPH) ""any cut-off""",29,"SSM by 2D SWE (CSPH) ""any cut-off""",None,,,Jachs 2023,8,0,2,10,0.8,0.443904,0.974789,1.0,0.691503,1.0
+25,"SSM by 2D-SWE (CSPH) ""any cut-off""",29,"SSM by 2D SWE (CSPH) ""any cut-off""",None,,,Jansen 2017,59,6,15,32,0.797297,0.687805,0.881876,0.842105,0.687467,0.93977
+25,"SSM by 2D-SWE (CSPH) ""any cut-off""",29,"SSM by 2D SWE (CSPH) ""any cut-off""",None,,,Kennedy 2022,8,9,3,14,0.727273,0.390258,0.939782,0.608696,0.385419,0.802923
+25,"SSM by 2D-SWE (CSPH) ""any cut-off""",29,"SSM by 2D SWE (CSPH) ""any cut-off""",None,,,Zhu 2019,71,4,13,16,0.845238,0.749902,0.91494,0.8,0.563386,0.942666
+26,SSM by 2D SWE (CSPH) cut-off 25.3-26.3 kPa,30,SSM by 2D SWE (CSPH) cut-off 25.3-26.3 kPa,None,,,Jansen 2017,59,6,15,32,0.797297,0.687805,0.881876,0.842105,0.687467,0.93977
+26,SSM by 2D SWE (CSPH) cut-off 25.3-26.3 kPa,30,SSM by 2D SWE (CSPH) cut-off 25.3-26.3 kPa,None,,,Kennedy 2022,8,9,3,14,0.727273,0.390258,0.939782,0.608696,0.385419,0.802923
+26,SSM by 2D SWE (CSPH) cut-off 25.3-26.3 kPa,30,SSM by 2D SWE (CSPH) cut-off 25.3-26.3 kPa,None,,,Zhu 2019,71,4,13,16,0.845238,0.749902,0.91494,0.8,0.563386,0.942666
+27,"SSM by 2D-SWE (SPH) ""any cut-off""",34,"SSM by 2D SWE (SPH) ""any cut-off""",None,,,Hirooka 2022,25,3,6,47,0.806452,0.625268,0.92548,0.94,0.834518,0.987451
+27,"SSM by 2D-SWE (SPH) ""any cut-off""",34,"SSM by 2D SWE (SPH) ""any cut-off""",None,,,Zhu 2019,55,9,19,21,0.743243,0.628435,0.837796,0.7,0.506041,0.852655
+30,"SSM by MRE (CSPH) ""any cut-off""",37,"SSM by MRE (CSPH) ""any cut-off""",None,,,Kennedy 2022,8,5,0,17,1.0,0.630583,1.0,0.772727,0.546296,0.921794
+31,"SSM by MRE (SPH) ""any cut-off""",38,"SSM by MRE (SPH) ""any cut-off""",None,,,Wang 2020,12,0,10,5,0.545455,0.322105,0.756138,1.0,0.478177,1.0
+32,"LSM + SSM by VCTE (CSPH) ""any cut-off""",39,"LSM + SSM combination by VCTE (CSPH) ""any cut-off""",None,,,He 2022,23,1,27,50,0.46,0.318149,0.606758,0.980392,0.895525,0.999504
+33,"LSM + SSM by 2D-SWE (CSPH) ""any cut-off""",40,"LSM + SSM combination by 2D-SWE (CSPH) ""any cut-off""",None,,,Jansen 2017,63,3,8,35,0.887324,0.789999,0.950081,0.921053,0.786226,0.983414
+33,"LSM + SSM by 2D-SWE (CSPH) ""any cut-off""",40,"LSM + SSM combination by 2D-SWE (CSPH) ""any cut-off""",None,,,Zhu 2019,75,6,9,14,0.892857,0.80633,0.949823,0.7,0.457211,0.881068
+34,"LSM + SSM by 2D-SWE (SPH) ""any cut-off""",41,"LSM + SSM combination by 2D-SWE (SPH) ""any cut-off""",None,,,Zhu 2019,62,5,12,25,0.837838,0.733864,0.913301,0.833333,0.652788,0.943578
+35,Direct comparison LSM VCTE vs SSM VCTE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Colecchia 2012,30,1,35,34,0.461538,0.337021,0.589675,0.971429,0.850828,0.999277
+35,Direct comparison LSM VCTE vs SSM VCTE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Grgurević 2016,10,1,1,8,0.909091,0.58722,0.997701,0.888889,0.517503,0.997191
+35,Direct comparison LSM VCTE vs SSM VCTE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Grgurević 2022,31,5,9,31,0.775,0.615488,0.891603,0.861111,0.705025,0.953322
+35,Direct comparison LSM VCTE vs SSM VCTE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Odriozola 2023,13,2,16,53,0.448276,0.264455,0.643061,0.963636,0.874736,0.995565
+35,Direct comparison LSM VCTE vs SSM VCTE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Zykus 2015,69,4,9,25,0.884615,0.792232,0.945859,0.862069,0.683359,0.961105
+35,Direct comparison LSM VCTE vs SSM VCTE (CSPH),11,"SSM by VCTE (CSPH) ""any cut-off""",None,,,Colecchia 2012,64,9,1,26,0.984615,0.917237,0.999611,0.742857,0.567441,0.875106
+35,Direct comparison LSM VCTE vs SSM VCTE (CSPH),11,"SSM by VCTE (CSPH) ""any cut-off""",None,,,Grgurević 2016,7,0,4,9,0.636364,0.307905,0.890736,1.0,0.663733,1.0
+35,Direct comparison LSM VCTE vs SSM VCTE (CSPH),11,"SSM by VCTE (CSPH) ""any cut-off""",None,,,Grgurević 2022,31,8,4,18,0.885714,0.732622,0.967969,0.692308,0.482103,0.85674
+35,Direct comparison LSM VCTE vs SSM VCTE (CSPH),11,"SSM by VCTE (CSPH) ""any cut-off""",None,,,Odriozola 2023,20,2,9,43,0.689655,0.491677,0.847154,0.955556,0.848507,0.994572
+35,Direct comparison LSM VCTE vs SSM VCTE (CSPH),11,"SSM by VCTE (CSPH) ""any cut-off""",None,,,Zykus 2015,59,5,17,18,0.776316,0.666195,0.863963,0.782609,0.562969,0.925397
+36,Direct comparison LSM 2D-SWE vs SSM 2D-SWE (CSPH),22,"LSM by 2D-SWE (CSPH) ""any cut-off""",None,,,Grgurević 2016,10,1,1,8,0.909091,0.58722,0.997701,0.888889,0.517503,0.997191
+36,Direct comparison LSM 2D-SWE vs SSM 2D-SWE (CSPH),22,"LSM by 2D-SWE (CSPH) ""any cut-off""",None,,,Grgurević 2022,31,2,8,33,0.794872,0.635356,0.907036,0.942857,0.808429,0.993003
+36,Direct comparison LSM 2D-SWE vs SSM 2D-SWE (CSPH),22,"LSM by 2D-SWE (CSPH) ""any cut-off""",None,,,Jansen 2017,71,10,33,41,0.682692,0.584156,0.770511,0.803922,0.668843,0.901756
+36,Direct comparison LSM 2D-SWE vs SSM 2D-SWE (CSPH),22,"LSM by 2D-SWE (CSPH) ""any cut-off""",None,,,Zhu 2019,66,6,18,14,0.785714,0.682645,0.867776,0.7,0.457211,0.881068
+36,Direct comparison LSM 2D-SWE vs SSM 2D-SWE (CSPH),29,"SSM by 2D SWE (CSPH) ""any cut-off""",None,,,Grgurević 2016,7,0,4,9,0.636364,0.307905,0.890736,1.0,0.663733,1.0
+36,Direct comparison LSM 2D-SWE vs SSM 2D-SWE (CSPH),29,"SSM by 2D SWE (CSPH) ""any cut-off""",None,,,Grgurević 2022,30,5,6,22,0.833333,0.671884,0.93628,0.814815,0.61917,0.937
+36,Direct comparison LSM 2D-SWE vs SSM 2D-SWE (CSPH),29,"SSM by 2D SWE (CSPH) ""any cut-off""",None,,,Jansen 2017,59,6,15,32,0.797297,0.687805,0.881876,0.842105,0.687467,0.93977
+36,Direct comparison LSM 2D-SWE vs SSM 2D-SWE (CSPH),29,"SSM by 2D SWE (CSPH) ""any cut-off""",None,,,Zhu 2019,71,4,13,16,0.845238,0.749902,0.91494,0.8,0.563386,0.942666
+37,Direct comparison LSM VCTE vs LSM 2D-SWE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Grgurević 2016,10,1,1,8,0.909091,0.58722,0.997701,0.888889,0.517503,0.997191
+37,Direct comparison LSM VCTE vs LSM 2D-SWE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Grgurević 2022,31,5,9,31,0.775,0.615488,0.891603,0.861111,0.705025,0.953322
+37,Direct comparison LSM VCTE vs LSM 2D-SWE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Maruyama 2016,9,0,7,6,0.5625,0.298777,0.802466,1.0,0.540741,1.0
+37,Direct comparison LSM VCTE vs LSM 2D-SWE (CSPH),22,"LSM by 2D-SWE (CSPH) ""any cut-off""",None,,,Grgurević 2016,10,1,1,8,0.909091,0.58722,0.997701,0.888889,0.517503,0.997191
+37,Direct comparison LSM VCTE vs LSM 2D-SWE (CSPH),22,"LSM by 2D-SWE (CSPH) ""any cut-off""",None,,,Grgurević 2022,31,2,8,33,0.794872,0.635356,0.907036,0.942857,0.808429,0.993003
+37,Direct comparison LSM VCTE vs LSM 2D-SWE (CSPH),22,"LSM by 2D-SWE (CSPH) ""any cut-off""",None,,,Maruyama 2016,14,1,2,5,0.875,0.616524,0.984486,0.833333,0.358766,0.99579
+38,Direct comparison SSM VCTE vs SSM 2D-SWE (CSPH),11,"SSM by VCTE (CSPH) ""any cut-off""",None,,,Grgurević 2016,7,0,4,9,0.636364,0.307905,0.890736,1.0,0.663733,1.0
+38,Direct comparison SSM VCTE vs SSM 2D-SWE (CSPH),11,"SSM by VCTE (CSPH) ""any cut-off""",None,,,Grgurević 2022,31,8,4,18,0.885714,0.732622,0.967969,0.692308,0.482103,0.85674
+38,Direct comparison SSM VCTE vs SSM 2D-SWE (CSPH),29,"SSM by 2D SWE (CSPH) ""any cut-off""",None,,,Grgurević 2016,7,0,4,9,0.636364,0.307905,0.890736,1.0,0.663733,1.0
+38,Direct comparison SSM VCTE vs SSM 2D-SWE (CSPH),29,"SSM by 2D SWE (CSPH) ""any cut-off""",None,,,Grgurević 2022,30,5,6,22,0.833333,0.671884,0.93628,0.814815,0.61917,0.937
+39,Indirect comparison LSM VCTE vs SSM VCTE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Augustin 2015,17,1,9,13,0.653846,0.443328,0.827856,0.928571,0.661316,0.998193
+39,Indirect comparison LSM VCTE vs SSM VCTE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Banini 2022,9,33,7,93,0.5625,0.298777,0.802466,0.738095,0.652302,0.81236
+39,Indirect comparison LSM VCTE vs SSM VCTE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Bureau 2008,68,5,8,69,0.894737,0.803083,0.953447,0.932432,0.849321,0.977699
+39,Indirect comparison LSM VCTE vs SSM VCTE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Colecchia 2012,30,1,35,34,0.461538,0.337021,0.589675,0.971429,0.850828,0.999277
+39,Indirect comparison LSM VCTE vs SSM VCTE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Dajti 2022,30,7,30,128,0.5,0.368062,0.631938,0.948148,0.896083,0.978902
+39,Indirect comparison LSM VCTE vs SSM VCTE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Gomez-Escolar 2013,40,1,4,6,0.909091,0.783314,0.974671,0.857143,0.421277,0.99639
+39,Indirect comparison LSM VCTE vs SSM VCTE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Grgurević 2016,10,1,1,8,0.909091,0.58722,0.997701,0.888889,0.517503,0.997191
+39,Indirect comparison LSM VCTE vs SSM VCTE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Grgurević 2022,31,5,9,31,0.775,0.615488,0.891603,0.861111,0.705025,0.953322
+39,Indirect comparison LSM VCTE vs SSM VCTE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,He 2022,45,0,5,51,0.9,0.781865,0.966725,1.0,0.930223,1.0
+39,Indirect comparison LSM VCTE vs SSM VCTE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Hong 2013,30,6,6,17,0.833333,0.671884,0.93628,0.73913,0.515948,0.897714
+39,Indirect comparison LSM VCTE vs SSM VCTE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Jachs 2022,119,11,69,103,0.632979,0.559752,0.701939,0.903509,0.833907,0.950841
+39,Indirect comparison LSM VCTE vs SSM VCTE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Jachs 2023,19,3,13,16,0.59375,0.406449,0.763016,0.842105,0.604216,0.966174
+39,Indirect comparison LSM VCTE vs SSM VCTE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Jindal 2022,258,30,222,116,0.5375,0.49174,0.582795,0.794521,0.719844,0.856862
+39,Indirect comparison LSM VCTE vs SSM VCTE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Kumar 2017,219,16,59,32,0.78777,0.734953,0.834336,0.666667,0.515892,0.796041
+39,Indirect comparison LSM VCTE vs SSM VCTE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Lemoine 2008 (alcoholic aetiology),36,1,4,7,0.9,0.763362,0.972075,0.875,0.47349,0.99684
+39,Indirect comparison LSM VCTE vs SSM VCTE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Lemoine 2008 (viral aetiology),21,3,13,7,0.617647,0.43564,0.778335,0.7,0.347547,0.933261
+39,Indirect comparison LSM VCTE vs SSM VCTE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Levick 2019,3,0,1,9,0.75,0.194121,0.993691,1.0,0.663733,1.0
+39,Indirect comparison LSM VCTE vs SSM VCTE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Maruyama 2016,9,0,7,6,0.5625,0.298777,0.802466,1.0,0.540741,1.0
+39,Indirect comparison LSM VCTE vs SSM VCTE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Odriozola 2023,13,2,16,53,0.448276,0.264455,0.643061,0.963636,0.874736,0.995565
+39,Indirect comparison LSM VCTE vs SSM VCTE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Podrug 2022,27,4,13,32,0.675,0.508705,0.814271,0.888889,0.739389,0.968884
+39,Indirect comparison LSM VCTE vs SSM VCTE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Procopet 2015b (training group),55,25,3,75,0.948276,0.856196,0.989203,0.75,0.653447,0.83122
+39,Indirect comparison LSM VCTE vs SSM VCTE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Procopet 2015b (validation group),13,9,2,20,0.866667,0.595397,0.983424,0.689655,0.491677,0.847154
+39,Indirect comparison LSM VCTE vs SSM VCTE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Reiberger 2012,227,38,49,188,0.822464,0.772174,0.865677,0.831858,0.776597,0.878181
+39,Indirect comparison LSM VCTE vs SSM VCTE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Salzl 2014,38,4,4,13,0.904762,0.773775,0.973436,0.764706,0.501006,0.931892
+39,Indirect comparison LSM VCTE vs SSM VCTE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Schwabl 2015,44,15,3,100,0.93617,0.824608,0.986639,0.869565,0.794007,0.925121
+39,Indirect comparison LSM VCTE vs SSM VCTE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Taru 2023,14,0,11,37,0.56,0.349281,0.755977,1.0,0.90511,1.0
+39,Indirect comparison LSM VCTE vs SSM VCTE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Vizzutti 2007,46,1,1,13,0.978723,0.887062,0.999461,0.928571,0.661316,0.998193
+39,Indirect comparison LSM VCTE vs SSM VCTE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Zhang 2022,78,9,29,21,0.728972,0.634474,0.810385,0.7,0.506041,0.852655
+39,Indirect comparison LSM VCTE vs SSM VCTE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Zykus 2015,69,4,9,25,0.884615,0.792232,0.945859,0.862069,0.683359,0.961105
+39,Indirect comparison LSM VCTE vs SSM VCTE (CSPH),11,"SSM by VCTE (CSPH) ""any cut-off""",None,,,Colecchia 2012,64,9,1,26,0.984615,0.917237,0.999611,0.742857,0.567441,0.875106
+39,Indirect comparison LSM VCTE vs SSM VCTE (CSPH),11,"SSM by VCTE (CSPH) ""any cut-off""",None,,,Grgurević 2016,7,0,4,9,0.636364,0.307905,0.890736,1.0,0.663733,1.0
+39,Indirect comparison LSM VCTE vs SSM VCTE (CSPH),11,"SSM by VCTE (CSPH) ""any cut-off""",None,,,Grgurević 2022,31,8,4,18,0.885714,0.732622,0.967969,0.692308,0.482103,0.85674
+39,Indirect comparison LSM VCTE vs SSM VCTE (CSPH),11,"SSM by VCTE (CSPH) ""any cut-off""",None,,,Odriozola 2023,20,2,9,43,0.689655,0.491677,0.847154,0.955556,0.848507,0.994572
+39,Indirect comparison LSM VCTE vs SSM VCTE (CSPH),11,"SSM by VCTE (CSPH) ""any cut-off""",None,,,Stefanescu 2013,13,4,1,19,0.928571,0.661316,0.998193,0.826087,0.612188,0.950492
+39,Indirect comparison LSM VCTE vs SSM VCTE (CSPH),11,"SSM by VCTE (CSPH) ""any cut-off""",None,,,Zykus 2015,59,5,17,18,0.776316,0.666195,0.863963,0.782609,0.562969,0.925397
+40,Indirect comparison LSM 2D-SWE vs SSM 2D-SWE (CSPH),22,"LSM by 2D-SWE (CSPH) ""any cut-off""",None,,,Corina 2018,47,2,10,22,0.824561,0.700942,0.912527,0.916667,0.730027,0.989744
+40,Indirect comparison LSM 2D-SWE vs SSM 2D-SWE (CSPH),22,"LSM by 2D-SWE (CSPH) ""any cut-off""",None,,,Grgurević 2016,10,1,1,8,0.909091,0.58722,0.997701,0.888889,0.517503,0.997191
+40,Indirect comparison LSM 2D-SWE vs SSM 2D-SWE (CSPH),22,"LSM by 2D-SWE (CSPH) ""any cut-off""",None,,,Grgurević 2022,31,2,8,33,0.794872,0.635356,0.907036,0.942857,0.808429,0.993003
+40,Indirect comparison LSM 2D-SWE vs SSM 2D-SWE (CSPH),22,"LSM by 2D-SWE (CSPH) ""any cut-off""",None,,,Jansen 2017,71,10,33,41,0.682692,0.584156,0.770511,0.803922,0.668843,0.901756
+40,Indirect comparison LSM 2D-SWE vs SSM 2D-SWE (CSPH),22,"LSM by 2D-SWE (CSPH) ""any cut-off""",None,,,Kim 2015,66,3,11,12,0.857143,0.758749,0.92647,0.8,0.519109,0.956688
+40,Indirect comparison LSM 2D-SWE vs SSM 2D-SWE (CSPH),22,"LSM by 2D-SWE (CSPH) ""any cut-off""",None,,,Maruyama 2016,14,1,2,5,0.875,0.616524,0.984486,0.833333,0.358766,0.99579
+40,Indirect comparison LSM 2D-SWE vs SSM 2D-SWE (CSPH),22,"LSM by 2D-SWE (CSPH) ""any cut-off""",None,,,Procopet 2015a,23,5,5,22,0.821429,0.631066,0.939357,0.814815,0.61917,0.937
+40,Indirect comparison LSM 2D-SWE vs SSM 2D-SWE (CSPH),22,"LSM by 2D-SWE (CSPH) ""any cut-off""",None,,,Yoo 2018,63,9,19,15,0.768293,0.662048,0.854361,0.625,0.405937,0.812007
+40,Indirect comparison LSM 2D-SWE vs SSM 2D-SWE (CSPH),22,"LSM by 2D-SWE (CSPH) ""any cut-off""",None,,,Zhu 2019,66,6,18,14,0.785714,0.682645,0.867776,0.7,0.457211,0.881068
+40,Indirect comparison LSM 2D-SWE vs SSM 2D-SWE (CSPH),22,"LSM by 2D-SWE (CSPH) ""any cut-off""",None,,,Zhu 2020,41,2,6,9,0.87234,0.742586,0.951678,0.818182,0.482244,0.977169
+40,Indirect comparison LSM 2D-SWE vs SSM 2D-SWE (CSPH),29,"SSM by 2D SWE (CSPH) ""any cut-off""",None,,,Grgurević 2016,7,0,4,9,0.636364,0.307905,0.890736,1.0,0.663733,1.0
+40,Indirect comparison LSM 2D-SWE vs SSM 2D-SWE (CSPH),29,"SSM by 2D SWE (CSPH) ""any cut-off""",None,,,Grgurević 2022,30,5,6,22,0.833333,0.671884,0.93628,0.814815,0.61917,0.937
+40,Indirect comparison LSM 2D-SWE vs SSM 2D-SWE (CSPH),29,"SSM by 2D SWE (CSPH) ""any cut-off""",None,,,Jachs 2023,8,0,2,10,0.8,0.443904,0.974789,1.0,0.691503,1.0
+40,Indirect comparison LSM 2D-SWE vs SSM 2D-SWE (CSPH),29,"SSM by 2D SWE (CSPH) ""any cut-off""",None,,,Jansen 2017,59,6,15,32,0.797297,0.687805,0.881876,0.842105,0.687467,0.93977
+40,Indirect comparison LSM 2D-SWE vs SSM 2D-SWE (CSPH),29,"SSM by 2D SWE (CSPH) ""any cut-off""",None,,,Kennedy 2022,8,9,3,14,0.727273,0.390258,0.939782,0.608696,0.385419,0.802923
+40,Indirect comparison LSM 2D-SWE vs SSM 2D-SWE (CSPH),29,"SSM by 2D SWE (CSPH) ""any cut-off""",None,,,Zhu 2019,71,4,13,16,0.845238,0.749902,0.91494,0.8,0.563386,0.942666
+41,Indirect comparison LSM VCTE vs LSM 2D-SWE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Augustin 2015,17,1,9,13,0.653846,0.443328,0.827856,0.928571,0.661316,0.998193
+41,Indirect comparison LSM VCTE vs LSM 2D-SWE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Banini 2022,9,33,7,93,0.5625,0.298777,0.802466,0.738095,0.652302,0.81236
+41,Indirect comparison LSM VCTE vs LSM 2D-SWE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Bureau 2008,68,5,8,69,0.894737,0.803083,0.953447,0.932432,0.849321,0.977699
+41,Indirect comparison LSM VCTE vs LSM 2D-SWE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Colecchia 2012,30,1,35,34,0.461538,0.337021,0.589675,0.971429,0.850828,0.999277
+41,Indirect comparison LSM VCTE vs LSM 2D-SWE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Dajti 2022,30,7,30,128,0.5,0.368062,0.631938,0.948148,0.896083,0.978902
+41,Indirect comparison LSM VCTE vs LSM 2D-SWE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Gomez-Escolar 2013,40,1,4,6,0.909091,0.783314,0.974671,0.857143,0.421277,0.99639
+41,Indirect comparison LSM VCTE vs LSM 2D-SWE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Grgurević 2016,10,1,1,8,0.909091,0.58722,0.997701,0.888889,0.517503,0.997191
+41,Indirect comparison LSM VCTE vs LSM 2D-SWE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Grgurević 2022,31,5,9,31,0.775,0.615488,0.891603,0.861111,0.705025,0.953322
+41,Indirect comparison LSM VCTE vs LSM 2D-SWE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,He 2022,45,0,5,51,0.9,0.781865,0.966725,1.0,0.930223,1.0
+41,Indirect comparison LSM VCTE vs LSM 2D-SWE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Hong 2013,30,6,6,17,0.833333,0.671884,0.93628,0.73913,0.515948,0.897714
+41,Indirect comparison LSM VCTE vs LSM 2D-SWE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Jachs 2022,119,11,69,103,0.632979,0.559752,0.701939,0.903509,0.833907,0.950841
+41,Indirect comparison LSM VCTE vs LSM 2D-SWE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Jachs 2023,19,3,13,16,0.59375,0.406449,0.763016,0.842105,0.604216,0.966174
+41,Indirect comparison LSM VCTE vs LSM 2D-SWE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Jindal 2022,258,30,222,116,0.5375,0.49174,0.582795,0.794521,0.719844,0.856862
+41,Indirect comparison LSM VCTE vs LSM 2D-SWE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Kumar 2017,219,16,59,32,0.78777,0.734953,0.834336,0.666667,0.515892,0.796041
+41,Indirect comparison LSM VCTE vs LSM 2D-SWE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Lemoine 2008 (alcoholic aetiology),36,1,4,7,0.9,0.763362,0.972075,0.875,0.47349,0.99684
+41,Indirect comparison LSM VCTE vs LSM 2D-SWE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Lemoine 2008 (viral aetiology),21,3,13,7,0.617647,0.43564,0.778335,0.7,0.347547,0.933261
+41,Indirect comparison LSM VCTE vs LSM 2D-SWE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Levick 2019,3,0,1,9,0.75,0.194121,0.993691,1.0,0.663733,1.0
+41,Indirect comparison LSM VCTE vs LSM 2D-SWE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Maruyama 2016,9,0,7,6,0.5625,0.298777,0.802466,1.0,0.540741,1.0
+41,Indirect comparison LSM VCTE vs LSM 2D-SWE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Odriozola 2023,13,2,16,53,0.448276,0.264455,0.643061,0.963636,0.874736,0.995565
+41,Indirect comparison LSM VCTE vs LSM 2D-SWE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Podrug 2022,27,4,13,32,0.675,0.508705,0.814271,0.888889,0.739389,0.968884
+41,Indirect comparison LSM VCTE vs LSM 2D-SWE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Procopet 2015b (training group),55,25,3,75,0.948276,0.856196,0.989203,0.75,0.653447,0.83122
+41,Indirect comparison LSM VCTE vs LSM 2D-SWE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Procopet 2015b (validation group),13,9,2,20,0.866667,0.595397,0.983424,0.689655,0.491677,0.847154
+41,Indirect comparison LSM VCTE vs LSM 2D-SWE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Reiberger 2012,227,38,49,188,0.822464,0.772174,0.865677,0.831858,0.776597,0.878181
+41,Indirect comparison LSM VCTE vs LSM 2D-SWE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Salzl 2014,38,4,4,13,0.904762,0.773775,0.973436,0.764706,0.501006,0.931892
+41,Indirect comparison LSM VCTE vs LSM 2D-SWE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Schwabl 2015,44,15,3,100,0.93617,0.824608,0.986639,0.869565,0.794007,0.925121
+41,Indirect comparison LSM VCTE vs LSM 2D-SWE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Taru 2023,14,0,11,37,0.56,0.349281,0.755977,1.0,0.90511,1.0
+41,Indirect comparison LSM VCTE vs LSM 2D-SWE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Vizzutti 2007,46,1,1,13,0.978723,0.887062,0.999461,0.928571,0.661316,0.998193
+41,Indirect comparison LSM VCTE vs LSM 2D-SWE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Zhang 2022,78,9,29,21,0.728972,0.634474,0.810385,0.7,0.506041,0.852655
+41,Indirect comparison LSM VCTE vs LSM 2D-SWE (CSPH),1,"LSM by VCTE (CSPH) ""any cut-off""",None,,,Zykus 2015,69,4,9,25,0.884615,0.792232,0.945859,0.862069,0.683359,0.961105
+41,Indirect comparison LSM VCTE vs LSM 2D-SWE (CSPH),22,"LSM by 2D-SWE (CSPH) ""any cut-off""",None,,,Corina 2018,47,2,10,22,0.824561,0.700942,0.912527,0.916667,0.730027,0.989744
+41,Indirect comparison LSM VCTE vs LSM 2D-SWE (CSPH),22,"LSM by 2D-SWE (CSPH) ""any cut-off""",None,,,Grgurević 2016,10,1,1,8,0.909091,0.58722,0.997701,0.888889,0.517503,0.997191
+41,Indirect comparison LSM VCTE vs LSM 2D-SWE (CSPH),22,"LSM by 2D-SWE (CSPH) ""any cut-off""",None,,,Grgurević 2022,31,2,8,33,0.794872,0.635356,0.907036,0.942857,0.808429,0.993003
+41,Indirect comparison LSM VCTE vs LSM 2D-SWE (CSPH),22,"LSM by 2D-SWE (CSPH) ""any cut-off""",None,,,Jansen 2017,71,10,33,41,0.682692,0.584156,0.770511,0.803922,0.668843,0.901756
+41,Indirect comparison LSM VCTE vs LSM 2D-SWE (CSPH),22,"LSM by 2D-SWE (CSPH) ""any cut-off""",None,,,Kim 2015,66,3,11,12,0.857143,0.758749,0.92647,0.8,0.519109,0.956688
+41,Indirect comparison LSM VCTE vs LSM 2D-SWE (CSPH),22,"LSM by 2D-SWE (CSPH) ""any cut-off""",None,,,Maruyama 2016,14,1,2,5,0.875,0.616524,0.984486,0.833333,0.358766,0.99579
+41,Indirect comparison LSM VCTE vs LSM 2D-SWE (CSPH),22,"LSM by 2D-SWE (CSPH) ""any cut-off""",None,,,Procopet 2015a,23,5,5,22,0.821429,0.631066,0.939357,0.814815,0.61917,0.937
+41,Indirect comparison LSM VCTE vs LSM 2D-SWE (CSPH),22,"LSM by 2D-SWE (CSPH) ""any cut-off""",None,,,Yoo 2018,63,9,19,15,0.768293,0.662048,0.854361,0.625,0.405937,0.812007
+41,Indirect comparison LSM VCTE vs LSM 2D-SWE (CSPH),22,"LSM by 2D-SWE (CSPH) ""any cut-off""",None,,,Zhu 2019,66,6,18,14,0.785714,0.682645,0.867776,0.7,0.457211,0.881068
+41,Indirect comparison LSM VCTE vs LSM 2D-SWE (CSPH),22,"LSM by 2D-SWE (CSPH) ""any cut-off""",None,,,Zhu 2020,41,2,6,9,0.87234,0.742586,0.951678,0.818182,0.482244,0.977169
+42,Indirect comparison SSM VCTE vs SSM 2D-SWE (CSPH),11,"SSM by VCTE (CSPH) ""any cut-off""",None,,,Colecchia 2012,64,9,1,26,0.984615,0.917237,0.999611,0.742857,0.567441,0.875106
+42,Indirect comparison SSM VCTE vs SSM 2D-SWE (CSPH),11,"SSM by VCTE (CSPH) ""any cut-off""",None,,,Grgurević 2016,7,0,4,9,0.636364,0.307905,0.890736,1.0,0.663733,1.0
+42,Indirect comparison SSM VCTE vs SSM 2D-SWE (CSPH),11,"SSM by VCTE (CSPH) ""any cut-off""",None,,,Grgurević 2022,31,8,4,18,0.885714,0.732622,0.967969,0.692308,0.482103,0.85674
+42,Indirect comparison SSM VCTE vs SSM 2D-SWE (CSPH),11,"SSM by VCTE (CSPH) ""any cut-off""",None,,,Odriozola 2023,20,2,9,43,0.689655,0.491677,0.847154,0.955556,0.848507,0.994572
+42,Indirect comparison SSM VCTE vs SSM 2D-SWE (CSPH),11,"SSM by VCTE (CSPH) ""any cut-off""",None,,,Stefanescu 2013,13,4,1,19,0.928571,0.661316,0.998193,0.826087,0.612188,0.950492
+42,Indirect comparison SSM VCTE vs SSM 2D-SWE (CSPH),11,"SSM by VCTE (CSPH) ""any cut-off""",None,,,Zykus 2015,59,5,17,18,0.776316,0.666195,0.863963,0.782609,0.562969,0.925397
+42,Indirect comparison SSM VCTE vs SSM 2D-SWE (CSPH),29,"SSM by 2D SWE (CSPH) ""any cut-off""",None,,,Grgurević 2016,7,0,4,9,0.636364,0.307905,0.890736,1.0,0.663733,1.0
+42,Indirect comparison SSM VCTE vs SSM 2D-SWE (CSPH),29,"SSM by 2D SWE (CSPH) ""any cut-off""",None,,,Grgurević 2022,30,5,6,22,0.833333,0.671884,0.93628,0.814815,0.61917,0.937
+42,Indirect comparison SSM VCTE vs SSM 2D-SWE (CSPH),29,"SSM by 2D SWE (CSPH) ""any cut-off""",None,,,Jachs 2023,8,0,2,10,0.8,0.443904,0.974789,1.0,0.691503,1.0
+42,Indirect comparison SSM VCTE vs SSM 2D-SWE (CSPH),29,"SSM by 2D SWE (CSPH) ""any cut-off""",None,,,Jansen 2017,59,6,15,32,0.797297,0.687805,0.881876,0.842105,0.687467,0.93977
+42,Indirect comparison SSM VCTE vs SSM 2D-SWE (CSPH),29,"SSM by 2D SWE (CSPH) ""any cut-off""",None,,,Kennedy 2022,8,9,3,14,0.727273,0.390258,0.939782,0.608696,0.385419,0.802923
+42,Indirect comparison SSM VCTE vs SSM 2D-SWE (CSPH),29,"SSM by 2D SWE (CSPH) ""any cut-off""",None,,,Zhu 2019,71,4,13,16,0.845238,0.749902,0.91494,0.8,0.563386,0.942666
+43,LSM by VCTE (CSPH) bivariate analysis,2,LSM by VCTE (CSPH) cut-off 11.4-14.4 kPa,None,,,Bureau 2008,71,12,5,62,0.934211,0.853109,0.978295,0.837838,0.733864,0.913301
+43,LSM by VCTE (CSPH) bivariate analysis,2,LSM by VCTE (CSPH) cut-off 11.4-14.4 kPa,None,,,Colecchia 2012,65,34,0,1,1.0,0.944829,1.0,0.028571,7.23E-4,0.149172
+43,LSM by VCTE (CSPH) bivariate analysis,2,LSM by VCTE (CSPH) cut-off 11.4-14.4 kPa,None,,,Procopet 2015b (training group),55,25,3,75,0.948276,0.856196,0.989203,0.75,0.653447,0.83122
+43,LSM by VCTE (CSPH) bivariate analysis,2,LSM by VCTE (CSPH) cut-off 11.4-14.4 kPa,None,,,Procopet 2015b (validation group),13,9,2,20,0.866667,0.595397,0.983424,0.689655,0.491677,0.847154
+43,LSM by VCTE (CSPH) bivariate analysis,2,LSM by VCTE (CSPH) cut-off 11.4-14.4 kPa,None,,,Vizzutti 2007,46,1,1,13,0.978723,0.887062,0.999461,0.928571,0.661316,0.998193
+43,LSM by VCTE (CSPH) bivariate analysis,2,LSM by VCTE (CSPH) cut-off 11.4-14.4 kPa,None,,,Zhang 2022,78,9,29,21,0.728972,0.634474,0.810385,0.7,0.506041,0.852655
+43,LSM by VCTE (CSPH) bivariate analysis,2,LSM by VCTE (CSPH) cut-off 11.4-14.4 kPa,None,,,Zykus 2015,78,13,0,16,1.0,0.953807,1.0,0.551724,0.356939,0.735545
+43,LSM by VCTE (CSPH) bivariate analysis,3,LSM by VCTE (CSPH) cut-off 15-18 kPa,None,,,Bureau 2008,71,9,5,65,0.934211,0.853109,0.978295,0.878378,0.781639,0.94285
+43,LSM by VCTE (CSPH) bivariate analysis,3,LSM by VCTE (CSPH) cut-off 15-18 kPa,None,,,Colecchia 2012,62,11,3,24,0.953846,0.870989,0.990379,0.685714,0.50712,0.831483
+43,LSM by VCTE (CSPH) bivariate analysis,3,LSM by VCTE (CSPH) cut-off 15-18 kPa,None,,,Gomez-Escolar 2013,40,1,4,6,0.909091,0.783314,0.974671,0.857143,0.421277,0.99639
+43,LSM by VCTE (CSPH) bivariate analysis,3,LSM by VCTE (CSPH) cut-off 15-18 kPa,None,,,Grgurević 2022,36,10,4,25,0.9,0.763362,0.972075,0.714286,0.536955,0.853645
+43,LSM by VCTE (CSPH) bivariate analysis,3,LSM by VCTE (CSPH) cut-off 15-18 kPa,None,,,Jachs 2023,27,9,5,10,0.84375,0.672121,0.94725,0.526316,0.288643,0.755526
+43,LSM by VCTE (CSPH) bivariate analysis,3,LSM by VCTE (CSPH) cut-off 15-18 kPa,None,,,Reiberger 2012,227,38,49,188,0.822464,0.772174,0.865677,0.831858,0.776597,0.878181
+43,LSM by VCTE (CSPH) bivariate analysis,3,LSM by VCTE (CSPH) cut-off 15-18 kPa,None,,,Salzl 2014,38,4,4,13,0.904762,0.773775,0.973436,0.764706,0.501006,0.931892
+43,LSM by VCTE (CSPH) bivariate analysis,3,LSM by VCTE (CSPH) cut-off 15-18 kPa,None,,,Schwabl 2015,44,15,3,100,0.93617,0.824608,0.986639,0.869565,0.794007,0.925121
+43,LSM by VCTE (CSPH) bivariate analysis,3,LSM by VCTE (CSPH) cut-off 15-18 kPa,None,,,Zykus 2015,69,4,9,25,0.884615,0.792232,0.945859,0.862069,0.683359,0.961105
+43,LSM by VCTE (CSPH) bivariate analysis,4,LSM by VCTE (CSPH) cut-off 20-23 kPa,None,,,Augustin 2015,19,3,7,11,0.730769,0.522126,0.884268,0.785714,0.492024,0.953421
+43,LSM by VCTE (CSPH) bivariate analysis,4,LSM by VCTE (CSPH) cut-off 20-23 kPa,None,,,Banini 2022,9,33,7,93,0.5625,0.298777,0.802466,0.738095,0.652302,0.81236
+43,LSM by VCTE (CSPH) bivariate analysis,4,LSM by VCTE (CSPH) cut-off 20-23 kPa,None,,,Bureau 2008,68,5,8,69,0.894737,0.803083,0.953447,0.932432,0.849321,0.977699
+43,LSM by VCTE (CSPH) bivariate analysis,4,LSM by VCTE (CSPH) cut-off 20-23 kPa,None,,,Colecchia 2012,52,4,13,31,0.8,0.682312,0.888984,0.885714,0.732622,0.967969
+43,LSM by VCTE (CSPH) bivariate analysis,4,LSM by VCTE (CSPH) cut-off 20-23 kPa,None,,,Grgurević 2022,31,5,9,31,0.775,0.615488,0.891603,0.861111,0.705025,0.953322
+43,LSM by VCTE (CSPH) bivariate analysis,4,LSM by VCTE (CSPH) cut-off 20-23 kPa,None,,,Hong 2013,30,6,6,17,0.833333,0.671884,0.93628,0.73913,0.515948,0.897714
+43,LSM by VCTE (CSPH) bivariate analysis,4,LSM by VCTE (CSPH) cut-off 20-23 kPa,None,,,Kumar 2017,219,16,59,32,0.78777,0.734953,0.834336,0.666667,0.515892,0.796041
+43,LSM by VCTE (CSPH) bivariate analysis,4,LSM by VCTE (CSPH) cut-off 20-23 kPa,None,,,Lemoine 2008 (viral aetiology),21,3,13,7,0.617647,0.43564,0.778335,0.7,0.347547,0.933261
+43,LSM by VCTE (CSPH) bivariate analysis,4,LSM by VCTE (CSPH) cut-off 20-23 kPa,None,,,Procopet 2015b (training group),52,12,6,88,0.896552,0.788314,0.961079,0.88,0.799765,0.936431
+43,LSM by VCTE (CSPH) bivariate analysis,4,LSM by VCTE (CSPH) cut-off 20-23 kPa,None,,,Procopet 2015b (validation group),12,1,3,28,0.8,0.519109,0.956688,0.965517,0.822355,0.999127
+43,LSM by VCTE (CSPH) bivariate analysis,4,LSM by VCTE (CSPH) cut-off 20-23 kPa,None,,,Zykus 2015,58,0,20,29,0.74359,0.632142,0.83581,1.0,0.880555,1.0
+43,LSM by VCTE (CSPH) bivariate analysis,5,LSM by VCTE (CSPH) cut-off 25-28 kPa,None,,,Augustin 2015,17,1,9,13,0.653846,0.443328,0.827856,0.928571,0.661316,0.998193
+43,LSM by VCTE (CSPH) bivariate analysis,5,LSM by VCTE (CSPH) cut-off 25-28 kPa,None,,,Colecchia 2012,30,1,35,34,0.461538,0.337021,0.589675,0.971429,0.850828,0.999277
+43,LSM by VCTE (CSPH) bivariate analysis,5,LSM by VCTE (CSPH) cut-off 25-28 kPa,None,,,Dajti 2022,30,7,30,128,0.5,0.368062,0.631938,0.948148,0.896083,0.978902
+43,LSM by VCTE (CSPH) bivariate analysis,5,LSM by VCTE (CSPH) cut-off 25-28 kPa,None,,,Grgurević 2022,22,2,18,34,0.55,0.384907,0.707411,0.944444,0.813364,0.9932
+43,LSM by VCTE (CSPH) bivariate analysis,5,LSM by VCTE (CSPH) cut-off 25-28 kPa,None,,,He 2022,45,0,5,51,0.9,0.781865,0.966725,1.0,0.930223,1.0
+43,LSM by VCTE (CSPH) bivariate analysis,5,LSM by VCTE (CSPH) cut-off 25-28 kPa,None,,,Jachs 2022,119,11,69,103,0.632979,0.559752,0.701939,0.903509,0.833907,0.950841
+43,LSM by VCTE (CSPH) bivariate analysis,5,LSM by VCTE (CSPH) cut-off 25-28 kPa,None,,,Jachs 2023,19,3,13,16,0.59375,0.406449,0.763016,0.842105,0.604216,0.966174
+43,LSM by VCTE (CSPH) bivariate analysis,5,LSM by VCTE (CSPH) cut-off 25-28 kPa,None,,,Jindal 2022,258,30,222,116,0.5375,0.49174,0.582795,0.794521,0.719844,0.856862
+43,LSM by VCTE (CSPH) bivariate analysis,5,LSM by VCTE (CSPH) cut-off 25-28 kPa,None,,,Levick 2019,3,0,1,9,0.75,0.194121,0.993691,1.0,0.663733,1.0
+43,LSM by VCTE (CSPH) bivariate analysis,5,LSM by VCTE (CSPH) cut-off 25-28 kPa,None,,,Odriozola 2023,13,2,16,53,0.448276,0.264455,0.643061,0.963636,0.874736,0.995565
+43,LSM by VCTE (CSPH) bivariate analysis,5,LSM by VCTE (CSPH) cut-off 25-28 kPa,None,,,Podrug 2022,27,4,13,32,0.675,0.508705,0.814271,0.888889,0.739389,0.968884
+43,LSM by VCTE (CSPH) bivariate analysis,5,LSM by VCTE (CSPH) cut-off 25-28 kPa,None,,,Taru 2023,14,0,11,37,0.56,0.349281,0.755977,1.0,0.90511,1.0
+43,LSM by VCTE (CSPH) bivariate analysis,6,LSM by VCTE (CSPH) cut-off 25 kPa,None,,,Augustin 2015,17,1,9,13,0.653846,0.443328,0.827856,0.928571,0.661316,0.998193
+43,LSM by VCTE (CSPH) bivariate analysis,6,LSM by VCTE (CSPH) cut-off 25 kPa,None,,,Colecchia 2012,30,1,35,34,0.461538,0.337021,0.589675,0.971429,0.850828,0.999277
+43,LSM by VCTE (CSPH) bivariate analysis,6,LSM by VCTE (CSPH) cut-off 25 kPa,None,,,Dajti 2022,30,7,30,128,0.5,0.368062,0.631938,0.948148,0.896083,0.978902
+43,LSM by VCTE (CSPH) bivariate analysis,6,LSM by VCTE (CSPH) cut-off 25 kPa,None,,,He 2022,45,0,5,51,0.9,0.781865,0.966725,1.0,0.930223,1.0
+43,LSM by VCTE (CSPH) bivariate analysis,6,LSM by VCTE (CSPH) cut-off 25 kPa,None,,,Jachs 2022,119,11,69,103,0.632979,0.559752,0.701939,0.903509,0.833907,0.950841
+43,LSM by VCTE (CSPH) bivariate analysis,6,LSM by VCTE (CSPH) cut-off 25 kPa,None,,,Jachs 2023,19,3,13,16,0.59375,0.406449,0.763016,0.842105,0.604216,0.966174
+43,LSM by VCTE (CSPH) bivariate analysis,6,LSM by VCTE (CSPH) cut-off 25 kPa,None,,,Jindal 2022,258,30,222,116,0.5375,0.49174,0.582795,0.794521,0.719844,0.856862
+43,LSM by VCTE (CSPH) bivariate analysis,6,LSM by VCTE (CSPH) cut-off 25 kPa,None,,,Podrug 2022,27,4,13,32,0.675,0.508705,0.814271,0.888889,0.739389,0.968884
+43,LSM by VCTE (CSPH) bivariate analysis,6,LSM by VCTE (CSPH) cut-off 25 kPa,None,,,Taru 2023,14,0,11,37,0.56,0.349281,0.755977,1.0,0.90511,1.0
+44,LSM by VCTE (SPH) bivariate analysis,8,LSM by VCTE (SPH) cut-off 16-18 kPa,None,,,Colecchia 2012,64,11,1,22,0.984615,0.917237,0.999611,0.666667,0.481732,0.820395
+44,LSM by VCTE (SPH) bivariate analysis,8,LSM by VCTE (SPH) cut-off 16-18 kPa,None,,,Tseng 2018,67,6,19,7,0.77907,0.676688,0.861434,0.538462,0.251345,0.807768
+44,LSM by VCTE (SPH) bivariate analysis,8,LSM by VCTE (SPH) cut-off 16-18 kPa,None,,,Vizzutti 2007,33,5,2,21,0.942857,0.808429,0.993003,0.807692,0.606494,0.934452
+44,LSM by VCTE (SPH) bivariate analysis,9,LSM by VCTE (SPH) cut-off 20-22 kPa,None,,,Chandan 2012,50,14,17,27,0.746269,0.625127,0.844715,0.658537,0.494052,0.799166
+44,LSM by VCTE (SPH) bivariate analysis,9,LSM by VCTE (SPH) cut-off 20-22 kPa,None,,,Colecchia 2012,47,9,7,37,0.87037,0.750988,0.946257,0.804348,0.660853,0.906424
+44,LSM by VCTE (SPH) bivariate analysis,9,LSM by VCTE (SPH) cut-off 20-22 kPa,None,,,Zykus 2015,55,8,12,32,0.820896,0.708036,0.903881,0.8,0.643522,0.909478
+44,LSM by VCTE (SPH) bivariate analysis,10,LSM by VCTE (SPH) cut-off 24-26 kPa,None,,,Colecchia 2012,30,1,24,45,0.555556,0.414,0.690803,0.978261,0.884728,0.99945
+44,LSM by VCTE (SPH) bivariate analysis,10,LSM by VCTE (SPH) cut-off 24-26 kPa,None,,,Hirooka 2022,22,9,9,41,0.709677,0.519639,0.857772,0.82,0.68563,0.914238
+44,LSM by VCTE (SPH) bivariate analysis,10,LSM by VCTE (SPH) cut-off 24-26 kPa,None,,,Hong 2013,26,8,5,20,0.83871,0.662728,0.945476,0.714286,0.513332,0.867763
+45,SSM by VCTE (CSPH) bivariate analysis,12,SSM by VCTE (CSPH) cut-off 40-44 kPa,None,,,Colecchia 2012,64,9,1,26,0.984615,0.917237,0.999611,0.742857,0.567441,0.875106
+45,SSM by VCTE (CSPH) bivariate analysis,12,SSM by VCTE (CSPH) cut-off 40-44 kPa,None,,,Grgurević 2016,7,0,4,9,0.636364,0.307905,0.890736,1.0,0.663733,1.0
+45,SSM by VCTE (CSPH) bivariate analysis,12,SSM by VCTE (CSPH) cut-off 40-44 kPa,None,,,Grgurević 2022,31,8,4,18,0.885714,0.732622,0.967969,0.692308,0.482103,0.85674
+45,SSM by VCTE (CSPH) bivariate analysis,12,SSM by VCTE (CSPH) cut-off 40-44 kPa,None,,,Stefanescu 2013,13,4,1,19,0.928571,0.661316,0.998193,0.826087,0.612188,0.950492
+45,SSM by VCTE (CSPH) bivariate analysis,13,SSM by VCTE (CSPH) cut-off 46-50 kPa,None,,,Colecchia 2012,57,3,8,32,0.876923,0.771814,0.945336,0.914286,0.769425,0.981962
+45,SSM by VCTE (CSPH) bivariate analysis,13,SSM by VCTE (CSPH) cut-off 46-50 kPa,None,,,Grgurević 2022,18,2,17,24,0.514286,0.339891,0.686172,0.923077,0.748697,0.990545
+45,SSM by VCTE (CSPH) bivariate analysis,13,SSM by VCTE (CSPH) cut-off 46-50 kPa,None,,,Odriozola 2023,20,2,9,43,0.689655,0.491677,0.847154,0.955556,0.848507,0.994572
+45,SSM by VCTE (CSPH) bivariate analysis,13,SSM by VCTE (CSPH) cut-off 46-50 kPa,None,,,Zykus 2015,59,5,17,18,0.776316,0.666195,0.863963,0.782609,0.562969,0.925397
+46,SSM by VCTE (SPH) bivariate analysis,15,SSM by VCTE (SPH) cut-off 47-51 kPa,None,,,Colecchia 2012,51,8,3,38,0.944444,0.846115,0.988394,0.826087,0.685809,0.921796
+46,SSM by VCTE (SPH) bivariate analysis,15,SSM by VCTE (SPH) cut-off 47-51 kPa,None,,,Hirooka 2022,26,9,5,41,0.83871,0.662728,0.945476,0.82,0.68563,0.914238
+46,SSM by VCTE (SPH) bivariate analysis,15,SSM by VCTE (SPH) cut-off 47-51 kPa,None,,,Tseng 2018,65,0,21,13,0.755814,0.651274,0.84205,1.0,0.752947,1.0
+46,SSM by VCTE (SPH) bivariate analysis,15,SSM by VCTE (SPH) cut-off 47-51 kPa,None,,,Zykus 2015,51,8,14,26,0.784615,0.665113,0.876947,0.764706,0.588292,0.892538
+47,LSM by 2D-SWE (CSPH) bivariate analysis,23,LSM by 2D-SWE (CSPH) cut-off 11-14 kPa,None,,,Corina 2018,47,2,10,22,0.824561,0.700942,0.912527,0.916667,0.730027,0.989744
+47,LSM by 2D-SWE (CSPH) bivariate analysis,23,LSM by 2D-SWE (CSPH) cut-off 11-14 kPa,None,,,Grgurević 2016,10,1,1,8,0.909091,0.58722,0.997701,0.888889,0.517503,0.997191
+47,LSM by 2D-SWE (CSPH) bivariate analysis,23,LSM by 2D-SWE (CSPH) cut-off 11-14 kPa,None,,,Grgurević 2022,36,10,3,25,0.923077,0.791298,0.983847,0.714286,0.536955,0.853645
+47,LSM by 2D-SWE (CSPH) bivariate analysis,23,LSM by 2D-SWE (CSPH) cut-off 11-14 kPa,None,,,Procopet 2015a,26,10,2,17,0.928571,0.764966,0.99123,0.62963,0.423679,0.805993
+47,LSM by 2D-SWE (CSPH) bivariate analysis,23,LSM by 2D-SWE (CSPH) cut-off 11-14 kPa,None,,,Yoo 2018,63,9,19,15,0.768293,0.662048,0.854361,0.625,0.405937,0.812007
+47,LSM by 2D-SWE (CSPH) bivariate analysis,23,LSM by 2D-SWE (CSPH) cut-off 11-14 kPa,None,,,Zhu 2020,41,2,6,9,0.87234,0.742586,0.951678,0.818182,0.482244,0.977169
+47,LSM by 2D-SWE (CSPH) bivariate analysis,24,LSM by 2D-SWE (CSPH) cut-off 15-17 kPa,None,,,Jansen 2017,95,16,9,35,0.913462,0.842073,0.959663,0.686275,0.541127,0.808896
+47,LSM by 2D-SWE (CSPH) bivariate analysis,24,LSM by 2D-SWE (CSPH) cut-off 15-17 kPa,None,,,Kim 2015,66,3,11,12,0.857143,0.758749,0.92647,0.8,0.519109,0.956688
+47,LSM by 2D-SWE (CSPH) bivariate analysis,24,LSM by 2D-SWE (CSPH) cut-off 15-17 kPa,None,,,Maruyama 2016,14,1,2,5,0.875,0.616524,0.984486,0.833333,0.358766,0.99579
+47,LSM by 2D-SWE (CSPH) bivariate analysis,24,LSM by 2D-SWE (CSPH) cut-off 15-17 kPa,None,,,Procopet 2015a,23,5,5,22,0.821429,0.631066,0.939357,0.814815,0.61917,0.937
+47,LSM by 2D-SWE (CSPH) bivariate analysis,24,LSM by 2D-SWE (CSPH) cut-off 15-17 kPa,None,,,Zhu 2019,66,6,18,14,0.785714,0.682645,0.867776,0.7,0.457211,0.881068
+48,LSM by 2D-SWE (SPH) bivariate analysis,28,LSM by 2D SWE (SPH) cut-off 21.5-23.5 kPa,None,,,Kim 2015,55,5,11,21,0.833333,0.721326,0.913752,0.807692,0.606494,0.934452
+48,LSM by 2D-SWE (SPH) bivariate analysis,28,LSM by 2D SWE (SPH) cut-off 21.5-23.5 kPa,None,,,Sohn 2011,15,0,5,12,0.75,0.508954,0.913429,1.0,0.735351,1.0
+48,LSM by 2D-SWE (SPH) bivariate analysis,28,LSM by 2D SWE (SPH) cut-off 21.5-23.5 kPa,None,,,Zhu 2019,60,6,14,24,0.810811,0.702995,0.892527,0.8,0.614334,0.922864
+49,SSM by 2D-SWE (CSPH) bivariate analysis,30,SSM by 2D SWE (CSPH) cut-off 25.3-26.3 kPa,None,,,Jansen 2017,59,6,15,32,0.797297,0.687805,0.881876,0.842105,0.687467,0.93977
+49,SSM by 2D-SWE (CSPH) bivariate analysis,30,SSM by 2D SWE (CSPH) cut-off 25.3-26.3 kPa,None,,,Kennedy 2022,8,9,3,14,0.727273,0.390258,0.939782,0.608696,0.385419,0.802923
+49,SSM by 2D-SWE (CSPH) bivariate analysis,30,SSM by 2D SWE (CSPH) cut-off 25.3-26.3 kPa,None,,,Zhu 2019,71,4,13,16,0.845238,0.749902,0.91494,0.8,0.563386,0.942666
