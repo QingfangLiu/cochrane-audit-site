@@ -5,21 +5,44 @@ benchmark data.
 
 The current files include:
 
+- `CD002118`: seeded from the 2026 Issue 1 source PDF, Cochrane RIS reference
+  exports, and Cochrane analysis CSV exports.
 - `CD004366`: seeded from the 2026 Issue 1 source PDF, Cochrane RIS reference
+  exports, and Cochrane analysis CSV exports.
+- `CD007798`: seeded from the 2026 Issue 1 source PDF, Cochrane RIS reference
+  exports, and Cochrane analysis CSV exports.
+- `CD008112`: seeded from the 2026 Issue 1 source PDF, Cochrane RIS reference
   exports, and Cochrane analysis CSV exports.
 - `CD011506`: seeded from the 2026 Issue 1 source PDF, Cochrane RIS reference
   exports, and Cochrane analysis CSV exports.
+- `CD012589`: seeded from the 2026 Issue 1 source PDF, Cochrane RIS reference
+  exports, and Cochrane analysis CSV exports.
 - `CD013524`: seeded from the 2026 Issue 1 source PDF, Cochrane RIS reference
   exports, and Cochrane analysis CSV exports.
-- `CD014811_loop_diuretics_hf`: historical migration test seeded from existing
-  provisional extraction artifacts.
+- `CD014353`: seeded from the 2026 Issue 1 source PDF, Cochrane RIS reference
+  exports, and Cochrane analysis CSV exports.
+- `CD014811_loop_diuretics_hf`: development benchmark for loop diuretics in
+  acute heart failure, with its PDF and Cochrane data package stored under
+  `source_reviews/others/`.
 
 ## Layout
 
 ```text
 benchmark_data/
   reviews.json
+  CD002118/
+    benchmark.json
+    audit_findings.tsv
+    status.json
   CD004366/
+    benchmark.json
+    audit_findings.tsv
+    status.json
+  CD007798/
+    benchmark.json
+    audit_findings.tsv
+    status.json
+  CD008112/
     benchmark.json
     audit_findings.tsv
     status.json
@@ -27,7 +50,19 @@ benchmark_data/
     benchmark.json
     audit_findings.tsv
     status.json
+  CD012589/
+    benchmark.json
+    audit_findings.tsv
+    status.json
   CD013524/
+    benchmark.json
+    audit_findings.tsv
+    status.json
+  CD014353/
+    benchmark.json
+    audit_findings.tsv
+    status.json
+  CD014811_loop_diuretics_hf/
     benchmark.json
     audit_findings.tsv
     status.json
@@ -102,12 +137,16 @@ The active intake path builds a review-level benchmark from a source PDF plus
 Cochrane package files. The source scanner expects the PDF and data package to
 live under `Cochrane_reviews/source_reviews/<year>_issue_<issue>/` and searches
 the data package recursively for the review-specific files.
-Search-method fields are staged separately in
-`provisional_data/review_search_methods.tsv` because they come from review text
-rather than the Cochrane data package and need a separate audit pass.
+Search-query fields are staged separately in
+`provisional_data/review_search_methods.tsv` because exact query blocks come
+from review text or local supplements rather than the Cochrane data package. If
+the local files only point to an unavailable search-strategy supplement, the
+benchmark records `not_found_in_local_files` instead of narrative search prose.
 
-The legacy migration path can still build or refresh one benchmark from current
-provisional data:
+The current development benchmark `CD014811_loop_diuretics_hf` lives outside
+the 2026 issue folders under `source_reviews/others/`. It was originally seeded
+through the legacy migration path, which can still build or refresh one
+benchmark from current provisional data:
 
 ```bash
 python3 Cochrane_reviews/benchmark_tools/build_review_benchmark_json.py CD014811_loop_diuretics_hf
