@@ -76,6 +76,11 @@ benchmark_data/
   that review.
 - `<review_id>/status.json`: lifecycle state and review-local notes.
 
+When present, `benchmark.json.review_plan` stores planned PICO, planned
+comparisons, and planned outcomes extracted from the review Methods or Summary
+of Findings text. This is distinct from the analyzed Cochrane meta-analysis
+outcomes in the benchmark `outcomes` and `meta_analysis` blocks.
+
 Source PDFs for new benchmark work should live outside the old first-pass
 folders:
 

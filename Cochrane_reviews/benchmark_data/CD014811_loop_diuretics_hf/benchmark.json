@@ -145,6 +145,133 @@
     "eligibility_inclusion_criteria": "Eligible studies were individual-participant RCTs or cluster-RCTs; quasi-randomised trials were not excluded, but their randomisation processes were assessed in risk-of-bias analysis. Participants were adults aged 18 years or older with acute heart failure, NYHA class III or IV, regardless of aetiology, ejection fraction, or comorbidity. For studies that did not explicitly describe heart-failure subtypes, participants hospitalised or treated ambulatory with new or worsening heart-failure symptoms or signs were regarded as having AHF. Studies with AHF subgroup analyses were eligible for those subgroup data. Eligible interventions compared intravenous continuous infusion of loop diuretics with intermittent intravenous bolus injection as initial AHF treatment, regardless of dosage or administration rate. Continuous infusion after a single intravenous loading dose was eligible. Concomitant fluid restriction or regular oral medications for heart failure, including oral diuretics such as metolazone, were allowed when used in both groups.",
     "eligibility_exclusion_criteria": "Excluded designs were cross-over RCTs. Excluded populations were studies recruiting only chronic stable heart failure, people with cardiogenic shock, people with end-stage renal disease (eGFR less than 15 mL/minute/1.73 m2) on renal replacement therapy including haemodialysis or peritoneal dialysis, and participants with flash pulmonary oedema due to renal artery stenosis. Excluded interventions were intravenous loop diuretics combined with intravenous hypertonic saline, inotropes, vasoactive medications, renal replacement therapy, or ultrafiltration, unless a clean subgroup comparison without those co-interventions was available. Studies where diuretic dose or delivery method was protocol- or goal-driven to achieve a target urine output were excluded."
   },
+  "review_plan": {
+    "review_id": "CD014811_loop_diuretics_hf",
+    "source": "cochrane_pdf_methods_and_summary_of_findings",
+    "source_pdf_path": "../../source_reviews/others/CD014811_loop_diuretics_hf.pdf",
+    "plan_status": "manually_extracted_from_review_pdf",
+    "planned_pico": {
+      "population": "Adults aged greater than 18 years with acute heart failure",
+      "setting": "Hospital",
+      "intervention": "Continuous infusion of intravenous loop diuretics",
+      "comparison": "Bolus injection of intravenous loop diuretics",
+      "study_design": "Randomised controlled trials and cluster-randomised trials; quasi-randomised trials were not excluded; cross-over randomised trials were excluded",
+      "source_sections": [
+        "Summary of findings 1",
+        "Types of studies",
+        "Types of participants",
+        "Types of interventions"
+      ],
+      "source_note": "The Summary of Findings table lists patient or population, setting, intervention, and comparison; the Methods section gives study design, participant, and intervention eligibility details."
+    },
+    "planned_comparisons": [
+      {
+        "comparison_id": "planned_1",
+        "label": "Continuous infusion of intravenous loop diuretics compared with bolus injection of intravenous loop diuretics",
+        "intervention": "Continuous infusion of intravenous loop diuretics",
+        "comparator": "Bolus injection of intravenous loop diuretics",
+        "source_section": "Summary of findings 1; Types of interventions",
+        "source_note": "Main head-to-head comparison specified in the Summary of Findings table and Methods intervention criteria."
+      }
+    ],
+    "planned_outcomes": [
+      {
+        "outcome_id": "primary_1",
+        "role": "primary",
+        "name": "Daily fluid balance",
+        "unit_or_scale": "millilitres",
+        "timepoint": "Longest available follow-up when multiple time points were available",
+        "source_section": "Types of outcome measures"
+      },
+      {
+        "outcome_id": "primary_2",
+        "role": "primary",
+        "name": "Net weight loss",
+        "unit_or_scale": "kilograms",
+        "timepoint": "Longest available follow-up when multiple time points were available",
+        "source_section": "Types of outcome measures"
+      },
+      {
+        "outcome_id": "primary_3",
+        "role": "primary",
+        "name": "All-cause mortality",
+        "unit_or_scale": "incidence",
+        "timepoint": "Longest available follow-up when multiple time points were available",
+        "source_section": "Types of outcome measures"
+      },
+      {
+        "outcome_id": "primary_4",
+        "role": "primary",
+        "name": "Cardiovascular mortality",
+        "unit_or_scale": "incidence",
+        "timepoint": "Longest available follow-up when multiple time points were available",
+        "source_section": "Types of outcome measures"
+      },
+      {
+        "outcome_id": "secondary_1",
+        "role": "secondary",
+        "name": "Length of hospital stay",
+        "unit_or_scale": "days",
+        "timepoint": "Longest available follow-up when multiple time points were available",
+        "source_section": "Types of outcome measures"
+      },
+      {
+        "outcome_id": "secondary_2",
+        "role": "secondary",
+        "name": "Readmission to hospital following discharge",
+        "unit_or_scale": "incidence",
+        "timepoint": "Longest available follow-up stated in the trials",
+        "source_section": "Types of outcome measures"
+      },
+      {
+        "outcome_id": "secondary_3",
+        "role": "secondary",
+        "name": "Percent change of B-type natriuretic peptide (BNP)",
+        "unit_or_scale": "percent change",
+        "timepoint": "Longest available follow-up when multiple time points were available",
+        "source_section": "Types of outcome measures"
+      },
+      {
+        "outcome_id": "secondary_4",
+        "role": "secondary",
+        "name": "Percent change of N-terminal-proBNP (NT-proBNP)",
+        "unit_or_scale": "percent change",
+        "timepoint": "Longest available follow-up when multiple time points were available",
+        "source_section": "Types of outcome measures"
+      },
+      {
+        "outcome_id": "secondary_5",
+        "role": "secondary",
+        "name": "Adverse events",
+        "unit_or_scale": "incidence",
+        "timepoint": "Longest available follow-up when multiple time points were available",
+        "planned_suboutcomes": [
+          "Ototoxicity",
+          "Electrolyte imbalance",
+          "Hypotension",
+          "Acute kidney injury"
+        ],
+        "source_section": "Types of outcome measures",
+        "source_note": "The review specified these adverse-event components and analyzed individual adverse events as separate outcomes."
+      },
+      {
+        "outcome_id": "secondary_6",
+        "role": "secondary",
+        "name": "Change in six-minute walk test",
+        "unit_or_scale": "metres",
+        "timepoint": "Longest available follow-up when multiple time points were available",
+        "source_section": "Types of outcome measures"
+      },
+      {
+        "outcome_id": "secondary_7",
+        "role": "secondary",
+        "name": "Change in visual analogue scale for dyspnoea",
+        "unit_or_scale": "10-cm scale",
+        "timepoint": "Longest available follow-up when multiple time points were available",
+        "source_section": "Types of outcome measures"
+      }
+    ]
+  },
   "search_methods": {
     "review_id": "CD014811_loop_diuretics_hf",
     "review_group": "others",
