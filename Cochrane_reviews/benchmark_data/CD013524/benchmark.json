@@ -1,5 +1,5 @@
 {
-  "artifact_version": "2026-06-13-review-benchmark-v3",
+  "artifact_version": "2026-06-13-review-benchmark-v4",
   "generated_at": "2026-06-13T17:01:57+00:00",
   "review": {
     "review_id": "CD013524",
@@ -135,9 +135,6 @@
   "references": {
     "included_studies": [
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Giovannoni 2018",
         "reference_status": "included",
         "explicit_pmids": ".",
@@ -156,9 +153,6 @@
         "reference_excerpt": "Comi,G.; Cook,S.; Rammohan,K.; Soelberg Sorensen,P.; Vermersch,P.; Adeniji,A.K.. Long-term effects of cladribine tablets on MRI activity outcomes in patients with relapsing-remitting multiple sclerosis: the CLARITY Extension study. Therapeutic Advances in Neurological Disorders. 2018. 11; 1-11 Giovannoni,G.; Soelberg Sorensen,P.; Cook,S.; Rammohan,K.; Rieckmann,P.; Comi,G.. Safety and efficacy of cladribine tablets in patients with relapsing–remitting multiple sclerosis: results from the randomized extension trial of the CLARITY study. Multiple Sclerosis. 2018. 24; 12; 1594-604"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Giovannoni 2023",
         "reference_status": "included",
         "explicit_pmids": ".",
@@ -177,9 +171,6 @@
         "reference_excerpt": "Giovannoni,G.; Boyko,A.; Correale,J.; Edan,G.; Freedman,M.S.; Montalban,X.. Long-term follow-up of patients with relapsing multiple sclerosis from the CLARITY/CLARITY Extension cohort of CLASSIC-MS: an ambispective study. Multiple Sclerosis. 2023. 29; 6; 719‐30"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Giovannoni 2025",
         "reference_status": "included",
         "explicit_pmids": ".",
@@ -198,9 +189,6 @@
         "reference_excerpt": "Giovannoni,G.; Boyko,A.; Correale,J.; Edan,G.; Freedman,M.S.; Montalban,X.. Long-term follow-up of patients with a first clinical demyelinating event (clinically isolated syndrome) who received cladribine tablets in CLASSIC-MS: findings for the ORACLE-MS cohort. Multiple Sclerosis. 2025. 31; 1; 44-58"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Giovannoni 2010",
         "reference_status": "included",
         "explicit_pmids": "20089960",
@@ -219,9 +207,6 @@
         "reference_excerpt": "Comi,G.; Cook,S.D.; Giovannoni,G.; Rammohan,K.; Rieckmann,P.; Sørensen,P.S.. MRI outcomes with cladribine tablets for multiple sclerosis in the CLARITY study. Journal of Neurology. 2013. 260; 4; 1136-46 Giovannoni,G.; Comi,G.; Cook,S.; Rammohan,K.; Rieckmann,P.; Soelberg Sørensen,P.. A placebo-controlled trial of oral cladribine for relapsing multiple sclerosis. New England Journal of Medicine. 2010. 362; 5; 416-26"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Janiec 2001",
         "reference_status": "included",
         "explicit_pmids": "11208501",
@@ -240,9 +225,6 @@
         "reference_excerpt": "Janiec,K.; Wajgt,A.; Kondera-Anasz,Z.. Effect of immunosuppressive cladribine treatment on serum leucocytes system in two-year clinical trial in patients with chronic progressive multiple sclerosis. Medical Sciences Monitor. 2001. 7; 1; 93-8"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Kalincik 2018",
         "reference_status": "included",
         "explicit_pmids": ".",
@@ -261,9 +243,6 @@
         "reference_excerpt": "Kalincik,T.; Jokubaitis,V.; Spelman,T.; Horakova,D.; Havrdova,E.; Trojano,M.. Cladribine versus fingolimod, natalizumab and interferon β for multiple sclerosis. Multiple Sclerosis. 2018. 24; 12; 1617-26"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Leist 2014",
         "reference_status": "included",
         "explicit_pmids": "24502830",
@@ -282,9 +261,6 @@
         "reference_excerpt": "Leist,T.P.; Comi,G.; Cree,B.A.; Coyle,P.K.; Freedman,M.S.; Hartung,H.P.. Effect of oral cladribine on time to conversion to clinically definite multiple sclerosis in patients with a first demyelinating event (ORACLE MS): a phase 3 randomised trial. Lancet Neurology. 2014. 13; 3; 257-67"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Leist 2014 _OLMP",
         "reference_status": "included",
         "explicit_pmids": "24502830",
@@ -303,9 +279,6 @@
         "reference_excerpt": "Leist,T.P.; Comi,G.; Cree,B.A.; Coyle,P.K.; Freedman,M.S.; Hartung,H.P.. Effect of oral cladribine on time to conversion to clinically definite multiple sclerosis in patients with a first demyelinating event (ORACLE MS): a phase 3 randomised trial. Lancet Neurology. 2014. 13; 3; 257-67"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Montalban 2018_amended",
         "reference_status": "included",
         "explicit_pmids": ".",
@@ -324,9 +297,6 @@
         "reference_excerpt": "Montalban,X.; Leist,T.P.; Cohen,B.A.; Moses,H.; Campbell,J.; Hicking,C.. Cladribine tablets added to IFN-β in active relapsing MS: the ONWARD study. Neurology Neuroimmunology and Neuroinflammation. 2018. 5; 5; e:477"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Montalban 2018_original protocol",
         "reference_status": "included",
         "explicit_pmids": ".",
@@ -345,9 +315,6 @@
         "reference_excerpt": "Montalban,X.; Leist,T.P.; Cohen,B.A.; Moses,H.; Campbell,J.; Hicking,C.. Cladribine tablets added to IFN-β in active relapsing MS: the ONWARD study. Neurology Neuroimmunology and Neuroinflammation. 2018. 5; 5; e477"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Rice 2000",
         "reference_status": "included",
         "explicit_pmids": "10720289",
@@ -366,9 +333,6 @@
         "reference_excerpt": "Rice,G.P.; Filippi,M.; Comi,G.. Cladribine and progressive MS: clinical and MRI outcomes of a multicenter controlled trial. Cladribine MRI Study Group. Neurology. 2000. 54; 5; 1145-55"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Romine 1999",
         "reference_status": "included",
         "explicit_pmids": "9893155",
@@ -387,9 +351,6 @@
         "reference_excerpt": "Romine,J.S.; Sipe,J.C.; Koziol,J.A.; Zyroff,J.; Beutler,E.. A double-blind, placebo-controlled, randomized trial of cladribine in relapsing-remitting multiple sclerosis. Proceedings of the Association of American Physicians. 1999. 111; 1; 35-44"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Sipe 1994",
         "reference_status": "included",
         "explicit_pmids": "8643695",
@@ -408,9 +369,6 @@
         "reference_excerpt": "Beutler,E.; Sipe,J.C.; Romine,J.S.; Koziol,J.A.; McMillan,R.; Zyroff,J.. The treatment of chronic progressive multiple sclerosis with cladribine. Proceedings of the National Academy of Sciences of the United States of America. 1996. 93; 4; 1716-20 Sipe,J.C.; Romine,J.S.; Koziol,J.A.; McMillan,R.; Zyroff,J.; Beutler,E.. Cladribine in treatment of chronic progressive multiple sclerosis. Lancet. 1994. 344; 8914; 9-13"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Spelman 2023",
         "reference_status": "included",
         "explicit_pmids": "36433775",
@@ -429,9 +387,6 @@
         "reference_excerpt": "Spelman,T.; Ozakbas,S.; Alroughani,R.; Terzi,M.; Hodgkinson,S.; Laureys,G.. Comparative effectiveness of cladribine tablets versus other oral disease-modifying treatments for multiple sclerosis: results from MSBase registry. Multiple Sclerosis. 2023. 29; 2; 221-35"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Stelmasiak 2009",
         "reference_status": "included",
         "explicit_pmids": ".",
@@ -452,9 +407,6 @@
     ],
     "included_pubmed_records": [
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Giovannoni 2018",
         "pmid": "29399054",
         "pmcid": "PMC5788142",
@@ -468,9 +420,6 @@
         "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5788142/"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Giovannoni 2018",
         "pmid": "28870107",
         "pmcid": ".",
@@ -484,9 +433,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Giovannoni 2023",
         "pmid": "37012898",
         "pmcid": "PMC10176755",
@@ -500,9 +446,6 @@
         "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10176755/"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Giovannoni 2025",
         "pmid": "39690897",
         "pmcid": ".",
@@ -516,9 +459,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Giovannoni 2010",
         "pmid": "23263473",
         "pmcid": ".",
@@ -532,9 +472,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Giovannoni 2010",
         "pmid": "20089960",
         "pmcid": ".",
@@ -548,9 +485,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Janiec 2001",
         "pmid": "11208501",
         "pmcid": ".",
@@ -564,9 +498,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Kalincik 2018",
         "pmid": "28857680",
         "pmcid": ".",
@@ -580,9 +511,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Leist 2014",
         "pmid": "24502830",
         "pmcid": ".",
@@ -596,9 +524,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Leist 2014 _OLMP",
         "pmid": "24502830",
         "pmcid": ".",
@@ -612,9 +537,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Montalban 2018_amended",
         "pmid": "30027104",
         "pmcid": "PMC6047834",
@@ -628,9 +550,6 @@
         "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6047834/"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Montalban 2018_original protocol",
         "pmid": "30027104",
         "pmcid": "PMC6047834",
@@ -644,9 +563,6 @@
         "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6047834/"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Rice 2000",
         "pmid": "10720289",
         "pmcid": ".",
@@ -660,9 +576,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Romine 1999",
         "pmid": "9893155",
         "pmcid": ".",
@@ -676,9 +589,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Sipe 1994",
         "pmid": "8643695",
         "pmcid": "PMC40008",
@@ -692,9 +602,6 @@
         "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC40008/"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Sipe 1994",
         "pmid": "7912347",
         "pmcid": ".",
@@ -708,9 +615,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Spelman 2023",
         "pmid": "36433775",
         "pmcid": "PMC9925904",
@@ -724,9 +628,6 @@
         "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9925904/"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Stelmasiak 2009",
         "pmid": "19482866",
         "pmcid": ".",
@@ -742,9 +643,6 @@
     ],
     "included_report_candidates": [
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Giovannoni 2018",
         "report_index": "1",
         "candidate_type": "doi",
@@ -762,9 +660,6 @@
         "reference_excerpt": "Comi,G.; Cook,S.; Rammohan,K.; Soelberg Sorensen,P.; Vermersch,P.; Adeniji,A.K.. Long-term effects of cladribine tablets on MRI activity outcomes in patients with relapsing-remitting multiple sclerosis: the CLARITY Extension study. Therapeutic Advances in Neurological Disorders. 2018. 11; 1-11"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Giovannoni 2018",
         "report_index": "2",
         "candidate_type": "doi",
@@ -782,9 +677,6 @@
         "reference_excerpt": "Giovannoni,G.; Soelberg Sorensen,P.; Cook,S.; Rammohan,K.; Rieckmann,P.; Comi,G.. Safety and efficacy of cladribine tablets in patients with relapsing–remitting multiple sclerosis: results from the randomized extension trial of the CLARITY study. Multiple Sclerosis. 2018. 24; 12; 1594-604"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Giovannoni 2023",
         "report_index": "1",
         "candidate_type": "doi",
@@ -802,9 +694,6 @@
         "reference_excerpt": "Giovannoni,G.; Boyko,A.; Correale,J.; Edan,G.; Freedman,M.S.; Montalban,X.. Long-term follow-up of patients with relapsing multiple sclerosis from the CLARITY/CLARITY Extension cohort of CLASSIC-MS: an ambispective study. Multiple Sclerosis. 2023. 29; 6; 719‐30"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Giovannoni 2025",
         "report_index": "1",
         "candidate_type": "doi",
@@ -822,9 +711,6 @@
         "reference_excerpt": "Giovannoni,G.; Boyko,A.; Correale,J.; Edan,G.; Freedman,M.S.; Montalban,X.. Long-term follow-up of patients with a first clinical demyelinating event (clinically isolated syndrome) who received cladribine tablets in CLASSIC-MS: findings for the ORACLE-MS cohort. Multiple Sclerosis. 2025. 31; 1; 44-58"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Giovannoni 2010",
         "report_index": "1",
         "candidate_type": "doi",
@@ -842,9 +728,6 @@
         "reference_excerpt": "Comi,G.; Cook,S.D.; Giovannoni,G.; Rammohan,K.; Rieckmann,P.; Sørensen,P.S.. MRI outcomes with cladribine tablets for multiple sclerosis in the CLARITY study. Journal of Neurology. 2013. 260; 4; 1136-46"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Giovannoni 2010",
         "report_index": "2",
         "candidate_type": "explicit_pmid",
@@ -862,9 +745,6 @@
         "reference_excerpt": "Giovannoni,G.; Comi,G.; Cook,S.; Rammohan,K.; Rieckmann,P.; Soelberg Sørensen,P.. A placebo-controlled trial of oral cladribine for relapsing multiple sclerosis. New England Journal of Medicine. 2010. 362; 5; 416-26"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Janiec 2001",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -882,9 +762,6 @@
         "reference_excerpt": "Janiec,K.; Wajgt,A.; Kondera-Anasz,Z.. Effect of immunosuppressive cladribine treatment on serum leucocytes system in two-year clinical trial in patients with chronic progressive multiple sclerosis. Medical Sciences Monitor. 2001. 7; 1; 93-8"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Kalincik 2018",
         "report_index": "1",
         "candidate_type": "doi",
@@ -902,9 +779,6 @@
         "reference_excerpt": "Kalincik,T.; Jokubaitis,V.; Spelman,T.; Horakova,D.; Havrdova,E.; Trojano,M.. Cladribine versus fingolimod, natalizumab and interferon β for multiple sclerosis. Multiple Sclerosis. 2018. 24; 12; 1617-26"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Leist 2014",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -922,9 +796,6 @@
         "reference_excerpt": "Leist,T.P.; Comi,G.; Cree,B.A.; Coyle,P.K.; Freedman,M.S.; Hartung,H.P.. Effect of oral cladribine on time to conversion to clinically definite multiple sclerosis in patients with a first demyelinating event (ORACLE MS): a phase 3 randomised trial. Lancet Neurology. 2014. 13; 3; 257-67"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Leist 2014 _OLMP",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -942,9 +813,6 @@
         "reference_excerpt": "Leist,T.P.; Comi,G.; Cree,B.A.; Coyle,P.K.; Freedman,M.S.; Hartung,H.P.. Effect of oral cladribine on time to conversion to clinically definite multiple sclerosis in patients with a first demyelinating event (ORACLE MS): a phase 3 randomised trial. Lancet Neurology. 2014. 13; 3; 257-67"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Montalban 2018_amended",
         "report_index": "1",
         "candidate_type": "doi",
@@ -962,9 +830,6 @@
         "reference_excerpt": "Montalban,X.; Leist,T.P.; Cohen,B.A.; Moses,H.; Campbell,J.; Hicking,C.. Cladribine tablets added to IFN-β in active relapsing MS: the ONWARD study. Neurology Neuroimmunology and Neuroinflammation. 2018. 5; 5; e:477"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Montalban 2018_original protocol",
         "report_index": "1",
         "candidate_type": "doi",
@@ -982,9 +847,6 @@
         "reference_excerpt": "Montalban,X.; Leist,T.P.; Cohen,B.A.; Moses,H.; Campbell,J.; Hicking,C.. Cladribine tablets added to IFN-β in active relapsing MS: the ONWARD study. Neurology Neuroimmunology and Neuroinflammation. 2018. 5; 5; e477"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Rice 2000",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -1002,9 +864,6 @@
         "reference_excerpt": "Rice,G.P.; Filippi,M.; Comi,G.. Cladribine and progressive MS: clinical and MRI outcomes of a multicenter controlled trial. Cladribine MRI Study Group. Neurology. 2000. 54; 5; 1145-55"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Romine 1999",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -1022,9 +881,6 @@
         "reference_excerpt": "Romine,J.S.; Sipe,J.C.; Koziol,J.A.; Zyroff,J.; Beutler,E.. A double-blind, placebo-controlled, randomized trial of cladribine in relapsing-remitting multiple sclerosis. Proceedings of the Association of American Physicians. 1999. 111; 1; 35-44"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Sipe 1994",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -1042,9 +898,6 @@
         "reference_excerpt": "Beutler,E.; Sipe,J.C.; Romine,J.S.; Koziol,J.A.; McMillan,R.; Zyroff,J.. The treatment of chronic progressive multiple sclerosis with cladribine. Proceedings of the National Academy of Sciences of the United States of America. 1996. 93; 4; 1716-20"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Sipe 1994",
         "report_index": "2",
         "candidate_type": "doi",
@@ -1062,9 +915,6 @@
         "reference_excerpt": "Sipe,J.C.; Romine,J.S.; Koziol,J.A.; McMillan,R.; Zyroff,J.; Beutler,E.. Cladribine in treatment of chronic progressive multiple sclerosis. Lancet. 1994. 344; 8914; 9-13"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Spelman 2023",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -1082,9 +932,6 @@
         "reference_excerpt": "Spelman,T.; Ozakbas,S.; Alroughani,R.; Terzi,M.; Hodgkinson,S.; Laureys,G.. Comparative effectiveness of cladribine tablets versus other oral disease-modifying treatments for multiple sclerosis: results from MSBase registry. Multiple Sclerosis. 2023. 29; 2; 221-35"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Stelmasiak 2009",
         "report_index": "1",
         "candidate_type": "doi",
@@ -1105,9 +952,6 @@
     "included_trial_registry_records": [],
     "excluded_studies": [
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Afolabi 2018",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -1126,9 +970,6 @@
         "reference_excerpt": "Afolabi,D.; Albor,C.; Zalewski,L.; Altmann,D.R.; Baker,D.; Schmierer,K.. Positive impact of cladribine on quality of life in people with relapsing multiple sclerosis. Multiple Sclerosis Journal. 2018. 24; 11; 1461–8. Notes: Study design: post-hoc analyses of data from the 78.6% of patient CLARITY study to assess quality of life, an outcome not specified in the protocol with data acquired from the European Medicines Agency through Freedom of Information."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Alves Junior 2023",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -1147,9 +988,6 @@
         "reference_excerpt": "Alves Junior,J.M.; Prota,F.E.; Martinelli,J.C.B.; Chrispim,A.; Serpeloni,M.; Barreto,I.. Incorporation of cladribine for patients with multiple sclerosis in a health insurance company in Brazil: cost-effectiveness. Value in Health. 2023. 26; S119. Notes: Ineligible study design - it did not report original data."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Barrantes Cepas 2023",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -1168,9 +1006,6 @@
         "reference_excerpt": "Barrantes Cepas,M.; Noteboom,S.; Battaglini,M.; Colato,E.; Sormani,M.P.; DeStefano,N.. Treatment with cladribine tablets is associated with slower regional atrophy: a retrospective study on atrophy patterns in multiple sclerosis. Multiple Sclerosis Journal. 2023. 29; (3S) 137–393. Notes: Outcome not relevant. It reported MRI outcomes different to those expressed in the protocol of this review."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Butzkueven 2023",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -1189,9 +1024,6 @@
         "reference_excerpt": "Butzkueven,H.; Haltner,A.; Drudge,C.; Samjoo,I.; Barnett,M.; Broadley,S.. Employing novel indirect treatment comparison methodologies to differentiate the efficacy of ofatumumab and other high efficacy therapies versus orally administered disease modifying therapies for relapsing multiple sclerosis. Multiple Sclerosis Journal. 2023. 29; (3S) 394–649. Notes: It did not report original data."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "CLAD CROSS ongoing",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -1210,9 +1042,6 @@
         "reference_excerpt": "Prospective effectiveness and safety study of cladribine in participants who change first-line DMD treatments for multiple sclerosis (CLAD CROSS). https://clinicaltrials.gov/study/NCT04934800. 2021. Notes: Ongoing study excluded for study design: 2-year prospective cohort study of people who failed first-line treatment for DMD and were switched to treatment with cladribine tablets. There is no control group."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "CLARIFY MS Extention",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -1231,9 +1060,6 @@
         "reference_excerpt": "A 2-year follow-up study to assess cognition and health-related quality of life in participants with highly-active relapsing multiple sclerosis, having participated in the CLARIFY MS Trial (CLARIFY MS Extension). https://clinicaltrials.gov/study/NCT04776213. 2021. Notes: Excluded for study design: Participants involved in CLARIFY MS are followed up for an additional 2-year period during which the participants are not treated with cladribine. There is no control group in both studies."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "CLOBAS ongoing",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -1252,9 +1078,6 @@
         "reference_excerpt": "Maltby,V.E.; Lea,R.A.; Monif,M.; Fabis-Pedrini,M.J.; Buzzard,K.; Kalincik,T.. Efficacy of cladribine tablets as a treatment for people with multiple sclerosis: protocol for the CLOBAS Study (Cladribine, a Multicenter, Long-term Efficacy and Biomarker Australian Study). Journal of Medical Internet Research, Research Protocols. 2021. 10; 10; e24969. Notes: Ongoing study excluded for study design: multicentre, 6-year, phase IV, low interventional, observational study on safety and efficacy of cladribine tablets. There is no control group."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "CLOCK MS",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -1273,9 +1096,6 @@
         "reference_excerpt": "Cladribine tablets: collaborative study to evaluate impact on central nervous system biomarkers in multiple sclerosis (CLOCK-MS). https://clinicaltrials.gov/study/NCT03963375. 2019. Notes: Study excluded for study design: open label, randomised, multicentre collaborative research phase IV biomarker study. There is no control group."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Conway 2025",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -1294,9 +1114,6 @@
         "reference_excerpt": "Conway,D.S.; Nicholas,J.A.; Thompson,N.R.; Mowry,E.M.; Naismith,R.T.. Real world experience with cladribine tablets for multiple sclerosis at four academic multiple sclerosis centers. Multiple Sclerosis and Related Disorders. 2025. 94; 106272. Notes: It uses a different scale Patient Determined Disease Steps to measure disability worsening, not the planned EDDS scale."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Cook 2019",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -1315,9 +1132,6 @@
         "reference_excerpt": "Cook,S.; Leist,T.; Comi,G.; Montalban,X.; Giovannoni,G.; Nolting,A.. Safety of cladribine tablets in the treatment of patients with multiple sclerosis: an integrated analysis. Multiple Sclerosis and Related Disorders. 2019. 29; 157-67. Notes: Study design: pooled data from patients treated with cladribine in phase III clinical trials and followed up in PREMIERE study."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Cortese 2023",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -1336,9 +1150,6 @@
         "reference_excerpt": "Cortese,R.; Battaglini,M.; Sormani,M.P.; Luchetti,L.; Gentile,G.; Inderyas,M.. Reduction in grey matter atrophy in patients with relapsing multiple sclerosis following treatment with cladribine tablets. European Journal of Neurology. 2023. 30; 1; 179-86. Notes: Outcome not relevant. It reported MRI outcomes different to those expressed in the protocol of this review."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "De Stefano 2018",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -1357,9 +1168,6 @@
         "reference_excerpt": "De Stefano,N.; Giorgio,A.; Battaglini,M.; De Leucio,A.; Hicking,C.; Dangond,F.. Reduced brain atrophy rates are associated with lower risk of disability progression in patients with relapsing multiple sclerosis treated with cladribine tablets. Multiple Sclerosis Journal. 2018. 24; 2; 222-6. Notes: Outcome: MRI scans of mostly RMS patients enrolled in Giovannoni 2000 were reviewed to look for the effect of treatment with two different doses of cladribine tablets and placebo on annualised percentage loss in brain volume over the follow-up period. None of the outcomes considered were of interest"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Doumbia 2023",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -1378,9 +1186,6 @@
         "reference_excerpt": "Doumbia,M.; Edde,M.; Beaudoin,A.M.; Dou,B.; Luu,E.; Martel,L.. Comparing diffusion MRI and inhomogeneous magnetization transfer metrics evolution in relapsing-remitting multiple sclerosis patients on high efficacy versus low efficacy disease modifying therapy. Multiple Sclerosis Journal. 2023. 29; (3S) 137–393. Notes: Outcome not relevant. It reported MRI outcomes different to those expressed in the protocol of this review."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Filippi 2000a",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -1399,9 +1204,6 @@
         "reference_excerpt": "Filippi,M.; Rovaris,M.; Rice,G.P.; Sormani,M.P.; Iannucci,G.; Giacomotti,L.. The effect of cladribine on T(1) 'black hole' changes in progressive MS. Journal of Neurological Sciences. 2000. 176; 1; 42-4. Notes: Outcome: MRI scans of progressive MS patients enrolled in Rice 2000 were reviewed to look for the effect of the two different doses of cladribine and placebo on number and volume of “black hole” lesions. None of the outcomes considered were of interest for our review."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Filippi 2000b",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -1420,9 +1222,6 @@
         "reference_excerpt": "Filippi,M.; Rovaris,M.; Iannucci,G.; Mennea,S.; Sormani,M.P.; Comi,G.. Whole brain volume changes in patients with progressive MS treated with cladribine. Neurology. 2000. 55; 11; 1714-8. Notes: Outcome: MRI scans of progressive MS patients enrolled in Rice 2000 were reviewed to look for the effect of the two different doses of cladribine and placebo on absolute and percentage changes in brain volume over the follow-up period. None of the outcomes considered were of interest for our review."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Giedraitienė 2024",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -1441,9 +1240,6 @@
         "reference_excerpt": "Giedraitienė,N.; Kizlaitienė,R.; Kaubrys,G.. New autoimmune disorder development after immune reconstitution therapy for multiple sclerosis. Scientific Reports. 2024. 14; 1; 30991. Notes: Ineligible study design: case series."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Giovannoni 2011",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -1462,9 +1258,6 @@
         "reference_excerpt": "Giovannoni,G.; Cook,S.; Rammohan,K.; Rieckmann,P.; Sørensen,P.S.; Vermersch,P.. Sustained disease-activity-free status in patients with relapsing-remitting multiple sclerosis treated with cladribine tablets in the CLARITY study: a post-hoc and subgroup analysis Issue. Lancet Neurology. 2011. 10; 4; 329-37. Notes: Study design: post-hoc analyses of data from the 89%-patient CLARITY study to assess early and sustained effects of 'disease-free' status, an outcome not specified in the protocol."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Giovannoni 2022",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -1483,9 +1276,6 @@
         "reference_excerpt": "Giovannoni,G.; Singer,B.A.; Issard,D.; Jack,D.; Vermersch,P.. Durability of no evidence of disease activity-3 (NEDA-3) in patients receiving cladribine tablets: the CLARITY extension study. Multiple Sclerosis Journal. 2022. 28; 8; 1219-28. Notes: Study design: post-hoc analyses of data from the CLARITY extension study limited to patients who received cladribine tablets 3.5 mg/kg followed by placebo or cladribine tablets 3.5 mg/kg followed by continued treatment with cladribine. Early and durable effects of 'disease-free' status were evaluated in the long term, but this outcome was not specifie"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Glasmacher 2022",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -1504,9 +1294,6 @@
         "reference_excerpt": "Glasmacher,S.A.; Kearns,P.K.; Hassan,Z.; Connick,P.; Tauber,S.; Reetz,K.; et al; FutureMS Consortium. The influence of disease-modifying therapy on hidden disability burden in people with newly diagnosed relapsing-remitting multiple sclerosis. Multiple Sclerosis and Related Disorders. 2022. 63; 103837. Notes: Intervention: prospective study with data aggregated of cladribine with other DMTs."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Guger 2024",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -1525,9 +1312,6 @@
         "reference_excerpt": "Guger,M.; Enzinger,C.; Leutmezer,F.; Di Pauli,F.; Kraus,J.; Kalcher,S.. Early intensive versus escalation treatment in patients with relapsing-remitting multiple sclerosis in Austria. Journal of Neurology. 2024. 271; 6; 3142-52. Notes: It did not report original data."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Hersh 2025",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -1546,9 +1330,6 @@
         "reference_excerpt": "Hersh,C.M.; Sun,Z.; Conway,D.S.; Sotirchos,E.S.; Fitzgerald,K.C.; Hua,L.H.. A 2-stage model of heterogenous treatment effects for brain atrophy in multiple sclerosis utilizing the MS PATHS research network. Multiple Sclerosis and Related Disorders. 2025. 91; 105847. Notes: Outcome not relevant. It reported MRI outcomes different to those expressed in the protocol of this review."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Kalincik 2016",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -1567,9 +1348,6 @@
         "reference_excerpt": "Kalincik,T.; Lizak,N.; Jokubaitis,V.; Butler,E.; Lechner-Scott,J.; Slee,M.; et al; Australian MSBase Study Group. Australian cladribine experience. Multiple Sclerosis. 2016. 22; 289-90. Notes: Study design: description of the cohort of cladribine patients without any control group."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Leist 2020",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -1588,9 +1366,6 @@
         "reference_excerpt": "Leist,T.; Cook,S.; Comi,G.; Montalban,X.; Giovannoni,G.; Nolting,A.. Long-term safety data from the cladribine tablets clinical development program in multiple sclerosis. Multiple Sclerosis and Related Disorders. 2020. 46; 102572. Notes: Study design: prospective, observational registry, PREMIERE. Aggregated data for people who participated in at least one of the phase III studies CLARITY, CLARITY Extension and ORACLE-MS. We emailed the study sponsor (ResponsibleDatasharing@merckgroup.com) to request raw data from the individual studies, but received no reply."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "MAGNIFY MS Extension",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -1609,9 +1384,6 @@
         "reference_excerpt": "Extension to the MAGNIFY MS Trial on Mavenclad (Magnify MS Extension). https://www.clinicaltrials.gov/study/NCT04783935?term=NCT01539239%20OR%20NCT01818115%20OR%20nct02021292%20OR%20nct02924467%20OR%20nct03364036&viewType=Table&checkSpell=&rank=6&tab=results. 2021. Notes: Study excluded for study design: open label, single arm, exploratory, multicentre, 2-year, phase IV extension study in participants who have completed Trial MS700568_0022 (MAGNIFY MS). There is no control group in both studies."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "NCT04550455",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -1630,9 +1402,6 @@
         "reference_excerpt": "A prospective biomarker study in active SPMS subjects treated with cladribine tablets. https://clinicaltrials.gov/study/NCT04550455. 2020. Notes: Ongoing study excluded for study design: prospective biomarker study in active secondary progressive multiple sclerosis in people treated with cladribine tablets. There is no control group."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "PROMISE ongoing",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -1651,9 +1420,6 @@
         "reference_excerpt": "Montpellier PROspective cohort in relapsing remitting multiple sclerosis using imaging and serologic (PROMISE). https://clinicaltrials.gov/study/NCT05962177. 2023. Notes: Intervention: prospective study with data aggregated of cladribine with other DMTs."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Rojas 2024",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -1672,9 +1438,6 @@
         "reference_excerpt": "Rojas,J.I.; Carnero Contentti,E.; Alonso,R.; Tavolini,D.; Burgos,M.; Federico,B.. Burden of treatment and quality of life in relapsing remitting multiple sclerosis patients under early high efficacy therapy in Argentina: data from the Argentinean registry. Multiple Sclerosis and Related Disorders. 2024. 85; 105543. Notes: It did not report original data. We emailed the corresponding author (Prof. Juan I Rojas) twice to request raw data on cladribine, but received no reply."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Roos 2024",
         "reference_status": "excluded",
         "explicit_pmids": "39087208",
@@ -1693,9 +1456,6 @@
         "reference_excerpt": "Roos,I.; Sharmin,S.; Malpas,C.; Ozakbas,S.; Lechner-Scott,J.; Hodgkinson,S.. Effectiveness of cladribine compared to fingolimod, natalizumab, ocrelizumab and alemtuzumab in relapsing-remitting multiple sclerosis. Multiple Sclerosis. 2024. 30; 9; 1163-75. Notes: Ineligible outcomes: the study reported the number of events (relapses and disability worsening), rather than the number of participants. We emailed the corresponding author (Prof. Izanne Roos) to request raw data on relapse rate and disability worsening, but she informed us that these data were not available."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Sharmin 2024",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -1714,9 +1474,6 @@
         "reference_excerpt": "Sharmin,S.; Roos,I.; Malpas,C.B.; Iaffaldano,P.; Simone,M.; Filippi,M.. Disease-modifying therapies in managing disability worsening in paediatric-onset multiple sclerosis: a longitudinal analysis of global and national registries. Lancet Child and Adolescent Health. 2024. 8; 5; 348-57. Notes: It did not report original data."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Solari 2023",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -1735,9 +1492,6 @@
         "reference_excerpt": "Solari,A.; Montalban,X.; Lechner-ScottJ; Piehl,F.; Brochet,F.B.; Langdon,D.. Improvements in quality of life over 2 years in patients treated with cladribine tablets for highly active relapsing multiple sclerosis: final analysis of CLARIFY-MS. Multiple Sclerosis and Related Disorders. 2023. 71; 104356. Notes: Study design: post hoc analysis of CLARIFY-MS study looking at health-related quality of life of almost all people who were treated with cladribine tablets 3.5 mg/kg without any control group."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Wagner 2000",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -1756,9 +1510,6 @@
         "reference_excerpt": "Wagner,S.; Adams H-P; Sobel,D.; Slivka,L.; Sipe,J.; Romine,J.. Hypointense lesions on MRI in relapsing-remitting multiple sclerosis patients. European Neurology. 2000. 43; 194-200. Notes: Outcome: number and relationship of hypointense lesions on MR to clinical course in 50 RR MS patients included in Romine 1999. The outcomes considered are of no interest for our review."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Weilbach 1995",
         "reference_status": "excluded",
         "explicit_pmids": "7783818",
@@ -1779,9 +1530,6 @@
     ],
     "excluded_pubmed_records": [
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Afolabi 2018",
         "pmid": "28817997",
         "pmcid": "PMC6174629",
@@ -1795,9 +1543,6 @@
         "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6174629/"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "CLOBAS ongoing",
         "pmid": "34665152",
         "pmcid": "PMC8564661",
@@ -1811,9 +1556,6 @@
         "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8564661/"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Conway 2025",
         "pmid": "39827538",
         "pmcid": ".",
@@ -1827,9 +1569,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Cook 2019",
         "pmid": "30885374",
         "pmcid": ".",
@@ -1843,9 +1582,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Cortese 2023",
         "pmid": "36168741",
         "pmcid": "PMC10091690",
@@ -1859,9 +1595,6 @@
         "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10091690/"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "De Stefano 2018",
         "pmid": "28140753",
         "pmcid": "PMC5818021",
@@ -1875,9 +1608,6 @@
         "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5818021/"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Filippi 2000a",
         "pmid": "10865091",
         "pmcid": ".",
@@ -1891,9 +1621,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Filippi 2000b",
         "pmid": "11113227",
         "pmcid": ".",
@@ -1907,9 +1634,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Giedraitienė 2024",
         "pmid": "39730657",
         "pmcid": "PMC11681027",
@@ -1923,9 +1647,6 @@
         "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11681027/"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Giovannoni 2011",
         "pmid": "21397565",
         "pmcid": ".",
@@ -1939,9 +1660,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Giovannoni 2022",
         "pmid": "34634968",
         "pmcid": "PMC9189728",
@@ -1955,9 +1673,6 @@
         "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9189728/"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Glasmacher 2022",
         "pmid": "35576728",
         "pmcid": ".",
@@ -1971,9 +1686,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Guger 2024",
         "pmid": "38430270",
         "pmcid": "PMC11136709",
@@ -1987,9 +1699,6 @@
         "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11136709/"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Hersh 2025",
         "pmid": "39260226",
         "pmcid": ".",
@@ -2003,9 +1712,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Leist 2020",
         "pmid": "33296971",
         "pmcid": ".",
@@ -2019,9 +1725,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Rojas 2024",
         "pmid": "38520948",
         "pmcid": ".",
@@ -2035,9 +1738,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Roos 2024",
         "pmid": "39087208",
         "pmcid": ".",
@@ -2051,9 +1751,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Sharmin 2024",
         "pmid": "38547883",
         "pmcid": ".",
@@ -2067,9 +1764,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Wagner 2000",
         "pmid": "10828648",
         "pmcid": ".",
@@ -2083,9 +1777,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Weilbach 1995",
         "pmid": "7783818",
         "pmcid": ".",
@@ -2101,9 +1792,6 @@
     ],
     "excluded_report_candidates": [
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Afolabi 2018",
         "report_index": "1",
         "candidate_type": "doi",
@@ -2121,9 +1809,6 @@
         "reference_excerpt": "Afolabi,D.; Albor,C.; Zalewski,L.; Altmann,D.R.; Baker,D.; Schmierer,K.. Positive impact of cladribine on quality of life in people with relapsing multiple sclerosis. Multiple Sclerosis Journal. 2018. 24; 11; 1461–8. Notes: Study design: post-hoc analyses of data from the 78.6% of patient CLARITY study to assess quality of life, an outcome not specified in the protocol with data acquired from the European Medicines Agency through Freedom of Information."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Alves Junior 2023",
         "report_index": "1",
         "candidate_type": "title",
@@ -2141,9 +1826,6 @@
         "reference_excerpt": "Alves Junior,J.M.; Prota,F.E.; Martinelli,J.C.B.; Chrispim,A.; Serpeloni,M.; Barreto,I.. Incorporation of cladribine for patients with multiple sclerosis in a health insurance company in Brazil: cost-effectiveness. Value in Health. 2023. 26; S119. Notes: Ineligible study design - it did not report original data."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Barrantes Cepas 2023",
         "report_index": "1",
         "candidate_type": "title",
@@ -2161,9 +1843,6 @@
         "reference_excerpt": "Barrantes Cepas,M.; Noteboom,S.; Battaglini,M.; Colato,E.; Sormani,M.P.; DeStefano,N.. Treatment with cladribine tablets is associated with slower regional atrophy: a retrospective study on atrophy patterns in multiple sclerosis. Multiple Sclerosis Journal. 2023. 29; (3S) 137–393. Notes: Outcome not relevant. It reported MRI outcomes different to those expressed in the protocol of this review."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Butzkueven 2023",
         "report_index": "1",
         "candidate_type": "title",
@@ -2181,9 +1860,6 @@
         "reference_excerpt": "Butzkueven,H.; Haltner,A.; Drudge,C.; Samjoo,I.; Barnett,M.; Broadley,S.. Employing novel indirect treatment comparison methodologies to differentiate the efficacy of ofatumumab and other high efficacy therapies versus orally administered disease modifying therapies for relapsing multiple sclerosis. Multiple Sclerosis Journal. 2023. 29; (3S) 394–649. Notes: It did not report original data."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "CLAD CROSS ongoing",
         "report_index": "1",
         "candidate_type": "nct_id",
@@ -2201,9 +1877,6 @@
         "reference_excerpt": "Prospective effectiveness and safety study of cladribine in participants who change first-line DMD treatments for multiple sclerosis (CLAD CROSS). https://clinicaltrials.gov/study/NCT04934800. 2021. Notes: Ongoing study excluded for study design: 2-year prospective cohort study of people who failed first-line treatment for DMD and were switched to treatment with cladribine tablets. There is no control group."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "CLARIFY MS Extention",
         "report_index": "1",
         "candidate_type": "nct_id",
@@ -2221,9 +1894,6 @@
         "reference_excerpt": "A 2-year follow-up study to assess cognition and health-related quality of life in participants with highly-active relapsing multiple sclerosis, having participated in the CLARIFY MS Trial (CLARIFY MS Extension). https://clinicaltrials.gov/study/NCT04776213. 2021. Notes: Excluded for study design: Participants involved in CLARIFY MS are followed up for an additional 2-year period during which the participants are not treated with cladribine. There is no control group in both studies."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "CLOBAS ongoing",
         "report_index": "1",
         "candidate_type": "doi",
@@ -2241,9 +1911,6 @@
         "reference_excerpt": "Maltby,V.E.; Lea,R.A.; Monif,M.; Fabis-Pedrini,M.J.; Buzzard,K.; Kalincik,T.. Efficacy of cladribine tablets as a treatment for people with multiple sclerosis: protocol for the CLOBAS Study (Cladribine, a Multicenter, Long-term Efficacy and Biomarker Australian Study). Journal of Medical Internet Research, Research Protocols. 2021. 10; 10; e24969. Notes: Ongoing study excluded for study design: multicentre, 6-year, phase IV, low interventional, observational study on safety and efficacy of cladribine tablets. There is no control group."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "CLOCK MS",
         "report_index": "1",
         "candidate_type": "nct_id",
@@ -2261,9 +1928,6 @@
         "reference_excerpt": "Cladribine tablets: collaborative study to evaluate impact on central nervous system biomarkers in multiple sclerosis (CLOCK-MS). https://clinicaltrials.gov/study/NCT03963375. 2019. Notes: Study excluded for study design: open label, randomised, multicentre collaborative research phase IV biomarker study. There is no control group."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Conway 2025",
         "report_index": "1",
         "candidate_type": "doi",
@@ -2281,9 +1945,6 @@
         "reference_excerpt": "Conway,D.S.; Nicholas,J.A.; Thompson,N.R.; Mowry,E.M.; Naismith,R.T.. Real world experience with cladribine tablets for multiple sclerosis at four academic multiple sclerosis centers. Multiple Sclerosis and Related Disorders. 2025. 94; 106272. Notes: It uses a different scale Patient Determined Disease Steps to measure disability worsening, not the planned EDDS scale."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Cook 2019",
         "report_index": "1",
         "candidate_type": "doi",
@@ -2301,9 +1962,6 @@
         "reference_excerpt": "Cook,S.; Leist,T.; Comi,G.; Montalban,X.; Giovannoni,G.; Nolting,A.. Safety of cladribine tablets in the treatment of patients with multiple sclerosis: an integrated analysis. Multiple Sclerosis and Related Disorders. 2019. 29; 157-67. Notes: Study design: pooled data from patients treated with cladribine in phase III clinical trials and followed up in PREMIERE study."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Cortese 2023",
         "report_index": "1",
         "candidate_type": "doi",
@@ -2321,9 +1979,6 @@
         "reference_excerpt": "Cortese,R.; Battaglini,M.; Sormani,M.P.; Luchetti,L.; Gentile,G.; Inderyas,M.. Reduction in grey matter atrophy in patients with relapsing multiple sclerosis following treatment with cladribine tablets. European Journal of Neurology. 2023. 30; 1; 179-86. Notes: Outcome not relevant. It reported MRI outcomes different to those expressed in the protocol of this review."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "De Stefano 2018",
         "report_index": "1",
         "candidate_type": "doi",
@@ -2341,9 +1996,6 @@
         "reference_excerpt": "De Stefano,N.; Giorgio,A.; Battaglini,M.; De Leucio,A.; Hicking,C.; Dangond,F.. Reduced brain atrophy rates are associated with lower risk of disability progression in patients with relapsing multiple sclerosis treated with cladribine tablets. Multiple Sclerosis Journal. 2018. 24; 2; 222-6. Notes: Outcome: MRI scans of mostly RMS patients enrolled in Giovannoni 2000 were reviewed to look for the effect of treatment with two different doses of cladribine tablets and placebo on annualised percentage loss in brain volume over the follow-up period. None of the outcomes considered were of interest"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Doumbia 2023",
         "report_index": "1",
         "candidate_type": "title",
@@ -2361,9 +2013,6 @@
         "reference_excerpt": "Doumbia,M.; Edde,M.; Beaudoin,A.M.; Dou,B.; Luu,E.; Martel,L.. Comparing diffusion MRI and inhomogeneous magnetization transfer metrics evolution in relapsing-remitting multiple sclerosis patients on high efficacy versus low efficacy disease modifying therapy. Multiple Sclerosis Journal. 2023. 29; (3S) 137–393. Notes: Outcome not relevant. It reported MRI outcomes different to those expressed in the protocol of this review."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Filippi 2000a",
         "report_index": "1",
         "candidate_type": "doi",
@@ -2381,9 +2030,6 @@
         "reference_excerpt": "Filippi,M.; Rovaris,M.; Rice,G.P.; Sormani,M.P.; Iannucci,G.; Giacomotti,L.. The effect of cladribine on T(1) 'black hole' changes in progressive MS. Journal of Neurological Sciences. 2000. 176; 1; 42-4. Notes: Outcome: MRI scans of progressive MS patients enrolled in Rice 2000 were reviewed to look for the effect of the two different doses of cladribine and placebo on number and volume of “black hole” lesions. None of the outcomes considered were of interest for our review."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Filippi 2000b",
         "report_index": "1",
         "candidate_type": "doi",
@@ -2401,9 +2047,6 @@
         "reference_excerpt": "Filippi,M.; Rovaris,M.; Iannucci,G.; Mennea,S.; Sormani,M.P.; Comi,G.. Whole brain volume changes in patients with progressive MS treated with cladribine. Neurology. 2000. 55; 11; 1714-8. Notes: Outcome: MRI scans of progressive MS patients enrolled in Rice 2000 were reviewed to look for the effect of the two different doses of cladribine and placebo on absolute and percentage changes in brain volume over the follow-up period. None of the outcomes considered were of interest for our review."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Giedraitienė 2024",
         "report_index": "1",
         "candidate_type": "doi",
@@ -2421,9 +2064,6 @@
         "reference_excerpt": "Giedraitienė,N.; Kizlaitienė,R.; Kaubrys,G.. New autoimmune disorder development after immune reconstitution therapy for multiple sclerosis. Scientific Reports. 2024. 14; 1; 30991. Notes: Ineligible study design: case series."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Giovannoni 2011",
         "report_index": "1",
         "candidate_type": "doi",
@@ -2441,9 +2081,6 @@
         "reference_excerpt": "Giovannoni,G.; Cook,S.; Rammohan,K.; Rieckmann,P.; Sørensen,P.S.; Vermersch,P.. Sustained disease-activity-free status in patients with relapsing-remitting multiple sclerosis treated with cladribine tablets in the CLARITY study: a post-hoc and subgroup analysis Issue. Lancet Neurology. 2011. 10; 4; 329-37. Notes: Study design: post-hoc analyses of data from the 89%-patient CLARITY study to assess early and sustained effects of 'disease-free' status, an outcome not specified in the protocol."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Giovannoni 2022",
         "report_index": "1",
         "candidate_type": "doi",
@@ -2461,9 +2098,6 @@
         "reference_excerpt": "Giovannoni,G.; Singer,B.A.; Issard,D.; Jack,D.; Vermersch,P.. Durability of no evidence of disease activity-3 (NEDA-3) in patients receiving cladribine tablets: the CLARITY extension study. Multiple Sclerosis Journal. 2022. 28; 8; 1219-28. Notes: Study design: post-hoc analyses of data from the CLARITY extension study limited to patients who received cladribine tablets 3.5 mg/kg followed by placebo or cladribine tablets 3.5 mg/kg followed by continued treatment with cladribine. Early and durable effects of 'disease-free' status were evaluated in the long term, but this outcome was not specifie"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Glasmacher 2022",
         "report_index": "1",
         "candidate_type": "doi",
@@ -2481,9 +2115,6 @@
         "reference_excerpt": "Glasmacher,S.A.; Kearns,P.K.; Hassan,Z.; Connick,P.; Tauber,S.; Reetz,K.; et al; FutureMS Consortium. The influence of disease-modifying therapy on hidden disability burden in people with newly diagnosed relapsing-remitting multiple sclerosis. Multiple Sclerosis and Related Disorders. 2022. 63; 103837. Notes: Intervention: prospective study with data aggregated of cladribine with other DMTs."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Guger 2024",
         "report_index": "1",
         "candidate_type": "doi",
@@ -2501,9 +2132,6 @@
         "reference_excerpt": "Guger,M.; Enzinger,C.; Leutmezer,F.; Di Pauli,F.; Kraus,J.; Kalcher,S.. Early intensive versus escalation treatment in patients with relapsing-remitting multiple sclerosis in Austria. Journal of Neurology. 2024. 271; 6; 3142-52. Notes: It did not report original data."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Hersh 2025",
         "report_index": "1",
         "candidate_type": "doi",
@@ -2521,9 +2149,6 @@
         "reference_excerpt": "Hersh,C.M.; Sun,Z.; Conway,D.S.; Sotirchos,E.S.; Fitzgerald,K.C.; Hua,L.H.. A 2-stage model of heterogenous treatment effects for brain atrophy in multiple sclerosis utilizing the MS PATHS research network. Multiple Sclerosis and Related Disorders. 2025. 91; 105847. Notes: Outcome not relevant. It reported MRI outcomes different to those expressed in the protocol of this review."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Kalincik 2016",
         "report_index": "1",
         "candidate_type": "title",
@@ -2541,9 +2166,6 @@
         "reference_excerpt": "Kalincik,T.; Lizak,N.; Jokubaitis,V.; Butler,E.; Lechner-Scott,J.; Slee,M.; et al; Australian MSBase Study Group. Australian cladribine experience. Multiple Sclerosis. 2016. 22; 289-90. Notes: Study design: description of the cohort of cladribine patients without any control group."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Leist 2020",
         "report_index": "1",
         "candidate_type": "doi",
@@ -2561,9 +2183,6 @@
         "reference_excerpt": "Leist,T.; Cook,S.; Comi,G.; Montalban,X.; Giovannoni,G.; Nolting,A.. Long-term safety data from the cladribine tablets clinical development program in multiple sclerosis. Multiple Sclerosis and Related Disorders. 2020. 46; 102572. Notes: Study design: prospective, observational registry, PREMIERE. Aggregated data for people who participated in at least one of the phase III studies CLARITY, CLARITY Extension and ORACLE-MS. We emailed the study sponsor (ResponsibleDatasharing@merckgroup.com) to request raw data from the individual studies, but received no reply."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "MAGNIFY MS Extension",
         "report_index": "1",
         "candidate_type": "nct_id",
@@ -2581,9 +2200,6 @@
         "reference_excerpt": "Extension to the MAGNIFY MS Trial on Mavenclad (Magnify MS Extension). https://www.clinicaltrials.gov/study/NCT04783935?term=NCT01539239%20OR%20NCT01818115%20OR%20nct02021292%20OR%20nct02924467%20OR%20nct03364036&viewType=Table&checkSpell=&rank=6&tab=results. 2021. Notes: Study excluded for study design: open label, single arm, exploratory, multicentre, 2-year, phase IV extension study in participants who have completed Trial MS700568_0022 (MAGNIFY MS). There is no control group in both studies."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "NCT04550455",
         "report_index": "1",
         "candidate_type": "nct_id",
@@ -2601,9 +2217,6 @@
         "reference_excerpt": "A prospective biomarker study in active SPMS subjects treated with cladribine tablets. https://clinicaltrials.gov/study/NCT04550455. 2020. Notes: Ongoing study excluded for study design: prospective biomarker study in active secondary progressive multiple sclerosis in people treated with cladribine tablets. There is no control group."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "PROMISE ongoing",
         "report_index": "1",
         "candidate_type": "nct_id",
@@ -2621,9 +2234,6 @@
         "reference_excerpt": "Montpellier PROspective cohort in relapsing remitting multiple sclerosis using imaging and serologic (PROMISE). https://clinicaltrials.gov/study/NCT05962177. 2023. Notes: Intervention: prospective study with data aggregated of cladribine with other DMTs."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Rojas 2024",
         "report_index": "1",
         "candidate_type": "doi",
@@ -2641,9 +2251,6 @@
         "reference_excerpt": "Rojas,J.I.; Carnero Contentti,E.; Alonso,R.; Tavolini,D.; Burgos,M.; Federico,B.. Burden of treatment and quality of life in relapsing remitting multiple sclerosis patients under early high efficacy therapy in Argentina: data from the Argentinean registry. Multiple Sclerosis and Related Disorders. 2024. 85; 105543. Notes: It did not report original data. We emailed the corresponding author (Prof. Juan I Rojas) twice to request raw data on cladribine, but received no reply."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Roos 2024",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -2661,9 +2268,6 @@
         "reference_excerpt": "Roos,I.; Sharmin,S.; Malpas,C.; Ozakbas,S.; Lechner-Scott,J.; Hodgkinson,S.. Effectiveness of cladribine compared to fingolimod, natalizumab, ocrelizumab and alemtuzumab in relapsing-remitting multiple sclerosis. Multiple Sclerosis. 2024. 30; 9; 1163-75. Notes: Ineligible outcomes: the study reported the number of events (relapses and disability worsening), rather than the number of participants. We emailed the corresponding author (Prof. Izanne Roos) to request raw data on relapse rate and disability worsening, but she informed us that these data were not available."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Sharmin 2024",
         "report_index": "1",
         "candidate_type": "doi",
@@ -2681,9 +2285,6 @@
         "reference_excerpt": "Sharmin,S.; Roos,I.; Malpas,C.B.; Iaffaldano,P.; Simone,M.; Filippi,M.. Disease-modifying therapies in managing disability worsening in paediatric-onset multiple sclerosis: a longitudinal analysis of global and national registries. Lancet Child and Adolescent Health. 2024. 8; 5; 348-57. Notes: It did not report original data."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Solari 2023",
         "report_index": "1",
         "candidate_type": "doi",
@@ -2701,9 +2302,6 @@
         "reference_excerpt": "Solari,A.; Montalban,X.; Lechner-ScottJ; Piehl,F.; Brochet,F.B.; Langdon,D.. Improvements in quality of life over 2 years in patients treated with cladribine tablets for highly active relapsing multiple sclerosis: final analysis of CLARIFY-MS. Multiple Sclerosis and Related Disorders. 2023. 71; 104356. Notes: Study design: post hoc analysis of CLARIFY-MS study looking at health-related quality of life of almost all people who were treated with cladribine tablets 3.5 mg/kg without any control group."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Wagner 2000",
         "report_index": "1",
         "candidate_type": "doi",
@@ -2721,9 +2319,6 @@
         "reference_excerpt": "Wagner,S.; Adams H-P; Sobel,D.; Slivka,L.; Sipe,J.; Romine,J.. Hypointense lesions on MRI in relapsing-remitting multiple sclerosis patients. European Neurology. 2000. 43; 194-200. Notes: Outcome: number and relationship of hypointense lesions on MR to clinical course in 50 RR MS patients included in Romine 1999. The outcomes considered are of no interest for our review."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "Weilbach 1995",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -2743,9 +2338,6 @@
     ],
     "excluded_trial_registry_records": [
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "CLAD CROSS ongoing",
         "registry_type": "NCT",
         "registry_id": "NCT04934800",
@@ -2756,9 +2348,6 @@
         "reference_excerpt": "Prospective effectiveness and safety study of cladribine in participants who change first-line DMD treatments for multiple sclerosis (CLAD CROSS). https://clinicaltrials.gov/study/NCT04934800. 2021. Notes: Ongoing study excluded for study design: 2-year prospective cohort study of people who failed first-line treatment for DMD and were switched to treatment with cladribine tablets. There is no control group."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "CLARIFY MS Extention",
         "registry_type": "NCT",
         "registry_id": "NCT04776213",
@@ -2769,9 +2358,6 @@
         "reference_excerpt": "A 2-year follow-up study to assess cognition and health-related quality of life in participants with highly-active relapsing multiple sclerosis, having participated in the CLARIFY MS Trial (CLARIFY MS Extension). https://clinicaltrials.gov/study/NCT04776213. 2021. Notes: Excluded for study design: Participants involved in CLARIFY MS are followed up for an additional 2-year period during which the participants are not treated with cladribine. There is no control group in both studies."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "CLOCK MS",
         "registry_type": "NCT",
         "registry_id": "NCT03963375",
@@ -2782,9 +2368,6 @@
         "reference_excerpt": "Cladribine tablets: collaborative study to evaluate impact on central nervous system biomarkers in multiple sclerosis (CLOCK-MS). https://clinicaltrials.gov/study/NCT03963375. 2019. Notes: Study excluded for study design: open label, randomised, multicentre collaborative research phase IV biomarker study. There is no control group."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "MAGNIFY MS Extension",
         "registry_type": "NCT",
         "registry_id": "NCT04783935",
@@ -2795,9 +2378,6 @@
         "reference_excerpt": "Extension to the MAGNIFY MS Trial on Mavenclad (Magnify MS Extension). https://www.clinicaltrials.gov/study/NCT04783935?term=NCT01539239%20OR%20NCT01818115%20OR%20nct02021292%20OR%20nct02924467%20OR%20nct03364036&viewType=Table&checkSpell=&rank=6&tab=results. 2021. Notes: Study excluded for study design: open label, single arm, exploratory, multicentre, 2-year, phase IV extension study in participants who have completed Trial MS700568_0022 (MAGNIFY MS). There is no control group in both studies."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "MAGNIFY MS Extension",
         "registry_type": "NCT",
         "registry_id": "NCT01539239",
@@ -2808,9 +2388,6 @@
         "reference_excerpt": "Extension to the MAGNIFY MS Trial on Mavenclad (Magnify MS Extension). https://www.clinicaltrials.gov/study/NCT04783935?term=NCT01539239%20OR%20NCT01818115%20OR%20nct02021292%20OR%20nct02924467%20OR%20nct03364036&viewType=Table&checkSpell=&rank=6&tab=results. 2021. Notes: Study excluded for study design: open label, single arm, exploratory, multicentre, 2-year, phase IV extension study in participants who have completed Trial MS700568_0022 (MAGNIFY MS). There is no control group in both studies."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "NCT04550455",
         "registry_type": "NCT",
         "registry_id": "NCT04550455",
@@ -2821,9 +2398,6 @@
         "reference_excerpt": "A prospective biomarker study in active SPMS subjects treated with cladribine tablets. https://clinicaltrials.gov/study/NCT04550455. 2020. Notes: Ongoing study excluded for study design: prospective biomarker study in active secondary progressive multiple sclerosis in people treated with cladribine tablets. There is no control group."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "study_label": "PROMISE ongoing",
         "registry_type": "NCT",
         "registry_id": "NCT05962177",
@@ -2836,9 +2410,6 @@
     ],
     "excluded_pubmed_summary": [
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-        "review_id": "CD013524",
         "excluded_study_blocks": "32",
         "study_blocks_with_explicit_pmid": "2",
         "study_blocks_with_doi": "19",

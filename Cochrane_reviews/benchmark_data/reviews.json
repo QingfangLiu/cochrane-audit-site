@@ -1,5 +1,5 @@
 {
-  "artifact_version": "2026-06-13-review-benchmark-v3",
+  "artifact_version": "2026-06-13-review-benchmark-v4",
   "generated_at": "2026-06-13T13:48:43+00:00",
   "reviews": [
     {
@@ -11,7 +11,6 @@
       "publication_issue": "1",
       "source_pdf_path": "../source_reviews/2026_issue_1/CD002118.pdf",
       "benchmark_path": "CD002118/benchmark.json",
-      "status_path": "CD002118/status.json",
       "status": "draft_extracted",
       "included_in_evaluation": false
     },
@@ -24,7 +23,6 @@
       "publication_issue": "1",
       "source_pdf_path": "../source_reviews/2026_issue_1/CD004366.pdf",
       "benchmark_path": "CD004366/benchmark.json",
-      "status_path": "CD004366/status.json",
       "status": "draft_extracted",
       "included_in_evaluation": false
     },
@@ -37,7 +35,6 @@
       "publication_issue": "1",
       "source_pdf_path": "../source_reviews/2026_issue_1/CD007798.pdf",
       "benchmark_path": "CD007798/benchmark.json",
-      "status_path": "CD007798/status.json",
       "status": "draft_extracted",
       "included_in_evaluation": false
     },
@@ -50,7 +47,6 @@
       "publication_issue": "1",
       "source_pdf_path": "../source_reviews/2026_issue_1/CD008112.pdf",
       "benchmark_path": "CD008112/benchmark.json",
-      "status_path": "CD008112/status.json",
       "status": "draft_extracted",
       "included_in_evaluation": false
     },
@@ -63,7 +59,6 @@
       "publication_issue": "1",
       "source_pdf_path": "../source_reviews/2026_issue_1/CD011506.pdf",
       "benchmark_path": "CD011506/benchmark.json",
-      "status_path": "CD011506/status.json",
       "status": "draft_extracted",
       "included_in_evaluation": false
     },
@@ -76,7 +71,6 @@
       "publication_issue": "1",
       "source_pdf_path": "../source_reviews/2026_issue_1/CD012589.pdf",
       "benchmark_path": "CD012589/benchmark.json",
-      "status_path": "CD012589/status.json",
       "status": "draft_extracted",
       "included_in_evaluation": false
     },
@@ -89,7 +83,6 @@
       "publication_issue": "1",
       "source_pdf_path": "../source_reviews/2026_issue_1/CD013524.pdf",
       "benchmark_path": "CD013524/benchmark.json",
-      "status_path": "CD013524/status.json",
       "status": "draft_extracted",
       "included_in_evaluation": false
     },
@@ -102,7 +95,6 @@
       "publication_issue": "1",
       "source_pdf_path": "../source_reviews/2026_issue_1/CD014353.pdf",
       "benchmark_path": "CD014353/benchmark.json",
-      "status_path": "CD014353/status.json",
       "status": "draft_extracted",
       "included_in_evaluation": false
     },
@@ -115,7 +107,6 @@
       "publication_issue": "5",
       "source_pdf_path": "../source_reviews/others/CD014811_loop_diuretics_hf.pdf",
       "benchmark_path": "CD014811_loop_diuretics_hf/benchmark.json",
-      "status_path": "CD014811_loop_diuretics_hf/status.json",
       "status": "draft_extracted",
       "included_in_evaluation": false
     }

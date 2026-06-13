@@ -11,12 +11,11 @@ Cochrane_reviews/benchmark_data/
   reviews.json
   <review_id>/
     benchmark.json
-    status.json
 ```
 
-- `reviews.json`: registry used by the audit site and benchmark launch tools.
+- `reviews.json`: registry used by the audit site and benchmark launch tools;
+  it stores review lifecycle status and `included_in_evaluation`.
 - `<review_id>/benchmark.json`: editable benchmark data for one review.
-- `<review_id>/status.json`: lifecycle state and review-local notes.
 
 Use these status values:
 
@@ -79,7 +78,6 @@ The wrapper writes review-local curation artifacts, then builds or updates:
 
 ```text
 Cochrane_reviews/benchmark_data/CD013524/benchmark.json
-Cochrane_reviews/benchmark_data/CD013524/status.json
 Cochrane_reviews/benchmark_data/reviews.json
 benchmark_questions.tsv
 ```
@@ -133,7 +131,6 @@ python3 - <<'PY'
 import json, pathlib
 paths = [pathlib.Path('Cochrane_reviews/benchmark_data/reviews.json')]
 paths += sorted(pathlib.Path('Cochrane_reviews/benchmark_data').glob('*/benchmark.json'))
-paths += sorted(pathlib.Path('Cochrane_reviews/benchmark_data').glob('*/status.json'))
 for path in paths:
     json.load(path.open())
 print(f'validated {len(paths)} JSON files')

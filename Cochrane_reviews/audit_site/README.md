@@ -19,7 +19,6 @@ At page load, `app.js` reads these files directly:
 
 - `../benchmark_data/reviews.json`
 - `../benchmark_data/<review_id>/benchmark.json`
-- `../benchmark_data/<review_id>/status.json` when available
 
 Because the site reads those source files at runtime, updating the audit is
 simple:

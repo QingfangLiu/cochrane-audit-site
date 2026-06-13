@@ -1,5 +1,5 @@
 {
-  "artifact_version": "2026-06-13-review-benchmark-v3",
+  "artifact_version": "2026-06-13-review-benchmark-v4",
   "generated_at": "2026-06-13T17:01:57+00:00",
   "review": {
     "review_id": "CD011506",
@@ -149,9 +149,6 @@
   "references": {
     "included_studies": [
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Hansen 2023",
         "reference_status": "included",
         "explicit_pmids": "37075142",
@@ -170,9 +167,6 @@
         "reference_excerpt": "Hansen,M.L.; Pellicer,A.; Hyttel-Sørensen,S.; Ergenekon,E.; Szczapa,T.; Hagmann,C.. Cerebral oximetry monitoring in extremely preterm infants. New England Journal of Medicine. 2023. 388; 16; 1501-11 NCT05134116. SafeBoosC III two-year follow-up. https://clinicaltrials.gov/study/NCT05134116. 2021 NCT03770741. Safeguarding the brain of our smallest infants phase III (SafeBoosC). https://clinicaltrials.gov/show/NCT03770741. 2018 Hansen,M.L.; Pellicer,A.; Gluud,C.; Dempsey,E.; Mintzer,J.; Hyttel-Sorensen,S.. Detailed statistical analysis plan for the SafeBoosC III trial: a multinational randomised"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Hyttel-Sorensen 2015",
         "reference_status": "included",
         "explicit_pmids": "25569128",
@@ -191,9 +185,6 @@
         "reference_excerpt": "Hyttel-Sorensen,S.; Pellicer,A.; Alderliesten,T.; Austin,T.; Van Bel,F.; Benders,M.. Cerebral near infrared spectroscopy oximetry in extremely preterm infants: Phase II randomised clinical trial. BMJ (Clinical Research Ed.). 2015. 350; g7635 Plomgaard,A.M.; Schwarz,C.E.; Claris,O.; Dempsey,E.M.; Fumagalli,M.; Hyttel-Sorensen,S.. Early cerebral hypoxia in extremely preterm infants and neurodevelopmental impairment at 2 year of age: a post hoc analysis of the SafeBoosC II trial. PloS One. 2022. 17; 1; e0262640 Plomgaard,A.M.; Alderliesten,T.; van Bel,F.; Benders,M.; Claris,O.; Cordeiro,M.. No ne"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Pichler 2016",
         "reference_status": "included",
         "explicit_pmids": "26743498",
@@ -212,9 +203,6 @@
         "reference_excerpt": "Pichler,G.; Urlesberger,B.; Baik,N.; Schwaberger,B.; Binder-Heschl,C.; Avian,A.. Cerebral oxygen saturation to guide oxygen delivery in preterm neonates for the immediate transition after birth: a 2-center randomized controlled pilot feasibility trial. Journal of Pediatrics. 2016. 170; 73-8.e1-4 [Correction in Journal of Pediatrics. 2017 Aug:187:338.doi: 10.1016/j.jpeds.2017.05.028] NCT02017691. Cerebral oxygenation to guide supplemental oxygen (COSGOD). https://clinicaltrials.gov/study/NCT02017691. 2013"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Pichler 2018",
         "reference_status": "included",
         "explicit_pmids": ".",
@@ -233,9 +221,6 @@
         "reference_excerpt": "Pichler,G.; Holler,N.; Baik-Schneditz,N.; Schwaberger,B.; Mileder,L.; Stadler,J.. Avoiding arterial hypotension in preterm neonates (AHIP). A single center randomised controlled study investigating simultaneous near infrared spectroscopy measurements of cerebral and peripheral regional tissue oxygenation and dedicated interventions. Frontiers in Pediatrics. 2018. 6; 15 NCT01910467. Avoiding hypotension in preterm neonates. https://clinicaltrials.gov/show/NCT01910467. 2013"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Pichler 2023",
         "reference_status": "included",
         "explicit_pmids": "30894226;39126518",
@@ -256,9 +241,6 @@
     ],
     "included_pubmed_records": [
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Hansen 2023",
         "pmid": "37075142",
         "pmcid": ".",
@@ -272,9 +254,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Hansen 2023",
         "pmid": "31856902",
         "pmcid": "PMC6921567",
@@ -288,9 +267,6 @@
         "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6921567/"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Hansen 2023",
         "pmid": "37805539",
         "pmcid": "PMC10560418",
@@ -304,9 +280,6 @@
         "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10560418/"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Hansen 2023",
         "pmid": "37974280",
         "pmcid": "PMC10655478",
@@ -320,9 +293,6 @@
         "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10655478/"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Hansen 2023",
         "pmid": "31888764",
         "pmcid": "PMC6937938",
@@ -336,9 +306,6 @@
         "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6937938/"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Hansen 2023",
         "pmid": "38575977",
         "pmcid": "PMC10996265",
@@ -352,9 +319,6 @@
         "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10996265/"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Hyttel-Sorensen 2015",
         "pmid": "25569128",
         "pmcid": "PMC4283997",
@@ -368,9 +332,6 @@
         "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4283997/"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Hyttel-Sorensen 2015",
         "pmid": "35073354",
         "pmcid": "PMC8786171",
@@ -384,9 +345,6 @@
         "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8786171/"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Hyttel-Sorensen 2015",
         "pmid": "29908039",
         "pmcid": "PMC6585779",
@@ -400,9 +358,6 @@
         "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6585779/"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Hyttel-Sorensen 2015",
         "pmid": "26571218",
         "pmcid": "PMC4823642",
@@ -416,9 +371,6 @@
         "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4823642/"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Hyttel-Sorensen 2015",
         "pmid": "28328980",
         "pmcid": "PMC5362210",
@@ -432,9 +384,6 @@
         "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5362210/"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Pichler 2016",
         "pmid": "26743498",
         "pmcid": ".",
@@ -448,9 +397,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Pichler 2018",
         "pmid": "29450194",
         "pmcid": "PMC5799241",
@@ -464,9 +410,6 @@
         "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5799241/"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Pichler 2023",
         "pmid": "36693654",
         "pmcid": "PMC9871806",
@@ -480,9 +423,6 @@
         "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9871806/"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Pichler 2023",
         "pmid": "30894226",
         "pmcid": "PMC6427901",
@@ -496,9 +436,6 @@
         "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6427901/"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Pichler 2023",
         "pmid": "39126518",
         "pmcid": "PMC11413120",
@@ -514,9 +451,6 @@
     ],
     "included_report_candidates": [
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Hansen 2023",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -534,9 +468,6 @@
         "reference_excerpt": "Hansen,M.L.; Pellicer,A.; Hyttel-Sørensen,S.; Ergenekon,E.; Szczapa,T.; Hagmann,C.. Cerebral oximetry monitoring in extremely preterm infants. New England Journal of Medicine. 2023. 388; 16; 1501-11"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Hansen 2023",
         "report_index": "2",
         "candidate_type": "nct_id",
@@ -554,9 +485,6 @@
         "reference_excerpt": "NCT05134116. SafeBoosC III two-year follow-up. https://clinicaltrials.gov/study/NCT05134116. 2021"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Hansen 2023",
         "report_index": "3",
         "candidate_type": "nct_id",
@@ -574,9 +502,6 @@
         "reference_excerpt": "NCT03770741. Safeguarding the brain of our smallest infants phase III (SafeBoosC). https://clinicaltrials.gov/show/NCT03770741. 2018"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Hansen 2023",
         "report_index": "4",
         "candidate_type": "doi",
@@ -594,9 +519,6 @@
         "reference_excerpt": "Hansen,M.L.; Pellicer,A.; Gluud,C.; Dempsey,E.; Mintzer,J.; Hyttel-Sorensen,S.. Detailed statistical analysis plan for the SafeBoosC III trial: a multinational randomised clinical trial assessing treatment guided by cerebral oxygenation monitoring versus treatment as usual in extremely preterm infants. Trials. 2019. 20; 1; 746"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Hansen 2023",
         "report_index": "5",
         "candidate_type": "doi",
@@ -614,9 +536,6 @@
         "reference_excerpt": "Rasmussen,M.I.; Hansen,M.L.; Pellicer,A.; Gluud,C.; Dempsey,E.; Mintzer,J.. Cerebral oximetry monitoring versus usual care for extremely preterm infants: a study protocol for the 2-year follow-up of the SafeBoosC-III randomised clinical trial. Trials. 2023. 24; 1; 653"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Hansen 2023",
         "report_index": "6",
         "candidate_type": "doi",
@@ -634,9 +553,6 @@
         "reference_excerpt": "Olsen,M.H.; Hansen,M.L.; Lange,T.; Gluud,C.; Thabane,L.; Greisen,G.. Detailed statistical analysis plan for a secondary Bayesian analysis of the SafeBoosC-III trial: a multinational, randomised clinical trial assessing treatment guided by cerebral oximetry monitoring versus usual care in extremely preterm infants. Trials. 2023. 24; 1; 737"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Hansen 2023",
         "report_index": "7",
         "candidate_type": "doi",
@@ -654,9 +570,6 @@
         "reference_excerpt": "Hansen,M.L.; Pellicer,A.; Gluud,C.; Dempsey,E.; Mintzer,J.; Hyttel-Sorensen,S.. Cerebral near-infrared spectroscopy monitoring versus treatment as usual for extremely preterm infants: a protocol for the SafeBoosC randomised clinical phase III trial. Trials. 2019. 20; 1; 811"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Hansen 2023",
         "report_index": "8",
         "candidate_type": "doi",
@@ -674,9 +587,6 @@
         "reference_excerpt": "Vestager,M.L.; Hansen,M.L.; Greisen,G.. Trials. 2024. 25; 1; 236-46"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Hyttel-Sorensen 2015",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -694,9 +604,6 @@
         "reference_excerpt": "Hyttel-Sorensen,S.; Pellicer,A.; Alderliesten,T.; Austin,T.; Van Bel,F.; Benders,M.. Cerebral near infrared spectroscopy oximetry in extremely preterm infants: Phase II randomised clinical trial. BMJ (Clinical Research Ed.). 2015. 350; g7635"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Hyttel-Sorensen 2015",
         "report_index": "2",
         "candidate_type": "doi",
@@ -714,9 +621,6 @@
         "reference_excerpt": "Plomgaard,A.M.; Schwarz,C.E.; Claris,O.; Dempsey,E.M.; Fumagalli,M.; Hyttel-Sorensen,S.. Early cerebral hypoxia in extremely preterm infants and neurodevelopmental impairment at 2 year of age: a post hoc analysis of the SafeBoosC II trial. PloS One. 2022. 17; 1; e0262640"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Hyttel-Sorensen 2015",
         "report_index": "3",
         "candidate_type": "doi",
@@ -734,9 +638,6 @@
         "reference_excerpt": "Plomgaard,A.M.; Alderliesten,T.; van Bel,F.; Benders,M.; Claris,O.; Cordeiro,M.. No neurodevelopmental benefit of cerebral oximetry in the first randomised trial (SafeBoosC II) in preterm infants during the first days of life. Acta Paediatrica. 2019. 108; 2; 275-81"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Hyttel-Sorensen 2015",
         "report_index": "4",
         "candidate_type": "title",
@@ -754,9 +655,6 @@
         "reference_excerpt": "NL-OMON37782. Safeguarding the brain of our smallest children; an investigator-initiated randomised, blinded, multinational, phase II feasibility clinical trial on near-infrared spectroscopy monitoring combined with defined treatment guidelines versus standard monitoring and treatment as usual in preterm infants - SafeBoosC. https://onderzoekmetmensen.nl/en/trial/37782. 2012"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Hyttel-Sorensen 2015",
         "report_index": "5",
         "candidate_type": "doi",
@@ -774,9 +672,6 @@
         "reference_excerpt": "Plomgaard,A.M.; Hagmann,C.; Alderliesten,T.; Austin,T.; van Bel,F.; Claris,O.. Brain injury in the international multicenter randomized SafeBoosC phase II feasibility trial: cranial ultrasound and magnetic resonance imaging assessments. Pediatric Research. 2016. 79; 3; 466-72"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Hyttel-Sorensen 2015",
         "report_index": "6",
         "candidate_type": "doi",
@@ -794,9 +689,6 @@
         "reference_excerpt": "Plomgaard,A.M.; Alderliesten,T.; Austin,T.; van Bel,F.; Benders,M.; Claris,O.. Early biomarkers of brain injury and cerebral hypo- and hyperoxia in the SafeBoosC II trial. PloS One. 2017. 12; 3; e0173440"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Hyttel-Sorensen 2015",
         "report_index": "7",
         "candidate_type": "nct_id",
@@ -814,9 +706,6 @@
         "reference_excerpt": "NCT01590316. SafeBoosC - a phase II trial (SafeBoosC). https://clinicaltrials.gov/study/NCT01590316. 2012"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Pichler 2016",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -834,9 +723,6 @@
         "reference_excerpt": "Pichler,G.; Urlesberger,B.; Baik,N.; Schwaberger,B.; Binder-Heschl,C.; Avian,A.. Cerebral oxygen saturation to guide oxygen delivery in preterm neonates for the immediate transition after birth: a 2-center randomized controlled pilot feasibility trial. Journal of Pediatrics. 2016. 170; 73-8.e1-4 [Correction in Journal of Pediatrics. 2017 Aug:187:338.doi: 10.1016/j.jpeds.2017.05.028]"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Pichler 2016",
         "report_index": "2",
         "candidate_type": "nct_id",
@@ -854,9 +740,6 @@
         "reference_excerpt": "NCT02017691. Cerebral oxygenation to guide supplemental oxygen (COSGOD). https://clinicaltrials.gov/study/NCT02017691. 2013"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Pichler 2018",
         "report_index": "1",
         "candidate_type": "doi",
@@ -874,9 +757,6 @@
         "reference_excerpt": "Pichler,G.; Holler,N.; Baik-Schneditz,N.; Schwaberger,B.; Mileder,L.; Stadler,J.. Avoiding arterial hypotension in preterm neonates (AHIP). A single center randomised controlled study investigating simultaneous near infrared spectroscopy measurements of cerebral and peripheral regional tissue oxygenation and dedicated interventions. Frontiers in Pediatrics. 2018. 6; 15"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Pichler 2018",
         "report_index": "2",
         "candidate_type": "nct_id",
@@ -894,9 +774,6 @@
         "reference_excerpt": "NCT01910467. Avoiding hypotension in preterm neonates. https://clinicaltrials.gov/show/NCT01910467. 2013"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Pichler 2023",
         "report_index": "1",
         "candidate_type": "doi",
@@ -914,9 +791,6 @@
         "reference_excerpt": "Pichler,G.; Goeral,K.; Hammerl,M.; Perme,T.; Dempsey,E.M.; Springer,L.. Cerebral regional tissue Oxygen Saturation to Guide Oxygen Delivery in preterm neonates during immediate transition after birth (COSGOD III): multicentre randomised phase 3 clinical trial. BMJ (Clinical Research Ed.). 2023. 380; e072313. Erratum in: BMJ 2023;381:p1102"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Pichler 2023",
         "report_index": "2",
         "candidate_type": "explicit_pmid",
@@ -934,9 +808,6 @@
         "reference_excerpt": "Pichler,G.; Baumgartner,S.; Biermayr,M.; Dempsey,E.; Fuchs,H.; Goos,T.G.. Cerebral regional tissue Oxygen Saturation to Guide Oxygen Delivery in preterm neonates during immediate transition after birth (COSGOD III): an investigator-initiated, randomized, multi-center, multi-national, clinical trial on additional cerebral tissue. Trials. 2019. 20; 1; 178"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Pichler 2023",
         "report_index": "3",
         "candidate_type": "explicit_pmid",
@@ -954,9 +825,6 @@
         "reference_excerpt": "Wolfsberger,C.H.; Schwaberger,B.; Urlesberger,B.; Scheuchenegger,A.; Avian,A.; Hammerl,M.. Cerebral oxygenation during immediate fetal-to-neonatal transition and fidgety movements between six to 20 weeks of corrected age: an ancillary study to the COSGOD III trial. European Journal of Pediatrics. 2024. 183; 10; 4425-33"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Pichler 2023",
         "report_index": "4",
         "candidate_type": "nct_id",
@@ -974,9 +842,6 @@
         "reference_excerpt": "NCT06141733. 2 year follow up of COSGOD III (COSGODIII-FU). https://clinicaltrials.gov/study/NCT06141733. 2023"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Pichler 2023",
         "report_index": "5",
         "candidate_type": "nct_id",
@@ -996,9 +861,6 @@
     ],
     "included_trial_registry_records": [
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Hansen 2023",
         "registry_type": "NCT",
         "registry_id": "NCT05134116",
@@ -1009,9 +871,6 @@
         "reference_excerpt": "Hansen,M.L.; Pellicer,A.; Hyttel-Sørensen,S.; Ergenekon,E.; Szczapa,T.; Hagmann,C.. Cerebral oximetry monitoring in extremely preterm infants. New England Journal of Medicine. 2023. 388; 16; 1501-11 NCT05134116. SafeBoosC III two-year follow-up. https://clinicaltrials.gov/study/NCT05134116. 2021 NCT03770741. Safeguarding the brain of our smallest infants phase III (SafeBoosC). https://clinicaltrials.gov/show/NCT03770741. 2018 Hansen,M.L.; Pellicer,A.; Gluud,C.; Dempsey,E.; Mintzer,J.; Hyttel-Sorensen,S.. Detailed statistical analysis plan for the SafeBoosC III trial: a multinational randomised"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Hansen 2023",
         "registry_type": "NCT",
         "registry_id": "NCT03770741",
@@ -1022,9 +881,6 @@
         "reference_excerpt": "Hansen,M.L.; Pellicer,A.; Hyttel-Sørensen,S.; Ergenekon,E.; Szczapa,T.; Hagmann,C.. Cerebral oximetry monitoring in extremely preterm infants. New England Journal of Medicine. 2023. 388; 16; 1501-11 NCT05134116. SafeBoosC III two-year follow-up. https://clinicaltrials.gov/study/NCT05134116. 2021 NCT03770741. Safeguarding the brain of our smallest infants phase III (SafeBoosC). https://clinicaltrials.gov/show/NCT03770741. 2018 Hansen,M.L.; Pellicer,A.; Gluud,C.; Dempsey,E.; Mintzer,J.; Hyttel-Sorensen,S.. Detailed statistical analysis plan for the SafeBoosC III trial: a multinational randomised"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Hyttel-Sorensen 2015",
         "registry_type": "NCT",
         "registry_id": "NCT01590316",
@@ -1035,9 +891,6 @@
         "reference_excerpt": "Hyttel-Sorensen,S.; Pellicer,A.; Alderliesten,T.; Austin,T.; Van Bel,F.; Benders,M.. Cerebral near infrared spectroscopy oximetry in extremely preterm infants: Phase II randomised clinical trial. BMJ (Clinical Research Ed.). 2015. 350; g7635 Plomgaard,A.M.; Schwarz,C.E.; Claris,O.; Dempsey,E.M.; Fumagalli,M.; Hyttel-Sorensen,S.. Early cerebral hypoxia in extremely preterm infants and neurodevelopmental impairment at 2 year of age: a post hoc analysis of the SafeBoosC II trial. PloS One. 2022. 17; 1; e0262640 Plomgaard,A.M.; Alderliesten,T.; van Bel,F.; Benders,M.; Claris,O.; Cordeiro,M.. No ne"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Pichler 2016",
         "registry_type": "NCT",
         "registry_id": "NCT02017691",
@@ -1048,9 +901,6 @@
         "reference_excerpt": "Pichler,G.; Urlesberger,B.; Baik,N.; Schwaberger,B.; Binder-Heschl,C.; Avian,A.. Cerebral oxygen saturation to guide oxygen delivery in preterm neonates for the immediate transition after birth: a 2-center randomized controlled pilot feasibility trial. Journal of Pediatrics. 2016. 170; 73-8.e1-4 [Correction in Journal of Pediatrics. 2017 Aug:187:338.doi: 10.1016/j.jpeds.2017.05.028] NCT02017691. Cerebral oxygenation to guide supplemental oxygen (COSGOD). https://clinicaltrials.gov/study/NCT02017691. 2013"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Pichler 2018",
         "registry_type": "NCT",
         "registry_id": "NCT01910467",
@@ -1061,9 +911,6 @@
         "reference_excerpt": "Pichler,G.; Holler,N.; Baik-Schneditz,N.; Schwaberger,B.; Mileder,L.; Stadler,J.. Avoiding arterial hypotension in preterm neonates (AHIP). A single center randomised controlled study investigating simultaneous near infrared spectroscopy measurements of cerebral and peripheral regional tissue oxygenation and dedicated interventions. Frontiers in Pediatrics. 2018. 6; 15 NCT01910467. Avoiding hypotension in preterm neonates. https://clinicaltrials.gov/show/NCT01910467. 2013"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Pichler 2023",
         "registry_type": "NCT",
         "registry_id": "NCT06141733",
@@ -1074,9 +921,6 @@
         "reference_excerpt": "Pichler,G.; Goeral,K.; Hammerl,M.; Perme,T.; Dempsey,E.M.; Springer,L.. Cerebral regional tissue Oxygen Saturation to Guide Oxygen Delivery in preterm neonates during immediate transition after birth (COSGOD III): multicentre randomised phase 3 clinical trial. BMJ (Clinical Research Ed.). 2023. 380; e072313. Erratum in: BMJ 2023;381:p1102 Pichler,G.; Baumgartner,S.; Biermayr,M.; Dempsey,E.; Fuchs,H.; Goos,T.G.. Cerebral regional tissue Oxygen Saturation to Guide Oxygen Delivery in preterm neonates during immediate transition after birth (COSGOD III): an investigator-initiated, randomized, mult"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Pichler 2023",
         "registry_type": "NCT",
         "registry_id": "NCT03166722",
@@ -1089,9 +933,6 @@
     ],
     "excluded_studies": [
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Cheng 2024",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -1112,9 +953,6 @@
     ],
     "excluded_pubmed_records": [
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Cheng 2024",
         "pmid": "38372644",
         "pmcid": "PMC11017171",
@@ -1130,9 +968,6 @@
     ],
     "excluded_report_candidates": [
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "study_label": "Cheng 2024",
         "report_index": "1",
         "candidate_type": "doi",
@@ -1153,9 +988,6 @@
     "excluded_trial_registry_records": [],
     "excluded_pubmed_summary": [
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
-        "review_id": "CD011506",
         "excluded_study_blocks": "1",
         "study_blocks_with_explicit_pmid": "0",
         "study_blocks_with_doi": "1",

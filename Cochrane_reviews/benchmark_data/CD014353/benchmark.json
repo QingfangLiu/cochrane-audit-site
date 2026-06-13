@@ -1,5 +1,5 @@
 {
-  "artifact_version": "2026-06-13-review-benchmark-v3",
+  "artifact_version": "2026-06-13-review-benchmark-v4",
   "generated_at": "2026-06-13T17:01:57+00:00",
   "review": {
     "review_id": "CD014353",
@@ -255,9 +255,6 @@
   "references": {
     "included_studies": [
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Abou El Fadl 2021",
         "reference_status": "included",
         "explicit_pmids": "34819793",
@@ -276,9 +273,6 @@
         "reference_excerpt": "Abou El Fadl,D.K.; Ahmed,M.A.; Aly,Y.A.; Darweesh,E.A.; Sabri,N.A.. Impact of docosahexaenoic acid supplementation on proinflammatory cytokines release and the development of necrotizing enterocolitis in preterm neonates: a randomized controlled study. Saudi Pharmaceutical Journal. 2021. 29; 11; 1314-22 NCT03700957. The impact of docosahexaenoic acid on the prevention of necrotizing enterocolitis in preterm neonates. https://clinicaltrials.gov/study/NCT03700957. 2018"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Baack 2016",
         "reference_status": "included",
         "explicit_pmids": "26846324",
@@ -297,9 +291,6 @@
         "reference_excerpt": "Baack,M.L.; Puumala,S.E.; Messier,S.E.; Pritchett,D.K.; Harris,W.S.. Lipids. 2016. 51; 4; 423-33"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Bernabe-Garcia 2019",
         "reference_status": "included",
         "explicit_pmids": "30614004",
@@ -318,9 +309,6 @@
         "reference_excerpt": "Bernabe-García,M.; Villegas-Silva,R.; Villavicencio-Torres,A.; Calder,P.C.; Rodríguez-Cruz,M.; Maldonado-Hernández,J.. Enteral docosahexaenoic acid and retinopathy of prematurity: a randomized clinical trial. Journal of Parenteral and Enteral Nutrition. 2019. 43; 7; 874-82"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Bernabe-García 2021",
         "reference_status": "included",
         "explicit_pmids": "33671220",
@@ -339,9 +327,6 @@
         "reference_excerpt": "Bernabe-García,M.; Calder,P.C.; Villegas-Silva,R.; Rodríguez-Cruz,M.; Chávez-Sánchez,L.; Cruz-Reynoso,L.. Efficacy of docosahexaenoic acid for the prevention of necrotizing enterocolitis in preterm infants: a randomized clinical trial. Nutrients. 2021. 13; 648; 1-15"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Collins 2017",
         "reference_status": "included",
         "explicit_pmids": "28355511",
@@ -360,9 +345,6 @@
         "reference_excerpt": "Collins,C.T.; Makrides,M.; McPhee,A.J.; Sullivan,T.R.; Davis,P.G.; Thio,M.. New England Journal of Medicine. 2017. 376; 13; 1245-55"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Frost 2021",
         "reference_status": "included",
         "explicit_pmids": "33358843",
@@ -381,9 +363,6 @@
         "reference_excerpt": "Frost,B.L.; Patel,A.L.; Robinson,D.T.; Berseth,C.L.; Cooper,T.; Caplan,M.. Randomized controlled trial of early docosahexaenoic acid and arachidonic acid enteral supplementation in very low birth weight infants. Journal of Pediatrics. 2021. 232; 23-30.e1"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Hellstrom 2021",
         "reference_status": "included",
         "explicit_pmids": "33523106",
@@ -402,9 +381,6 @@
         "reference_excerpt": "Hellström,A.; Nilsson,A.K.; Wackernagel,D.; Pivodic,A.; Vanpee,M.; Sjöbom,U.. Effect of enteral lipid supplement on severe retinopathy of prematurity: a randomized clinical trial. JAMA Pediatrics. 2021. 175; 4; 359-67"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "NCT01674478",
         "reference_status": "included",
         "explicit_pmids": ".",
@@ -423,9 +399,6 @@
         "reference_excerpt": "NCT01674478. Early supplementation of enteral microlipid with and without fish oil in premature infants with enterostomies (EMLFO-2). http://clinicaltrials.gov/study/NCT01674478. 2012"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Robinson 2016",
         "reference_status": "included",
         "explicit_pmids": "27356083",
@@ -444,9 +417,6 @@
         "reference_excerpt": "Robinson,D.T.; Caplan,M.; Carlson,S.E.; Yoder,R.; Murthy,K.; Frost,B.. Early docosahexaenoic and arachidonic acid supplementation in extremely-low-birth-weight infants. Pediatric Research. 2016. 80; 4; 505-10"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Wendel 2023",
         "reference_status": "included",
         "explicit_pmids": "36473425;38061271;37856920",
@@ -465,9 +435,6 @@
         "reference_excerpt": "Wendel,K.; Aas,M.F.; Gunnarsdottir,G.; Rossholt,M.E.; Bratlie,M.; Nordvik,T.. Effect of arachidonic and docosahexaenoic acid supplementation on respiratory outcomes and neonatal morbidities in preterm infants. Clinical Nutrition. 2023. 42; 1; 22-8 NCT03555019. Nutrition therapy in the immature infant (ImNuT). https://clinicaltrials.gov/study/NCT03555019. 2018 Moltu,S.J.; Nordvik,T.; Rossholt,M.E.; Wendel,K.; Chawla,M.; Server,A.. Arachidonic and docosahexaenoic acid supplementation and brain maturation in preterm infants; a double blind RCT. Clinical Nutrition. 2024. 43; 1; 176-86 Rossholt,M.E"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Yang 2014",
         "reference_status": "included",
         "explicit_pmids": "24630347;24603562;23453547",
@@ -488,9 +455,6 @@
     ],
     "included_pubmed_records": [
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Abou El Fadl 2021",
         "pmid": "34819793",
         "pmcid": "PMC8596146",
@@ -504,9 +468,6 @@
         "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8596146/"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Baack 2016",
         "pmid": "26846324",
         "pmcid": "PMC4818658",
@@ -520,9 +481,6 @@
         "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4818658/"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Bernabe-Garcia 2019",
         "pmid": "30614004",
         "pmcid": ".",
@@ -536,9 +494,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Bernabe-García 2021",
         "pmid": "33671220",
         "pmcid": "PMC7922869",
@@ -552,9 +507,6 @@
         "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7922869/"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Collins 2017",
         "pmid": "28355511",
         "pmcid": ".",
@@ -568,9 +520,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Frost 2021",
         "pmid": "33358843",
         "pmcid": ".",
@@ -584,9 +533,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Hellstrom 2021",
         "pmid": "33523106",
         "pmcid": "PMC7851754",
@@ -600,9 +546,6 @@
         "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7851754/"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Robinson 2016",
         "pmid": "27356083",
         "pmcid": ".",
@@ -616,9 +559,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Wendel 2023",
         "pmid": "36473425",
         "pmcid": ".",
@@ -632,9 +572,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Wendel 2023",
         "pmid": "38061271",
         "pmcid": ".",
@@ -648,9 +585,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Wendel 2023",
         "pmid": "37856920",
         "pmcid": ".",
@@ -664,9 +598,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Yang 2014",
         "pmid": "24630347",
         "pmcid": ".",
@@ -680,9 +611,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Yang 2014",
         "pmid": "24603562",
         "pmcid": ".",
@@ -696,9 +624,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Yang 2014",
         "pmid": "23453547",
         "pmcid": ".",
@@ -714,9 +639,6 @@
     ],
     "included_report_candidates": [
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Abou El Fadl 2021",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -734,9 +656,6 @@
         "reference_excerpt": "Abou El Fadl,D.K.; Ahmed,M.A.; Aly,Y.A.; Darweesh,E.A.; Sabri,N.A.. Impact of docosahexaenoic acid supplementation on proinflammatory cytokines release and the development of necrotizing enterocolitis in preterm neonates: a randomized controlled study. Saudi Pharmaceutical Journal. 2021. 29; 11; 1314-22"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Abou El Fadl 2021",
         "report_index": "2",
         "candidate_type": "nct_id",
@@ -754,9 +673,6 @@
         "reference_excerpt": "NCT03700957. The impact of docosahexaenoic acid on the prevention of necrotizing enterocolitis in preterm neonates. https://clinicaltrials.gov/study/NCT03700957. 2018"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Baack 2016",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -774,9 +690,6 @@
         "reference_excerpt": "Baack,M.L.; Puumala,S.E.; Messier,S.E.; Pritchett,D.K.; Harris,W.S.. Lipids. 2016. 51; 4; 423-33"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Bernabe-Garcia 2019",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -794,9 +707,6 @@
         "reference_excerpt": "Bernabe-García,M.; Villegas-Silva,R.; Villavicencio-Torres,A.; Calder,P.C.; Rodríguez-Cruz,M.; Maldonado-Hernández,J.. Enteral docosahexaenoic acid and retinopathy of prematurity: a randomized clinical trial. Journal of Parenteral and Enteral Nutrition. 2019. 43; 7; 874-82"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Bernabe-García 2021",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -814,9 +724,6 @@
         "reference_excerpt": "Bernabe-García,M.; Calder,P.C.; Villegas-Silva,R.; Rodríguez-Cruz,M.; Chávez-Sánchez,L.; Cruz-Reynoso,L.. Efficacy of docosahexaenoic acid for the prevention of necrotizing enterocolitis in preterm infants: a randomized clinical trial. Nutrients. 2021. 13; 648; 1-15"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Collins 2017",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -834,9 +741,6 @@
         "reference_excerpt": "Collins,C.T.; Makrides,M.; McPhee,A.J.; Sullivan,T.R.; Davis,P.G.; Thio,M.. New England Journal of Medicine. 2017. 376; 13; 1245-55"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Frost 2021",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -854,9 +758,6 @@
         "reference_excerpt": "Frost,B.L.; Patel,A.L.; Robinson,D.T.; Berseth,C.L.; Cooper,T.; Caplan,M.. Randomized controlled trial of early docosahexaenoic acid and arachidonic acid enteral supplementation in very low birth weight infants. Journal of Pediatrics. 2021. 232; 23-30.e1"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Hellstrom 2021",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -874,9 +775,6 @@
         "reference_excerpt": "Hellström,A.; Nilsson,A.K.; Wackernagel,D.; Pivodic,A.; Vanpee,M.; Sjöbom,U.. Effect of enteral lipid supplement on severe retinopathy of prematurity: a randomized clinical trial. JAMA Pediatrics. 2021. 175; 4; 359-67"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "NCT01674478",
         "report_index": "1",
         "candidate_type": "nct_id",
@@ -894,9 +792,6 @@
         "reference_excerpt": "NCT01674478. Early supplementation of enteral microlipid with and without fish oil in premature infants with enterostomies (EMLFO-2). http://clinicaltrials.gov/study/NCT01674478. 2012"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Robinson 2016",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -914,9 +809,6 @@
         "reference_excerpt": "Robinson,D.T.; Caplan,M.; Carlson,S.E.; Yoder,R.; Murthy,K.; Frost,B.. Early docosahexaenoic and arachidonic acid supplementation in extremely-low-birth-weight infants. Pediatric Research. 2016. 80; 4; 505-10"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Wendel 2023",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -934,9 +826,6 @@
         "reference_excerpt": "Wendel,K.; Aas,M.F.; Gunnarsdottir,G.; Rossholt,M.E.; Bratlie,M.; Nordvik,T.. Effect of arachidonic and docosahexaenoic acid supplementation on respiratory outcomes and neonatal morbidities in preterm infants. Clinical Nutrition. 2023. 42; 1; 22-8"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Wendel 2023",
         "report_index": "2",
         "candidate_type": "nct_id",
@@ -954,9 +843,6 @@
         "reference_excerpt": "NCT03555019. Nutrition therapy in the immature infant (ImNuT). https://clinicaltrials.gov/study/NCT03555019. 2018"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Wendel 2023",
         "report_index": "3",
         "candidate_type": "explicit_pmid",
@@ -974,9 +860,6 @@
         "reference_excerpt": "Moltu,S.J.; Nordvik,T.; Rossholt,M.E.; Wendel,K.; Chawla,M.; Server,A.. Arachidonic and docosahexaenoic acid supplementation and brain maturation in preterm infants; a double blind RCT. Clinical Nutrition. 2024. 43; 1; 176-86"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Wendel 2023",
         "report_index": "4",
         "candidate_type": "explicit_pmid",
@@ -994,9 +877,6 @@
         "reference_excerpt": "Rossholt,M.E.; Bratlie,M.; Wendel,K.; Aas,M.F.; Gunnarsdottir,G.; Fugelseth,D.. Effect of arachidonic and docosahexaenoic acid supplementation on quality of growth in preterm infants: a secondary analysis of a randomized controlled trial. Clinical Nutrition. 2023. 42; 12; 2311-9"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Yang 2014",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -1014,9 +894,6 @@
         "reference_excerpt": "Yang,Q.; Ayers,K.; Welch,C.D.; O'Shea,T.M.. Randomized controlled trial of early enteral fat supplement and fish oil to promote intestinal adaptation in premature infants with an enterostomy. Journal of Pediatrics. 2014. 165; 2; 274-9.e1"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Yang 2014",
         "report_index": "2",
         "candidate_type": "title",
@@ -1034,9 +911,6 @@
         "reference_excerpt": "Younge,N.; Yang,Q.; Seed,P.C.. Enteral high fat-polyunsaturated fatty acid blend alters the pathogen composition of the intestinal microbiome in premature infants with an enterostomy. Journal of Pediatrics. 2017. 181; 93-101"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Yang 2014",
         "report_index": "3",
         "candidate_type": "nct_id",
@@ -1054,9 +928,6 @@
         "reference_excerpt": "NCT01306838. Early provision of enteral microlipid and fish oil to infants with enterostomy. https://clinicaltrials.gov/study/NCT01306838. 2011"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Yang 2014",
         "report_index": "4",
         "candidate_type": "title",
@@ -1074,9 +945,6 @@
         "reference_excerpt": "Yang,Q.; Chen,Y.; Turner,C.; Pranikoff,T.; Petty,J.; Zeller,K.. Effect of early supplementation of enteral microlipid and fish oil on intestinal RNA, protein and fatty acid profile in premature infants with enterostomy. Pediatric Academic Societies Annual Meeting. 2013"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Yang 2014",
         "report_index": "5",
         "candidate_type": "explicit_pmid",
@@ -1094,9 +962,6 @@
         "reference_excerpt": "Yang,Q.; Ayers,K.; Chen,Y.; O'Shea,T.M.. Early enteral fat supplementation improves protein absorption in premature infants with an enterostomy. Neonatology. 2014. 106; 1; 10-6"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Yang 2014",
         "report_index": "6",
         "candidate_type": "explicit_pmid",
@@ -1114,9 +979,6 @@
         "reference_excerpt": "Yang,Q.; Ayers,K.; Chen,Y.; Helderman,J.; Welch,C.D.; O'Shea,T.M.. Early enteral fat supplement and fish oil increases fat absorption in the premature infant with an enterostomy. Journal of Pediatrics. 2013. 163; 2; 429-34"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Yang 2014",
         "report_index": "7",
         "candidate_type": "title",
@@ -1136,9 +998,6 @@
     ],
     "included_trial_registry_records": [
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Abou El Fadl 2021",
         "registry_type": "NCT",
         "registry_id": "NCT03700957",
@@ -1149,9 +1008,6 @@
         "reference_excerpt": "Abou El Fadl,D.K.; Ahmed,M.A.; Aly,Y.A.; Darweesh,E.A.; Sabri,N.A.. Impact of docosahexaenoic acid supplementation on proinflammatory cytokines release and the development of necrotizing enterocolitis in preterm neonates: a randomized controlled study. Saudi Pharmaceutical Journal. 2021. 29; 11; 1314-22 NCT03700957. The impact of docosahexaenoic acid on the prevention of necrotizing enterocolitis in preterm neonates. https://clinicaltrials.gov/study/NCT03700957. 2018"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "NCT01674478",
         "registry_type": "NCT",
         "registry_id": "NCT01674478",
@@ -1162,9 +1018,6 @@
         "reference_excerpt": "NCT01674478. Early supplementation of enteral microlipid with and without fish oil in premature infants with enterostomies (EMLFO-2). http://clinicaltrials.gov/study/NCT01674478. 2012"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Wendel 2023",
         "registry_type": "NCT",
         "registry_id": "NCT03555019",
@@ -1175,9 +1028,6 @@
         "reference_excerpt": "Wendel,K.; Aas,M.F.; Gunnarsdottir,G.; Rossholt,M.E.; Bratlie,M.; Nordvik,T.. Effect of arachidonic and docosahexaenoic acid supplementation on respiratory outcomes and neonatal morbidities in preterm infants. Clinical Nutrition. 2023. 42; 1; 22-8 NCT03555019. Nutrition therapy in the immature infant (ImNuT). https://clinicaltrials.gov/study/NCT03555019. 2018 Moltu,S.J.; Nordvik,T.; Rossholt,M.E.; Wendel,K.; Chawla,M.; Server,A.. Arachidonic and docosahexaenoic acid supplementation and brain maturation in preterm infants; a double blind RCT. Clinical Nutrition. 2024. 43; 1; 176-86 Rossholt,M.E"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Yang 2014",
         "registry_type": "NCT",
         "registry_id": "NCT01306838",
@@ -1190,9 +1040,6 @@
     ],
     "excluded_studies": [
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Álvarez 2022",
         "reference_status": "excluded",
         "explicit_pmids": "36090567",
@@ -1211,9 +1058,6 @@
         "reference_excerpt": "Álvarez,P.; Ramiro-Cortijo,D.; Montes,M.T.; Moreno,B.; Calvo,M.V.; Liu,G.. Randomized controlled trial of early arachidonic acid and docosahexaenoic acid enteral supplementation in very preterm infants. Frontiers in Pediatrics. 2022. 10; 947221. Notes: <p>Ineligible study population - The comparison was between two doses of ARA:DHA. There was no comparison with either a placebo or different enteral lipid.</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Andersen 2011",
         "reference_status": "excluded",
         "explicit_pmids": "21691253",
@@ -1232,9 +1076,6 @@
         "reference_excerpt": "Andersen,A.D.; Michaelsen,K.F.; Hellgren,L.I.; Trolle,E.; Lauritzen,L.. A randomized controlled intervention with fish oil versus sunflower oil from 9 to 18 months of age: exploring changes in growth and skinfold thicknesses. Pediatric Research. 2011. 70; 4; 368-74. Notes: <p>Ineligible study population - The population were not at risk of parenteral nutrition-associated liver disease and did not have parenteral nutrition-associated liver disease. The study population was older children.&nbsp;</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Arsenault 2019",
         "reference_status": "excluded",
         "explicit_pmids": "29596218",
@@ -1253,9 +1094,6 @@
         "reference_excerpt": "Arsenault,A.B.; Gunsalus,K.T.; Laforce-Nesbitt,S.S.; Przystac,L.; DeAngelis,E.J.; Hurley,M.E.. Dietary supplementation with medium-chain triglycerides reduces candida gastrointestinal colonization in preterm infants. Pediatric Infectious Disease Journal. 2019. 38; 2; 164-8. Notes: <p>Ineligible study population - The oil supplementation was commenced on infants who were on full feeds. Since these infants were neither had nor were at risk for parenteral nutrition-associated cholestasis, this study was excluded.</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Arun 2019",
         "reference_status": "excluded",
         "explicit_pmids": "29584924",
@@ -1274,9 +1112,6 @@
         "reference_excerpt": "Arun,S.; Kumar,M.; Paul,T.; Thomas,N.; Mathai,S.; Rebekah,G.. An open-label randomized controlled trial to compare weight gain of very low birth weight babies with or without addition of coconut oil to breast milk. Journal of Tropical Pediatrics. 2019. 65; 1; 63-70. Notes: <p>Ineligible study population - This study did not include infants at risk for parenteral nutrition associated liver disease since it included only those infants who were already on 100 ml/kg/d of feeds. This study excluded certain groups of infants who are at risk for parenteral nutrition associated liver disease such as n"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Carlson 1987",
         "reference_status": "excluded",
         "explicit_pmids": "2954026",
@@ -1295,9 +1130,6 @@
         "reference_excerpt": "Carlson,S.E.; Rhodes,P.G.; Rao,V.S.; Goldgar,D.E.. Effect of fish oil supplementation on the n-3 fatty acid content of red blood cell membranes in preterm infants. Pediatric Research. 1987. 21; 5; 507-10. Notes: <p>Ineligible study population - Study participants were not at risk for parenteral nutrition-associated liver disease since they were much older and substantial amounts of oral feeds.</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Carlson 1991",
         "reference_status": "excluded",
         "explicit_pmids": "1684416",
@@ -1316,9 +1148,6 @@
         "reference_excerpt": "Carlson,S.E.; Cooke,R.J.; Rhodes,P.G.; Peeples,J.M.; Werkman,S.H.; Tolley,E.A.. Long-term feeding of formulas high in linolenic acid and marine oil to very low birth weight infants: phospholipid fatty acids. Pediatric Research. 1991. 30; 5; 404-12. Notes: <p>Ineligible study population - Study participants were not at risk for parenteral nutrition-associated liver disease, since they were much older and substantial amount of oral feeds.The at-risk population for parenteral nutrition-associated liver disease, such as necrotizing enterocolitis, was excluded.</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Carlson 1992",
         "reference_status": "excluded",
         "explicit_pmids": "1532828",
@@ -1337,9 +1166,6 @@
         "reference_excerpt": "Carlson,S.E.; Cooke,R.J.; Rhodes,P.G.; Peeples,J.M.; Werkman,S.H.. Effect of vegetable and marine oils in preterm infant formulas on blood arachidonic and docosahexaenoic acids. Journal of Pediatrics. 1992. 120; 4 Pt 2; S159-67. Notes: <p>Ineligible study population - The study population did not include subjects who either had parenteral nutrition-associated liver disease or were at risk for parenteral nutrition-associated liver disease.</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Clandinin 2005",
         "reference_status": "excluded",
         "explicit_pmids": "15812447",
@@ -1358,9 +1184,6 @@
         "reference_excerpt": "Clandinin,M.T.; Van Aerde,J.E.; Merkel,K.L.; Harris,C.L.; Springer,M.A.; Hansen,J.W.. Growth and development of preterm infants fed infant formulas containing docosahexaenoic acid and arachidonic acid. Journal of Pediatrics. 2005. 146; 4; 461-8. Notes: <p>Ineligible study population - Study participants were not at risk for parenteral nutrition-associated liver disease, since they were much older and substantial amount of oral feeds. The at-risk population for parenteral nutrition-associated liver disease, such as necrotizing enterocolitis, was excluded.</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Collins 2015",
         "reference_status": "excluded",
         "explicit_pmids": "25997653",
@@ -1379,9 +1202,6 @@
         "reference_excerpt": "Collins,C.T.; Sullivan,T.R.; McPhee,A.J.; Stark,M.J.; Makrides,M.; Gibson,R.A.. A dose response randomised controlled trial of docosahexaenoic acid (DHA) in preterm infants. Prostaglandins Leukot Essent Fatty Acids.. 2015. 99; 1-6. Notes: <p>Ineligible study design - In this randomized control trial, the intervention group was randomized to 3 different doses of docosahexaenoic acid. However, the control group was not part of the randomization. The control group was obtained from a reference group that was not part of the randomization.</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Demmelmair 2001",
         "reference_status": "excluded",
         "explicit_pmids": "11485158",
@@ -1400,9 +1220,6 @@
         "reference_excerpt": "Demmelmair,H.; Feldl,F.; Horváth,I.; Niederland,T.; Ruszinkó,V.; Raederstorff,D.. Influence of formulas with borage oil or borage oil plus fish oil on the arachidonic acid status in premature infants. Lipids. 2001. 36; 6; 555-66. Notes: <p>Ineligible study population - Study participants were not at risk for parenteral nutrition-associated liver disease since they were much older and were on full enteral feeds.</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Ecevit 2014",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -1421,9 +1238,6 @@
         "reference_excerpt": "Ecevit,A.; Abbasoglu,A.; Tugcu,U.; Silahli,M.. PO-0588 Neonatal outcomes of very low birth weight infants who received enteral nutrition with and without olive oil support: randomised controlled pilot study. Archives of Disease in Childhood. 2014. 99; Suppl 2; A444. Notes: <p>Incomplete data - In this conference abstract, there was no sufficient data regarding the type of the oil, outcomes measured.</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Fewtrell 2004",
         "reference_status": "excluded",
         "explicit_pmids": "15069395",
@@ -1442,9 +1256,6 @@
         "reference_excerpt": "Fewtrell,M.S.; Abbott,R.A.; Kennedy,K.; Singhal,A.; Morley,R.; Caine,E.. Randomized, double-blind trial of long-chain polyunsaturated fatty acid supplementation with fish oil and borage oil in preterm infants. Journal of Pediatrics. 2004. 144; 4; 471-9. Notes: <p>Ineligible study population - The study population did not include participants with parenteral nutrition-associated liver disease or were at risk for parenteral nutrition-associated liver disease.</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Gianni 2018a",
         "reference_status": "excluded",
         "explicit_pmids": "29433457",
@@ -1463,9 +1274,6 @@
         "reference_excerpt": "Gianni,M.L.; Roggero,P.; Baudry,C.; Fressange-Mazda,C.; Galli,C.; Agostoni,C.. An infant formula containing dairy lipids increased red blood cell membrane Omega 3 fatty acids in 4 month-old healthy newborns: a randomized controlled trial. BMC Pediatrics. 2018. 18; 1; 53. Notes: <p>Ineligible study population - The study population included healthy full-term infants who neither had parenteral nutrition-associated liver disease nor were at risk for parenteral nutrition-associated liver disease.</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Gianni 2018b",
         "reference_status": "excluded",
         "explicit_pmids": "29357820",
@@ -1484,9 +1292,6 @@
         "reference_excerpt": "Gianni,M.L.; Roggero,P.; Baudry,C.; Fressange-Mazda,C.; le Ruyet,P.; Mosca,F.. No effect of adding dairy lipids or long chain polyunsaturated fatty acids on formula tolerance and growth in full term infants: a randomized controlled trial. BMC Pediatrics. 2018. 18; 1; 10. Notes: <p>Ineligible study population - The study population included healthy full-term infants who neither had parenteral nutrition-associated liver disease nor were at risk for parenteral nutrition-associated liver disease.</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Groh-Wargo 2005",
         "reference_status": "excluded",
         "explicit_pmids": "15718356",
@@ -1505,9 +1310,6 @@
         "reference_excerpt": "Groh-Wargo,S.; Jacobs,J.; Auestad,N.; O'Connor,D.L.; Moore,J.J.; Lerner,E.. Body composition in preterm infants who are fed long-chain polyunsaturated fatty acids: a prospective, randomized, controlled trial. Pediatric Research. 2005. 57; 5 PT 1; 712-8. Notes: <p>Ineligible study population - Infants were not risk for parenteral nutrition-associated liver disease nor have parenteral nutrition-associated liver disease. Infants at risk, such as necrotizing enterocolitis, were excluded from the study.</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Henriksen 2008",
         "reference_status": "excluded",
         "explicit_pmids": "18519483",
@@ -1526,9 +1328,6 @@
         "reference_excerpt": "Henriksen,C.; Haugholt,K.; Lindgren,M.; Aurvåg,A.K.; Rønnestad,A.; Grønn,M.. Improved cognitive development among preterm infants attributable to early supplementation of human milk with docosahexaenoic acid and arachidonic acid. Pediatrics. 2008. 121; 6; 1137-45. Notes: <p>Ineligible study population - The study participants were neither were at risk for parenteral nutrition-associated liver disease, nor had parenteral nutrition-associated liver disease. This study included only those infants who were on 100 ml/kg/d of enteral feeds.</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Hoffman 2008",
         "reference_status": "excluded",
         "explicit_pmids": "17912568",
@@ -1547,9 +1346,6 @@
         "reference_excerpt": "Hoffman,D.; Ziegler,E.; Mitmesser,S.H.; Harris,C.L.; Diersen-Schade,D.A.. Soy-based infant formula supplemented with DHA and ARA supports growth and increases circulating levels of these fatty acids in infants. Lipids. 2008. 43; 1; 29-35. Notes: <p>Ineligible study population - This study included only healthy full-term infants. The study participants were neither were at risk for parenteral nutrition-associated liver disease, nor had parenteral nutrition-associated liver disease.</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Hørby Jørgensen 1998",
         "reference_status": "excluded",
         "explicit_pmids": "9552137",
@@ -1568,9 +1364,6 @@
         "reference_excerpt": "Hørby Jørgensen,M.; Hølmer,G.; Lund,P.; Hernell,O.; Michaelsen,K.F.. Effect of formula supplemented with docosahexaenoic acid and gamma-linolenic acid on fatty acid status and visual acuity in term infants. Journal of Pediatric Gastroenterology and Nutrition. 1998. 26; 4; 412-21. Notes: <p>Ineligible study population -This study included only healthy full-term infants. The study participants were neither were at risk for parenteral nutrition-associated liver disease, nor had parenteral nutrition-associated liver disease.</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Koletzko 2003",
         "reference_status": "excluded",
         "explicit_pmids": "14569405",
@@ -1589,9 +1382,6 @@
         "reference_excerpt": "Koletzko,B.; Sauerwald,U.; Keicher,U.; Saule,H.; Wawatschek,S.; Böhles,H.. Fatty acid profiles, antioxidant status, and growth of preterm infants fed diets without or with long-chain polyunsaturated fatty acids. A randomized clinical trial. European Journal of Nutrition. 2003. 42; 5; 243-53. Notes: <p>Ineligible study population - Participants were not at risk for parenteral nutrition-associated liver disease, since they were on full enteral feeds at the time of enrollment.&nbsp;</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Lapillonne 2000",
         "reference_status": "excluded",
         "explicit_pmids": "11102555",
@@ -1610,9 +1400,6 @@
         "reference_excerpt": "Lapillonne,A.; Picaud,J.C.; Chirouze,V.; Goudable,J.; Reygrobellet,B.; Claris,O.. The use of low-EPA fish oil for long-chain polyunsaturated fatty acid supplementation of preterm infants. Pediatric Research. 2000. 48; 6; 835-41. Notes: <p>Ineligible study population - Participants were not at risk for parenteral nutrition-associated liver disease, since they were on full enteral feeds at the time of enrollment.</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "López-Alarcón 2006",
         "reference_status": "excluded",
         "explicit_pmids": "16750345",
@@ -1631,9 +1418,6 @@
         "reference_excerpt": "López-Alarcón,M.; Bernabe-García,M.; Del Prado,M.; Rivera,D.; Ruiz,G.; Maldonado,J.. Docosahexaenoic acid administered in the acute phase protects the nutritional status of septic neonates. Nutrition. 2006. 22; 7; 731-7. Notes: <p>Ineligible study population -Since, this study included infants with a functional gastrointestinal tract in their fourth week of life following concerns of sepsis after a surgical intervention, the study population was deemed different from the eligibility criteria for this review.</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "López-Alarcón 2012",
         "reference_status": "excluded",
         "explicit_pmids": "22079797",
@@ -1652,9 +1436,6 @@
         "reference_excerpt": "López-Alarcón,M.; Bernabe-García,M.; del Valle,O.; González-Moreno,G.; Martínez-Basilea,A.; Villegas,R.. Oral administration of docosahexaenoic acid attenuates interleukin-1β response and clinical course of septic neonates. Nutrition. 2012. 28; 4; 384-90. Notes: <p>Ineligible study population -Since, this study included infants with a functional gastrointestinal tract in their fourth week of life following concerns of sepsis, the study population was deemed different from the eligibility criteria for this review.</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Martinez 2002",
         "reference_status": "excluded",
         "explicit_pmids": "12394374",
@@ -1673,9 +1454,6 @@
         "reference_excerpt": "Martinez,F.E.; Sieber,V.M.; Jorge,S.M.; Ferlin,M.L.; Mussi-Pinhata,M.M.. Effect of supplementation of preterm formula with long-chain polyunsaturated Fatty acids on mineral balance in preterm infants. Journal of Pediatric Gastroenterology Nutrition. 2002. 35; 4; 503-7. Notes: <p>Ineligible study population - Participants were not at risk for parenteral nutrition-associated liver disease, since they were on full enteral feeds at the time of enrollment.</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "NCT01157780",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -1694,9 +1472,6 @@
         "reference_excerpt": "NCT01157780. Parenteral nutrition associated liver disease: early markers and therapy wih enteral omega-3 supplementation. https://clinicaltrials.gov/study/NCT01157780. 2010. Notes: <p>Insufficient data — Study results not available.</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "NCT02420496",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -1715,9 +1490,6 @@
         "reference_excerpt": "NCT02420496. Enteral fish oil is superior to ursodeoxycholic acid (UDCA) and placebo for the treatment of cholestasis in infants. https://clinicaltrials.gov/study/NCT02420496. 2015. Notes: <p>Unavailable data - This protocol was withdrawn from recruitment and no results were available.</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "van Wezel-Meijler 2002",
         "reference_status": "excluded",
         "explicit_pmids": "12412870",
@@ -1738,9 +1510,6 @@
     ],
     "excluded_pubmed_records": [
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Álvarez 2022",
         "pmid": "36090567",
         "pmcid": "PMC9452757",
@@ -1754,9 +1523,6 @@
         "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9452757/"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Andersen 2011",
         "pmid": "21691253",
         "pmcid": ".",
@@ -1770,9 +1536,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Arsenault 2019",
         "pmid": "29596218",
         "pmcid": "PMC6604858",
@@ -1786,9 +1549,6 @@
         "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6604858/"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Arun 2019",
         "pmid": "29584924",
         "pmcid": ".",
@@ -1802,9 +1562,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Carlson 1987",
         "pmid": "2954026",
         "pmcid": ".",
@@ -1818,9 +1575,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Carlson 1991",
         "pmid": "1684416",
         "pmcid": ".",
@@ -1834,9 +1588,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Carlson 1992",
         "pmid": "1532828",
         "pmcid": ".",
@@ -1850,9 +1601,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Clandinin 2005",
         "pmid": "15812447",
         "pmcid": ".",
@@ -1866,9 +1614,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Collins 2015",
         "pmid": "25997653",
         "pmcid": ".",
@@ -1882,9 +1627,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Demmelmair 2001",
         "pmid": "11485158",
         "pmcid": ".",
@@ -1898,9 +1640,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Fewtrell 2004",
         "pmid": "15069395",
         "pmcid": ".",
@@ -1914,9 +1653,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Gianni 2018a",
         "pmid": "29433457",
         "pmcid": "PMC5810037",
@@ -1930,9 +1666,6 @@
         "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5810037/"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Gianni 2018b",
         "pmid": "29357820",
         "pmcid": "PMC5776758",
@@ -1946,9 +1679,6 @@
         "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5776758/"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Groh-Wargo 2005",
         "pmid": "15718356",
         "pmcid": ".",
@@ -1962,9 +1692,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Henriksen 2008",
         "pmid": "18519483",
         "pmcid": ".",
@@ -1978,9 +1705,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Hoffman 2008",
         "pmid": "17912568",
         "pmcid": ".",
@@ -1994,9 +1718,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Hørby Jørgensen 1998",
         "pmid": "9552137",
         "pmcid": ".",
@@ -2010,9 +1731,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Koletzko 2003",
         "pmid": "14569405",
         "pmcid": ".",
@@ -2026,9 +1744,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Lapillonne 2000",
         "pmid": "11102555",
         "pmcid": ".",
@@ -2042,9 +1757,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "López-Alarcón 2006",
         "pmid": "16750345",
         "pmcid": ".",
@@ -2058,9 +1770,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "López-Alarcón 2012",
         "pmid": "22079797",
         "pmcid": ".",
@@ -2074,9 +1783,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Martinez 2002",
         "pmid": "12394374",
         "pmcid": ".",
@@ -2090,9 +1796,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "van Wezel-Meijler 2002",
         "pmid": "12412870",
         "pmcid": ".",
@@ -2108,9 +1811,6 @@
     ],
     "excluded_report_candidates": [
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Álvarez 2022",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -2128,9 +1828,6 @@
         "reference_excerpt": "Álvarez,P.; Ramiro-Cortijo,D.; Montes,M.T.; Moreno,B.; Calvo,M.V.; Liu,G.. Randomized controlled trial of early arachidonic acid and docosahexaenoic acid enteral supplementation in very preterm infants. Frontiers in Pediatrics. 2022. 10; 947221. Notes: <p>Ineligible study population - The comparison was between two doses of ARA:DHA. There was no comparison with either a placebo or different enteral lipid.</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Andersen 2011",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -2148,9 +1845,6 @@
         "reference_excerpt": "Andersen,A.D.; Michaelsen,K.F.; Hellgren,L.I.; Trolle,E.; Lauritzen,L.. A randomized controlled intervention with fish oil versus sunflower oil from 9 to 18 months of age: exploring changes in growth and skinfold thicknesses. Pediatric Research. 2011. 70; 4; 368-74. Notes: <p>Ineligible study population - The population were not at risk of parenteral nutrition-associated liver disease and did not have parenteral nutrition-associated liver disease. The study population was older children.&nbsp;</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Arsenault 2019",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -2168,9 +1862,6 @@
         "reference_excerpt": "Arsenault,A.B.; Gunsalus,K.T.; Laforce-Nesbitt,S.S.; Przystac,L.; DeAngelis,E.J.; Hurley,M.E.. Dietary supplementation with medium-chain triglycerides reduces candida gastrointestinal colonization in preterm infants. Pediatric Infectious Disease Journal. 2019. 38; 2; 164-8. Notes: <p>Ineligible study population - The oil supplementation was commenced on infants who were on full feeds. Since these infants were neither had nor were at risk for parenteral nutrition-associated cholestasis, this study was excluded.</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Arun 2019",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -2188,9 +1879,6 @@
         "reference_excerpt": "Arun,S.; Kumar,M.; Paul,T.; Thomas,N.; Mathai,S.; Rebekah,G.. An open-label randomized controlled trial to compare weight gain of very low birth weight babies with or without addition of coconut oil to breast milk. Journal of Tropical Pediatrics. 2019. 65; 1; 63-70. Notes: <p>Ineligible study population - This study did not include infants at risk for parenteral nutrition associated liver disease since it included only those infants who were already on 100 ml/kg/d of feeds. This study excluded certain groups of infants who are at risk for parenteral nutrition associated liver disease such as n"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Carlson 1987",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -2208,9 +1896,6 @@
         "reference_excerpt": "Carlson,S.E.; Rhodes,P.G.; Rao,V.S.; Goldgar,D.E.. Effect of fish oil supplementation on the n-3 fatty acid content of red blood cell membranes in preterm infants. Pediatric Research. 1987. 21; 5; 507-10. Notes: <p>Ineligible study population - Study participants were not at risk for parenteral nutrition-associated liver disease since they were much older and substantial amounts of oral feeds.</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Carlson 1991",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -2228,9 +1913,6 @@
         "reference_excerpt": "Carlson,S.E.; Cooke,R.J.; Rhodes,P.G.; Peeples,J.M.; Werkman,S.H.; Tolley,E.A.. Long-term feeding of formulas high in linolenic acid and marine oil to very low birth weight infants: phospholipid fatty acids. Pediatric Research. 1991. 30; 5; 404-12. Notes: <p>Ineligible study population - Study participants were not at risk for parenteral nutrition-associated liver disease, since they were much older and substantial amount of oral feeds.The at-risk population for parenteral nutrition-associated liver disease, such as necrotizing enterocolitis, was excluded.</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Carlson 1992",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -2248,9 +1930,6 @@
         "reference_excerpt": "Carlson,S.E.; Cooke,R.J.; Rhodes,P.G.; Peeples,J.M.; Werkman,S.H.. Effect of vegetable and marine oils in preterm infant formulas on blood arachidonic and docosahexaenoic acids. Journal of Pediatrics. 1992. 120; 4 Pt 2; S159-67. Notes: <p>Ineligible study population - The study population did not include subjects who either had parenteral nutrition-associated liver disease or were at risk for parenteral nutrition-associated liver disease.</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Clandinin 2005",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -2268,9 +1947,6 @@
         "reference_excerpt": "Clandinin,M.T.; Van Aerde,J.E.; Merkel,K.L.; Harris,C.L.; Springer,M.A.; Hansen,J.W.. Growth and development of preterm infants fed infant formulas containing docosahexaenoic acid and arachidonic acid. Journal of Pediatrics. 2005. 146; 4; 461-8. Notes: <p>Ineligible study population - Study participants were not at risk for parenteral nutrition-associated liver disease, since they were much older and substantial amount of oral feeds. The at-risk population for parenteral nutrition-associated liver disease, such as necrotizing enterocolitis, was excluded.</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Collins 2015",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -2288,9 +1964,6 @@
         "reference_excerpt": "Collins,C.T.; Sullivan,T.R.; McPhee,A.J.; Stark,M.J.; Makrides,M.; Gibson,R.A.. A dose response randomised controlled trial of docosahexaenoic acid (DHA) in preterm infants. Prostaglandins Leukot Essent Fatty Acids.. 2015. 99; 1-6. Notes: <p>Ineligible study design - In this randomized control trial, the intervention group was randomized to 3 different doses of docosahexaenoic acid. However, the control group was not part of the randomization. The control group was obtained from a reference group that was not part of the randomization.</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Demmelmair 2001",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -2308,9 +1981,6 @@
         "reference_excerpt": "Demmelmair,H.; Feldl,F.; Horváth,I.; Niederland,T.; Ruszinkó,V.; Raederstorff,D.. Influence of formulas with borage oil or borage oil plus fish oil on the arachidonic acid status in premature infants. Lipids. 2001. 36; 6; 555-66. Notes: <p>Ineligible study population - Study participants were not at risk for parenteral nutrition-associated liver disease since they were much older and were on full enteral feeds.</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Ecevit 2014",
         "report_index": "1",
         "candidate_type": "doi",
@@ -2328,9 +1998,6 @@
         "reference_excerpt": "Ecevit,A.; Abbasoglu,A.; Tugcu,U.; Silahli,M.. PO-0588 Neonatal outcomes of very low birth weight infants who received enteral nutrition with and without olive oil support: randomised controlled pilot study. Archives of Disease in Childhood. 2014. 99; Suppl 2; A444. Notes: <p>Incomplete data - In this conference abstract, there was no sufficient data regarding the type of the oil, outcomes measured.</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Fewtrell 2004",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -2348,9 +2015,6 @@
         "reference_excerpt": "Fewtrell,M.S.; Abbott,R.A.; Kennedy,K.; Singhal,A.; Morley,R.; Caine,E.. Randomized, double-blind trial of long-chain polyunsaturated fatty acid supplementation with fish oil and borage oil in preterm infants. Journal of Pediatrics. 2004. 144; 4; 471-9. Notes: <p>Ineligible study population - The study population did not include participants with parenteral nutrition-associated liver disease or were at risk for parenteral nutrition-associated liver disease.</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Gianni 2018a",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -2368,9 +2032,6 @@
         "reference_excerpt": "Gianni,M.L.; Roggero,P.; Baudry,C.; Fressange-Mazda,C.; Galli,C.; Agostoni,C.. An infant formula containing dairy lipids increased red blood cell membrane Omega 3 fatty acids in 4 month-old healthy newborns: a randomized controlled trial. BMC Pediatrics. 2018. 18; 1; 53. Notes: <p>Ineligible study population - The study population included healthy full-term infants who neither had parenteral nutrition-associated liver disease nor were at risk for parenteral nutrition-associated liver disease.</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Gianni 2018b",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -2388,9 +2049,6 @@
         "reference_excerpt": "Gianni,M.L.; Roggero,P.; Baudry,C.; Fressange-Mazda,C.; le Ruyet,P.; Mosca,F.. No effect of adding dairy lipids or long chain polyunsaturated fatty acids on formula tolerance and growth in full term infants: a randomized controlled trial. BMC Pediatrics. 2018. 18; 1; 10. Notes: <p>Ineligible study population - The study population included healthy full-term infants who neither had parenteral nutrition-associated liver disease nor were at risk for parenteral nutrition-associated liver disease.</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Groh-Wargo 2005",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -2408,9 +2066,6 @@
         "reference_excerpt": "Groh-Wargo,S.; Jacobs,J.; Auestad,N.; O'Connor,D.L.; Moore,J.J.; Lerner,E.. Body composition in preterm infants who are fed long-chain polyunsaturated fatty acids: a prospective, randomized, controlled trial. Pediatric Research. 2005. 57; 5 PT 1; 712-8. Notes: <p>Ineligible study population - Infants were not risk for parenteral nutrition-associated liver disease nor have parenteral nutrition-associated liver disease. Infants at risk, such as necrotizing enterocolitis, were excluded from the study.</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Henriksen 2008",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -2428,9 +2083,6 @@
         "reference_excerpt": "Henriksen,C.; Haugholt,K.; Lindgren,M.; Aurvåg,A.K.; Rønnestad,A.; Grønn,M.. Improved cognitive development among preterm infants attributable to early supplementation of human milk with docosahexaenoic acid and arachidonic acid. Pediatrics. 2008. 121; 6; 1137-45. Notes: <p>Ineligible study population - The study participants were neither were at risk for parenteral nutrition-associated liver disease, nor had parenteral nutrition-associated liver disease. This study included only those infants who were on 100 ml/kg/d of enteral feeds.</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Hoffman 2008",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -2448,9 +2100,6 @@
         "reference_excerpt": "Hoffman,D.; Ziegler,E.; Mitmesser,S.H.; Harris,C.L.; Diersen-Schade,D.A.. Soy-based infant formula supplemented with DHA and ARA supports growth and increases circulating levels of these fatty acids in infants. Lipids. 2008. 43; 1; 29-35. Notes: <p>Ineligible study population - This study included only healthy full-term infants. The study participants were neither were at risk for parenteral nutrition-associated liver disease, nor had parenteral nutrition-associated liver disease.</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Hørby Jørgensen 1998",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -2468,9 +2117,6 @@
         "reference_excerpt": "Hørby Jørgensen,M.; Hølmer,G.; Lund,P.; Hernell,O.; Michaelsen,K.F.. Effect of formula supplemented with docosahexaenoic acid and gamma-linolenic acid on fatty acid status and visual acuity in term infants. Journal of Pediatric Gastroenterology and Nutrition. 1998. 26; 4; 412-21. Notes: <p>Ineligible study population -This study included only healthy full-term infants. The study participants were neither were at risk for parenteral nutrition-associated liver disease, nor had parenteral nutrition-associated liver disease.</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Koletzko 2003",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -2488,9 +2134,6 @@
         "reference_excerpt": "Koletzko,B.; Sauerwald,U.; Keicher,U.; Saule,H.; Wawatschek,S.; Böhles,H.. Fatty acid profiles, antioxidant status, and growth of preterm infants fed diets without or with long-chain polyunsaturated fatty acids. A randomized clinical trial. European Journal of Nutrition. 2003. 42; 5; 243-53. Notes: <p>Ineligible study population - Participants were not at risk for parenteral nutrition-associated liver disease, since they were on full enteral feeds at the time of enrollment.&nbsp;</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Lapillonne 2000",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -2508,9 +2151,6 @@
         "reference_excerpt": "Lapillonne,A.; Picaud,J.C.; Chirouze,V.; Goudable,J.; Reygrobellet,B.; Claris,O.. The use of low-EPA fish oil for long-chain polyunsaturated fatty acid supplementation of preterm infants. Pediatric Research. 2000. 48; 6; 835-41. Notes: <p>Ineligible study population - Participants were not at risk for parenteral nutrition-associated liver disease, since they were on full enteral feeds at the time of enrollment.</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "López-Alarcón 2006",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -2528,9 +2168,6 @@
         "reference_excerpt": "López-Alarcón,M.; Bernabe-García,M.; Del Prado,M.; Rivera,D.; Ruiz,G.; Maldonado,J.. Docosahexaenoic acid administered in the acute phase protects the nutritional status of septic neonates. Nutrition. 2006. 22; 7; 731-7. Notes: <p>Ineligible study population -Since, this study included infants with a functional gastrointestinal tract in their fourth week of life following concerns of sepsis after a surgical intervention, the study population was deemed different from the eligibility criteria for this review.</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "López-Alarcón 2012",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -2548,9 +2185,6 @@
         "reference_excerpt": "López-Alarcón,M.; Bernabe-García,M.; del Valle,O.; González-Moreno,G.; Martínez-Basilea,A.; Villegas,R.. Oral administration of docosahexaenoic acid attenuates interleukin-1β response and clinical course of septic neonates. Nutrition. 2012. 28; 4; 384-90. Notes: <p>Ineligible study population -Since, this study included infants with a functional gastrointestinal tract in their fourth week of life following concerns of sepsis, the study population was deemed different from the eligibility criteria for this review.</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "Martinez 2002",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -2568,9 +2202,6 @@
         "reference_excerpt": "Martinez,F.E.; Sieber,V.M.; Jorge,S.M.; Ferlin,M.L.; Mussi-Pinhata,M.M.. Effect of supplementation of preterm formula with long-chain polyunsaturated Fatty acids on mineral balance in preterm infants. Journal of Pediatric Gastroenterology Nutrition. 2002. 35; 4; 503-7. Notes: <p>Ineligible study population - Participants were not at risk for parenteral nutrition-associated liver disease, since they were on full enteral feeds at the time of enrollment.</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "NCT01157780",
         "report_index": "1",
         "candidate_type": "nct_id",
@@ -2588,9 +2219,6 @@
         "reference_excerpt": "NCT01157780. Parenteral nutrition associated liver disease: early markers and therapy wih enteral omega-3 supplementation. https://clinicaltrials.gov/study/NCT01157780. 2010. Notes: <p>Insufficient data — Study results not available.</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "NCT02420496",
         "report_index": "1",
         "candidate_type": "nct_id",
@@ -2608,9 +2236,6 @@
         "reference_excerpt": "NCT02420496. Enteral fish oil is superior to ursodeoxycholic acid (UDCA) and placebo for the treatment of cholestasis in infants. https://clinicaltrials.gov/study/NCT02420496. 2015. Notes: <p>Unavailable data - This protocol was withdrawn from recruitment and no results were available.</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "van Wezel-Meijler 2002",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -2630,9 +2255,6 @@
     ],
     "excluded_trial_registry_records": [
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "NCT01157780",
         "registry_type": "NCT",
         "registry_id": "NCT01157780",
@@ -2643,9 +2265,6 @@
         "reference_excerpt": "NCT01157780. Parenteral nutrition associated liver disease: early markers and therapy wih enteral omega-3 supplementation. https://clinicaltrials.gov/study/NCT01157780. 2010. Notes: <p>Insufficient data — Study results not available.</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "study_label": "NCT02420496",
         "registry_type": "NCT",
         "registry_id": "NCT02420496",
@@ -2658,9 +2277,6 @@
     ],
     "excluded_pubmed_summary": [
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-        "review_id": "CD014353",
         "excluded_study_blocks": "26",
         "study_blocks_with_explicit_pmid": "23",
         "study_blocks_with_doi": "24",

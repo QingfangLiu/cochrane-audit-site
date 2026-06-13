@@ -1,5 +1,5 @@
 {
-  "artifact_version": "2026-06-13-review-benchmark-v3",
+  "artifact_version": "2026-06-13-review-benchmark-v4",
   "generated_at": "2026-06-13T17:01:56+00:00",
   "review": {
     "review_id": "CD007798",
@@ -145,9 +145,6 @@
   "references": {
     "included_studies": [
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Barker 2004",
         "reference_status": "included",
         "explicit_pmids": ".",
@@ -166,9 +163,6 @@
         "reference_excerpt": "Barker,P.; Anderson,A.D.; Macfie,J.. Randomised clinical trial of elective re-siting of intravenous cannulae. Annals of the Royal College of Surgeons of England. 2004. 86; 4; 281-3"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Chin 2018",
         "reference_status": "included",
         "explicit_pmids": ".",
@@ -187,9 +181,6 @@
         "reference_excerpt": "Chin,L.Y.; Walsh,T.A.; Van Haltren,K.; Hayden,L.; Davies-Tuck,M.; Malhotra,A.. Elective replacement of intravenous cannula in neonates-a randomised trial. European Journal of Pediatrics. 2018. 177; 1719-26 Chin,L.Y.; Walsh,T.A.; Van Haltren,K.; Hayden,L.; Davies‐Tuck,M.; Malhotra,A.. Elective replacement of intravenous cannula in newborn infants: a randomised control trial. Journal of Paediatrics and Child Health. 2018. 54; Suppl 1; 12"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Hosseinzadeh 2014",
         "reference_status": "included",
         "explicit_pmids": ".",
@@ -208,9 +199,6 @@
         "reference_excerpt": "Hosseinzadeh,E.; Khakshour,A.; Shakeri,A.R.; Ahmadi,A.; Lashkardoost,H.. Journal of North Khorasan University of Medical Sciences. 2014. 6; 2; 269-75"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Li 2021",
         "reference_status": "included",
         "explicit_pmids": ".",
@@ -229,9 +217,6 @@
         "reference_excerpt": "Li,J.; Ding,Y.; Lu,Q.; Jin,S.; Zhang,P.; Jiang,Z.. Routine replacement versus replacement as clinical indicated of peripheral intravenous catheters: a multisite randomised controlled trial. Journal of Clinical Nursing. 2021. 31; 19-20; 2959-70"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Lin 2021",
         "reference_status": "included",
         "explicit_pmids": ".",
@@ -250,9 +235,6 @@
         "reference_excerpt": "Lin,S.W.; Chen,S.C.; Huang,F.Y.; Lee,M.Y.; Chang,C.C.. Effects of a clinically indicated peripheral intravenous replacement on indwelling time and complications of peripheral intravenous catheters in pediatric patients: a randomized controlled trial. International Journal of Environmental Research and Public Health. 2021. 18; 7; 3795"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Lu 2021",
         "reference_status": "included",
         "explicit_pmids": ".",
@@ -271,9 +253,6 @@
         "reference_excerpt": "Lu,H.; Yang,Q.; Nor,H.M.; Lv,Y.; Zheng,X.; Xin,X.. The safety of clinically indicated replacement or routine replacement of peripheral intravenous catheters: a randomized controlled study. Journal of Vascular Access. 2021. 23; 3; 436-42"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Nishanth 2009",
         "reference_status": "included",
         "explicit_pmids": ".",
@@ -292,9 +271,6 @@
         "reference_excerpt": "Nishanth,S.; Sivaram,G.; Kalayarasan,R.; Kate,V.; Ananthakrishnan,N.. Does elective re-siting of intravenous cannulae decrease peripheral thrombophlebitis? A randomized controlled study. International Medical Journal of India. 2009. 22; 2; 60-2"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Rickard 2010",
         "reference_status": "included",
         "explicit_pmids": ".",
@@ -313,9 +289,6 @@
         "reference_excerpt": "Rickard,C.M.; McCann,D.; Munnings,J.; McGrail,M.. Routine resite of peripheral intravenous devices every 3 days did not reduce complications compared with clinically indicated re-site: a randomised controlled trial. BMC Medicine. 2010. 8; 1-10"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Rickard 2012",
         "reference_status": "included",
         "explicit_pmids": ".",
@@ -334,9 +307,6 @@
         "reference_excerpt": "Rickard,C.M.; Webster,J.; Wallis,M.C.; Marsh,N.; McGrail,M.R.; French,V.. Routine versus clinically indicated replacement of peripheral intravenous catheters: a randomised equivalence trial. Lancet. 2012. 380; 9847; 1066-74 Maki,D.G.. Clinically indicated and routine replacement of peripheral IV catheters did not differ for phlebitis. Annals of Internal Medicine. 2013. 158; 2; JC8 Tuffaha,H.W.; Rickard,C.M.; Webster,J.; Marsh,N.; Gordon,L.; Wallis,M.. Cost-effectiveness analysis of clinically indicated versus routine replacement of peripheral intravenous catheters. Applied Health Economics and"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Van Donk 2009",
         "reference_status": "included",
         "explicit_pmids": ".",
@@ -355,9 +325,6 @@
         "reference_excerpt": "Van Donk,P.; Rickard,C.M.; McGrail,M.R.; Doolan,G.. Routine replacement versus clinical monitoring of peripheral intravenous catheters in a regional hospital in the home program: a randomized controlled trial. Infection Control and Hospital Epidemiology. 2009. 30; 9; 915-7"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Vendramim 2020",
         "reference_status": "included",
         "explicit_pmids": ".",
@@ -376,9 +343,6 @@
         "reference_excerpt": "Vendramim,P.; Avelar,A.F.; Rickard,C.M.; Pedreira,M.D.. The RESPECT trial-replacement of peripheral intravenous catheters according to clinical reasons or every 96 hours: a randomized, controlled, non-inferiority trial. International Journal of Nursing Studies. 2020. 107; 103504 Vendramim,P."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Webster 2007",
         "reference_status": "included",
         "explicit_pmids": ".",
@@ -397,9 +361,6 @@
         "reference_excerpt": "Webster,J.; Lloyd,S.; Hopkins,T.; Osborne,S.; Yaxley,M.. Developing a research base for intravenous peripheral cannula re-sites (DRIP trial). A randomised controlled trial of hospital in-patients. International Journal of Nursing Studies. 2007. 44; 5; 664-71"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Webster 2008",
         "reference_status": "included",
         "explicit_pmids": ".",
@@ -418,9 +379,6 @@
         "reference_excerpt": "Webster,J.; Clarke,S.; Paterson,D.; Hutton,A.; Van Dyke,S.; Gale,C.. Routine care of peripheral intravenous catheters versus clinically indicated replacement: randomised controlled trial. BMJ (Clinical Research Ed.). 2008. 337; 337"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Xu 2017",
         "reference_status": "included",
         "explicit_pmids": ".",
@@ -441,9 +399,6 @@
     ],
     "included_pubmed_records": [
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Chin 2018",
         "pmid": "30191302",
         "pmcid": ".",
@@ -457,9 +412,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Li 2021",
         "pmid": "34779070",
         "pmcid": ".",
@@ -473,9 +425,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Lin 2021",
         "pmid": "33916497",
         "pmcid": "PMC8038579",
@@ -489,9 +438,6 @@
         "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8038579/"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Lu 2021",
         "pmid": "33706602",
         "pmcid": ".",
@@ -505,9 +451,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Vendramim 2020",
         "pmid": "32334176",
         "pmcid": ".",
@@ -521,9 +464,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Xu 2017",
         "pmid": "28990241",
         "pmcid": ".",
@@ -539,9 +479,6 @@
     ],
     "included_report_candidates": [
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Barker 2004",
         "report_index": "1",
         "candidate_type": "title",
@@ -559,9 +496,6 @@
         "reference_excerpt": "Barker,P.; Anderson,A.D.; Macfie,J.. Randomised clinical trial of elective re-siting of intravenous cannulae. Annals of the Royal College of Surgeons of England. 2004. 86; 4; 281-3"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Chin 2018",
         "report_index": "1",
         "candidate_type": "doi",
@@ -579,9 +513,6 @@
         "reference_excerpt": "Chin,L.Y.; Walsh,T.A.; Van Haltren,K.; Hayden,L.; Davies-Tuck,M.; Malhotra,A.. Elective replacement of intravenous cannula in neonates-a randomised trial. European Journal of Pediatrics. 2018. 177; 1719-26"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Chin 2018",
         "report_index": "2",
         "candidate_type": "title",
@@ -599,9 +530,6 @@
         "reference_excerpt": "Chin,L.Y.; Walsh,T.A.; Van Haltren,K.; Hayden,L.; Davies‐Tuck,M.; Malhotra,A.. Elective replacement of intravenous cannula in newborn infants: a randomised control trial. Journal of Paediatrics and Child Health. 2018. 54; Suppl 1; 12"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Hosseinzadeh 2014",
         "report_index": "1",
         "candidate_type": "title",
@@ -619,9 +547,6 @@
         "reference_excerpt": "Hosseinzadeh,E.; Khakshour,A.; Shakeri,A.R.; Ahmadi,A.; Lashkardoost,H.. Journal of North Khorasan University of Medical Sciences. 2014. 6; 2; 269-75"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Li 2021",
         "report_index": "1",
         "candidate_type": "doi",
@@ -639,9 +564,6 @@
         "reference_excerpt": "Li,J.; Ding,Y.; Lu,Q.; Jin,S.; Zhang,P.; Jiang,Z.. Routine replacement versus replacement as clinical indicated of peripheral intravenous catheters: a multisite randomised controlled trial. Journal of Clinical Nursing. 2021. 31; 19-20; 2959-70"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Lin 2021",
         "report_index": "1",
         "candidate_type": "doi",
@@ -659,9 +581,6 @@
         "reference_excerpt": "Lin,S.W.; Chen,S.C.; Huang,F.Y.; Lee,M.Y.; Chang,C.C.. Effects of a clinically indicated peripheral intravenous replacement on indwelling time and complications of peripheral intravenous catheters in pediatric patients: a randomized controlled trial. International Journal of Environmental Research and Public Health. 2021. 18; 7; 3795"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Lu 2021",
         "report_index": "1",
         "candidate_type": "doi",
@@ -679,9 +598,6 @@
         "reference_excerpt": "Lu,H.; Yang,Q.; Nor,H.M.; Lv,Y.; Zheng,X.; Xin,X.. The safety of clinically indicated replacement or routine replacement of peripheral intravenous catheters: a randomized controlled study. Journal of Vascular Access. 2021. 23; 3; 436-42"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Nishanth 2009",
         "report_index": "1",
         "candidate_type": "title",
@@ -699,9 +615,6 @@
         "reference_excerpt": "Nishanth,S.; Sivaram,G.; Kalayarasan,R.; Kate,V.; Ananthakrishnan,N.. Does elective re-siting of intravenous cannulae decrease peripheral thrombophlebitis? A randomized controlled study. International Medical Journal of India. 2009. 22; 2; 60-2"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Rickard 2010",
         "report_index": "1",
         "candidate_type": "title",
@@ -719,9 +632,6 @@
         "reference_excerpt": "Rickard,C.M.; McCann,D.; Munnings,J.; McGrail,M.. Routine resite of peripheral intravenous devices every 3 days did not reduce complications compared with clinically indicated re-site: a randomised controlled trial. BMC Medicine. 2010. 8; 1-10"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Rickard 2012",
         "report_index": "1",
         "candidate_type": "title",
@@ -739,9 +649,6 @@
         "reference_excerpt": "Rickard,C.M.; Webster,J.; Wallis,M.C.; Marsh,N.; McGrail,M.R.; French,V.. Routine versus clinically indicated replacement of peripheral intravenous catheters: a randomised equivalence trial. Lancet. 2012. 380; 9847; 1066-74"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Rickard 2012",
         "report_index": "2",
         "candidate_type": "title",
@@ -759,9 +666,6 @@
         "reference_excerpt": "Maki,D.G.. Clinically indicated and routine replacement of peripheral IV catheters did not differ for phlebitis. Annals of Internal Medicine. 2013. 158; 2; JC8"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Rickard 2012",
         "report_index": "3",
         "candidate_type": "title",
@@ -779,9 +683,6 @@
         "reference_excerpt": "Tuffaha,H.W.; Rickard,C.M.; Webster,J.; Marsh,N.; Gordon,L.; Wallis,M.. Cost-effectiveness analysis of clinically indicated versus routine replacement of peripheral intravenous catheters. Applied Health Economics and Health Policy. 2014. 12; 51-8"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Van Donk 2009",
         "report_index": "1",
         "candidate_type": "title",
@@ -799,9 +700,6 @@
         "reference_excerpt": "Van Donk,P.; Rickard,C.M.; McGrail,M.R.; Doolan,G.. Routine replacement versus clinical monitoring of peripheral intravenous catheters in a regional hospital in the home program: a randomized controlled trial. Infection Control and Hospital Epidemiology. 2009. 30; 9; 915-7"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Vendramim 2020",
         "report_index": "1",
         "candidate_type": "doi",
@@ -819,9 +717,6 @@
         "reference_excerpt": "Vendramim,P.; Avelar,A.F.; Rickard,C.M.; Pedreira,M.D.. The RESPECT trial-replacement of peripheral intravenous catheters according to clinical reasons or every 96 hours: a randomized, controlled, non-inferiority trial. International Journal of Nursing Studies. 2020. 107; 103504"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Vendramim 2020",
         "report_index": "2",
         "candidate_type": "title",
@@ -839,9 +734,6 @@
         "reference_excerpt": "Vendramim,P."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Webster 2007",
         "report_index": "1",
         "candidate_type": "title",
@@ -859,9 +751,6 @@
         "reference_excerpt": "Webster,J.; Lloyd,S.; Hopkins,T.; Osborne,S.; Yaxley,M.. Developing a research base for intravenous peripheral cannula re-sites (DRIP trial). A randomised controlled trial of hospital in-patients. International Journal of Nursing Studies. 2007. 44; 5; 664-71"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Webster 2008",
         "report_index": "1",
         "candidate_type": "title",
@@ -879,9 +768,6 @@
         "reference_excerpt": "Webster,J.; Clarke,S.; Paterson,D.; Hutton,A.; Van Dyke,S.; Gale,C.. Routine care of peripheral intravenous catheters versus clinically indicated replacement: randomised controlled trial. BMJ (Clinical Research Ed.). 2008. 337; 337"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Xu 2017",
         "report_index": "1",
         "candidate_type": "doi",
@@ -902,9 +788,6 @@
     "included_trial_registry_records": [],
     "excluded_studies": [
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Arnold 1977",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -923,9 +806,6 @@
         "reference_excerpt": "Arnold,R.E.; Elliot,E.K.; Holmes,B.H.. The importance of frequent examination of infusion sites in preventing postinfusion phlebitis. Surgery, Gynecology & Obstetrics. 1977. 145; 1; 19-20. Notes: <p>Not an RCT</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Cobb 1992",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -944,9 +824,6 @@
         "reference_excerpt": "Cobb,D.K.; High,K.P.; Sawyer,R.G.; Sable,C.A.; Adams,R.B.; Lindley,D.A.. A controlled trial of scheduled replacement of central venous and pulmonary-artery catheters. New England Journal of Medicine. 1992. 327; 15; 1062-8. Notes: <p>Involved central, not peripheral lines</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Eyer 1990",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -965,9 +842,6 @@
         "reference_excerpt": "Eyer,S.; Brummitt,C.; Crossley,K.; Siegel,R.; Cerra,F.. Catheter-related sepsis: prospective, randomized study of three methods of long-term catheter maintenance. Critical Care Medicine. 1990. 18; 10; 1073-9. Notes: <p>Involved pulmonary artery or arterial catheters, not peripheral catheters</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Haddad 2006",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -986,9 +860,6 @@
         "reference_excerpt": "Haddad,F.G.; Waked,C.H.; Zein,E.F.. Peripheral venous catheter inflammation. A randomized prospective trial. Le Journal Médical Libanais. 2006. 54; 139-45. Notes: <p>End point was lymphangitis</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Johann 2016",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -1007,9 +878,6 @@
         "reference_excerpt": "Johann,D.A.; Danski,M.T.; Vayego,S.A.; Barbosa,D.A.; Lind,J.. Risk factors for complications in peripheral intravenous catheters in adults: secondary analysis of a randomized controlled trial. Revista Latino-Americana de Enfermagem. 2016. 24; e2833-e2833. Notes: <p>Study does not compare clinically indicated change with routine replacement</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Kang 2021",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -1028,9 +896,6 @@
         "reference_excerpt": "Kang,N.. Routine versus clinically indicated replacement of peripheral intravenous catheters in adults. https://cris.nih.go.kr/cris/search/detailSearch.do?seq=18242&search_page=L&search_lang=E&lang=E&latest=Y. Notes: <p>Study is a cross-over cluster trial</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Kerin 1991",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -1049,9 +914,6 @@
         "reference_excerpt": "Kerin,M.J.; Pickford,I.R.; Jaeger,H.; Couse,N.F.; Mitchell,C.J.; Macfie,J.. A prospective and randomised study comparing the incidence of infusion phlebitis during continuous and cyclic peripheral parenteral nutrition. Clinical Nutrition (Edinburgh, Scotland). 1991. 10; 6; 315-9. Notes: <p>Participants were receiving parenteral nutrition</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "May 1996",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -1070,9 +932,6 @@
         "reference_excerpt": "May,J.; Murchan,P.; MacFie,J.; Sedman,P.; Donat,P.; Palmer,D.. Prospective study of the aetiology of infusion phlebitis and line failure during peripheral parenteral nutrition. British Journal of Surgery. 1996. 83; 8; 1091-4. Notes: <p>Participants were receiving parenteral nutrition</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Nakae 2010",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -1091,9 +950,6 @@
         "reference_excerpt": "Nakae,H.; Igarashi,T.; Tajimi,K.. Catheter-related infections via temporary vascular access catheters: a randomized prospective study. Artificial Organs. 2010. 34; 3; E72-6. Notes: <p>Involved central, not peripheral lines</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Panadero 2002",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -1112,9 +968,6 @@
         "reference_excerpt": "Panadero,A.; Iohom,G.; Taj,J.; Mackay,N.; Shorten,G.. A dedicated intravenous cannula for postoperative use. Effect on incidence and severity of phlebitis. Anaesthesia. 2002. 57; 9; 921-5. Notes: <p>Compared the use of a single intraoperative and postoperative catheters with 2 catheters, 1 used intraoperatively and a separate catheter for postoperative use</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Rijnders 2004",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -1133,9 +986,6 @@
         "reference_excerpt": "Rijnders,B.J.; Peetermans,W.E.; Verwaest,C.; Wilmer,A.; Van Wijngaerden,E.. Watchful waiting versus immediate catheter removal in ICU patients with suspected catheter-related infection: a randomized trial. Intensive Care Medicine. 2004. 30; 6; 1073-80. Notes: <p>Involved central, not peripheral lines</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Wang 2014",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -1157,9 +1007,6 @@
     "excluded_pubmed_records": [],
     "excluded_report_candidates": [
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Arnold 1977",
         "report_index": "1",
         "candidate_type": "title",
@@ -1177,9 +1024,6 @@
         "reference_excerpt": "Arnold,R.E.; Elliot,E.K.; Holmes,B.H.. The importance of frequent examination of infusion sites in preventing postinfusion phlebitis. Surgery, Gynecology & Obstetrics. 1977. 145; 1; 19-20. Notes: <p>Not an RCT</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Cobb 1992",
         "report_index": "1",
         "candidate_type": "title",
@@ -1197,9 +1041,6 @@
         "reference_excerpt": "Cobb,D.K.; High,K.P.; Sawyer,R.G.; Sable,C.A.; Adams,R.B.; Lindley,D.A.. A controlled trial of scheduled replacement of central venous and pulmonary-artery catheters. New England Journal of Medicine. 1992. 327; 15; 1062-8. Notes: <p>Involved central, not peripheral lines</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Eyer 1990",
         "report_index": "1",
         "candidate_type": "title",
@@ -1217,9 +1058,6 @@
         "reference_excerpt": "Eyer,S.; Brummitt,C.; Crossley,K.; Siegel,R.; Cerra,F.. Catheter-related sepsis: prospective, randomized study of three methods of long-term catheter maintenance. Critical Care Medicine. 1990. 18; 10; 1073-9. Notes: <p>Involved pulmonary artery or arterial catheters, not peripheral catheters</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Haddad 2006",
         "report_index": "1",
         "candidate_type": "title",
@@ -1237,9 +1075,6 @@
         "reference_excerpt": "Haddad,F.G.; Waked,C.H.; Zein,E.F.. Peripheral venous catheter inflammation. A randomized prospective trial. Le Journal Médical Libanais. 2006. 54; 139-45. Notes: <p>End point was lymphangitis</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Johann 2016",
         "report_index": "1",
         "candidate_type": "title",
@@ -1257,9 +1092,6 @@
         "reference_excerpt": "Johann,D.A.; Danski,M.T.; Vayego,S.A.; Barbosa,D.A.; Lind,J.. Risk factors for complications in peripheral intravenous catheters in adults: secondary analysis of a randomized controlled trial. Revista Latino-Americana de Enfermagem. 2016. 24; e2833-e2833. Notes: <p>Study does not compare clinically indicated change with routine replacement</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Kang 2021",
         "report_index": "1",
         "candidate_type": "title",
@@ -1277,9 +1109,6 @@
         "reference_excerpt": "Kang,N.. Routine versus clinically indicated replacement of peripheral intravenous catheters in adults. https://cris.nih.go.kr/cris/search/detailSearch.do?seq=18242&search_page=L&search_lang=E&lang=E&latest=Y. Notes: <p>Study is a cross-over cluster trial</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Kerin 1991",
         "report_index": "1",
         "candidate_type": "title",
@@ -1297,9 +1126,6 @@
         "reference_excerpt": "Kerin,M.J.; Pickford,I.R.; Jaeger,H.; Couse,N.F.; Mitchell,C.J.; Macfie,J.. A prospective and randomised study comparing the incidence of infusion phlebitis during continuous and cyclic peripheral parenteral nutrition. Clinical Nutrition (Edinburgh, Scotland). 1991. 10; 6; 315-9. Notes: <p>Participants were receiving parenteral nutrition</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "May 1996",
         "report_index": "1",
         "candidate_type": "title",
@@ -1317,9 +1143,6 @@
         "reference_excerpt": "May,J.; Murchan,P.; MacFie,J.; Sedman,P.; Donat,P.; Palmer,D.. Prospective study of the aetiology of infusion phlebitis and line failure during peripheral parenteral nutrition. British Journal of Surgery. 1996. 83; 8; 1091-4. Notes: <p>Participants were receiving parenteral nutrition</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Nakae 2010",
         "report_index": "1",
         "candidate_type": "title",
@@ -1337,9 +1160,6 @@
         "reference_excerpt": "Nakae,H.; Igarashi,T.; Tajimi,K.. Catheter-related infections via temporary vascular access catheters: a randomized prospective study. Artificial Organs. 2010. 34; 3; E72-6. Notes: <p>Involved central, not peripheral lines</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Panadero 2002",
         "report_index": "1",
         "candidate_type": "title",
@@ -1357,9 +1177,6 @@
         "reference_excerpt": "Panadero,A.; Iohom,G.; Taj,J.; Mackay,N.; Shorten,G.. A dedicated intravenous cannula for postoperative use. Effect on incidence and severity of phlebitis. Anaesthesia. 2002. 57; 9; 921-5. Notes: <p>Compared the use of a single intraoperative and postoperative catheters with 2 catheters, 1 used intraoperatively and a separate catheter for postoperative use</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Rijnders 2004",
         "report_index": "1",
         "candidate_type": "title",
@@ -1377,9 +1194,6 @@
         "reference_excerpt": "Rijnders,B.J.; Peetermans,W.E.; Verwaest,C.; Wilmer,A.; Van Wijngaerden,E.. Watchful waiting versus immediate catheter removal in ICU patients with suspected catheter-related infection: a randomized trial. Intensive Care Medicine. 2004. 30; 6; 1073-80. Notes: <p>Involved central, not peripheral lines</p>"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "study_label": "Wang 2014",
         "report_index": "1",
         "candidate_type": "doi",
@@ -1400,9 +1214,6 @@
     "excluded_trial_registry_records": [],
     "excluded_pubmed_summary": [
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-        "review_id": "CD007798",
         "excluded_study_blocks": "12",
         "study_blocks_with_explicit_pmid": "0",
         "study_blocks_with_doi": "1",

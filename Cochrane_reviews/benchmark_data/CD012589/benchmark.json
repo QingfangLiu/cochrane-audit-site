@@ -1,5 +1,5 @@
 {
-  "artifact_version": "2026-06-13-review-benchmark-v3",
+  "artifact_version": "2026-06-13-review-benchmark-v4",
   "generated_at": "2026-06-13T17:01:57+00:00",
   "review": {
     "review_id": "CD012589",
@@ -191,9 +191,6 @@
   "references": {
     "included_studies": [
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Abane 2015",
         "reference_status": "included",
         "explicit_pmids": "25568414",
@@ -212,9 +209,6 @@
         "reference_excerpt": "Abane,L.; Anract,P.; Boisgard,S.; Descamps,S.; Courpied,J.P.; Hamadouche,M.. A comparison of patient-specific and conventional instrumentation for total knee arthroplasty: a multicentre randomised controlled trial. Bone & Joint Journal. 2015. 97-B; 1; 56-63"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Abdel 2014",
         "reference_status": "included",
         "explicit_pmids": "24604110",
@@ -233,9 +227,6 @@
         "reference_excerpt": "Abdel,M.P.; Parratte,S.; Blanc,G.; Ollivier,M.; Pomero,V.; Viehweger,E.. No benefit of patient-specific instrumentation in TKA on functional and gait outcomes: a randomized clinical trial. Clinical Orthopaedics and Related Research. 2014. 472; 8; 2468-76"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Attard 2019",
         "reference_status": "included",
         "explicit_pmids": "31206056",
@@ -254,9 +245,6 @@
         "reference_excerpt": "Attard,A.; Tawy,G.F.; Simons,M.; Riches,P.; Rowe,P.; Biant,L.C.. Health costs and efficiencies of patient-specific and single-use instrumentation in total knee arthroplasty: a randomised controlled trial. BMJ Open Quality. 2019. 8(2); e000493"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Boonen 2013",
         "reference_status": "included",
         "explicit_pmids": "27365472;23928929;39403802",
@@ -275,9 +263,6 @@
         "reference_excerpt": "Boonen,B.; Schotanus,M.G.; Kerens,B.; Van der Weegen,W.; Hoekstra,H.J.; Kort,N.P.. No difference in clinical outcome between patient-matched positioning guides and conventional instrumented total knee arthroplasty two years post-operatively: a multicentre, double-blind, randomised controlled trial. Bone & Joint Journal. 2016. 98-B; 7; 939-44 Boonen,B.; Schotanus,M.G.; Kerens,B.; Van der Weegen,W.; Van Drumpt,R.A.; Kort,N.P.. Intra-operative results and radiological outcome of conventional and patient-specific surgery in total knee arthroplasty: a multicentre, randomised controlled trial. Knee"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Calliess 2017",
         "reference_status": "included",
         "explicit_pmids": "27120192",
@@ -296,9 +281,6 @@
         "reference_excerpt": "Calliess,T.; Bauer,K.; Stukenborg-Colsman,C.; Windhagen,H.; Budde,S.; Ettinger,M.. PSI kinematic versus non-PSI mechanical alignment in total knee arthroplasty: a prospective, randomized study. Knee Surgery, Sports Traumatology, Arthroscopy. 2017. 25; 6; 1743-8"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Chareancholvanich 2013",
         "reference_status": "included",
         "explicit_pmids": "23450020",
@@ -317,9 +299,6 @@
         "reference_excerpt": "Chareancholvanich,K.; Narkbunnam,R.; Pornrattanamaneewong,C.. A prospective randomised controlled study of patient-specific cutting guides compared with conventional instrumentation in total knee replacement. Bone & Joint Journal. 2013. 95-B; 3; 354-9"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Chotanaphuti 2014",
         "reference_status": "included",
         "explicit_pmids": "23999209;25518175",
@@ -338,9 +317,6 @@
         "reference_excerpt": "Chotanaphuti,T.; Wangwittayakul,V.; Khuangsirikul,S.; Foojareonyos,T.. The accuracy of component alignment in custom cutting blocks compared with conventional total knee arthroplasty instrumentation: prospective control trial. Knee. 2014. 21; 1; 185-8 Khuangsirikul,S.; Lertcharoenchoke,T.; Chotanaphuti,T.. Rotational alignment of femoral component between custom cutting block and conventional technique in total knee arthroplasty. Chotmaihet Thangphaet [Journal of the Medical Association of Thailand]. 2014. 97 Suppl 2; S47-51"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Cucchi 2019",
         "reference_status": "included",
         "explicit_pmids": "30834703",
@@ -359,9 +335,6 @@
         "reference_excerpt": "Davide,C.; Alessandra,M.; Beatrice,Z.; Riccardo,C.; Paolo,F.; Pietro,R.. Patient-specific instrumentation affects perioperative blood loss in total knee arthroplasty. Journal of Knee Surgery. 2018. 32; 6; 483-9 Davide,C.; Alessandra,M.; Alberto,A.; Giulia,S.. Patient-specific instrumentation affects rotational alignment of the femoral component in total knee arthroplasty: a prospective randomized controlled trial. Orthopaedic Surgery. 2019. 11(1); 75-81"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "De Vloo 2017",
         "reference_status": "included",
         "explicit_pmids": ".",
@@ -380,9 +353,6 @@
         "reference_excerpt": "De Vloo,R.; Pellikaan,P.; Dhollander,A.; Van der Sloten,J.. Three-dimensional analysis of accuracy of component positioning in total knee arthroplasty with patient specific and conventional instruments: a randomized controlled trial. Knee. 2017. 24; 6; 1469-77"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Ferrara 2015",
         "reference_status": "included",
         "explicit_pmids": "25901619",
@@ -401,9 +371,6 @@
         "reference_excerpt": "Ferrara,F.; Cipriani,A.; Magarelli,N.; Rapisarda,S.; De Santis,V.; Burrofato,A.. Implant positioning in TKA: comparison between conventional and patient-specific instrumentation. Orthopedics. 2015. 38; 4; e271-80"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Gan 2015",
         "reference_status": "included",
         "explicit_pmids": "26550129",
@@ -422,9 +389,6 @@
         "reference_excerpt": "Gan,Y.; Ding,J.; Xu,Y.; Hou,C.. Accuracy and efficacy of osteotomy in total knee arthroplasty with patient-specific navigational template. International Journal of Clinical and Experimental Medicine. 2015. 8; 8; 12192-201"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Giannotti 2019",
         "reference_status": "included",
         "explicit_pmids": "31147964",
@@ -443,9 +407,6 @@
         "reference_excerpt": "Giannotti,S.; Sacchetti,F.; Citarelli,C.; Bottai,V.; Bianchi,N.; Agostini,G.. Single-use, patient-specific instrumentation technology in knee arthroplasty: a comparative study between standard instrumentation and PSI efficiency system. Musculoskeletal Surgery. 2019. 104(2); 195-200"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Hamilton 2013",
         "reference_status": "included",
         "explicit_pmids": "23910821",
@@ -464,9 +425,6 @@
         "reference_excerpt": "Hamilton,W.G.; Parks,N.L.; Saxena,A.. Patient-specific instrumentation does not shorten surgical time: a prospective, randomized trial. Journal of Arthroplasty. 2013. 28; 8 Suppl; 96-100"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Hampton 2022",
         "reference_status": "included",
         "explicit_pmids": "35077818",
@@ -485,9 +443,6 @@
         "reference_excerpt": "Hampton,M.J.; Blakey,C.M.; Anderson,A.A.; Tomouk,W.M.; Buckley,S.C.; Hamer,A.J.. Minimum 5-year outcomes of a multicenter, prospective, randomized control trial assessing clinical and radiological outcomes of patient-specific instrumentation in total knee arthroplasty. Journal of Arthroplasty. 2022. 37(8); 1579-85"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Huijbregts 2016",
         "reference_status": "included",
         "explicit_pmids": "27482015",
@@ -506,9 +461,6 @@
         "reference_excerpt": "Huijbregts,H.J.; Khan,R.J.; Fick,D.P.; Hall,M.J.; Punwar,S.A.; Sorensen,E.. Component alignment and clinical outcome following total knee arthroplasty: a randomised controlled trial comparing an intramedullary alignment system with patient-specific instrumentation. Bone & Joint Journal. 2016. 98-B; 8; 1043-9"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Kosse 2017",
         "reference_status": "included",
         "explicit_pmids": "29181560",
@@ -527,9 +479,6 @@
         "reference_excerpt": "Kosse,N.M.; Heesterbeek,P.J.C.; Schimmel,J.J.P.; Van Hellemondt,G.G.; Wymenga,A.B.; Defoort,K.C.. Stability and alignment do not improve by using patient-specific instrumentation in total knee arthroplasty: a randomized controlled trial. Knee Surgery, Sports Traumatology, Arthroscopy. 2017. 26(6); 1792-9"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Kotela 2014",
         "reference_status": "included",
         "explicit_pmids": "24968788;26301241",
@@ -548,9 +497,6 @@
         "reference_excerpt": "Kotela,A.; Kotela,I.. Patient-specific computed tomography based instrumentation in total knee arthroplasty: a prospective randomized controlled study. International Orthopaedics. 2014. 38; 10; 2099-107 Kotela,A.; Lorkowski,J.; Kucharzewski,M.; Wilk-Franczuk,M.; Sliwinski,Z.; Franczuk,B.. Patient-specific CT-based instrumentation versus conventional instrumentation in total knee arthroplasty: a prospective randomized controlled study on clinical outcomes and in-hospital data. BioMedical Research International. 2015. 2015; 165908"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Liao 2024",
         "reference_status": "included",
         "explicit_pmids": "39342311",
@@ -569,9 +515,6 @@
         "reference_excerpt": "Liao,G.; Duoji,J.; Mu,L.; Zhang,Y.; Liu,X.; Cai,D.. Efficiency assessment of intelligent patient- specific instrumentation in total knee arthroplasty: a prospective randomized controlled trial. Journal of Orthopaedic Surgery and Research. 2024. 19; 593"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Lionberger 2014",
         "reference_status": "included",
         "explicit_pmids": "24810539",
@@ -590,9 +533,6 @@
         "reference_excerpt": "Lionberger,D.R.; Crocker,C.L.; Chen,V.. Patient specific instrumentation. Journal of Arthroplasty. 2014. 29; 9; 1699-704"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Maus 2018",
         "reference_status": "included",
         "explicit_pmids": "29071356",
@@ -611,9 +551,6 @@
         "reference_excerpt": "Maus,U.; Marques,C.J.; Scheunemann,D.; Lampe,F.; Lazovic,D.; Hommel,H.. No improvement in reducing outliers in coronal axis alignment with patient-specific instrumentation. Knee Surgery, Sports Traumatology, Arthroscopy. 2017. 26(9); 2788-96"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Molicnik 2015",
         "reference_status": "included",
         "explicit_pmids": "25732915",
@@ -632,9 +569,6 @@
         "reference_excerpt": "Molicnik,A.; Naranda,J.; Dolinar,D.. Patient-matched instruments versus standard instrumentation in total knee arthroplasty: a prospective randomized study. Wiener Klinische Wochenschrift. 2015. 127 Suppl 5; S235-40"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Noble 2012",
         "reference_status": "included",
         "explicit_pmids": "21908169",
@@ -653,9 +587,6 @@
         "reference_excerpt": "Noble JW Jr; Moore,C.A.; Liu,N.. The value of patient-matched instrumentation in total knee arthroplasty. Journal of Arthroplasty. 2012. 27; 1; 153-5"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Ollivier 2016",
         "reference_status": "included",
         "explicit_pmids": "25994474",
@@ -674,9 +605,6 @@
         "reference_excerpt": "Ollivier,M.; Tribot-Laspiere,Q.; Amzallag,J.; Boisrenoult,P.; Pujol,N.; Beaufils,P.. Abnormal rate of intraoperative and postoperative implant positioning outliers using \"MRI-based patient-specific\" compared to \"computer assisted\" instrumentation in total knee replacement. Knee Surgery, Sports Traumatology, Arthroscopy. 2016. 24; 11; 3441-7"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Parratte 2013",
         "reference_status": "included",
         "explicit_pmids": ".",
@@ -695,9 +623,6 @@
         "reference_excerpt": "Parratte,S.; Blanc,G.; Boussemart,T.; Ollivier,M.; Le Corroller,T.; Argenson,J.N.. Rotation in total knee arthroplasty: no difference between patient-specific and conventional instrumentation. Knee Surgery, Sports Traumatology, Arthroscopy. 2013. 21; 10; 2213-9"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Pfitzner 2014",
         "reference_status": "included",
         "explicit_pmids": "25024031",
@@ -716,9 +641,6 @@
         "reference_excerpt": "Pfitzner,T.; Abdel,M.P.; Von Roth,P.; Perka,C.; Hommel,H.. Small improvements in mechanical axis alignment achieved with MRI versus CT-based patient-specific instruments in TKA: a randomized clinical trial. Clinical Orthopaedics and Related Research. 2014. 472; 10; 2913-22"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Pietsch 2014",
         "reference_status": "included",
         "explicit_pmids": "23114870",
@@ -737,9 +659,6 @@
         "reference_excerpt": "Pietsch,M.; Djahani,O.; Zweiger,C.H.; Plattner,F.; Radl,R.; Tschauner,C.H.. Custom-fit minimally invasive total knee arthroplasty: effect on blood loss and early clinical outcomes. Knee Surgery, Sports Traumatology, Arthroscopy. 2013. 21; 10; 2234-40"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Qiu 2017",
         "reference_status": "included",
         "explicit_pmids": ".",
@@ -758,9 +677,6 @@
         "reference_excerpt": "Qiu,B.; Liu,F.; Tang,B.; Deng,B.; Liu,F.; Zhu,W.. Clinical study of 3D imaging and 3D printing technique for patient-specific instrumentation in total knee arthroplasty. Journal of Knee Surgery. 2017. 30; 8; 822-8"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Randelli 2019",
         "reference_status": "included",
         "explicit_pmids": "30979672",
@@ -779,9 +695,6 @@
         "reference_excerpt": "Randelli,P.S.; Menon,A.; Pasqualotto,S.; Zanini,B.; Compagnoni,R.; Cucchi,D.. Patient-specific instrumentation does not affect rotational alignment of the femoral component and perioperative blood loss in total knee arthroplasty: a prospective, randomized, controlled trial. Journal of Arthroplasty. 2019. 34(7); 1374-81"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Roh 2013",
         "reference_status": "included",
         "explicit_pmids": "23907610",
@@ -800,9 +713,6 @@
         "reference_excerpt": "Roh,Y.W.; Kim,T.W.; Lee,S.; Seong,S.C.; Lee,M.C.. Is TKA using patient-specific instruments comparable to conventional TKA? A randomized controlled study of one system. Clinical Orthopaedics and Related Research. 2013. 471; 12; 3988-95"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Sariali 2019",
         "reference_status": "included",
         "explicit_pmids": "31227853",
@@ -821,9 +731,6 @@
         "reference_excerpt": "Sariali,E.; Kajetanek,C.; Catonné,Y.. Comparison of custom cutting guides based on three-dimensional computerized CT-scan planning and a conventional ancillary system based on two-dimensional planning in total knee arthroplasty: a randomized controlled trial. International Orthopaedics. 2019. 43(11); 2529-38"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Silva 2014",
         "reference_status": "included",
         "explicit_pmids": "23989707",
@@ -842,9 +749,6 @@
         "reference_excerpt": "Silva,A.; Sampaio,R.; Pinto,E.. Patient-specific instrumentation improves tibial component rotation in TKA. Knee Surgery, Sports Traumatology, Arthroscopy. 2014. 22; 3; 636-42"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Stolarczyk 2018",
         "reference_status": "included",
         "explicit_pmids": "29623574",
@@ -863,9 +767,6 @@
         "reference_excerpt": "Stolarczyk,A.; Nagraba,L.; Mitek,T.; Stolarczyk,M.; Deszczynski,J.M.; Jakucinski,M.. Does patient-specific instrumentation improve femoral and tibial component alignment in total knee arthroplasty? A prospective randomized study. Advances in Experimental Medicine and Biology. 2018. 1096; 11-7"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Sun 2020",
         "reference_status": "included",
         "explicit_pmids": "32087620",
@@ -884,9 +785,6 @@
         "reference_excerpt": "Sun,M.L.; Zhang,Y.; Peng,Y.; Fu,D.J.; Fan,H.Q.; He,R.. Accuracy of a novel 3D-printed patient-specific intramedullary guide to control femoral component rotation in total knee arthroplasty. Orthopaedic Surgery. 2020. 12(2); 429-41"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Tammachote 2018",
         "reference_status": "included",
         "explicit_pmids": ".",
@@ -905,9 +803,6 @@
         "reference_excerpt": "Tammachote,N.; Panichkul,P.; Kanitnate,S.. Comparison of customized cutting block and conventional cutting instrument in total knee arthroplasty: a randomized controlled trial. Journal of Arthroplasty. 2018. 33; 3; 746-751.e3 Chanalithichai,N.; Tammachote,N.; Jitapunkul,C.; Kanitnate,S.. Rotational component alignment in patient-specific total knee arthroplasty compared with conventional cutting instrument. European Journal of Orthopedic Surgery and Traumatology. 2019. 29; 6; 1297-304"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Teeter 2019",
         "reference_status": "included",
         "explicit_pmids": "31038991",
@@ -926,9 +821,6 @@
         "reference_excerpt": "Teeter,M.G.; Marsh,J.D.; Howard,J.L.; Yuan,X.; Vasarhelyi,E.M.; McCalden,R.W.. A randomized controlled trial investigating the value of patient-specific instrumentation for total knee arthroplasty in the Canadian healthcare system. Bone Joint Journal. 2019. 101-B(5); 565-72"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Turgeon 2019",
         "reference_status": "included",
         "explicit_pmids": "31782643",
@@ -947,9 +839,6 @@
         "reference_excerpt": "Turgeon,T.R.; Cameron,B.; Burnell,C.D.; Hedden,D.R.; Bohm,E.R.. A double-blind randomized controlled trial of total knee replacement using patient-specific cutting block instrumentation versus standard instrumentation. Canadian Journal of Surgery (Journal Canadien de Chirurgie). 2019. 62(6); 460-7"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Van Leeuwen 2018",
         "reference_status": "included",
         "explicit_pmids": ".",
@@ -968,9 +857,6 @@
         "reference_excerpt": "Van Leeuwen,J.A.M.J.; Snorrason,F.; Röhrl,S.M.. No radiological and clinical advantages with patient-specific positioning guides in total knee replacement. Acta Orthopaedica. 2018. 89; 1; 89-94"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Victor 2014",
         "reference_status": "included",
         "explicit_pmids": "23616267",
@@ -989,9 +875,6 @@
         "reference_excerpt": "Victor,J.; Dujardin,J.; Vandenneucker,H.; Arnout,N.; Bellemans,J.. Patient-specific guides do not improve accuracy in total knee arthroplasty: a prospective randomized controlled trial. Clinical Orthopaedics and Related Research. 2014. 472; 1; 263-71"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Vide 2017",
         "reference_status": "included",
         "explicit_pmids": ".",
@@ -1010,9 +893,6 @@
         "reference_excerpt": "Vide,J.; Freitas,T.P.; Ramos,A.; Cruz,H.; Sousa,J.P.. Patient-specific instrumentation in total knee arthroplasty: simpler, faster and more accurate than standard instrumentation – a randomized controlled trial. Knee Surgery, Sports Traumatology, Arthroscopy. 2017. 25; 8; 2616-21"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Vundelinckx 2013",
         "reference_status": "included",
         "explicit_pmids": "23535285",
@@ -1031,9 +911,6 @@
         "reference_excerpt": "Vundelinckx,B.J.; Bruckers,L.; De Mulder,K.; De Schepper,J.; Van Esbroeck,G.. Functional and radiographic short-term outcome evaluation of the Visionaire system, a patient-matched instrumentation system for total knee arthroplasty. Journal of Arthroplasty. 2013. 28; 6; 964-70"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Woolson 2014",
         "reference_status": "included",
         "explicit_pmids": ".",
@@ -1052,9 +929,6 @@
         "reference_excerpt": "Woolson,S.T.; Harris,A.H.; Wagner,D.W.; Giori,N.J.. Component alignment during total knee arthroplasty with use of standard or custom instrumentation: a randomized clinical trial using computed tomography for postoperative alignment measurement. Journal of Bone and Joint Surgery. American Volume. 2014. 96; 5; 366-72"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Yan 2014",
         "reference_status": "included",
         "explicit_pmids": "25217311",
@@ -1073,9 +947,6 @@
         "reference_excerpt": "Yan,C.; Chiu,K.; Ng,F.; Chan,P.; Fang,C.. A randomized controlled trial comparing patient-specific instruments with conventional instruments and computer navigation in total knee arthroplasty. Osteoarthritis and Cartilage. 2014. 22; S469-70 Yan,C.H.; Chiu,K.Y.; Ng,F.Y.; Chan,P.K.; Fang,C.X.. Comparison between patient-specific instruments and conventional instruments and computer navigation in total knee arthroplasty: a randomized controlled trial. Knee Surgery, Sports Traumatology, Arthroscopy. 2015. 23; 12; 3637-45"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Zahn 2020",
         "reference_status": "included",
         "explicit_pmids": "32124032",
@@ -1094,9 +965,6 @@
         "reference_excerpt": "Zahn,R.K.; Graef,F.; Conrad,J.L.; Renner,L.; Perka,C.; Hommel,H.. Accuracy of tibial positioning in the frontal plane: a prospective study comparing conventional and innovative techniques in total knee arthroplasty. Archives of Orthopaedic and Trauma Surgery. 2020. 140(6); 793-800"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Zomar 2021",
         "reference_status": "included",
         "explicit_pmids": "34053752",
@@ -1117,9 +985,6 @@
     ],
     "included_pubmed_records": [
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Abane 2015",
         "pmid": "25568414",
         "pmcid": ".",
@@ -1133,9 +998,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Abdel 2014",
         "pmid": "24604110",
         "pmcid": "PMC4079860",
@@ -1149,9 +1011,6 @@
         "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4079860/"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Attard 2019",
         "pmid": "31206056",
         "pmcid": "PMC6542447",
@@ -1165,9 +1024,6 @@
         "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6542447/"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Boonen 2013",
         "pmid": "27365472",
         "pmcid": ".",
@@ -1181,9 +1037,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Boonen 2013",
         "pmid": "23928929",
         "pmcid": ".",
@@ -1197,9 +1050,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Boonen 2013",
         "pmid": "39403802",
         "pmcid": ".",
@@ -1213,9 +1063,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Calliess 2017",
         "pmid": "27120192",
         "pmcid": ".",
@@ -1229,9 +1076,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Chareancholvanich 2013",
         "pmid": "23450020",
         "pmcid": ".",
@@ -1245,9 +1089,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Chotanaphuti 2014",
         "pmid": "23999209",
         "pmcid": ".",
@@ -1261,9 +1102,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Chotanaphuti 2014",
         "pmid": "25518175",
         "pmcid": ".",
@@ -1277,9 +1115,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Cucchi 2019",
         "pmid": "29791925",
         "pmcid": ".",
@@ -1293,9 +1128,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Cucchi 2019",
         "pmid": "30834703",
         "pmcid": "PMC6430487",
@@ -1309,9 +1141,6 @@
         "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6430487/"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Ferrara 2015",
         "pmid": "25901619",
         "pmcid": ".",
@@ -1325,9 +1154,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Gan 2015",
         "pmid": "26550129",
         "pmcid": "PMC4612814",
@@ -1341,9 +1167,6 @@
         "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4612814/"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Giannotti 2019",
         "pmid": "31147964",
         "pmcid": ".",
@@ -1357,9 +1180,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Hamilton 2013",
         "pmid": "23910821",
         "pmcid": ".",
@@ -1373,9 +1193,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Hampton 2022",
         "pmid": "35077818",
         "pmcid": ".",
@@ -1389,9 +1206,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Huijbregts 2016",
         "pmid": "27482015",
         "pmcid": ".",
@@ -1405,9 +1219,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Kosse 2017",
         "pmid": "29181560",
         "pmcid": ".",
@@ -1421,9 +1232,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Kotela 2014",
         "pmid": "24968788",
         "pmcid": ".",
@@ -1437,9 +1245,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Kotela 2014",
         "pmid": "26301241",
         "pmcid": "PMC4537709",
@@ -1453,9 +1258,6 @@
         "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4537709/"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Liao 2024",
         "pmid": "39342311",
         "pmcid": "PMC11437994",
@@ -1469,9 +1271,6 @@
         "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11437994/"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Lionberger 2014",
         "pmid": "24810539",
         "pmcid": ".",
@@ -1485,9 +1284,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Maus 2018",
         "pmid": "29071356",
         "pmcid": ".",
@@ -1501,9 +1297,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Molicnik 2015",
         "pmid": "25732915",
         "pmcid": "PMC4689773",
@@ -1517,9 +1310,6 @@
         "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4689773/"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Noble 2012",
         "pmid": "21908169",
         "pmcid": ".",
@@ -1533,9 +1323,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Ollivier 2016",
         "pmid": "25994474",
         "pmcid": ".",
@@ -1549,9 +1336,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Pfitzner 2014",
         "pmid": "25024031",
         "pmcid": "PMC4160476",
@@ -1565,9 +1349,6 @@
         "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4160476/"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Pietsch 2014",
         "pmid": "23114870",
         "pmcid": ".",
@@ -1581,9 +1362,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Randelli 2019",
         "pmid": "30979672",
         "pmcid": ".",
@@ -1597,9 +1375,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Roh 2013",
         "pmid": "23907610",
         "pmcid": "PMC3825894",
@@ -1613,9 +1388,6 @@
         "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3825894/"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Sariali 2019",
         "pmid": "31227853",
         "pmcid": ".",
@@ -1629,9 +1401,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Silva 2014",
         "pmid": "23989707",
         "pmcid": ".",
@@ -1645,9 +1414,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Stolarczyk 2018",
         "pmid": "29623574",
         "pmcid": ".",
@@ -1661,9 +1427,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Sun 2020",
         "pmid": "32087620",
         "pmcid": "PMC7189049",
@@ -1677,9 +1440,6 @@
         "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7189049/"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Teeter 2019",
         "pmid": "31038991",
         "pmcid": ".",
@@ -1693,9 +1453,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Turgeon 2019",
         "pmid": "31782643",
         "pmcid": "PMC6877387",
@@ -1709,9 +1466,6 @@
         "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6877387/"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Victor 2014",
         "pmid": "23616267",
         "pmcid": "PMC3889461",
@@ -1725,9 +1479,6 @@
         "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3889461/"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Vundelinckx 2013",
         "pmid": "23535285",
         "pmcid": ".",
@@ -1741,9 +1492,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Woolson 2014",
         "pmid": "24599197",
         "pmcid": ".",
@@ -1757,9 +1505,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Yan 2014",
         "pmid": "25217311",
         "pmcid": ".",
@@ -1773,9 +1518,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Zahn 2020",
         "pmid": "32124032",
         "pmcid": "PMC7244465",
@@ -1789,9 +1531,6 @@
         "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7244465/"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Zomar 2021",
         "pmid": "34053752",
         "pmcid": ".",
@@ -1807,9 +1546,6 @@
     ],
     "included_report_candidates": [
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Abane 2015",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -1827,9 +1563,6 @@
         "reference_excerpt": "Abane,L.; Anract,P.; Boisgard,S.; Descamps,S.; Courpied,J.P.; Hamadouche,M.. A comparison of patient-specific and conventional instrumentation for total knee arthroplasty: a multicentre randomised controlled trial. Bone & Joint Journal. 2015. 97-B; 1; 56-63"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Abdel 2014",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -1847,9 +1580,6 @@
         "reference_excerpt": "Abdel,M.P.; Parratte,S.; Blanc,G.; Ollivier,M.; Pomero,V.; Viehweger,E.. No benefit of patient-specific instrumentation in TKA on functional and gait outcomes: a randomized clinical trial. Clinical Orthopaedics and Related Research. 2014. 472; 8; 2468-76"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Attard 2019",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -1867,9 +1597,6 @@
         "reference_excerpt": "Attard,A.; Tawy,G.F.; Simons,M.; Riches,P.; Rowe,P.; Biant,L.C.. Health costs and efficiencies of patient-specific and single-use instrumentation in total knee arthroplasty: a randomised controlled trial. BMJ Open Quality. 2019. 8(2); e000493"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Boonen 2013",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -1887,9 +1614,6 @@
         "reference_excerpt": "Boonen,B.; Schotanus,M.G.; Kerens,B.; Van der Weegen,W.; Hoekstra,H.J.; Kort,N.P.. No difference in clinical outcome between patient-matched positioning guides and conventional instrumented total knee arthroplasty two years post-operatively: a multicentre, double-blind, randomised controlled trial. Bone & Joint Journal. 2016. 98-B; 7; 939-44"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Boonen 2013",
         "report_index": "2",
         "candidate_type": "explicit_pmid",
@@ -1907,9 +1631,6 @@
         "reference_excerpt": "Boonen,B.; Schotanus,M.G.; Kerens,B.; Van der Weegen,W.; Van Drumpt,R.A.; Kort,N.P.. Intra-operative results and radiological outcome of conventional and patient-specific surgery in total knee arthroplasty: a multicentre, randomised controlled trial. Knee Surgery, Sports Traumatology, Arthroscopy. 2013. 21; 10; 2206-12"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Boonen 2013",
         "report_index": "3",
         "candidate_type": "explicit_pmid",
@@ -1927,9 +1648,6 @@
         "reference_excerpt": "Theeuwen,D.M.; Dorling,I.M.; Most,J.; Van Drumpt,R.A.; Van der Weegen,W.; Welting,T.J.. Patient-specific instrumentation improved clinical outcome and implant survival but is not superior compared to conventional total knee arthroplasty: ten years follow-up of a multicenter double-blind randomized controlled trial. Knee Surgery, Sports Traumatology, Arthroscopy. 2024. 33; 4; 1371-7"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Boonen 2013",
         "report_index": "4",
         "candidate_type": "title",
@@ -1947,9 +1665,6 @@
         "reference_excerpt": "Schotanus,M.G.M.; Boonen,B.; Van der Weegen,W.; Hoekstra,H.; Van Drumpt,R.; Borghans,R.. No difference in mid-term survival and clinical outcome between patient-specific and conventional instrumented total knee arthroplasty: a randomized controlled trial. Knee Surgery, Sports Traumatology, Arthroscopy. 2019. 27; 5; 1463-8"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Calliess 2017",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -1967,9 +1682,6 @@
         "reference_excerpt": "Calliess,T.; Bauer,K.; Stukenborg-Colsman,C.; Windhagen,H.; Budde,S.; Ettinger,M.. PSI kinematic versus non-PSI mechanical alignment in total knee arthroplasty: a prospective, randomized study. Knee Surgery, Sports Traumatology, Arthroscopy. 2017. 25; 6; 1743-8"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Chareancholvanich 2013",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -1987,9 +1699,6 @@
         "reference_excerpt": "Chareancholvanich,K.; Narkbunnam,R.; Pornrattanamaneewong,C.. A prospective randomised controlled study of patient-specific cutting guides compared with conventional instrumentation in total knee replacement. Bone & Joint Journal. 2013. 95-B; 3; 354-9"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Chotanaphuti 2014",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -2007,9 +1716,6 @@
         "reference_excerpt": "Chotanaphuti,T.; Wangwittayakul,V.; Khuangsirikul,S.; Foojareonyos,T.. The accuracy of component alignment in custom cutting blocks compared with conventional total knee arthroplasty instrumentation: prospective control trial. Knee. 2014. 21; 1; 185-8"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Chotanaphuti 2014",
         "report_index": "2",
         "candidate_type": "explicit_pmid",
@@ -2027,9 +1733,6 @@
         "reference_excerpt": "Khuangsirikul,S.; Lertcharoenchoke,T.; Chotanaphuti,T.. Rotational alignment of femoral component between custom cutting block and conventional technique in total knee arthroplasty. Chotmaihet Thangphaet [Journal of the Medical Association of Thailand]. 2014. 97 Suppl 2; S47-51"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Cucchi 2019",
         "report_index": "1",
         "candidate_type": "doi",
@@ -2047,9 +1750,6 @@
         "reference_excerpt": "Davide,C.; Alessandra,M.; Beatrice,Z.; Riccardo,C.; Paolo,F.; Pietro,R.. Patient-specific instrumentation affects perioperative blood loss in total knee arthroplasty. Journal of Knee Surgery. 2018. 32; 6; 483-9"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Cucchi 2019",
         "report_index": "2",
         "candidate_type": "explicit_pmid",
@@ -2067,9 +1767,6 @@
         "reference_excerpt": "Davide,C.; Alessandra,M.; Alberto,A.; Giulia,S.. Patient-specific instrumentation affects rotational alignment of the femoral component in total knee arthroplasty: a prospective randomized controlled trial. Orthopaedic Surgery. 2019. 11(1); 75-81"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "De Vloo 2017",
         "report_index": "1",
         "candidate_type": "title",
@@ -2087,9 +1784,6 @@
         "reference_excerpt": "De Vloo,R.; Pellikaan,P.; Dhollander,A.; Van der Sloten,J.. Three-dimensional analysis of accuracy of component positioning in total knee arthroplasty with patient specific and conventional instruments: a randomized controlled trial. Knee. 2017. 24; 6; 1469-77"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Ferrara 2015",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -2107,9 +1801,6 @@
         "reference_excerpt": "Ferrara,F.; Cipriani,A.; Magarelli,N.; Rapisarda,S.; De Santis,V.; Burrofato,A.. Implant positioning in TKA: comparison between conventional and patient-specific instrumentation. Orthopedics. 2015. 38; 4; e271-80"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Gan 2015",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -2127,9 +1818,6 @@
         "reference_excerpt": "Gan,Y.; Ding,J.; Xu,Y.; Hou,C.. Accuracy and efficacy of osteotomy in total knee arthroplasty with patient-specific navigational template. International Journal of Clinical and Experimental Medicine. 2015. 8; 8; 12192-201"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Giannotti 2019",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -2147,9 +1835,6 @@
         "reference_excerpt": "Giannotti,S.; Sacchetti,F.; Citarelli,C.; Bottai,V.; Bianchi,N.; Agostini,G.. Single-use, patient-specific instrumentation technology in knee arthroplasty: a comparative study between standard instrumentation and PSI efficiency system. Musculoskeletal Surgery. 2019. 104(2); 195-200"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Hamilton 2013",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -2167,9 +1852,6 @@
         "reference_excerpt": "Hamilton,W.G.; Parks,N.L.; Saxena,A.. Patient-specific instrumentation does not shorten surgical time: a prospective, randomized trial. Journal of Arthroplasty. 2013. 28; 8 Suppl; 96-100"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Hampton 2022",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -2187,9 +1869,6 @@
         "reference_excerpt": "Hampton,M.J.; Blakey,C.M.; Anderson,A.A.; Tomouk,W.M.; Buckley,S.C.; Hamer,A.J.. Minimum 5-year outcomes of a multicenter, prospective, randomized control trial assessing clinical and radiological outcomes of patient-specific instrumentation in total knee arthroplasty. Journal of Arthroplasty. 2022. 37(8); 1579-85"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Huijbregts 2016",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -2207,9 +1886,6 @@
         "reference_excerpt": "Huijbregts,H.J.; Khan,R.J.; Fick,D.P.; Hall,M.J.; Punwar,S.A.; Sorensen,E.. Component alignment and clinical outcome following total knee arthroplasty: a randomised controlled trial comparing an intramedullary alignment system with patient-specific instrumentation. Bone & Joint Journal. 2016. 98-B; 8; 1043-9"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Kosse 2017",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -2227,9 +1903,6 @@
         "reference_excerpt": "Kosse,N.M.; Heesterbeek,P.J.C.; Schimmel,J.J.P.; Van Hellemondt,G.G.; Wymenga,A.B.; Defoort,K.C.. Stability and alignment do not improve by using patient-specific instrumentation in total knee arthroplasty: a randomized controlled trial. Knee Surgery, Sports Traumatology, Arthroscopy. 2017. 26(6); 1792-9"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Kotela 2014",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -2247,9 +1920,6 @@
         "reference_excerpt": "Kotela,A.; Kotela,I.. Patient-specific computed tomography based instrumentation in total knee arthroplasty: a prospective randomized controlled study. International Orthopaedics. 2014. 38; 10; 2099-107"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Kotela 2014",
         "report_index": "2",
         "candidate_type": "explicit_pmid",
@@ -2267,9 +1937,6 @@
         "reference_excerpt": "Kotela,A.; Lorkowski,J.; Kucharzewski,M.; Wilk-Franczuk,M.; Sliwinski,Z.; Franczuk,B.. Patient-specific CT-based instrumentation versus conventional instrumentation in total knee arthroplasty: a prospective randomized controlled study on clinical outcomes and in-hospital data. BioMedical Research International. 2015. 2015; 165908"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Liao 2024",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -2287,9 +1954,6 @@
         "reference_excerpt": "Liao,G.; Duoji,J.; Mu,L.; Zhang,Y.; Liu,X.; Cai,D.. Efficiency assessment of intelligent patient- specific instrumentation in total knee arthroplasty: a prospective randomized controlled trial. Journal of Orthopaedic Surgery and Research. 2024. 19; 593"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Lionberger 2014",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -2307,9 +1971,6 @@
         "reference_excerpt": "Lionberger,D.R.; Crocker,C.L.; Chen,V.. Patient specific instrumentation. Journal of Arthroplasty. 2014. 29; 9; 1699-704"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Maus 2018",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -2327,9 +1988,6 @@
         "reference_excerpt": "Maus,U.; Marques,C.J.; Scheunemann,D.; Lampe,F.; Lazovic,D.; Hommel,H.. No improvement in reducing outliers in coronal axis alignment with patient-specific instrumentation. Knee Surgery, Sports Traumatology, Arthroscopy. 2017. 26(9); 2788-96"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Molicnik 2015",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -2347,9 +2005,6 @@
         "reference_excerpt": "Molicnik,A.; Naranda,J.; Dolinar,D.. Patient-matched instruments versus standard instrumentation in total knee arthroplasty: a prospective randomized study. Wiener Klinische Wochenschrift. 2015. 127 Suppl 5; S235-40"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Noble 2012",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -2367,9 +2022,6 @@
         "reference_excerpt": "Noble JW Jr; Moore,C.A.; Liu,N.. The value of patient-matched instrumentation in total knee arthroplasty. Journal of Arthroplasty. 2012. 27; 1; 153-5"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Ollivier 2016",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -2387,9 +2039,6 @@
         "reference_excerpt": "Ollivier,M.; Tribot-Laspiere,Q.; Amzallag,J.; Boisrenoult,P.; Pujol,N.; Beaufils,P.. Abnormal rate of intraoperative and postoperative implant positioning outliers using \"MRI-based patient-specific\" compared to \"computer assisted\" instrumentation in total knee replacement. Knee Surgery, Sports Traumatology, Arthroscopy. 2016. 24; 11; 3441-7"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Parratte 2013",
         "report_index": "1",
         "candidate_type": "title",
@@ -2407,9 +2056,6 @@
         "reference_excerpt": "Parratte,S.; Blanc,G.; Boussemart,T.; Ollivier,M.; Le Corroller,T.; Argenson,J.N.. Rotation in total knee arthroplasty: no difference between patient-specific and conventional instrumentation. Knee Surgery, Sports Traumatology, Arthroscopy. 2013. 21; 10; 2213-9"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Pfitzner 2014",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -2427,9 +2073,6 @@
         "reference_excerpt": "Pfitzner,T.; Abdel,M.P.; Von Roth,P.; Perka,C.; Hommel,H.. Small improvements in mechanical axis alignment achieved with MRI versus CT-based patient-specific instruments in TKA: a randomized clinical trial. Clinical Orthopaedics and Related Research. 2014. 472; 10; 2913-22"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Pietsch 2014",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -2447,9 +2090,6 @@
         "reference_excerpt": "Pietsch,M.; Djahani,O.; Zweiger,C.H.; Plattner,F.; Radl,R.; Tschauner,C.H.. Custom-fit minimally invasive total knee arthroplasty: effect on blood loss and early clinical outcomes. Knee Surgery, Sports Traumatology, Arthroscopy. 2013. 21; 10; 2234-40"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Qiu 2017",
         "report_index": "1",
         "candidate_type": "title",
@@ -2467,9 +2107,6 @@
         "reference_excerpt": "Qiu,B.; Liu,F.; Tang,B.; Deng,B.; Liu,F.; Zhu,W.. Clinical study of 3D imaging and 3D printing technique for patient-specific instrumentation in total knee arthroplasty. Journal of Knee Surgery. 2017. 30; 8; 822-8"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Randelli 2019",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -2487,9 +2124,6 @@
         "reference_excerpt": "Randelli,P.S.; Menon,A.; Pasqualotto,S.; Zanini,B.; Compagnoni,R.; Cucchi,D.. Patient-specific instrumentation does not affect rotational alignment of the femoral component and perioperative blood loss in total knee arthroplasty: a prospective, randomized, controlled trial. Journal of Arthroplasty. 2019. 34(7); 1374-81"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Roh 2013",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -2507,9 +2141,6 @@
         "reference_excerpt": "Roh,Y.W.; Kim,T.W.; Lee,S.; Seong,S.C.; Lee,M.C.. Is TKA using patient-specific instruments comparable to conventional TKA? A randomized controlled study of one system. Clinical Orthopaedics and Related Research. 2013. 471; 12; 3988-95"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Sariali 2019",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -2527,9 +2158,6 @@
         "reference_excerpt": "Sariali,E.; Kajetanek,C.; Catonné,Y.. Comparison of custom cutting guides based on three-dimensional computerized CT-scan planning and a conventional ancillary system based on two-dimensional planning in total knee arthroplasty: a randomized controlled trial. International Orthopaedics. 2019. 43(11); 2529-38"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Silva 2014",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -2547,9 +2175,6 @@
         "reference_excerpt": "Silva,A.; Sampaio,R.; Pinto,E.. Patient-specific instrumentation improves tibial component rotation in TKA. Knee Surgery, Sports Traumatology, Arthroscopy. 2014. 22; 3; 636-42"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Stolarczyk 2018",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -2567,9 +2192,6 @@
         "reference_excerpt": "Stolarczyk,A.; Nagraba,L.; Mitek,T.; Stolarczyk,M.; Deszczynski,J.M.; Jakucinski,M.. Does patient-specific instrumentation improve femoral and tibial component alignment in total knee arthroplasty? A prospective randomized study. Advances in Experimental Medicine and Biology. 2018. 1096; 11-7"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Sun 2020",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -2587,9 +2209,6 @@
         "reference_excerpt": "Sun,M.L.; Zhang,Y.; Peng,Y.; Fu,D.J.; Fan,H.Q.; He,R.. Accuracy of a novel 3D-printed patient-specific intramedullary guide to control femoral component rotation in total knee arthroplasty. Orthopaedic Surgery. 2020. 12(2); 429-41"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Tammachote 2018",
         "report_index": "1",
         "candidate_type": "title",
@@ -2607,9 +2226,6 @@
         "reference_excerpt": "Tammachote,N.; Panichkul,P.; Kanitnate,S.. Comparison of customized cutting block and conventional cutting instrument in total knee arthroplasty: a randomized controlled trial. Journal of Arthroplasty. 2018. 33; 3; 746-751.e3"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Tammachote 2018",
         "report_index": "2",
         "candidate_type": "title",
@@ -2627,9 +2243,6 @@
         "reference_excerpt": "Chanalithichai,N.; Tammachote,N.; Jitapunkul,C.; Kanitnate,S.. Rotational component alignment in patient-specific total knee arthroplasty compared with conventional cutting instrument. European Journal of Orthopedic Surgery and Traumatology. 2019. 29; 6; 1297-304"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Teeter 2019",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -2647,9 +2260,6 @@
         "reference_excerpt": "Teeter,M.G.; Marsh,J.D.; Howard,J.L.; Yuan,X.; Vasarhelyi,E.M.; McCalden,R.W.. A randomized controlled trial investigating the value of patient-specific instrumentation for total knee arthroplasty in the Canadian healthcare system. Bone Joint Journal. 2019. 101-B(5); 565-72"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Turgeon 2019",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -2667,9 +2277,6 @@
         "reference_excerpt": "Turgeon,T.R.; Cameron,B.; Burnell,C.D.; Hedden,D.R.; Bohm,E.R.. A double-blind randomized controlled trial of total knee replacement using patient-specific cutting block instrumentation versus standard instrumentation. Canadian Journal of Surgery (Journal Canadien de Chirurgie). 2019. 62(6); 460-7"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Van Leeuwen 2018",
         "report_index": "1",
         "candidate_type": "title",
@@ -2687,9 +2294,6 @@
         "reference_excerpt": "Van Leeuwen,J.A.M.J.; Snorrason,F.; Röhrl,S.M.. No radiological and clinical advantages with patient-specific positioning guides in total knee replacement. Acta Orthopaedica. 2018. 89; 1; 89-94"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Victor 2014",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -2707,9 +2311,6 @@
         "reference_excerpt": "Victor,J.; Dujardin,J.; Vandenneucker,H.; Arnout,N.; Bellemans,J.. Patient-specific guides do not improve accuracy in total knee arthroplasty: a prospective randomized controlled trial. Clinical Orthopaedics and Related Research. 2014. 472; 1; 263-71"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Vide 2017",
         "report_index": "1",
         "candidate_type": "title",
@@ -2727,9 +2328,6 @@
         "reference_excerpt": "Vide,J.; Freitas,T.P.; Ramos,A.; Cruz,H.; Sousa,J.P.. Patient-specific instrumentation in total knee arthroplasty: simpler, faster and more accurate than standard instrumentation – a randomized controlled trial. Knee Surgery, Sports Traumatology, Arthroscopy. 2017. 25; 8; 2616-21"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Vundelinckx 2013",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -2747,9 +2345,6 @@
         "reference_excerpt": "Vundelinckx,B.J.; Bruckers,L.; De Mulder,K.; De Schepper,J.; Van Esbroeck,G.. Functional and radiographic short-term outcome evaluation of the Visionaire system, a patient-matched instrumentation system for total knee arthroplasty. Journal of Arthroplasty. 2013. 28; 6; 964-70"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Woolson 2014",
         "report_index": "1",
         "candidate_type": "doi",
@@ -2767,9 +2362,6 @@
         "reference_excerpt": "Woolson,S.T.; Harris,A.H.; Wagner,D.W.; Giori,N.J.. Component alignment during total knee arthroplasty with use of standard or custom instrumentation: a randomized clinical trial using computed tomography for postoperative alignment measurement. Journal of Bone and Joint Surgery. American Volume. 2014. 96; 5; 366-72"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Yan 2014",
         "report_index": "1",
         "candidate_type": "title",
@@ -2787,9 +2379,6 @@
         "reference_excerpt": "Yan,C.; Chiu,K.; Ng,F.; Chan,P.; Fang,C.. A randomized controlled trial comparing patient-specific instruments with conventional instruments and computer navigation in total knee arthroplasty. Osteoarthritis and Cartilage. 2014. 22; S469-70"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Yan 2014",
         "report_index": "2",
         "candidate_type": "explicit_pmid",
@@ -2807,9 +2396,6 @@
         "reference_excerpt": "Yan,C.H.; Chiu,K.Y.; Ng,F.Y.; Chan,P.K.; Fang,C.X.. Comparison between patient-specific instruments and conventional instruments and computer navigation in total knee arthroplasty: a randomized controlled trial. Knee Surgery, Sports Traumatology, Arthroscopy. 2015. 23; 12; 3637-45"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Zahn 2020",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -2827,9 +2413,6 @@
         "reference_excerpt": "Zahn,R.K.; Graef,F.; Conrad,J.L.; Renner,L.; Perka,C.; Hommel,H.. Accuracy of tibial positioning in the frontal plane: a prospective study comparing conventional and innovative techniques in total knee arthroplasty. Archives of Orthopaedic and Trauma Surgery. 2020. 140(6); 793-800"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Zomar 2021",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -2850,9 +2433,6 @@
     "included_trial_registry_records": [],
     "excluded_studies": [
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Asada 2014",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -2871,9 +2451,6 @@
         "reference_excerpt": "Asada,S.; Mori,S.; Matsushita,T.; Nakagawa,K.; Tsukamoto,I.; Akagi,M.. Comparison of MRI- and CT-based patient-specific guides for total knee arthroplasty. Knee. 2014. 21; 6; 1238-43. Notes: Ineligible comparator"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Bollars 2023",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -2892,9 +2469,6 @@
         "reference_excerpt": "Bollars,P.; Janssen,D.; De Weerdt,W.; Albelooshi,A.; Meshram,P.; Nguyen,T.D.. Improved accuracy of implant placement with an imageless handheld robotic system compared to conventional instrumentation in patients undergoing total knee arthroplasty: a prospective randomized controlled trial using CT-based assessment of radiological outcomes. Knee Surgery, Sports Traumatology, Arthroscopy. 2023. 31; 12; 5446-52. Notes: Ineligible comparator"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Calliess 2017a",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -2913,9 +2487,6 @@
         "reference_excerpt": "Calliess,T.; Bauer,K.; Stukenborg-Colsman,C.; Windhagen,H.; Budde,S.; Ettinger,M.. PSI kinematic versus non-PSI mechanical alignment in total knee arthroplasty: a prospective, randomized study. Knee Surgery, Sports Traumatology, Arthroscopy. 2017. 25; 6; 1743-8. Notes: Ineligible intervention"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Dossett 2014",
         "reference_status": "excluded",
         "explicit_pmids": "24986944",
@@ -2934,9 +2505,6 @@
         "reference_excerpt": "Dossett,H.G.; Estrada,N.A.; Swartz,G.J.; LeFevre,G.W.; Kwasman,B.G.. A randomised controlled trial of kinematically and mechanically aligned total knee replacements: two-year clinical results. Bone & Joint Journal. 2014. 96-B(7); 907-13. Notes: Ineligible intervention"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Ensini 2014",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -2955,9 +2523,6 @@
         "reference_excerpt": "Ensini,A.; Timoncini,A.; Cenni,F.; Belvedere,C.; Fusai,F.; Leardini,A.. Intra- and post-operative accuracy assessments of two different patient-specific instrumentation systems for total knee replacement. Knee Surgery, Sports Traumatology, Arthroscopy. 2014. 22; 3; 621-9. Notes: Ineligible comparator"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Gan 2015a",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -2976,9 +2541,6 @@
         "reference_excerpt": "Gan,Y.; Ding,J.; Xu,Y.; Hou,C.. Accuracy and efficacy of osteotomy in total knee arthroplasty with patient-specific navigational template. International Journal of Clinical and Experimental Medicine. 2015. 8; 8; 12192-201. Notes: Ineligible intervention"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Geng 2024",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -2997,9 +2559,6 @@
         "reference_excerpt": "Geng,X.; Zheng,Y.; Li,Y.; Zhao,M.; Liu,Y.; Li,Z.. Early radiographic and clinical outcomes of robotic-arm-assisted versus conventional total knee arthroplasty: a multicenter randomized controlled trial. Orthopedic Surgery. 2024. 16; 11; 2732-40. Notes: Ineligible comparator"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Hafez 2006",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -3018,9 +2577,6 @@
         "reference_excerpt": "Hafez,M.A.; Chelule,K.L.; Seedhom,B.B.; Sherman,K.P.. Computer-assisted total knee arthroplasty using patient-specific templating. Clinical Orthopaedics and Related Research. 2006. 444; 184-92. Notes: Ineligible intervention"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Hommel 2017",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -3039,9 +2595,6 @@
         "reference_excerpt": "Hommel,H.; Abdel Matthew,P.; Perka,C.. Kinematic femoral alignment with gap balancing and patient-specific instrumentation in total knee arthroplasty: a randomized clinical trial. European Journal of Orthopaedic Surgery & Traumatology: Orthopedie Traumatologie. 2017. 27; 5; 683-8. Notes: Ineligible comparator"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Lee 2024",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -3060,9 +2613,6 @@
         "reference_excerpt": "Lee,S.S.; Chang,M.J.; Cho,J.H.; Oh,J.; Moon,Y.W.. No differences in long-term clinical outcomes and survival rate of navigation-assisted versus conventional primary mobile-bearing total knee arthroplasty: a minimum 10-year follow-up. Knee Surgery, Sports Traumatology, Arthroscopy. 2024. 32; 2; 445-53. Notes: Ineligible comparator"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Londhe 2024",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -3081,9 +2631,6 @@
         "reference_excerpt": "Londhe,S.B.; Shetty,S.; Shetty,V.; Desouza,C.; Banka,P.; Antao,N.. Comparison of time taken in conventional versus active robotic-assisted total knee arthroplasty. Clinics in Orthopedic Surgery. 2024. 16; 5; 259-64. Notes: Ineligible comparator"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "NCT05980442",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -3102,9 +2649,6 @@
         "reference_excerpt": "NCT05980442. Comparative study of navigation-assisted orthopilot elite and robotic-assisted MAKO total knee arthroplasty (ORMAK). https://clinicaltrials.gov/study/NCT05980442. 2023. Notes: Ineligible comparator"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Sarzaeem 2024",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -3123,9 +2667,6 @@
         "reference_excerpt": "Sarzaeem,M.M.; Movahedinia,M.; Mirahmadi,A.; Abolghasemian,M.; Tavakoli,M.; Amouzadeh Omrani,F.. Kinematic alignment technique outperforms mechanical alignment in simultaneous bilateral total knee arthroplasty: a randomized controlled trial. Journal of Arthroplasty. 2024. 39; 9; 2234-40. Notes: Ineligible comparator"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Schotanus 2016",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -3144,9 +2685,6 @@
         "reference_excerpt": "Schotanus,M.G.; Sollie,R.; Van Haaren,E.H.; Hendrickx,R.P.; Jansen,E.J.; Kort,N.P.. A radiological analysis of the difference between MRI- and CT-based patient-specific matched guides for total knee arthroplasty from the same manufacturer: a randomised controlled trial. Bone & Joint Journal. 2016. 98-B; 6; 786-92. Notes: Ineligible comparator"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Smolle 2023",
         "reference_status": "excluded",
         "explicit_pmids": "36939891",
@@ -3165,9 +2703,6 @@
         "reference_excerpt": "Smolle,M.A.; Koutp,A.; Clar,C.; Leitner,L.; Leithner,A.; Sadoghi,P.. Restoring tibial obliquity for kinematic alignment in total knee arthroplasty: conventional versus patient-specific instrumentation. Archives of Orthopedic and Trauma Surgery. 2023. 143(9); 5867-72. Notes: Ineligible comparators"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Theeuwen 2024",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -3186,9 +2721,6 @@
         "reference_excerpt": "Theeuwen,D.M.; Haveman,I.; Boonen,B.; Van Haaren,E.H.; Hendrickx,R.P.; Schotanus,M.G.. No differences in mid-term survival and clinical outcome between CT- and MRI-based patient-specific instrumentation for total knee arthroplasty, a randomized controlled trial. European Journal of Orthopedic Surgery & Traumatology. 2024. 34; 7; 3529-34. Notes: Ineligible comparator"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Timoncini 2012",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -3207,9 +2739,6 @@
         "reference_excerpt": "Timoncini,A.; Ensin,A.; Feliciangeli,A.; Cenni,F.; Busacca,M.; Giannini,S.. Custom-fit cutting blocks for total knee replacement: comparison between CT and MRI/X-ray systems. Journal of Orthopaedics and Traumatology. 2012. 13; 1; S49. Notes: Ineligible comparator"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Van der Lelij 2023",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -3228,9 +2757,6 @@
         "reference_excerpt": "Van der Lelij,T.J.; Marang-van de Mheen,P.J.; Kaptein,B.L.; Toksvig-Larsen,S.; Nelissen,R.. Continued stabilization of a cementless 3D-printed total knee arthroplasty: five-year results of a randomized controlled trial using radiostereometric analysis. Journal of Bone and Joint Surgery. 2023. 105; 21; 1686-94. Notes: Ineligible comparator"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Yuan 2024",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -3249,9 +2775,6 @@
         "reference_excerpt": "Yuan,M.; Ling,T.; Su,Q.; Wan,X.; Lai,Y.; Zhou,Z.. Safety and effectiveness of robotic-arm assisted total knee arthroplasty. Orthopedic Surgery. 2024. 16; 4; 882-93. Notes: Ineligible comparator"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Zhang 2016",
         "reference_status": "excluded",
         "explicit_pmids": ".",
@@ -3272,9 +2795,6 @@
     ],
     "excluded_pubmed_records": [
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Dossett 2014",
         "pmid": "24986944",
         "pmcid": ".",
@@ -3288,9 +2808,6 @@
         "pmc_url": "."
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Smolle 2023",
         "pmid": "36939891",
         "pmcid": "PMC10449675",
@@ -3306,9 +2823,6 @@
     ],
     "excluded_report_candidates": [
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Asada 2014",
         "report_index": "1",
         "candidate_type": "title",
@@ -3326,9 +2840,6 @@
         "reference_excerpt": "Asada,S.; Mori,S.; Matsushita,T.; Nakagawa,K.; Tsukamoto,I.; Akagi,M.. Comparison of MRI- and CT-based patient-specific guides for total knee arthroplasty. Knee. 2014. 21; 6; 1238-43. Notes: Ineligible comparator"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Bollars 2023",
         "report_index": "1",
         "candidate_type": "title",
@@ -3346,9 +2857,6 @@
         "reference_excerpt": "Bollars,P.; Janssen,D.; De Weerdt,W.; Albelooshi,A.; Meshram,P.; Nguyen,T.D.. Improved accuracy of implant placement with an imageless handheld robotic system compared to conventional instrumentation in patients undergoing total knee arthroplasty: a prospective randomized controlled trial using CT-based assessment of radiological outcomes. Knee Surgery, Sports Traumatology, Arthroscopy. 2023. 31; 12; 5446-52. Notes: Ineligible comparator"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Calliess 2017a",
         "report_index": "1",
         "candidate_type": "title",
@@ -3366,9 +2874,6 @@
         "reference_excerpt": "Calliess,T.; Bauer,K.; Stukenborg-Colsman,C.; Windhagen,H.; Budde,S.; Ettinger,M.. PSI kinematic versus non-PSI mechanical alignment in total knee arthroplasty: a prospective, randomized study. Knee Surgery, Sports Traumatology, Arthroscopy. 2017. 25; 6; 1743-8. Notes: Ineligible intervention"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Dossett 2014",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -3386,9 +2891,6 @@
         "reference_excerpt": "Dossett,H.G.; Estrada,N.A.; Swartz,G.J.; LeFevre,G.W.; Kwasman,B.G.. A randomised controlled trial of kinematically and mechanically aligned total knee replacements: two-year clinical results. Bone & Joint Journal. 2014. 96-B(7); 907-13. Notes: Ineligible intervention"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Ensini 2014",
         "report_index": "1",
         "candidate_type": "title",
@@ -3406,9 +2908,6 @@
         "reference_excerpt": "Ensini,A.; Timoncini,A.; Cenni,F.; Belvedere,C.; Fusai,F.; Leardini,A.. Intra- and post-operative accuracy assessments of two different patient-specific instrumentation systems for total knee replacement. Knee Surgery, Sports Traumatology, Arthroscopy. 2014. 22; 3; 621-9. Notes: Ineligible comparator"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Gan 2015a",
         "report_index": "1",
         "candidate_type": "title",
@@ -3426,9 +2925,6 @@
         "reference_excerpt": "Gan,Y.; Ding,J.; Xu,Y.; Hou,C.. Accuracy and efficacy of osteotomy in total knee arthroplasty with patient-specific navigational template. International Journal of Clinical and Experimental Medicine. 2015. 8; 8; 12192-201. Notes: Ineligible intervention"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Geng 2024",
         "report_index": "1",
         "candidate_type": "title",
@@ -3446,9 +2942,6 @@
         "reference_excerpt": "Geng,X.; Zheng,Y.; Li,Y.; Zhao,M.; Liu,Y.; Li,Z.. Early radiographic and clinical outcomes of robotic-arm-assisted versus conventional total knee arthroplasty: a multicenter randomized controlled trial. Orthopedic Surgery. 2024. 16; 11; 2732-40. Notes: Ineligible comparator"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Hafez 2006",
         "report_index": "1",
         "candidate_type": "title",
@@ -3466,9 +2959,6 @@
         "reference_excerpt": "Hafez,M.A.; Chelule,K.L.; Seedhom,B.B.; Sherman,K.P.. Computer-assisted total knee arthroplasty using patient-specific templating. Clinical Orthopaedics and Related Research. 2006. 444; 184-92. Notes: Ineligible intervention"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Hommel 2017",
         "report_index": "1",
         "candidate_type": "title",
@@ -3486,9 +2976,6 @@
         "reference_excerpt": "Hommel,H.; Abdel Matthew,P.; Perka,C.. Kinematic femoral alignment with gap balancing and patient-specific instrumentation in total knee arthroplasty: a randomized clinical trial. European Journal of Orthopaedic Surgery & Traumatology: Orthopedie Traumatologie. 2017. 27; 5; 683-8. Notes: Ineligible comparator"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Lee 2024",
         "report_index": "1",
         "candidate_type": "title",
@@ -3506,9 +2993,6 @@
         "reference_excerpt": "Lee,S.S.; Chang,M.J.; Cho,J.H.; Oh,J.; Moon,Y.W.. No differences in long-term clinical outcomes and survival rate of navigation-assisted versus conventional primary mobile-bearing total knee arthroplasty: a minimum 10-year follow-up. Knee Surgery, Sports Traumatology, Arthroscopy. 2024. 32; 2; 445-53. Notes: Ineligible comparator"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Londhe 2024",
         "report_index": "1",
         "candidate_type": "title",
@@ -3526,9 +3010,6 @@
         "reference_excerpt": "Londhe,S.B.; Shetty,S.; Shetty,V.; Desouza,C.; Banka,P.; Antao,N.. Comparison of time taken in conventional versus active robotic-assisted total knee arthroplasty. Clinics in Orthopedic Surgery. 2024. 16; 5; 259-64. Notes: Ineligible comparator"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "NCT05980442",
         "report_index": "1",
         "candidate_type": "nct_id",
@@ -3546,9 +3027,6 @@
         "reference_excerpt": "NCT05980442. Comparative study of navigation-assisted orthopilot elite and robotic-assisted MAKO total knee arthroplasty (ORMAK). https://clinicaltrials.gov/study/NCT05980442. 2023. Notes: Ineligible comparator"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Sarzaeem 2024",
         "report_index": "1",
         "candidate_type": "title",
@@ -3566,9 +3044,6 @@
         "reference_excerpt": "Sarzaeem,M.M.; Movahedinia,M.; Mirahmadi,A.; Abolghasemian,M.; Tavakoli,M.; Amouzadeh Omrani,F.. Kinematic alignment technique outperforms mechanical alignment in simultaneous bilateral total knee arthroplasty: a randomized controlled trial. Journal of Arthroplasty. 2024. 39; 9; 2234-40. Notes: Ineligible comparator"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Schotanus 2016",
         "report_index": "1",
         "candidate_type": "title",
@@ -3586,9 +3061,6 @@
         "reference_excerpt": "Schotanus,M.G.; Sollie,R.; Van Haaren,E.H.; Hendrickx,R.P.; Jansen,E.J.; Kort,N.P.. A radiological analysis of the difference between MRI- and CT-based patient-specific matched guides for total knee arthroplasty from the same manufacturer: a randomised controlled trial. Bone & Joint Journal. 2016. 98-B; 6; 786-92. Notes: Ineligible comparator"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Smolle 2023",
         "report_index": "1",
         "candidate_type": "explicit_pmid",
@@ -3606,9 +3078,6 @@
         "reference_excerpt": "Smolle,M.A.; Koutp,A.; Clar,C.; Leitner,L.; Leithner,A.; Sadoghi,P.. Restoring tibial obliquity for kinematic alignment in total knee arthroplasty: conventional versus patient-specific instrumentation. Archives of Orthopedic and Trauma Surgery. 2023. 143(9); 5867-72. Notes: Ineligible comparators"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Theeuwen 2024",
         "report_index": "1",
         "candidate_type": "title",
@@ -3626,9 +3095,6 @@
         "reference_excerpt": "Theeuwen,D.M.; Haveman,I.; Boonen,B.; Van Haaren,E.H.; Hendrickx,R.P.; Schotanus,M.G.. No differences in mid-term survival and clinical outcome between CT- and MRI-based patient-specific instrumentation for total knee arthroplasty, a randomized controlled trial. European Journal of Orthopedic Surgery & Traumatology. 2024. 34; 7; 3529-34. Notes: Ineligible comparator"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Timoncini 2012",
         "report_index": "1",
         "candidate_type": "title",
@@ -3646,9 +3112,6 @@
         "reference_excerpt": "Timoncini,A.; Ensin,A.; Feliciangeli,A.; Cenni,F.; Busacca,M.; Giannini,S.. Custom-fit cutting blocks for total knee replacement: comparison between CT and MRI/X-ray systems. Journal of Orthopaedics and Traumatology. 2012. 13; 1; S49. Notes: Ineligible comparator"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Van der Lelij 2023",
         "report_index": "1",
         "candidate_type": "title",
@@ -3666,9 +3129,6 @@
         "reference_excerpt": "Van der Lelij,T.J.; Marang-van de Mheen,P.J.; Kaptein,B.L.; Toksvig-Larsen,S.; Nelissen,R.. Continued stabilization of a cementless 3D-printed total knee arthroplasty: five-year results of a randomized controlled trial using radiostereometric analysis. Journal of Bone and Joint Surgery. 2023. 105; 21; 1686-94. Notes: Ineligible comparator"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Yuan 2024",
         "report_index": "1",
         "candidate_type": "title",
@@ -3686,9 +3146,6 @@
         "reference_excerpt": "Yuan,M.; Ling,T.; Su,Q.; Wan,X.; Lai,Y.; Zhou,Z.. Safety and effectiveness of robotic-arm assisted total knee arthroplasty. Orthopedic Surgery. 2024. 16; 4; 882-93. Notes: Ineligible comparator"
       },
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "Zhang 2016",
         "report_index": "1",
         "candidate_type": "title",
@@ -3708,9 +3165,6 @@
     ],
     "excluded_trial_registry_records": [
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "study_label": "NCT05980442",
         "registry_type": "NCT",
         "registry_id": "NCT05980442",
@@ -3723,9 +3177,6 @@
     ],
     "excluded_pubmed_summary": [
       {
-        "review_group": "2026_issue_1",
-        "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-        "review_id": "CD012589",
         "excluded_study_blocks": "20",
         "study_blocks_with_explicit_pmid": "2",
         "study_blocks_with_doi": "2",
