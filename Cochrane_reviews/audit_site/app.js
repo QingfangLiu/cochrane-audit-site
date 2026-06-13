@@ -3,7 +3,6 @@
   const BENCHMARK_REGISTRY_PATH = `${BENCHMARK_DATA_ROOT}reviews.json`;
   const ROW_BUCKET_KEYS = [
     "summary",
-    "curation",
     "reviewIndex",
     "protocol",
     "plannedComparisons",
@@ -17,18 +16,11 @@
     "excludedRecords",
     "excludedRegistries",
     "excludedSummary",
-    "referenceCandidates",
-    "referenceCandidateReports",
-    "referenceCandidateRecords",
-    "referenceCandidateRegistries",
-    "referenceCandidateSummary",
     "analysisResults",
     "analysisResultsRaw",
     "analysisStudyRows",
     "analysisRiskOfBiasRows",
     "analysisReproducedResults",
-    "domainSources",
-    "domainLabels",
   ];
 
   const GROUP_ORDER = ["first_pass", "second_pass", "after_pilot"];
@@ -337,7 +329,6 @@
       review_group: raw(summary.review_group) || raw(review.review_group),
       review_pdf: raw(summary.review_pdf) || raw(review.review_pdf),
     });
-    buckets.curation.push(withReviewIdentity(reviewSummary.curation || {}, review));
     buckets.reviewIndex.push(withReviewIdentity(reviewSummary.review_index || {}, review));
     buckets.protocol.push(withReviewIdentity(benchmark?.protocol_and_eligibility || {}, review));
     buckets.plannedComparisons.push(
@@ -352,9 +343,6 @@
         _rowIndex: index + 1,
       }, review)),
     );
-    buckets.domainSources.push(withReviewIdentity(reviewSummary.domain_source || {}, review));
-    buckets.domainLabels.push(withReviewIdentity(reviewSummary.domain_label || {}, review));
-
     buckets.studies.push(...ensureArray(references.included_studies).map((row) => withReviewIdentity(row, review)));
     buckets.records.push(...ensureArray(references.included_pubmed_records).map((row) => withReviewIdentity(row, review)));
     buckets.reports.push(...ensureArray(references.included_report_candidates).map((row) => withReviewIdentity(row, review)));
@@ -364,11 +352,6 @@
     buckets.excludedReports.push(...ensureArray(references.excluded_report_candidates).map((row) => withReviewIdentity(row, review)));
     buckets.excludedRegistries.push(...ensureArray(references.excluded_trial_registry_records).map((row) => withReviewIdentity(row, review)));
     buckets.excludedSummary.push(...ensureArray(references.excluded_pubmed_summary).map((row) => withReviewIdentity(row, review)));
-    buckets.referenceCandidates.push(...ensureArray(references.reference_candidates).map((row) => withReviewIdentity(row, review)));
-    buckets.referenceCandidateRecords.push(...ensureArray(references.reference_candidate_pubmed_records).map((row) => withReviewIdentity(row, review)));
-    buckets.referenceCandidateReports.push(...ensureArray(references.reference_candidate_report_candidates).map((row) => withReviewIdentity(row, review)));
-    buckets.referenceCandidateRegistries.push(...ensureArray(references.reference_candidate_trial_registry_records).map((row) => withReviewIdentity(row, review)));
-    buckets.referenceCandidateSummary.push(...ensureArray(references.reference_candidate_summary).map((row) => withReviewIdentity(row, review)));
 
     buckets.analysisResults.push(...ensureArray(metaAnalysis.analysis_results).map((row) => withReviewIdentity(row, review)));
     buckets.analysisStudyRows.push(...ensureArray(metaAnalysis.analysis_study_rows).map((row) => withReviewIdentity(row, review)));
@@ -865,7 +848,6 @@
 
   function prepareData() {
     const summary = state.rows.summary || [];
-    const curationRows = state.rows.curation || [];
     const reviewIndexRows = state.rows.reviewIndex || [];
     const protocolRows = state.rows.protocol || [];
     const plannedComparisons = state.rows.plannedComparisons || [];
@@ -879,18 +861,12 @@
     const excludedRecords = state.rows.excludedRecords || [];
     const excludedRegistries = state.rows.excludedRegistries || [];
     const excludedSummary = state.rows.excludedSummary || [];
-    const referenceCandidates = state.rows.referenceCandidates || [];
-    const referenceCandidateReports = state.rows.referenceCandidateReports || [];
-    const referenceCandidateRecords = state.rows.referenceCandidateRecords || [];
-    const referenceCandidateRegistries = state.rows.referenceCandidateRegistries || [];
     const analysisResults = state.rows.analysisResults || [];
     const analysisResultsRaw = state.rows.analysisResultsRaw || [];
     const analysisStudyRows = state.rows.analysisStudyRows || [];
     const analysisRiskOfBiasRows = state.rows.analysisRiskOfBiasRows || [];
     const analysisReproducedResults = state.rows.analysisReproducedResults || [];
     const reproducedForestPlots = state.files.analysisReproducedForestPlots?.data?.plots || {};
-    const domainSources = state.rows.domainSources || [];
-    const domainLabels = state.rows.domainLabels || [];
 
     const recordsByStudy = new Map();
     records.forEach((record) => {
@@ -944,33 +920,6 @@
         excludedRegistriesByStudy.set(key, []);
       }
       excludedRegistriesByStudy.get(key).push(registry);
-    });
-
-    const referenceCandidateRecordsByStudy = new Map();
-    referenceCandidateRecords.forEach((record) => {
-      const key = keyForRecord(record);
-      if (!referenceCandidateRecordsByStudy.has(key)) {
-        referenceCandidateRecordsByStudy.set(key, []);
-      }
-      referenceCandidateRecordsByStudy.get(key).push(record);
-    });
-
-    const referenceCandidateReportsByStudy = new Map();
-    referenceCandidateReports.forEach((report) => {
-      const key = keyForRecord(report);
-      if (!referenceCandidateReportsByStudy.has(key)) {
-        referenceCandidateReportsByStudy.set(key, []);
-      }
-      referenceCandidateReportsByStudy.get(key).push(report);
-    });
-
-    const referenceCandidateRegistriesByStudy = new Map();
-    referenceCandidateRegistries.forEach((registry) => {
-      const key = keyForRecord(registry);
-      if (!referenceCandidateRegistriesByStudy.has(key)) {
-        referenceCandidateRegistriesByStudy.set(key, []);
-      }
-      referenceCandidateRegistriesByStudy.get(key).push(registry);
     });
 
     const excludedSummaryByReview = new Map();
@@ -1035,13 +984,6 @@
       analysisReproducedByReview.get(reviewId).push(withIndex);
     });
 
-    const curationByReview = new Map();
-    curationRows.forEach((row) => {
-      if (row.review_id) {
-        curationByReview.set(row.review_id, row);
-      }
-    });
-
     const reviewIndexByPdfStem = new Map();
     reviewIndexRows.forEach((row) => {
       const stem = reviewIdFromPath(row.review_pdf);
@@ -1081,20 +1023,6 @@
       });
     });
 
-    const domainSourceByReview = new Map();
-    domainSources.forEach((row) => {
-      if (row.review_id) {
-        domainSourceByReview.set(row.review_id, row);
-      }
-    });
-
-    const domainLabelByReview = new Map();
-    domainLabels.forEach((row) => {
-      if (row.review_id) {
-        domainLabelByReview.set(row.review_id, row);
-      }
-    });
-
     const studiesByReview = new Map();
     studies.forEach((study, index) => {
       const reviewId = study.review_id || "";
@@ -1125,44 +1053,23 @@
       });
     });
 
-    const referenceCandidatesByReview = new Map();
-    referenceCandidates.forEach((study, index) => {
-      const reviewId = study.review_id || "";
-      if (!referenceCandidatesByReview.has(reviewId)) {
-        referenceCandidatesByReview.set(reviewId, []);
-      }
-      referenceCandidatesByReview.get(reviewId).push({
-        ...study,
-        _rowIndex: index + 1,
-        _records: referenceCandidateRecordsByStudy.get(keyForRecord(study)) || [],
-        _reports: referenceCandidateReportsByStudy.get(keyForRecord(study)) || [],
-        _registries: referenceCandidateRegistriesByStudy.get(keyForRecord(study)) || [],
-      });
-    });
-
     return summary
       .map((review, index) => {
-        const curation = curationByReview.get(review.review_id) || {};
-        const domainSource = domainSourceByReview.get(review.review_id) || {};
         const reviewIndex = reviewIndexByPdfStem.get(reviewIdFromPath(review.review_pdf)) || {};
         return {
           ...review,
           _rowIndex: index + 1,
-          _title: raw(curation.review_title) || raw(domainSource.review_title) || reviewTitle({ ...reviewIndex, ...review }),
+          _title: reviewTitle({ ...reviewIndex, ...review }),
           _studies: studiesByReview.get(review.review_id) || [],
           _excludedStudies: excludedStudiesByReview.get(review.review_id) || [],
-          _referenceCandidates: referenceCandidatesByReview.get(review.review_id) || [],
           _excludedSummary: excludedSummaryByReview.get(review.review_id) || {},
           _analysisResults: analysisResultsByReview.get(review.review_id) || [],
           _analysisStudyRows: analysisStudyRowsByReview.get(review.review_id) || [],
           _analysisReproducedResults: analysisReproducedByReview.get(review.review_id) || [],
-          _curation: curation,
           _reviewIndex: reviewIndex,
           _protocol: protocolByReview.get(review.review_id) || {},
           _plannedComparisons: plannedComparisonsByReview.get(review.review_id) || [],
           _plannedOutcomes: plannedOutcomesByReview.get(review.review_id) || [],
-          _domainSource: domainSource,
-          _domainLabel: domainLabelByReview.get(review.review_id) || {},
         };
       })
       .sort((left, right) => {
@@ -1591,136 +1498,7 @@
     `;
   }
 
-  function clinicalDomain(review) {
-    return raw((review._domainLabel || {}).clinical_domain) || "Unassigned";
-  }
-
-  function domainSummaries(reviews) {
-    const summaries = new Map();
-    reviews.forEach((review) => {
-      const domain = clinicalDomain(review);
-      if (!summaries.has(domain)) {
-        summaries.set(domain, {
-          domain,
-          total: 0,
-        });
-      }
-      const summary = summaries.get(domain);
-      summary.total += 1;
-    });
-    return Array.from(summaries.values()).sort((left, right) => {
-      const countDiff = right.total - left.total;
-      if (countDiff !== 0) {
-        return countDiff;
-      }
-      return left.domain.localeCompare(right.domain);
-    });
-  }
-
-  const DOMAIN_COLORS = [
-    "#0f6b8f",
-    "#c2410c",
-    "#177245",
-    "#7c3aed",
-    "#be123c",
-    "#946200",
-    "#0369a1",
-    "#0f766e",
-    "#475569",
-    "#b45309",
-  ];
-
-  function polarToCartesian(centerX, centerY, radius, angleDegrees) {
-    const angleRadians = ((angleDegrees - 90) * Math.PI) / 180;
-    return {
-      x: centerX + radius * Math.cos(angleRadians),
-      y: centerY + radius * Math.sin(angleRadians),
-    };
-  }
-
-  function pieSlicePath(centerX, centerY, radius, startAngle, endAngle) {
-    if (endAngle - startAngle >= 359.999) {
-      const top = polarToCartesian(centerX, centerY, radius, 0);
-      const bottom = polarToCartesian(centerX, centerY, radius, 180);
-      return [
-        `M ${centerX} ${centerY}`,
-        `L ${top.x} ${top.y}`,
-        `A ${radius} ${radius} 0 1 1 ${bottom.x} ${bottom.y}`,
-        `A ${radius} ${radius} 0 1 1 ${top.x} ${top.y}`,
-        "Z",
-      ].join(" ");
-    }
-
-    const start = polarToCartesian(centerX, centerY, radius, endAngle);
-    const end = polarToCartesian(centerX, centerY, radius, startAngle);
-    const largeArcFlag = endAngle - startAngle <= 180 ? "0" : "1";
-    return [
-      `M ${centerX} ${centerY}`,
-      `L ${start.x} ${start.y}`,
-      `A ${radius} ${radius} 0 ${largeArcFlag} 0 ${end.x} ${end.y}`,
-      "Z",
-    ].join(" ");
-  }
-
-  function domainPieSlices(summaries) {
-    const total = summaries.reduce((sum, summary) => sum + summary.total, 0);
-    let startAngle = 0;
-    return summaries.map((summary, index) => {
-      const angle = total ? (summary.total / total) * 360 : 0;
-      const slice = {
-        ...summary,
-        color: DOMAIN_COLORS[index % DOMAIN_COLORS.length],
-        percent: ratioPercent(summary.total, total),
-        startAngle,
-        endAngle: startAngle + angle,
-      };
-      startAngle += angle;
-      return slice;
-    });
-  }
-
-  function renderDomainDistribution(reviews) {
-    const summaries = domainSummaries(reviews);
-    const slices = domainPieSlices(summaries);
-    const total = summaries.reduce((sum, summary) => sum + summary.total, 0);
-    const center = 130;
-    const radius = 116;
-    return `
-      <section class="panel domain-panel">
-        <div class="section-head">
-          <div>
-            <h2>Domain Distribution</h2>
-            <p class="muted">Clinical domains from each review benchmark.json; unverified until manual audit.</p>
-          </div>
-        </div>
-        <div class="domain-pie-layout">
-          <figure class="domain-pie-figure">
-            <svg class="domain-pie-chart" viewBox="0 0 260 260" role="img" aria-label="Clinical domain distribution across ${total} reviews">
-              ${slices.map((slice) => `
-                <path d="${pieSlicePath(center, center, radius, slice.startAngle, slice.endAngle)}" fill="${escapeHtml(slice.color)}">
-                  <title>${escapeHtml(`${slice.domain}: ${slice.total} reviews (${formatStatPercent(slice.percent)})`)}</title>
-                </path>
-              `).join("")}
-              <circle class="domain-pie-ring" cx="${center}" cy="${center}" r="${radius}"></circle>
-            </svg>
-          </figure>
-          <div class="domain-pie-legend" aria-label="Domain counts">
-            ${slices.map((slice) => `
-              <div class="domain-legend-row">
-                <span class="domain-legend-swatch" style="background: ${escapeHtml(slice.color)}"></span>
-                <span class="domain-legend-name">${escapeHtml(slice.domain)}</span>
-                <span class="domain-legend-count">${slice.total}</span>
-                <span class="domain-legend-percent">${escapeHtml(formatStatPercent(slice.percent))}</span>
-              </div>
-            `).join("")}
-          </div>
-        </div>
-      </section>
-    `;
-  }
-
   function reviewTocItems(review = null) {
-    const hasReferenceCandidates = (review?._referenceCandidates || []).length > 0;
     return [
       { label: "Review header", href: "#review-header" },
       { label: "Protocol and eligibility", href: "#protocol-eligibility" },
@@ -1728,7 +1506,6 @@
       { label: "References", href: "#trials" },
       { label: "Included trials", href: "#included-trials", branch: true },
       { label: "Excluded trials", href: "#excluded-trials", branch: true },
-      ...(hasReferenceCandidates ? [{ label: "Reference candidates", href: "#reference-candidates", branch: true }] : []),
       { label: "Meta analysis", href: "#analysis-study-rows" },
       { label: "Reproduced", href: "#reproduced-meta-analysis", branch: true },
     ];
@@ -1782,7 +1559,6 @@
     return `
       <div class="content-stack">
         ${renderIncludedTrialDistribution(reviews)}
-        ${renderDomainDistribution(reviews)}
       </div>
     `;
   }
@@ -3108,57 +2884,6 @@
     `;
   }
 
-  function renderReferenceCandidatesTable(review) {
-    const studies = review._referenceCandidates || [];
-    if (!studies.length) {
-      return "";
-    }
-    return `
-      <section class="panel trial-summary-panel reference-candidate-panel" id="reference-candidates">
-        <div class="section-head">
-          <div>
-            <h2>Reference candidates</h2>
-            <p class="muted">${escapeHtml(benchmarkSourceLabel(review))}</p>
-          </div>
-          <div class="section-summary">${escapeHtml(trialSummaryText(studies, "candidates"))}</div>
-        </div>
-        <div class="record-table-wrap trial-summary-table reference-candidate-table">
-          <table>
-            ${renderTrialSummaryColgroup()}
-            <thead>
-              <tr>
-                <th>Reference</th>
-                <th>PMID record</th>
-                <th>PMC record</th>
-                <th>Matched PMIDs</th>
-                <th>PMCIDs</th>
-                <th>Registry</th>
-                <th>Source records</th>
-              </tr>
-            </thead>
-            <tbody>
-              ${studies.map((study) => `
-                <tr class="${state.selectedTrialSource === "candidate" && String(study._rowIndex) === String(state.selectedTrialRowIndex) ? "selected-trial-row" : ""}">
-                  <td>
-                    <button class="table-review-link trial-detail-link" type="button" data-trial-row-index="${escapeHtml(study._rowIndex)}" data-trial-source="candidate">
-                      ${escapeHtml(study.study_label || "Unnamed reference")}
-                    </button>
-                  </td>
-                  <td>${renderFoundCell(isYes(study.has_pubmed), "PMID")}</td>
-                  <td>${renderFoundCell(isYes(study.has_pmc), "PMCID")}</td>
-                  <td>${renderCompactLinks(study.matched_pmids, "pmid")}</td>
-                  <td>${renderCompactLinks(study.pmcids, "pmcid")}</td>
-                  <td>${renderRegistryLinks(study)}</td>
-                  <td>${renderSourceRecordCoverage(study)}</td>
-                </tr>
-              `).join("")}
-            </tbody>
-          </table>
-        </div>
-      </section>
-    `;
-  }
-
   function renderExcludedTrialsTable(review) {
     const studies = review._excludedStudies || [];
 
@@ -3246,11 +2971,10 @@
     `;
   }
 
-  function renderRecords(study, source = "included") {
+  function renderRecords(study) {
     const records = study._records || [];
-    const entity = source === "candidate" ? "reference" : "trial";
     if (!records.length) {
-      return `<p class="muted excerpt">No PMID-level rows are available for this ${entity}.</p>`;
+      return `<p class="muted excerpt">No PMID-level rows are available for this trial.</p>`;
     }
 
     return `
@@ -3304,11 +3028,10 @@
     `;
   }
 
-  function renderReportCandidates(study, source = "included") {
+  function renderReportCandidates(study) {
     const reports = study._reports || [];
-    const entity = source === "candidate" ? "reference" : "trial";
     if (!reports.length) {
-      return `<p class="muted excerpt">No report-candidate rows are available for this ${entity}.</p>`;
+      return `<p class="muted excerpt">No report-candidate rows are available for this trial.</p>`;
     }
 
     return `
@@ -3368,7 +3091,7 @@
     `;
   }
 
-  function renderTrialRegistryRecords(study, source = "included") {
+  function renderTrialRegistryRecords(study) {
     const registries = study._registries || [];
     if (!registries.length) {
       return "";
@@ -3425,19 +3148,14 @@
   function renderTrialDetailCard(study, source = "included") {
     const status = trialStatus(study);
     const sourceFile = benchmarkSourceFile(study.review_id);
-    const sectionLabel = source === "excluded"
-      ? "Excluded trials"
-      : (source === "candidate" ? "Reference candidates" : "Included trials");
-    const itemType = source === "excluded"
-      ? "excluded_trial"
-      : (source === "candidate" ? "reference_candidate" : "included_trial");
-    const unnamedLabel = source === "candidate" ? "Unnamed reference" : "Unnamed study";
+    const sectionLabel = source === "excluded" ? "Excluded trials" : "Included trials";
+    const itemType = source === "excluded" ? "excluded_trial" : "included_trial";
     return `
       <article class="trial-card ${trialCardClass(study)}" id="trial-${source}-${study._rowIndex}" data-trial-detail>
         <div class="trial-head">
           <div>
             <div class="trial-title">
-              <h3>${escapeHtml(study.study_label || unnamedLabel)}</h3>
+              <h3>${escapeHtml(study.study_label || "Unnamed study")}</h3>
               <span class="muted">${display(study.reference_status, "No reference status")}</span>
             </div>
             <p class="muted">Row ${study._rowIndex} in ${escapeHtml(sourceFile)}</p>
@@ -3484,9 +3202,9 @@
           <div>${display(study.reference_excerpt, "No excerpt")}</div>
         </div>
 
-        ${renderTrialRegistryRecords(study, source)}
-        ${renderReportCandidates(study, source)}
-        ${renderRecords(study, source)}
+        ${renderTrialRegistryRecords(study)}
+        ${renderReportCandidates(study)}
+        ${renderRecords(study)}
         ${renderRawRows(study)}
       </article>
     `;
@@ -3495,7 +3213,7 @@
   function renderSelectedTrialDetail(review) {
     const selectedRows = state.selectedTrialSource === "excluded"
       ? (review._excludedStudies || [])
-      : (state.selectedTrialSource === "candidate" ? (review._referenceCandidates || []) : (review._studies || []));
+      : (review._studies || []);
     const selectedStudy = selectedRows.find((study) => String(study._rowIndex) === String(state.selectedTrialRowIndex));
     if (!selectedStudy) {
       return "";
@@ -3528,7 +3246,6 @@
         ${renderTrialsPlaceholder()}
         ${renderIncludedTrialsTable(review)}
         ${renderExcludedTrialsTable(review)}
-        ${renderReferenceCandidatesTable(review)}
         ${renderSelectedTrialDetail(review)}
         ${renderAnalysisStudyRowsPanel(review)}
         ${renderReproducedMetaAnalysisPanel(review)}

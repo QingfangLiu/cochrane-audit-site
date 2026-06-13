@@ -370,10 +370,6 @@ h4 {
   padding: 14px;
 }
 
-.domain-panel {
-  padding: 14px;
-}
-
 .section-head {
   display: flex;
   justify-content: space-between;
@@ -552,78 +548,6 @@ summary.section-head {
   white-space: nowrap;
 }
 
-.domain-pie-layout {
-  display: grid;
-  grid-template-columns: minmax(220px, 320px) minmax(0, 1fr);
-  gap: 18px;
-  align-items: center;
-}
-
-.domain-pie-figure {
-  display: flex;
-  justify-content: center;
-  margin: 0;
-}
-
-.domain-pie-chart {
-  display: block;
-  width: min(100%, 280px);
-  height: auto;
-}
-
-.domain-pie-chart path {
-  stroke: var(--panel);
-  stroke-width: 2;
-}
-
-.domain-pie-ring {
-  fill: none;
-  stroke: var(--line-strong);
-  stroke-width: 1;
-}
-
-.domain-pie-legend {
-  display: grid;
-  gap: 7px;
-}
-
-.domain-legend-row {
-  display: grid;
-  grid-template-columns: 14px minmax(0, 1fr) minmax(32px, auto) minmax(56px, auto);
-  gap: 9px;
-  align-items: center;
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  padding: 8px 10px;
-  background: var(--panel-soft);
-}
-
-.domain-legend-swatch {
-  width: 12px;
-  height: 12px;
-  border-radius: 3px;
-}
-
-.domain-legend-name {
-  overflow-wrap: anywhere;
-  font-weight: 800;
-}
-
-.domain-legend-count,
-.domain-legend-percent {
-  text-align: right;
-  white-space: nowrap;
-}
-
-.domain-legend-count {
-  font-weight: 800;
-}
-
-.domain-legend-percent {
-  color: var(--muted);
-  font-size: 13px;
-}
-
 .table-review-link {
   appearance: none;
   border: 0;
@@ -798,7 +722,6 @@ summary.section-head {
   min-width: 108px;
 }
 
-.curation-panel,
 .protocol-panel,
 .review-plan-panel,
 .analysis-study-rows-panel,
@@ -1886,7 +1809,6 @@ summary {
   .source-grid,
   .trial-distribution-stat-grid,
   .trial-distribution-grid,
-  .domain-pie-layout,
   .curation-grid,
   .field-grid,
   .analysis-summary-bottom,

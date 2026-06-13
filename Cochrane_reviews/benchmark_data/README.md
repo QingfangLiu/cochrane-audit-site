@@ -91,13 +91,16 @@ Internally, the wrapper runs these active steps:
    references from Cochrane RIS exports.
 3. `update_cochrane_review_protocol_eligibility.py` for research question and
    inclusion/exclusion criteria.
-4. `extract_cochrane_review_planned_outcomes.py` for planned outcome details.
-5. `extract_cochrane_review_planned_comparisons.py` for planned comparisons.
+4. `extract_review_plan_outcomes.py` for planned outcome details.
+5. `extract_review_plan_comparisons.py` for planned comparisons.
 6. `build_review_benchmark_json.py --curation-dir ...` to assemble
    `benchmark.json`.
 7. `update_review_benchmark_from_cochrane_analysis_csv.py` to fill the
    `meta_analysis` block from Cochrane analysis CSV exports.
-8. `update_benchmark_questions.py` to refresh launch questions.
+8. `reproduce_cochrane_analysis_from_fulltext.py --benchmark ...` to add
+   all-study and PMCID-only reproduced meta-analysis rows and forest-plot
+   payloads to `benchmark.json`.
+9. `update_benchmark_questions.py` to refresh launch questions.
 
 Useful options:
 
@@ -105,6 +108,8 @@ Useful options:
 - `--source pmc`: extract review text from PMC full text when available.
 - `--skip-analysis`: build the benchmark shell when Cochrane analysis CSVs are
   unavailable.
+- `--skip-analysis-reproduction`: skip reproduced-analysis rows and forest-plot
+  payloads after importing Cochrane analysis CSVs.
 - `--curation-dir PATH`: write generated curation files somewhere other than
   the review-local `curation/` folder.
 - `--dry-run`: print the commands without writing benchmark outputs.
@@ -140,8 +145,9 @@ python3 -B -m py_compile \
   Cochrane_reviews/benchmark_tools/build_reference_indexing_from_cochrane_ris.py \
   Cochrane_reviews/benchmark_tools/update_cochrane_review_protocol_eligibility.py \
   Cochrane_reviews/benchmark_tools/update_review_benchmark_from_cochrane_analysis_csv.py \
-  Cochrane_reviews/scripts/extract_cochrane_review_planned_outcomes.py \
-  Cochrane_reviews/scripts/extract_cochrane_review_planned_comparisons.py
+  Cochrane_reviews/benchmark_tools/reproduce_cochrane_analysis_from_fulltext.py \
+  Cochrane_reviews/benchmark_tools/extract_review_plan_outcomes.py \
+  Cochrane_reviews/benchmark_tools/extract_review_plan_comparisons.py
 
 node --check Cochrane_reviews/audit_site/app.js
 git diff --check
