@@ -1,21 +1,14 @@
 {
-  "artifact_version": "2026-06-13-review-benchmark-v9",
-  "generated_at": "2026-06-13T17:01:57+00:00",
+  "artifact_version": "2026-06-13-review-benchmark-v10",
+  "generated_at": "2026-06-13T18:26:50+00:00",
   "review": {
     "review_id": "CD014353",
-    "review_group": "2026_issue_1",
-    "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
     "source_pdf_path": "../../source_reviews/2026_issue_1/CD014353.pdf",
     "source_collection": "2026_issue_1",
-    "publication_year": "2026",
-    "publication_issue": "1",
     "review_title": "Enteral lipid supplements for the prevention and treatment of parenteral nutrition-associated liver disease in infants"
   },
   "review_summary": {
     "pubmed_pmc": {
-      "review_group": "2026_issue_1",
-      "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-      "review_id": "CD014353",
       "included_study_blocks": "11",
       "study_blocks_with_explicit_pmid": "10",
       "study_blocks_with_doi": "9",

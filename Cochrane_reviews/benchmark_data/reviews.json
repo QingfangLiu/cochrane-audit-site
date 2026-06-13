@@ -1,114 +1,87 @@
 {
-  "artifact_version": "2026-06-13-review-benchmark-v9",
-  "generated_at": "2026-06-13T13:48:43+00:00",
+  "artifact_version": "2026-06-13-review-benchmark-v10",
+  "generated_at": "2026-06-13T18:27:43+00:00",
   "reviews": [
     {
       "review_id": "CD002118",
       "review_title": "Blastocyst-stage versus cleavage-stage embryo transfer in assisted reproductive technology",
       "review_group": "2026_issue_1",
       "source_collection": "2026_issue_1",
-      "publication_year": "2026",
-      "publication_issue": "1",
       "source_pdf_path": "../source_reviews/2026_issue_1/CD002118.pdf",
       "benchmark_path": "CD002118/benchmark.json",
-      "status": "draft_extracted",
-      "included_in_evaluation": false
+      "status": "draft_extracted"
     },
     {
       "review_id": "CD004366",
       "review_title": "Exercise for depression",
       "review_group": "2026_issue_1",
       "source_collection": "2026_issue_1",
-      "publication_year": "2026",
-      "publication_issue": "1",
       "source_pdf_path": "../source_reviews/2026_issue_1/CD004366.pdf",
       "benchmark_path": "CD004366/benchmark.json",
-      "status": "draft_extracted",
-      "included_in_evaluation": false
+      "status": "draft_extracted"
     },
     {
       "review_id": "CD007798",
       "review_title": "Clinically indicated removal versus routine removal of peripheral venous catheters",
       "review_group": "2026_issue_1",
       "source_collection": "2026_issue_1",
-      "publication_year": "2026",
-      "publication_issue": "1",
       "source_pdf_path": "../source_reviews/2026_issue_1/CD007798.pdf",
       "benchmark_path": "CD007798/benchmark.json",
-      "status": "draft_extracted",
-      "included_in_evaluation": false
+      "status": "draft_extracted"
     },
     {
       "review_id": "CD008112",
       "review_title": "Spinal manipulative therapy for adults with chronic low back pain",
       "review_group": "2026_issue_1",
       "source_collection": "2026_issue_1",
-      "publication_year": "2026",
-      "publication_issue": "1",
       "source_pdf_path": "../source_reviews/2026_issue_1/CD008112.pdf",
       "benchmark_path": "CD008112/benchmark.json",
-      "status": "draft_extracted",
-      "included_in_evaluation": false
+      "status": "draft_extracted"
     },
     {
       "review_id": "CD011506",
       "review_title": "Cerebral near-infrared spectroscopy monitoring for prevention of death or neurodevelopmental disability in very preterm infants",
       "review_group": "2026_issue_1",
       "source_collection": "2026_issue_1",
-      "publication_year": "2026",
-      "publication_issue": "1",
       "source_pdf_path": "../source_reviews/2026_issue_1/CD011506.pdf",
       "benchmark_path": "CD011506/benchmark.json",
-      "status": "draft_extracted",
-      "included_in_evaluation": false
+      "status": "draft_extracted"
     },
     {
       "review_id": "CD012589",
       "review_title": "Patient-specific cutting guides for total knee arthroplasty",
       "review_group": "2026_issue_1",
       "source_collection": "2026_issue_1",
-      "publication_year": "2026",
-      "publication_issue": "1",
       "source_pdf_path": "../source_reviews/2026_issue_1/CD012589.pdf",
       "benchmark_path": "CD012589/benchmark.json",
-      "status": "draft_extracted",
-      "included_in_evaluation": false
+      "status": "draft_extracted"
     },
     {
       "review_id": "CD013524",
       "review_title": "Cladribine for people with multiple sclerosis",
       "review_group": "2026_issue_1",
       "source_collection": "2026_issue_1",
-      "publication_year": "2026",
-      "publication_issue": "1",
       "source_pdf_path": "../source_reviews/2026_issue_1/CD013524.pdf",
       "benchmark_path": "CD013524/benchmark.json",
-      "status": "draft_extracted",
-      "included_in_evaluation": false
+      "status": "draft_extracted"
     },
     {
       "review_id": "CD014353",
       "review_title": "Enteral lipid supplements for the prevention and treatment of parenteral nutrition-associated liver disease in infants",
       "review_group": "2026_issue_1",
       "source_collection": "2026_issue_1",
-      "publication_year": "2026",
-      "publication_issue": "1",
       "source_pdf_path": "../source_reviews/2026_issue_1/CD014353.pdf",
       "benchmark_path": "CD014353/benchmark.json",
-      "status": "draft_extracted",
-      "included_in_evaluation": false
+      "status": "draft_extracted"
     },
     {
       "review_id": "CD014811_loop_diuretics_hf",
       "review_title": "Loop diuretics for acute heart failure",
       "review_group": "others",
       "source_collection": "others",
-      "publication_year": "2024",
-      "publication_issue": "5",
       "source_pdf_path": "../source_reviews/others/CD014811_loop_diuretics_hf.pdf",
       "benchmark_path": "CD014811_loop_diuretics_hf/benchmark.json",
-      "status": "draft_extracted",
-      "included_in_evaluation": false
+      "status": "draft_extracted"
     }
   ]
 }

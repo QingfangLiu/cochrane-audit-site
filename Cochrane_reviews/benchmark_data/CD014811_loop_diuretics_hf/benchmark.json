@@ -1,21 +1,14 @@
 {
-  "artifact_version": "2026-06-13-review-benchmark-v9",
-  "generated_at": "2026-06-13T17:01:57+00:00",
+  "artifact_version": "2026-06-13-review-benchmark-v10",
+  "generated_at": "2026-06-13T18:26:50+00:00",
   "review": {
     "review_id": "CD014811_loop_diuretics_hf",
-    "review_group": "others",
-    "review_pdf": "Cochrane_reviews/source_reviews/others/CD014811_loop_diuretics_hf.pdf",
     "source_pdf_path": "../../source_reviews/others/CD014811_loop_diuretics_hf.pdf",
     "source_collection": "others",
-    "publication_year": "2024",
-    "publication_issue": "5",
     "review_title": "Loop diuretics for acute heart failure"
   },
   "review_summary": {
     "pubmed_pmc": {
-      "review_group": "others",
-      "review_pdf": "Cochrane_reviews/source_reviews/others/CD014811_loop_diuretics_hf.pdf",
-      "review_id": "CD014811_loop_diuretics_hf",
       "included_study_blocks": "7",
       "study_blocks_with_explicit_pmid": "7",
       "study_blocks_with_doi": "7",
@@ -28,12 +21,7 @@
       "lookup_errors": "."
     },
     "review_index": {
-      "review_group": "others",
-      "review_pdf": "Cochrane_reviews/source_reviews/others/CD014811_loop_diuretics_hf.pdf",
-      "review_id": "CD014811",
       "extracted_title": "Continuous infusion versus bolus injection of loop diuretics for acute heart failure",
-      "extracted_year": "2024",
-      "extracted_issue": "5",
       "extracted_doi": "10.1002/14651858.CD014811.pub2",
       "in_pubmed": "yes",
       "pmid": "38775253",

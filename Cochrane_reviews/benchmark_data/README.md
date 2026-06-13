@@ -14,7 +14,7 @@ Cochrane_reviews/benchmark_data/
 ```
 
 - `reviews.json`: registry used by the audit site and benchmark launch tools;
-  it stores review lifecycle status and `included_in_evaluation`.
+  it stores review lifecycle status.
 - `<review_id>/benchmark.json`: editable benchmark data for one review.
 
 Use these status values:
@@ -23,9 +23,6 @@ Use these status values:
 - `in_audit`: a human is checking the audit site against the review.
 - `verified`: audit findings have been resolved into `benchmark.json`.
 - `frozen_for_evaluation`: evaluation can consume this review.
-
-Keep `reviews.json` `included_in_evaluation` false until a review is verified
-or frozen.
 
 ## Source Layout For New Reviews
 

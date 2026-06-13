@@ -140,11 +140,11 @@
   }
 
   function reviewTitle(row) {
-    return raw(row.review_title) || raw(row.extracted_title) || raw(row.pubmed_title) || sentenceCaseId(row.review_id || row.review_pdf || "Review");
+    return raw(row.review_title) || raw(row.extracted_title) || raw(row.pubmed_title) || sentenceCaseId(row.review_id || row.review_pdf || row.source_pdf_path || "Review");
   }
 
   function reviewCode(review) {
-    const text = raw(review?.review_id) || raw(review?.review_pdf) || "Review";
+    const text = raw(review?.review_id) || raw(review?.review_pdf) || raw(review?.source_pdf_path) || "Review";
     const match = text.match(/CD\d+/i);
     return match ? match[0].toUpperCase() : text;
   }
@@ -154,6 +154,14 @@
       .split("/")
       .pop()
       .replace(/\.pdf$/i, "");
+  }
+
+  function reviewGroup(review) {
+    return raw(review?.review_group) || raw(review?.source_collection);
+  }
+
+  function reviewPdfPath(review) {
+    return raw(review?.review_pdf) || raw(review?.source_pdf_path);
   }
 
   function groupSortIndex(group) {
@@ -302,12 +310,14 @@
 
   function withReviewIdentity(row, review) {
     const value = row && typeof row === "object" ? row : {};
+    const sourcePdfPath = raw(value.source_pdf_path) || raw(value.review_pdf) || reviewPdfPath(review);
     return {
       ...value,
       review_id: raw(value.review_id) || raw(review.review_id),
       review_title: raw(value.review_title) || raw(review.review_title),
-      review_group: raw(value.review_group) || raw(review.review_group),
-      review_pdf: raw(value.review_pdf) || raw(review.review_pdf) || raw(review.source_pdf_path),
+      review_group: raw(value.review_group) || reviewGroup(review),
+      source_pdf_path: sourcePdfPath,
+      review_pdf: raw(value.review_pdf) || sourcePdfPath,
     };
   }
 
@@ -326,8 +336,9 @@
     buckets.summary.push({
       ...summary,
       review_id: raw(summary.review_id) || raw(review.review_id),
-      review_group: raw(summary.review_group) || raw(review.review_group),
-      review_pdf: raw(summary.review_pdf) || raw(review.review_pdf),
+      review_group: raw(summary.review_group) || reviewGroup(review),
+      source_pdf_path: raw(summary.source_pdf_path) || reviewPdfPath(review),
+      review_pdf: raw(summary.review_pdf) || reviewPdfPath(review),
     });
     buckets.reviewIndex.push(withReviewIdentity(reviewSummary.review_index || {}, review));
     buckets.protocol.push(withReviewIdentity(benchmark?.protocol_and_eligibility || {}, review));
@@ -986,7 +997,7 @@
 
     const reviewIndexByPdfStem = new Map();
     reviewIndexRows.forEach((row) => {
-      const stem = reviewIdFromPath(row.review_pdf);
+      const stem = reviewIdFromPath(reviewPdfPath(row));
       if (stem) {
         reviewIndexByPdfStem.set(stem, row);
       }
@@ -1055,7 +1066,7 @@
 
     return summary
       .map((review, index) => {
-        const reviewIndex = reviewIndexByPdfStem.get(reviewIdFromPath(review.review_pdf)) || {};
+        const reviewIndex = reviewIndexByPdfStem.get(reviewIdFromPath(reviewPdfPath(review))) || {};
         return {
           ...review,
           _rowIndex: index + 1,
@@ -1073,7 +1084,7 @@
         };
       })
       .sort((left, right) => {
-        const groupDiff = groupSortIndex(left.review_group) - groupSortIndex(right.review_group);
+        const groupDiff = groupSortIndex(reviewGroup(left)) - groupSortIndex(reviewGroup(right));
         if (groupDiff !== 0) {
           return groupDiff;
         }
@@ -1082,9 +1093,13 @@
   }
 
   function reviewPdfHref(review) {
-    const path = String(review.review_pdf || "").trim();
+    const path = reviewPdfPath(review);
     if (!path) {
       return "";
+    }
+    const sourceIndex = path.indexOf("source_reviews/");
+    if (sourceIndex !== -1) {
+      return `../${path.slice(sourceIndex)}`;
     }
     if (path.startsWith("Cochrane_reviews/")) {
       return `../${path.replace("Cochrane_reviews/", "")}`;
@@ -1346,7 +1361,7 @@
       return row.review._title || "";
     }
     if (key === "group") {
-      return groupSortIndex(row.review.review_group);
+      return groupSortIndex(reviewGroup(row.review));
     }
     return row.total;
   }
@@ -1371,7 +1386,7 @@
     }
 
     return (
-      groupSortIndex(left.review.review_group) - groupSortIndex(right.review.review_group)
+      groupSortIndex(reviewGroup(left.review)) - groupSortIndex(reviewGroup(right.review))
       || left.review._title.localeCompare(right.review._title)
     );
   }
