@@ -1,5 +1,5 @@
 {
-  "artifact_version": "2026-06-13-review-benchmark-v8",
+  "artifact_version": "2026-06-13-review-benchmark-v9",
   "generated_at": "2026-06-13T17:01:57+00:00",
   "review": {
     "review_id": "CD014811_loop_diuretics_hf",
@@ -201,7 +201,7 @@
     "review_pdf": "Cochrane_reviews/source_reviews/others/CD014811_loop_diuretics_hf.pdf",
     "pdf_status": "present",
     "review_title": "Continuous infusion versus bolus injection of loop diuretics for acute heart failure",
-    "research_question": "What does this review assess: the effects of intravenous continuous infusion versus bolus injection of loop diuretics for the initial treatment of acute heart failure in adults?",
+    "research_question": "What are the effects of intravenous continuous infusion versus bolus injection of loop diuretics for the initial treatment of acute heart failure in adults?",
     "eligibility_inclusion_criteria": [
       {
         "criterion_id": "inclusion_1",

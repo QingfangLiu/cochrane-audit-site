@@ -1,5 +1,5 @@
 {
-  "artifact_version": "2026-06-13-review-benchmark-v8",
+  "artifact_version": "2026-06-13-review-benchmark-v9",
   "generated_at": "2026-06-13T17:01:56+00:00",
   "review": {
     "review_id": "CD007798",
@@ -138,7 +138,7 @@
     "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
     "pdf_status": "present",
     "review_title": "Clinically indicated removal versus routine removal of peripheral venous catheters",
-    "research_question": "What does this review assess: the effects of clinically indicated removal versus routine removal of PVCs?",
+    "research_question": "What are the effects of clinically indicated removal versus routine removal of PVCs?",
     "eligibility_inclusion_criteria": [
       {
         "criterion_id": "inclusion_1",

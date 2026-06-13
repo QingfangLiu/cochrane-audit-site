@@ -1,5 +1,5 @@
 {
-  "artifact_version": "2026-06-13-review-benchmark-v8",
+  "artifact_version": "2026-06-13-review-benchmark-v9",
   "generated_at": "2026-06-13T17:01:57+00:00",
   "review": {
     "review_id": "CD013524",
@@ -128,7 +128,7 @@
     "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
     "pdf_status": "present",
     "review_title": "Cladribine for people with multiple sclerosis",
-    "research_question": "What does this review assess: the short- and long-term benefits and harms of cladribine compared to no intervention, placebo, or any other disease-modifying drugs (DMDs) in people with any form of multiple sclerosis (MS)?",
+    "research_question": "What are the short- and long-term benefits and harms of cladribine compared to no intervention, placebo, or any other disease-modifying drugs (DMDs) in people with any form of multiple sclerosis (MS)?",
     "eligibility_inclusion_criteria": [
       {
         "criterion_id": "inclusion_1",

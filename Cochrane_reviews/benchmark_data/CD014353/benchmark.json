@@ -1,5 +1,5 @@
 {
-  "artifact_version": "2026-06-13-review-benchmark-v8",
+  "artifact_version": "2026-06-13-review-benchmark-v9",
   "generated_at": "2026-06-13T17:01:57+00:00",
   "review": {
     "review_id": "CD014353",
@@ -248,7 +248,7 @@
     "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
     "pdf_status": "present",
     "review_title": "Enteral lipid supplements for the prevention and treatment of parenteral nutrition-associated liver disease in infants",
-    "research_question": "What does this review evaluate: the benefits and harms of enteral lipid supplementation for the prevention and treatment of PNALD in infants?",
+    "research_question": "What are the benefits and harms of enteral lipid supplementation for the prevention and treatment of PNALD in infants?",
     "eligibility_inclusion_criteria": [
       {
         "criterion_id": "inclusion_1",

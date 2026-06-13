@@ -1,5 +1,5 @@
 {
-  "artifact_version": "2026-06-13-review-benchmark-v8",
+  "artifact_version": "2026-06-13-review-benchmark-v9",
   "generated_at": "2026-06-13T17:01:56+00:00",
   "review": {
     "review_id": "CD008112",
@@ -144,7 +144,7 @@
     "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD008112.pdf",
     "pdf_status": "present",
     "review_title": "Spinal manipulative therapy for adults with chronic low back pain",
-    "research_question": "What does this review evaluate: the benefits and harms of SMT compared to (1) sham SMT/placebo intervention, (2) no treatment, and (3) other conservative interventions in people with chronic LBP (18+ years old)?",
+    "research_question": "What are the benefits and harms of SMT compared to (1) sham SMT/placebo intervention, (2) no treatment, and (3) other conservative interventions in people with chronic LBP (18+ years old)?",
     "eligibility_inclusion_criteria": [
       {
         "criterion_id": "inclusion_1",

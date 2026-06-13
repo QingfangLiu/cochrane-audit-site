@@ -1,5 +1,5 @@
 {
-  "artifact_version": "2026-06-13-review-benchmark-v8",
+  "artifact_version": "2026-06-13-review-benchmark-v9",
   "generated_at": "2026-06-13T17:01:56+00:00",
   "review": {
     "review_id": "CD004366",
@@ -122,7 +122,7 @@
     "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD004366.pdf",
     "pdf_status": "present",
     "review_title": "Exercise for depression",
-    "research_question": "What does this review determine: the effectiveness of exercise in the treatment of depression in adults compared with no intervention, waiting list control or placebo, or where exercise is used as an adjunct to an established treatment that is received by both exercising and non-exercising groups. To determine the effectiveness of exercise compared with other active interventions for depression in adults (psychological therapies, pharmacological treatments or alternative interventions such as light therapy)?",
+    "research_question": "What is the effectiveness of exercise in the treatment of depression in adults compared with no intervention, waiting list control or placebo, or where exercise is used as an adjunct to an established treatment that is received by both exercising and non-exercising groups, and the effectiveness of exercise compared with other active interventions for depression in adults (psychological therapies, pharmacological treatments or alternative interventions such as light therapy)?",
     "eligibility_inclusion_criteria": [
       {
         "criterion_id": "inclusion_1",

@@ -1,5 +1,5 @@
 {
-  "artifact_version": "2026-06-13-review-benchmark-v8",
+  "artifact_version": "2026-06-13-review-benchmark-v9",
   "generated_at": "2026-06-13T17:01:57+00:00",
   "review": {
     "review_id": "CD011506",
@@ -142,7 +142,7 @@
     "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD011506.pdf",
     "pdf_status": "present",
     "review_title": "Cerebral near-infrared spectroscopy monitoring for prevention of death or neurodevelopmental disability in very preterm infants",
-    "research_question": "What does this review evaluate: the beneficial and harmful effects of cerebral near-infrared spectroscopy (NIRS) monitoring versus no NIRS or blinded NIRS monitoring in very preterm infants?",
+    "research_question": "What are the beneficial and harmful effects of cerebral near-infrared spectroscopy (NIRS) monitoring versus no NIRS or blinded NIRS monitoring in very preterm infants?",
     "eligibility_inclusion_criteria": [
       {
         "criterion_id": "inclusion_1",

@@ -1,5 +1,5 @@
 {
-  "artifact_version": "2026-06-13-review-benchmark-v8",
+  "artifact_version": "2026-06-13-review-benchmark-v9",
   "generated_at": "2026-06-13T17:01:56+00:00",
   "review": {
     "review_id": "CD002118",
@@ -141,7 +141,7 @@
     "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD002118.pdf",
     "pdf_status": "present",
     "review_title": "Blastocyst-stage versus cleavage-stage embryo transfer in assisted reproductive technology",
-    "research_question": "What does this review assess: the effects of blastocyst-stage (day 5 to 6) embryo transfer compared with cleavage-stage (day 2 to 3) embryo transfer on cumulative live birth rate per woman (defined as the occurrence of at least one live birth resulting from the fresh transfer and all subsequent frozen-thawed embryo transfers derived from the same oocyte retrieval), live birth rate per fresh transfer, and cumulative preterm birth outcomes using the same definition?",
+    "research_question": "What are the effects of blastocyst-stage (day 5 to 6) embryo transfer compared with cleavage-stage (day 2 to 3) embryo transfer on cumulative live birth rate per woman (defined as the occurrence of at least one live birth resulting from the fresh transfer and all subsequent frozen-thawed embryo transfers derived from the same oocyte retrieval), live birth rate per fresh transfer, and cumulative preterm birth outcomes using the same definition?",
     "eligibility_inclusion_criteria": [
       {
         "criterion_id": "inclusion_1",
