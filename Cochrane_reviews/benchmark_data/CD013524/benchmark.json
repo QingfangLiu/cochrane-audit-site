@@ -1,5 +1,5 @@
 {
-  "artifact_version": "2026-06-13-review-benchmark-v5",
+  "artifact_version": "2026-06-13-review-benchmark-v8",
   "generated_at": "2026-06-13T17:01:57+00:00",
   "review": {
     "review_id": "CD013524",
@@ -129,8 +129,52 @@
     "pdf_status": "present",
     "review_title": "Cladribine for people with multiple sclerosis",
     "research_question": "What does this review assess: the short- and long-term benefits and harms of cladribine compared to no intervention, placebo, or any other disease-modifying drugs (DMDs) in people with any form of multiple sclerosis (MS)?",
-    "eligibility_inclusion_criteria": "- Study designs: We included randomised controlled trials (RCTs), their open- label extensions (OLEs), the first phase of cross-over trials, and non-randomised studies of interventions (NRSIs). We decided to include OLEs and NRSIs mainly to detect rare adverse events (e.g. malignancies) and long-term disability progression. Eligibility was independent of publication status or language.\n- Participants: We included people with any form of MS or CIS, diagnosed according to accepted international criteria [47, 48, 49], regardless of age, sex, race, disability, and disease duration.\n- Interventions: We investigated oral or parenteral cladribine, alone or combined, at any dose or duration, versus placebo, no intervention, or other DMDs. Concomitant interventions were accepted if used across all groups.",
-    "eligibility_exclusion_criteria": "- We excluded retrospective studies and those without a comparator.\n- In studies with a mix of eligible and ineligible participants, we analysed data from eligible participants only.\n- We excluded studies that reported no relevant outcomes."
+    "eligibility_inclusion_criteria": [
+      {
+        "criterion_id": "inclusion_1",
+        "label": "Study designs",
+        "criterion": "We included randomised controlled trials (RCTs), their open- label extensions (OLEs), the first phase of cross-over trials, and non-randomised studies of interventions (NRSIs)."
+      },
+      {
+        "criterion_id": "inclusion_2",
+        "label": "Study designs",
+        "criterion": "We decided to include OLEs and NRSIs mainly to detect rare adverse events (e.g. malignancies) and long-term disability progression."
+      },
+      {
+        "criterion_id": "inclusion_3",
+        "label": "Study designs",
+        "criterion": "Eligibility was independent of publication status or language."
+      },
+      {
+        "criterion_id": "inclusion_4",
+        "label": "Participants",
+        "criterion": "We included people with any form of MS or CIS, diagnosed according to accepted international criteria [47, 48, 49], regardless of age, sex, race, disability, and disease duration."
+      },
+      {
+        "criterion_id": "inclusion_5",
+        "label": "Interventions",
+        "criterion": "We investigated oral or parenteral cladribine, alone or combined, at any dose or duration, versus placebo, no intervention, or other DMDs."
+      },
+      {
+        "criterion_id": "inclusion_6",
+        "label": "Interventions",
+        "criterion": "Concomitant interventions were accepted if used across all groups."
+      }
+    ],
+    "eligibility_exclusion_criteria": [
+      {
+        "criterion_id": "exclusion_1",
+        "criterion": "We excluded retrospective studies and those without a comparator."
+      },
+      {
+        "criterion_id": "exclusion_2",
+        "criterion": "In studies with a mix of eligible and ineligible participants, we analysed data from eligible participants only."
+      },
+      {
+        "criterion_id": "exclusion_3",
+        "criterion": "We excluded studies that reported no relevant outcomes."
+      }
+    ]
   },
   "references": {
     "included_studies": [

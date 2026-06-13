@@ -1,5 +1,5 @@
 {
-  "artifact_version": "2026-06-13-review-benchmark-v5",
+  "artifact_version": "2026-06-13-review-benchmark-v8",
   "generated_at": "2026-06-13T17:01:56+00:00",
   "review": {
     "review_id": "CD007798",
@@ -139,8 +139,47 @@
     "pdf_status": "present",
     "review_title": "Clinically indicated removal versus routine removal of peripheral venous catheters",
     "research_question": "What does this review assess: the effects of clinically indicated removal versus routine removal of PVCs?",
-    "eligibility_inclusion_criteria": "- Study designs: We included all randomised controlled trials (RCTs) comparing routine removal of PVC with removal when clinically indicated. Although such designs may increase power or reduce contamination, and are permitted in the Cochrane Handbook for Systematic Reviews of Interventions [40], their inclusion would have introduced heterogeneity in design and analysis.\n- Participants: We included any patient requiring a PVC to be in situ for at least three days for the administration of intermittent or continuous therapy (this may include patients in hospitals, nursing homes orin community settings).\n- Interventions: We included short PVCs made of any material and covered by any dressing (for example, gauze or polyurethane). We included clinically indicated removal versus any time duration for routine removal (e.g. 48 or 72 hours).",
-    "eligibility_exclusion_criteria": "- We excluded cross-over trials to maintain consistency and avoid potential confounding from carryover effects.\n- We excluded patients receiving parenteral nutrition.\n- We excluded steel catheters, midline catheters and long peripheral catheters."
+    "eligibility_inclusion_criteria": [
+      {
+        "criterion_id": "inclusion_1",
+        "label": "Study designs",
+        "criterion": "We included all randomised controlled trials (RCTs) comparing routine removal of PVC with removal when clinically indicated."
+      },
+      {
+        "criterion_id": "inclusion_2",
+        "label": "Study designs",
+        "criterion": "Although such designs may increase power or reduce contamination, and are permitted in the Cochrane Handbook for Systematic Reviews of Interventions [40], their inclusion would have introduced heterogeneity in design and analysis."
+      },
+      {
+        "criterion_id": "inclusion_3",
+        "label": "Participants",
+        "criterion": "We included any patient requiring a PVC to be in situ for at least three days for the administration of intermittent or continuous therapy (this may include patients in hospitals, nursing homes orin community settings)."
+      },
+      {
+        "criterion_id": "inclusion_4",
+        "label": "Interventions",
+        "criterion": "We included short PVCs made of any material and covered by any dressing (for example, gauze or polyurethane)."
+      },
+      {
+        "criterion_id": "inclusion_5",
+        "label": "Interventions",
+        "criterion": "We included clinically indicated removal versus any time duration for routine removal (e.g. 48 or 72 hours)."
+      }
+    ],
+    "eligibility_exclusion_criteria": [
+      {
+        "criterion_id": "exclusion_1",
+        "criterion": "We excluded cross-over trials to maintain consistency and avoid potential confounding from carryover effects."
+      },
+      {
+        "criterion_id": "exclusion_2",
+        "criterion": "We excluded patients receiving parenteral nutrition."
+      },
+      {
+        "criterion_id": "exclusion_3",
+        "criterion": "We excluded steel catheters, midline catheters and long peripheral catheters."
+      }
+    ]
   },
   "references": {
     "included_studies": [

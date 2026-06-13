@@ -1,5 +1,5 @@
 {
-  "artifact_version": "2026-06-13-review-benchmark-v5",
+  "artifact_version": "2026-06-13-review-benchmark-v8",
   "generated_at": "2026-06-13T17:01:57+00:00",
   "review": {
     "review_id": "CD014811_loop_diuretics_hf",
@@ -202,8 +202,63 @@
     "pdf_status": "present",
     "review_title": "Continuous infusion versus bolus injection of loop diuretics for acute heart failure",
     "research_question": "What does this review assess: the effects of intravenous continuous infusion versus bolus injection of loop diuretics for the initial treatment of acute heart failure in adults?",
-    "eligibility_inclusion_criteria": "- Study designs: In line with our study protocol (Zhang 2021), we included RCTs where individual participants were randomised as well as cluster- RCTs. We did not exclude quasi-randomised trials, but rather we ensured we assessed all randomisation processes in our risk of bias analysis (Risk of bias in included studies). For instance, the carryover effect of loop diuretics poses a significant concern, whereby a patient's previous treatment, such as an infusion regimen, may continue to impact kidney function and electrolyte imbalances even after discontinuation. We included studies reported as full-text publications. We contacted authors of studies published as abstracts only for additional or unpublished da.\n- Participants: We included adults (18 years of age or older) with AHF, NYHA classification III or IV, from any aetiology or ejection fraction, with or without comorbidity. For studies that did not explicitly describe the subtypes of heart failure, we regarded participants who were hospitalised or treated in the ambulatory setting with new onset or worsening of heart failure symptoms or signs, or both (such as orthopnoea, dyspnoea, peripheral oedema, pulmonary congestion, and significantly raised B-type natriuretic peptide (BNP) or N-terminal-proBNP (NT- proBNP)) to have AHF. Therefore, we included these people in the review. If studies had conducted subgroup analysis o.",
-    "eligibility_exclusion_criteria": "- We excluded RCTs using a cross-over design as there are inherent limitations in cross-over RCTs that are particularly pertinent within the context of people with AHF.\n- We excluded studies that only recruited participants with chronic stable heart failure."
+    "eligibility_inclusion_criteria": [
+      {
+        "criterion_id": "inclusion_1",
+        "label": "Study designs",
+        "criterion": "In line with our study protocol (Zhang 2021), we included RCTs where individual participants were randomised as well as cluster- RCTs."
+      },
+      {
+        "criterion_id": "inclusion_2",
+        "label": "Study designs",
+        "criterion": "We did not exclude quasi-randomised trials, but rather we ensured we assessed all randomisation processes in our risk of bias analysis (Risk of bias in included studies)."
+      },
+      {
+        "criterion_id": "inclusion_3",
+        "label": "Study designs",
+        "criterion": "For instance, the carryover effect of loop diuretics poses a significant concern, whereby a patient's previous treatment, such as an infusion regimen, may continue to impact kidney function and electrolyte imbalances even after discontinuation."
+      },
+      {
+        "criterion_id": "inclusion_4",
+        "label": "Study designs",
+        "criterion": "We included studies reported as full-text publications."
+      },
+      {
+        "criterion_id": "inclusion_5",
+        "label": "Study designs",
+        "criterion": "We contacted authors of studies published as abstracts only for additional or unpublished da."
+      },
+      {
+        "criterion_id": "inclusion_6",
+        "label": "Participants",
+        "criterion": "We included adults (18 years of age or older) with AHF, NYHA classification III or IV, from any aetiology or ejection fraction, with or without comorbidity."
+      },
+      {
+        "criterion_id": "inclusion_7",
+        "label": "Participants",
+        "criterion": "For studies that did not explicitly describe the subtypes of heart failure, we regarded participants who were hospitalised or treated in the ambulatory setting with new onset or worsening of heart failure symptoms or signs, or both (such as orthopnoea, dyspnoea, peripheral oedema, pulmonary congestion, and significantly raised B-type natriuretic peptide (BNP) or N-terminal-proBNP (NT- proBNP)) to have AHF."
+      },
+      {
+        "criterion_id": "inclusion_8",
+        "label": "Participants",
+        "criterion": "Therefore, we included these people in the review."
+      },
+      {
+        "criterion_id": "inclusion_9",
+        "label": "Participants",
+        "criterion": "If studies had conducted subgroup analysis o."
+      }
+    ],
+    "eligibility_exclusion_criteria": [
+      {
+        "criterion_id": "exclusion_1",
+        "criterion": "We excluded RCTs using a cross-over design as there are inherent limitations in cross-over RCTs that are particularly pertinent within the context of people with AHF."
+      },
+      {
+        "criterion_id": "exclusion_2",
+        "criterion": "We excluded studies that only recruited participants with chronic stable heart failure."
+      }
+    ]
   },
   "references": {
     "included_studies": [

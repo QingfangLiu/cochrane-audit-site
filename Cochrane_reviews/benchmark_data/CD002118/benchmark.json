@@ -1,5 +1,5 @@
 {
-  "artifact_version": "2026-06-13-review-benchmark-v5",
+  "artifact_version": "2026-06-13-review-benchmark-v8",
   "generated_at": "2026-06-13T17:01:56+00:00",
   "review": {
     "review_id": "CD002118",
@@ -142,8 +142,54 @@
     "pdf_status": "present",
     "review_title": "Blastocyst-stage versus cleavage-stage embryo transfer in assisted reproductive technology",
     "research_question": "What does this review assess: the effects of blastocyst-stage (day 5 to 6) embryo transfer compared with cleavage-stage (day 2 to 3) embryo transfer on cumulative live birth rate per woman (defined as the occurrence of at least one live birth resulting from the fresh transfer and all subsequent frozen-thawed embryo transfers derived from the same oocyte retrieval), live birth rate per fresh transfer, and cumulative preterm birth outcomes using the same definition?",
-    "eligibility_inclusion_criteria": "- Study designs: We included only individually-randomised parallel-group trials (RCTs).\n- Participants: We included women affected by subfertility who were undergoing in vitro fertilisation (IVF) or intracytoplasmic sperm injection (ICSI) for therapeutic reasons or for oocyte donation. We included all patient prognosis groups, i.e. the categories to which women are assigned based on factors such as their age, type of subfertility, ovarian response to the superovulation drugs, and number of previous attempts. See the Investigation of heterogeneity and subgroup analysis section below for the categories.\n- Interventions: We included studies comparing blastocyst-stage (day 5 to 6) transfers to cleavage-stage (day 2 to 3) transfers in settings using single and sequential media culture methods for IVF and ICSI, where the embryos were grown for between two and six days in vitro prior to embryo transfer.",
-    "eligibility_exclusion_criteria": "- We excluded quasi-RCTs (such as where allocation was by alternation, identification number, or day of the week) and cluster- randomised trials as these are not valid in the context of fertility trials.\n- We also excluded cross-over trials unless pre-cross-over data were available.\n- We excluded women whose IVF or ICSI cycle, or both, involved in vitro matured oocytes or pre-implantation genetic screening.\n- We also excluded women whose frozen-thawed cycle results were shown, but where no data were available from the fresh cycle.\n- We excluded studies using co-culture methods as an intervention.\n- We also excluded studies if they compared blastocyst-stage transfers to cleavage-stage transfers in frozen-thawed cycles but did not provide data from the fresh cycle."
+    "eligibility_inclusion_criteria": [
+      {
+        "criterion_id": "inclusion_1",
+        "label": "Study designs",
+        "criterion": "We included only individually-randomised parallel-group trials (RCTs)."
+      },
+      {
+        "criterion_id": "inclusion_2",
+        "label": "Participants",
+        "criterion": "We included women affected by subfertility who were undergoing in vitro fertilisation (IVF) or intracytoplasmic sperm injection (ICSI) for therapeutic reasons or for oocyte donation."
+      },
+      {
+        "criterion_id": "inclusion_3",
+        "label": "Participants",
+        "criterion": "We included all patient prognosis groups, i.e. the categories to which women are assigned based on factors such as their age, type of subfertility, ovarian response to the superovulation drugs, and number of previous attempts."
+      },
+      {
+        "criterion_id": "inclusion_4",
+        "label": "Interventions",
+        "criterion": "We included studies comparing blastocyst-stage (day 5 to 6) transfers to cleavage-stage (day 2 to 3) transfers in settings using single and sequential media culture methods for IVF and ICSI, where the embryos were grown for between two and six days in vitro prior to embryo transfer."
+      }
+    ],
+    "eligibility_exclusion_criteria": [
+      {
+        "criterion_id": "exclusion_1",
+        "criterion": "We excluded quasi-RCTs (such as where allocation was by alternation, identification number, or day of the week) and cluster- randomised trials as these are not valid in the context of fertility trials."
+      },
+      {
+        "criterion_id": "exclusion_2",
+        "criterion": "We also excluded cross-over trials unless pre-cross-over data were available."
+      },
+      {
+        "criterion_id": "exclusion_3",
+        "criterion": "We excluded women whose IVF or ICSI cycle, or both, involved in vitro matured oocytes or pre-implantation genetic screening."
+      },
+      {
+        "criterion_id": "exclusion_4",
+        "criterion": "We also excluded women whose frozen-thawed cycle results were shown, but where no data were available from the fresh cycle."
+      },
+      {
+        "criterion_id": "exclusion_5",
+        "criterion": "We excluded studies using co-culture methods as an intervention."
+      },
+      {
+        "criterion_id": "exclusion_6",
+        "criterion": "We also excluded studies if they compared blastocyst-stage transfers to cleavage-stage transfers in frozen-thawed cycles but did not provide data from the fresh cycle."
+      }
+    ]
   },
   "references": {
     "included_studies": [

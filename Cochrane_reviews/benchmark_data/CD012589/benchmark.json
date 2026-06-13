@@ -1,5 +1,5 @@
 {
-  "artifact_version": "2026-06-13-review-benchmark-v5",
+  "artifact_version": "2026-06-13-review-benchmark-v8",
   "generated_at": "2026-06-13T17:01:57+00:00",
   "review": {
     "review_id": "CD012589",
@@ -185,8 +185,63 @@
     "pdf_status": "present",
     "review_title": "Patient-specific cutting guides for total knee arthroplasty",
     "research_question": "What does this review assess: the benefits and harms of patient-specific cutting guides versus conventional cutting guides or computer-assisted surgical navigation in people undergoing primary TKA?",
-    "eligibility_inclusion_criteria": "- Study designs: We included randomised controlled trials (RCTs). We included studies reported as full text, those published as abstracts only, and unpublished data. There was no language restriction.\n- Participants: We included adults undergoing primary TKA for advanced arthritis due to any cause, including osteoarthritis, post-traumatic arthritis, or inflammatory arthritis.\n- Interventions: We included RCTs comparing total knee arthroplasty performed using patient-specific guides versus conventional instrumentation or computer-assisted surgery. The technique, patient-specific cutting guides (PSGs), is a technology used in TKA whereby preoperative imaging (magnetic resonance imaging (MRI), computerised tomography (CT) scans and plain radiographs) is used to create anatomic three- dimensional models of the patient's knee (Ast 2012). PSGs are then manufactured based on these personalised models. These models are fitted to the bone surfaces during surgery to permit the facilitation of bone resections based on preoperatively planned resection angles of the femur and tibia. Using PS.",
-    "eligibility_exclusion_criteria": "- We excluded participants receiving TKA for tumours, unicompartmental replacement or revision knee replacement.\n- We excluded participants undergoing TKA following either a previous osteotomy or previous unicompartmental replacement arthroplasty on the same knee."
+    "eligibility_inclusion_criteria": [
+      {
+        "criterion_id": "inclusion_1",
+        "label": "Study designs",
+        "criterion": "We included randomised controlled trials (RCTs)."
+      },
+      {
+        "criterion_id": "inclusion_2",
+        "label": "Study designs",
+        "criterion": "We included studies reported as full text, those published as abstracts only, and unpublished data."
+      },
+      {
+        "criterion_id": "inclusion_3",
+        "label": "Study designs",
+        "criterion": "There was no language restriction."
+      },
+      {
+        "criterion_id": "inclusion_4",
+        "label": "Participants",
+        "criterion": "We included adults undergoing primary TKA for advanced arthritis due to any cause, including osteoarthritis, post-traumatic arthritis, or inflammatory arthritis."
+      },
+      {
+        "criterion_id": "inclusion_5",
+        "label": "Interventions",
+        "criterion": "We included RCTs comparing total knee arthroplasty performed using patient-specific guides versus conventional instrumentation or computer-assisted surgery."
+      },
+      {
+        "criterion_id": "inclusion_6",
+        "label": "Interventions",
+        "criterion": "The technique, patient-specific cutting guides (PSGs), is a technology used in TKA whereby preoperative imaging (magnetic resonance imaging (MRI), computerised tomography (CT) scans and plain radiographs) is used to create anatomic three- dimensional models of the patient's knee (Ast 2012)."
+      },
+      {
+        "criterion_id": "inclusion_7",
+        "label": "Interventions",
+        "criterion": "PSGs are then manufactured based on these personalised models."
+      },
+      {
+        "criterion_id": "inclusion_8",
+        "label": "Interventions",
+        "criterion": "These models are fitted to the bone surfaces during surgery to permit the facilitation of bone resections based on preoperatively planned resection angles of the femur and tibia."
+      },
+      {
+        "criterion_id": "inclusion_9",
+        "label": "Interventions",
+        "criterion": "Using PS."
+      }
+    ],
+    "eligibility_exclusion_criteria": [
+      {
+        "criterion_id": "exclusion_1",
+        "criterion": "We excluded participants receiving TKA for tumours, unicompartmental replacement or revision knee replacement."
+      },
+      {
+        "criterion_id": "exclusion_2",
+        "criterion": "We excluded participants undergoing TKA following either a previous osteotomy or previous unicompartmental replacement arthroplasty on the same knee."
+      }
+    ]
   },
   "references": {
     "included_studies": [

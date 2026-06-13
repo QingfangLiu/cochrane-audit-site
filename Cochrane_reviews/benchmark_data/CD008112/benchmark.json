@@ -1,5 +1,5 @@
 {
-  "artifact_version": "2026-06-13-review-benchmark-v5",
+  "artifact_version": "2026-06-13-review-benchmark-v8",
   "generated_at": "2026-06-13T17:01:56+00:00",
   "review": {
     "review_id": "CD008112",
@@ -145,8 +145,43 @@
     "pdf_status": "present",
     "review_title": "Spinal manipulative therapy for adults with chronic low back pain",
     "research_question": "What does this review evaluate: the benefits and harms of SMT compared to (1) sham SMT/placebo intervention, (2) no treatment, and (3) other conservative interventions in people with chronic LBP (18+ years old)?",
-    "eligibility_inclusion_criteria": "- Study designs: We included only RCTs published as full texts. Cross-over and cluster-randomised trials were considered.\n- Participants: Participants •Adults (≥ 18 years of age) •With a median duration of the current episode of LBP greater than 12 weeks for the study population, meaning that more than 50% of the study population had pain lasting longer than three months Studies •In which the unique contribution of SMT to the observed effects could be implied; that is, studies in which the effects of SMT could be isolated. This included studies in which SMT was delivered as part of a package of care; for example, studies comparing SMT plus exercise with exercise alone would be included, whereas studies comparing SMT plus exercise with SMT alone would not. •Studies with a mixed population, including participants with and witho.\n- Interventions: Experimental intervention This review focusses on the effects of both spinal manipul.",
-    "eligibility_exclusion_criteria": "- We excluded trials using an inadequate randomisation procedure (e.g. alternate allocation, allocation based upon birthdate).\n- Participants •Postpartum LBP or pelvic pain due to pregnancy •Pain unrelated to the low back, e.g. coccydynia •Postoperative studies or participants with 'failed-back syndrome' •Serious pathologies, such as tumour, fracture, or infection Studies •Examined 'maintenance care' or prevention •Were designed to test the immediate post-intervention effect of a single treatment only, with no additional follow-up •Exclusively examined."
+    "eligibility_inclusion_criteria": [
+      {
+        "criterion_id": "inclusion_1",
+        "label": "Study designs",
+        "criterion": "We included only RCTs published as full texts."
+      },
+      {
+        "criterion_id": "inclusion_2",
+        "label": "Study designs",
+        "criterion": "Cross-over and cluster-randomised trials were considered."
+      },
+      {
+        "criterion_id": "inclusion_3",
+        "label": "Participants",
+        "criterion": "Participants •Adults (≥ 18 years of age) •With a median duration of the current episode of LBP greater than 12 weeks for the study population, meaning that more than 50% of the study population had pain lasting longer than three months Studies •In which the unique contribution of SMT to the observed effects could be implied; that is, studies in which the effects of SMT could be isolated."
+      },
+      {
+        "criterion_id": "inclusion_4",
+        "label": "Participants",
+        "criterion": "This included studies in which SMT was delivered as part of a package of care; for example, studies comparing SMT plus exercise with exercise alone would be included, whereas studies comparing SMT plus exercise with SMT alone would not. •Studies with a mixed population, including participants with and witho."
+      },
+      {
+        "criterion_id": "inclusion_5",
+        "label": "Interventions",
+        "criterion": "Experimental intervention This review focusses on the effects of both spinal manipul."
+      }
+    ],
+    "eligibility_exclusion_criteria": [
+      {
+        "criterion_id": "exclusion_1",
+        "criterion": "We excluded trials using an inadequate randomisation procedure (e.g. alternate allocation, allocation based upon birthdate)."
+      },
+      {
+        "criterion_id": "exclusion_2",
+        "criterion": "Participants •Postpartum LBP or pelvic pain due to pregnancy •Pain unrelated to the low back, e.g. coccydynia •Postoperative studies or participants with 'failed-back syndrome' •Serious pathologies, such as tumour, fracture, or infection Studies •Examined 'maintenance care' or prevention •Were designed to test the immediate post-intervention effect of a single treatment only, with no additional follow-up •Exclusively examined."
+      }
+    ]
   },
   "references": {
     "included_studies": [

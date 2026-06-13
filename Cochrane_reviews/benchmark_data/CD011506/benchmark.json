@@ -1,5 +1,5 @@
 {
-  "artifact_version": "2026-06-13-review-benchmark-v5",
+  "artifact_version": "2026-06-13-review-benchmark-v8",
   "generated_at": "2026-06-13T17:01:57+00:00",
   "review": {
     "review_id": "CD011506",
@@ -143,8 +143,64 @@
     "pdf_status": "present",
     "review_title": "Cerebral near-infrared spectroscopy monitoring for prevention of death or neurodevelopmental disability in very preterm infants",
     "research_question": "What does this review evaluate: the beneficial and harmful effects of cerebral near-infrared spectroscopy (NIRS) monitoring versus no NIRS or blinded NIRS monitoring in very preterm infants?",
-    "eligibility_inclusion_criteria": "- Study designs: Randomised clinical trials (RCTs), cluster-RCTs, and quasi-RCTs (studies that used an approximation of randomisation to allocate participants to treatment) were eligible for inclusion.\n- Participants: Eligible participants were very preterm infants (born before 32 weeks of gestation) or very-low-birthweight (VLBW) infants (birthweight < 1500 g). We included both singletons and infants from multiple births (see Unit of analysis issues). We chose these cut-offs (32 weeks and 1500 g) based on previous studies that investigated the risk of brain injury associated with decreasing gestational age and birthweight [59, 60, 61]. If we identified studies with mixed populations, we included data if at least 50% of participants met our eligibility criteria.\n- Interventions: Our comparison of interest was continuous cerebral NIRS monitoring versus conventional monitoring with no NIRS, or blinded NIRS monitoring during intensive care. The monitoring had to start within one week from birth and be continuous. We applied no limitations related to the duration of NIRS monitoring. We included trials where detection of rStO/two.subs values led to changes in treatment in the experimental group. The only prerequisite for the NIRS equipment was that it had to show a value for tissue oxygenation as a percentage. Possible controls (conventional monitoring) included invasive or non-invasive blood pressure monitoring, pulse oximetry, electrocardiographic monitoring, transcut.",
-    "eligibility_exclusion_criteria": "."
+    "eligibility_inclusion_criteria": [
+      {
+        "criterion_id": "inclusion_1",
+        "label": "Study designs",
+        "criterion": "Randomised clinical trials (RCTs), cluster-RCTs, and quasi-RCTs (studies that used an approximation of randomisation to allocate participants to treatment) were eligible for inclusion."
+      },
+      {
+        "criterion_id": "inclusion_2",
+        "label": "Participants",
+        "criterion": "Eligible participants were very preterm infants (born before 32 weeks of gestation) or very-low-birthweight (VLBW) infants (birthweight < 1500 g)."
+      },
+      {
+        "criterion_id": "inclusion_3",
+        "label": "Participants",
+        "criterion": "We included both singletons and infants from multiple births (see Unit of analysis issues)."
+      },
+      {
+        "criterion_id": "inclusion_4",
+        "label": "Participants",
+        "criterion": "We chose these cut-offs (32 weeks and 1500 g) based on previous studies that investigated the risk of brain injury associated with decreasing gestational age and birthweight [59, 60, 61]."
+      },
+      {
+        "criterion_id": "inclusion_5",
+        "label": "Participants",
+        "criterion": "If we identified studies with mixed populations, we included data if at least 50% of participants met our eligibility criteria."
+      },
+      {
+        "criterion_id": "inclusion_6",
+        "label": "Interventions",
+        "criterion": "Our comparison of interest was continuous cerebral NIRS monitoring versus conventional monitoring with no NIRS, or blinded NIRS monitoring during intensive care."
+      },
+      {
+        "criterion_id": "inclusion_7",
+        "label": "Interventions",
+        "criterion": "The monitoring had to start within one week from birth and be continuous."
+      },
+      {
+        "criterion_id": "inclusion_8",
+        "label": "Interventions",
+        "criterion": "We applied no limitations related to the duration of NIRS monitoring."
+      },
+      {
+        "criterion_id": "inclusion_9",
+        "label": "Interventions",
+        "criterion": "We included trials where detection of rStO/two.subs values led to changes in treatment in the experimental group."
+      },
+      {
+        "criterion_id": "inclusion_10",
+        "label": "Interventions",
+        "criterion": "The only prerequisite for the NIRS equipment was that it had to show a value for tissue oxygenation as a percentage."
+      },
+      {
+        "criterion_id": "inclusion_11",
+        "label": "Interventions",
+        "criterion": "Possible controls (conventional monitoring) included invasive or non-invasive blood pressure monitoring, pulse oximetry, electrocardiographic monitoring, transcut."
+      }
+    ],
+    "eligibility_exclusion_criteria": []
   },
   "references": {
     "included_studies": [

@@ -1,5 +1,5 @@
 {
-  "artifact_version": "2026-06-13-review-benchmark-v5",
+  "artifact_version": "2026-06-13-review-benchmark-v8",
   "generated_at": "2026-06-13T17:01:57+00:00",
   "review": {
     "review_id": "CD014353",
@@ -249,8 +249,62 @@
     "pdf_status": "present",
     "review_title": "Enteral lipid supplements for the prevention and treatment of parenteral nutrition-associated liver disease in infants",
     "research_question": "What does this review evaluate: the benefits and harms of enteral lipid supplementation for the prevention and treatment of PNALD in infants?",
-    "eligibility_inclusion_criteria": "- Study designs: Randomized control trials (RCTs), quasi-RCTs and cluster-RCTs were eligible for inclusion in this review. Quasi-RCTs are parallel- arm RCTs in which allocation is decided by an approximation of randomization (e.g. allocation by patient ID number).\n- Participants: We included the following participants: 1.Infants at risk of parenteral nutrition-associated liver disease; and 2.Infants with parenteral nutrition-associated liver disease. PNALD was defined as the elevation of serum levels of conjugated bilirubin over 2 mg/dL when exposed to parenteral nutrition for two weeks or more, in the absence of other causes of cholestasis [1, 2]. We defined an infant as a child under the age of one year.\n- Interventions: We included studies of enteral administration of lipid supplements of any formulation compared to a placebo or no treatment, or against each other, at any dosage or duration. Lipid supplements include oils derived from various sources such as fish oil (tuna oil, salmon oil), plant-based oil (olive oil, sunflower oil), algal oil, fungal oil or mixed oil emulsions (algal and fungal oil, fish and medium- chain triglyceride oil). We included the followi.",
-    "eligibility_exclusion_criteria": "- We excluded infants with cholestasis due to primary liver disease, inborn errors of metabolism, or congenital infection, as their pathogenesis differs from PNALD and requires disease-specific treatments.\n- We excluded studies involving infants receiving enteral feeds without the need for parenteral nutrition, as they were neither at risk for PNALD, nor diagnosed with PNALD.\n- Had we identified studies including both eligible and ineligible populations, we would have extracted data only for the eligible populations based on data in the study, or based on information obtained from the study authors."
+    "eligibility_inclusion_criteria": [
+      {
+        "criterion_id": "inclusion_1",
+        "label": "Study designs",
+        "criterion": "Randomized control trials (RCTs), quasi-RCTs and cluster-RCTs were eligible for inclusion in this review."
+      },
+      {
+        "criterion_id": "inclusion_2",
+        "label": "Study designs",
+        "criterion": "Quasi-RCTs are parallel- arm RCTs in which allocation is decided by an approximation of randomization (e.g. allocation by patient ID number)."
+      },
+      {
+        "criterion_id": "inclusion_3",
+        "label": "Participants",
+        "criterion": "We included the following participants: 1.Infants at risk of parenteral nutrition-associated liver disease; and 2.Infants with parenteral nutrition-associated liver disease."
+      },
+      {
+        "criterion_id": "inclusion_4",
+        "label": "Participants",
+        "criterion": "PNALD was defined as the elevation of serum levels of conjugated bilirubin over 2 mg/dL when exposed to parenteral nutrition for two weeks or more, in the absence of other causes of cholestasis [1, 2]."
+      },
+      {
+        "criterion_id": "inclusion_5",
+        "label": "Participants",
+        "criterion": "We defined an infant as a child under the age of one year."
+      },
+      {
+        "criterion_id": "inclusion_6",
+        "label": "Interventions",
+        "criterion": "We included studies of enteral administration of lipid supplements of any formulation compared to a placebo or no treatment, or against each other, at any dosage or duration."
+      },
+      {
+        "criterion_id": "inclusion_7",
+        "label": "Interventions",
+        "criterion": "Lipid supplements include oils derived from various sources such as fish oil (tuna oil, salmon oil), plant-based oil (olive oil, sunflower oil), algal oil, fungal oil or mixed oil emulsions (algal and fungal oil, fish and medium- chain triglyceride oil)."
+      },
+      {
+        "criterion_id": "inclusion_8",
+        "label": "Interventions",
+        "criterion": "We included the followi."
+      }
+    ],
+    "eligibility_exclusion_criteria": [
+      {
+        "criterion_id": "exclusion_1",
+        "criterion": "We excluded infants with cholestasis due to primary liver disease, inborn errors of metabolism, or congenital infection, as their pathogenesis differs from PNALD and requires disease-specific treatments."
+      },
+      {
+        "criterion_id": "exclusion_2",
+        "criterion": "We excluded studies involving infants receiving enteral feeds without the need for parenteral nutrition, as they were neither at risk for PNALD, nor diagnosed with PNALD."
+      },
+      {
+        "criterion_id": "exclusion_3",
+        "criterion": "Had we identified studies including both eligible and ineligible populations, we would have extracted data only for the eligible populations based on data in the study, or based on information obtained from the study authors."
+      }
+    ]
   },
   "references": {
     "included_studies": [

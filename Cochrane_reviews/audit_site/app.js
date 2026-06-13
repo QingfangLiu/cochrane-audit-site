@@ -1579,7 +1579,37 @@
     `;
   }
 
+  function criterionDisplayText(item) {
+    if (!item || typeof item !== "object" || Array.isArray(item)) {
+      return raw(item);
+    }
+    const label = raw(item.label);
+    const criterion = raw(item.criterion);
+    if (label && criterion) {
+      return `${label}: ${criterion}`;
+    }
+    return criterion || label || raw(item.criterion_id);
+  }
+
+  function auditDisplayValue(value) {
+    if (Array.isArray(value) || (value && typeof value === "object")) {
+      return JSON.stringify(value, null, 2);
+    }
+    return raw(value);
+  }
+
   function renderFieldValue(value, fallback = "None") {
+    if (Array.isArray(value)) {
+      const items = value.map(criterionDisplayText).filter(Boolean);
+      if (!items.length) {
+        return `<span class="muted">${escapeHtml(fallback)}</span>`;
+      }
+      return `
+        <ul class="field-bullet-list">
+          ${items.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}
+        </ul>
+      `;
+    }
     const text = raw(value);
     if (!text) {
       return `<span class="muted">${escapeHtml(fallback)}</span>`;
@@ -1649,7 +1679,7 @@
             item_id: `${protocol.review_id}:eligibility_inclusion_criteria`,
             source_file: benchmarkSourceFile(protocol.review_id),
             field_name: "eligibility_inclusion_criteria",
-            displayed_value: raw(protocol.eligibility_inclusion_criteria),
+            displayed_value: auditDisplayValue(protocol.eligibility_inclusion_criteria),
           })}
           ${renderCurationField("Exclusion criteria", protocol.eligibility_exclusion_criteria, true, {
             review_id: protocol.review_id,
@@ -1658,7 +1688,7 @@
             item_id: `${protocol.review_id}:eligibility_exclusion_criteria`,
             source_file: benchmarkSourceFile(protocol.review_id),
             field_name: "eligibility_exclusion_criteria",
-            displayed_value: raw(protocol.eligibility_exclusion_criteria),
+            displayed_value: auditDisplayValue(protocol.eligibility_exclusion_criteria),
           })}
         </div>
       </section>

@@ -1,5 +1,5 @@
 {
-  "artifact_version": "2026-06-13-review-benchmark-v5",
+  "artifact_version": "2026-06-13-review-benchmark-v8",
   "generated_at": "2026-06-13T17:01:56+00:00",
   "review": {
     "review_id": "CD004366",
@@ -123,8 +123,53 @@
     "pdf_status": "present",
     "review_title": "Exercise for depression",
     "research_question": "What does this review determine: the effectiveness of exercise in the treatment of depression in adults compared with no intervention, waiting list control or placebo, or where exercise is used as an adjunct to an established treatment that is received by both exercising and non-exercising groups. To determine the effectiveness of exercise compared with other active interventions for depression in adults (psychological therapies, pharmacological treatments or alternative interventions such as light therapy)?",
-    "eligibility_inclusion_criteria": "- Study designs: We included randomised controlled trials (RCTs), including parallel, cluster, or individual, or the first phase of cross-over trials. We defined a trial as an RCT if the allocation of participants to intervention and comparison groups was described as randomised (including terms such as 'randomly', 'random' or 'randomisation').\n- Participants: Participant characteristics Adult men and women aged 18 and over (with no upper age limit) in any setting, including inpatients. We included studies if the participants were defined by the author of the trial as having depression (by any method of diagnosis and of any severity). Diagnosis The effects of exercise on depressive symptoms in participants with emotional distress (but not fulfilling a diagnosis of depression) or those who are healthy were not included in this review. We acknowledge that it can sometimes be difficult to distinguish between depression and dysthymia in the 'real world', as there need be only two weeks of decreased interest and enjoyment to diagnose depression. Howev.",
-    "eligibility_exclusion_criteria": "- We excluded trials that randomised people both with and without depression, even if results from the subgroups of participants with depression were reported separately, in keeping with what was done in previous versions of this review [32, 99, 108].\n- We did not include studies that investigated the effect of exercise on anxiety and neurotic disorders, dysthymia (i.e. low mood not fulfilling diagnostic criteria for depression) or postnatal depression."
+    "eligibility_inclusion_criteria": [
+      {
+        "criterion_id": "inclusion_1",
+        "label": "Study designs",
+        "criterion": "We included randomised controlled trials (RCTs), including parallel, cluster, or individual, or the first phase of cross-over trials."
+      },
+      {
+        "criterion_id": "inclusion_2",
+        "label": "Study designs",
+        "criterion": "We defined a trial as an RCT if the allocation of participants to intervention and comparison groups was described as randomised (including terms such as 'randomly', 'random' or 'randomisation')."
+      },
+      {
+        "criterion_id": "inclusion_3",
+        "label": "Participants",
+        "criterion": "Participant characteristics Adult men and women aged 18 and over (with no upper age limit) in any setting, including inpatients."
+      },
+      {
+        "criterion_id": "inclusion_4",
+        "label": "Participants",
+        "criterion": "We included studies if the participants were defined by the author of the trial as having depression (by any method of diagnosis and of any severity)."
+      },
+      {
+        "criterion_id": "inclusion_5",
+        "label": "Participants",
+        "criterion": "Diagnosis The effects of exercise on depressive symptoms in participants with emotional distress (but not fulfilling a diagnosis of depression) or those who are healthy were not included in this review."
+      },
+      {
+        "criterion_id": "inclusion_6",
+        "label": "Participants",
+        "criterion": "We acknowledge that it can sometimes be difficult to distinguish between depression and dysthymia in the 'real world', as there need be only two weeks of decreased interest and enjoyment to diagnose depression."
+      },
+      {
+        "criterion_id": "inclusion_7",
+        "label": "Participants",
+        "criterion": "Howev."
+      }
+    ],
+    "eligibility_exclusion_criteria": [
+      {
+        "criterion_id": "exclusion_1",
+        "criterion": "We excluded trials that randomised people both with and without depression, even if results from the subgroups of participants with depression were reported separately, in keeping with what was done in previous versions of this review [32, 99, 108]."
+      },
+      {
+        "criterion_id": "exclusion_2",
+        "criterion": "We did not include studies that investigated the effect of exercise on anxiety and neurotic disorders, dysthymia (i.e. low mood not fulfilling diagnostic criteria for depression) or postnatal depression."
+      }
+    ]
   },
   "references": {
     "included_studies": [
