@@ -4,6 +4,5 @@
   "status": "draft_extracted",
   "generated_at": "2026-06-09T12:32:41+00:00",
   "benchmark_path": "benchmark.json",
-  "audit_findings_path": "audit_findings.tsv",
   "notes": ""
 }

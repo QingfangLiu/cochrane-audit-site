@@ -32,39 +32,30 @@ benchmark_data/
   reviews.json
   CD002118/
     benchmark.json
-    audit_findings.tsv
     status.json
   CD004366/
     benchmark.json
-    audit_findings.tsv
     status.json
   CD007798/
     benchmark.json
-    audit_findings.tsv
     status.json
   CD008112/
     benchmark.json
-    audit_findings.tsv
     status.json
   CD011506/
     benchmark.json
-    audit_findings.tsv
     status.json
   CD012589/
     benchmark.json
-    audit_findings.tsv
     status.json
   CD013524/
     benchmark.json
-    audit_findings.tsv
     status.json
   CD014353/
     benchmark.json
-    audit_findings.tsv
     status.json
   CD014811_loop_diuretics_hf/
     benchmark.json
-    audit_findings.tsv
     status.json
 ```
 
@@ -72,8 +63,6 @@ benchmark_data/
   eventually, evaluation.
 - `<review_id>/benchmark.json`: editable per-review benchmark source used by the
   audit site.
-- `<review_id>/audit_findings.tsv`: exported or copied human audit findings for
-  that review.
 - `<review_id>/status.json`: lifecycle state and review-local notes.
 
 When present, `benchmark.json.review_plan` stores planned PICO, planned
@@ -191,17 +180,15 @@ The target workflow should be:
 4. Build a review-level PubMed/PMC index for the Cochrane review article.
 5. Convert the RIS exports into included/excluded reference TSV artifacts.
 6. Run the review-text extractor for protocol/eligibility.
-7. Run the review-text extractor for search methods and search strategies.
-8. Build `<review_id>/benchmark.json` from the header/protocol/search/reference
+7. Build `<review_id>/benchmark.json` from the header/protocol/reference
    outputs.
-9. Update the benchmark `meta_analysis` block directly from the Cochrane CSV
+8. Update the benchmark `meta_analysis` block directly from the Cochrane CSV
    exports.
-10. Load the review in the audit site through `reviews.json`.
-11. Refresh `benchmark_questions.tsv` so the agent can launch the review by
+9. Load the review in the audit site through `reviews.json`.
+10. Refresh `benchmark_questions.tsv` so the agent can launch the review by
     number or review ID.
-12. Export human audit findings.
-13. Resolve findings by editing `benchmark.json`.
-14. Mark the review `verified` or `frozen_for_evaluation`.
+11. Resolve findings by editing `benchmark.json`.
+12. Mark the review `verified` or `frozen_for_evaluation`.
 
 Example CD013524 command sequence:
 
@@ -268,21 +255,6 @@ page as a fallback candidate list with
 After this is stable, a wrapper command can orchestrate those steps for a new
 PDF. The wrapper should call the existing extraction scripts instead of
 duplicating extraction logic.
-
-## Audit Findings
-
-The audit site stores findings in browser local storage until export. Exported
-findings should be saved or copied into the review folder:
-
-```text
-benchmark_data/<review_id>/audit_findings.tsv
-```
-
-Audit findings do not automatically change `benchmark.json`. They are a review
-queue for manual or scripted triage. A future tool should read
-`audit_findings.tsv`, show each finding alongside the current `benchmark.json`
-value, and help decide whether to update the benchmark, mark the finding
-resolved, or leave it for discussion.
 
 ## Editing Rule
 
