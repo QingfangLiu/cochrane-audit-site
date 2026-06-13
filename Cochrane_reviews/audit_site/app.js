@@ -6,6 +6,8 @@
     "curation",
     "reviewIndex",
     "protocol",
+    "plannedComparisons",
+    "plannedOutcomes",
     "studies",
     "records",
     "reports",
@@ -326,6 +328,7 @@
     const reviewSummary = benchmark?.review_summary || {};
     const references = benchmark?.references || {};
     const metaAnalysis = benchmark?.meta_analysis || {};
+    const reviewPlan = benchmark?.review_plan || {};
     const summary = withReviewIdentity(reviewSummary.pubmed_pmc || {}, review);
 
     buckets.summary.push({
@@ -337,6 +340,18 @@
     buckets.curation.push(withReviewIdentity(reviewSummary.curation || {}, review));
     buckets.reviewIndex.push(withReviewIdentity(reviewSummary.review_index || {}, review));
     buckets.protocol.push(withReviewIdentity(benchmark?.protocol_and_eligibility || {}, review));
+    buckets.plannedComparisons.push(
+      ...ensureArray(reviewPlan.planned_comparisons).map((row, index) => withReviewIdentity({
+        ...row,
+        _rowIndex: index + 1,
+      }, review)),
+    );
+    buckets.plannedOutcomes.push(
+      ...ensureArray(reviewPlan.planned_outcomes).map((row, index) => withReviewIdentity({
+        ...row,
+        _rowIndex: index + 1,
+      }, review)),
+    );
     buckets.domainSources.push(withReviewIdentity(reviewSummary.domain_source || {}, review));
     buckets.domainLabels.push(withReviewIdentity(reviewSummary.domain_label || {}, review));
 
@@ -853,6 +868,8 @@
     const curationRows = state.rows.curation || [];
     const reviewIndexRows = state.rows.reviewIndex || [];
     const protocolRows = state.rows.protocol || [];
+    const plannedComparisons = state.rows.plannedComparisons || [];
+    const plannedOutcomes = state.rows.plannedOutcomes || [];
     const studies = state.rows.studies || [];
     const records = state.rows.records || [];
     const reports = state.rows.reports || [];
@@ -1040,6 +1057,30 @@
       }
     });
 
+    const plannedComparisonsByReview = new Map();
+    plannedComparisons.forEach((row, index) => {
+      const reviewId = row.review_id || "";
+      if (!plannedComparisonsByReview.has(reviewId)) {
+        plannedComparisonsByReview.set(reviewId, []);
+      }
+      plannedComparisonsByReview.get(reviewId).push({
+        ...row,
+        _rowIndex: index + 1,
+      });
+    });
+
+    const plannedOutcomesByReview = new Map();
+    plannedOutcomes.forEach((row, index) => {
+      const reviewId = row.review_id || "";
+      if (!plannedOutcomesByReview.has(reviewId)) {
+        plannedOutcomesByReview.set(reviewId, []);
+      }
+      plannedOutcomesByReview.get(reviewId).push({
+        ...row,
+        _rowIndex: index + 1,
+      });
+    });
+
     const domainSourceByReview = new Map();
     domainSources.forEach((row) => {
       if (row.review_id) {
@@ -1118,6 +1159,8 @@
           _curation: curation,
           _reviewIndex: reviewIndex,
           _protocol: protocolByReview.get(review.review_id) || {},
+          _plannedComparisons: plannedComparisonsByReview.get(review.review_id) || [],
+          _plannedOutcomes: plannedOutcomesByReview.get(review.review_id) || [],
           _domainSource: domainSource,
           _domainLabel: domainLabelByReview.get(review.review_id) || {},
         };
@@ -1681,6 +1724,7 @@
     return [
       { label: "Review header", href: "#review-header" },
       { label: "Protocol and eligibility", href: "#protocol-eligibility" },
+      { label: "Review plan", href: "#review-plan" },
       { label: "References", href: "#trials" },
       { label: "Included trials", href: "#included-trials", branch: true },
       { label: "Excluded trials", href: "#excluded-trials", branch: true },
@@ -1759,11 +1803,30 @@
     `;
   }
 
+  function renderFieldValue(value, fallback = "None") {
+    const text = raw(value);
+    if (!text) {
+      return `<span class="muted">${escapeHtml(fallback)}</span>`;
+    }
+    const bulletLines = text
+      .split(/\n+/)
+      .map((line) => line.trim())
+      .filter(Boolean);
+    if (bulletLines.length && bulletLines.every((line) => /^[-*]\s+/.test(line))) {
+      return `
+        <ul class="field-bullet-list">
+          ${bulletLines.map((line) => `<li>${escapeHtml(line.replace(/^[-*]\s+/, ""))}</li>`).join("")}
+        </ul>
+      `;
+    }
+    return escapeHtml(text);
+  }
+
   function renderCurationField(label, value, wide = false, auditContext = null) {
     return `
       <div class="curation-field${wide ? " wide" : ""}">
         <div class="field-label">${escapeHtml(label)}</div>
-        <div class="field-value">${display(value)}</div>
+        <div class="field-value">${renderFieldValue(value)}</div>
         ${auditContext ? renderAuditIssueActions(auditContext, "field-audit-actions") : ""}
       </div>
     `;
@@ -1821,6 +1884,199 @@
             field_name: "eligibility_exclusion_criteria",
             displayed_value: raw(protocol.eligibility_exclusion_criteria),
           })}
+        </div>
+      </section>
+    `;
+  }
+
+  function plannedOutcomeAuditValue(row) {
+    return [
+      ["outcome_id", raw(row.outcome_id)],
+      ["name", raw(row.name)],
+      ["role", raw(row.role)],
+      ["unit_or_scale", raw(row.unit_or_scale)],
+      ["outcome_definition", raw(row.source_outcome_text)],
+      ["source_section", raw(row.source_section)],
+      ["source_note", raw(row.source_note)],
+      ["source_outcome_text", raw(row.source_outcome_text)],
+    ].map(([field, value]) => `${field}: ${value || ""}`).join("\n");
+  }
+
+  function renderAgentOutcomeFields(row) {
+    return `
+      <dl class="agent-field-list">
+        <div>
+          <dt>Name</dt>
+          <dd>${display(row.name, "No name")}</dd>
+        </div>
+        <div>
+          <dt>Role</dt>
+          <dd>${display(row.role)}</dd>
+        </div>
+        <div>
+          <dt>Unit / scale</dt>
+          <dd>${display(row.unit_or_scale)}</dd>
+        </div>
+        <div>
+          <dt>Source outcome ID</dt>
+          <dd>${display(row.outcome_id, "No outcome ID")}</dd>
+        </div>
+      </dl>
+    `;
+  }
+
+  function renderAgentOutcomeDefinition(row) {
+    const definition = raw(row.source_outcome_text);
+    return `
+      <div class="agent-definition">
+        <div class="field-label">Outcome definition</div>
+        <div>${definition ? display(definition) : `<span class="muted">No separate definition text in benchmark.json.</span>`}</div>
+        <div class="agent-definition-source">Derived from <code>source_outcome_text</code>.</div>
+      </div>
+    `;
+  }
+
+  function renderAgentOutcomeProvenance(row) {
+    return `
+      <dl class="agent-field-list">
+        <div>
+          <dt>Source section</dt>
+          <dd>${display(row.source_section, "No source section")}</dd>
+        </div>
+        <div>
+          <dt>Source note</dt>
+          <dd>${display(row.source_note)}</dd>
+        </div>
+        <div>
+          <dt>Raw source_outcome_text</dt>
+          <dd>${display(row.source_outcome_text)}</dd>
+        </div>
+      </dl>
+    `;
+  }
+
+  function plannedComparisonAuditValue(row) {
+    return [
+      ["comparison_id", raw(row.comparison_id)],
+      ["label", raw(row.label)],
+      ["intervention", raw(row.intervention)],
+      ["comparator", raw(row.comparator)],
+      ["source_section", raw(row.source_section)],
+      ["source_type", raw(row.source_type)],
+      ["source_text_raw", raw(row.source_text_raw)],
+    ].map(([field, value]) => `${field}: ${value || ""}`).join("\n");
+  }
+
+  function renderPlannedComparisonsTable(review, rows) {
+    if (!rows.length) {
+      return `<p class="muted excerpt">No planned comparisons are present in ${escapeHtml(benchmarkSourceFile(review.review_id))}.</p>`;
+    }
+    return `
+      <div class="record-table-wrap review-plan-table">
+        <table>
+          <thead>
+            <tr>
+              <th>Comparison</th>
+              <th>Intervention</th>
+              <th>Comparator</th>
+              <th>Source</th>
+              <th>Audit</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${rows.map((row) => `
+              <tr>
+                <td>
+                  <strong>${display(row.label, "No label")}</strong>
+                  <div class="muted">${display(row.comparison_id, "No comparison ID")}</div>
+                </td>
+                <td>${display(row.intervention)}</td>
+                <td>${display(row.comparator)}</td>
+                <td>
+                  <div>${display(row.source_section, "No source section")}</div>
+                  <div class="muted">${display(row.source_type, "No source type")}</div>
+                  ${raw(row.source_text_raw) ? `<details class="source-details"><summary>Source text</summary><p>${display(row.source_text_raw)}</p></details>` : ""}
+                </td>
+                <td>
+                  ${renderAuditIssueActions({
+                    review_id: review.review_id,
+                    section: "Review plan",
+                    item_type: "planned_comparison",
+                    item_id: `${review.review_id || ""}:planned_comparison_${row.comparison_id || row._rowIndex || ""}`,
+                    source_file: benchmarkSourceFile(review.review_id),
+                    field_name: "planned_comparison",
+                    displayed_value: plannedComparisonAuditValue(row),
+                  }, "table-audit-actions")}
+                </td>
+              </tr>
+            `).join("")}
+          </tbody>
+        </table>
+      </div>
+    `;
+  }
+
+  function renderPlannedOutcomesTable(review, rows) {
+    if (!rows.length) {
+      return `<p class="muted excerpt">No planned outcomes are present in ${escapeHtml(benchmarkSourceFile(review.review_id))}.</p>`;
+    }
+    return `
+      <div class="record-table-wrap review-plan-table">
+        <table>
+          <thead>
+            <tr>
+              <th>Agent outcome fields</th>
+              <th>Outcome definition</th>
+              <th>Benchmark provenance</th>
+              <th>Audit</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${rows.map((row) => `
+              <tr>
+                <td>${renderAgentOutcomeFields(row)}</td>
+                <td>${renderAgentOutcomeDefinition(row)}</td>
+                <td>${renderAgentOutcomeProvenance(row)}</td>
+                <td>
+                  ${renderAuditIssueActions({
+                    review_id: review.review_id,
+                    section: "Review plan",
+                    item_type: "planned_outcome",
+                    item_id: `${review.review_id || ""}:planned_outcome_${row.outcome_id || row._rowIndex || ""}`,
+                    source_file: benchmarkSourceFile(review.review_id),
+                    field_name: "planned_outcome",
+                    displayed_value: plannedOutcomeAuditValue(row),
+                  }, "table-audit-actions")}
+                </td>
+              </tr>
+            `).join("")}
+          </tbody>
+        </table>
+      </div>
+    `;
+  }
+
+  function renderReviewPlanPanel(review) {
+    const comparisons = review._plannedComparisons || [];
+    const outcomes = review._plannedOutcomes || [];
+    return `
+      <section class="panel review-plan-panel" id="review-plan">
+        <div class="section-head">
+          <div>
+            <h2>Review Plan</h2>
+            <p class="muted">${escapeHtml(benchmarkSourceLabel(review))} Planned comparisons and outcomes come from review_plan.</p>
+          </div>
+          <div class="muted">${comparisons.length} comparisons; ${outcomes.length} outcomes</div>
+        </div>
+        <div class="review-plan-stack">
+          <section class="review-plan-subsection">
+            <h3>Planned Comparisons</h3>
+            ${renderPlannedComparisonsTable(review, comparisons)}
+          </section>
+          <section class="review-plan-subsection">
+            <h3>Planned Outcomes</h3>
+            ${renderPlannedOutcomesTable(review, outcomes)}
+          </section>
         </div>
       </section>
     `;
@@ -3268,6 +3524,7 @@
       <div class="content-stack">
         ${renderReviewHeader(review)}
         ${renderProtocolEligibilityPanel(review)}
+        ${renderReviewPlanPanel(review)}
         ${renderTrialsPlaceholder()}
         ${renderIncludedTrialsTable(review)}
         ${renderExcludedTrialsTable(review)}

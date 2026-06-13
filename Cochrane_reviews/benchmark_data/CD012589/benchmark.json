@@ -1,6 +1,6 @@
 {
   "artifact_version": "2026-06-08-review-benchmark-v2",
-  "generated_at": "2026-06-09T12:32:41+00:00",
+  "generated_at": "2026-06-13T13:49:02+00:00",
   "review": {
     "review_id": "CD012589",
     "review_group": "2026_issue_1",
@@ -29,74 +29,168 @@
       "percent_blocks_with_any_pmc": "29.5",
       "lookup_errors": "."
     },
-    "review_index": {
-      "review_group": "2026_issue_1",
-      "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-      "review_id": "CD012589",
-      "extracted_title": "Patient-specific cutting guides for total knee arthroplasty",
-      "extracted_year": "2026",
-      "extracted_issue": "1",
-      "extracted_doi": "10.1002/14651858.CD012589.pub2",
-      "in_pubmed": "yes",
-      "pmid": "41498625",
-      "pubmed_title": "Patient-specific cutting guides for total knee arthroplasty.",
-      "pubmed_journal": "The Cochrane database of systematic reviews",
-      "pubmed_year": "2026",
-      "pubmed_doi": "10.1002/14651858.CD012589.pub2",
-      "pubmed_publication_types": "Journal Article; Systematic Review; Meta-Analysis",
-      "title_similarity": "1.000",
-      "lookup_method": "doi",
-      "candidate_pmids": "41498625",
-      "in_pmc": "no",
-      "pmcid": "",
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41498625/",
-      "pmc_url": "",
-      "lookup_status": "matched",
-      "lookup_errors": ""
-    },
+    "review_index": {},
     "domain_source": {},
     "domain_label": {}
+  },
+  "review_plan": {
+    "review_id": "CD012589",
+    "source": "review_planned_outcomes_tsv; review_planned_comparisons_tsv",
+    "source_pdf_path": "../../source_reviews/2026_issue_1/CD012589.pdf",
+    "plan_status": "generated_from_planned_rows",
+    "planned_pico": {},
+    "planned_comparisons": [
+      {
+        "comparison_id": "planned_1",
+        "label": "total knee arthroplasty performed using patient-specific guides compared with conventional instrumentation or computer-assisted surgery",
+        "intervention": "total knee arthroplasty performed using patient-specific guides",
+        "comparator": "conventional instrumentation or computer-assisted surgery",
+        "source_section": "Types of interventions",
+        "source_type": "methods_extracted",
+        "source_text_raw": "We included RCTs comparing total knee arthroplasty performed using patient-specific guides versus conventional instrumentation or computer-assisted surgery",
+        "extraction_status": "extracted",
+        "extraction_notes": "Extracted from Methods comparison prose."
+      }
+    ],
+    "planned_outcomes": [
+      {
+        "outcome_id": "major_1",
+        "name": "Survival rate of the implant (any revision surgery to change a prosthetic component, i.e. the proportion of knees that undergo revision surgery)",
+        "role": "major",
+        "source_section": "Types of outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result."
+      },
+      {
+        "outcome_id": "major_2",
+        "name": "Functional outcome measures with validated instruments (such as participant-reported measures",
+        "role": "major",
+        "source_section": "Types of outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result.",
+        "source_outcome_text": "Functional outcome measures with validated instruments (such as participant-reported measures: Western Ontario & McMaster Universities Osteoarthritis Index (WOMAC), Knee Injury and Osteoarthritis Outcome Score (KOOS), International Knee Documentation Committee (IKDC) score, Oxford Knee score (OKS) and Knee Society Score (KSS)"
+      },
+      {
+        "outcome_id": "major_3",
+        "name": "Radiographic lower limb alignment",
+        "role": "major",
+        "source_section": "Types of outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result.",
+        "source_outcome_text": "Radiographic lower limb alignment: recorded as the number of outliers for femorotibial coronal angle (FTCA) also called the hip-knee-ankle (HKA) angle measured following surgery. In trials where the investigators performed these measurements at morethan one time point, the earliest postoperative measurement was used for analysis. \"Outliers\" were defined as alignments outside +/- 3° range for FTCA measured as a dichotomous variable"
+      },
+      {
+        "outcome_id": "major_4",
+        "name": "Pain",
+        "role": "major",
+        "source_section": "Types of outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result.",
+        "source_outcome_text": "Pain: mean overall pain measured on a visual analogue scale (VAS) or numerical rating scale (NRS), or other measures of pain"
+      },
+      {
+        "outcome_id": "major_5",
+        "name": "Participant-reported global assessment (e.g. better, not better, worse, dichotomised into better and not better or worse)",
+        "role": "major",
+        "source_section": "Types of outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result."
+      },
+      {
+        "outcome_id": "major_6",
+        "name": "Total adverse events (including infection, thrombosis, palsy, death, etc.)",
+        "role": "major",
+        "source_section": "Types of outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result."
+      },
+      {
+        "outcome_id": "major_7",
+        "name": "Re-operation rate (not involving implant change)",
+        "role": "major",
+        "source_section": "Types of outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result."
+      },
+      {
+        "outcome_id": "minor_1",
+        "name": "Quality of life",
+        "role": "minor",
+        "source_section": "Types of outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result."
+      },
+      {
+        "outcome_id": "minor_2",
+        "name": "Operative time",
+        "role": "minor",
+        "source_section": "Types of outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result."
+      },
+      {
+        "outcome_id": "minor_3",
+        "name": "Blood loss",
+        "role": "minor",
+        "unit_or_scale": "including transfusion rate",
+        "source_section": "Types of outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result.",
+        "source_outcome_text": "Blood loss (including transfusion rate)"
+      },
+      {
+        "outcome_id": "minor_4",
+        "name": "Range of motion",
+        "role": "minor",
+        "source_section": "Types of outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result."
+      },
+      {
+        "outcome_id": "minor_5",
+        "name": "Length of hospital stay",
+        "role": "minor",
+        "source_section": "Types of outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result."
+      },
+      {
+        "outcome_id": "minor_6",
+        "name": "Incision length",
+        "role": "minor",
+        "source_section": "Types of outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result."
+      },
+      {
+        "outcome_id": "minor_7",
+        "name": "Radiographic outliers in alignment for individual prosthetic components including; femoral component coronal alignment, tibial component coronal alignment, femoral component sagittal alignment, tibial component sagittal alignment and femoral component rotational alignment. \"Outliers\" were defined as alignments outside +/- 3° range for all individual component alignments (Victor 2014); we will measure these as dichotomous variables. Timing of outcome assessment",
+        "role": "minor",
+        "source_section": "Types of outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result."
+      },
+      {
+        "outcome_id": "minor_8",
+        "name": "Short term",
+        "role": "minor",
+        "source_section": "Types of outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result.",
+        "source_outcome_text": "Short term: Less than two years from index procedure (primary time point)"
+      },
+      {
+        "outcome_id": "minor_9",
+        "name": "Intermediate term",
+        "role": "minor",
+        "source_section": "Types of outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result.",
+        "source_outcome_text": "Intermediate term: two to 10 years from index procedure"
+      },
+      {
+        "outcome_id": "minor_10",
+        "name": "Long term",
+        "role": "minor",
+        "source_section": "Types of outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result.",
+        "source_outcome_text": "Long term: more than 10 years from index procedure A short term of less than two years is chosen as it is in chronological keeping with the period when most early revisions are performed for arthroplasty (a major outcome measure); backed up by national joint registry data (https://www.njrcentre.org.uk/) and evidence-based recommendations in the literature (Ahmad 2021). Furthermore, clinical complications and radiological outcome measurements are typically performed or recorded in the weeks following surgery up to this time point over follow-up. The majority of studies evaluating radiological post-surgical outcomes as a primary outcome measurement report data out to this time period. Intermediate or 'medium'-term outcomes vary in the orthopaedic literature from two to over five, seven or 10 years (Ahmad 2021). This time period generally may allow for early estimates of survivorship and patient-reported outcome measures in particular. The time period of two to five years was therefore chosen in order to make allowance for these across the range of included studies. Long-term outcomes of more than five years form a benchmark of time frames in national joint registry data and arthroplasty literature. At this point, this is established to give a more precise estimate of survivorship (https://www.njrcentre.org.uk/https:// aoanjrr.sahmri.com/annual-reports-2024). Patient-specific cutting guides for total knee arthroplasty (Review) Copyright © 2026 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.11 Cochrane LibraryTrusted evidence. Informed decisions. Better health"
+      }
+    ]
   },
   "protocol_and_eligibility": {
     "review_id": "CD012589",
     "review_group": "2026_issue_1",
     "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
     "pdf_status": "present",
-    "review_title": ".",
+    "review_title": "Patient-specific cutting guides for total knee arthroplasty",
     "research_question": "What does this review assess: the benefits and harms of patient-specific cutting guides versus conventional cutting guides or computer-assisted surgical navigation in people undergoing primary TKA?",
-    "eligibility_inclusion_criteria": "Types of studies We included randomised controlled trials (RCTs). We included studies reported as full text, those published as abstracts only, and unpublished data. There was no language restriction. Types of participants We included adults undergoing primary TKA for advanced arthritis due to any cause, including osteoarthritis, post-traumatic arthritis, or inflammatory arthritis. We excluded participants receiving TKA for tumours, unicompartmental replacement or revision knee replacement. We excluded participants undergoing TKA following either a previous osteotomy or previous unicompartmental replacement arthroplasty on the same knee. Types of interventions We included RCTs comparing total knee arthroplasty performed using patient-specific guides versus conventional instrumentation or computer-assisted surgery. The technique, patient-specific cutting guides (PSGs), is a technology used in TKA whereby preoperative imaging (magnetic resonance imaging (MRI), computerised tomography (CT) scans and plain radiographs) is used to create anatomic three- dimensional models of the patient's knee (Ast 2012). PSGs are then manufactured based on these personalised models. These models are fitted to the bone surfaces during surgery to permit the facilitation of bone resections based on preoperatively planned resection angles of the femur and tibia. Using PSG to perform TKA differs from both NAV and CON. There is no requirement to place reference pins in the shaft of the femur and tibia as seen in NAV, whilst it negates the need to instrument the intramedullary canal of femur or tibia as seen in CON. Different implant designs (posterior stabilised, cruciate retaining and cruciate sacrificing) and different bearing mechanisms (fixed bearing and mobile bearing) used for total knee a...",
-    "eligibility_exclusion_criteria": "We excluded participants receiving TKA for tumours, unicompartmental replacement or revision knee replacement. We excluded participants undergoing TKA following either a previous osteotomy or previous unicompartmental replacement arthroplasty on the same knee."
-  },
-  "search_methods": {
-    "review_id": "CD012589",
-    "review_group": "2026_issue_1",
-    "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD012589.pdf",
-    "pdf_status": "present",
-    "review_title": "",
-    "search_methods": "Exact search query blocks were extracted from local review PDF appendices or supplementary-material sections.",
-    "search_strategies": "reported | EBM Reviews - Cochrane Central Register of Controlled Trials <December 2024> | Appendix 1. CENTRAL search strategy\nDatabase: EBM Reviews - Cochrane Central Register of Controlled Trials <December 2024>\nSearch Strategy:\n--------------------------------------------------------------------------------\n1 osteoarthritis/\n2 osteoarthrit$.tw.\n3 osteoarthro$.tw.\n4 oa.tw.\n5 degenerative joint disease.tw.\n6 degenerative arthritis.tw.\n7 djd.tw.\n8 gonarthro$.tw.\n9 or/1-8\n10 exp KNEE/\n11 knee$.tw.\n12 femorotibia$.tw.\n13 or/10-12\n14 9 and 13\n15 Knee Osteoarthritis/\n16 14 or 15\n17 exp Arthroplasty, Replacement, Knee/\n18 (knee$ adj4 (replace$ or arthroplast$ or prosthe$ or endoprosthe$ or implant$)).tw.\n19 (tka or tkr or ukr).tw.\n20 Knee Prosthesis/\n21 exp Arthroplasty, Replacement/ or exp Arthroplasty/\n22 Knee Prosthesis/ or \"Prostheses and Implants\"/\n23 or/17-22\n24 16 and 23\n25 limit 24 to yr=\"2010 -Current\"\n\nreported | Ovid MEDLINE(R) <1946 to January 21, 2025> | Appendix 2. MEDLINE (Ovid) search strategy\nDatabase: Ovid MEDLINE(R) <1946 to January 21, 2025>\nSearch Strategy:\n\n1 osteoarthritis/\n2 osteoarthrit$.tw.\n3 osteoarthro$.tw.\n4 oa.tw.\n5 degenerative joint disease.tw.\n6 degenerative arthritis.tw.\n7 djd.tw.\n8 gonarthro$.tw.\n9 or/1-8\n10 exp KNEE/\n11 knee$.tw.\n12 femorotibia$.tw.\n13 or/10-12\n14 9 and 13\n15 Knee Osteoarthritis/\n16 14 or 15\n17 exp Arthroplasty, Replacement, Knee/\n18 (knee$ adj4 (replace$ or arthroplast$ or prosthe$ or endoprosthe$ or implant$)).tw.\n19 (tka or tkr or ukr).tw.\n20 Knee Prosthesis/\n21 exp Arthroplasty, Replacement/ or exp Arthroplasty/\n22 Knee Prosthesis/ or \"Prostheses and Implants\"/\n23 or/17-22\n24 randomized controlled trial.pt.\n25 controlled clinical trial.pt.\n26 randomized.ab.\n27 placebo.ab.\n28 clinical trials as topic.sh.\n29 randomly.ab.\n30 trial.ti.\n31 or/24-30\n32 exp animals/ not humans.sh.\n33 31 not 32\n34 16 and 23 and 33\n35 limit 34 to yr=\"2010 -Current\"\n\nreported | Embase Classic+Embase <1947 to 2025 January 31> | Appendix 3. Embase search strategy\nDatabase: Embase Classic+Embase <1947 to 2025 January 31>\nSearch Strategy:\n1 osteoarthritis/\n2 osteoarthrit$.tw.\n3 osteoarthro$.tw.\n4 oa.tw.\n5 degenerative joint disease.tw.\n6 degenerative arthritis.tw.\n7 djd.tw.\n8 gonarthro$.tw.\n9 or/1-8\n10 exp KNEE/\n11 knee$.tw.\n12 femorotibia$.tw.\n13 or/10-12\n14 9 and 13\n15 Knee Osteoarthritis/\n16 14 or 15\n17 exp Arthroplasty/\n18 exp Joint Prosthesis/\n19 exp \"Prostheses and Implants\"/\n20 exp Arthroplasty, Replacement, Knee/\n21 exp Knee Prosthesis/\n22 exp knee/su\n23 (knee$ adj4 (replace$ or arthroplast$ or prosthe$ or endoprosthe$ or implant$)).tw.\n24 (tka or tkr or ukr).tw.\n25 or/17-24\n26 Randomized controlled trial/\n27 Controlled clinical study/\n28 random$.ti,ab.\n29 randomization/\n30 intermethod comparison/\n31 placebo.ti,ab.\n32 (compare or compared or comparison).ti.\n\n33 ((evaluated or evaluate or evaluating or assessed or assess) and (compare or compared or comparing or comparison)).ab.\n34 (open adj label).ti,ab.\n35 ((double or single or doubly or singly) adj (blind or blinded or blindly)).ti,ab.\n36 double blind procedure/\n37 parallel group$1.ti,ab.\n38 (crossover or cross over).ti,ab.\n39 ((assign$ or match or matched or allocation) adj5 (alternate or group$1 or intervention$1 or patient$1 or subject$1 or participant\n$1)).ti,ab.\n40 (assigned or allocated).ti,ab.\n41 (controlled adj7 (study or design or trial)).ti,ab.\n42 (volunteer or volunteers).ti,ab.\n43 human experiment/\n44 trial.ti.\n45 or/26-44\n46 (random$ adj sampl$ adj7 (cross section$ or questionnaire$1 or survey$ or database$1)).ti,ab. not (comparative study/ or controlled\nstudy/ or randomi?ed controlled.ti,ab. or randomly assigned.ti,ab.)\n47 Cross-sectional study/ not (randomized controlled trial/ or controlled clinical study/ or controlled study/ or randomi?ed controlled.ti,ab.\nor control group$1.ti,ab.)\n48 (((case adj control$) and random$) not randomi?ed controlled).ti,ab.\n49 (Systematic review not (trial or study)).ti.\n50 (nonrandom$ not random$).ti,ab.\n51 Random field$.ti,ab.\n52 (random cluster adj3 sampl$).ti,ab.\n53 (review.ab. and review.pt.) not trial.ti.\n54 we searched.ab. and (review.ti. or review.pt.)\n55 update review.ab.\n56 (databases adj4 searched).ab.\n57 (rat or rats or mouse or mice or swine or porcine or murine or sheep or lambs or pigs or piglets or rabbit or rabbits or cat or cats or dog\nor dogs or cattle or bovine or monkey or monkeys or trout or marmoset$1).ti. and animal experiment/\n58 Animal experiment/ not (human experiment/ or human/)\n59 or/46-58\n60 45 not 59\n61 16 and 25 and 60\n62 limit 61 to yr=\"2010 -Current\"",
-    "search_query_status": "extracted_from_local_review_text",
-    "search_query_source": "pdf",
-    "search_queries": [
-      {
-        "source_heading": "Appendix 1. CENTRAL search strategy",
-        "search_phase": "reported",
-        "database": "EBM Reviews - Cochrane Central Register of Controlled Trials <December 2024>",
-        "query": "Database: EBM Reviews - Cochrane Central Register of Controlled Trials <December 2024>\nSearch Strategy:\n--------------------------------------------------------------------------------\n1 osteoarthritis/\n2 osteoarthrit$.tw.\n3 osteoarthro$.tw.\n4 oa.tw.\n5 degenerative joint disease.tw.\n6 degenerative arthritis.tw.\n7 djd.tw.\n8 gonarthro$.tw.\n9 or/1-8\n10 exp KNEE/\n11 knee$.tw.\n12 femorotibia$.tw.\n13 or/10-12\n14 9 and 13\n15 Knee Osteoarthritis/\n16 14 or 15\n17 exp Arthroplasty, Replacement, Knee/\n18 (knee$ adj4 (replace$ or arthroplast$ or prosthe$ or endoprosthe$ or implant$)).tw.\n19 (tka or tkr or ukr).tw.\n20 Knee Prosthesis/\n21 exp Arthroplasty, Replacement/ or exp Arthroplasty/\n22 Knee Prosthesis/ or \"Prostheses and Implants\"/\n23 or/17-22\n24 16 and 23\n25 limit 24 to yr=\"2010 -Current\""
-      },
-      {
-        "source_heading": "Appendix 2. MEDLINE (Ovid) search strategy",
-        "search_phase": "reported",
-        "database": "Ovid MEDLINE(R) <1946 to January 21, 2025>",
-        "query": "Database: Ovid MEDLINE(R) <1946 to January 21, 2025>\nSearch Strategy:\n\n1 osteoarthritis/\n2 osteoarthrit$.tw.\n3 osteoarthro$.tw.\n4 oa.tw.\n5 degenerative joint disease.tw.\n6 degenerative arthritis.tw.\n7 djd.tw.\n8 gonarthro$.tw.\n9 or/1-8\n10 exp KNEE/\n11 knee$.tw.\n12 femorotibia$.tw.\n13 or/10-12\n14 9 and 13\n15 Knee Osteoarthritis/\n16 14 or 15\n17 exp Arthroplasty, Replacement, Knee/\n18 (knee$ adj4 (replace$ or arthroplast$ or prosthe$ or endoprosthe$ or implant$)).tw.\n19 (tka or tkr or ukr).tw.\n20 Knee Prosthesis/\n21 exp Arthroplasty, Replacement/ or exp Arthroplasty/\n22 Knee Prosthesis/ or \"Prostheses and Implants\"/\n23 or/17-22\n24 randomized controlled trial.pt.\n25 controlled clinical trial.pt.\n26 randomized.ab.\n27 placebo.ab.\n28 clinical trials as topic.sh.\n29 randomly.ab.\n30 trial.ti.\n31 or/24-30\n32 exp animals/ not humans.sh.\n33 31 not 32\n34 16 and 23 and 33\n35 limit 34 to yr=\"2010 -Current\""
-      },
-      {
-        "source_heading": "Appendix 3. Embase search strategy",
-        "search_phase": "reported",
-        "database": "Embase Classic+Embase <1947 to 2025 January 31>",
-        "query": "Database: Embase Classic+Embase <1947 to 2025 January 31>\nSearch Strategy:\n1 osteoarthritis/\n2 osteoarthrit$.tw.\n3 osteoarthro$.tw.\n4 oa.tw.\n5 degenerative joint disease.tw.\n6 degenerative arthritis.tw.\n7 djd.tw.\n8 gonarthro$.tw.\n9 or/1-8\n10 exp KNEE/\n11 knee$.tw.\n12 femorotibia$.tw.\n13 or/10-12\n14 9 and 13\n15 Knee Osteoarthritis/\n16 14 or 15\n17 exp Arthroplasty/\n18 exp Joint Prosthesis/\n19 exp \"Prostheses and Implants\"/\n20 exp Arthroplasty, Replacement, Knee/\n21 exp Knee Prosthesis/\n22 exp knee/su\n23 (knee$ adj4 (replace$ or arthroplast$ or prosthe$ or endoprosthe$ or implant$)).tw.\n24 (tka or tkr or ukr).tw.\n25 or/17-24\n26 Randomized controlled trial/\n27 Controlled clinical study/\n28 random$.ti,ab.\n29 randomization/\n30 intermethod comparison/\n31 placebo.ti,ab.\n32 (compare or compared or comparison).ti.\n\n33 ((evaluated or evaluate or evaluating or assessed or assess) and (compare or compared or comparing or comparison)).ab.\n34 (open adj label).ti,ab.\n35 ((double or single or doubly or singly) adj (blind or blinded or blindly)).ti,ab.\n36 double blind procedure/\n37 parallel group$1.ti,ab.\n38 (crossover or cross over).ti,ab.\n39 ((assign$ or match or matched or allocation) adj5 (alternate or group$1 or intervention$1 or patient$1 or subject$1 or participant\n$1)).ti,ab.\n40 (assigned or allocated).ti,ab.\n41 (controlled adj7 (study or design or trial)).ti,ab.\n42 (volunteer or volunteers).ti,ab.\n43 human experiment/\n44 trial.ti.\n45 or/26-44\n46 (random$ adj sampl$ adj7 (cross section$ or questionnaire$1 or survey$ or database$1)).ti,ab. not (comparative study/ or controlled\nstudy/ or randomi?ed controlled.ti,ab. or randomly assigned.ti,ab.)\n47 Cross-sectional study/ not (randomized controlled trial/ or controlled clinical study/ or controlled study/ or randomi?ed controlled.ti,ab.\nor control group$1.ti,ab.)\n48 (((case adj control$) and random$) not randomi?ed controlled).ti,ab.\n49 (Systematic review not (trial or study)).ti.\n50 (nonrandom$ not random$).ti,ab.\n51 Random field$.ti,ab.\n52 (random cluster adj3 sampl$).ti,ab.\n53 (review.ab. and review.pt.) not trial.ti.\n54 we searched.ab. and (review.ti. or review.pt.)\n55 update review.ab.\n56 (databases adj4 searched).ab.\n57 (rat or rats or mouse or mice or swine or porcine or murine or sheep or lambs or pigs or piglets or rabbit or rabbits or cat or cats or dog\nor dogs or cattle or bovine or monkey or monkeys or trout or marmoset$1).ti. and animal experiment/\n58 Animal experiment/ not (human experiment/ or human/)\n59 or/46-58\n60 45 not 59\n61 16 and 25 and 60\n62 limit 61 to yr=\"2010 -Current\""
-      }
-    ]
+    "eligibility_inclusion_criteria": "- Study designs: We included randomised controlled trials (RCTs). We included studies reported as full text, those published as abstracts only, and unpublished data. There was no language restriction.\n- Participants: We included adults undergoing primary TKA for advanced arthritis due to any cause, including osteoarthritis, post-traumatic arthritis, or inflammatory arthritis.\n- Interventions: We included RCTs comparing total knee arthroplasty performed using patient-specific guides versus conventional instrumentation or computer-assisted surgery. The technique, patient-specific cutting guides (PSGs), is a technology used in TKA whereby preoperative imaging (magnetic resonance imaging (MRI), computerised tomography (CT) scans and plain radiographs) is used to create anatomic three- dimensional models of the patient's knee (Ast 2012). PSGs are then manufactured based on these personalised models. These models are fitted to the bone surfaces during surgery to permit the facilitation of bone resections based on preoperatively planned resection angles of the femur and tibia. Using PS.",
+    "eligibility_exclusion_criteria": "- We excluded participants receiving TKA for tumours, unicompartmental replacement or revision knee replacement.\n- We excluded participants undergoing TKA following either a previous osteotomy or previous unicompartmental replacement arthroplasty on the same knee."
   },
   "outcomes": [],
   "references": {

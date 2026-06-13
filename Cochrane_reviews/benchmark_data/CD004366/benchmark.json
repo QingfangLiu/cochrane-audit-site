@@ -1,6 +1,6 @@
 {
   "artifact_version": "2026-06-08-review-benchmark-v2",
-  "generated_at": "2026-06-09T12:32:38+00:00",
+  "generated_at": "2026-06-13T13:49:02+00:00",
   "review": {
     "review_id": "CD004366",
     "review_group": "2026_issue_1",
@@ -29,55 +29,106 @@
       "percent_blocks_with_any_pmc": "11.0",
       "lookup_errors": "."
     },
-    "review_index": {
-      "review_group": "2026_issue_1",
-      "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD004366.pdf",
-      "review_id": "CD004366",
-      "extracted_title": "Exercise for depression",
-      "extracted_year": "2026",
-      "extracted_issue": "1",
-      "extracted_doi": "10.1002/14651858.CD004366.pub7",
-      "in_pubmed": "yes",
-      "pmid": "41500513",
-      "pubmed_title": "Exercise for depression.",
-      "pubmed_journal": "The Cochrane database of systematic reviews",
-      "pubmed_year": "2026",
-      "pubmed_doi": "10.1002/14651858.CD004366.pub7",
-      "pubmed_publication_types": "Journal Article; Systematic Review; Meta-Analysis",
-      "title_similarity": "1.000",
-      "lookup_method": "doi",
-      "candidate_pmids": "41500513",
-      "in_pmc": "no",
-      "pmcid": "",
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41500513/",
-      "pmc_url": "",
-      "lookup_status": "matched",
-      "lookup_errors": ""
-    },
+    "review_index": {},
     "domain_source": {},
     "domain_label": {}
+  },
+  "review_plan": {
+    "review_id": "CD004366",
+    "source": "review_planned_outcomes_tsv; review_planned_comparisons_tsv",
+    "source_pdf_path": "../../source_reviews/2026_issue_1/CD004366.pdf",
+    "plan_status": "generated_from_planned_rows",
+    "planned_pico": {},
+    "planned_comparisons": [
+      {
+        "comparison_id": "planned_1",
+        "label": "Any type of exercise (as defined above) compared with no intervention, a 'waiting list control' or placebo (defined by study authors)",
+        "intervention": "Any type of exercise (as defined above)",
+        "comparator": "no intervention, a 'waiting list control' or placebo (defined by study authors)",
+        "source_section": "Types of interventions",
+        "source_type": "methods_extracted",
+        "source_text_raw": "compared to no intervention, a 'waiting list control' or placebo (defined by study authors); and those",
+        "extraction_status": "extracted",
+        "extraction_notes": "Extracted from Experimental intervention and Comparator/Control intervention paragraphs."
+      },
+      {
+        "comparison_id": "planned_2",
+        "label": "Any type of exercise (as defined above) as adjunct to an established treatment compared with an established treatment",
+        "intervention": "Any type of exercise (as defined above) as adjunct to an established treatment",
+        "comparator": "an established treatment",
+        "source_section": "Types of interventions",
+        "source_type": "methods_extracted",
+        "source_text_raw": "used as an adjunct to an established treatment (",
+        "extraction_status": "extracted",
+        "extraction_notes": "Extracted from Experimental intervention and Comparator/Control intervention paragraphs."
+      },
+      {
+        "comparison_id": "planned_3",
+        "label": "Any type of exercise (as defined above) compared with other active treatments",
+        "intervention": "Any type of exercise (as defined above)",
+        "comparator": "other active treatments",
+        "source_section": "Types of interventions",
+        "source_type": "methods_extracted",
+        "source_text_raw": "also included other types of active treatments,",
+        "extraction_status": "extracted",
+        "extraction_notes": "Extracted from Experimental intervention and Comparator/Control intervention paragraphs."
+      }
+    ],
+    "planned_outcomes": [
+      {
+        "outcome_id": "critical_1",
+        "name": "Our primary outcome was a measure of depression or mood, either continuous or dichotomous. Continuous measures of depression were reported using a variety of depression scales, the most common of which were the Beck Depression Inventory [111] and the Hamilton Rating Scale for Depression [112]. In previous versions of the review, where trials used a number of different tools to assess depression, we included only the main outcome measure in the meta-analysis. We defined the main outcome measure...",
+        "role": "critical",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result.",
+        "source_outcome_text": "Our primary outcome was a measure of depression or mood, either continuous or dichotomous. Continuous measures of depression were reported using a variety of depression scales, the most common of which were the Beck Depression Inventory [111] and the Hamilton Rating Scale for Depression [112]. In previous versions of the review, where trials used a number of different tools to assess depression, we included only the main outcome measure in the meta-analysis. We defined the main outcome measure using a hierarchy of criteria: i) identified by the trial authors as the main outcome measure, ii) outcome reported in the abstract, iii) first outcome reported in the Results section. Where trials used dichotomous data for primary outcomes, and also provided data on continuous outcome measures, we usedthe data provided in the trial reports for the continuous outcome measure in our meta-analysis. This was because we knew from previous updates that most trials reported only continuous outcomes. Timing of outcome assessment We extracted data at the end of treatment and also at the end of any longer-term follow-up after the intervention had stopped"
+      },
+      {
+        "outcome_id": "important_1",
+        "name": "Acceptability of treatment, assessed by a) attendance at exercise interventions, and b) the number of participants completing the interventions",
+        "role": "important",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result."
+      },
+      {
+        "outcome_id": "important_2",
+        "name": "Quality of life (e.g. SF-36 Health Survey [113], health-related quality of life)",
+        "role": "important",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result."
+      },
+      {
+        "outcome_id": "important_3",
+        "name": "Cost (e.g. average treatment cost, health service costs)",
+        "role": "important",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result."
+      },
+      {
+        "outcome_id": "important_4",
+        "name": "Adverse events (e.g. musculoskeletal pain, fatigue)",
+        "role": "important",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result."
+      },
+      {
+        "outcome_id": "important_5",
+        "name": "In order to better understand the generalisability of exercise for depression, we also extracted data on the number of people screened for inclusion and the number recruited (Table 1)",
+        "role": "important",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result."
+      }
+    ]
   },
   "protocol_and_eligibility": {
     "review_id": "CD004366",
     "review_group": "2026_issue_1",
     "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD004366.pdf",
     "pdf_status": "present",
-    "review_title": ".",
+    "review_title": "Exercise for depression",
     "research_question": "What does this review determine: the effectiveness of exercise in the treatment of depression in adults compared with no intervention, waiting list control or placebo, or where exercise is used as an adjunct to an established treatment that is received by both exercising and non-exercising groups. To determine the effectiveness of exercise compared with other active interventions for depression in adults (psychological therapies, pharmacological treatments or alternative interventions such as light therapy)?",
-    "eligibility_inclusion_criteria": "Types of studies We included randomised controlled trials (RCTs), including parallel, cluster, or individual, or the first phase of cross-over trials. We defined a trial as an RCT if the allocation of participants to intervention and comparison groups was described as randomised (including terms such as 'randomly', 'random' or 'randomisation'). Types of participants Participant characteristics Adult men and women aged 18 and over (with no upper age limit) in any setting, including inpatients. We included studies if the participants were defined by the author of the trial as having depression (by any method of diagnosis and of any severity). We excluded trials that randomised people both with and without depression, even if results from the subgroups of participants with depression were reported separately, in keeping with what was done in previous versions of this review [32, 99, 108]. Diagnosis The effects of exercise on depressive symptoms in participants with emotional distress (but not fulfilling a diagnosis of depression) or those who are healthy were not included in this review. We acknowledge that it can sometimes be difficult to distinguish between depression and dysthymia in the 'real world', as there need be only two weeks of decreased interest and enjoyment to diagnose depression. However, we were primarily interested in the role of exercise in people with depression for whom there is substantial morbidity rather than in people with mild, transient episodes of low mood. We did not include studies that investigated the effect of exercise on anxiety and neurotic disorders, dysthymia (i.e. low mood not fulfilling diagnostic criteria for depression) or postnatal depression. Comorbidities We did not exclude studies or participants based on comorbidities. Setting...",
-    "eligibility_exclusion_criteria": "We excluded trials that randomised people both with and without depression, even if results from the subgroups of participants with depression were reported separately, in keeping with what was done in previous versions of this review [32, 99, 108]. We did not include studies that investigated the effect of exercise on anxiety and neurotic disorders, dysthymia (i.e."
-  },
-  "search_methods": {
-    "review_id": "CD004366",
-    "review_group": "2026_issue_1",
-    "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD004366.pdf",
-    "pdf_status": "present",
-    "review_title": "",
-    "search_methods": "Exact search query blocks were not found in the local PDF or data-package files. The review may refer to a separate search-strategy supplement that is not present locally.",
-    "search_strategies": "",
-    "search_query_status": "not_found_in_local_files",
-    "search_query_source": "pdf",
-    "search_queries": []
+    "eligibility_inclusion_criteria": "- Study designs: We included randomised controlled trials (RCTs), including parallel, cluster, or individual, or the first phase of cross-over trials. We defined a trial as an RCT if the allocation of participants to intervention and comparison groups was described as randomised (including terms such as 'randomly', 'random' or 'randomisation').\n- Participants: Participant characteristics Adult men and women aged 18 and over (with no upper age limit) in any setting, including inpatients. We included studies if the participants were defined by the author of the trial as having depression (by any method of diagnosis and of any severity). Diagnosis The effects of exercise on depressive symptoms in participants with emotional distress (but not fulfilling a diagnosis of depression) or those who are healthy were not included in this review. We acknowledge that it can sometimes be difficult to distinguish between depression and dysthymia in the 'real world', as there need be only two weeks of decreased interest and enjoyment to diagnose depression. Howev.",
+    "eligibility_exclusion_criteria": "- We excluded trials that randomised people both with and without depression, even if results from the subgroups of participants with depression were reported separately, in keeping with what was done in previous versions of this review [32, 99, 108].\n- We did not include studies that investigated the effect of exercise on anxiety and neurotic disorders, dysthymia (i.e. low mood not fulfilling diagnostic criteria for depression) or postnatal depression."
   },
   "outcomes": [],
   "references": {

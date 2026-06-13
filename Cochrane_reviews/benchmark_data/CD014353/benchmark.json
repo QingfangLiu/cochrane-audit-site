@@ -1,6 +1,6 @@
 {
   "artifact_version": "2026-06-08-review-benchmark-v2",
-  "generated_at": "2026-06-09T12:32:42+00:00",
+  "generated_at": "2026-06-13T13:49:02+00:00",
   "review": {
     "review_id": "CD014353",
     "review_group": "2026_issue_1",
@@ -29,55 +29,232 @@
       "percent_blocks_with_any_pmc": "36.4",
       "lookup_errors": "."
     },
-    "review_index": {
-      "review_group": "2026_issue_1",
-      "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-      "review_id": "CD014353",
-      "extracted_title": "Enteral lipid supplements for the prevention and treatment of parenteral nutrition-associated liver disease in infants",
-      "extracted_year": "2026",
-      "extracted_issue": "1",
-      "extracted_doi": "10.1002/14651858.CD014353.pub2",
-      "in_pubmed": "yes",
-      "pmid": "41609005",
-      "pubmed_title": "Enteral lipid supplements for the prevention and treatment of parenteral nutrition-associated liver disease in infants.",
-      "pubmed_journal": "The Cochrane database of systematic reviews",
-      "pubmed_year": "2026",
-      "pubmed_doi": "10.1002/14651858.CD014353.pub2",
-      "pubmed_publication_types": "Journal Article; Systematic Review; Meta-Analysis; Review",
-      "title_similarity": "1.000",
-      "lookup_method": "doi",
-      "candidate_pmids": "41609005",
-      "in_pmc": "no",
-      "pmcid": "",
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41609005/",
-      "pmc_url": "",
-      "lookup_status": "matched",
-      "lookup_errors": ""
-    },
+    "review_index": {},
     "domain_source": {},
     "domain_label": {}
+  },
+  "review_plan": {
+    "review_id": "CD014353",
+    "source": "review_planned_outcomes_tsv; review_planned_comparisons_tsv",
+    "source_pdf_path": "../../source_reviews/2026_issue_1/CD014353.pdf",
+    "plan_status": "generated_from_planned_rows",
+    "planned_pico": {},
+    "planned_comparisons": [
+      {
+        "comparison_id": "planned_1",
+        "label": "Any fish oil versus no treatment or placebo",
+        "intervention": "Any fish oil",
+        "comparator": "no treatment or placebo",
+        "source_section": "Types of interventions",
+        "source_type": "methods_extracted",
+        "source_text_raw": "Any fish oil versus no treatment or placebo",
+        "extraction_status": "extracted",
+        "extraction_notes": "Extracted from an explicit planned-comparison list in Methods."
+      },
+      {
+        "comparison_id": "planned_2",
+        "label": "Any plant-based oil versus no treatment or placebo",
+        "intervention": "Any plant-based oil",
+        "comparator": "no treatment or placebo",
+        "source_section": "Types of interventions",
+        "source_type": "methods_extracted",
+        "source_text_raw": "Any plant-based oil versus no treatment or placebo",
+        "extraction_status": "extracted",
+        "extraction_notes": "Extracted from an explicit planned-comparison list in Methods."
+      },
+      {
+        "comparison_id": "planned_3",
+        "label": "Mixed oil emulsion versus no treatment or placebo",
+        "intervention": "Mixed oil emulsion",
+        "comparator": "no treatment or placebo",
+        "source_section": "Types of interventions",
+        "source_type": "methods_extracted",
+        "source_text_raw": "Mixed oil emulsion versus no treatment or placebo",
+        "extraction_status": "extracted",
+        "extraction_notes": "Extracted from an explicit planned-comparison list in Methods."
+      },
+      {
+        "comparison_id": "planned_4",
+        "label": "Other enteral lipid (not defined above) versus no treatment or placebo",
+        "intervention": "Other enteral lipid (not defined above)",
+        "comparator": "no treatment or placebo",
+        "source_section": "Types of interventions",
+        "source_type": "methods_extracted",
+        "source_text_raw": "Other enteral lipid (not defined above) versus no treatment or placebo",
+        "extraction_status": "extracted",
+        "extraction_notes": "Extracted from an explicit planned-comparison list in Methods."
+      },
+      {
+        "comparison_id": "planned_5",
+        "label": "One enteral lipid emulsion versus another enteral lipid emulsion",
+        "intervention": "One enteral lipid emulsion",
+        "comparator": "another enteral lipid emulsion",
+        "source_section": "Types of interventions",
+        "source_type": "methods_extracted",
+        "source_text_raw": "One enteral lipid emulsion versus another enteral lipid emulsion",
+        "extraction_status": "extracted",
+        "extraction_notes": "Extracted from an explicit planned-comparison list in Methods."
+      },
+      {
+        "comparison_id": "planned_6",
+        "label": "Any enteral lipids versus no treatment or placebo",
+        "intervention": "Any enteral lipids",
+        "comparator": "no treatment or placebo",
+        "source_section": "Types of interventions",
+        "source_type": "methods_extracted",
+        "source_text_raw": "Any enteral lipids versus no treatment or placebo",
+        "extraction_status": "extracted",
+        "extraction_notes": "Extracted from an explicit planned-comparison list in Methods."
+      }
+    ],
+    "planned_outcomes": [
+      {
+        "outcome_id": "critical_1",
+        "name": "Prevention of PNALD during the hospital stay and in the first year of life (PNALD is defined as the elevation of serum conjugated bilirubin of 2 mg/dL or greater for more than two weeks in the absence of other causes of cholestasis, or as defined by the investigators) [2]",
+        "role": "critical",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result."
+      },
+      {
+        "outcome_id": "critical_2",
+        "name": "Resolution of PNALD during the hospital stay and in the first year of life (defined as a sustained reduction of elevated conjugated bilirubin levels to below 2 mg/dL or less than 20% of the total bilirubin concentration for two weeks or more, or as defined by the investigators)",
+        "role": "critical",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result."
+      },
+      {
+        "outcome_id": "important_1",
+        "name": "Feeding intolerance is defined by the number of days when feeds were stopped or reduced and parenteral nutrition was either commenced or increased during the hospital stay secondary to the inability to digest enteral feeds presented as gastric residual volume of more than 50%, abdominal distension or emesis or both, or as defined by study authors [37]",
+        "role": "important",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result."
+      },
+      {
+        "outcome_id": "important_2",
+        "name": "Time taken to achieve full enteral feeds (in days) during the hospital stay is defined as the first day when 100% of the total caloric requirement or 140 mL/kg/day or greater of feeds was administered enterally and thereafter sustained for more than 48 hours or as defined by the authors [38]",
+        "role": "important",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result."
+      },
+      {
+        "outcome_id": "important_3",
+        "name": "Adequacy of growth based on:",
+        "role": "important",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result."
+      },
+      {
+        "outcome_id": "important_4",
+        "name": "Rates of increase in body weight (grams/day or grams/kilogram/day), length (centimeters/week), and head circumference (centimeters/week) up to six months post- term",
+        "role": "important",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result."
+      },
+      {
+        "outcome_id": "important_5",
+        "name": "Long-term growth",
+        "role": "important",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result.",
+        "source_outcome_text": "Long-term growth: rates of increase in body weight (grams/ day), length (centimeters/week), and head circumference (centimeters/week) from six months post-term"
+      },
+      {
+        "outcome_id": "important_6",
+        "name": "Weight (grams or z scores), head circumference (centimeters or z scores), and length (centimeters or z scores) at 36 weeks' post menstrual age and at discharge",
+        "role": "important",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result."
+      },
+      {
+        "outcome_id": "important_7",
+        "name": "Elevation of serum levels of aspartate aminotransferase (AST), alanine aminotransferase (ALT), and gamma glutamyl transferase (GGT) to more than two times the upper limits of normal levels for two weeks or more. Enteral lipid supplements for the prevention and treatment of parenteral nutrition-associated liver disease in infants (Review) Copyright © 2026 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.9 Cochrane LibraryTrusted evidence. Informed decisions. Better health. Cochran...",
+        "role": "important",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result.",
+        "source_outcome_text": "Elevation of serum levels of aspartate aminotransferase (AST), alanine aminotransferase (ALT), and gamma glutamyl transferase (GGT) to more than two times the upper limits of normal levels for two weeks or more. Enteral lipid supplements for the prevention and treatment of parenteral nutrition-associated liver disease in infants (Review) Copyright © 2026 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.9 Cochrane LibraryTrusted evidence. Informed decisions. Better health. Cochrane Database of Systematic Reviews"
+      },
+      {
+        "outcome_id": "important_8",
+        "name": "Improvement in liver inflammation is measured by the return of elevated levels of AST, ALT, and GGT to less than two times the upper limits of normal levels",
+        "role": "important",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result."
+      },
+      {
+        "outcome_id": "important_9",
+        "name": "Incidence of central line-associated bloodstream infections (number of bloodstream infections per 1000 central venous catheter days) (bloodstream infection defined as a laboratory- confirmed bloodstream infection that is not secondary to an infection at another body site) [39, 40]",
+        "role": "important",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result."
+      },
+      {
+        "outcome_id": "important_10",
+        "name": "Length of hospital stay",
+        "role": "important",
+        "unit_or_scale": "in days",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result.",
+        "source_outcome_text": "Length of hospital stay (in days)"
+      },
+      {
+        "outcome_id": "important_11",
+        "name": "Duration of central venous catheterization",
+        "role": "important",
+        "unit_or_scale": "in days",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result.",
+        "source_outcome_text": "Duration of central venous catheterization (in days)"
+      },
+      {
+        "outcome_id": "important_12",
+        "name": "Duration of parenteral nutrition",
+        "role": "important",
+        "unit_or_scale": "in days",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result.",
+        "source_outcome_text": "Duration of parenteral nutrition (in days)"
+      },
+      {
+        "outcome_id": "important_13",
+        "name": "Duration of intravenous lipids",
+        "role": "important",
+        "unit_or_scale": "in days",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result.",
+        "source_outcome_text": "Duration of intravenous lipids (in days)"
+      },
+      {
+        "outcome_id": "important_14",
+        "name": "Need for liver transplantation in the first year of life (the criteria for liver transplant are end-stage liver disease with established intestinal failure-associated liver disease; at least 50 cm of functional small bowel in the absence of an ileocecal valve, or 30 cm with the valve; at least 50% of the estimated daily calorie requirement previously tolerated as enteral feeds together with weight gain) [1]",
+        "role": "important",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result."
+      },
+      {
+        "outcome_id": "important_15",
+        "name": "All-cause mortality during the first year of life [37]",
+        "role": "important",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result."
+      },
+      {
+        "outcome_id": "important_16",
+        "name": "Lipoid pneumonia as defined by clinical and radiologic features of pneumonia that follow aspiration or inhalation of animal fats or mineral or vegetable oil",
+        "role": "important",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result."
+      }
+    ]
   },
   "protocol_and_eligibility": {
     "review_id": "CD014353",
     "review_group": "2026_issue_1",
     "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
     "pdf_status": "present",
-    "review_title": ".",
+    "review_title": "Enteral lipid supplements for the prevention and treatment of parenteral nutrition-associated liver disease in infants",
     "research_question": "What does this review evaluate: the benefits and harms of enteral lipid supplementation for the prevention and treatment of PNALD in infants?",
-    "eligibility_inclusion_criteria": "Types of studies Randomized control trials (RCTs), quasi-RCTs and cluster-RCTs were eligible for inclusion in this review. Quasi-RCTs are parallel- arm RCTs in which allocation is decided by an approximation of randomization (e.g. allocation by patient ID number). Types of participants We included the following participants: 1.Infants at risk of parenteral nutrition-associated liver disease; and 2.Infants with parenteral nutrition-associated liver disease. PNALD was defined as the elevation of serum levels of conjugated bilirubin over 2 mg/dL when exposed to parenteral nutrition for two weeks or more, in the absence of other causes of cholestasis [1, 2]. We defined an infant as a child under the age of one year. We excluded infants with cholestasis due to primary liver disease, inborn errors of metabolism, or congenital infection, as their pathogenesis differs from PNALD and requires disease-specific treatments. We excluded studies involving infants receiving enteral feeds without the need for parenteral nutrition, as they were neither at risk for PNALD, nor diagnosed with PNALD. Had we identified studies including both eligible and ineligible populations, we would have extracted data only for the eligible populations based on data in the study, or based on information obtained from the study authors. Types of interventions We included studies of enteral administration of lipid supplements of any formulation compared to a placebo or no treatment, or against each other, at any dosage or duration. Lipid supplements include oils derived from various sources such as fish oil (tuna oil, salmon oil), plant-based oil (olive oil, sunflower oil), algal oil, fungal oil or mixed oil emulsions (algal and fungal oil, fish and medium- chain triglyceride oil). We included the followi...",
-    "eligibility_exclusion_criteria": "We excluded infants with cholestasis due to primary liver disease, inborn errors of metabolism, or congenital infection, as their pathogenesis differs from PNALD and requires disease-specific treatments. We excluded studies involving infants receiving enteral feeds without the need for parenteral nutrition, as they were neither at risk for PNALD, nor diagnosed with PNALD. Had we identified studies including both eligible and ineligible populations, we would have extracted data only for the eligible populations based on data in the study, or based on information obtained from the study authors."
-  },
-  "search_methods": {
-    "review_id": "CD014353",
-    "review_group": "2026_issue_1",
-    "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD014353.pdf",
-    "pdf_status": "present",
-    "review_title": "",
-    "search_methods": "Exact search query blocks were not found in the local PDF or data-package files. The review may refer to a separate search-strategy supplement that is not present locally.",
-    "search_strategies": "",
-    "search_query_status": "not_found_in_local_files",
-    "search_query_source": "pdf",
-    "search_queries": []
+    "eligibility_inclusion_criteria": "- Study designs: Randomized control trials (RCTs), quasi-RCTs and cluster-RCTs were eligible for inclusion in this review. Quasi-RCTs are parallel- arm RCTs in which allocation is decided by an approximation of randomization (e.g. allocation by patient ID number).\n- Participants: We included the following participants: 1.Infants at risk of parenteral nutrition-associated liver disease; and 2.Infants with parenteral nutrition-associated liver disease. PNALD was defined as the elevation of serum levels of conjugated bilirubin over 2 mg/dL when exposed to parenteral nutrition for two weeks or more, in the absence of other causes of cholestasis [1, 2]. We defined an infant as a child under the age of one year.\n- Interventions: We included studies of enteral administration of lipid supplements of any formulation compared to a placebo or no treatment, or against each other, at any dosage or duration. Lipid supplements include oils derived from various sources such as fish oil (tuna oil, salmon oil), plant-based oil (olive oil, sunflower oil), algal oil, fungal oil or mixed oil emulsions (algal and fungal oil, fish and medium- chain triglyceride oil). We included the followi.",
+    "eligibility_exclusion_criteria": "- We excluded infants with cholestasis due to primary liver disease, inborn errors of metabolism, or congenital infection, as their pathogenesis differs from PNALD and requires disease-specific treatments.\n- We excluded studies involving infants receiving enteral feeds without the need for parenteral nutrition, as they were neither at risk for PNALD, nor diagnosed with PNALD.\n- Had we identified studies including both eligible and ineligible populations, we would have extracted data only for the eligible populations based on data in the study, or based on information obtained from the study authors."
   },
   "outcomes": [],
   "references": {

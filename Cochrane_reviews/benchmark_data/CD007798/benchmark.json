@@ -1,6 +1,6 @@
 {
   "artifact_version": "2026-06-08-review-benchmark-v2",
-  "generated_at": "2026-06-09T12:32:39+00:00",
+  "generated_at": "2026-06-13T13:49:02+00:00",
   "review": {
     "review_id": "CD007798",
     "review_group": "2026_issue_1",
@@ -29,55 +29,122 @@
       "percent_blocks_with_any_pmc": "7.1",
       "lookup_errors": "."
     },
-    "review_index": {
-      "review_group": "2026_issue_1",
-      "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-      "review_id": "CD007798",
-      "extracted_title": "Clinically indicated removal versus routine removal of peripheral venous catheters",
-      "extracted_year": "2026",
-      "extracted_issue": "1",
-      "extracted_doi": "10.1002/14651858.CD007798.pub6",
-      "in_pubmed": "yes",
-      "pmid": "41589916",
-      "pubmed_title": "Clinically indicated removal versus routine removal of peripheral venous catheters.",
-      "pubmed_journal": "The Cochrane database of systematic reviews",
-      "pubmed_year": "2026",
-      "pubmed_doi": "10.1002/14651858.CD007798.pub6",
-      "pubmed_publication_types": "Journal Article; Meta-Analysis; Systematic Review",
-      "title_similarity": "1.000",
-      "lookup_method": "doi",
-      "candidate_pmids": "41589916",
-      "in_pmc": "no",
-      "pmcid": "",
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41589916/",
-      "pmc_url": "",
-      "lookup_status": "matched",
-      "lookup_errors": ""
-    },
+    "review_index": {},
     "domain_source": {},
     "domain_label": {}
+  },
+  "review_plan": {
+    "review_id": "CD007798",
+    "source": "review_planned_outcomes_tsv; review_planned_comparisons_tsv",
+    "source_pdf_path": "../../source_reviews/2026_issue_1/CD007798.pdf",
+    "plan_status": "generated_from_planned_rows",
+    "planned_pico": {},
+    "planned_comparisons": [
+      {
+        "comparison_id": "planned_1",
+        "label": "clinically indicated removal compared with any time duration for routine removal (e.g. 48 or 72 hours)",
+        "intervention": "clinically indicated removal",
+        "comparator": "any time duration for routine removal (e.g. 48 or 72 hours)",
+        "source_section": "Types of interventions",
+        "source_type": "methods_extracted",
+        "source_text_raw": "We included clinically indicated removal versus any time duration for routine removal (e.g. 48 or 72 hours)",
+        "extraction_status": "extracted",
+        "extraction_notes": "Extracted from Methods comparison prose."
+      }
+    ],
+    "planned_outcomes": [
+      {
+        "outcome_id": "critical_1",
+        "name": "Catheter-related bloodstream infection (CRBSI, defined as a positive blood culture from a peripheral vein; clinical signs of infection; no other apparent source for the bloodstream infection except the intravenous (IV) catheter; and colonised IV catheter tip culture with the same organism as identified in the blood)",
+        "role": "critical",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result."
+      },
+      {
+        "outcome_id": "critical_2",
+        "name": "Primary bloodstream infection (defined as a laboratory- confirmed bloodstream infection drawn from a peripheral vein while an IV catheter is in situ or for 48 hours after removal, with no other identified source of the infection)",
+        "role": "critical",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result."
+      },
+      {
+        "outcome_id": "critical_3",
+        "name": "Local infection (any definition identified by the trial author)",
+        "role": "critical",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result."
+      },
+      {
+        "outcome_id": "critical_4",
+        "name": "Mortality (all-cause)",
+        "role": "critical",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result."
+      },
+      {
+        "outcome_id": "important_1",
+        "name": "Thrombophlebitis/phlebitis (any definition identified by the trial author)",
+        "role": "important",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result."
+      },
+      {
+        "outcome_id": "important_2",
+        "name": "Infiltration (defined as permeation of IV fluid into the interstitial compartment, causing swelling of, or damage to, local tissue around the site of the catheter)",
+        "role": "important",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result."
+      },
+      {
+        "outcome_id": "important_3",
+        "name": "Catheter occlusion (the inability to infuse fluids) Limited importance",
+        "role": "important",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result."
+      },
+      {
+        "outcome_id": "important_4",
+        "name": "Cost (materials and labour for PVC insertion or treating complications)",
+        "role": "important",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result."
+      },
+      {
+        "outcome_id": "important_5",
+        "name": "Pain during infusion",
+        "role": "important",
+        "unit_or_scale": "measured by a validated pain assessment scale",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result.",
+        "source_outcome_text": "Pain during infusion (measured by a validated pain assessment scale)"
+      },
+      {
+        "outcome_id": "important_6",
+        "name": "Satisfaction",
+        "role": "important",
+        "unit_or_scale": "measured by any validated satisfaction scale",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result.",
+        "source_outcome_text": "Satisfaction (measured by any validated satisfaction scale)"
+      },
+      {
+        "outcome_id": "important_7",
+        "name": "Number of catheters per participant (followed for the total duration of treatment)",
+        "role": "important",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result."
+      }
+    ]
   },
   "protocol_and_eligibility": {
     "review_id": "CD007798",
     "review_group": "2026_issue_1",
     "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
     "pdf_status": "present",
-    "review_title": ".",
+    "review_title": "Clinically indicated removal versus routine removal of peripheral venous catheters",
     "research_question": "What does this review assess: the effects of clinically indicated removal versus routine removal of PVCs?",
-    "eligibility_inclusion_criteria": "Types of studies We included all randomised controlled trials (RCTs) comparing routine removal of PVC with removal when clinically indicated. We excluded cross-over trials to maintain consistency and avoid potential confounding from carryover effects. Although such designs may increase power or reduce contamination, and are permitted in the Cochrane Handbook for Systematic Reviews of Interventions [40], their inclusion would have introduced heterogeneity in design and analysis. Types of participants We included any patient requiring a PVC to be in situ for at least three days for the administration of intermittent or continuous therapy (this may include patients in hospitals, nursing homes orin community settings). We excluded patients receiving parenteral nutrition. Types of interventions We included short PVCs made of any material and covered by any dressing (for example, gauze or polyurethane). We included clinically indicated removal versus any time duration for routine removal (e.g. 48 or 72 hours). We excluded steel catheters, midline catheters and long peripheral catheters. Outcome measures The critical and important outcomes in this review include PVC endpoints considered adverse events for PVCs. Critical outcomes •Catheter-related bloodstream infection (CRBSI, defined as a positive blood culture from a peripheral vein; clinical signs of infection; no other apparent source for the bloodstream infection except the intravenous (IV) catheter; and colonised IV catheter tip culture with the same organism as identified in the blood) •Primary bloodstream infection (defined as a laboratory- confirmed bloodstream infection drawn from a peripheral vein while an IV catheter is in situ or for 48 hours after removal, with no other identified source of the infection) •Local...",
-    "eligibility_exclusion_criteria": "We excluded cross-over trials to maintain consistency and avoid potential confounding from carryover effects. We excluded patients receiving parenteral nutrition. We excluded steel catheters, midline catheters and long peripheral catheters."
-  },
-  "search_methods": {
-    "review_id": "CD007798",
-    "review_group": "2026_issue_1",
-    "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD007798.pdf",
-    "pdf_status": "present",
-    "review_title": "",
-    "search_methods": "Exact search query blocks were not found in the local PDF or data-package files. The review may refer to a separate search-strategy supplement that is not present locally.",
-    "search_strategies": "",
-    "search_query_status": "not_found_in_local_files",
-    "search_query_source": "pdf",
-    "search_queries": []
+    "eligibility_inclusion_criteria": "- Study designs: We included all randomised controlled trials (RCTs) comparing routine removal of PVC with removal when clinically indicated. Although such designs may increase power or reduce contamination, and are permitted in the Cochrane Handbook for Systematic Reviews of Interventions [40], their inclusion would have introduced heterogeneity in design and analysis.\n- Participants: We included any patient requiring a PVC to be in situ for at least three days for the administration of intermittent or continuous therapy (this may include patients in hospitals, nursing homes orin community settings).\n- Interventions: We included short PVCs made of any material and covered by any dressing (for example, gauze or polyurethane). We included clinically indicated removal versus any time duration for routine removal (e.g. 48 or 72 hours).",
+    "eligibility_exclusion_criteria": "- We excluded cross-over trials to maintain consistency and avoid potential confounding from carryover effects.\n- We excluded patients receiving parenteral nutrition.\n- We excluded steel catheters, midline catheters and long peripheral catheters."
   },
   "outcomes": [],
   "references": {

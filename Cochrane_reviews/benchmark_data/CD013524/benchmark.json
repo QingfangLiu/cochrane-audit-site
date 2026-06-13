@@ -1,6 +1,6 @@
 {
   "artifact_version": "2026-06-08-review-benchmark-v2",
-  "generated_at": "2026-06-09T12:32:41+00:00",
+  "generated_at": "2026-06-13T13:49:02+00:00",
   "review": {
     "review_id": "CD013524",
     "review_group": "2026_issue_1",
@@ -29,55 +29,112 @@
       "percent_blocks_with_any_pmc": "40.0",
       "lookup_errors": "."
     },
-    "review_index": {
-      "review_group": "2026_issue_1",
-      "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-      "review_id": "CD013524",
-      "extracted_title": "Cladribine for people with multiple sclerosis",
-      "extracted_year": "2026",
-      "extracted_issue": "1",
-      "extracted_doi": "10.1002/14651858.CD013524.pub2",
-      "in_pubmed": "yes",
-      "pmid": "41510790",
-      "pubmed_title": "Cladribine for people with multiple sclerosis.",
-      "pubmed_journal": "The Cochrane database of systematic reviews",
-      "pubmed_year": "2026",
-      "pubmed_doi": "10.1002/14651858.CD013524.pub2",
-      "pubmed_publication_types": "Systematic Review; Journal Article; Meta-Analysis",
-      "title_similarity": "1.000",
-      "lookup_method": "doi",
-      "candidate_pmids": "41510790",
-      "in_pmc": "no",
-      "pmcid": "",
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41510790/",
-      "pmc_url": "",
-      "lookup_status": "matched",
-      "lookup_errors": ""
-    },
+    "review_index": {},
     "domain_source": {},
     "domain_label": {}
+  },
+  "review_plan": {
+    "review_id": "CD013524",
+    "source": "review_planned_outcomes_tsv; review_planned_comparisons_tsv",
+    "source_pdf_path": "../../source_reviews/2026_issue_1/CD013524.pdf",
+    "plan_status": "generated_from_planned_rows",
+    "planned_pico": {},
+    "planned_comparisons": [
+      {
+        "comparison_id": "planned_1",
+        "label": "oral or parenteral cladribine, alone or combined, compared with placebo, no intervention, or other DMDs",
+        "intervention": "oral or parenteral cladribine, alone or combined,",
+        "comparator": "placebo, no intervention, or other DMDs",
+        "source_section": "Types of interventions",
+        "source_type": "methods_extracted",
+        "source_text_raw": "We investigated oral or parenteral cladribine, alone or combined, at any dose or duration, versus placebo, no intervention, or other DMDs",
+        "extraction_status": "extracted",
+        "extraction_notes": "Extracted from Methods comparison prose."
+      }
+    ],
+    "planned_outcomes": [
+      {
+        "outcome_id": "critical_1",
+        "name": "Total number of SAEs. If too few studies reported the total number of SAEs and person-years, we planned to use the number of participants who had experienced at least one SAE by the end of follow-up, as defined in the included studies",
+        "role": "critical",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result."
+      },
+      {
+        "outcome_id": "critical_2",
+        "name": "Number of participants free from disability worsening. Disability worsening was defined as an increase in the Expanded Disability Status Scale (EDSS) of at least 1.0 point from baseline, sustained on subsequent visits for at least 12 weeks if the baseline score was 5.5 or less, or an increase of at least 0.5 points sustained for at least 12 weeks if the baseline score was more than 5.5 [51]",
+        "role": "critical",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result."
+      },
+      {
+        "outcome_id": "critical_3",
+        "name": "Number of participants with no evidence of disease activity (NEDA). NEDA is a composite outcome that covers freedom from relapse, freedom from EDSS worsening, and lack of new/ enlarging T2 lesions or gadolinium-enhancing lesions on MRI [52, 53, 54]. However, as there is no strictly accepted definition of NEDA to date [55], we accepted definitions used in the included studies",
+        "role": "critical",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result."
+      },
+      {
+        "outcome_id": "critical_4",
+        "name": "Number of participants who withdrew from treatment due to any adverse event, lack of efficacy, lack of compliance, or a combination of these. We used this outcome as a measure of global effectiveness",
+        "role": "critical",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result."
+      },
+      {
+        "outcome_id": "critical_5",
+        "name": "Number of participants with evidence of cognitive impairment, assessed according to validated neurocognitive batteries, such as the Brief Repeatable Battery of Neuropsychological Tests (BRB-N) [ 56], Minimal Assessment of Cognitive Function in MS (MACFIMS) [57], Brief International Cognitive Assessment for MS (BICAMS) 58], or the composite MS Cognitive Battery (MS COG) [59, 60]. Considering the effects of depression, anxiety, and fatigue on cognition [61], we recorded simultaneous reporting of...",
+        "role": "critical",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result.",
+        "source_outcome_text": "Number of participants with evidence of cognitive impairment, assessed according to validated neurocognitive batteries, such as the Brief Repeatable Battery of Neuropsychological Tests (BRB-N) [ 56], Minimal Assessment of Cognitive Function in MS (MACFIMS) [57], Brief International Cognitive Assessment for MS (BICAMS) 58], or the composite MS Cognitive Battery (MS COG) [59, 60]. Considering the effects of depression, anxiety, and fatigue on cognition [61], we recorded simultaneous reporting of these conditions only where studies used validated scales (Hospital Anxiety and Depression Scale [62] and Fatigue Severity Scale [63])"
+      },
+      {
+        "outcome_id": "critical_6",
+        "name": "Quality of life (QoL), measured with validated health-related scales (e.g. the Medical Outcomes Study 36-item Short Form Health Survey (SF-36) [64]) or MS-specific scales (MS Impact Scale-29 [65], Leeds MS QoL [66], MS QoL-54 [67], or any other validated scale)",
+        "role": "critical",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result."
+      },
+      {
+        "outcome_id": "important_1",
+        "name": "Number of participants with at least one adverse event (describing type and severity)",
+        "role": "important",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result."
+      },
+      {
+        "outcome_id": "important_2",
+        "name": "Number of participants with at least one new relapse, defined as new/worsened symptoms lasting more than 24 hours, not due to fever, and preceded by at least one month of stability [47]",
+        "role": "important",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result."
+      },
+      {
+        "outcome_id": "important_3",
+        "name": "Number of participants with new gadolinium-enhancing T1- weighted (Gd+ T1) MRI lesions or new/enlarging T2-weighted MRI lesions. Outcomes of limited importance",
+        "role": "important",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result."
+      },
+      {
+        "outcome_id": "important_4",
+        "name": "Number of participants with evidence of brain atrophy as defined in the included studies, at 24 months and at the end of follow-up, compared with baseline",
+        "role": "important",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result."
+      }
+    ]
   },
   "protocol_and_eligibility": {
     "review_id": "CD013524",
     "review_group": "2026_issue_1",
     "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
     "pdf_status": "present",
-    "review_title": ".",
+    "review_title": "Cladribine for people with multiple sclerosis",
     "research_question": "What does this review assess: the short- and long-term benefits and harms of cladribine compared to no intervention, placebo, or any other disease-modifying drugs (DMDs) in people with any form of multiple sclerosis (MS)?",
-    "eligibility_inclusion_criteria": "Types of studies We included randomised controlled trials (RCTs), their open- label extensions (OLEs), the first phase of cross-over trials, and non-randomised studies of interventions (NRSIs). We decided to include OLEs and NRSIs mainly to detect rare adverse events (e.g. malignancies) and long-term disability progression. Eligibility was independent of publication status or language. We excluded retrospective studies and those without a comparator. Types of participants We included people with any form of MS or CIS, diagnosed according to accepted international criteria [47, 48, 49], regardless of age, sex, race, disability, and disease duration. In studies with a mix of eligible and ineligible participants, we analysed data from eligible participants only. Types of interventions We investigated oral or parenteral cladribine, alone or combined, at any dose or duration, versus placebo, no intervention, or other DMDs. Concomitant interventions were accepted if used across all groups. Outcome measures A panel of four neurologists and four randomly selected patients of mixed disability and sex prioritised outcomes using the GRADE 1-to-9 scale (7-9: critical; 4-6: important; 1-3: limited importance; Supplementary material 8) [50]. We excluded studies that reported no relevant outcomes. Critical outcomes We considered the following critical outcomes, measured at the end of follow-up. •Total number of SAEs. If too few studies reported the total number of SAEs and person-years, we planned to use the number of participants who had experienced at least one SAE by the end of follow-up, as defined in the included studies. •Number of participants free from disability worsening. Disability worsening was defined as an increase in the Expanded Disability Status Scale (EDSS) of at le...",
-    "eligibility_exclusion_criteria": "We excluded retrospective studies and those without a comparator. In studies with a mix of eligible and ineligible participants, we analysed data from eligible participants only. We excluded studies that reported no relevant outcomes."
-  },
-  "search_methods": {
-    "review_id": "CD013524",
-    "review_group": "2026_issue_1",
-    "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD013524.pdf",
-    "pdf_status": "present",
-    "review_title": "",
-    "search_methods": "Exact search query blocks were not found in the local PDF or data-package files. The review may refer to a separate search-strategy supplement that is not present locally.",
-    "search_strategies": "",
-    "search_query_status": "not_found_in_local_files",
-    "search_query_source": "pdf",
-    "search_queries": []
+    "eligibility_inclusion_criteria": "- Study designs: We included randomised controlled trials (RCTs), their open- label extensions (OLEs), the first phase of cross-over trials, and non-randomised studies of interventions (NRSIs). We decided to include OLEs and NRSIs mainly to detect rare adverse events (e.g. malignancies) and long-term disability progression. Eligibility was independent of publication status or language.\n- Participants: We included people with any form of MS or CIS, diagnosed according to accepted international criteria [47, 48, 49], regardless of age, sex, race, disability, and disease duration.\n- Interventions: We investigated oral or parenteral cladribine, alone or combined, at any dose or duration, versus placebo, no intervention, or other DMDs. Concomitant interventions were accepted if used across all groups.",
+    "eligibility_exclusion_criteria": "- We excluded retrospective studies and those without a comparator.\n- In studies with a mix of eligible and ineligible participants, we analysed data from eligible participants only.\n- We excluded studies that reported no relevant outcomes."
   },
   "outcomes": [],
   "references": {

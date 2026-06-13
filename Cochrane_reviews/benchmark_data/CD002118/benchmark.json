@@ -1,6 +1,6 @@
 {
   "artifact_version": "2026-06-08-review-benchmark-v2",
-  "generated_at": "2026-06-09T12:32:38+00:00",
+  "generated_at": "2026-06-13T13:49:02+00:00",
   "review": {
     "review_id": "CD002118",
     "review_group": "2026_issue_1",
@@ -29,55 +29,125 @@
       "percent_blocks_with_any_pmc": "5.6",
       "lookup_errors": "."
     },
-    "review_index": {
-      "review_group": "2026_issue_1",
-      "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD002118.pdf",
-      "review_id": "CD002118",
-      "extracted_title": "Blastocyst-stage versus cleavage-stage embryo transfer in assisted reproductive technology",
-      "extracted_year": "2026",
-      "extracted_issue": "1",
-      "extracted_doi": "10.1002/14651858.CD002118.pub7",
-      "in_pubmed": "yes",
-      "pmid": "41574757",
-      "pubmed_title": "Blastocyst-stage versus cleavage-stage embryo transfer in assisted reproductive technology.",
-      "pubmed_journal": "The Cochrane database of systematic reviews",
-      "pubmed_year": "2026",
-      "pubmed_doi": "10.1002/14651858.CD002118.pub7",
-      "pubmed_publication_types": "Journal Article; Systematic Review; Meta-Analysis",
-      "title_similarity": "1.000",
-      "lookup_method": "doi",
-      "candidate_pmids": "41574757",
-      "in_pmc": "no",
-      "pmcid": "",
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41574757/",
-      "pmc_url": "",
-      "lookup_status": "matched",
-      "lookup_errors": ""
-    },
+    "review_index": {},
     "domain_source": {},
     "domain_label": {}
+  },
+  "review_plan": {
+    "review_id": "CD002118",
+    "source": "review_planned_outcomes_tsv; review_planned_comparisons_tsv",
+    "source_pdf_path": "../../source_reviews/2026_issue_1/CD002118.pdf",
+    "plan_status": "generated_from_planned_rows",
+    "planned_pico": {},
+    "planned_comparisons": [
+      {
+        "comparison_id": "planned_1",
+        "label": "blastocyst-stage (day 5 to 6) transfers compared with cleavage-stage (day 2 to 3) transfers",
+        "intervention": "blastocyst-stage (day 5 to 6) transfers",
+        "comparator": "cleavage-stage (day 2 to 3) transfers",
+        "source_section": "Types of interventions",
+        "source_type": "methods_extracted",
+        "source_text_raw": "We included studies comparing blastocyst-stage (day 5 to 6) transfers to cleavage-stage (day 2 to 3) transfers in settings using single and sequential media culture methods for IVF and ICSI, where the embryos were grown for between two and six days in vitro prior to embryo transfer",
+        "extraction_status": "extracted",
+        "extraction_notes": "Extracted from Methods comparison prose."
+      }
+    ],
+    "planned_outcomes": [
+      {
+        "outcome_id": "critical_1",
+        "name": "Cumulative live birth rate (cLBR) per woman (number of live births after week 20 of pregnancy per woman) from both fresh and thawed cycles deriving from a single egg collection procedure during the follow-up period",
+        "role": "critical",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result."
+      },
+      {
+        "outcome_id": "critical_2",
+        "name": "Live birth rate per woman (number of live births after week 20 of pregnancy per woman) following fresh transfer",
+        "role": "critical",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result."
+      },
+      {
+        "outcome_id": "critical_3",
+        "name": "Cumulative preterm birth rate per woman (number of births between week 20 and week 37 of pregnancy per woman) from both fresh and thawed cycles deriving from a single egg collection procedure during the follow-up period",
+        "role": "critical",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result."
+      },
+      {
+        "outcome_id": "important_1",
+        "name": "Clinical pregnancy rate per woman",
+        "role": "important",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result.",
+        "source_outcome_text": "Clinical pregnancy rate per woman: number of women achieving a clinical pregnancy following fresh transfer (defined by the demonstration of foetal heart activity on ultrasound scan)"
+      },
+      {
+        "outcome_id": "important_2",
+        "name": "Multiple-pregnancy rate per woman following fresh transfer",
+        "role": "important",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result.",
+        "source_outcome_text": "Multiple-pregnancy rate per woman following fresh transfer: number of women with a multiple pregnancy (including twin and high-order multiple pregnancies, defined as three or more gestational sacs) following fresh embryo transfer"
+      },
+      {
+        "outcome_id": "important_3",
+        "name": "Miscarriage rate for fresh transfer",
+        "role": "important",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result.",
+        "source_outcome_text": "Miscarriage rate for fresh transfer: number of occurrences per woman and per pregnant woman"
+      },
+      {
+        "outcome_id": "important_4",
+        "name": "Embryo freezing rate per woman",
+        "role": "important",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result.",
+        "source_outcome_text": "Embryo freezing rate per woman: number of women who had supernumerary embryos for transfer at a later date per woman"
+      },
+      {
+        "outcome_id": "important_5",
+        "name": "Failure-to-transfer rate (per woman)",
+        "role": "important",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result.",
+        "source_outcome_text": "Failure-to-transfer rate (per woman): percentage of women who did not have an embryo transfer"
+      },
+      {
+        "outcome_id": "important_6",
+        "name": "Other cumulative obstetric and perinatal outcomes (including both fresh and frozen-thawed cycles) during the follow-up period Additional outcomes not appropriate for statistical pooling We were unable to pool data per cycle or per embryo transfer, or per oocyte pick-up (OPU) [60]. If a study includes multiple cycles, transfers, or OPUs per woman, then results reported per cycle/transfer/OPU cannot be validly pooled. If the study reported results per cycle/transfer/OPU and this did not coincide...",
+        "role": "important",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result.",
+        "source_outcome_text": "Other cumulative obstetric and perinatal outcomes (including both fresh and frozen-thawed cycles) during the follow-up period Additional outcomes not appropriate for statistical pooling We were unable to pool data per cycle or per embryo transfer, or per oocyte pick-up (OPU) [60]. If a study includes multiple cycles, transfers, or OPUs per woman, then results reported per cycle/transfer/OPU cannot be validly pooled. If the study reported results per cycle/transfer/OPU and this did not coincide with the point of randomisation (i.e. if the denominator did not coincide with the point in the treatment where randomisation occurred), we calculated new results using randomised participants as the denominator and treated excluded participants as having negative outcomes. However, due to the frequency with which this form of data is reported in the literature, we have entered them into the 'Data and analyses tables' for the following outcomes (Table 2)"
+      },
+      {
+        "outcome_id": "important_7",
+        "name": "Implantation rate",
+        "role": "important",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result.",
+        "source_outcome_text": "Implantation rate: the number of foetal sacs divided by the number of embryos transferred"
+      },
+      {
+        "outcome_id": "important_8",
+        "name": "Blastocyst formation rate",
+        "role": "important",
+        "source_section": "Outcome measures",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result."
+      }
+    ]
   },
   "protocol_and_eligibility": {
     "review_id": "CD002118",
     "review_group": "2026_issue_1",
     "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD002118.pdf",
     "pdf_status": "present",
-    "review_title": ".",
+    "review_title": "Blastocyst-stage versus cleavage-stage embryo transfer in assisted reproductive technology",
     "research_question": "What does this review assess: the effects of blastocyst-stage (day 5 to 6) embryo transfer compared with cleavage-stage (day 2 to 3) embryo transfer on cumulative live birth rate per woman (defined as the occurrence of at least one live birth resulting from the fresh transfer and all subsequent frozen-thawed embryo transfers derived from the same oocyte retrieval), live birth rate per fresh transfer, and cumulative preterm birth outcomes using the same definition?",
-    "eligibility_inclusion_criteria": "Types of studies We included only individually-randomised parallel-group trials (RCTs). We excluded quasi-RCTs (such as where allocation was by alternation, identification number, or day of the week) and cluster- randomised trials as these are not valid in the context of fertility trials. We also excluded cross-over trials unless pre-cross-over data were available. Types of participants Inclusion criteria We included women affected by subfertility who were undergoing in vitro fertilisation (IVF) or intracytoplasmic sperm injection (ICSI) for therapeutic reasons or for oocyte donation. We included all patient prognosis groups, i.e. the categories to which women are assigned based on factors such as their age, type of subfertility, ovarian response to the superovulation drugs, and number of previous attempts. See the Investigation of heterogeneity and subgroup analysis section below for the categories. Exclusion criteria We excluded women whose IVF or ICSI cycle, or both, involved in vitro matured oocytes or pre-implantation genetic screening. We also excluded women whose frozen-thawed cycle results were shown, but where no data were available from the fresh cycle. Types of interventions Inclusion criteria We included studies comparing blastocyst-stage (day 5 to 6) transfers to cleavage-stage (day 2 to 3) transfers in settings using single and sequential media culture methods for IVF and ICSI, where the embryos were grown for between two and six days in vitro prior to embryo transfer. Blastocyst-stage versus cleavage-stage embryo transfer in assisted reproductive technology (Review) Copyright © 2026 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.9 Cochrane LibraryTrusted evidence. Informed decisions. Better health. Cochrane Database of Systematic Reviews...",
-    "eligibility_exclusion_criteria": "We excluded quasi-RCTs (such as where allocation was by alternation, identification number, or day of the week) and cluster- randomised trials as these are not valid in the context of fertility trials. We also excluded cross-over trials unless pre-cross-over data were available. Exclusion criteria We excluded women whose IVF or ICSI cycle, or both, involved in vitro matured oocytes or pre-implantation genetic screening. We also excluded women whose frozen-thawed cycle results were shown, but where no data were available from the fresh cycle."
-  },
-  "search_methods": {
-    "review_id": "CD002118",
-    "review_group": "2026_issue_1",
-    "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD002118.pdf",
-    "pdf_status": "present",
-    "review_title": "",
-    "search_methods": "Exact search query blocks were not found in the local PDF or data-package files. The review may refer to a separate search-strategy supplement that is not present locally.",
-    "search_strategies": "",
-    "search_query_status": "not_found_in_local_files",
-    "search_query_source": "pdf",
-    "search_queries": []
+    "eligibility_inclusion_criteria": "- Study designs: We included only individually-randomised parallel-group trials (RCTs).\n- Participants: We included women affected by subfertility who were undergoing in vitro fertilisation (IVF) or intracytoplasmic sperm injection (ICSI) for therapeutic reasons or for oocyte donation. We included all patient prognosis groups, i.e. the categories to which women are assigned based on factors such as their age, type of subfertility, ovarian response to the superovulation drugs, and number of previous attempts. See the Investigation of heterogeneity and subgroup analysis section below for the categories.\n- Interventions: We included studies comparing blastocyst-stage (day 5 to 6) transfers to cleavage-stage (day 2 to 3) transfers in settings using single and sequential media culture methods for IVF and ICSI, where the embryos were grown for between two and six days in vitro prior to embryo transfer.",
+    "eligibility_exclusion_criteria": "- We excluded quasi-RCTs (such as where allocation was by alternation, identification number, or day of the week) and cluster- randomised trials as these are not valid in the context of fertility trials.\n- We also excluded cross-over trials unless pre-cross-over data were available.\n- We excluded women whose IVF or ICSI cycle, or both, involved in vitro matured oocytes or pre-implantation genetic screening.\n- We also excluded women whose frozen-thawed cycle results were shown, but where no data were available from the fresh cycle.\n- We excluded studies using co-culture methods as an intervention.\n- We also excluded studies if they compared blastocyst-stage transfers to cleavage-stage transfers in frozen-thawed cycles but did not provide data from the fresh cycle."
   },
   "outcomes": [],
   "references": {

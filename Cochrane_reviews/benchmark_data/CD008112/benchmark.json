@@ -1,6 +1,6 @@
 {
   "artifact_version": "2026-06-08-review-benchmark-v2",
-  "generated_at": "2026-06-09T12:32:40+00:00",
+  "generated_at": "2026-06-13T13:49:03+00:00",
   "review": {
     "review_id": "CD008112",
     "review_group": "2026_issue_1",
@@ -29,55 +29,128 @@
       "percent_blocks_with_any_pmc": "2.6",
       "lookup_errors": "."
     },
-    "review_index": {
-      "review_group": "2026_issue_1",
-      "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD008112.pdf",
-      "review_id": "CD008112",
-      "extracted_title": "Spinal manipulative therapy for adults with chronic low back pain",
-      "extracted_year": "2026",
-      "extracted_issue": "1",
-      "extracted_doi": "10.1002/14651858.CD008112.pub3",
-      "in_pubmed": "yes",
-      "pmid": "41494147",
-      "pubmed_title": "Spinal manipulative therapy for adults with chronic low back pain.",
-      "pubmed_journal": "The Cochrane database of systematic reviews",
-      "pubmed_year": "2026",
-      "pubmed_doi": "10.1002/14651858.CD008112.pub3",
-      "pubmed_publication_types": "Journal Article; Systematic Review; Meta-Analysis",
-      "title_similarity": "1.000",
-      "lookup_method": "doi",
-      "candidate_pmids": "41494147",
-      "in_pmc": "no",
-      "pmcid": "",
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41494147/",
-      "pmc_url": "",
-      "lookup_status": "matched",
-      "lookup_errors": ""
-    },
+    "review_index": {},
     "domain_source": {},
     "domain_label": {}
+  },
+  "review_plan": {
+    "review_id": "CD008112",
+    "source": "review_planned_outcomes_tsv; review_planned_comparisons_tsv",
+    "source_pdf_path": "../../source_reviews/2026_issue_1/CD008112.pdf",
+    "plan_status": "generated_from_planned_rows",
+    "planned_pico": {},
+    "planned_comparisons": [
+      {
+        "comparison_id": "planned_1",
+        "label": "SMT versus no treatment",
+        "intervention": "SMT",
+        "comparator": "no treatment",
+        "source_section": "Types of interventions",
+        "source_type": "methods_extracted",
+        "source_text_raw": "SMT versus no treatment",
+        "extraction_status": "extracted",
+        "extraction_notes": "Extracted from an explicit planned-comparison list in Methods."
+      },
+      {
+        "comparison_id": "planned_2",
+        "label": "SMT versus sham SMT/placebo control (i.e. participants were 'blinded' to the intervention)",
+        "intervention": "SMT",
+        "comparator": "sham SMT/placebo control (i.e. participants were 'blinded' to the intervention)",
+        "source_section": "Types of interventions",
+        "source_type": "methods_extracted",
+        "source_text_raw": "SMT versus sham SMT/placebo control (i.e. participants were 'blinded' to the intervention)",
+        "extraction_status": "extracted",
+        "extraction_notes": "Extracted from an explicit planned-comparison list in Methods."
+      },
+      {
+        "comparison_id": "planned_3",
+        "label": "SMT versus other conservative interventions",
+        "intervention": "SMT",
+        "comparator": "other conservative interventions",
+        "source_section": "Types of interventions",
+        "source_type": "methods_extracted",
+        "source_text_raw": "SMT versus other conservative interventions",
+        "extraction_status": "extracted",
+        "extraction_notes": "Extracted from an explicit planned-comparison list in Methods."
+      },
+      {
+        "comparison_id": "planned_4",
+        "label": "SMT as adjuvant therapy to any other therapy",
+        "intervention": "SMT as adjuvant therapy",
+        "comparator": "any other therapy",
+        "source_section": "Types of interventions",
+        "source_type": "methods_extracted",
+        "source_text_raw": "SMT as adjuvant therapy to any other therapy",
+        "extraction_status": "extracted",
+        "extraction_notes": "Extracted from an explicit planned-comparison list in Methods."
+      },
+      {
+        "comparison_id": "planned_5",
+        "label": "SMT versus another kind of SMT",
+        "intervention": "SMT",
+        "comparator": "another kind of SMT",
+        "source_section": "Types of interventions",
+        "source_type": "methods_extracted",
+        "source_text_raw": "SMT versus another kind of SMT",
+        "extraction_status": "extracted",
+        "extraction_notes": "Extracted from an explicit planned-comparison list in Methods."
+      }
+    ],
+    "planned_outcomes": [
+      {
+        "outcome_id": "critical_1",
+        "name": "Pain (e.g. visual analogue scale (VAS), numerical rating scale (NRS), typically measured on a 0- to 100-point scale)",
+        "role": "critical",
+        "source_section": "Types of outcomes",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result."
+      },
+      {
+        "outcome_id": "critical_2",
+        "name": "Functional status (as expressed on a back pain-specific scale (e.g. Roland-Morris Disability Questionnaire (RMDQ), Oswestry Disability Index (ODI))",
+        "role": "critical",
+        "source_section": "Types of outcomes",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result."
+      },
+      {
+        "outcome_id": "critical_3",
+        "name": "Total adverse events, including (1) minor adverse events, defined as minor short-term reactions, such as muscle soreness, tiredness, and increased pain, and are self-limiting, and (2) serious adverse events, defined as a life-threatening event or an event requiring hospitalisation. Our approach to adverse events is exploratory, meaning that we captured any adverse events that happen to be reported, recording the measurement approach in the trial, and recording adverse events as serious Spinal m...",
+        "role": "critical",
+        "source_section": "Types of outcomes",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result.",
+        "source_outcome_text": "Total adverse events, including (1) minor adverse events, defined as minor short-term reactions, such as muscle soreness, tiredness, and increased pain, and are self-limiting, and (2) serious adverse events, defined as a life-threatening event or an event requiring hospitalisation. Our approach to adverse events is exploratory, meaning that we captured any adverse events that happen to be reported, recording the measurement approach in the trial, and recording adverse events as serious Spinal manipulative therapy for adults with chronic low back pain (Review) Copyright © 2026 The Cochrane Collaboration. Published by John Wiley & Sons, Ltd.11 Cochrane LibraryTrusted evidence. Informed decisions. Better health. Cochrane Database of Systematic Reviews or minor, when reported. These events are summarised narratively"
+      },
+      {
+        "outcome_id": "important_1",
+        "name": "Global improvement or self-perceived recovery (defined as the number of participants reported to be recovered or nearly recovered when presented on a Likert-scale)",
+        "role": "important",
+        "source_section": "Types of outcomes",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result."
+      },
+      {
+        "outcome_id": "important_2",
+        "name": "Health-related quality of life (e.g. 36-item Short Form Health Survey (SF-36; as measured by the General Health subscale), EuroQol, general health (e.g. as measured on a VAS scale), or a similarly validated index)",
+        "role": "important",
+        "source_section": "Types of outcomes",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result."
+      },
+      {
+        "outcome_id": "important_3",
+        "name": "Return to work (defined as the proportion of the number of participants who were 'sick' at baseline due to their LBP and subsequently returned to work during the course of follow-up)",
+        "role": "important",
+        "source_section": "Types of outcomes",
+        "source_note": "Planned/review-level outcome extracted from the review Types of outcome measures section; it may or may not appear in a saved meta-analysis result."
+      }
+    ]
   },
   "protocol_and_eligibility": {
     "review_id": "CD008112",
     "review_group": "2026_issue_1",
     "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD008112.pdf",
     "pdf_status": "present",
-    "review_title": ".",
+    "review_title": "Spinal manipulative therapy for adults with chronic low back pain",
     "research_question": "What does this review evaluate: the benefits and harms of SMT compared to (1) sham SMT/placebo intervention, (2) no treatment, and (3) other conservative interventions in people with chronic LBP (18+ years old)?",
-    "eligibility_inclusion_criteria": "Types of studies We included only RCTs published as full texts. Cross-over and cluster-randomised trials were considered. We excluded trials using an inadequate randomisation procedure (e.g. alternate allocation, allocation based upon birthdate). Types of participants Inclusion criteria Participants •Adults (≥ 18 years of age) •With a median duration of the current episode of LBP greater than 12 weeks for the study population, meaning that more than 50% of the study population had pain lasting longer than three months Studies •In which the unique contribution of SMT to the observed effects could be implied; that is, studies in which the effects of SMT could be isolated. This included studies in which SMT was delivered as part of a package of care; for example, studies comparing SMT plus exercise with exercise alone would be included, whereas studies comparing SMT plus exercise with SMT alone would not. •Studies with a mixed population, including participants with and without radiculopathy, were only included when more than 75% of the study population had no sign of radiculopathy. Exclusion criteria Participants •Postpartum LBP or pelvic pain due to pregnancy •Pain unrelated to the low back, e.g. coccydynia •Postoperative studies or participants with 'failed-back syndrome' •Serious pathologies, such as tumour, fracture, or infection Studies •Examined 'maintenance care' or prevention •Were designed to test the immediate post-intervention effect of a single treatment only, with no additional follow-up •Exclusively examined back-related pathologies, e.g. sciatica (defined here as radiating pain following the sciatic distribution and exhibiting signs of radiculopathy) Types of interventions Experimental intervention This review focusses on the effects of both spinal manipul...",
-    "eligibility_exclusion_criteria": "We excluded trials using an inadequate randomisation procedure (e.g. Exclusion criteria Participants •Postpartum LBP or pelvic pain due to pregnancy •Pain unrelated to the low back, e.g."
-  },
-  "search_methods": {
-    "review_id": "CD008112",
-    "review_group": "2026_issue_1",
-    "review_pdf": "Cochrane_reviews/source_reviews/2026_issue_1/CD008112.pdf",
-    "pdf_status": "present",
-    "review_title": "",
-    "search_methods": "Exact search query blocks were not found in the local PDF or data-package files. The review may refer to a separate search-strategy supplement that is not present locally.",
-    "search_strategies": "",
-    "search_query_status": "not_found_in_local_files",
-    "search_query_source": "pdf",
-    "search_queries": []
+    "eligibility_inclusion_criteria": "- Study designs: We included only RCTs published as full texts. Cross-over and cluster-randomised trials were considered.\n- Participants: Participants •Adults (≥ 18 years of age) •With a median duration of the current episode of LBP greater than 12 weeks for the study population, meaning that more than 50% of the study population had pain lasting longer than three months Studies •In which the unique contribution of SMT to the observed effects could be implied; that is, studies in which the effects of SMT could be isolated. This included studies in which SMT was delivered as part of a package of care; for example, studies comparing SMT plus exercise with exercise alone would be included, whereas studies comparing SMT plus exercise with SMT alone would not. •Studies with a mixed population, including participants with and witho.\n- Interventions: Experimental intervention This review focusses on the effects of both spinal manipul.",
+    "eligibility_exclusion_criteria": "- We excluded trials using an inadequate randomisation procedure (e.g. alternate allocation, allocation based upon birthdate).\n- Participants •Postpartum LBP or pelvic pain due to pregnancy •Pain unrelated to the low back, e.g. coccydynia •Postoperative studies or participants with 'failed-back syndrome' •Serious pathologies, such as tumour, fracture, or infection Studies •Examined 'maintenance care' or prevention •Were designed to test the immediate post-intervention effect of a single treatment only, with no additional follow-up •Exclusively examined."
   },
   "outcomes": [],
   "references": {
