@@ -1,5 +1,5 @@
 {
-  "artifact_version": "2026-06-13-review-benchmark-v4",
+  "artifact_version": "2026-06-13-review-benchmark-v5",
   "generated_at": "2026-06-13T17:01:57+00:00",
   "review": {
     "review_id": "CD014811_loop_diuretics_hf",
@@ -2248,19 +2248,19 @@
         "effect_measure": "Mean Difference",
         "extraction_status": "overall_ci_extracted",
         "non_extraction_reason": ".",
-        "overall_effect": "0.860564",
-        "ci_lower": "0.440262",
-        "ci_upper": "1.280865",
+        "overall_effect": "0.8606",
+        "ci_lower": "0.4403",
+        "ci_upper": "1.281",
         "ci_level": ".",
         "overall_row_label": "Overall estimates",
         "has_total_row": "yes",
         "has_subtotal_rows": "no",
         "numeric_ci_count": "5",
         "subtotal_result_count": "0",
-        "candidate_effects_json": "[{\"effect\": \"0.860564\", \"ci_lower\": \"0.440262\", \"ci_upper\": \"1.280865\", \"context\": \"Meta-analysis continuous infusion versus bolus injection; Net weight loss (kg)\"}]",
+        "candidate_effects_json": "[{\"effect\": \"0.8606\", \"ci_lower\": \"0.4403\", \"ci_upper\": \"1.281\", \"context\": \"Meta-analysis continuous infusion versus bolus injection; Net weight loss (kg)\"}]",
         "subtotal_results_json": "[]",
         "selected_block_score": ".",
-        "evidence_excerpt": "Source: Cochrane overall estimates CSV. Data type: Continuous; model: Random effect; method: IV; heterogeneity estimator: ; I2: 20.888217; subgroup P: not reported."
+        "evidence_excerpt": "Source: Cochrane overall estimates CSV. Data type: Continuous; model: Random effect; method: IV; heterogeneity estimator: ; I2: 20.89; subgroup P: not reported."
       },
       {
         "review_group": "others",
@@ -2280,19 +2280,19 @@
         "effect_measure": "Risk Ratio",
         "extraction_status": "overall_ci_extracted",
         "non_extraction_reason": ".",
-        "overall_effect": "1.530328",
-        "ci_lower": "0.80767",
-        "ci_upper": "2.899583",
+        "overall_effect": "1.53",
+        "ci_lower": "0.8077",
+        "ci_upper": "2.9",
         "ci_level": ".",
         "overall_row_label": "Overall estimates",
         "has_total_row": "yes",
         "has_subtotal_rows": "no",
         "numeric_ci_count": "4",
         "subtotal_result_count": "0",
-        "candidate_effects_json": "[{\"effect\": \"1.530328\", \"ci_lower\": \"0.80767\", \"ci_upper\": \"2.899583\", \"context\": \"Meta-analysis continuous infusion versus bolus injection; All-cause mortality\"}]",
+        "candidate_effects_json": "[{\"effect\": \"1.53\", \"ci_lower\": \"0.8077\", \"ci_upper\": \"2.9\", \"context\": \"Meta-analysis continuous infusion versus bolus injection; All-cause mortality\"}]",
         "subtotal_results_json": "[]",
         "selected_block_score": ".",
-        "evidence_excerpt": "Source: Cochrane overall estimates CSV. Data type: Dichotomous; model: Random effect; method: MH; heterogeneity estimator: ; I2: 4.093908; subgroup P: not reported."
+        "evidence_excerpt": "Source: Cochrane overall estimates CSV. Data type: Dichotomous; model: Random effect; method: MH; heterogeneity estimator: ; I2: 4.094; subgroup P: not reported."
       },
       {
         "review_group": "others",
@@ -2312,19 +2312,19 @@
         "effect_measure": "Mean Difference",
         "extraction_status": "overall_ci_extracted",
         "non_extraction_reason": ".",
-        "overall_effect": "-1.096902",
-        "ci_lower": "-4.836416",
-        "ci_upper": "2.642612",
+        "overall_effect": "-1.097",
+        "ci_lower": "-4.836",
+        "ci_upper": "2.643",
         "ci_level": ".",
         "overall_row_label": "Overall estimates",
         "has_total_row": "yes",
         "has_subtotal_rows": "no",
         "numeric_ci_count": "4",
         "subtotal_result_count": "0",
-        "candidate_effects_json": "[{\"effect\": \"-1.096902\", \"ci_lower\": \"-4.836416\", \"ci_upper\": \"2.642612\", \"context\": \"Meta-analysis continuous infusion versus bolus injection; Length of hospital stay (days)\"}]",
+        "candidate_effects_json": "[{\"effect\": \"-1.097\", \"ci_lower\": \"-4.836\", \"ci_upper\": \"2.643\", \"context\": \"Meta-analysis continuous infusion versus bolus injection; Length of hospital stay (days)\"}]",
         "subtotal_results_json": "[]",
         "selected_block_score": ".",
-        "evidence_excerpt": "Source: Cochrane overall estimates CSV. Data type: Continuous; model: Random effect; method: IV; heterogeneity estimator: ; I2: 87.637467; subgroup P: not reported."
+        "evidence_excerpt": "Source: Cochrane overall estimates CSV. Data type: Continuous; model: Random effect; method: IV; heterogeneity estimator: ; I2: 87.64; subgroup P: not reported."
       },
       {
         "review_group": "others",
@@ -2344,19 +2344,19 @@
         "effect_measure": "Risk Ratio",
         "extraction_status": "overall_ci_extracted",
         "non_extraction_reason": ".",
-        "overall_effect": "0.854138",
-        "ci_lower": "0.628565",
-        "ci_upper": "1.160662",
+        "overall_effect": "0.8541",
+        "ci_lower": "0.6286",
+        "ci_upper": "1.161",
         "ci_level": ".",
         "overall_row_label": "Overall estimates",
         "has_total_row": "yes",
         "has_subtotal_rows": "no",
         "numeric_ci_count": "3",
         "subtotal_result_count": "0",
-        "candidate_effects_json": "[{\"effect\": \"0.854138\", \"ci_lower\": \"0.628565\", \"ci_upper\": \"1.160662\", \"context\": \"Meta-analysis continuous infusion versus bolus injection; Readmission to hospital following discharge for the longest available follow-up stated in the trials\"}]",
+        "candidate_effects_json": "[{\"effect\": \"0.8541\", \"ci_lower\": \"0.6286\", \"ci_upper\": \"1.161\", \"context\": \"Meta-analysis continuous infusion versus bolus injection; Readmission to hospital following discharge for the longest available follow-up stated in the trials\"}]",
         "subtotal_results_json": "[]",
         "selected_block_score": ".",
-        "evidence_excerpt": "Source: Cochrane overall estimates CSV. Data type: Dichotomous; model: Fixed effect; method: IV; heterogeneity estimator: ; I2: 0.0; subgroup P: not reported."
+        "evidence_excerpt": "Source: Cochrane overall estimates CSV. Data type: Dichotomous; model: Fixed effect; method: IV; heterogeneity estimator: ; I2: 0; subgroup P: not reported."
       },
       {
         "review_group": "others",
@@ -2376,19 +2376,19 @@
         "effect_measure": "Risk Ratio",
         "extraction_status": "overall_ci_extracted",
         "non_extraction_reason": ".",
-        "overall_effect": "1.018903",
-        "ci_lower": "0.695461",
-        "ci_upper": "1.492772",
+        "overall_effect": "1.019",
+        "ci_lower": "0.6955",
+        "ci_upper": "1.493",
         "ci_level": ".",
         "overall_row_label": "Overall estimates",
         "has_total_row": "yes",
         "has_subtotal_rows": "no",
         "numeric_ci_count": "3",
         "subtotal_result_count": "0",
-        "candidate_effects_json": "[{\"effect\": \"1.018903\", \"ci_lower\": \"0.695461\", \"ci_upper\": \"1.492772\", \"context\": \"Meta-analysis continuous infusion versus bolus injection; Acute kidney injury (adverse event)\"}]",
+        "candidate_effects_json": "[{\"effect\": \"1.019\", \"ci_lower\": \"0.6955\", \"ci_upper\": \"1.493\", \"context\": \"Meta-analysis continuous infusion versus bolus injection; Acute kidney injury (adverse event)\"}]",
         "subtotal_results_json": "[]",
         "selected_block_score": ".",
-        "evidence_excerpt": "Source: Cochrane overall estimates CSV. Data type: Dichotomous; model: Random effect; method: MH; heterogeneity estimator: ; I2: 0.0; subgroup P: not reported."
+        "evidence_excerpt": "Source: Cochrane overall estimates CSV. Data type: Dichotomous; model: Random effect; method: MH; heterogeneity estimator: ; I2: 0; subgroup P: not reported."
       },
       {
         "review_group": "others",
@@ -2408,19 +2408,19 @@
         "effect_measure": "Mean Difference",
         "extraction_status": "overall_ci_extracted",
         "non_extraction_reason": ".",
-        "overall_effect": "0.699323",
-        "ci_lower": "-0.058486",
-        "ci_upper": "1.457133",
+        "overall_effect": "0.6993",
+        "ci_lower": "-0.05849",
+        "ci_upper": "1.457",
         "ci_level": ".",
         "overall_row_label": "Overall estimates",
         "has_total_row": "yes",
         "has_subtotal_rows": "no",
         "numeric_ci_count": "3",
         "subtotal_result_count": "0",
-        "candidate_effects_json": "[{\"effect\": \"0.699323\", \"ci_lower\": \"-0.058486\", \"ci_upper\": \"1.457133\", \"context\": \"Sensitivity analysis – exclusion of trials with high risk of bias; Net weight loss (kg)\"}]",
+        "candidate_effects_json": "[{\"effect\": \"0.6993\", \"ci_lower\": \"-0.05849\", \"ci_upper\": \"1.457\", \"context\": \"Sensitivity analysis – exclusion of trials with high risk of bias; Net weight loss (kg)\"}]",
         "subtotal_results_json": "[]",
         "selected_block_score": ".",
-        "evidence_excerpt": "Source: Cochrane overall estimates CSV. Data type: Continuous; model: Random effect; method: IV; heterogeneity estimator: ; I2: 0.0; subgroup P: not reported."
+        "evidence_excerpt": "Source: Cochrane overall estimates CSV. Data type: Continuous; model: Random effect; method: IV; heterogeneity estimator: ; I2: 0; subgroup P: not reported."
       },
       {
         "review_group": "others",
@@ -2440,19 +2440,19 @@
         "effect_measure": "Risk Ratio",
         "extraction_status": "overall_ci_extracted",
         "non_extraction_reason": ".",
-        "overall_effect": "1.222759",
-        "ci_lower": "0.636116",
-        "ci_upper": "2.350421",
+        "overall_effect": "1.223",
+        "ci_lower": "0.6361",
+        "ci_upper": "2.35",
         "ci_level": ".",
         "overall_row_label": "Overall estimates",
         "has_total_row": "yes",
         "has_subtotal_rows": "no",
         "numeric_ci_count": "3",
         "subtotal_result_count": "0",
-        "candidate_effects_json": "[{\"effect\": \"1.222759\", \"ci_lower\": \"0.636116\", \"ci_upper\": \"2.350421\", \"context\": \"Sensitivity analysis – exclusion of trials with high risk of bias; All-cause mortality\"}]",
+        "candidate_effects_json": "[{\"effect\": \"1.223\", \"ci_lower\": \"0.6361\", \"ci_upper\": \"2.35\", \"context\": \"Sensitivity analysis – exclusion of trials with high risk of bias; All-cause mortality\"}]",
         "subtotal_results_json": "[]",
         "selected_block_score": ".",
-        "evidence_excerpt": "Source: Cochrane overall estimates CSV. Data type: Dichotomous; model: Random effect; method: MH; heterogeneity estimator: ; I2: 0.0; subgroup P: not reported."
+        "evidence_excerpt": "Source: Cochrane overall estimates CSV. Data type: Dichotomous; model: Random effect; method: MH; heterogeneity estimator: ; I2: 0; subgroup P: not reported."
       },
       {
         "review_group": "others",
@@ -2472,19 +2472,19 @@
         "effect_measure": "Mean Difference",
         "extraction_status": "overall_ci_extracted",
         "non_extraction_reason": ".",
-        "overall_effect": "0.610206",
-        "ci_lower": "-1.525946",
-        "ci_upper": "2.746358",
+        "overall_effect": "0.6102",
+        "ci_lower": "-1.526",
+        "ci_upper": "2.746",
         "ci_level": ".",
         "overall_row_label": "Overall estimates",
         "has_total_row": "yes",
         "has_subtotal_rows": "no",
         "numeric_ci_count": "3",
         "subtotal_result_count": "0",
-        "candidate_effects_json": "[{\"effect\": \"0.610206\", \"ci_lower\": \"-1.525946\", \"ci_upper\": \"2.746358\", \"context\": \"Sensitivity analysis – exclusion of trials with high risk of bias; Length of hospital stay (days)\"}]",
+        "candidate_effects_json": "[{\"effect\": \"0.6102\", \"ci_lower\": \"-1.526\", \"ci_upper\": \"2.746\", \"context\": \"Sensitivity analysis – exclusion of trials with high risk of bias; Length of hospital stay (days)\"}]",
         "subtotal_results_json": "[]",
         "selected_block_score": ".",
-        "evidence_excerpt": "Source: Cochrane overall estimates CSV. Data type: Continuous; model: Random effect; method: IV; heterogeneity estimator: ; I2: 41.91132; subgroup P: not reported."
+        "evidence_excerpt": "Source: Cochrane overall estimates CSV. Data type: Continuous; model: Random effect; method: IV; heterogeneity estimator: ; I2: 41.91; subgroup P: not reported."
       },
       {
         "review_group": "others",
@@ -2504,19 +2504,19 @@
         "effect_measure": "Risk Ratio",
         "extraction_status": "overall_ci_extracted",
         "non_extraction_reason": ".",
-        "overall_effect": "0.863807",
-        "ci_lower": "0.626991",
-        "ci_upper": "1.19007",
+        "overall_effect": "0.8638",
+        "ci_lower": "0.627",
+        "ci_upper": "1.19",
         "ci_level": ".",
         "overall_row_label": "Overall estimates",
         "has_total_row": "yes",
         "has_subtotal_rows": "no",
         "numeric_ci_count": "2",
         "subtotal_result_count": "0",
-        "candidate_effects_json": "[{\"effect\": \"0.863807\", \"ci_lower\": \"0.626991\", \"ci_upper\": \"1.19007\", \"context\": \"Sensitivity analysis – exclusion of trials with high risk of bias; Readmission to hospital following discharge for the longest available follow-up stated in the trials\"}]",
+        "candidate_effects_json": "[{\"effect\": \"0.8638\", \"ci_lower\": \"0.627\", \"ci_upper\": \"1.19\", \"context\": \"Sensitivity analysis – exclusion of trials with high risk of bias; Readmission to hospital following discharge for the longest available follow-up stated in the trials\"}]",
         "subtotal_results_json": "[]",
         "selected_block_score": ".",
-        "evidence_excerpt": "Source: Cochrane overall estimates CSV. Data type: Dichotomous; model: Fixed effect; method: IV; heterogeneity estimator: ; I2: 0.0; subgroup P: not reported."
+        "evidence_excerpt": "Source: Cochrane overall estimates CSV. Data type: Dichotomous; model: Fixed effect; method: IV; heterogeneity estimator: ; I2: 0; subgroup P: not reported."
       },
       {
         "review_group": "others",
@@ -2536,19 +2536,19 @@
         "effect_measure": "Risk Ratio",
         "extraction_status": "overall_ci_extracted",
         "non_extraction_reason": ".",
-        "overall_effect": "1.102062",
-        "ci_lower": "0.721788",
-        "ci_upper": "1.682682",
+        "overall_effect": "1.102",
+        "ci_lower": "0.7218",
+        "ci_upper": "1.683",
         "ci_level": ".",
         "overall_row_label": "Overall estimates",
         "has_total_row": "yes",
         "has_subtotal_rows": "no",
         "numeric_ci_count": "2",
         "subtotal_result_count": "0",
-        "candidate_effects_json": "[{\"effect\": \"1.102062\", \"ci_lower\": \"0.721788\", \"ci_upper\": \"1.682682\", \"context\": \"Sensitivity analysis – exclusion of trials with high risk of bias; Acute kidney injury (adverse event)\"}]",
+        "candidate_effects_json": "[{\"effect\": \"1.102\", \"ci_lower\": \"0.7218\", \"ci_upper\": \"1.683\", \"context\": \"Sensitivity analysis – exclusion of trials with high risk of bias; Acute kidney injury (adverse event)\"}]",
         "subtotal_results_json": "[]",
         "selected_block_score": ".",
-        "evidence_excerpt": "Source: Cochrane overall estimates CSV. Data type: Dichotomous; model: Random effect; method: MH; heterogeneity estimator: ; I2: 0.0; subgroup P: not reported."
+        "evidence_excerpt": "Source: Cochrane overall estimates CSV. Data type: Dichotomous; model: Random effect; method: MH; heterogeneity estimator: ; I2: 0; subgroup P: not reported."
       }
     ],
     "analysis_study_rows": [
@@ -2584,14 +2584,14 @@
         "arm2_total": "21",
         "arm2_mean": "1.64",
         "arm2_sd": "2.34",
-        "weight": "7.536613",
+        "weight": "7.537",
         "effect": "1.02",
-        "ci_lower": "-0.444636",
-        "ci_upper": "2.484636",
+        "ci_lower": "-0.4446",
+        "ci_upper": "2.485",
         "row_result_status": "estimable",
         "row_extraction_status": "extracted",
         "row_extraction_notes": "From Cochrane data rows CSV.",
-        "source_excerpt": "Analysis 1.1; Meta-analysis continuous infusion versus bolus injection; Net weight loss (kg); study Allen 2010; continuous infusion 0/20; bolus injection 0/21; effect 1.02 [-0.444636, 2.484636]; weight 7.536613."
+        "source_excerpt": "Analysis 1.1; Meta-analysis continuous infusion versus bolus injection; Net weight loss (kg); study Allen 2010; continuous infusion 0/20; bolus injection 0/21; effect 1.02 [-0.4446, 2.485]; weight 7.537."
       },
       {
         "review_group": "others",
@@ -2625,14 +2625,14 @@
         "arm2_total": "156",
         "arm2_mean": "3.08",
         "arm2_sd": "3.54",
-        "weight": "16.688496",
+        "weight": "16.69",
         "effect": "0.59",
-        "ci_lower": "-0.337232",
-        "ci_upper": "1.517232",
+        "ci_lower": "-0.3372",
+        "ci_upper": "1.517",
         "row_result_status": "estimable",
         "row_extraction_status": "extracted",
         "row_extraction_notes": "From Cochrane data rows CSV.",
-        "source_excerpt": "Analysis 1.1; Meta-analysis continuous infusion versus bolus injection; Net weight loss (kg); study Felker 2011; continuous infusion 0/152; bolus injection 0/156; effect 0.59 [-0.337232, 1.517232]; weight 16.688496."
+        "source_excerpt": "Analysis 1.1; Meta-analysis continuous infusion versus bolus injection; Net weight loss (kg); study Felker 2011; continuous infusion 0/152; bolus injection 0/156; effect 0.59 [-0.3372, 1.517]; weight 16.69."
       },
       {
         "review_group": "others",
@@ -2666,14 +2666,14 @@
         "arm2_total": "20",
         "arm2_mean": "1.14",
         "arm2_sd": "1.2",
-        "weight": "22.570411",
+        "weight": "22.57",
         "effect": "0.29",
-        "ci_lower": "-0.474135",
-        "ci_upper": "1.054135",
+        "ci_lower": "-0.4741",
+        "ci_upper": "1.054",
         "row_result_status": "estimable",
         "row_extraction_status": "extracted",
         "row_extraction_notes": "From Cochrane data rows CSV.",
-        "source_excerpt": "Analysis 1.1; Meta-analysis continuous infusion versus bolus injection; Net weight loss (kg); study Sager 2020; continuous infusion 0/18; bolus injection 0/20; effect 0.29 [-0.474135, 1.054135]; weight 22.570411."
+        "source_excerpt": "Analysis 1.1; Meta-analysis continuous infusion versus bolus injection; Net weight loss (kg); study Sager 2020; continuous infusion 0/18; bolus injection 0/20; effect 0.29 [-0.4741, 1.054]; weight 22.57."
       },
       {
         "review_group": "others",
@@ -2707,14 +2707,14 @@
         "arm2_total": "14",
         "arm2_mean": "4.1",
         "arm2_sd": "2.7",
-        "weight": "1.936148",
+        "weight": "1.936",
         "effect": "0.5",
-        "ci_lower": "-2.487503",
-        "ci_upper": "3.487503",
+        "ci_lower": "-2.488",
+        "ci_upper": "3.488",
         "row_result_status": "estimable",
         "row_extraction_status": "extracted",
         "row_extraction_notes": "From Cochrane data rows CSV.",
-        "source_excerpt": "Analysis 1.1; Meta-analysis continuous infusion versus bolus injection; Net weight loss (kg); study Yayla 2015; continuous infusion 0/15; bolus injection 0/14; effect 0.5 [-2.487503, 3.487503]; weight 1.936148."
+        "source_excerpt": "Analysis 1.1; Meta-analysis continuous infusion versus bolus injection; Net weight loss (kg); study Yayla 2015; continuous infusion 0/15; bolus injection 0/14; effect 0.5 [-2.488, 3.488]; weight 1.936."
       },
       {
         "review_group": "others",
@@ -2748,14 +2748,14 @@
         "arm2_total": "39",
         "arm2_mean": "3.53",
         "arm2_sd": "0.73",
-        "weight": "51.268332",
+        "weight": "51.27",
         "effect": "1.19",
-        "ci_lower": "0.808173",
-        "ci_upper": "1.571827",
+        "ci_lower": "0.8082",
+        "ci_upper": "1.572",
         "row_result_status": "estimable",
         "row_extraction_status": "extracted",
         "row_extraction_notes": "From Cochrane data rows CSV.",
-        "source_excerpt": "Analysis 1.1; Meta-analysis continuous infusion versus bolus injection; Net weight loss (kg); study Zheng 2021; continuous infusion 0/42; bolus injection 0/39; effect 1.19 [0.808173, 1.571827]; weight 51.268332."
+        "source_excerpt": "Analysis 1.1; Meta-analysis continuous infusion versus bolus injection; Net weight loss (kg); study Zheng 2021; continuous infusion 0/42; bolus injection 0/39; effect 1.19 [0.8082, 1.572]; weight 51.27."
       },
       {
         "review_group": "others",
@@ -2789,14 +2789,14 @@
         "arm2_total": "21",
         "arm2_mean": "0.0",
         "arm2_sd": "0.0",
-        "weight": "4.08859",
-        "effect": "3.142857",
-        "ci_lower": "0.135454",
-        "ci_upper": "72.921919",
+        "weight": "4.089",
+        "effect": "3.143",
+        "ci_lower": "0.1355",
+        "ci_upper": "72.92",
         "row_result_status": "estimable",
         "row_extraction_status": "extracted",
         "row_extraction_notes": "From Cochrane data rows CSV.",
-        "source_excerpt": "Analysis 1.2; Meta-analysis continuous infusion versus bolus injection; All-cause mortality; study Allen 2010; continuous infusion 1/20; bolus injection 0/21; effect 3.142857 [0.135454, 72.921919]; weight 4.08859."
+        "source_excerpt": "Analysis 1.2; Meta-analysis continuous infusion versus bolus injection; All-cause mortality; study Allen 2010; continuous infusion 1/20; bolus injection 0/21; effect 3.143 [0.1355, 72.92]; weight 4.089."
       },
       {
         "review_group": "others",
@@ -2830,14 +2830,14 @@
         "arm2_total": "156",
         "arm2_mean": "0.0",
         "arm2_sd": "0.0",
-        "weight": "69.363583",
-        "effect": "1.263158",
-        "ci_lower": "0.629204",
-        "ci_upper": "2.535852",
+        "weight": "69.36",
+        "effect": "1.263",
+        "ci_lower": "0.6292",
+        "ci_upper": "2.536",
         "row_result_status": "estimable",
         "row_extraction_status": "extracted",
         "row_extraction_notes": "From Cochrane data rows CSV.",
-        "source_excerpt": "Analysis 1.2; Meta-analysis continuous infusion versus bolus injection; All-cause mortality; study Felker 2011; continuous infusion 16/152; bolus injection 13/156; effect 1.263158 [0.629204, 2.535852]; weight 69.363583."
+        "source_excerpt": "Analysis 1.2; Meta-analysis continuous infusion versus bolus injection; All-cause mortality; study Felker 2011; continuous infusion 16/152; bolus injection 13/156; effect 1.263 [0.6292, 2.536]; weight 69.36."
       },
       {
         "review_group": "others",
@@ -2871,14 +2871,14 @@
         "arm2_total": "20",
         "arm2_mean": "0.0",
         "arm2_sd": "0.0",
-        "weight": "19.266443",
-        "effect": "4.0",
-        "ci_lower": "0.966732",
-        "ci_upper": "16.550614",
+        "weight": "19.27",
+        "effect": "4",
+        "ci_lower": "0.9667",
+        "ci_upper": "16.55",
         "row_result_status": "estimable",
         "row_extraction_status": "extracted",
         "row_extraction_notes": "From Cochrane data rows CSV.",
-        "source_excerpt": "Analysis 1.2; Meta-analysis continuous infusion versus bolus injection; All-cause mortality; study Sager 2020; continuous infusion 8/20; bolus injection 2/20; effect 4.0 [0.966732, 16.550614]; weight 19.266443."
+        "source_excerpt": "Analysis 1.2; Meta-analysis continuous infusion versus bolus injection; All-cause mortality; study Sager 2020; continuous infusion 8/20; bolus injection 2/20; effect 4 [0.9667, 16.55]; weight 19.27."
       },
       {
         "review_group": "others",
@@ -2912,14 +2912,14 @@
         "arm2_total": "30",
         "arm2_mean": "0.0",
         "arm2_sd": "0.0",
-        "weight": "7.281384",
+        "weight": "7.281",
         "effect": "0.5",
-        "ci_lower": "0.047851",
-        "ci_upper": "5.224499",
+        "ci_lower": "0.04785",
+        "ci_upper": "5.224",
         "row_result_status": "estimable",
         "row_extraction_status": "extracted",
         "row_extraction_notes": "From Cochrane data rows CSV.",
-        "source_excerpt": "Analysis 1.2; Meta-analysis continuous infusion versus bolus injection; All-cause mortality; study Shah 2014; continuous infusion 1/30; bolus injection 2/30; effect 0.5 [0.047851, 5.224499]; weight 7.281384."
+        "source_excerpt": "Analysis 1.2; Meta-analysis continuous infusion versus bolus injection; All-cause mortality; study Shah 2014; continuous infusion 1/30; bolus injection 2/30; effect 0.5 [0.04785, 5.224]; weight 7.281."
       },
       {
         "review_group": "others",
@@ -2960,7 +2960,7 @@
         "row_result_status": "not_estimable",
         "row_extraction_status": "extracted",
         "row_extraction_notes": "From Cochrane data rows CSV; no study-level effect/CI reported for this row.",
-        "source_excerpt": "Analysis 1.2; Meta-analysis continuous infusion versus bolus injection; All-cause mortality; study Zheng 2021; continuous infusion 0/42; bolus injection 0/39; effect not estimable [, ]; weight ."
+        "source_excerpt": "Analysis 1.2; Meta-analysis continuous infusion versus bolus injection; All-cause mortality; study Zheng 2021; continuous infusion 0/42; bolus injection 0/39; effect not estimable [., .]; weight .."
       },
       {
         "review_group": "others",
@@ -2994,14 +2994,14 @@
         "arm2_total": "21",
         "arm2_mean": "8.86",
         "arm2_sd": "3.82",
-        "weight": "18.543162",
+        "weight": "18.54",
         "effect": "0.99",
-        "ci_lower": "-4.400007",
-        "ci_upper": "6.380007",
+        "ci_lower": "-4.4",
+        "ci_upper": "6.38",
         "row_result_status": "estimable",
         "row_extraction_status": "extracted",
         "row_extraction_notes": "From Cochrane data rows CSV.",
-        "source_excerpt": "Analysis 1.3; Meta-analysis continuous infusion versus bolus injection; Length of hospital stay (days); study Allen 2010; continuous infusion 0/20; bolus injection 0/21; effect 0.99 [-4.400007, 6.380007]; weight 18.543162."
+        "source_excerpt": "Analysis 1.3; Meta-analysis continuous infusion versus bolus injection; Length of hospital stay (days); study Allen 2010; continuous infusion 0/20; bolus injection 0/21; effect 0.99 [-4.4, 6.38]; weight 18.54."
       },
       {
         "review_group": "others",
@@ -3035,14 +3035,14 @@
         "arm2_total": "30",
         "arm2_mean": "5.03",
         "arm2_sd": "3.33",
-        "weight": "28.480446",
+        "weight": "28.48",
         "effect": "1.74",
-        "ci_lower": "0.084904",
-        "ci_upper": "3.395096",
+        "ci_lower": "0.0849",
+        "ci_upper": "3.395",
         "row_result_status": "estimable",
         "row_extraction_status": "extracted",
         "row_extraction_notes": "From Cochrane data rows CSV.",
-        "source_excerpt": "Analysis 1.3; Meta-analysis continuous infusion versus bolus injection; Length of hospital stay (days); study Shah 2014; continuous infusion 0/30; bolus injection 0/30; effect 1.74 [0.084904, 3.395096]; weight 28.480446."
+        "source_excerpt": "Analysis 1.3; Meta-analysis continuous infusion versus bolus injection; Length of hospital stay (days); study Shah 2014; continuous infusion 0/30; bolus injection 0/30; effect 1.74 [0.0849, 3.395]; weight 28.48."
       },
       {
         "review_group": "others",
@@ -3076,14 +3076,14 @@
         "arm2_total": "14",
         "arm2_mean": "7.9",
         "arm2_sd": "4.1",
-        "weight": "25.927986",
+        "weight": "25.93",
         "effect": "-1.3",
-        "ci_lower": "-4.051905",
-        "ci_upper": "1.451905",
+        "ci_lower": "-4.052",
+        "ci_upper": "1.452",
         "row_result_status": "estimable",
         "row_extraction_status": "extracted",
         "row_extraction_notes": "From Cochrane data rows CSV.",
-        "source_excerpt": "Analysis 1.3; Meta-analysis continuous infusion versus bolus injection; Length of hospital stay (days); study Yayla 2015; continuous infusion 0/15; bolus injection 0/14; effect -1.3 [-4.051905, 1.451905]; weight 25.927986."
+        "source_excerpt": "Analysis 1.3; Meta-analysis continuous infusion versus bolus injection; Length of hospital stay (days); study Yayla 2015; continuous infusion 0/15; bolus injection 0/14; effect -1.3 [-4.052, 1.452]; weight 25.93."
       },
       {
         "review_group": "others",
@@ -3117,14 +3117,14 @@
         "arm2_total": "39",
         "arm2_mean": "15.68",
         "arm2_sd": "6.15",
-        "weight": "27.048406",
+        "weight": "27.05",
         "effect": "-5.32",
-        "ci_lower": "-7.630604",
-        "ci_upper": "-3.009396",
+        "ci_lower": "-7.631",
+        "ci_upper": "-3.009",
         "row_result_status": "estimable",
         "row_extraction_status": "extracted",
         "row_extraction_notes": "From Cochrane data rows CSV.",
-        "source_excerpt": "Analysis 1.3; Meta-analysis continuous infusion versus bolus injection; Length of hospital stay (days); study Zheng 2021; continuous infusion 0/42; bolus injection 0/39; effect -5.32 [-7.630604, -3.009396]; weight 27.048406."
+        "source_excerpt": "Analysis 1.3; Meta-analysis continuous infusion versus bolus injection; Length of hospital stay (days); study Zheng 2021; continuous infusion 0/42; bolus injection 0/39; effect -5.32 [-7.631, -3.009]; weight 27.05."
       },
       {
         "review_group": "others",
@@ -3158,14 +3158,14 @@
         "arm2_total": "156",
         "arm2_mean": "0.0",
         "arm2_sd": "0.0",
-        "weight": "79.425763",
-        "effect": "0.862105",
-        "ci_lower": "0.611119",
-        "ci_upper": "1.216172",
+        "weight": "79.43",
+        "effect": "0.8621",
+        "ci_lower": "0.6111",
+        "ci_upper": "1.216",
         "row_result_status": "estimable",
         "row_extraction_status": "extracted",
         "row_extraction_notes": "From Cochrane data rows CSV.",
-        "source_excerpt": "Analysis 1.4; Meta-analysis continuous infusion versus bolus injection; Readmission to hospital following discharge for the longest available follow-up stated in the trials; study Felker 2011; continuous infusion 42/152; bolus injection 50/156; effect 0.862105 [0.611119, 1.216172]; weight 79.425763."
+        "source_excerpt": "Analysis 1.4; Meta-analysis continuous infusion versus bolus injection; Readmission to hospital following discharge for the longest available follow-up stated in the trials; study Felker 2011; continuous infusion 42/152; bolus injection 50/156; effect 0.8621 [0.6111, 1.216]; weight 79.43."
       },
       {
         "review_group": "others",
@@ -3199,14 +3199,14 @@
         "arm2_total": "17",
         "arm2_mean": "0.0",
         "arm2_sd": "0.0",
-        "weight": "8.407024",
-        "effect": "0.755556",
-        "ci_lower": "0.262393",
-        "ci_upper": "2.175611",
+        "weight": "8.407",
+        "effect": "0.7556",
+        "ci_lower": "0.2624",
+        "ci_upper": "2.176",
         "row_result_status": "estimable",
         "row_extraction_status": "extracted",
         "row_extraction_notes": "From Cochrane data rows CSV.",
-        "source_excerpt": "Analysis 1.4; Meta-analysis continuous infusion versus bolus injection; Readmission to hospital following discharge for the longest available follow-up stated in the trials; study Sager 2020; continuous infusion 4/15; bolus injection 6/17; effect 0.755556 [0.262393, 2.175611]; weight 8.407024."
+        "source_excerpt": "Analysis 1.4; Meta-analysis continuous infusion versus bolus injection; Readmission to hospital following discharge for the longest available follow-up stated in the trials; study Sager 2020; continuous infusion 4/15; bolus injection 6/17; effect 0.7556 [0.2624, 2.176]; weight 8.407."
       },
       {
         "review_group": "others",
@@ -3240,14 +3240,14 @@
         "arm2_total": "30",
         "arm2_mean": "0.0",
         "arm2_sd": "0.0",
-        "weight": "12.167213",
+        "weight": "12.17",
         "effect": "0.875",
-        "ci_lower": "0.363252",
-        "ci_upper": "2.107697",
+        "ci_lower": "0.3633",
+        "ci_upper": "2.108",
         "row_result_status": "estimable",
         "row_extraction_status": "extracted",
         "row_extraction_notes": "From Cochrane data rows CSV.",
-        "source_excerpt": "Analysis 1.4; Meta-analysis continuous infusion versus bolus injection; Readmission to hospital following discharge for the longest available follow-up stated in the trials; study Shah 2014; continuous infusion 7/30; bolus injection 8/30; effect 0.875 [0.363252, 2.107697]; weight 12.167213."
+        "source_excerpt": "Analysis 1.4; Meta-analysis continuous infusion versus bolus injection; Readmission to hospital following discharge for the longest available follow-up stated in the trials; study Shah 2014; continuous infusion 7/30; bolus injection 8/30; effect 0.875 [0.3633, 2.108]; weight 12.17."
       },
       {
         "review_group": "others",
@@ -3281,14 +3281,14 @@
         "arm2_total": "155",
         "arm2_mean": "0.0",
         "arm2_sd": "0.0",
-        "weight": "63.865419",
-        "effect": "1.100964",
-        "ci_lower": "0.682699",
-        "ci_upper": "1.775485",
+        "weight": "63.87",
+        "effect": "1.101",
+        "ci_lower": "0.6827",
+        "ci_upper": "1.775",
         "row_result_status": "estimable",
         "row_extraction_status": "extracted",
         "row_extraction_notes": "From Cochrane data rows CSV.",
-        "source_excerpt": "Analysis 1.5; Meta-analysis continuous infusion versus bolus injection; Acute kidney injury (adverse event); study Felker 2011; continuous infusion 28/146; bolus injection 27/155; effect 1.100964 [0.682699, 1.775485]; weight 63.865419."
+        "source_excerpt": "Analysis 1.5; Meta-analysis continuous infusion versus bolus injection; Acute kidney injury (adverse event); study Felker 2011; continuous infusion 28/146; bolus injection 27/155; effect 1.101 [0.6827, 1.775]; weight 63.87."
       },
       {
         "review_group": "others",
@@ -3322,14 +3322,14 @@
         "arm2_total": "73",
         "arm2_mean": "0.0",
         "arm2_sd": "0.0",
-        "weight": "17.569809",
-        "effect": "1.106061",
-        "ci_lower": "0.444719",
-        "ci_upper": "2.750886",
+        "weight": "17.57",
+        "effect": "1.106",
+        "ci_lower": "0.4447",
+        "ci_upper": "2.751",
         "row_result_status": "estimable",
         "row_extraction_status": "extracted",
         "row_extraction_notes": "From Cochrane data rows CSV.",
-        "source_excerpt": "Analysis 1.5; Meta-analysis continuous infusion versus bolus injection; Acute kidney injury (adverse event); study Llorens 2014; continuous infusion 6/36; bolus injection 11/73; effect 1.106061 [0.444719, 2.750886]; weight 17.569809."
+        "source_excerpt": "Analysis 1.5; Meta-analysis continuous infusion versus bolus injection; Acute kidney injury (adverse event); study Llorens 2014; continuous infusion 6/36; bolus injection 11/73; effect 1.106 [0.4447, 2.751]; weight 17.57."
       },
       {
         "review_group": "others",
@@ -3363,14 +3363,14 @@
         "arm2_total": "39",
         "arm2_mean": "0.0",
         "arm2_sd": "0.0",
-        "weight": "18.564771",
-        "effect": "0.722222",
-        "ci_lower": "0.297664",
-        "ci_upper": "1.752327",
+        "weight": "18.56",
+        "effect": "0.7222",
+        "ci_lower": "0.2977",
+        "ci_upper": "1.752",
         "row_result_status": "estimable",
         "row_extraction_status": "extracted",
         "row_extraction_notes": "From Cochrane data rows CSV.",
-        "source_excerpt": "Analysis 1.5; Meta-analysis continuous infusion versus bolus injection; Acute kidney injury (adverse event); study Zheng 2021; continuous infusion 7/42; bolus injection 9/39; effect 0.722222 [0.297664, 1.752327]; weight 18.564771."
+        "source_excerpt": "Analysis 1.5; Meta-analysis continuous infusion versus bolus injection; Acute kidney injury (adverse event); study Zheng 2021; continuous infusion 7/42; bolus injection 9/39; effect 0.7222 [0.2977, 1.752]; weight 18.56."
       },
       {
         "review_group": "others",
@@ -3404,14 +3404,14 @@
         "arm2_total": "21",
         "arm2_mean": "1.64",
         "arm2_sd": "2.34",
-        "weight": "26.770747",
+        "weight": "26.77",
         "effect": "1.02",
-        "ci_lower": "-0.444636",
-        "ci_upper": "2.484636",
+        "ci_lower": "-0.4446",
+        "ci_upper": "2.485",
         "row_result_status": "estimable",
         "row_extraction_status": "extracted",
         "row_extraction_notes": "From Cochrane data rows CSV.",
-        "source_excerpt": "Analysis 2.1; Sensitivity analysis – exclusion of trials with high risk of bias; Net weight loss (kg); study Allen 2010; Experimental 0/20; Control 0/21; effect 1.02 [-0.444636, 2.484636]; weight 26.770747."
+        "source_excerpt": "Analysis 2.1; Sensitivity analysis – exclusion of trials with high risk of bias; Net weight loss (kg); study Allen 2010; Experimental 0/20; Control 0/21; effect 1.02 [-0.4446, 2.485]; weight 26.77."
       },
       {
         "review_group": "others",
@@ -3445,14 +3445,14 @@
         "arm2_total": "156",
         "arm2_mean": "3.08",
         "arm2_sd": "3.54",
-        "weight": "66.794924",
+        "weight": "66.79",
         "effect": "0.59",
-        "ci_lower": "-0.337232",
-        "ci_upper": "1.517232",
+        "ci_lower": "-0.3372",
+        "ci_upper": "1.517",
         "row_result_status": "estimable",
         "row_extraction_status": "extracted",
         "row_extraction_notes": "From Cochrane data rows CSV.",
-        "source_excerpt": "Analysis 2.1; Sensitivity analysis – exclusion of trials with high risk of bias; Net weight loss (kg); study Felker 2011; Experimental 0/152; Control 0/156; effect 0.59 [-0.337232, 1.517232]; weight 66.794924."
+        "source_excerpt": "Analysis 2.1; Sensitivity analysis – exclusion of trials with high risk of bias; Net weight loss (kg); study Felker 2011; Experimental 0/152; Control 0/156; effect 0.59 [-0.3372, 1.517]; weight 66.79."
       },
       {
         "review_group": "others",
@@ -3486,14 +3486,14 @@
         "arm2_total": "14",
         "arm2_mean": "4.1",
         "arm2_sd": "2.7",
-        "weight": "6.434329",
+        "weight": "6.434",
         "effect": "0.5",
-        "ci_lower": "-2.487503",
-        "ci_upper": "3.487503",
+        "ci_lower": "-2.488",
+        "ci_upper": "3.488",
         "row_result_status": "estimable",
         "row_extraction_status": "extracted",
         "row_extraction_notes": "From Cochrane data rows CSV.",
-        "source_excerpt": "Analysis 2.1; Sensitivity analysis – exclusion of trials with high risk of bias; Net weight loss (kg); study Yayla 2015; Experimental 0/15; Control 0/14; effect 0.5 [-2.487503, 3.487503]; weight 6.434329."
+        "source_excerpt": "Analysis 2.1; Sensitivity analysis – exclusion of trials with high risk of bias; Net weight loss (kg); study Yayla 2015; Experimental 0/15; Control 0/14; effect 0.5 [-2.488, 3.488]; weight 6.434."
       },
       {
         "review_group": "others",
@@ -3527,14 +3527,14 @@
         "arm2_total": "21",
         "arm2_mean": "0.0",
         "arm2_sd": "0.0",
-        "weight": "4.319509",
-        "effect": "3.142857",
-        "ci_lower": "0.135454",
-        "ci_upper": "72.921919",
+        "weight": "4.32",
+        "effect": "3.143",
+        "ci_lower": "0.1355",
+        "ci_upper": "72.92",
         "row_result_status": "estimable",
         "row_extraction_status": "extracted",
         "row_extraction_notes": "From Cochrane data rows CSV.",
-        "source_excerpt": "Analysis 2.2; Sensitivity analysis – exclusion of trials with high risk of bias; All-cause mortality; study Allen 2010; Experimental 1/20; Control 0/21; effect 3.142857 [0.135454, 72.921919]; weight 4.319509."
+        "source_excerpt": "Analysis 2.2; Sensitivity analysis – exclusion of trials with high risk of bias; All-cause mortality; study Allen 2010; Experimental 1/20; Control 0/21; effect 3.143 [0.1355, 72.92]; weight 4.32."
       },
       {
         "review_group": "others",
@@ -3568,14 +3568,14 @@
         "arm2_total": "156",
         "arm2_mean": "0.0",
         "arm2_sd": "0.0",
-        "weight": "87.924683",
-        "effect": "1.263158",
-        "ci_lower": "0.629204",
-        "ci_upper": "2.535852",
+        "weight": "87.92",
+        "effect": "1.263",
+        "ci_lower": "0.6292",
+        "ci_upper": "2.536",
         "row_result_status": "estimable",
         "row_extraction_status": "extracted",
         "row_extraction_notes": "From Cochrane data rows CSV.",
-        "source_excerpt": "Analysis 2.2; Sensitivity analysis – exclusion of trials with high risk of bias; All-cause mortality; study Felker 2011; Experimental 16/152; Control 13/156; effect 1.263158 [0.629204, 2.535852]; weight 87.924683."
+        "source_excerpt": "Analysis 2.2; Sensitivity analysis – exclusion of trials with high risk of bias; All-cause mortality; study Felker 2011; Experimental 16/152; Control 13/156; effect 1.263 [0.6292, 2.536]; weight 87.92."
       },
       {
         "review_group": "others",
@@ -3609,14 +3609,14 @@
         "arm2_total": "30",
         "arm2_mean": "0.0",
         "arm2_sd": "0.0",
-        "weight": "7.755808",
+        "weight": "7.756",
         "effect": "0.5",
-        "ci_lower": "0.047851",
-        "ci_upper": "5.224499",
+        "ci_lower": "0.04785",
+        "ci_upper": "5.224",
         "row_result_status": "estimable",
         "row_extraction_status": "extracted",
         "row_extraction_notes": "From Cochrane data rows CSV.",
-        "source_excerpt": "Analysis 2.2; Sensitivity analysis – exclusion of trials with high risk of bias; All-cause mortality; study Shah 2014; Experimental 1/30; Control 2/30; effect 0.5 [0.047851, 5.224499]; weight 7.755808."
+        "source_excerpt": "Analysis 2.2; Sensitivity analysis – exclusion of trials with high risk of bias; All-cause mortality; study Shah 2014; Experimental 1/30; Control 2/30; effect 0.5 [0.04785, 5.224]; weight 7.756."
       },
       {
         "review_group": "others",
@@ -3650,14 +3650,14 @@
         "arm2_total": "21",
         "arm2_mean": "8.86",
         "arm2_sd": "3.82",
-        "weight": "13.066065",
+        "weight": "13.07",
         "effect": "0.99",
-        "ci_lower": "-4.400007",
-        "ci_upper": "6.380007",
+        "ci_lower": "-4.4",
+        "ci_upper": "6.38",
         "row_result_status": "estimable",
         "row_extraction_status": "extracted",
         "row_extraction_notes": "From Cochrane data rows CSV.",
-        "source_excerpt": "Analysis 2.3; Sensitivity analysis – exclusion of trials with high risk of bias; Length of hospital stay (days); study Allen 2010; Experimental 0/20; Control 0/21; effect 0.99 [-4.400007, 6.380007]; weight 13.066065."
+        "source_excerpt": "Analysis 2.3; Sensitivity analysis – exclusion of trials with high risk of bias; Length of hospital stay (days); study Allen 2010; Experimental 0/20; Control 0/21; effect 0.99 [-4.4, 6.38]; weight 13.07."
       },
       {
         "review_group": "others",
@@ -3691,14 +3691,14 @@
         "arm2_total": "30",
         "arm2_mean": "5.03",
         "arm2_sd": "3.33",
-        "weight": "52.993194",
+        "weight": "52.99",
         "effect": "1.74",
-        "ci_lower": "0.084904",
-        "ci_upper": "3.395096",
+        "ci_lower": "0.0849",
+        "ci_upper": "3.395",
         "row_result_status": "estimable",
         "row_extraction_status": "extracted",
         "row_extraction_notes": "From Cochrane data rows CSV.",
-        "source_excerpt": "Analysis 2.3; Sensitivity analysis – exclusion of trials with high risk of bias; Length of hospital stay (days); study Shah 2014; Experimental 0/30; Control 0/30; effect 1.74 [0.084904, 3.395096]; weight 52.993194."
+        "source_excerpt": "Analysis 2.3; Sensitivity analysis – exclusion of trials with high risk of bias; Length of hospital stay (days); study Shah 2014; Experimental 0/30; Control 0/30; effect 1.74 [0.0849, 3.395]; weight 52.99."
       },
       {
         "review_group": "others",
@@ -3732,14 +3732,14 @@
         "arm2_total": "14",
         "arm2_mean": "7.9",
         "arm2_sd": "4.1",
-        "weight": "33.940741",
+        "weight": "33.94",
         "effect": "-1.3",
-        "ci_lower": "-4.051905",
-        "ci_upper": "1.451905",
+        "ci_lower": "-4.052",
+        "ci_upper": "1.452",
         "row_result_status": "estimable",
         "row_extraction_status": "extracted",
         "row_extraction_notes": "From Cochrane data rows CSV.",
-        "source_excerpt": "Analysis 2.3; Sensitivity analysis – exclusion of trials with high risk of bias; Length of hospital stay (days); study Yayla 2015; Experimental 0/15; Control 0/14; effect -1.3 [-4.051905, 1.451905]; weight 33.940741."
+        "source_excerpt": "Analysis 2.3; Sensitivity analysis – exclusion of trials with high risk of bias; Length of hospital stay (days); study Yayla 2015; Experimental 0/15; Control 0/14; effect -1.3 [-4.052, 1.452]; weight 33.94."
       },
       {
         "review_group": "others",
@@ -3773,14 +3773,14 @@
         "arm2_total": "156",
         "arm2_mean": "0.0",
         "arm2_sd": "0.0",
-        "weight": "86.715997",
-        "effect": "0.862105",
-        "ci_lower": "0.611119",
-        "ci_upper": "1.216172",
+        "weight": "86.72",
+        "effect": "0.8621",
+        "ci_lower": "0.6111",
+        "ci_upper": "1.216",
         "row_result_status": "estimable",
         "row_extraction_status": "extracted",
         "row_extraction_notes": "From Cochrane data rows CSV.",
-        "source_excerpt": "Analysis 2.4; Sensitivity analysis – exclusion of trials with high risk of bias; Readmission to hospital following discharge for the longest available follow-up stated in the trials; study Felker 2011; Experimental 42/152; Control 50/156; effect 0.862105 [0.611119, 1.216172]; weight 86.715997."
+        "source_excerpt": "Analysis 2.4; Sensitivity analysis – exclusion of trials with high risk of bias; Readmission to hospital following discharge for the longest available follow-up stated in the trials; study Felker 2011; Experimental 42/152; Control 50/156; effect 0.8621 [0.6111, 1.216]; weight 86.72."
       },
       {
         "review_group": "others",
@@ -3814,14 +3814,14 @@
         "arm2_total": "30",
         "arm2_mean": "0.0",
         "arm2_sd": "0.0",
-        "weight": "13.284003",
+        "weight": "13.28",
         "effect": "0.875",
-        "ci_lower": "0.363252",
-        "ci_upper": "2.107697",
+        "ci_lower": "0.3633",
+        "ci_upper": "2.108",
         "row_result_status": "estimable",
         "row_extraction_status": "extracted",
         "row_extraction_notes": "From Cochrane data rows CSV.",
-        "source_excerpt": "Analysis 2.4; Sensitivity analysis – exclusion of trials with high risk of bias; Readmission to hospital following discharge for the longest available follow-up stated in the trials; study Shah 2014; Experimental 7/30; Control 8/30; effect 0.875 [0.363252, 2.107697]; weight 13.284003."
+        "source_excerpt": "Analysis 2.4; Sensitivity analysis – exclusion of trials with high risk of bias; Readmission to hospital following discharge for the longest available follow-up stated in the trials; study Shah 2014; Experimental 7/30; Control 8/30; effect 0.875 [0.3633, 2.108]; weight 13.28."
       },
       {
         "review_group": "others",
@@ -3855,14 +3855,14 @@
         "arm2_total": "155",
         "arm2_mean": "0.0",
         "arm2_sd": "0.0",
-        "weight": "78.424805",
-        "effect": "1.100964",
-        "ci_lower": "0.682699",
-        "ci_upper": "1.775485",
+        "weight": "78.42",
+        "effect": "1.101",
+        "ci_lower": "0.6827",
+        "ci_upper": "1.775",
         "row_result_status": "estimable",
         "row_extraction_status": "extracted",
         "row_extraction_notes": "From Cochrane data rows CSV.",
-        "source_excerpt": "Analysis 2.5; Sensitivity analysis – exclusion of trials with high risk of bias; Acute kidney injury (adverse event); study Felker 2011; Experimental 28/146; Control 27/155; effect 1.100964 [0.682699, 1.775485]; weight 78.424805."
+        "source_excerpt": "Analysis 2.5; Sensitivity analysis – exclusion of trials with high risk of bias; Acute kidney injury (adverse event); study Felker 2011; Experimental 28/146; Control 27/155; effect 1.101 [0.6827, 1.775]; weight 78.42."
       },
       {
         "review_group": "others",
@@ -3896,14 +3896,14 @@
         "arm2_total": "73",
         "arm2_mean": "0.0",
         "arm2_sd": "0.0",
-        "weight": "21.575195",
-        "effect": "1.106061",
-        "ci_lower": "0.444719",
-        "ci_upper": "2.750886",
+        "weight": "21.58",
+        "effect": "1.106",
+        "ci_lower": "0.4447",
+        "ci_upper": "2.751",
         "row_result_status": "estimable",
         "row_extraction_status": "extracted",
         "row_extraction_notes": "From Cochrane data rows CSV.",
-        "source_excerpt": "Analysis 2.5; Sensitivity analysis – exclusion of trials with high risk of bias; Acute kidney injury (adverse event); study Llorens 2014; Experimental 6/36; Control 11/73; effect 1.106061 [0.444719, 2.750886]; weight 21.575195."
+        "source_excerpt": "Analysis 2.5; Sensitivity analysis – exclusion of trials with high risk of bias; Acute kidney injury (adverse event); study Llorens 2014; Experimental 6/36; Control 11/73; effect 1.106 [0.4447, 2.751]; weight 21.58."
       }
     ],
     "analysis_risk_of_bias_rows": [
@@ -4927,21 +4927,21 @@
         "k_with_pmcid_used": "4",
         "k_without_pmcid_used": "1",
         "excluded_rows": "0",
-        "reproduced_effect": "0.860554",
-        "reproduced_ci_lower": "0.440238",
-        "reproduced_ci_upper": "1.280869",
-        "reported_effect": "0.860564",
-        "reported_ci_lower": "0.440262",
-        "reported_ci_upper": "1.280865",
-        "effect_abs_diff": "0.00001",
-        "ci_lower_abs_diff": "0.000024",
-        "ci_upper_abs_diff": "0.000004",
-        "ci_iou": "0.999967",
+        "reproduced_effect": "0.8606",
+        "reproduced_ci_lower": "0.4402",
+        "reproduced_ci_upper": "1.281",
+        "reported_effect": "0.8606",
+        "reported_ci_lower": "0.4403",
+        "reported_ci_upper": "1.281",
+        "effect_abs_diff": "1e-05",
+        "ci_lower_abs_diff": "2.4e-05",
+        "ci_upper_abs_diff": "4e-06",
+        "ci_iou": "1",
         "reported_match_status": "ci_iou_full",
-        "tau2": "0.051751",
-        "Q": "5.056319",
+        "tau2": "0.05175",
+        "Q": "5.056",
         "df": "4",
-        "I2": "20.891063",
+        "I2": "20.89",
         "notes": "."
       },
       {
@@ -4972,21 +4972,21 @@
         "k_with_pmcid_used": "4",
         "k_without_pmcid_used": "0",
         "excluded_rows": "0",
-        "reproduced_effect": "0.831227",
-        "reproduced_ci_lower": "0.339294",
-        "reproduced_ci_upper": "1.32316",
-        "reported_effect": "0.860564",
-        "reported_ci_lower": "0.440262",
-        "reported_ci_upper": "1.280865",
-        "effect_abs_diff": "0.029337",
-        "ci_lower_abs_diff": "0.100968",
-        "ci_upper_abs_diff": "0.042295",
-        "ci_iou": "0.854388",
+        "reproduced_effect": "0.8312",
+        "reproduced_ci_lower": "0.3393",
+        "reproduced_ci_upper": "1.323",
+        "reported_effect": "0.8606",
+        "reported_ci_lower": "0.4403",
+        "reported_ci_upper": "1.281",
+        "effect_abs_diff": "0.02934",
+        "ci_lower_abs_diff": "0.101",
+        "ci_upper_abs_diff": "0.04229",
+        "ci_iou": "0.8544",
         "reported_match_status": "ci_iou_high",
-        "tau2": "0.099377",
-        "Q": "4.965162",
+        "tau2": "0.09938",
+        "Q": "4.965",
         "df": "3",
-        "I2": "39.579009",
+        "I2": "39.58",
         "notes": "PMCID-only subset excludes rows without a matched PMCID."
       },
       {
@@ -5017,21 +5017,21 @@
         "k_with_pmcid_used": "4",
         "k_without_pmcid_used": "0",
         "excluded_rows": "1",
-        "reproduced_effect": "1.528955",
-        "reproduced_ci_lower": "0.808925",
-        "reproduced_ci_upper": "2.889891",
-        "reported_effect": "1.530328",
-        "reported_ci_lower": "0.80767",
-        "reported_ci_upper": "2.899583",
+        "reproduced_effect": "1.529",
+        "reproduced_ci_lower": "0.8089",
+        "reproduced_ci_upper": "2.89",
+        "reported_effect": "1.53",
+        "reported_ci_lower": "0.8077",
+        "reported_ci_upper": "2.9",
         "effect_abs_diff": "0.001373",
         "ci_lower_abs_diff": "0.001255",
         "ci_upper_abs_diff": "0.009692",
-        "ci_iou": "0.994767",
+        "ci_iou": "0.9948",
         "reported_match_status": "ci_iou_full",
         "tau2": "0.0253",
-        "Q": "3.120683",
+        "Q": "3.121",
         "df": "3",
-        "I2": "3.867201",
+        "I2": "3.867",
         "notes": "Excluded non-computable rows: Zheng 2021: missing effect/CI"
       },
       {
@@ -5062,21 +5062,21 @@
         "k_with_pmcid_used": "4",
         "k_without_pmcid_used": "0",
         "excluded_rows": "1",
-        "reproduced_effect": "1.528955",
-        "reproduced_ci_lower": "0.808925",
-        "reproduced_ci_upper": "2.889891",
-        "reported_effect": "1.530328",
-        "reported_ci_lower": "0.80767",
-        "reported_ci_upper": "2.899583",
+        "reproduced_effect": "1.529",
+        "reproduced_ci_lower": "0.8089",
+        "reproduced_ci_upper": "2.89",
+        "reported_effect": "1.53",
+        "reported_ci_lower": "0.8077",
+        "reported_ci_upper": "2.9",
         "effect_abs_diff": "0.001373",
         "ci_lower_abs_diff": "0.001255",
         "ci_upper_abs_diff": "0.009692",
-        "ci_iou": "0.994767",
+        "ci_iou": "0.9948",
         "reported_match_status": "ci_iou_full",
         "tau2": "0.0253",
-        "Q": "3.120683",
+        "Q": "3.121",
         "df": "3",
-        "I2": "3.867201",
+        "I2": "3.867",
         "notes": "Excluded non-computable rows: Zheng 2021: missing effect/CI"
       },
       {
@@ -5107,21 +5107,21 @@
         "k_with_pmcid_used": "3",
         "k_without_pmcid_used": "1",
         "excluded_rows": "0",
-        "reproduced_effect": "-1.096899",
-        "reproduced_ci_lower": "-4.83648",
-        "reproduced_ci_upper": "2.642682",
-        "reported_effect": "-1.096902",
-        "reported_ci_lower": "-4.836416",
-        "reported_ci_upper": "2.642612",
-        "effect_abs_diff": "0.000003",
-        "ci_lower_abs_diff": "0.000064",
-        "ci_upper_abs_diff": "0.00007",
-        "ci_iou": "0.999982",
+        "reproduced_effect": "-1.097",
+        "reproduced_ci_lower": "-4.836",
+        "reproduced_ci_upper": "2.643",
+        "reported_effect": "-1.097",
+        "reported_ci_lower": "-4.836",
+        "reported_ci_upper": "2.643",
+        "effect_abs_diff": "3e-06",
+        "ci_lower_abs_diff": "6.4e-05",
+        "ci_upper_abs_diff": "7e-05",
+        "ci_iou": "1",
         "reported_match_status": "ci_iou_full",
-        "tau2": "12.068627",
-        "Q": "24.267763",
+        "tau2": "12.07",
+        "Q": "24.27",
         "df": "3",
-        "I2": "87.637921",
+        "I2": "87.64",
         "notes": "."
       },
       {
@@ -5152,21 +5152,21 @@
         "k_with_pmcid_used": "3",
         "k_without_pmcid_used": "0",
         "excluded_rows": "0",
-        "reproduced_effect": "-0.983994",
-        "reproduced_ci_lower": "-6.303295",
-        "reproduced_ci_upper": "4.335307",
-        "reported_effect": "-1.096902",
-        "reported_ci_lower": "-4.836416",
-        "reported_ci_upper": "2.642612",
-        "effect_abs_diff": "0.112908",
-        "ci_lower_abs_diff": "1.466879",
-        "ci_upper_abs_diff": "1.692695",
-        "ci_iou": "0.703009",
+        "reproduced_effect": "-0.984",
+        "reproduced_ci_lower": "-6.303",
+        "reproduced_ci_upper": "4.335",
+        "reported_effect": "-1.097",
+        "reported_ci_lower": "-4.836",
+        "reported_ci_upper": "2.643",
+        "effect_abs_diff": "0.1129",
+        "ci_lower_abs_diff": "1.467",
+        "ci_upper_abs_diff": "1.693",
+        "ci_iou": "0.703",
         "reported_match_status": "ci_iou_moderate",
-        "tau2": "19.261038",
-        "Q": "24.039544",
+        "tau2": "19.26",
+        "Q": "24.04",
         "df": "2",
-        "I2": "91.680375",
+        "I2": "91.68",
         "notes": "PMCID-only subset excludes rows without a matched PMCID."
       },
       {
@@ -5197,19 +5197,19 @@
         "k_with_pmcid_used": "3",
         "k_without_pmcid_used": "0",
         "excluded_rows": "0",
-        "reproduced_effect": "0.854138",
-        "reproduced_ci_lower": "0.628565",
-        "reproduced_ci_upper": "1.160662",
-        "reported_effect": "0.854138",
-        "reported_ci_lower": "0.628565",
-        "reported_ci_upper": "1.160662",
+        "reproduced_effect": "0.8541",
+        "reproduced_ci_lower": "0.6286",
+        "reproduced_ci_upper": "1.161",
+        "reported_effect": "0.8541",
+        "reported_ci_lower": "0.6286",
+        "reported_ci_upper": "1.161",
         "effect_abs_diff": "0",
         "ci_lower_abs_diff": "0",
         "ci_upper_abs_diff": "0",
         "ci_iou": "1",
         "reported_match_status": "ci_iou_full",
         "tau2": "0",
-        "Q": "0.057347",
+        "Q": "0.05735",
         "df": "2",
         "I2": "0",
         "notes": "."
@@ -5242,19 +5242,19 @@
         "k_with_pmcid_used": "3",
         "k_without_pmcid_used": "0",
         "excluded_rows": "0",
-        "reproduced_effect": "0.854138",
-        "reproduced_ci_lower": "0.628565",
-        "reproduced_ci_upper": "1.160662",
-        "reported_effect": "0.854138",
-        "reported_ci_lower": "0.628565",
-        "reported_ci_upper": "1.160662",
+        "reproduced_effect": "0.8541",
+        "reproduced_ci_lower": "0.6286",
+        "reproduced_ci_upper": "1.161",
+        "reported_effect": "0.8541",
+        "reported_ci_lower": "0.6286",
+        "reported_ci_upper": "1.161",
         "effect_abs_diff": "0",
         "ci_lower_abs_diff": "0",
         "ci_upper_abs_diff": "0",
         "ci_iou": "1",
         "reported_match_status": "ci_iou_full",
         "tau2": "0",
-        "Q": "0.057347",
+        "Q": "0.05735",
         "df": "2",
         "I2": "0",
         "notes": "."
@@ -5287,19 +5287,19 @@
         "k_with_pmcid_used": "2",
         "k_without_pmcid_used": "1",
         "excluded_rows": "0",
-        "reproduced_effect": "1.018903",
-        "reproduced_ci_lower": "0.695461",
-        "reproduced_ci_upper": "1.492772",
-        "reported_effect": "1.018903",
-        "reported_ci_lower": "0.695461",
-        "reported_ci_upper": "1.492772",
+        "reproduced_effect": "1.019",
+        "reproduced_ci_lower": "0.6955",
+        "reproduced_ci_upper": "1.493",
+        "reported_effect": "1.019",
+        "reported_ci_lower": "0.6955",
+        "reported_ci_upper": "1.493",
         "effect_abs_diff": "0",
         "ci_lower_abs_diff": "0",
         "ci_upper_abs_diff": "0",
         "ci_iou": "1",
         "reported_match_status": "ci_iou_full",
         "tau2": "0",
-        "Q": "0.711237",
+        "Q": "0.7112",
         "df": "2",
         "I2": "0",
         "notes": "."
@@ -5332,19 +5332,19 @@
         "k_with_pmcid_used": "2",
         "k_without_pmcid_used": "0",
         "excluded_rows": "0",
-        "reproduced_effect": "1.001233",
-        "reproduced_ci_lower": "0.657433",
-        "reproduced_ci_upper": "1.524821",
-        "reported_effect": "1.018903",
-        "reported_ci_lower": "0.695461",
-        "reported_ci_upper": "1.492772",
+        "reproduced_effect": "1.001",
+        "reproduced_ci_lower": "0.6574",
+        "reproduced_ci_upper": "1.525",
+        "reported_effect": "1.019",
+        "reported_ci_lower": "0.6955",
+        "reported_ci_upper": "1.493",
         "effect_abs_diff": "0.01767",
-        "ci_lower_abs_diff": "0.038028",
-        "ci_upper_abs_diff": "0.032049",
-        "ci_iou": "0.919209",
+        "ci_lower_abs_diff": "0.03803",
+        "ci_upper_abs_diff": "0.03205",
+        "ci_iou": "0.9192",
         "reported_match_status": "ci_iou_high",
         "tau2": "0",
-        "Q": "0.673416",
+        "Q": "0.6734",
         "df": "1",
         "I2": "0",
         "notes": "PMCID-only subset excludes rows without a matched PMCID."
@@ -5377,19 +5377,19 @@
         "k_with_pmcid_used": "2",
         "k_without_pmcid_used": "1",
         "excluded_rows": "0",
-        "reproduced_effect": "0.699323",
-        "reproduced_ci_lower": "-0.058486",
-        "reproduced_ci_upper": "1.457133",
-        "reported_effect": "0.699323",
-        "reported_ci_lower": "-0.058486",
-        "reported_ci_upper": "1.457133",
+        "reproduced_effect": "0.6993",
+        "reproduced_ci_lower": "-0.05849",
+        "reproduced_ci_upper": "1.457",
+        "reported_effect": "0.6993",
+        "reported_ci_lower": "-0.05849",
+        "reported_ci_upper": "1.457",
         "effect_abs_diff": "0",
         "ci_lower_abs_diff": "0",
         "ci_upper_abs_diff": "0",
         "ci_iou": "1",
         "reported_match_status": "ci_iou_full",
         "tau2": "0",
-        "Q": "0.25466",
+        "Q": "0.2547",
         "df": "2",
         "I2": "0",
         "notes": "."
@@ -5422,19 +5422,19 @@
         "k_with_pmcid_used": "2",
         "k_without_pmcid_used": "0",
         "excluded_rows": "0",
-        "reproduced_effect": "0.71303",
-        "reproduced_ci_lower": "-0.070402",
-        "reproduced_ci_upper": "1.496463",
-        "reported_effect": "0.699323",
-        "reported_ci_lower": "-0.058486",
-        "reported_ci_upper": "1.457133",
-        "effect_abs_diff": "0.013707",
-        "ci_lower_abs_diff": "0.011916",
+        "reproduced_effect": "0.713",
+        "reproduced_ci_lower": "-0.0704",
+        "reproduced_ci_upper": "1.496",
+        "reported_effect": "0.6993",
+        "reported_ci_lower": "-0.05849",
+        "reported_ci_upper": "1.457",
+        "effect_abs_diff": "0.01371",
+        "ci_lower_abs_diff": "0.01192",
         "ci_upper_abs_diff": "0.03933",
-        "ci_iou": "0.967293",
+        "ci_iou": "0.9673",
         "reported_match_status": "ci_iou_high",
         "tau2": "0",
-        "Q": "0.236383",
+        "Q": "0.2364",
         "df": "1",
         "I2": "0",
         "notes": "PMCID-only subset excludes rows without a matched PMCID."
@@ -5467,19 +5467,19 @@
         "k_with_pmcid_used": "3",
         "k_without_pmcid_used": "0",
         "excluded_rows": "0",
-        "reproduced_effect": "1.22276",
-        "reproduced_ci_lower": "0.636116",
-        "reproduced_ci_upper": "2.350422",
-        "reported_effect": "1.222759",
-        "reported_ci_lower": "0.636116",
-        "reported_ci_upper": "2.350421",
-        "effect_abs_diff": "0.000001",
+        "reproduced_effect": "1.223",
+        "reproduced_ci_lower": "0.6361",
+        "reproduced_ci_upper": "2.35",
+        "reported_effect": "1.223",
+        "reported_ci_lower": "0.6361",
+        "reported_ci_upper": "2.35",
+        "effect_abs_diff": "1e-06",
         "ci_lower_abs_diff": "0",
-        "ci_upper_abs_diff": "0.000001",
-        "ci_iou": "0.999999",
+        "ci_upper_abs_diff": "1e-06",
+        "ci_iou": "1",
         "reported_match_status": "ci_iou_full",
         "tau2": "0",
-        "Q": "0.912593",
+        "Q": "0.9126",
         "df": "2",
         "I2": "0",
         "notes": "."
@@ -5512,19 +5512,19 @@
         "k_with_pmcid_used": "3",
         "k_without_pmcid_used": "0",
         "excluded_rows": "0",
-        "reproduced_effect": "1.22276",
-        "reproduced_ci_lower": "0.636116",
-        "reproduced_ci_upper": "2.350422",
-        "reported_effect": "1.222759",
-        "reported_ci_lower": "0.636116",
-        "reported_ci_upper": "2.350421",
-        "effect_abs_diff": "0.000001",
+        "reproduced_effect": "1.223",
+        "reproduced_ci_lower": "0.6361",
+        "reproduced_ci_upper": "2.35",
+        "reported_effect": "1.223",
+        "reported_ci_lower": "0.6361",
+        "reported_ci_upper": "2.35",
+        "effect_abs_diff": "1e-06",
         "ci_lower_abs_diff": "0",
-        "ci_upper_abs_diff": "0.000001",
-        "ci_iou": "0.999999",
+        "ci_upper_abs_diff": "1e-06",
+        "ci_iou": "1",
         "reported_match_status": "ci_iou_full",
         "tau2": "0",
-        "Q": "0.912593",
+        "Q": "0.9126",
         "df": "2",
         "I2": "0",
         "notes": "."
@@ -5557,21 +5557,21 @@
         "k_with_pmcid_used": "2",
         "k_without_pmcid_used": "1",
         "excluded_rows": "0",
-        "reproduced_effect": "0.610195",
-        "reproduced_ci_lower": "-1.526007",
-        "reproduced_ci_upper": "2.746396",
-        "reported_effect": "0.610206",
-        "reported_ci_lower": "-1.525946",
-        "reported_ci_upper": "2.746358",
-        "effect_abs_diff": "0.000011",
-        "ci_lower_abs_diff": "0.000061",
-        "ci_upper_abs_diff": "0.000038",
-        "ci_iou": "0.999977",
+        "reproduced_effect": "0.6102",
+        "reproduced_ci_lower": "-1.526",
+        "reproduced_ci_upper": "2.746",
+        "reported_effect": "0.6102",
+        "reported_ci_lower": "-1.526",
+        "reported_ci_upper": "2.746",
+        "effect_abs_diff": "1.1e-05",
+        "ci_lower_abs_diff": "6.1e-05",
+        "ci_upper_abs_diff": "3.8e-05",
+        "ci_iou": "1",
         "reported_match_status": "ci_iou_full",
-        "tau2": "1.528526",
-        "Q": "3.443138",
+        "tau2": "1.529",
+        "Q": "3.443",
         "df": "2",
-        "I2": "41.91345",
+        "I2": "41.91",
         "notes": "."
       },
       {
@@ -5602,19 +5602,19 @@
         "k_with_pmcid_used": "2",
         "k_without_pmcid_used": "0",
         "excluded_rows": "0",
-        "reproduced_effect": "1.675376",
-        "reproduced_ci_lower": "0.093192",
-        "reproduced_ci_upper": "3.257559",
-        "reported_effect": "0.610206",
-        "reported_ci_lower": "-1.525946",
-        "reported_ci_upper": "2.746358",
-        "effect_abs_diff": "1.06517",
-        "ci_lower_abs_diff": "1.619138",
-        "ci_upper_abs_diff": "0.511201",
-        "ci_iou": "0.554649",
+        "reproduced_effect": "1.675",
+        "reproduced_ci_lower": "0.09319",
+        "reproduced_ci_upper": "3.258",
+        "reported_effect": "0.6102",
+        "reported_ci_lower": "-1.526",
+        "reported_ci_upper": "2.746",
+        "effect_abs_diff": "1.065",
+        "ci_lower_abs_diff": "1.619",
+        "ci_upper_abs_diff": "0.5112",
+        "ci_iou": "0.5546",
         "reported_match_status": "ci_iou_moderate",
         "tau2": "0",
-        "Q": "0.067971",
+        "Q": "0.06797",
         "df": "1",
         "I2": "0",
         "notes": "PMCID-only subset excludes rows without a matched PMCID."
@@ -5647,16 +5647,16 @@
         "k_with_pmcid_used": "2",
         "k_without_pmcid_used": "0",
         "excluded_rows": "0",
-        "reproduced_effect": "0.863807",
-        "reproduced_ci_lower": "0.626991",
-        "reproduced_ci_upper": "1.190069",
-        "reported_effect": "0.863807",
-        "reported_ci_lower": "0.626991",
-        "reported_ci_upper": "1.19007",
+        "reproduced_effect": "0.8638",
+        "reproduced_ci_lower": "0.627",
+        "reproduced_ci_upper": "1.19",
+        "reported_effect": "0.8638",
+        "reported_ci_lower": "0.627",
+        "reported_ci_upper": "1.19",
         "effect_abs_diff": "0",
         "ci_lower_abs_diff": "0",
-        "ci_upper_abs_diff": "0.000001",
-        "ci_iou": "0.999999",
+        "ci_upper_abs_diff": "1e-06",
+        "ci_iou": "1",
         "reported_match_status": "ci_iou_full",
         "tau2": "0",
         "Q": "0.00095",
@@ -5692,16 +5692,16 @@
         "k_with_pmcid_used": "2",
         "k_without_pmcid_used": "0",
         "excluded_rows": "0",
-        "reproduced_effect": "0.863807",
-        "reproduced_ci_lower": "0.626991",
-        "reproduced_ci_upper": "1.190069",
-        "reported_effect": "0.863807",
-        "reported_ci_lower": "0.626991",
-        "reported_ci_upper": "1.19007",
+        "reproduced_effect": "0.8638",
+        "reproduced_ci_lower": "0.627",
+        "reproduced_ci_upper": "1.19",
+        "reported_effect": "0.8638",
+        "reported_ci_lower": "0.627",
+        "reported_ci_upper": "1.19",
         "effect_abs_diff": "0",
         "ci_lower_abs_diff": "0",
-        "ci_upper_abs_diff": "0.000001",
-        "ci_iou": "0.999999",
+        "ci_upper_abs_diff": "1e-06",
+        "ci_iou": "1",
         "reported_match_status": "ci_iou_full",
         "tau2": "0",
         "Q": "0.00095",
@@ -5737,19 +5737,19 @@
         "k_with_pmcid_used": "1",
         "k_without_pmcid_used": "1",
         "excluded_rows": "0",
-        "reproduced_effect": "1.102062",
-        "reproduced_ci_lower": "0.721788",
-        "reproduced_ci_upper": "1.682682",
-        "reported_effect": "1.102062",
-        "reported_ci_lower": "0.721788",
-        "reported_ci_upper": "1.682682",
+        "reproduced_effect": "1.102",
+        "reproduced_ci_lower": "0.7218",
+        "reproduced_ci_upper": "1.683",
+        "reported_effect": "1.102",
+        "reported_ci_lower": "0.7218",
+        "reported_ci_upper": "1.683",
         "effect_abs_diff": "0",
         "ci_lower_abs_diff": "0",
         "ci_upper_abs_diff": "0",
         "ci_iou": "1",
         "reported_match_status": "ci_iou_full",
         "tau2": "0",
-        "Q": "0.000077",
+        "Q": "7.7e-05",
         "df": "1",
         "I2": "0",
         "notes": "."
@@ -5782,16 +5782,16 @@
         "k_with_pmcid_used": "1",
         "k_without_pmcid_used": "0",
         "excluded_rows": "0",
-        "reproduced_effect": "1.100964",
-        "reproduced_ci_lower": "0.682699",
-        "reproduced_ci_upper": "1.775485",
-        "reported_effect": "1.102062",
-        "reported_ci_lower": "0.721788",
-        "reported_ci_upper": "1.682682",
+        "reproduced_effect": "1.101",
+        "reproduced_ci_lower": "0.6827",
+        "reproduced_ci_upper": "1.775",
+        "reported_effect": "1.102",
+        "reported_ci_lower": "0.7218",
+        "reported_ci_upper": "1.683",
         "effect_abs_diff": "0.001098",
-        "ci_lower_abs_diff": "0.039089",
-        "ci_upper_abs_diff": "0.092803",
-        "ci_iou": "0.879307",
+        "ci_lower_abs_diff": "0.03909",
+        "ci_upper_abs_diff": "0.0928",
+        "ci_iou": "0.8793",
         "reported_match_status": "ci_iou_high",
         "tau2": "0",
         "Q": "0",
@@ -5830,10 +5830,10 @@
             "type": "study",
             "label": "Allen 2010",
             "pmid": "20538132",
-            "effect": 1.02,
-            "ci_low": -0.444636,
-            "ci_high": 2.484636,
-            "weight_percent": 7.53701486483843,
+            "effect": "1.02",
+            "ci_low": -0.4446,
+            "ci_high": 2.485,
+            "weight_percent": 7.537,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "1.1",
@@ -5853,18 +5853,18 @@
               "study_has_pmc": "yes",
               "effect_size_raw": "1.02",
               "effect_size_transformed": "1.02",
-              "effect_size_variance": "0.558402",
-              "effect_size_se": "0.747263"
+              "effect_size_variance": "0.5584",
+              "effect_size_se": "0.7473"
             }
           },
           {
             "type": "study",
             "label": "Felker 2011",
             "pmid": "21366472",
-            "effect": 0.59,
-            "ci_low": -0.337232,
-            "ci_high": 1.517232,
-            "weight_percent": 16.68907604883596,
+            "effect": "0.59",
+            "ci_low": -0.3372,
+            "ci_high": 1.517,
+            "weight_percent": 16.69,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "1.1",
@@ -5884,18 +5884,18 @@
               "study_has_pmc": "yes",
               "effect_size_raw": "0.59",
               "effect_size_transformed": "0.59",
-              "effect_size_variance": "0.223802",
-              "effect_size_se": "0.473078"
+              "effect_size_variance": "0.2238",
+              "effect_size_se": "0.4731"
             }
           },
           {
             "type": "study",
             "label": "Sager 2020",
             "pmid": "32670365",
-            "effect": 0.29,
-            "ci_low": -0.474135,
-            "ci_high": 1.054135,
-            "weight_percent": 22.570938841310387,
+            "effect": "0.29",
+            "ci_low": -0.4741,
+            "ci_high": 1.054,
+            "weight_percent": 22.57,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "1.1",
@@ -5915,18 +5915,18 @@
               "study_has_pmc": "yes",
               "effect_size_raw": "0.29",
               "effect_size_transformed": "0.29",
-              "effect_size_variance": "0.151995",
-              "effect_size_se": "0.389865"
+              "effect_size_variance": "0.152",
+              "effect_size_se": "0.3899"
             }
           },
           {
             "type": "study",
             "label": "Yayla 2015",
             "pmid": "26135463",
-            "effect": 0.5,
-            "ci_low": -2.487503,
-            "ci_high": 3.487503,
-            "weight_percent": 1.9362721998564,
+            "effect": "0.5",
+            "ci_low": -2.488,
+            "ci_high": 3.488,
+            "weight_percent": 1.936,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "1.1",
@@ -5946,18 +5946,18 @@
               "study_has_pmc": "no",
               "effect_size_raw": "0.5",
               "effect_size_transformed": "0.5",
-              "effect_size_variance": "2.323296",
-              "effect_size_se": "1.524236"
+              "effect_size_variance": "2.323",
+              "effect_size_se": "1.524"
             }
           },
           {
             "type": "study",
             "label": "Zheng 2021",
             "pmid": "33689236",
-            "effect": 1.19,
-            "ci_low": 0.808173,
-            "ci_high": 1.571827,
-            "weight_percent": 51.26669804515883,
+            "effect": "1.19",
+            "ci_low": 0.8082,
+            "ci_high": 1.572,
+            "weight_percent": 51.27,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "1.1",
@@ -5977,24 +5977,24 @@
               "study_has_pmc": "yes",
               "effect_size_raw": "1.19",
               "effect_size_transformed": "1.19",
-              "effect_size_variance": "0.037951",
-              "effect_size_se": "0.19481"
+              "effect_size_variance": "0.03795",
+              "effect_size_se": "0.1948"
             }
           },
           {
             "type": "pooled",
             "label": "Total (95% CI)",
-            "effect": 0.8605538906859563,
-            "ci_low": 0.44023837024534906,
-            "ci_high": 1.2808694111265635,
+            "effect": "0.8606",
+            "ci_low": 0.4402,
+            "ci_high": 1.281,
             "weight_percent": 100.0,
             "source_row": {}
           }
         ],
         "reported": {
-          "effect": 0.860564,
-          "ci_low": 0.440262,
-          "ci_high": 1.280865
+          "effect": "0.8606",
+          "ci_low": 0.4403,
+          "ci_high": 1.281
         }
       },
       "CD014811_loop_diuretics_hf|||1.1|||pmcid_only": {
@@ -6026,10 +6026,10 @@
             "type": "study",
             "label": "Allen 2010",
             "pmid": "20538132",
-            "effect": 1.02,
-            "ci_low": -0.444636,
-            "ci_high": 2.484636,
-            "weight_percent": 9.57677156581248,
+            "effect": "1.02",
+            "ci_low": -0.4446,
+            "ci_high": 2.485,
+            "weight_percent": 9.577,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "1.1",
@@ -6049,18 +6049,18 @@
               "study_has_pmc": "yes",
               "effect_size_raw": "1.02",
               "effect_size_transformed": "1.02",
-              "effect_size_variance": "0.558402",
-              "effect_size_se": "0.747263"
+              "effect_size_variance": "0.5584",
+              "effect_size_se": "0.7473"
             }
           },
           {
             "type": "study",
             "label": "Felker 2011",
             "pmid": "21366472",
-            "effect": 0.59,
-            "ci_low": -0.337232,
-            "ci_high": 1.517232,
-            "weight_percent": 19.491958215441564,
+            "effect": "0.59",
+            "ci_low": -0.3372,
+            "ci_high": 1.517,
+            "weight_percent": 19.49,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "1.1",
@@ -6080,18 +6080,18 @@
               "study_has_pmc": "yes",
               "effect_size_raw": "0.59",
               "effect_size_transformed": "0.59",
-              "effect_size_variance": "0.223802",
-              "effect_size_se": "0.473078"
+              "effect_size_variance": "0.2238",
+              "effect_size_se": "0.4731"
             }
           },
           {
             "type": "study",
             "label": "Sager 2020",
             "pmid": "32670365",
-            "effect": 0.29,
-            "ci_low": -0.474135,
-            "ci_high": 1.054135,
-            "weight_percent": 25.06010003873084,
+            "effect": "0.29",
+            "ci_low": -0.4741,
+            "ci_high": 1.054,
+            "weight_percent": 25.06,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "1.1",
@@ -6111,18 +6111,18 @@
               "study_has_pmc": "yes",
               "effect_size_raw": "0.29",
               "effect_size_transformed": "0.29",
-              "effect_size_variance": "0.151995",
-              "effect_size_se": "0.389865"
+              "effect_size_variance": "0.152",
+              "effect_size_se": "0.3899"
             }
           },
           {
             "type": "study",
             "label": "Zheng 2021",
             "pmid": "33689236",
-            "effect": 1.19,
-            "ci_low": 0.808173,
-            "ci_high": 1.571827,
-            "weight_percent": 45.87117018001511,
+            "effect": "1.19",
+            "ci_low": 0.8082,
+            "ci_high": 1.572,
+            "weight_percent": 45.87,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "1.1",
@@ -6142,24 +6142,24 @@
               "study_has_pmc": "yes",
               "effect_size_raw": "1.19",
               "effect_size_transformed": "1.19",
-              "effect_size_variance": "0.037951",
-              "effect_size_se": "0.19481"
+              "effect_size_variance": "0.03795",
+              "effect_size_se": "0.1948"
             }
           },
           {
             "type": "pooled",
             "label": "PMCID-only total (95% CI)",
-            "effect": 0.8312268386968917,
-            "ci_low": 0.3392938980460902,
-            "ci_high": 1.3231597793476932,
+            "effect": "0.8312",
+            "ci_low": 0.3393,
+            "ci_high": 1.323,
             "weight_percent": 100.0,
             "source_row": {}
           }
         ],
         "reported": {
-          "effect": 0.860564,
-          "ci_low": 0.440262,
-          "ci_high": 1.280865
+          "effect": "0.8606",
+          "ci_low": 0.4403,
+          "ci_high": 1.281
         }
       },
       "CD014811_loop_diuretics_hf|||1.2|||all_studies": {
@@ -6183,18 +6183,18 @@
         "method": "CI inverse-variance",
         "x_scale": "log",
         "x_axis_label": "Risk Ratio",
-        "x_min": 0.01371329791801008,
-        "x_max": 72.92191900000002,
+        "x_min": 0.01371,
+        "x_max": 72.92,
         "null_x": 1.0,
         "rows": [
           {
             "type": "study",
             "label": "Allen 2010",
             "pmid": "20538132",
-            "effect": 3.142857,
-            "ci_low": 0.135454,
-            "ci_high": 72.921919,
-            "weight_percent": 4.059713142081976,
+            "effect": "3.143",
+            "ci_low": 0.1355,
+            "ci_high": 72.92,
+            "weight_percent": 4.06,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "1.2",
@@ -6212,20 +6212,20 @@
               "mean_arm_2": "0.0",
               "sd_arm_2": "0.0",
               "study_has_pmc": "yes",
-              "effect_size_raw": "3.142857",
-              "effect_size_transformed": "1.145132",
-              "effect_size_variance": "2.573497",
-              "effect_size_se": "1.604212"
+              "effect_size_raw": "3.143",
+              "effect_size_transformed": "1.145",
+              "effect_size_variance": "2.573",
+              "effect_size_se": "1.604"
             }
           },
           {
             "type": "study",
             "label": "Felker 2011",
             "pmid": "21366472",
-            "effect": 1.263158,
-            "ci_low": 0.629204,
-            "ci_high": 2.535852,
-            "weight_percent": 69.53428643011614,
+            "effect": "1.263",
+            "ci_low": 0.6292,
+            "ci_high": 2.536,
+            "weight_percent": 69.53,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "1.2",
@@ -6243,20 +6243,20 @@
               "mean_arm_2": "0.0",
               "sd_arm_2": "0.0",
               "study_has_pmc": "yes",
-              "effect_size_raw": "1.263158",
-              "effect_size_transformed": "0.233615",
-              "effect_size_variance": "0.126429",
-              "effect_size_se": "0.355569"
+              "effect_size_raw": "1.263",
+              "effect_size_transformed": "0.2336",
+              "effect_size_variance": "0.1264",
+              "effect_size_se": "0.3556"
             }
           },
           {
             "type": "study",
             "label": "Sager 2020",
             "pmid": "32670365",
-            "effect": 4.0,
-            "ci_low": 0.966732,
-            "ci_high": 16.550614,
-            "weight_percent": 19.172716603209924,
+            "effect": "4",
+            "ci_low": 0.9667,
+            "ci_high": 16.55,
+            "weight_percent": 19.17,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "1.2",
@@ -6275,19 +6275,19 @@
               "sd_arm_2": "0.0",
               "study_has_pmc": "yes",
               "effect_size_raw": "4",
-              "effect_size_transformed": "1.386294",
-              "effect_size_variance": "0.524981",
-              "effect_size_se": "0.724555"
+              "effect_size_transformed": "1.386",
+              "effect_size_variance": "0.525",
+              "effect_size_se": "0.7246"
             }
           },
           {
             "type": "study",
             "label": "Shah 2014",
             "pmid": "24973836",
-            "effect": 0.5,
-            "ci_low": 0.047851,
-            "ci_high": 5.224499,
-            "weight_percent": 7.2332838245919575,
+            "effect": "0.5",
+            "ci_low": 0.04785,
+            "ci_high": 5.224,
+            "weight_percent": 7.233,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "1.2",
@@ -6306,25 +6306,25 @@
               "sd_arm_2": "0.0",
               "study_has_pmc": "yes",
               "effect_size_raw": "0.5",
-              "effect_size_transformed": "-0.693147",
-              "effect_size_variance": "1.433287",
-              "effect_size_se": "1.1972"
+              "effect_size_transformed": "-0.6931",
+              "effect_size_variance": "1.433",
+              "effect_size_se": "1.197"
             }
           },
           {
             "type": "pooled",
             "label": "Total (95% CI)",
-            "effect": 1.5289550814234798,
-            "ci_low": 0.8089245602277114,
-            "ci_high": 2.88989079569128,
+            "effect": "1.529",
+            "ci_low": 0.8089,
+            "ci_high": 2.89,
             "weight_percent": 100.0,
             "source_row": {}
           }
         ],
         "reported": {
-          "effect": 1.530328,
-          "ci_low": 0.80767,
-          "ci_high": 2.899583
+          "effect": "1.53",
+          "ci_low": 0.8077,
+          "ci_high": 2.9
         }
       },
       "CD014811_loop_diuretics_hf|||1.2|||pmcid_only": {
@@ -6348,18 +6348,18 @@
         "method": "CI inverse-variance",
         "x_scale": "log",
         "x_axis_label": "Risk Ratio",
-        "x_min": 0.01371329791801008,
-        "x_max": 72.92191900000002,
+        "x_min": 0.01371,
+        "x_max": 72.92,
         "null_x": 1.0,
         "rows": [
           {
             "type": "study",
             "label": "Allen 2010",
             "pmid": "20538132",
-            "effect": 3.142857,
-            "ci_low": 0.135454,
-            "ci_high": 72.921919,
-            "weight_percent": 4.059713142081976,
+            "effect": "3.143",
+            "ci_low": 0.1355,
+            "ci_high": 72.92,
+            "weight_percent": 4.06,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "1.2",
@@ -6377,20 +6377,20 @@
               "mean_arm_2": "0.0",
               "sd_arm_2": "0.0",
               "study_has_pmc": "yes",
-              "effect_size_raw": "3.142857",
-              "effect_size_transformed": "1.145132",
-              "effect_size_variance": "2.573497",
-              "effect_size_se": "1.604212"
+              "effect_size_raw": "3.143",
+              "effect_size_transformed": "1.145",
+              "effect_size_variance": "2.573",
+              "effect_size_se": "1.604"
             }
           },
           {
             "type": "study",
             "label": "Felker 2011",
             "pmid": "21366472",
-            "effect": 1.263158,
-            "ci_low": 0.629204,
-            "ci_high": 2.535852,
-            "weight_percent": 69.53428643011614,
+            "effect": "1.263",
+            "ci_low": 0.6292,
+            "ci_high": 2.536,
+            "weight_percent": 69.53,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "1.2",
@@ -6408,20 +6408,20 @@
               "mean_arm_2": "0.0",
               "sd_arm_2": "0.0",
               "study_has_pmc": "yes",
-              "effect_size_raw": "1.263158",
-              "effect_size_transformed": "0.233615",
-              "effect_size_variance": "0.126429",
-              "effect_size_se": "0.355569"
+              "effect_size_raw": "1.263",
+              "effect_size_transformed": "0.2336",
+              "effect_size_variance": "0.1264",
+              "effect_size_se": "0.3556"
             }
           },
           {
             "type": "study",
             "label": "Sager 2020",
             "pmid": "32670365",
-            "effect": 4.0,
-            "ci_low": 0.966732,
-            "ci_high": 16.550614,
-            "weight_percent": 19.172716603209924,
+            "effect": "4",
+            "ci_low": 0.9667,
+            "ci_high": 16.55,
+            "weight_percent": 19.17,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "1.2",
@@ -6440,19 +6440,19 @@
               "sd_arm_2": "0.0",
               "study_has_pmc": "yes",
               "effect_size_raw": "4",
-              "effect_size_transformed": "1.386294",
-              "effect_size_variance": "0.524981",
-              "effect_size_se": "0.724555"
+              "effect_size_transformed": "1.386",
+              "effect_size_variance": "0.525",
+              "effect_size_se": "0.7246"
             }
           },
           {
             "type": "study",
             "label": "Shah 2014",
             "pmid": "24973836",
-            "effect": 0.5,
-            "ci_low": 0.047851,
-            "ci_high": 5.224499,
-            "weight_percent": 7.2332838245919575,
+            "effect": "0.5",
+            "ci_low": 0.04785,
+            "ci_high": 5.224,
+            "weight_percent": 7.233,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "1.2",
@@ -6471,25 +6471,25 @@
               "sd_arm_2": "0.0",
               "study_has_pmc": "yes",
               "effect_size_raw": "0.5",
-              "effect_size_transformed": "-0.693147",
-              "effect_size_variance": "1.433287",
-              "effect_size_se": "1.1972"
+              "effect_size_transformed": "-0.6931",
+              "effect_size_variance": "1.433",
+              "effect_size_se": "1.197"
             }
           },
           {
             "type": "pooled",
             "label": "PMCID-only total (95% CI)",
-            "effect": 1.5289550814234798,
-            "ci_low": 0.8089245602277114,
-            "ci_high": 2.88989079569128,
+            "effect": "1.529",
+            "ci_low": 0.8089,
+            "ci_high": 2.89,
             "weight_percent": 100.0,
             "source_row": {}
           }
         ],
         "reported": {
-          "effect": 1.530328,
-          "ci_low": 0.80767,
-          "ci_high": 2.899583
+          "effect": "1.53",
+          "ci_low": 0.8077,
+          "ci_high": 2.9
         }
       },
       "CD014811_loop_diuretics_hf|||1.3|||all_studies": {
@@ -6521,10 +6521,10 @@
             "type": "study",
             "label": "Allen 2010",
             "pmid": "20538132",
-            "effect": 0.99,
-            "ci_low": -4.400007,
-            "ci_high": 6.380007,
-            "weight_percent": 18.543343117941017,
+            "effect": "0.99",
+            "ci_low": -4.4,
+            "ci_high": 6.38,
+            "weight_percent": 18.54,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "1.3",
@@ -6544,18 +6544,18 @@
               "study_has_pmc": "yes",
               "effect_size_raw": "0.99",
               "effect_size_transformed": "0.99",
-              "effect_size_variance": "7.56252",
-              "effect_size_se": "2.750004"
+              "effect_size_variance": "7.563",
+              "effect_size_se": "2.75"
             }
           },
           {
             "type": "study",
             "label": "Shah 2014",
             "pmid": "24973836",
-            "effect": 1.74,
-            "ci_low": 0.084904,
-            "ci_high": 3.395096,
-            "weight_percent": 28.480333325104635,
+            "effect": "1.74",
+            "ci_low": 0.0849,
+            "ci_high": 3.395,
+            "weight_percent": 28.48,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "1.3",
@@ -6575,18 +6575,18 @@
               "study_has_pmc": "yes",
               "effect_size_raw": "1.74",
               "effect_size_transformed": "1.74",
-              "effect_size_variance": "0.713073",
-              "effect_size_se": "0.844437"
+              "effect_size_variance": "0.7131",
+              "effect_size_se": "0.8444"
             }
           },
           {
             "type": "study",
             "label": "Yayla 2015",
             "pmid": "26135463",
-            "effect": -1.3,
-            "ci_low": -4.051905,
-            "ci_high": 1.451905,
-            "weight_percent": 25.9279732232326,
+            "effect": "-1.3",
+            "ci_low": -4.052,
+            "ci_high": 1.452,
+            "weight_percent": 25.93,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "1.3",
@@ -6606,18 +6606,18 @@
               "study_has_pmc": "no",
               "effect_size_raw": "-1.3",
               "effect_size_transformed": "-1.3",
-              "effect_size_variance": "1.971309",
-              "effect_size_se": "1.404033"
+              "effect_size_variance": "1.971",
+              "effect_size_se": "1.404"
             }
           },
           {
             "type": "study",
             "label": "Zheng 2021",
             "pmid": "33689236",
-            "effect": -5.32,
-            "ci_low": -7.630604,
-            "ci_high": -3.009396,
-            "weight_percent": 27.048350333721743,
+            "effect": "-5.32",
+            "ci_low": -7.631,
+            "ci_high": -3.009,
+            "weight_percent": 27.05,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "1.3",
@@ -6637,24 +6637,24 @@
               "study_has_pmc": "yes",
               "effect_size_raw": "-5.32",
               "effect_size_transformed": "-5.32",
-              "effect_size_variance": "1.389757",
-              "effect_size_se": "1.17888"
+              "effect_size_variance": "1.39",
+              "effect_size_se": "1.179"
             }
           },
           {
             "type": "pooled",
             "label": "Total (95% CI)",
-            "effect": -1.096898992931584,
-            "ci_low": -4.836479801666013,
-            "ci_high": 2.6426818158028453,
+            "effect": "-1.097",
+            "ci_low": -4.836,
+            "ci_high": 2.643,
             "weight_percent": 100.0,
             "source_row": {}
           }
         ],
         "reported": {
-          "effect": -1.096902,
-          "ci_low": -4.836416,
-          "ci_high": 2.642612
+          "effect": "-1.097",
+          "ci_low": -4.836,
+          "ci_high": 2.643
         }
       },
       "CD014811_loop_diuretics_hf|||1.3|||pmcid_only": {
@@ -6686,10 +6686,10 @@
             "type": "study",
             "label": "Allen 2010",
             "pmid": "20538132",
-            "effect": 0.99,
-            "ci_low": -4.400007,
-            "ci_high": 6.380007,
-            "weight_percent": 27.458739190974146,
+            "effect": "0.99",
+            "ci_low": -4.4,
+            "ci_high": 6.38,
+            "weight_percent": 27.46,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "1.3",
@@ -6709,18 +6709,18 @@
               "study_has_pmc": "yes",
               "effect_size_raw": "0.99",
               "effect_size_transformed": "0.99",
-              "effect_size_variance": "7.56252",
-              "effect_size_se": "2.750004"
+              "effect_size_variance": "7.563",
+              "effect_size_se": "2.75"
             }
           },
           {
             "type": "study",
             "label": "Shah 2014",
             "pmid": "24973836",
-            "effect": 1.74,
-            "ci_low": 0.084904,
-            "ci_high": 3.395096,
-            "weight_percent": 36.87478549636553,
+            "effect": "1.74",
+            "ci_low": 0.0849,
+            "ci_high": 3.395,
+            "weight_percent": 36.87,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "1.3",
@@ -6740,18 +6740,18 @@
               "study_has_pmc": "yes",
               "effect_size_raw": "1.74",
               "effect_size_transformed": "1.74",
-              "effect_size_variance": "0.713073",
-              "effect_size_se": "0.844437"
+              "effect_size_variance": "0.7131",
+              "effect_size_se": "0.8444"
             }
           },
           {
             "type": "study",
             "label": "Zheng 2021",
             "pmid": "33689236",
-            "effect": -5.32,
-            "ci_low": -7.630604,
-            "ci_high": -3.009396,
-            "weight_percent": 35.66647531266031,
+            "effect": "-5.32",
+            "ci_low": -7.631,
+            "ci_high": -3.009,
+            "weight_percent": 35.67,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "1.3",
@@ -6771,24 +6771,24 @@
               "study_has_pmc": "yes",
               "effect_size_raw": "-5.32",
               "effect_size_transformed": "-5.32",
-              "effect_size_variance": "1.389757",
-              "effect_size_se": "1.17888"
+              "effect_size_variance": "1.39",
+              "effect_size_se": "1.179"
             }
           },
           {
             "type": "pooled",
             "label": "PMCID-only total (95% CI)",
-            "effect": -0.9839937010061244,
-            "ci_low": -6.303294585402901,
-            "ci_high": 4.335307183390653,
+            "effect": "-0.984",
+            "ci_low": -6.303,
+            "ci_high": 4.335,
             "weight_percent": 100.0,
             "source_row": {}
           }
         ],
         "reported": {
-          "effect": -1.096902,
-          "ci_low": -4.836416,
-          "ci_high": 2.642612
+          "effect": "-1.097",
+          "ci_low": -4.836,
+          "ci_high": 2.643
         }
       },
       "CD014811_loop_diuretics_hf|||1.4|||all_studies": {
@@ -6812,18 +6812,18 @@
         "method": "CI inverse-variance",
         "x_scale": "log",
         "x_axis_label": "Risk Ratio",
-        "x_min": 0.262393,
-        "x_max": 3.8110772772139505,
+        "x_min": 0.2624,
+        "x_max": 3.811,
         "null_x": 1.0,
         "rows": [
           {
             "type": "study",
             "label": "Felker 2011",
             "pmid": "21366472",
-            "effect": 0.862105,
-            "ci_low": 0.611119,
-            "ci_high": 1.216172,
-            "weight_percent": 79.42573119966116,
+            "effect": "0.8621",
+            "ci_low": 0.6111,
+            "ci_high": 1.216,
+            "weight_percent": 79.43,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "1.4",
@@ -6841,20 +6841,20 @@
               "mean_arm_2": "0.0",
               "sd_arm_2": "0.0",
               "study_has_pmc": "yes",
-              "effect_size_raw": "0.862105",
-              "effect_size_transformed": "-0.148378",
-              "effect_size_variance": "0.030819",
-              "effect_size_se": "0.175554"
+              "effect_size_raw": "0.8621",
+              "effect_size_transformed": "-0.1484",
+              "effect_size_variance": "0.03082",
+              "effect_size_se": "0.1756"
             }
           },
           {
             "type": "study",
             "label": "Sager 2020",
             "pmid": "32670365",
-            "effect": 0.755556,
-            "ci_low": 0.262393,
-            "ci_high": 2.175611,
-            "weight_percent": 8.407043232954594,
+            "effect": "0.7556",
+            "ci_low": 0.2624,
+            "ci_high": 2.176,
+            "weight_percent": 8.407,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "1.4",
@@ -6872,20 +6872,20 @@
               "mean_arm_2": "0.0",
               "sd_arm_2": "0.0",
               "study_has_pmc": "yes",
-              "effect_size_raw": "0.755556",
-              "effect_size_transformed": "-0.280301",
-              "effect_size_variance": "0.291165",
-              "effect_size_se": "0.539597"
+              "effect_size_raw": "0.7556",
+              "effect_size_transformed": "-0.2803",
+              "effect_size_variance": "0.2912",
+              "effect_size_se": "0.5396"
             }
           },
           {
             "type": "study",
             "label": "Shah 2014",
             "pmid": "24973836",
-            "effect": 0.875,
-            "ci_low": 0.363252,
-            "ci_high": 2.107697,
-            "weight_percent": 12.167225567384248,
+            "effect": "0.875",
+            "ci_low": 0.3633,
+            "ci_high": 2.108,
+            "weight_percent": 12.17,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "1.4",
@@ -6904,25 +6904,25 @@
               "sd_arm_2": "0.0",
               "study_has_pmc": "yes",
               "effect_size_raw": "0.875",
-              "effect_size_transformed": "-0.133531",
-              "effect_size_variance": "0.201183",
-              "effect_size_se": "0.448534"
+              "effect_size_transformed": "-0.1335",
+              "effect_size_variance": "0.2012",
+              "effect_size_se": "0.4485"
             }
           },
           {
             "type": "pooled",
             "label": "Total (95% CI)",
-            "effect": 0.8541379205723001,
-            "ci_low": 0.6285650300363558,
-            "ci_high": 1.160662067562645,
+            "effect": "0.8541",
+            "ci_low": 0.6286,
+            "ci_high": 1.161,
             "weight_percent": 100.0,
             "source_row": {}
           }
         ],
         "reported": {
-          "effect": 0.854138,
-          "ci_low": 0.628565,
-          "ci_high": 1.160662
+          "effect": "0.8541",
+          "ci_low": 0.6286,
+          "ci_high": 1.161
         }
       },
       "CD014811_loop_diuretics_hf|||1.4|||pmcid_only": {
@@ -6946,18 +6946,18 @@
         "method": "CI inverse-variance",
         "x_scale": "log",
         "x_axis_label": "Risk Ratio",
-        "x_min": 0.262393,
-        "x_max": 3.8110772772139505,
+        "x_min": 0.2624,
+        "x_max": 3.811,
         "null_x": 1.0,
         "rows": [
           {
             "type": "study",
             "label": "Felker 2011",
             "pmid": "21366472",
-            "effect": 0.862105,
-            "ci_low": 0.611119,
-            "ci_high": 1.216172,
-            "weight_percent": 79.42573119966116,
+            "effect": "0.8621",
+            "ci_low": 0.6111,
+            "ci_high": 1.216,
+            "weight_percent": 79.43,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "1.4",
@@ -6975,20 +6975,20 @@
               "mean_arm_2": "0.0",
               "sd_arm_2": "0.0",
               "study_has_pmc": "yes",
-              "effect_size_raw": "0.862105",
-              "effect_size_transformed": "-0.148378",
-              "effect_size_variance": "0.030819",
-              "effect_size_se": "0.175554"
+              "effect_size_raw": "0.8621",
+              "effect_size_transformed": "-0.1484",
+              "effect_size_variance": "0.03082",
+              "effect_size_se": "0.1756"
             }
           },
           {
             "type": "study",
             "label": "Sager 2020",
             "pmid": "32670365",
-            "effect": 0.755556,
-            "ci_low": 0.262393,
-            "ci_high": 2.175611,
-            "weight_percent": 8.407043232954594,
+            "effect": "0.7556",
+            "ci_low": 0.2624,
+            "ci_high": 2.176,
+            "weight_percent": 8.407,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "1.4",
@@ -7006,20 +7006,20 @@
               "mean_arm_2": "0.0",
               "sd_arm_2": "0.0",
               "study_has_pmc": "yes",
-              "effect_size_raw": "0.755556",
-              "effect_size_transformed": "-0.280301",
-              "effect_size_variance": "0.291165",
-              "effect_size_se": "0.539597"
+              "effect_size_raw": "0.7556",
+              "effect_size_transformed": "-0.2803",
+              "effect_size_variance": "0.2912",
+              "effect_size_se": "0.5396"
             }
           },
           {
             "type": "study",
             "label": "Shah 2014",
             "pmid": "24973836",
-            "effect": 0.875,
-            "ci_low": 0.363252,
-            "ci_high": 2.107697,
-            "weight_percent": 12.167225567384248,
+            "effect": "0.875",
+            "ci_low": 0.3633,
+            "ci_high": 2.108,
+            "weight_percent": 12.17,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "1.4",
@@ -7038,25 +7038,25 @@
               "sd_arm_2": "0.0",
               "study_has_pmc": "yes",
               "effect_size_raw": "0.875",
-              "effect_size_transformed": "-0.133531",
-              "effect_size_variance": "0.201183",
-              "effect_size_se": "0.448534"
+              "effect_size_transformed": "-0.1335",
+              "effect_size_variance": "0.2012",
+              "effect_size_se": "0.4485"
             }
           },
           {
             "type": "pooled",
             "label": "PMCID-only total (95% CI)",
-            "effect": 0.8541379205723001,
-            "ci_low": 0.6285650300363558,
-            "ci_high": 1.160662067562645,
+            "effect": "0.8541",
+            "ci_low": 0.6286,
+            "ci_high": 1.161,
             "weight_percent": 100.0,
             "source_row": {}
           }
         ],
         "reported": {
-          "effect": 0.854138,
-          "ci_low": 0.628565,
-          "ci_high": 1.160662
+          "effect": "0.8541",
+          "ci_low": 0.6286,
+          "ci_high": 1.161
         }
       },
       "CD014811_loop_diuretics_hf|||1.5|||all_studies": {
@@ -7080,18 +7080,18 @@
         "method": "CI inverse-variance",
         "x_scale": "log",
         "x_axis_label": "Risk Ratio",
-        "x_min": 0.297664,
-        "x_max": 3.3594925822403785,
+        "x_min": 0.2977,
+        "x_max": 3.359,
         "null_x": 1.0,
         "rows": [
           {
             "type": "study",
             "label": "Felker 2011",
             "pmid": "21366472",
-            "effect": 1.100964,
-            "ci_low": 0.682699,
-            "ci_high": 1.775485,
-            "weight_percent": 63.865400296079834,
+            "effect": "1.101",
+            "ci_low": 0.6827,
+            "ci_high": 1.775,
+            "weight_percent": 63.87,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "1.5",
@@ -7109,20 +7109,20 @@
               "mean_arm_2": "0.0",
               "sd_arm_2": "0.0",
               "study_has_pmc": "yes",
-              "effect_size_raw": "1.100964",
-              "effect_size_transformed": "0.096186",
-              "effect_size_variance": "0.059448",
-              "effect_size_se": "0.24382"
+              "effect_size_raw": "1.101",
+              "effect_size_transformed": "0.09619",
+              "effect_size_variance": "0.05945",
+              "effect_size_se": "0.2438"
             }
           },
           {
             "type": "study",
             "label": "Llorens 2014",
             "pmid": "23793945",
-            "effect": 1.106061,
-            "ci_low": 0.444719,
-            "ci_high": 2.750886,
-            "weight_percent": 17.569836878743796,
+            "effect": "1.106",
+            "ci_low": 0.4447,
+            "ci_high": 2.751,
+            "weight_percent": 17.57,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "1.5",
@@ -7140,20 +7140,20 @@
               "mean_arm_2": "0.0",
               "sd_arm_2": "0.0",
               "study_has_pmc": "no",
-              "effect_size_raw": "1.106061",
-              "effect_size_transformed": "0.100805",
-              "effect_size_variance": "0.216091",
-              "effect_size_se": "0.464856"
+              "effect_size_raw": "1.106",
+              "effect_size_transformed": "0.1008",
+              "effect_size_variance": "0.2161",
+              "effect_size_se": "0.4649"
             }
           },
           {
             "type": "study",
             "label": "Zheng 2021",
             "pmid": "33689236",
-            "effect": 0.722222,
-            "ci_low": 0.297664,
-            "ci_high": 1.752327,
-            "weight_percent": 18.564762825176373,
+            "effect": "0.7222",
+            "ci_low": 0.2977,
+            "ci_high": 1.752,
+            "weight_percent": 18.56,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "1.5",
@@ -7171,26 +7171,26 @@
               "mean_arm_2": "0.0",
               "sd_arm_2": "0.0",
               "study_has_pmc": "yes",
-              "effect_size_raw": "0.722222",
-              "effect_size_transformed": "-0.325423",
-              "effect_size_variance": "0.20451",
-              "effect_size_se": "0.452228"
+              "effect_size_raw": "0.7222",
+              "effect_size_transformed": "-0.3254",
+              "effect_size_variance": "0.2045",
+              "effect_size_se": "0.4522"
             }
           },
           {
             "type": "pooled",
             "label": "Total (95% CI)",
-            "effect": 1.018903455842995,
-            "ci_low": 0.6954607534223601,
-            "ci_high": 1.492771874214318,
+            "effect": "1.019",
+            "ci_low": 0.6955,
+            "ci_high": 1.493,
             "weight_percent": 100.0,
             "source_row": {}
           }
         ],
         "reported": {
-          "effect": 1.018903,
-          "ci_low": 0.695461,
-          "ci_high": 1.492772
+          "effect": "1.019",
+          "ci_low": 0.6955,
+          "ci_high": 1.493
         }
       },
       "CD014811_loop_diuretics_hf|||1.5|||pmcid_only": {
@@ -7214,18 +7214,18 @@
         "method": "CI inverse-variance",
         "x_scale": "log",
         "x_axis_label": "Risk Ratio",
-        "x_min": 0.297664,
-        "x_max": 3.3594925822403785,
+        "x_min": 0.2977,
+        "x_max": 3.359,
         "null_x": 1.0,
         "rows": [
           {
             "type": "study",
             "label": "Felker 2011",
             "pmid": "21366472",
-            "effect": 1.100964,
-            "ci_low": 0.682699,
-            "ci_high": 1.775485,
-            "weight_percent": 77.47819229974434,
+            "effect": "1.101",
+            "ci_low": 0.6827,
+            "ci_high": 1.775,
+            "weight_percent": 77.48,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "1.5",
@@ -7243,20 +7243,20 @@
               "mean_arm_2": "0.0",
               "sd_arm_2": "0.0",
               "study_has_pmc": "yes",
-              "effect_size_raw": "1.100964",
-              "effect_size_transformed": "0.096186",
-              "effect_size_variance": "0.059448",
-              "effect_size_se": "0.24382"
+              "effect_size_raw": "1.101",
+              "effect_size_transformed": "0.09619",
+              "effect_size_variance": "0.05945",
+              "effect_size_se": "0.2438"
             }
           },
           {
             "type": "study",
             "label": "Zheng 2021",
             "pmid": "33689236",
-            "effect": 0.722222,
-            "ci_low": 0.297664,
-            "ci_high": 1.752327,
-            "weight_percent": 22.521807700255646,
+            "effect": "0.7222",
+            "ci_low": 0.2977,
+            "ci_high": 1.752,
+            "weight_percent": 22.52,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "1.5",
@@ -7274,26 +7274,26 @@
               "mean_arm_2": "0.0",
               "sd_arm_2": "0.0",
               "study_has_pmc": "yes",
-              "effect_size_raw": "0.722222",
-              "effect_size_transformed": "-0.325423",
-              "effect_size_variance": "0.20451",
-              "effect_size_se": "0.452228"
+              "effect_size_raw": "0.7222",
+              "effect_size_transformed": "-0.3254",
+              "effect_size_variance": "0.2045",
+              "effect_size_se": "0.4522"
             }
           },
           {
             "type": "pooled",
             "label": "PMCID-only total (95% CI)",
-            "effect": 1.0012329807049372,
-            "ci_low": 0.6574330140338209,
-            "ci_high": 1.5248207197573473,
+            "effect": "1.001",
+            "ci_low": 0.6574,
+            "ci_high": 1.525,
             "weight_percent": 100.0,
             "source_row": {}
           }
         ],
         "reported": {
-          "effect": 1.018903,
-          "ci_low": 0.695461,
-          "ci_high": 1.492772
+          "effect": "1.019",
+          "ci_low": 0.6955,
+          "ci_high": 1.493
         }
       },
       "CD014811_loop_diuretics_hf|||2.1|||all_studies": {
@@ -7325,10 +7325,10 @@
             "type": "study",
             "label": "Allen 2010",
             "pmid": "20538132",
-            "effect": 1.02,
-            "ci_low": -0.444636,
-            "ci_high": 2.484636,
-            "weight_percent": 26.770763048380946,
+            "effect": "1.02",
+            "ci_low": -0.4446,
+            "ci_high": 2.485,
+            "weight_percent": 26.77,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "2.1",
@@ -7348,18 +7348,18 @@
               "study_has_pmc": "yes",
               "effect_size_raw": "1.02",
               "effect_size_transformed": "1.02",
-              "effect_size_variance": "0.558402",
-              "effect_size_se": "0.747263"
+              "effect_size_variance": "0.5584",
+              "effect_size_se": "0.7473"
             }
           },
           {
             "type": "study",
             "label": "Felker 2011",
             "pmid": "21366472",
-            "effect": 0.59,
-            "ci_low": -0.337232,
-            "ci_high": 1.517232,
-            "weight_percent": 66.79490505060983,
+            "effect": "0.59",
+            "ci_low": -0.3372,
+            "ci_high": 1.517,
+            "weight_percent": 66.79,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "2.1",
@@ -7379,18 +7379,18 @@
               "study_has_pmc": "yes",
               "effect_size_raw": "0.59",
               "effect_size_transformed": "0.59",
-              "effect_size_variance": "0.223802",
-              "effect_size_se": "0.473078"
+              "effect_size_variance": "0.2238",
+              "effect_size_se": "0.4731"
             }
           },
           {
             "type": "study",
             "label": "Yayla 2015",
             "pmid": "26135463",
-            "effect": 0.5,
-            "ci_low": -2.487503,
-            "ci_high": 3.487503,
-            "weight_percent": 6.434331901009223,
+            "effect": "0.5",
+            "ci_low": -2.488,
+            "ci_high": 3.488,
+            "weight_percent": 6.434,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "2.1",
@@ -7410,24 +7410,24 @@
               "study_has_pmc": "no",
               "effect_size_raw": "0.5",
               "effect_size_transformed": "0.5",
-              "effect_size_variance": "2.323296",
-              "effect_size_se": "1.524236"
+              "effect_size_variance": "2.323",
+              "effect_size_se": "1.524"
             }
           },
           {
             "type": "pooled",
             "label": "Total (95% CI)",
-            "effect": 0.6993233823971298,
-            "ci_low": -0.05848617756054231,
-            "ci_high": 1.4571329423548018,
+            "effect": "0.6993",
+            "ci_low": -0.05849,
+            "ci_high": 1.457,
             "weight_percent": 100.0,
             "source_row": {}
           }
         ],
         "reported": {
-          "effect": 0.699323,
-          "ci_low": -0.058486,
-          "ci_high": 1.457133
+          "effect": "0.6993",
+          "ci_low": -0.05849,
+          "ci_high": 1.457
         }
       },
       "CD014811_loop_diuretics_hf|||2.1|||pmcid_only": {
@@ -7459,10 +7459,10 @@
             "type": "study",
             "label": "Allen 2010",
             "pmid": "20538132",
-            "effect": 1.02,
-            "ci_low": -0.444636,
-            "ci_high": 2.484636,
-            "weight_percent": 28.611737181268204,
+            "effect": "1.02",
+            "ci_low": -0.4446,
+            "ci_high": 2.485,
+            "weight_percent": 28.61,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "2.1",
@@ -7482,18 +7482,18 @@
               "study_has_pmc": "yes",
               "effect_size_raw": "1.02",
               "effect_size_transformed": "1.02",
-              "effect_size_variance": "0.558402",
-              "effect_size_se": "0.747263"
+              "effect_size_variance": "0.5584",
+              "effect_size_se": "0.7473"
             }
           },
           {
             "type": "study",
             "label": "Felker 2011",
             "pmid": "21366472",
-            "effect": 0.59,
-            "ci_low": -0.337232,
-            "ci_high": 1.517232,
-            "weight_percent": 71.38826281873179,
+            "effect": "0.59",
+            "ci_low": -0.3372,
+            "ci_high": 1.517,
+            "weight_percent": 71.39,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "2.1",
@@ -7513,24 +7513,24 @@
               "study_has_pmc": "yes",
               "effect_size_raw": "0.59",
               "effect_size_transformed": "0.59",
-              "effect_size_variance": "0.223802",
-              "effect_size_se": "0.473078"
+              "effect_size_variance": "0.2238",
+              "effect_size_se": "0.4731"
             }
           },
           {
             "type": "pooled",
             "label": "PMCID-only total (95% CI)",
-            "effect": 0.7130304698794533,
-            "ci_low": -0.07040245279401669,
-            "ci_high": 1.4964633925529234,
+            "effect": "0.713",
+            "ci_low": -0.0704,
+            "ci_high": 1.496,
             "weight_percent": 100.0,
             "source_row": {}
           }
         ],
         "reported": {
-          "effect": 0.699323,
-          "ci_low": -0.058486,
-          "ci_high": 1.457133
+          "effect": "0.6993",
+          "ci_low": -0.05849,
+          "ci_high": 1.457
         }
       },
       "CD014811_loop_diuretics_hf|||2.2|||all_studies": {
@@ -7554,18 +7554,18 @@
         "method": "CI inverse-variance",
         "x_scale": "log",
         "x_axis_label": "Risk Ratio",
-        "x_min": 0.01371329791801008,
-        "x_max": 72.92191900000002,
+        "x_min": 0.01371,
+        "x_max": 72.92,
         "null_x": 1.0,
         "rows": [
           {
             "type": "study",
             "label": "Allen 2010",
             "pmid": "20538132",
-            "effect": 3.142857,
-            "ci_low": 0.135454,
-            "ci_high": 72.921919,
-            "weight_percent": 4.31950913213559,
+            "effect": "3.143",
+            "ci_low": 0.1355,
+            "ci_high": 72.92,
+            "weight_percent": 4.32,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "2.2",
@@ -7583,20 +7583,20 @@
               "mean_arm_2": "0.0",
               "sd_arm_2": "0.0",
               "study_has_pmc": "yes",
-              "effect_size_raw": "3.142857",
-              "effect_size_transformed": "1.145132",
-              "effect_size_variance": "2.573497",
-              "effect_size_se": "1.604212"
+              "effect_size_raw": "3.143",
+              "effect_size_transformed": "1.145",
+              "effect_size_variance": "2.573",
+              "effect_size_se": "1.604"
             }
           },
           {
             "type": "study",
             "label": "Felker 2011",
             "pmid": "21366472",
-            "effect": 1.263158,
-            "ci_low": 0.629204,
-            "ci_high": 2.535852,
-            "weight_percent": 87.92471885366383,
+            "effect": "1.263",
+            "ci_low": 0.6292,
+            "ci_high": 2.536,
+            "weight_percent": 87.92,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "2.2",
@@ -7614,20 +7614,20 @@
               "mean_arm_2": "0.0",
               "sd_arm_2": "0.0",
               "study_has_pmc": "yes",
-              "effect_size_raw": "1.263158",
-              "effect_size_transformed": "0.233615",
-              "effect_size_variance": "0.126429",
-              "effect_size_se": "0.355569"
+              "effect_size_raw": "1.263",
+              "effect_size_transformed": "0.2336",
+              "effect_size_variance": "0.1264",
+              "effect_size_se": "0.3556"
             }
           },
           {
             "type": "study",
             "label": "Shah 2014",
             "pmid": "24973836",
-            "effect": 0.5,
-            "ci_low": 0.047851,
-            "ci_high": 5.224499,
-            "weight_percent": 7.7557720142005735,
+            "effect": "0.5",
+            "ci_low": 0.04785,
+            "ci_high": 5.224,
+            "weight_percent": 7.756,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "2.2",
@@ -7646,25 +7646,25 @@
               "sd_arm_2": "0.0",
               "study_has_pmc": "yes",
               "effect_size_raw": "0.5",
-              "effect_size_transformed": "-0.693147",
-              "effect_size_variance": "1.433287",
-              "effect_size_se": "1.1972"
+              "effect_size_transformed": "-0.6931",
+              "effect_size_variance": "1.433",
+              "effect_size_se": "1.197"
             }
           },
           {
             "type": "pooled",
             "label": "Total (95% CI)",
-            "effect": 1.222759820414113,
-            "ci_low": 0.6361163437537447,
-            "ci_high": 2.3504215747645647,
+            "effect": "1.223",
+            "ci_low": 0.6361,
+            "ci_high": 2.35,
             "weight_percent": 100.0,
             "source_row": {}
           }
         ],
         "reported": {
-          "effect": 1.222759,
-          "ci_low": 0.636116,
-          "ci_high": 2.350421
+          "effect": "1.223",
+          "ci_low": 0.6361,
+          "ci_high": 2.35
         }
       },
       "CD014811_loop_diuretics_hf|||2.2|||pmcid_only": {
@@ -7688,18 +7688,18 @@
         "method": "CI inverse-variance",
         "x_scale": "log",
         "x_axis_label": "Risk Ratio",
-        "x_min": 0.01371329791801008,
-        "x_max": 72.92191900000002,
+        "x_min": 0.01371,
+        "x_max": 72.92,
         "null_x": 1.0,
         "rows": [
           {
             "type": "study",
             "label": "Allen 2010",
             "pmid": "20538132",
-            "effect": 3.142857,
-            "ci_low": 0.135454,
-            "ci_high": 72.921919,
-            "weight_percent": 4.31950913213559,
+            "effect": "3.143",
+            "ci_low": 0.1355,
+            "ci_high": 72.92,
+            "weight_percent": 4.32,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "2.2",
@@ -7717,20 +7717,20 @@
               "mean_arm_2": "0.0",
               "sd_arm_2": "0.0",
               "study_has_pmc": "yes",
-              "effect_size_raw": "3.142857",
-              "effect_size_transformed": "1.145132",
-              "effect_size_variance": "2.573497",
-              "effect_size_se": "1.604212"
+              "effect_size_raw": "3.143",
+              "effect_size_transformed": "1.145",
+              "effect_size_variance": "2.573",
+              "effect_size_se": "1.604"
             }
           },
           {
             "type": "study",
             "label": "Felker 2011",
             "pmid": "21366472",
-            "effect": 1.263158,
-            "ci_low": 0.629204,
-            "ci_high": 2.535852,
-            "weight_percent": 87.92471885366383,
+            "effect": "1.263",
+            "ci_low": 0.6292,
+            "ci_high": 2.536,
+            "weight_percent": 87.92,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "2.2",
@@ -7748,20 +7748,20 @@
               "mean_arm_2": "0.0",
               "sd_arm_2": "0.0",
               "study_has_pmc": "yes",
-              "effect_size_raw": "1.263158",
-              "effect_size_transformed": "0.233615",
-              "effect_size_variance": "0.126429",
-              "effect_size_se": "0.355569"
+              "effect_size_raw": "1.263",
+              "effect_size_transformed": "0.2336",
+              "effect_size_variance": "0.1264",
+              "effect_size_se": "0.3556"
             }
           },
           {
             "type": "study",
             "label": "Shah 2014",
             "pmid": "24973836",
-            "effect": 0.5,
-            "ci_low": 0.047851,
-            "ci_high": 5.224499,
-            "weight_percent": 7.7557720142005735,
+            "effect": "0.5",
+            "ci_low": 0.04785,
+            "ci_high": 5.224,
+            "weight_percent": 7.756,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "2.2",
@@ -7780,25 +7780,25 @@
               "sd_arm_2": "0.0",
               "study_has_pmc": "yes",
               "effect_size_raw": "0.5",
-              "effect_size_transformed": "-0.693147",
-              "effect_size_variance": "1.433287",
-              "effect_size_se": "1.1972"
+              "effect_size_transformed": "-0.6931",
+              "effect_size_variance": "1.433",
+              "effect_size_se": "1.197"
             }
           },
           {
             "type": "pooled",
             "label": "PMCID-only total (95% CI)",
-            "effect": 1.222759820414113,
-            "ci_low": 0.6361163437537447,
-            "ci_high": 2.3504215747645647,
+            "effect": "1.223",
+            "ci_low": 0.6361,
+            "ci_high": 2.35,
             "weight_percent": 100.0,
             "source_row": {}
           }
         ],
         "reported": {
-          "effect": 1.222759,
-          "ci_low": 0.636116,
-          "ci_high": 2.350421
+          "effect": "1.223",
+          "ci_low": 0.6361,
+          "ci_high": 2.35
         }
       },
       "CD014811_loop_diuretics_hf|||2.3|||all_studies": {
@@ -7830,10 +7830,10 @@
             "type": "study",
             "label": "Allen 2010",
             "pmid": "20538132",
-            "effect": 0.99,
-            "ci_low": -4.400007,
-            "ci_high": 6.380007,
-            "weight_percent": 13.066478359788395,
+            "effect": "0.99",
+            "ci_low": -4.4,
+            "ci_high": 6.38,
+            "weight_percent": 13.07,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "2.3",
@@ -7853,18 +7853,18 @@
               "study_has_pmc": "yes",
               "effect_size_raw": "0.99",
               "effect_size_transformed": "0.99",
-              "effect_size_variance": "7.56252",
-              "effect_size_se": "2.750004"
+              "effect_size_variance": "7.563",
+              "effect_size_se": "2.75"
             }
           },
           {
             "type": "study",
             "label": "Shah 2014",
             "pmid": "24973836",
-            "effect": 1.74,
-            "ci_low": 0.084904,
-            "ci_high": 3.395096,
-            "weight_percent": 52.992505543544475,
+            "effect": "1.74",
+            "ci_low": 0.0849,
+            "ci_high": 3.395,
+            "weight_percent": 52.99,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "2.3",
@@ -7884,18 +7884,18 @@
               "study_has_pmc": "yes",
               "effect_size_raw": "1.74",
               "effect_size_transformed": "1.74",
-              "effect_size_variance": "0.713073",
-              "effect_size_se": "0.844437"
+              "effect_size_variance": "0.7131",
+              "effect_size_se": "0.8444"
             }
           },
           {
             "type": "study",
             "label": "Yayla 2015",
             "pmid": "26135463",
-            "effect": -1.3,
-            "ci_low": -4.051905,
-            "ci_high": 1.451905,
-            "weight_percent": 33.94101609666713,
+            "effect": "-1.3",
+            "ci_low": -4.052,
+            "ci_high": 1.452,
+            "weight_percent": 33.94,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "2.3",
@@ -7915,24 +7915,24 @@
               "study_has_pmc": "no",
               "effect_size_raw": "-1.3",
               "effect_size_transformed": "-1.3",
-              "effect_size_variance": "1.971309",
-              "effect_size_se": "1.404033"
+              "effect_size_variance": "1.971",
+              "effect_size_se": "1.404"
             }
           },
           {
             "type": "pooled",
             "label": "Total (95% CI)",
-            "effect": 0.6101945229629064,
-            "ci_low": -1.5260071793270533,
-            "ci_high": 2.746396225252866,
+            "effect": "0.6102",
+            "ci_low": -1.526,
+            "ci_high": 2.746,
             "weight_percent": 100.0,
             "source_row": {}
           }
         ],
         "reported": {
-          "effect": 0.610206,
-          "ci_low": -1.525946,
-          "ci_high": 2.746358
+          "effect": "0.6102",
+          "ci_low": -1.526,
+          "ci_high": 2.746
         }
       },
       "CD014811_loop_diuretics_hf|||2.3|||pmcid_only": {
@@ -7964,10 +7964,10 @@
             "type": "study",
             "label": "Allen 2010",
             "pmid": "20538132",
-            "effect": 0.99,
-            "ci_low": -4.400007,
-            "ci_high": 6.380007,
-            "weight_percent": 8.616583673233814,
+            "effect": "0.99",
+            "ci_low": -4.4,
+            "ci_high": 6.38,
+            "weight_percent": 8.617,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "2.3",
@@ -7987,18 +7987,18 @@
               "study_has_pmc": "yes",
               "effect_size_raw": "0.99",
               "effect_size_transformed": "0.99",
-              "effect_size_variance": "7.56252",
-              "effect_size_se": "2.750004"
+              "effect_size_variance": "7.563",
+              "effect_size_se": "2.75"
             }
           },
           {
             "type": "study",
             "label": "Shah 2014",
             "pmid": "24973836",
-            "effect": 1.74,
-            "ci_low": 0.084904,
-            "ci_high": 3.395096,
-            "weight_percent": 91.38341632676618,
+            "effect": "1.74",
+            "ci_low": 0.0849,
+            "ci_high": 3.395,
+            "weight_percent": 91.38,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "2.3",
@@ -8018,24 +8018,24 @@
               "study_has_pmc": "yes",
               "effect_size_raw": "1.74",
               "effect_size_transformed": "1.74",
-              "effect_size_variance": "0.713073",
-              "effect_size_se": "0.844437"
+              "effect_size_variance": "0.7131",
+              "effect_size_se": "0.8444"
             }
           },
           {
             "type": "pooled",
             "label": "PMCID-only total (95% CI)",
-            "effect": 1.6753756224507466,
-            "ci_low": 0.0931920024464743,
-            "ci_high": 3.257559242455019,
+            "effect": "1.675",
+            "ci_low": 0.09319,
+            "ci_high": 3.258,
             "weight_percent": 100.0,
             "source_row": {}
           }
         ],
         "reported": {
-          "effect": 0.610206,
-          "ci_low": -1.525946,
-          "ci_high": 2.746358
+          "effect": "0.6102",
+          "ci_low": -1.526,
+          "ci_high": 2.746
         }
       },
       "CD014811_loop_diuretics_hf|||2.4|||all_studies": {
@@ -8059,18 +8059,18 @@
         "method": "CI inverse-variance",
         "x_scale": "log",
         "x_axis_label": "Risk Ratio",
-        "x_min": 0.3632520000000001,
-        "x_max": 2.7529098256857494,
+        "x_min": 0.3633,
+        "x_max": 2.753,
         "null_x": 1.0,
         "rows": [
           {
             "type": "study",
             "label": "Felker 2011",
             "pmid": "21366472",
-            "effect": 0.862105,
-            "ci_low": 0.611119,
-            "ci_high": 1.216172,
-            "weight_percent": 86.71598123169014,
+            "effect": "0.8621",
+            "ci_low": 0.6111,
+            "ci_high": 1.216,
+            "weight_percent": 86.72,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "2.4",
@@ -8088,20 +8088,20 @@
               "mean_arm_2": "0.0",
               "sd_arm_2": "0.0",
               "study_has_pmc": "yes",
-              "effect_size_raw": "0.862105",
-              "effect_size_transformed": "-0.148378",
-              "effect_size_variance": "0.030819",
-              "effect_size_se": "0.175554"
+              "effect_size_raw": "0.8621",
+              "effect_size_transformed": "-0.1484",
+              "effect_size_variance": "0.03082",
+              "effect_size_se": "0.1756"
             }
           },
           {
             "type": "study",
             "label": "Shah 2014",
             "pmid": "24973836",
-            "effect": 0.875,
-            "ci_low": 0.363252,
-            "ci_high": 2.107697,
-            "weight_percent": 13.284018768309863,
+            "effect": "0.875",
+            "ci_low": 0.3633,
+            "ci_high": 2.108,
+            "weight_percent": 13.28,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "2.4",
@@ -8120,25 +8120,25 @@
               "sd_arm_2": "0.0",
               "study_has_pmc": "yes",
               "effect_size_raw": "0.875",
-              "effect_size_transformed": "-0.133531",
-              "effect_size_variance": "0.201183",
-              "effect_size_se": "0.448534"
+              "effect_size_transformed": "-0.1335",
+              "effect_size_variance": "0.2012",
+              "effect_size_se": "0.4485"
             }
           },
           {
             "type": "pooled",
             "label": "Total (95% CI)",
-            "effect": 0.8638069673852413,
-            "ci_low": 0.6269906733150433,
-            "ci_high": 1.1900694996915273,
+            "effect": "0.8638",
+            "ci_low": 0.627,
+            "ci_high": 1.19,
             "weight_percent": 100.0,
             "source_row": {}
           }
         ],
         "reported": {
-          "effect": 0.863807,
-          "ci_low": 0.626991,
-          "ci_high": 1.19007
+          "effect": "0.8638",
+          "ci_low": 0.627,
+          "ci_high": 1.19
         }
       },
       "CD014811_loop_diuretics_hf|||2.4|||pmcid_only": {
@@ -8162,18 +8162,18 @@
         "method": "CI inverse-variance",
         "x_scale": "log",
         "x_axis_label": "Risk Ratio",
-        "x_min": 0.3632520000000001,
-        "x_max": 2.7529098256857494,
+        "x_min": 0.3633,
+        "x_max": 2.753,
         "null_x": 1.0,
         "rows": [
           {
             "type": "study",
             "label": "Felker 2011",
             "pmid": "21366472",
-            "effect": 0.862105,
-            "ci_low": 0.611119,
-            "ci_high": 1.216172,
-            "weight_percent": 86.71598123169014,
+            "effect": "0.8621",
+            "ci_low": 0.6111,
+            "ci_high": 1.216,
+            "weight_percent": 86.72,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "2.4",
@@ -8191,20 +8191,20 @@
               "mean_arm_2": "0.0",
               "sd_arm_2": "0.0",
               "study_has_pmc": "yes",
-              "effect_size_raw": "0.862105",
-              "effect_size_transformed": "-0.148378",
-              "effect_size_variance": "0.030819",
-              "effect_size_se": "0.175554"
+              "effect_size_raw": "0.8621",
+              "effect_size_transformed": "-0.1484",
+              "effect_size_variance": "0.03082",
+              "effect_size_se": "0.1756"
             }
           },
           {
             "type": "study",
             "label": "Shah 2014",
             "pmid": "24973836",
-            "effect": 0.875,
-            "ci_low": 0.363252,
-            "ci_high": 2.107697,
-            "weight_percent": 13.284018768309863,
+            "effect": "0.875",
+            "ci_low": 0.3633,
+            "ci_high": 2.108,
+            "weight_percent": 13.28,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "2.4",
@@ -8223,25 +8223,25 @@
               "sd_arm_2": "0.0",
               "study_has_pmc": "yes",
               "effect_size_raw": "0.875",
-              "effect_size_transformed": "-0.133531",
-              "effect_size_variance": "0.201183",
-              "effect_size_se": "0.448534"
+              "effect_size_transformed": "-0.1335",
+              "effect_size_variance": "0.2012",
+              "effect_size_se": "0.4485"
             }
           },
           {
             "type": "pooled",
             "label": "PMCID-only total (95% CI)",
-            "effect": 0.8638069673852413,
-            "ci_low": 0.6269906733150433,
-            "ci_high": 1.1900694996915273,
+            "effect": "0.8638",
+            "ci_low": 0.627,
+            "ci_high": 1.19,
             "weight_percent": 100.0,
             "source_row": {}
           }
         ],
         "reported": {
-          "effect": 0.863807,
-          "ci_low": 0.626991,
-          "ci_high": 1.19007
+          "effect": "0.8638",
+          "ci_low": 0.627,
+          "ci_high": 1.19
         }
       },
       "CD014811_loop_diuretics_hf|||2.5|||all_studies": {
@@ -8265,18 +8265,18 @@
         "method": "CI inverse-variance",
         "x_scale": "log",
         "x_axis_label": "Risk Ratio",
-        "x_min": 0.3635192443452764,
-        "x_max": 2.750886,
+        "x_min": 0.3635,
+        "x_max": 2.751,
         "null_x": 1.0,
         "rows": [
           {
             "type": "study",
             "label": "Felker 2011",
             "pmid": "21366472",
-            "effect": 1.100964,
-            "ci_low": 0.682699,
-            "ci_high": 1.775485,
-            "weight_percent": 78.42477349083518,
+            "effect": "1.101",
+            "ci_low": 0.6827,
+            "ci_high": 1.775,
+            "weight_percent": 78.42,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "2.5",
@@ -8294,20 +8294,20 @@
               "mean_arm_2": "0.0",
               "sd_arm_2": "0.0",
               "study_has_pmc": "yes",
-              "effect_size_raw": "1.100964",
-              "effect_size_transformed": "0.096186",
-              "effect_size_variance": "0.059448",
-              "effect_size_se": "0.24382"
+              "effect_size_raw": "1.101",
+              "effect_size_transformed": "0.09619",
+              "effect_size_variance": "0.05945",
+              "effect_size_se": "0.2438"
             }
           },
           {
             "type": "study",
             "label": "Llorens 2014",
             "pmid": "23793945",
-            "effect": 1.106061,
-            "ci_low": 0.444719,
-            "ci_high": 2.750886,
-            "weight_percent": 21.575226509164825,
+            "effect": "1.106",
+            "ci_low": 0.4447,
+            "ci_high": 2.751,
+            "weight_percent": 21.58,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
               "analysis_id": "2.5",
@@ -8325,26 +8325,26 @@
               "mean_arm_2": "0.0",
               "sd_arm_2": "0.0",
               "study_has_pmc": "no",
-              "effect_size_raw": "1.106061",
-              "effect_size_transformed": "0.100805",
-              "effect_size_variance": "0.216091",
-              "effect_size_se": "0.464856"
+              "effect_size_raw": "1.106",
+              "effect_size_transformed": "0.1008",
+              "effect_size_variance": "0.2161",
+              "effect_size_se": "0.4649"
             }
           },
           {
             "type": "pooled",
             "label": "Total (95% CI)",
-            "effect": 1.1020616984330307,
-            "ci_low": 0.7217880715723133,
-            "ci_high": 1.682682265041306,
+            "effect": "1.102",
+            "ci_low": 0.7218,
+            "ci_high": 1.683,
             "weight_percent": 100.0,
             "source_row": {}
           }
         ],
         "reported": {
-          "effect": 1.102062,
-          "ci_low": 0.721788,
-          "ci_high": 1.682682
+          "effect": "1.102",
+          "ci_low": 0.7218,
+          "ci_high": 1.683
         }
       },
       "CD014811_loop_diuretics_hf|||2.5|||pmcid_only": {
@@ -8368,17 +8368,17 @@
         "method": "CI inverse-variance",
         "x_scale": "log",
         "x_axis_label": "Risk Ratio",
-        "x_min": 0.5632263860297327,
-        "x_max": 1.775485,
+        "x_min": 0.5632,
+        "x_max": 1.775,
         "null_x": 1.0,
         "rows": [
           {
             "type": "study",
             "label": "Felker 2011",
             "pmid": "21366472",
-            "effect": 1.100964,
-            "ci_low": 0.682699,
-            "ci_high": 1.775485,
+            "effect": "1.101",
+            "ci_low": 0.6827,
+            "ci_high": 1.775,
             "weight_percent": 100.0,
             "source_row": {
               "review_id": "CD014811_loop_diuretics_hf",
@@ -8397,26 +8397,26 @@
               "mean_arm_2": "0.0",
               "sd_arm_2": "0.0",
               "study_has_pmc": "yes",
-              "effect_size_raw": "1.100964",
-              "effect_size_transformed": "0.096186",
-              "effect_size_variance": "0.059448",
-              "effect_size_se": "0.24382"
+              "effect_size_raw": "1.101",
+              "effect_size_transformed": "0.09619",
+              "effect_size_variance": "0.05945",
+              "effect_size_se": "0.2438"
             }
           },
           {
             "type": "pooled",
             "label": "PMCID-only total (95% CI)",
-            "effect": 1.100964,
-            "ci_low": 0.6826989705097475,
-            "ci_high": 1.7754849233051446,
+            "effect": "1.101",
+            "ci_low": 0.6827,
+            "ci_high": 1.775,
             "weight_percent": 100.0,
             "source_row": {}
           }
         ],
         "reported": {
-          "effect": 1.102062,
-          "ci_low": 0.721788,
-          "ci_high": 1.682682
+          "effect": "1.102",
+          "ci_low": 0.7218,
+          "ci_high": 1.683
         }
       }
     }
