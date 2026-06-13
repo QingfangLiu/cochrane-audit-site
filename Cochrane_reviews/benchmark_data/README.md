@@ -142,11 +142,6 @@ The active intake path builds a review-level benchmark from a source PDF plus
 Cochrane package files. The source scanner expects the PDF and data package to
 live under `Cochrane_reviews/source_reviews/<year>_issue_<issue>/` and searches
 the data package recursively for the review-specific files.
-Search-query fields are staged separately in
-`provisional_data/review_search_methods.tsv` because exact query blocks come
-from review text or local supplements rather than the Cochrane data package. If
-the local files only point to an unavailable search-strategy supplement, the
-benchmark records `not_found_in_local_files` instead of narrative search prose.
 
 The current development benchmark `CD014811_loop_diuretics_hf` lives outside
 the 2026 issue folders under `source_reviews/others/`. It was originally seeded
@@ -229,14 +224,6 @@ python3 Cochrane_reviews/benchmark_tools/build_reference_indexing_from_cochrane_
 python3 Cochrane_reviews/benchmark_tools/update_cochrane_review_protocol_eligibility.py \
   Cochrane_reviews/source_reviews \
   --output "$WORK/review_protocol_eligibility.tsv" \
-  --prefill-from-review-text \
-  --overwrite-prefill \
-  --source pdf \
-  --quiet
-
-python3 Cochrane_reviews/benchmark_tools/update_cochrane_review_search_methods.py \
-  Cochrane_reviews/source_reviews \
-  --output "$WORK/review_search_methods.tsv" \
   --prefill-from-review-text \
   --overwrite-prefill \
   --source pdf \

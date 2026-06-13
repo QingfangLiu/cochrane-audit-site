@@ -6,7 +6,6 @@
     "curation",
     "reviewIndex",
     "protocol",
-    "searchMethods",
     "studies",
     "records",
     "reports",
@@ -338,7 +337,6 @@
     buckets.curation.push(withReviewIdentity(reviewSummary.curation || {}, review));
     buckets.reviewIndex.push(withReviewIdentity(reviewSummary.review_index || {}, review));
     buckets.protocol.push(withReviewIdentity(benchmark?.protocol_and_eligibility || {}, review));
-    buckets.searchMethods.push(withReviewIdentity(benchmark?.search_methods || {}, review));
     buckets.domainSources.push(withReviewIdentity(reviewSummary.domain_source || {}, review));
     buckets.domainLabels.push(withReviewIdentity(reviewSummary.domain_label || {}, review));
 
@@ -855,7 +853,6 @@
     const curationRows = state.rows.curation || [];
     const reviewIndexRows = state.rows.reviewIndex || [];
     const protocolRows = state.rows.protocol || [];
-    const searchMethodRows = state.rows.searchMethods || [];
     const studies = state.rows.studies || [];
     const records = state.rows.records || [];
     const reports = state.rows.reports || [];
@@ -1043,13 +1040,6 @@
       }
     });
 
-    const searchMethodsByReview = new Map();
-    searchMethodRows.forEach((row) => {
-      if (row.review_id) {
-        searchMethodsByReview.set(row.review_id, row);
-      }
-    });
-
     const domainSourceByReview = new Map();
     domainSources.forEach((row) => {
       if (row.review_id) {
@@ -1128,7 +1118,6 @@
           _curation: curation,
           _reviewIndex: reviewIndex,
           _protocol: protocolByReview.get(review.review_id) || {},
-          _searchMethods: searchMethodsByReview.get(review.review_id) || {},
           _domainSource: domainSource,
           _domainLabel: domainLabelByReview.get(review.review_id) || {},
         };
@@ -1692,7 +1681,6 @@
     return [
       { label: "Review header", href: "#review-header" },
       { label: "Protocol and eligibility", href: "#protocol-eligibility" },
-      { label: "Search methods", href: "#search-methods" },
       { label: "References", href: "#trials" },
       { label: "Included trials", href: "#included-trials", branch: true },
       { label: "Excluded trials", href: "#excluded-trials", branch: true },
@@ -1832,41 +1820,6 @@
             source_file: benchmarkSourceFile(protocol.review_id),
             field_name: "eligibility_exclusion_criteria",
             displayed_value: raw(protocol.eligibility_exclusion_criteria),
-          })}
-        </div>
-      </section>
-    `;
-  }
-
-  function renderSearchMethodsPanel(review) {
-    const search = review._searchMethods || {};
-    return `
-      <section class="panel protocol-panel" id="search-methods">
-        <div class="section-head">
-          <div>
-            <h2>Search Methods</h2>
-            <p class="muted">${escapeHtml(benchmarkSourceLabel(review))} Values should be checked against the full-text review search sections and appendices.</p>
-          </div>
-          <div class="muted">${display(search.pdf_status, "No PDF status")}</div>
-        </div>
-        <div class="curation-grid">
-          ${renderCurationField("Search methods", search.search_methods, true, {
-            review_id: search.review_id || review.review_id,
-            section: "Search methods",
-            item_type: "search_field",
-            item_id: `${search.review_id || review.review_id}:search_methods`,
-            source_file: benchmarkSourceFile(search.review_id || review.review_id),
-            field_name: "search_methods",
-            displayed_value: raw(search.search_methods),
-          })}
-          ${renderCurationField("Search strategies", search.search_strategies, true, {
-            review_id: search.review_id || review.review_id,
-            section: "Search methods",
-            item_type: "search_field",
-            item_id: `${search.review_id || review.review_id}:search_strategies`,
-            source_file: benchmarkSourceFile(search.review_id || review.review_id),
-            field_name: "search_strategies",
-            displayed_value: raw(search.search_strategies),
           })}
         </div>
       </section>
@@ -3315,7 +3268,6 @@
       <div class="content-stack">
         ${renderReviewHeader(review)}
         ${renderProtocolEligibilityPanel(review)}
-        ${renderSearchMethodsPanel(review)}
         ${renderTrialsPlaceholder()}
         ${renderIncludedTrialsTable(review)}
         ${renderExcludedTrialsTable(review)}
