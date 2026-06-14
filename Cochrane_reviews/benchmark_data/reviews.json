@@ -81,6 +81,7 @@
       "source_collection": "others",
       "source_pdf_path": "../source_reviews/others/CD014811_loop_diuretics_hf.pdf",
       "benchmark_path": "CD014811_loop_diuretics_hf/benchmark.json",
+      "include_in_benchmark_questions": false,
       "status": "draft_extracted"
     }
   ]

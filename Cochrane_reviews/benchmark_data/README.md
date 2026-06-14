@@ -14,7 +14,9 @@ Cochrane_reviews/benchmark_data/
 ```
 
 - `reviews.json`: registry used by the audit site and benchmark launch tools;
-  it stores review lifecycle status.
+  it stores review lifecycle status. Set `include_in_benchmark_questions` to
+  `false` for development or prompt-only reviews that should remain available
+  as benchmark data but should not be written to `benchmark_questions.tsv`.
 - `<review_id>/benchmark.json`: editable benchmark data for one review.
 
 Use these status values:
