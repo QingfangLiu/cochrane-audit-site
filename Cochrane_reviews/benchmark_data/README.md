@@ -84,20 +84,19 @@ benchmark_questions.tsv
 Internally, the wrapper runs these active steps:
 
 1. `audit_cochrane_review_pubmed_pmc.py` for the review article PMID/PMCID row.
-2. `build_reference_indexing_from_cochrane_ris.py` for included/excluded study
-   references from Cochrane RIS exports.
-3. `update_cochrane_review_protocol_eligibility.py` for research question and
+2. `update_cochrane_review_protocol_eligibility.py` for research question and
    inclusion/exclusion criteria.
-4. `extract_review_plan_outcomes.py` for planned outcome details.
-5. `extract_review_plan_comparisons.py` for planned comparisons.
-6. `build_review_benchmark_json.py --curation-dir ...` to assemble
-   `benchmark.json`.
-7. `update_review_benchmark_from_cochrane_analysis_csv.py` to fill the
+3. `extract_review_plan_outcomes.py` for planned outcome details.
+4. `extract_review_plan_comparisons.py` for planned comparisons.
+5. `build_review_benchmark_json.py --curation-dir ...` to assemble
+   `benchmark.json`; this step reads the Cochrane included/excluded RIS exports
+   directly and embeds enriched reference sections in the benchmark JSON.
+6. `update_review_benchmark_from_cochrane_analysis_csv.py` to fill the
    `meta_analysis` block from Cochrane analysis CSV exports.
-8. `reproduce_cochrane_analysis_from_fulltext.py --benchmark ...` to add
+7. `reproduce_cochrane_analysis_from_fulltext.py --benchmark ...` to add
    all-study and PMCID-only reproduced meta-analysis rows and forest-plot
    payloads to `benchmark.json`.
-9. `update_benchmark_questions.py` to refresh launch questions.
+8. `update_benchmark_questions.py` to refresh launch questions.
 
 Useful options:
 
