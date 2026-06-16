@@ -1521,6 +1521,7 @@
       { label: "References", href: "#trials" },
       { label: "Included trials", href: "#included-trials", branch: true },
       { label: "Excluded trials", href: "#excluded-trials", branch: true },
+      { label: "Analysis comparisons", href: "#analysis-comparisons" },
       { label: "Meta analysis", href: "#analysis-study-rows" },
       { label: "Reproduced", href: "#reproduced-meta-analysis", branch: true },
     ];
@@ -2499,6 +2500,246 @@
     `;
   }
 
+  function analysisComparisonEvaluationType(row, roleOverride = "") {
+    const role = raw(roleOverride) || raw(row.comparison_role);
+    if (role === "main_comparison") {
+      return "analysis_comparison";
+    }
+    if (role) {
+      return role;
+    }
+    const text = raw(row.comparison).toLowerCase();
+    if (text.startsWith("sensitivity analysis")) {
+      return "sensitivity_analysis";
+    }
+    if (text.startsWith("subgroup") || text.includes(" subgroup")) {
+      return "subgroup_analysis";
+    }
+    return "analysis_comparison";
+  }
+
+  function analysisComparisonRoleByAnalysisId(rows) {
+    const roles = new Map();
+    rows.forEach((row) => {
+      const analysisId = raw(row.analysis_id);
+      const role = raw(row.comparison_role);
+      if (analysisId && role && !roles.has(analysisId)) {
+        roles.set(analysisId, role);
+      }
+    });
+    return roles;
+  }
+
+  function analysisComparisonDenominatorNote(group) {
+    if (group.evaluationSubset !== "all_studies") {
+      return "No";
+    }
+    if (!group.savedSubset) {
+      return "Yes; blank saved subset is interpreted as all_studies by the evaluator.";
+    }
+    return "Yes";
+  }
+
+  function renderAnalysisComparisonRole(group) {
+    const saved = renderAnalysisComparisonChip(group.savedRole, "blank");
+    if (!group.savedRole && group.evaluationRole) {
+      return `${saved}<div class="muted">Evaluation role from analysis_study_rows: ${display(group.evaluationRole)}</div>`;
+    }
+    return saved;
+  }
+
+  function analysisComparisonChipClass(value) {
+    const text = raw(value);
+    if (text === "yes") {
+      return "ok";
+    }
+    if (text === "no") {
+      return "bad";
+    }
+    if (text === "analysis_comparison" || text === "main_comparison") {
+      return "ok";
+    }
+    if (text === "subgroup_variant" || text === "subgroup_analysis" || text === "sensitivity_analysis" || text === "open_label_extension") {
+      return "warn";
+    }
+    return "source-chip source-note";
+  }
+
+  function renderAnalysisComparisonChip(value, fallback = "blank") {
+    const text = raw(value) || fallback;
+    return `<span class="status-chip ${analysisComparisonChipClass(text)}">${escapeHtml(text)}</span>`;
+  }
+
+  function groupedAnalysisComparisons(review) {
+    const rows = review._analysisResults || [];
+    const roleByAnalysisId = analysisComparisonRoleByAnalysisId(review._analysisStudyRows || []);
+    const groups = new Map();
+    rows
+      .forEach((row) => {
+        const label = raw(row.comparison_label_clean) || raw(row.comparison) || "No comparison label";
+        const savedRole = raw(row.comparison_role);
+        const evaluationRole = savedRole || roleByAnalysisId.get(raw(row.analysis_id)) || "";
+        const savedSubset = raw(row.subset);
+        const evaluationSubset = savedSubset || "all_studies";
+        const evaluationType = analysisComparisonEvaluationType(row, evaluationRole);
+        const key = [
+          label,
+          savedRole,
+          evaluationRole,
+          savedSubset,
+          evaluationSubset,
+          evaluationType,
+          raw(row.comparison_label_canonical),
+          raw(row.comparison_arm_1),
+          raw(row.comparison_arm_2),
+        ].join("|||");
+        if (!groups.has(key)) {
+          groups.set(key, {
+            label,
+            savedRole,
+            evaluationRole,
+            savedSubset,
+            evaluationSubset,
+            evaluationType,
+            canonicalLabel: raw(row.comparison_label_canonical),
+            arm1: raw(row.comparison_arm_1),
+            arm2: raw(row.comparison_arm_2),
+            removedContext: raw(row.comparison_removed_shared_arm_context),
+            rowIndexes: [],
+            analysisIds: [],
+            outcomes: [],
+            effectMeasures: [],
+            rawLabels: [],
+            rows: [],
+          });
+        }
+        const group = groups.get(key);
+        group.rows.push(row);
+        group.rowIndexes.push(row._rowIndex);
+        [
+          ["analysisIds", row.analysis_id],
+          ["outcomes", row.outcome],
+          ["effectMeasures", row.effect_measure],
+          ["rawLabels", row.comparison],
+        ].forEach(([target, value]) => {
+          const text = raw(value);
+          if (text && !group[target].includes(text)) {
+            group[target].push(text);
+          }
+        });
+      });
+    return Array.from(groups.values()).sort((left, right) => {
+      const leftDenominator = left.evaluationSubset === "all_studies" ? 0 : 1;
+      const rightDenominator = right.evaluationSubset === "all_studies" ? 0 : 1;
+      const leftType = left.evaluationType === "analysis_comparison" ? 0 : 1;
+      const rightType = right.evaluationType === "analysis_comparison" ? 0 : 1;
+      return leftDenominator - rightDenominator || leftType - rightType || left.label.localeCompare(right.label);
+    });
+  }
+
+  function renderAnalysisComparisonValueList(values, fallback = "None") {
+    const list = values.filter(Boolean);
+    if (!list.length) {
+      return `<span class="muted">${escapeHtml(fallback)}</span>`;
+    }
+    return `
+      <ul class="analysis-comparison-value-list">
+        ${list.map((value) => `<li>${display(value)}</li>`).join("")}
+      </ul>
+    `;
+  }
+
+  function renderAnalysisComparisonAuditValue(group) {
+    return [
+      `comparison_label: ${group.label}`,
+      `saved_subset: ${group.savedSubset || ""}`,
+      `evaluation_subset: ${group.evaluationSubset}`,
+      `saved_comparison_role: ${group.savedRole || ""}`,
+      `evaluation_comparison_role: ${group.evaluationRole || ""}`,
+      `evaluation_type: ${group.evaluationType}`,
+      `analysis_ids: ${group.analysisIds.join("; ")}`,
+      `outcomes: ${group.outcomes.join("; ")}`,
+      `raw_comparison_labels: ${group.rawLabels.join("; ")}`,
+    ].join("\n");
+  }
+
+  function renderAnalysisComparisonsPanel(review) {
+    const groups = groupedAnalysisComparisons(review);
+    const denominatorCount = groups.filter((group) => group.evaluationSubset === "all_studies" && group.evaluationType === "analysis_comparison").length;
+    return `
+      <section class="panel analysis-comparisons-panel" id="analysis-comparisons">
+        <div class="section-head">
+          <div>
+            <h2>Analysis Comparisons</h2>
+            <p class="muted">${escapeHtml(benchmarkSourceLabel(review))} Unique labels are grouped from saved meta_analysis.analysis_results rows. Saved benchmark fields are displayed unchanged; evaluator interpretations are shown in separate columns.</p>
+          </div>
+          <div class="section-summary">${groups.length} labels; ${denominatorCount} in current comparison-recall denominator</div>
+        </div>
+        ${groups.length ? `
+          <div class="record-table-wrap analysis-comparisons-table">
+            <table>
+              <thead>
+                <tr>
+                  <th>Comparison label</th>
+                  <th>Saved subset</th>
+                  <th>Saved role</th>
+                  <th>Evaluation denominator</th>
+                  <th>Evaluation class</th>
+                  <th>Analyses</th>
+                  <th>Outcomes</th>
+                  <th>Audit</th>
+                </tr>
+              </thead>
+              <tbody>
+                ${groups.map((group, index) => {
+                  return `
+                    <tr>
+                      <td>
+                        <strong>${display(group.label)}</strong>
+                        ${group.canonicalLabel ? `<div class="muted">Canonical: ${display(group.canonicalLabel)}</div>` : ""}
+                        ${(group.arm1 || group.arm2) ? `<div class="muted">Arms: ${display(group.arm1, "No arm 1")} vs ${display(group.arm2, "No arm 2")}</div>` : ""}
+                        ${group.removedContext ? `<div class="muted">Removed shared context: ${display(group.removedContext)}</div>` : ""}
+                        ${group.rawLabels.some((label) => label !== group.label) ? `
+                          <details class="analysis-comparison-raw-labels">
+                            <summary>Raw labels</summary>
+                            ${renderAnalysisComparisonValueList(group.rawLabels)}
+                          </details>
+                        ` : ""}
+                      </td>
+                      <td>${renderAnalysisComparisonChip(group.savedSubset, "blank")}</td>
+                      <td>${renderAnalysisComparisonRole(group)}</td>
+                      <td>
+                        ${renderAnalysisComparisonChip(group.evaluationSubset === "all_studies" ? "yes" : "no", "blank")}
+                        <div class="muted">${escapeHtml(analysisComparisonDenominatorNote(group))}</div>
+                      </td>
+                      <td>${renderAnalysisComparisonChip(group.evaluationType)}</td>
+                      <td>
+                        <div><strong>${group.analysisIds.length}</strong> analysis IDs</div>
+                        <div class="muted">${display(group.analysisIds.join("; "))}</div>
+                      </td>
+                      <td>${renderAnalysisComparisonValueList(group.outcomes)}</td>
+                      <td>
+                        ${renderAuditIssueActions({
+                          review_id: review.review_id,
+                          section: "Analysis comparisons",
+                          item_type: "analysis_comparison_group",
+                          item_id: `${review.review_id || ""}:analysis_comparison_${index + 1}`,
+                          source_file: benchmarkSourceFile(review.review_id),
+                          field_name: "analysis_comparison",
+                          displayed_value: renderAnalysisComparisonAuditValue(group),
+                        }, "table-audit-actions")}
+                      </td>
+                    </tr>
+                  `;
+                }).join("")}
+              </tbody>
+            </table>
+          </div>
+        ` : `<p class="muted excerpt">No comparison labels were loaded from meta_analysis.analysis_results for this review.</p>`}
+      </section>
+    `;
+  }
+
   function sourceCoverageChip(row) {
     if (raw(row.study_has_pmc) === "yes") {
       return `<span class="status-chip source-chip source-pmc">PMCID</span>`;
@@ -3292,6 +3533,7 @@
         ${renderIncludedTrialsTable(review)}
         ${renderExcludedTrialsTable(review)}
         ${renderSelectedTrialDetail(review)}
+        ${renderAnalysisComparisonsPanel(review)}
         ${renderAnalysisStudyRowsPanel(review)}
         ${renderReproducedMetaAnalysisPanel(review)}
       </div>

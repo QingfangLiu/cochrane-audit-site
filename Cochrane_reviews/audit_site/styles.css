@@ -1136,6 +1136,43 @@ summary.section-head {
   overflow-wrap: anywhere;
 }
 
+.analysis-comparisons-panel {
+  padding: 14px;
+}
+
+.analysis-comparisons-table {
+  max-height: 620px;
+  overflow: auto;
+}
+
+.analysis-comparisons-table table {
+  min-width: 980px;
+}
+
+.analysis-comparisons-table td {
+  vertical-align: top;
+}
+
+.analysis-comparison-value-list {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.analysis-comparison-value-list li + li {
+  margin-top: 4px;
+}
+
+.analysis-comparison-raw-labels {
+  margin-top: 6px;
+}
+
+.analysis-comparison-raw-labels summary {
+  color: var(--accent);
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 800;
+}
+
 .trial-col-name {
   width: 24%;
 }
