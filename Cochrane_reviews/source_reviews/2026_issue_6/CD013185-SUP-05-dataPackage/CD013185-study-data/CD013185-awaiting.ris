@@ -1,0 +1,294 @@
+﻿TY  - JOUR
+AU  - Antoniou,A.C.
+AU  - Pharoah,P.P.
+AU  - Smith,P.
+AU  - Easton,D.F.
+TI  - The BOADICEA model of genetic susceptibility to breast and ovarian cancer
+JF  - British Journal of Cancer
+DA  - 2004///
+VL  - 91
+IS  - 8
+SP  - 1580
+EP  - 90
+NS  - Antoniou 2004
+C3  - CRS 23589672
+ER  - 
+
+TY  - JOUR
+AU  - Antoniou,A.C.
+AU  - Cunningham,A.P.
+AU  - Peto,J.
+AU  - Evans,D.G.
+AU  - Lalloo,F.
+AU  - Narod,S.A.
+TI  - The BOADICEA model of genetic susceptibility to breast and ovarian cancers: updates and extensions
+JF  - British Journal of Cancer
+DA  - 2008///
+VL  - 98
+IS  - 8
+SP  - 1457
+EP  - 66
+NS  - Antoniou 2008
+C3  - CRS 23589674
+ER  - 
+
+TY  - JOUR
+AU  - Carver,T.
+AU  - Hartley,S.
+AU  - Lee,A.
+AU  - Cunningham,A.P.
+AU  - Archer,S.
+AU  - de Villiers,C.B.
+TI  - Canrisk tool-A web interface for the prediction of breast and ovarian cancer risk and the likelihood of carrying genetic pathogenic variants
+JF  - Cancer Epidemiology Biomarkers and Prevention
+DA  - 2021///
+VL  - 30
+IS  - 3
+SP  - 469
+EP  - 73
+NS  - Carver 2021
+C3  - CRS 23589676
+ER  - 
+
+TY  - JOUR
+AU  - Ficorella,L.
+AU  - Yang,X.
+AU  - Easton,D.F.
+AU  - Antoniou,A.C.
+TI  - BOADICEA model: updates to the BRCA2 breast cancer risks for ages 60 years and older
+JF  - BJC Reports
+DA  - 2024///
+VL  - 2
+IS  - 1
+SP  - 53
+NS  - Ficorella 2024
+C3  - CRS 28616462
+DO  - 10.1038/s44276-024-00079-1
+ER  - 
+
+TY  - JOUR
+AU  - Jonker,M.A.
+AU  - Jacobi,C.E.
+AU  - Hoogendoorn,W.E.
+AU  - Nagelkerke,N.J.
+AU  - de Bock,G.H.
+AU  - van Houwelingen,J.C.
+TI  - Modeling familial clustered breast cancer using published data
+JF  - Cancer Epidemiology, Biomarkers & Prevention
+DA  - 2003///
+VL  - 12
+IS  - 12
+SP  - 1479
+EP  - 85
+NS  - Jonker 2003
+C3  - CRS 23589678
+ER  - 
+
+TY  - JOUR
+AU  - Lee,A.J.
+AU  - Cunningham,A.P.
+AU  - Kuchenbaecker,K.B.
+AU  - Mavaddat,N.
+AU  - Easton,D.F.
+AU  - Antoniou,A.C.
+TI  - BOADICEA breast cancer risk prediction model: updates to cancer incidences, tumour pathology and web interface
+JF  - British Journal of Cancer
+DA  - 2014///
+VL  - 110
+IS  - 2
+SP  - 535
+EP  - 45
+NS  - Lee 2014
+C3  - CRS 23589680
+ER  - 
+
+TY  - JOUR
+AU  - Lee,A.J.
+AU  - Cunningham,A.P.
+AU  - Tischkowitz,M.
+AU  - Simard,J.
+AU  - Pharoah,P.D.
+AU  - Easton,D.F.
+TI  - Incorporating truncating variants in PALB2, CHEK2, and ATM into the BOADICEA breast cancer risk model
+JF  - Genetics in Medicine
+DA  - 2016///
+VL  - 18
+IS  - 12
+SP  - 1190
+EP  - 8
+NS  - Lee 2016
+C3  - CRS 23589682
+ER  - 
+
+TY  - JOUR
+AU  - Lee,A.
+AU  - Mavaddat,N.
+AU  - Wilcox,A.N.
+AU  - Cunningham,A.P.
+AU  - Carver,T.
+AU  - Hartley,S.
+TI  - BOADICEA: a comprehensive breast cancer risk prediction model incorporating genetic and nongenetic risk factors (vol 21, pg 1462, 2019)
+JF  - Genetics in Medicine
+DA  - 2019///
+VL  - 21
+IS  - 6
+SP  - 1462
+NS  - Lee 2019
+C3  - CRS 23589684
+ER  - 
+
+TY  - JOUR
+AU  - Lee,A.
+AU  - Mavaddat,N.
+AU  - Cunningham,A.
+AU  - Carver,T.
+AU  - Ficorella,L.
+AU  - Archer,S.
+TI  - Enhancing the BOADICEA cancer risk prediction model to incorporate new data on RAD51C, RAD51D, BARD1 updates to tumour pathology and cancer incidence
+JF  - Journal of Medical Genetics
+DA  - 2022///
+VL  - 59
+IS  - 12
+SP  - 1206
+NS  - Lee 2022
+C3  - CRS 28616464
+DO  - 10.1136/jmedgenet-2022-108471
+ER  - 
+
+TY  - JOUR
+AU  - Louro,J.
+AU  - Roman,M.
+AU  - Posso,M.
+AU  - Vazquez,I.
+AU  - Saladie,F.
+AU  - Rodriguez-Arana,A.
+TI  - Developing and validating an individualized breast cancer risk prediction model for women attending breast cancer screening
+JF  - PLoS ONE
+DA  - 2021///
+VL  - 16
+IS  - 3
+SP  - e0248930
+NS  - Louro 2021
+C3  - CRS 23589686
+ER  - 
+
+TY  - JOUR
+AU  - Ming,C.
+AU  - Viassolo,V.
+AU  - Probst-Hensch,N.
+AU  - Chappuis,P.O.
+AU  - Dinov,I.D.
+AU  - Katapodi,M.C.
+TI  - Machine learning techniques for personalized breast cancer risk prediction: comparison with the BCRAT and BOADICEA models
+JF  - Breast Cancer Research
+DA  - 2019///
+VL  - 21
+IS  - 1
+SP  - 75
+NS  - Ming 2019a (Swiss)
+C3  - CRS 23589688
+ER  - 
+
+TY  - JOUR
+AU  - Ming,C.
+AU  - Viassolo,V.
+AU  - Probst-Hensch,N.
+AU  - Chappuis,P.O.
+AU  - Dinov,I.D.
+AU  - Katapodi,M.C.
+TI  - Machine learning techniques for personalized breast cancer risk prediction: comparison with the BCRAT and BOADICEA models
+JF  - Breast Cancer Research
+DA  - 2019///
+VL  - 21
+IS  - 1
+SP  - 75
+NS  - Ming 2019a (USA)
+C3  - CRS 23589690
+ER  - 
+
+TY  - JOUR
+AU  - Ming,C.
+AU  - Viassolo,V.
+AU  - Probst-Hensch,N.
+AU  - Dinov,I.D.
+AU  - Chappuis,P.O.
+AU  - Katapodi,M.C.
+TI  - Machine learning-based lifetime breast cancer risk reclassification compared with the BOADICEA model: impact on screening recommendations
+JF  - British Journal of Cancer
+DA  - 2020///
+VL  - 123
+IS  - 5
+SP  - 860
+EP  - 7
+NS  - Ming 2020a
+C3  - CRS 23589692
+ER  - 
+
+TY  - JOUR
+AU  - Nuel,G.
+AU  - Belaribi,T.
+AU  - Gal,D.L.
+AU  - Bouaziz,O.
+AU  - Alarcon,F.
+AU  - Eon-Marchais,S.
+TI  - DECURION: A new model for predicting breast and ovarian cancer risks based on family history using French population incidences and Institut Curie's database
+JF  - Journal of Clinical Oncology
+DA  - 2016///
+VL  - 34
+IS  - 15 (Supplement)
+SP  - Abstract 1534
+NS  - Nuel 2016
+C3  - CRS 23589694
+ER  - 
+
+TY  - JOUR
+AU  - Schnabel,F.
+AU  - Chun,J.
+AU  - Schwartz,S.
+AU  - Guth,A.
+AU  - Axelrod,D.
+AU  - Shapiro,R.
+TI  - Mathematical models are not the be-all and end-all for breast cancer risk assessment
+JF  - Cancer Epidemiology Biomarkers and Prevention
+DA  - 2017///
+VL  - 26
+IS  - 5 (Supplement)
+SP  - Abstract A29
+NS  - Schnabel 2017
+C3  - CRS 23589696
+ER  - 
+
+TY  - JOUR
+AU  - van Asperen,C.J.
+AU  - Jonker,M.A.
+AU  - Jacobi,C.E.
+AU  - van Diemen-Homan,J.E.
+AU  - Bakker,E.
+AU  - Breuning,M.H.
+TI  - Risk estimation for healthy women from breast cancer families: new insights and new strategies
+JF  - Cancer Epidemiology, Biomarkers & Prevention
+DA  - 2004///
+VL  - 13
+IS  - 1
+SP  - 87
+EP  - 93
+NS  - van Asperen 2004
+C3  - CRS 23589698
+ER  - 
+
+TY  - JOUR
+AU  - Yala,A.
+AU  - Lehman,C.
+AU  - Schuster,T.
+AU  - Portnoi,T.
+AU  - Barzilay,R.
+TI  - A deep learning mammography-based model for improved breast cancer risk prediction
+JF  - Radiology
+DA  - 2019///
+VL  - 292
+IS  - 1
+SP  - 60
+EP  - 6
+NS  - Yala 2019a
+C3  - CRS 23589700
+ER  - 
