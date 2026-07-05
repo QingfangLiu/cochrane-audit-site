@@ -116,6 +116,12 @@ After generation, inspect the review in the audit site and edit
 `benchmark_data/<review_id>/benchmark.json` directly. The audit site must
 reflect `benchmark.json`, not raw curation files.
 
+When raw Cochrane analysis labels mix clinical outcomes with subgroup or
+sensitivity-analysis labels, keep the raw `meta_analysis.analysis_results` rows
+unchanged and add curated `meta_analysis.analysis_outcome_targets` rows for the
+outcome-alignment denominator. Each target should list the base `analysis_ids`
+it owns and carry raw source labels as aliases or source labels.
+
 Do not fix benchmark data by editing archived global TSVs. If an extractor is
 wrong, fix the extractor and rerun `curate_review.py`; if the generated data
 needs human correction, edit `benchmark.json`.

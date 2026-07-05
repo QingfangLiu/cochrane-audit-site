@@ -18,6 +18,7 @@
     "excludedSummary",
     "analysisResults",
     "analysisResultsRaw",
+    "analysisOutcomeTargets",
     "analysisStudyRows",
     "analysisRiskOfBiasRows",
     "analysisReproducedResults",
@@ -365,6 +366,12 @@
     buckets.excludedSummary.push(...ensureArray(references.excluded_pubmed_summary).map((row) => withReviewIdentity(row, review)));
 
     buckets.analysisResults.push(...ensureArray(metaAnalysis.analysis_results).map((row) => withReviewIdentity(row, review)));
+    buckets.analysisOutcomeTargets.push(
+      ...ensureArray(metaAnalysis.analysis_outcome_targets).map((row, index) => withReviewIdentity({
+        ...row,
+        _rowIndex: index + 1,
+      }, review)),
+    );
     buckets.analysisStudyRows.push(...ensureArray(metaAnalysis.analysis_study_rows).map((row) => withReviewIdentity(row, review)));
     buckets.analysisRiskOfBiasRows.push(...ensureArray(metaAnalysis.analysis_risk_of_bias_rows).map((row) => withReviewIdentity(row, review)));
     buckets.analysisReproducedResults.push(...ensureArray(metaAnalysis.analysis_reproduced_results).map((row) => withReviewIdentity(row, review)));
@@ -874,6 +881,7 @@
     const excludedSummary = state.rows.excludedSummary || [];
     const analysisResults = state.rows.analysisResults || [];
     const analysisResultsRaw = state.rows.analysisResultsRaw || [];
+    const analysisOutcomeTargets = state.rows.analysisOutcomeTargets || [];
     const analysisStudyRows = state.rows.analysisStudyRows || [];
     const analysisRiskOfBiasRows = state.rows.analysisRiskOfBiasRows || [];
     const analysisReproducedResults = state.rows.analysisReproducedResults || [];
@@ -955,6 +963,18 @@
         ...row,
         _rowIndex: index + 1,
         _rawJson: analysisResultsRawByKey.get(`${reviewId}|||${row.analysis_id || ""}`) || null,
+      });
+    });
+
+    const analysisOutcomeTargetsByReview = new Map();
+    analysisOutcomeTargets.forEach((row, index) => {
+      const reviewId = row.review_id || "";
+      if (!analysisOutcomeTargetsByReview.has(reviewId)) {
+        analysisOutcomeTargetsByReview.set(reviewId, []);
+      }
+      analysisOutcomeTargetsByReview.get(reviewId).push({
+        ...row,
+        _rowIndex: index + 1,
       });
     });
 
@@ -1075,6 +1095,7 @@
           _excludedStudies: excludedStudiesByReview.get(review.review_id) || [],
           _excludedSummary: excludedSummaryByReview.get(review.review_id) || {},
           _analysisResults: analysisResultsByReview.get(review.review_id) || [],
+          _analysisOutcomeTargets: analysisOutcomeTargetsByReview.get(review.review_id) || [],
           _analysisStudyRows: analysisStudyRowsByReview.get(review.review_id) || [],
           _analysisReproducedResults: analysisReproducedByReview.get(review.review_id) || [],
           _reviewIndex: reviewIndex,
@@ -2534,6 +2555,9 @@
     if (group.evaluationSubset !== "all_studies") {
       return "No";
     }
+    if (group.evaluationType !== "analysis_comparison") {
+      return "No; this row is not a main analysis comparison.";
+    }
     if (!group.savedSubset) {
       return "Yes; blank saved subset is interpreted as all_studies by the evaluator.";
     }
@@ -2663,6 +2687,92 @@
     ].join("\n");
   }
 
+  function analysisOutcomeTargetList(value) {
+    if (Array.isArray(value)) {
+      return value.map(raw).filter(Boolean);
+    }
+    return splitCell(value);
+  }
+
+  function analysisOutcomeTargetAuditValue(row) {
+    return [
+      `benchmark_id: ${raw(row.benchmark_id)}`,
+      `label: ${raw(row.label)}`,
+      `analysis_ids: ${analysisOutcomeTargetList(row.analysis_ids).join("; ")}`,
+      `aliases: ${analysisOutcomeTargetList(row.aliases).join("; ")}`,
+      `source_outcome_labels: ${analysisOutcomeTargetList(row.source_outcome_labels).join("; ")}`,
+      `source: ${raw(row.source)}`,
+      `curation_notes: ${raw(row.curation_notes)}`,
+    ].join("\n");
+  }
+
+  function renderAnalysisOutcomeTargetsPanel(review) {
+    const rows = review._analysisOutcomeTargets || [];
+    return `
+      <section class="panel analysis-outcome-targets-panel" id="analysis-outcome-targets">
+        <div class="section-head">
+          <div>
+            <h2>Analysis Outcome Targets</h2>
+            <p class="muted">${escapeHtml(benchmarkSourceLabel(review))} Cleaned analyzed-outcome targets used by outcome-alignment evaluation when present. Raw Cochrane analysis labels remain unchanged in the meta-analysis rows.</p>
+          </div>
+          <div class="section-summary">${rows.length ? `${rows.length} targets` : "No curated targets"}</div>
+        </div>
+        ${rows.length ? `
+          <div class="record-table-wrap analysis-outcome-targets-table">
+            <table>
+              <thead>
+                <tr>
+                  <th>Outcome target</th>
+                  <th>Analysis IDs</th>
+                  <th>Aliases / source labels</th>
+                  <th>Curation</th>
+                  <th>Audit</th>
+                </tr>
+              </thead>
+              <tbody>
+                ${rows.map((row) => {
+                  const aliases = analysisOutcomeTargetList(row.aliases);
+                  const sourceLabels = analysisOutcomeTargetList(row.source_outcome_labels);
+                  return `
+                    <tr>
+                      <td>
+                        <strong>${display(row.label, "No label")}</strong>
+                        <div class="muted">${display(row.benchmark_id, "No benchmark ID")}</div>
+                        ${raw(row.role) ? `<div class="muted">Role: ${display(row.role)}</div>` : ""}
+                      </td>
+                      <td>${renderAnalysisComparisonValueList(analysisOutcomeTargetList(row.analysis_ids))}</td>
+                      <td>
+                        ${aliases.length ? `<div><strong>Aliases</strong>${renderAnalysisComparisonValueList(aliases)}</div>` : ""}
+                        ${sourceLabels.length ? `<div><strong>Source labels</strong>${renderAnalysisComparisonValueList(sourceLabels)}</div>` : ""}
+                        ${!aliases.length && !sourceLabels.length ? `<span class="muted">None</span>` : ""}
+                      </td>
+                      <td>
+                        <div>${display(row.source, "benchmark.json")}</div>
+                        ${raw(row.source_note) ? `<div class="muted">${display(row.source_note)}</div>` : ""}
+                        ${raw(row.curation_notes) ? `<div class="excerpt">${display(row.curation_notes)}</div>` : ""}
+                      </td>
+                      <td>
+                        ${renderAuditIssueActions({
+                          review_id: review.review_id,
+                          section: "Meta analysis",
+                          item_type: "analysis_outcome_target",
+                          item_id: `${review.review_id || ""}:analysis_outcome_target_${row.benchmark_id || row._rowIndex || ""}`,
+                          source_file: benchmarkSourceFile(review.review_id),
+                          field_name: "analysis_outcome_target",
+                          displayed_value: analysisOutcomeTargetAuditValue(row),
+                        }, "table-audit-actions")}
+                      </td>
+                    </tr>
+                  `;
+                }).join("")}
+              </tbody>
+            </table>
+          </div>
+        ` : `<p class="muted excerpt">No meta_analysis.analysis_outcome_targets list is present for this review. Outcome alignment derives analyzed targets from saved main analysis result labels.</p>`}
+      </section>
+    `;
+  }
+
   function renderAnalysisComparisonsPanel(review) {
     const groups = groupedAnalysisComparisons(review);
     const denominatorCount = groups.filter((group) => group.evaluationSubset === "all_studies" && group.evaluationType === "analysis_comparison").length;
@@ -2709,7 +2819,7 @@
                       <td>${renderAnalysisComparisonChip(group.savedSubset, "blank")}</td>
                       <td>${renderAnalysisComparisonRole(group)}</td>
                       <td>
-                        ${renderAnalysisComparisonChip(group.evaluationSubset === "all_studies" ? "yes" : "no", "blank")}
+                        ${renderAnalysisComparisonChip(group.evaluationSubset === "all_studies" && group.evaluationType === "analysis_comparison" ? "yes" : "no", "blank")}
                         <div class="muted">${escapeHtml(analysisComparisonDenominatorNote(group))}</div>
                       </td>
                       <td>${renderAnalysisComparisonChip(group.evaluationType)}</td>
@@ -3533,6 +3643,7 @@
         ${renderIncludedTrialsTable(review)}
         ${renderExcludedTrialsTable(review)}
         ${renderSelectedTrialDetail(review)}
+        ${renderAnalysisOutcomeTargetsPanel(review)}
         ${renderAnalysisComparisonsPanel(review)}
         ${renderAnalysisStudyRowsPanel(review)}
         ${renderReproducedMetaAnalysisPanel(review)}

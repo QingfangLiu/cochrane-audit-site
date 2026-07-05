@@ -724,6 +724,7 @@ summary.section-head {
 
 .protocol-panel,
 .review-plan-panel,
+.analysis-outcome-targets-panel,
 .analysis-study-rows-panel,
 .trial-summary-panel,
 .excluded-trial-panel,
@@ -1138,6 +1139,19 @@ summary.section-head {
 
 .analysis-comparisons-panel {
   padding: 14px;
+}
+
+.analysis-outcome-targets-table {
+  max-height: 620px;
+  overflow: auto;
+}
+
+.analysis-outcome-targets-table table {
+  min-width: 980px;
+}
+
+.analysis-outcome-targets-table td {
+  vertical-align: top;
 }
 
 .analysis-comparisons-table {
