@@ -9268,6 +9268,229 @@
           "ci_high": 3.123
         }
       }
-    }
+    },
+    "analysis_outcome_targets": [
+      {
+        "benchmark_id": "analysis:all cause mortality prior to discharge",
+        "label": "All-cause mortality prior to discharge",
+        "role": "analyzed_outcome_target",
+        "analysis_ids": [
+          "1.1"
+        ],
+        "source_comparison_labels": [
+          "NIRS vs no NIRS or blinded NIRS"
+        ],
+        "effect_measures": [
+          "Risk Ratio"
+        ],
+        "source": "benchmark.json:meta_analysis.analysis_results",
+        "source_note": "Explicit analyzed-outcome target for evaluation, derived from this review's saved all-studies main analysis result row.",
+        "curation_notes": "Added for CD011506 so the audit site displays the analyzed outcome denominator used by outcome-alignment evaluation."
+      },
+      {
+        "benchmark_id": "analysis:all cause mortality at 2 years of life",
+        "label": "All-cause mortality at 2 years of life",
+        "role": "analyzed_outcome_target",
+        "analysis_ids": [
+          "1.2"
+        ],
+        "source_comparison_labels": [
+          "NIRS vs no NIRS or blinded NIRS"
+        ],
+        "effect_measures": [
+          "Risk Ratio"
+        ],
+        "source": "benchmark.json:meta_analysis.analysis_results",
+        "source_note": "Explicit analyzed-outcome target for evaluation, derived from this review's saved all-studies main analysis result row.",
+        "curation_notes": "Added for CD011506 so the audit site displays the analyzed outcome denominator used by outcome-alignment evaluation."
+      },
+      {
+        "benchmark_id": "analysis:all cause mortality at longest follow up",
+        "label": "All-cause mortality at longest follow-up",
+        "role": "analyzed_outcome_target",
+        "analysis_ids": [
+          "1.3"
+        ],
+        "source_comparison_labels": [
+          "NIRS vs no NIRS or blinded NIRS"
+        ],
+        "effect_measures": [
+          "Risk Ratio"
+        ],
+        "source": "benchmark.json:meta_analysis.analysis_results",
+        "source_note": "Explicit analyzed-outcome target for evaluation, derived from this review's saved all-studies main analysis result row.",
+        "curation_notes": "Added for CD011506 so the audit site displays the analyzed outcome denominator used by outcome-alignment evaluation."
+      },
+      {
+        "benchmark_id": "analysis:major neurodevelopmental disability in children aged 18 to 24 months",
+        "label": "Major neurodevelopmental disability in children aged 18 to 24 months",
+        "role": "analyzed_outcome_target",
+        "analysis_ids": [
+          "1.4"
+        ],
+        "source_comparison_labels": [
+          "NIRS vs no NIRS or blinded NIRS"
+        ],
+        "effect_measures": [
+          "Risk Ratio"
+        ],
+        "source": "benchmark.json:meta_analysis.analysis_results",
+        "source_note": "Explicit analyzed-outcome target for evaluation, derived from this review's saved all-studies main analysis result row.",
+        "curation_notes": "Added for CD011506 so the audit site displays the analyzed outcome denominator used by outcome-alignment evaluation."
+      },
+      {
+        "benchmark_id": "analysis:major brain injury diagnosed by brain ultrasound prior to discharge",
+        "label": "Major brain injury diagnosed by brain ultrasound prior to discharge",
+        "role": "analyzed_outcome_target",
+        "analysis_ids": [
+          "1.5"
+        ],
+        "source_comparison_labels": [
+          "NIRS vs no NIRS or blinded NIRS"
+        ],
+        "effect_measures": [
+          "Risk Ratio"
+        ],
+        "source": "benchmark.json:meta_analysis.analysis_results",
+        "source_note": "Explicit analyzed-outcome target for evaluation, derived from this review's saved all-studies main analysis result row.",
+        "curation_notes": "Added for CD011506 so the audit site displays the analyzed outcome denominator used by outcome-alignment evaluation."
+      },
+      {
+        "benchmark_id": "analysis:intraventricular haemorrhage grade iii or iv prior to discharge",
+        "label": "Intraventricular haemorrhage grade III or IV prior to discharge",
+        "role": "analyzed_outcome_target",
+        "analysis_ids": [
+          "1.6"
+        ],
+        "source_comparison_labels": [
+          "NIRS vs no NIRS or blinded NIRS"
+        ],
+        "effect_measures": [
+          "Risk Ratio"
+        ],
+        "source": "benchmark.json:meta_analysis.analysis_results",
+        "source_note": "Explicit analyzed-outcome target for evaluation, derived from this review's saved all-studies main analysis result row.",
+        "curation_notes": "Added for CD011506 so the audit site displays the analyzed outcome denominator used by outcome-alignment evaluation."
+      },
+      {
+        "benchmark_id": "analysis:cystic periventricular leukomalacia prior to discharge",
+        "label": "Cystic periventricular leukomalacia prior to discharge",
+        "role": "analyzed_outcome_target",
+        "analysis_ids": [
+          "1.7"
+        ],
+        "source_comparison_labels": [
+          "NIRS vs no NIRS or blinded NIRS"
+        ],
+        "effect_measures": [
+          "Risk Ratio"
+        ],
+        "source": "benchmark.json:meta_analysis.analysis_results",
+        "source_note": "Explicit analyzed-outcome target for evaluation, derived from this review's saved all-studies main analysis result row.",
+        "curation_notes": "Added for CD011506 so the audit site displays the analyzed outcome denominator used by outcome-alignment evaluation."
+      },
+      {
+        "benchmark_id": "analysis:chronic lung disease at 36 weeks of gestational age",
+        "label": "Chronic lung disease at 36 weeks of gestational age",
+        "role": "analyzed_outcome_target",
+        "analysis_ids": [
+          "1.8"
+        ],
+        "source_comparison_labels": [
+          "NIRS vs no NIRS or blinded NIRS"
+        ],
+        "effect_measures": [
+          "Risk Ratio"
+        ],
+        "source": "benchmark.json:meta_analysis.analysis_results",
+        "source_note": "Explicit analyzed-outcome target for evaluation, derived from this review's saved all-studies main analysis result row.",
+        "curation_notes": "Added for CD011506 so the audit site displays the analyzed outcome denominator used by outcome-alignment evaluation."
+      },
+      {
+        "benchmark_id": "analysis:proven necrotising enterocolitis prior to discharge",
+        "label": "Proven necrotising enterocolitis prior to discharge",
+        "role": "analyzed_outcome_target",
+        "analysis_ids": [
+          "1.9"
+        ],
+        "source_comparison_labels": [
+          "NIRS vs no NIRS or blinded NIRS"
+        ],
+        "effect_measures": [
+          "Risk Ratio"
+        ],
+        "source": "benchmark.json:meta_analysis.analysis_results",
+        "source_note": "Explicit analyzed-outcome target for evaluation, derived from this review's saved all-studies main analysis result row.",
+        "curation_notes": "Added for CD011506 so the audit site displays the analyzed outcome denominator used by outcome-alignment evaluation."
+      },
+      {
+        "benchmark_id": "analysis:retinopathy of prematurity any stage prior to discharge",
+        "label": "Retinopathy of prematurity (any stage) prior to discharge",
+        "role": "analyzed_outcome_target",
+        "analysis_ids": [
+          "1.10"
+        ],
+        "source_comparison_labels": [
+          "NIRS vs no NIRS or blinded NIRS"
+        ],
+        "effect_measures": [
+          "Risk Ratio"
+        ],
+        "source": "benchmark.json:meta_analysis.analysis_results",
+        "source_note": "Explicit analyzed-outcome target for evaluation, derived from this review's saved all-studies main analysis result row.",
+        "curation_notes": "Added for CD011506 so the audit site displays the analyzed outcome denominator used by outcome-alignment evaluation."
+      },
+      {
+        "benchmark_id": "analysis:retinopathy of prematurity stage 3 prior to discharge",
+        "label": "Retinopathy of prematurity (stage ≥ 3 ) prior to discharge",
+        "role": "analyzed_outcome_target",
+        "analysis_ids": [
+          "1.11"
+        ],
+        "source_comparison_labels": [
+          "NIRS vs no NIRS or blinded NIRS"
+        ],
+        "effect_measures": [
+          "Risk Ratio"
+        ],
+        "source": "benchmark.json:meta_analysis.analysis_results",
+        "source_note": "Explicit analyzed-outcome target for evaluation, derived from this review's saved all-studies main analysis result row.",
+        "curation_notes": "Added for CD011506 so the audit site displays the analyzed outcome denominator used by outcome-alignment evaluation."
+      },
+      {
+        "benchmark_id": "analysis:severe adverse reactions prior to discharge",
+        "label": "Severe adverse reactions prior to discharge",
+        "role": "analyzed_outcome_target",
+        "analysis_ids": [
+          "1.12"
+        ],
+        "source_comparison_labels": [
+          "NIRS vs no NIRS or blinded NIRS"
+        ],
+        "effect_measures": [
+          "Risk Ratio"
+        ],
+        "source": "benchmark.json:meta_analysis.analysis_results",
+        "source_note": "Explicit analyzed-outcome target for evaluation, derived from this review's saved all-studies main analysis result row.",
+        "curation_notes": "Added for CD011506 so the audit site displays the analyzed outcome denominator used by outcome-alignment evaluation."
+      },
+      {
+        "benchmark_id": "analysis:abnormal fidgety movements at six to 20 weeks of corrected age",
+        "label": "Abnormal fidgety movements (at six to 20 weeks of corrected age)",
+        "role": "analyzed_outcome_target",
+        "analysis_ids": [
+          "1.13"
+        ],
+        "source_comparison_labels": [
+          "NIRS vs no NIRS or blinded NIRS"
+        ],
+        "effect_measures": [
+          "Risk Ratio"
+        ],
+        "source": "benchmark.json:meta_analysis.analysis_results",
+        "source_note": "Explicit analyzed-outcome target for evaluation, derived from this review's saved all-studies main analysis result row.",
+        "curation_notes": "Added for CD011506 so the audit site displays the analyzed outcome denominator used by outcome-alignment evaluation."
+      }
+    ]
   }
 }

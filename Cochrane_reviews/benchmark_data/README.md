@@ -120,7 +120,10 @@ When raw Cochrane analysis labels mix clinical outcomes with subgroup or
 sensitivity-analysis labels, keep the raw `meta_analysis.analysis_results` rows
 unchanged and add curated `meta_analysis.analysis_outcome_targets` rows for the
 outcome-alignment denominator. Each target should list the base `analysis_ids`
-it owns and carry raw source labels as aliases or source labels.
+it owns and carry raw source labels as aliases or source labels. Targets may
+also carry `source_comparison_labels` and `effect_measures` copied from the
+owned analysis rows so the audit site can show the analyzed-outcome denominator
+without changing the raw analysis-result rows.
 
 Do not fix benchmark data by editing archived global TSVs. If an extractor is
 wrong, fix the extractor and rerun `curate_review.py`; if the generated data

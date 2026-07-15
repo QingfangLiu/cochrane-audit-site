@@ -2596,7 +2596,19 @@
 
   function groupedAnalysisComparisons(review) {
     const rows = review._analysisResults || [];
-    const roleByAnalysisId = analysisComparisonRoleByAnalysisId(review._analysisStudyRows || []);
+    const analysisStudyRows = review._analysisStudyRows || [];
+    const roleByAnalysisId = analysisComparisonRoleByAnalysisId(analysisStudyRows);
+    const studyRowsByAnalysisId = new Map();
+    analysisStudyRows.forEach((row) => {
+      const analysisId = raw(row.analysis_id);
+      if (!analysisId) {
+        return;
+      }
+      if (!studyRowsByAnalysisId.has(analysisId)) {
+        studyRowsByAnalysisId.set(analysisId, []);
+      }
+      studyRowsByAnalysisId.get(analysisId).push(row);
+    });
     const groups = new Map();
     rows
       .forEach((row) => {
@@ -2634,6 +2646,9 @@
             outcomes: [],
             effectMeasures: [],
             rawLabels: [],
+            sourceArmPairCounts: new Map(),
+            sourceArmPairs: [],
+            sourceStudyRows: 0,
             rows: [],
           });
         }
@@ -2651,8 +2666,23 @@
             group[target].push(text);
           }
         });
+        (studyRowsByAnalysisId.get(raw(row.analysis_id)) || []).forEach((studyRow) => {
+          const arm1 = raw(studyRow.arm1_label);
+          const arm2 = raw(studyRow.arm2_label);
+          if (!arm1 || !arm2) {
+            return;
+          }
+          const pair = `${arm1} vs ${arm2}`;
+          group.sourceStudyRows += 1;
+          group.sourceArmPairCounts.set(pair, (group.sourceArmPairCounts.get(pair) || 0) + 1);
+        });
       });
-    return Array.from(groups.values()).sort((left, right) => {
+    return Array.from(groups.values()).map((group) => ({
+      ...group,
+      sourceArmPairs: Array.from(group.sourceArmPairCounts.entries()).map(([pair, count]) => (
+        count === 1 ? `${pair} (1 study row)` : `${pair} (${count} study rows)`
+      )),
+    })).sort((left, right) => {
       const leftDenominator = left.evaluationSubset === "all_studies" ? 0 : 1;
       const rightDenominator = right.evaluationSubset === "all_studies" ? 0 : 1;
       const leftType = left.evaluationType === "analysis_comparison" ? 0 : 1;
@@ -2684,6 +2714,7 @@
       `analysis_ids: ${group.analysisIds.join("; ")}`,
       `outcomes: ${group.outcomes.join("; ")}`,
       `raw_comparison_labels: ${group.rawLabels.join("; ")}`,
+      `source_arm_label_pairs: ${group.sourceArmPairs.join("; ")}`,
     ].join("\n");
   }
 
@@ -2698,10 +2729,14 @@
     return [
       `benchmark_id: ${raw(row.benchmark_id)}`,
       `label: ${raw(row.label)}`,
+      `role: ${raw(row.role)}`,
       `analysis_ids: ${analysisOutcomeTargetList(row.analysis_ids).join("; ")}`,
       `aliases: ${analysisOutcomeTargetList(row.aliases).join("; ")}`,
       `source_outcome_labels: ${analysisOutcomeTargetList(row.source_outcome_labels).join("; ")}`,
+      `source_comparison_labels: ${analysisOutcomeTargetList(row.source_comparison_labels).join("; ")}`,
+      `effect_measures: ${analysisOutcomeTargetList(row.effect_measures).join("; ")}`,
       `source: ${raw(row.source)}`,
+      `source_note: ${raw(row.source_note)}`,
       `curation_notes: ${raw(row.curation_notes)}`,
     ].join("\n");
   }
@@ -2723,7 +2758,7 @@
               <thead>
                 <tr>
                   <th>Outcome target</th>
-                  <th>Analysis IDs</th>
+                  <th>Analysis IDs / context</th>
                   <th>Aliases / source labels</th>
                   <th>Curation</th>
                   <th>Audit</th>
@@ -2733,6 +2768,8 @@
                 ${rows.map((row) => {
                   const aliases = analysisOutcomeTargetList(row.aliases);
                   const sourceLabels = analysisOutcomeTargetList(row.source_outcome_labels);
+                  const sourceComparisonLabels = analysisOutcomeTargetList(row.source_comparison_labels);
+                  const effectMeasures = analysisOutcomeTargetList(row.effect_measures);
                   return `
                     <tr>
                       <td>
@@ -2740,7 +2777,11 @@
                         <div class="muted">${display(row.benchmark_id, "No benchmark ID")}</div>
                         ${raw(row.role) ? `<div class="muted">Role: ${display(row.role)}</div>` : ""}
                       </td>
-                      <td>${renderAnalysisComparisonValueList(analysisOutcomeTargetList(row.analysis_ids))}</td>
+                      <td>
+                        <div><strong>Analysis IDs</strong>${renderAnalysisComparisonValueList(analysisOutcomeTargetList(row.analysis_ids))}</div>
+                        ${sourceComparisonLabels.length ? `<div><strong>Comparisons</strong>${renderAnalysisComparisonValueList(sourceComparisonLabels)}</div>` : ""}
+                        ${effectMeasures.length ? `<div><strong>Effect measures</strong>${renderAnalysisComparisonValueList(effectMeasures)}</div>` : ""}
+                      </td>
                       <td>
                         ${aliases.length ? `<div><strong>Aliases</strong>${renderAnalysisComparisonValueList(aliases)}</div>` : ""}
                         ${sourceLabels.length ? `<div><strong>Source labels</strong>${renderAnalysisComparisonValueList(sourceLabels)}</div>` : ""}
@@ -2781,7 +2822,7 @@
         <div class="section-head">
           <div>
             <h2>Analysis Comparisons</h2>
-            <p class="muted">${escapeHtml(benchmarkSourceLabel(review))} Unique labels are grouped from saved meta_analysis.analysis_results rows. Saved benchmark fields are displayed unchanged; evaluator interpretations are shown in separate columns.</p>
+            <p class="muted">${escapeHtml(benchmarkSourceLabel(review))} Unique comparison targets are grouped from saved Cochrane analysis group names. Raw study-row arm labels remain source context and do not define the comparison-recall denominator.</p>
           </div>
           <div class="section-summary">${groups.length} labels; ${denominatorCount} in current comparison-recall denominator</div>
         </div>
@@ -2809,6 +2850,12 @@
                         ${group.canonicalLabel ? `<div class="muted">Canonical: ${display(group.canonicalLabel)}</div>` : ""}
                         ${(group.arm1 || group.arm2) ? `<div class="muted">Arms: ${display(group.arm1, "No arm 1")} vs ${display(group.arm2, "No arm 2")}</div>` : ""}
                         ${group.removedContext ? `<div class="muted">Removed shared context: ${display(group.removedContext)}</div>` : ""}
+                        ${group.sourceArmPairs.length ? `
+                          <details class="analysis-comparison-raw-labels">
+                            <summary>Source arm labels</summary>
+                            ${renderAnalysisComparisonValueList(group.sourceArmPairs)}
+                          </details>
+                        ` : ""}
                         ${group.rawLabels.some((label) => label !== group.label) ? `
                           <details class="analysis-comparison-raw-labels">
                             <summary>Raw labels</summary>
