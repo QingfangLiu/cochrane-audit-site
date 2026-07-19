@@ -1,0 +1,62 @@
+﻿Study,Year,Data source,ID: CRS,Char: Reason for exclusion
+Alexander 2011,2011,PUB,25735705,<p>No usable data</p>
+Anderson 1996,1996,PUB,25735707,<p>Not clearly A&amp;F</p>
+Berman 1998,,PUB,25735709,<p>Cost feedback only</p>
+Berwanger 2018,2018,PUB,25735711,<p>Conference abstract</p>
+Buntinx 1993,1993,PUB,25735713,<p>Not A&amp;F</p>
+Carroll 2018,2018,PUB,25735715,<p>No usable data</p>
+Cheater 2004,2004,PUB,25735717,<p>Protocol&nbsp;</p>
+Claes 2005,2005,PUB,25735719,"<p>Focused on patient outcomes, not professional practices</p>"
+Cline 2007,2007,PUB,25735721,<p>Patient-specific</p>
+Cloutier 2012,2012,PUB,25735723,<p>No usable outcomes</p>
+Cohen 1982,1982,PUB,25735725,<p>Cost feedback only</p>
+Curran 2008,2008,PUB,25735727,<p>Patient outcomes only</p>
+De Almeida Neto 2000,2000,PUB,25735729,<p>Not A&amp;F</p>
+Dudzinski 2015,2015,PUB,25735731,<p>Conference abstract</p>
+Finkelstein 2008,2008,PUB,25735733,<p>No usable outcomes</p>
+Fischer 2011,2011,PUB,25735735,<p>No relevant outcomes</p>
+Forrest 2013,2013,PUB,25735737,<p>No usable data</p>
+Gama 1992,,PUB,25735743,<p>Not enough clusters</p>
+Gehlbach 1984,1984,PUB,25735745,<p>Not A&amp;F</p>
+Halterman 2014,2014,PUB,25735747,<p>Not A&amp;F</p>
+Handy 2017,2017,PUB,25735749,<p>Conference abstract</p>
+Heller 2001,2001,PUB,25735751,<p>No usable data</p>
+Hershey 1986,1986,PUB,25735753,<p>Not A&amp;F</p>
+Hershey 1988,1988,PUB,25735755,<p>Not A&amp;F</p>
+Hwang 2019,2019,PUB,25735757,<p>Cannot find full text</p>
+Kirwin 2010,2010,PUB,25735759,<p>No feedback</p>
+Kogan 2003,2003,PUB,25735761,<p>No usable data</p>
+Lagerløv 2000,2000,PUB,25735763,<p>No usable data</p>
+Linn 1980,1980,PUB,25735765,<p>Not A&amp;F</p>
+Lytle 2015,2015,PUB,25735767,<p>No usable data</p>
+Magrini 2014,2014,PUB,25735769,<p>No usable data; not clear which direction feedback was trying to shift prescribing</p>
+Mayer 1998,,PUB,25735771,<p>No usable data; not actual patients</p>
+Mayne 2014,2014,PUB,25735773,<p>Secondary analysis of Fiks</p>
+McAlister 1986,1986,PUB,25735775,<p>Not A&amp;F</p>
+Millard 2008,2008,PUB,25735777,<p>Not usable data</p>
+Norton 1985,1985,PUB,25735779,<p>Not A&amp;F</p>
+Ogedegbe 2014,2014,PUB,25735783,<p>No usable data</p>
+Palmay 2014,2014,PUB,25735785,<p>Not audit and feedback</p>
+Palmer 1996,1996,PUB,25735787,<p>Secondary analysis of Palmer 1985</p>
+Papaioannou 2013,2013,PUB,25735789,<p>Co-publication of Kennedy 2015</p>
+Parchman 2019,2019,PUB,25735791,<p>Not A&amp;F</p>
+Peden 2019a,2019,PUB,25735795,<p>No usable data</p>
+Peden 2019b,2019,PUB,27857711,<p>No usable data</p>
+Phillips 2004,2004,PUB,25735797,<p>Not A&amp;F</p>
+Phillips 2005,2005,PUB,25735799,<p>Not A&amp;F</p>
+Reiter 2015,2015,PUB,25735803,<p>No process measures</p>
+Sandbaek 1999,,PUB,25735805,<p>No usable data</p>
+Sinnema 2015,2015,PUB,25735807,<p>Not A&amp;F</p>
+Sommers 1984,1984,PUB,25735809,<p>No usable data</p>
+Stenehjem 2018,2018,PUB,25735811,<p>Not A&amp;F</p>
+Svetkey 2009,2009,PUB,25735813,<p>No process measures</p>
+Tjia 2015,2015,PUB,25735815,<p>No usable data</p>
+Trent 2018,2018,PUB,25735817,<p>Incorrect reference; duplicate of Trent 2019</p>
+Tuot 2018,2018,PUB,25735819,<p>No usable data</p>
+Vaisson 2019,2019,PUB,25735821,<p>No usable data</p>
+Van den Hombergh 1999,,PUB,25735823,<p>No quality of care metrics in audit</p>
+Weitzman 2009,2009,PUB,25735827,<p>Patient-level outcomes only</p>
+Wiggers 2017,2017,PUB,25735829,<p>Not A&amp;F</p>
+Williams 2014,2014,PUB,25735831,<p>Conference abstract</p>
+Yadav 2019,2019,PUB,25735833,<p>No usable data</p>
+Young 2003,2003,PUB,25735835,<p>Not A&amp;F</p>
