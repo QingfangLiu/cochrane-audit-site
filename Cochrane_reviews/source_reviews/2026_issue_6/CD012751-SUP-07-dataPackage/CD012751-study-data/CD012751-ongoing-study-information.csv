@@ -1,0 +1,211 @@
+﻿Study,Year,Data source,ID: CRS,Char: Study name,Char: Methods,Char: Participants,Char: Interventions,Char: Outcomes,Char: Starting date,Char: Contact information,Char: Notes
+ACTRN12621001498886,,PUB,26397106,<p>Comparison between switching from intravenous to subcutaneous infliximab on the maintenance of clinical and biochemical remission in patients with inflammatory bowel disease</p>,<p>RCT</p>,<p>176 (target participants)</p>,"<p>Intervention - switching patients from intravenous infliximab to subcutaneous infliximab for the treatment of inflammatory bowel disease</p>
+<p>Control - continuing intravenous infliximab for the treatment of inflammatory bowel disease</p>","<p>Primary</p>
+<ul>
+ <li>Composite primary outcome: Comparing the proportion of patients who remain in clinical remission</li>
+</ul>
+<p>Secondary</p>
+<ul>
+ <li>Comparing the change in infliximab trough level in the IV infliximab group versus the SC infliximab group using a blood sample</li>
+ <li>Patient satisfaction in the SC infliximab group using a survey with a 5-point Likert scale</li>
+ <li>Comparing the change in faecal calprotectin in the IV infliximab group versus the SC infliximab group using stool samples</li>
+ <li>Comparing the change in medical therapy between the IV infliximab and SC infliximab group (using data-linkage to medical records): Need for corticosteroids</li>
+ <li>Comparing other standard of care biochemical monitoring of patients on infliximab using a blood sample</li>
+ <li>Pharmacovigilance of potential treatment-associated adverse effects, assessed in accordance with the Common Terminology Criteria for Adverse Events</li>
+ <li>Comparing the change in medical therapy between the IV infliximab and SC infliximab group (using data linkage to medical records): Adding immunomodulator</li>
+ <li>Comparing the change in medical therapy between the IV infliximab and SC infliximab group (using data-linkage to medical records): Need for dose-escalation</li>
+ <li>Comparing the change in medical therapy between the IV infliximab and SC infliximab group (using data-linkage to medical records): Switching to another biological agent</li>
+ <li>Comparing the change in medical therapy between the IV infliximab and SC infliximab group (using data-linkage to medical records): Need for IBD surgery</li>
+ <li>Comparing the change in infliximab antibodies in the IV infliximab group versus the SC infliximab group using a blood sample</li>
+</ul>",<p>1 October 2021</p>,<p>Prof Rupert Leong: rupertleong@hotmail.com</p>,"<p>Retrospectively registered. Anticipated end date: 1 October 2023</p>
+<p>Sponsor: Celltrion&nbsp;</p>"
+ACTRN12622001458729 (DISCUS-IBD),,PUB,26397108,<p>DISCUS-IBD</p>,<p>RCT</p>,<p>120</p>,<p>intravenous infliximab vs subcutaneous infliximab</p>,"<p>Primary:&nbsp;</p>
+<p>Rate of disease relapse</p>
+<p>Secondary:</p>
+<p>Change in serum infliximab drug levels in each group measured on 12-weekly blood tests</p>
+<p>Rates of clinical relapse in each group, defined as: modified HBI &gt;/=5 in CD patients, partial Mayo Score &gt;/=2 in UC patients measured on clinical surveys.</p>
+<p>Rates of biochemical disease relapse in each group, defined as: CRP &gt;5 mg/L, or FCP &gt;250 µg/g post-first dose of either IV or SC infliximab within the study. CRP and FCP measured on 12-weekly blood and faecal tests.</p>
+<p>Rate of dose-intensification due to clinical and biochemical relapse in each group post-first dose of either IV or SC infliximab within the study collected on a study-specific database.</p>
+<p>Change in faecal calprotectin in each group measure on 12-weekly faecal tests.</p>
+<p>Change in CRP in each group measured on 12-weekly blood tests.</p>
+<p>Antibodies to infliximab in each group measured on 12-weekly blood tests.</p>
+<p>Adverse events in each group (including infusion or injection site reaction, hypersensitivity, rash, lymphopenia, infection) using a study-specific questionnaire 12-weekly.</p>
+<p>Patient satisfaction (Likert scale satisfaction survey) questionnaire.</p>
+<p>Rate of refusal to switch from IV to subcutaneous infliximab and proportion of patients switched to subcutaneous who elect to switch back to IV recorded on a study-specific database.</p>
+<p>Cost differences for:<br>
+ Healthcare service - infusion centre (mean chair time, nursing staff costs), drug costs (product, pharmacy preparation)<br>
+ Patients - workdays lost, transport and parking<br>
+ Collected by review of hospital financial records at select sites.<br>
+ &nbsp;</p>
+<p>Composite adherence (number of missed doses, number of rescheduled doses) and any impact of COVID-19 on adherence (yes/no). Collected on 12-weekly surveys designed specifically for this study.&nbsp;</p>
+<p>Success of further dose-intensification in each group as measured by an increment in drug levels and rate of recapture of clinical and biochemical response (defined as achieving the same remission parameters required to qualify for study enrolment) collected on 12-weekly blood tests, faecal tests and either the partial Mayo score or HBI, as appropriate.</p>
+<p>Health-related quality of life (Inflammatory Bowel Disease Questionnaire - IBD-Q)</p>",<p>15 February 2023</p>,"<p>r.little@alfred.org.au</p>
+<p>j.mckenzie@alfred.org.au</p>",
+Chaparro 2019 (GETECCU EXIT),2019,PUB,26397110,"<p>Anti-tumour necrosis factor discontinuation in inflammatory bowel disease patients in remission: study protocol of a prospective, multicentre, randomized clinical trial</p>",<p>RCT</p>,<p>194&nbsp;</p>,"<p>Intervention- patients in group 1 continue their current antiTNF treatment (infliximab or adalimumab)</p>
+<p>Control: Patients in group 2 are given a placebo matched to the drug they were previously receiving.</p>","<p>Primary outcome: The primary objective of this study is to compare the rates of clinical remission at 1 year in patients who discontinue treatment with an anti-TNF agent versus those who continue.</p>
+<p>Secondary outcome: the duration of relapse-free time; mucosal healing; quality of life (QoL) and work productivity; safety; and the identification of predictive factors for relapse.</p>",<p>2016</p>,<p>Javier P. Gisbert &nbsp;- javier.p.gisbert@gmail.com</p>,"<p>The published abstract does not separate between CD and UC patients</p>
+<p>Funding: The Instituto de Salud Carlos III (PI15/00560). Project financed with FEDER funds.</p>"
+ChiCTR2200060604,2022,PUB,26397114,<p>Efficacy and safety of ustekinumab intravenous maintenance versus subcutaneous maintenance in Crohn's disease: a multicenter randomized controlled clinical trial</p>,<p>RCT</p>,<p>72</p>,<p>intrevenous ustekinumab vs subcutaneous ustekinumab</p>,"<p>Clinical response rate and remission rate</p>
+<p>Endoscopic response rate and remission rate</p>
+<p>The improvement of IBDQ</p>
+<p>The recurrence rate</p>
+<p>Incidence of adverse reactions</p>
+<p>Difference between first and second line treatment</p>",<p>26 March 2023</p>,"<p>723804429@qq.com&nbsp;</p>
+<p>conciselj@126.com</p>",
+CTRI/2020/12/029571,2020,PUB,26397116,"<p>A Multicenter, Randomized, Double-Blind, Parallel-Group Study to Assess the Efficacy and Safety of Oral Etrasimod as Induction and Maintenance Therapy for Moderately to Severely Active Crohn’s Disease</p>",<p>RCT</p>,<p>225</p>,"<p>Eligible subjects will be randomized into one of two doses of etrasimod or matching placebo</p>
+<p>Intervention: Sub Study SSA-Ph2 2 mg etrasimod Film Coated Tablet, Oral, once daily 2 mg +1 mg etrasimod Film Coated Tablet, Oral, once daily 14 Week Induction Period and 52 Weeks Extension Period&nbsp;</p>
+<p>Sub Study SS1-Ph2b 2 mg etrasimod Film Coated Tablet, Oral, once daily 2 mg +1 mg etrasimod Film Coated Tablet, Oral, once daily</p>
+<p>Control: The placebo product is Placebo Matching tablet, oral, once daily.14 Week Induction Period and 6 Weeks Extended Induction Period</p>","<p>Primary outcomes:&nbsp;</p>
+<ul>
+ <li>Proportion of subjects with endoscopic response at Week 14&nbsp;</li>
+ <li>Proportion of subjects with endoscopic response at Week 14,Proportion of subjects with clinical remission CDAI at Week 14&nbsp;</li>
+ <li>Proportion of subjects with clinical remission CDAI at Week 52 Proportion of subjects with endoscopic response at Week 52</li>
+</ul>
+<p>Secondary outcomes: &nbsp;</p>
+<ul>
+ <li>Proportion of subjects with endoscopic response Proportion of subjects with clinical remission CDAI Change from baseline in SES-CD score Change from baseline in CDAI score</li>
+ <li>Proportion of subjects with clinical remission CDAI at Week 14&nbsp;</li>
+ <li>Proportion of subjects with clinical remission PRO2 at Week 14 Proportion of subjects with clinical response CDAI at Week 14 Proportion of subjects with endoscopic response and clinical remission CDAI at Week 14 Proportion of subjects with endoscopic remission at Week 14</li>
+ <li>Proportion of subjects with clinical remission CDAI at Wk 52 among subjects in clinical remission CDAI at SS3-M baseline (defined as Wk14 or EI-Wk 6Visit). Proportion of subjects with endoscopic response at Wk52 among subjects in endoscopic response at SS3-M baseline. Proportion of subjects with corticosteroid-free clinical remission CDAI at Wk52 among subjects receiving corticosteroids at SS3-M baseline.&nbsp;</li>
+ <li>Proportion of subjects with endoscopic remission at Wk52</li>
+</ul>",<p>Registered : 04/12/2020</p>,<p>Suneela Thatte&nbsp; - suneela.thatte@iqvia.com</p>,<p>Sponsored by: Arena Pharmaceuticals</p>
+EUCTR2017-001226-18,2018,PUB,26397119,"<p>A Multicenter, Randomized, Double-Blind, Placebo-Controlled Induction Study of the Efficacy and Safety of Upadacitinib (ABT-494) in Subjects with Moderately to Severely Active Crohn's Disease Who Have Inadequately Responded to or are Intolerant to Biologic Therapy</p>",<p>RCT</p>,<p>645</p>,"<p>Group 1: Upadacitinib oral 30 mg with placebo oral</p>
+<p>Group 2: Upadacitinib oral 45 mg - with placebo oral</p>","<p>Primary end point(s): Co-primary Endpoints:<br>
+ 1. Proportion of subjects with clinical remission per PROs at Week 12<br>
+ 2. Proportion of subjects with endoscopic response at Week 12<br>
+ &nbsp;</p>
+<p>Secondary Objective: To evaluate improvements in several efficacy parameters, including steroid discontinuation, laboratory parameters and quality of life questionnaires.</p>
+<p>Timepoint(s) of evaluation of this end point: Week 12</p>",<p>10 May 2018</p>,<p>eu-clinical-trials@abbvie.com</p>,<p>Sponsor: AbbVie Inc.</p>
+EUCTR2018-004614-18,2019,PUB,26397121,<p>Study to Evaluate the Efficacy and Safety of Mirikizumab in Patients with Active Crohn's Disease</p>,<p>RCT</p>,<p>1150</p>,"<p>Group 1: MIRIKIZUMAB 100mg/ml alongside subcutaneous placebo</p>
+<p>Group 2: MIRIKIZUMAB 20 mg/ml alongside intravenous placebo&nbsp;</p>
+<p>Group 3: USTEKINUMAB 5 mg/ml alongside intravenous placebo</p>
+<p>Group 4: USTEKINUMAB 90 mg/ml alongside subcutaneous placebo</p>","<p><b>Primary end point(s)</b>: 1. Percentage of Participants Achieving Endoscopic Response Endoscopic response based on Simple Endoscopic Score for Crohn’s Disease (SES-CD) total score<br>
+ 2. Percentage of Participants Achieving Clinical Remission Clinical remission by Patient Reported Outcome (PRO) based on stool frequency (SF) and abdominal pain (AP)</p>
+<p><b>Secondary Objective</b>: - To evaluate the efficacy of mirikizumab on endoscopic and clinical improvement.<br>
+ - To evaluate the efficacy of mirikizumab on quality of life.<br>
+ - To evaluate the efficacy of mirikizumab on biomarkers, PK, and PD.</p>
+<p><b>Secondary end point(s): </b>3. Percentage of Participants Achieving Endoscopic Remission Endoscopic remission based on SES-CD total score<br>
+ 4. Percentage of Participants Achieving Clinical Remission or Endoscopic Remission who were Corticosteroid Free Clinical remission by PRO based on SF and AP and endoscopic remission based on SES-CD total score<br>
+ 5. Percentage of Participants Achieving Clinical Remission Clinical remission by PRO is based on SF and AP<br>
+ 6. Percentage of Participants Achieving Clinical Remission Clinical remission based on CDAI<br>
+ 7. Change from Baseline in C-Reactive Protein Change from baseline in C-Reactive Protein<br>
+ 8. Change from Baseline in Fecal Calprotectin Change from baseline in fecal calprotectin<br>
+ 9. Percentage of Participants with Extraintestinal Manifestations (EIMs) of Crohn’s Disease<br>
+ Percentage of participants with EIMs of Crohn’s Disease<br>
+ 10. Percentage of Participants with Fistulae Response Percentage of participants with fistulae response<br>
+ 11. Pharmacokinetics (PK): Area Under the Concentration Time Curve (AUC) of Mirikizumab<br>
+ PK: AUC of mirikizumab<br>
+ 12. Change from Baseline in Health Related Quality of Life Health related quality of life based on Inflammatory Bowel Disease Questionnaire (IBDQ) score</p>",<p>25 November 2019</p>,<p>EU_Lilly_Clinical_Trials@lilly.com</p>,<p>Sponsor: Eli Lilly and Company</p>
+EUCTR2020-004527-16 (InCharge),2021,PUB,26397123,"<p>A Phase IIa, randomised, double-blind, placebo-controlled trial to evaluate the safety, efficacy, pharmacokinetics and pharmacodynamics of BI 706321 orally administered for 12 weeks in patients with Crohn`s Disease (CD) receiving ustekinumab induction treatment - InCharge&nbsp;</p>",<p>RCT</p>,<p>50</p>,<p>BI 706321 vs placebo</p>,"<p>The primary objective is to estimate the difference in change from baseline in Simple Endoscopic Score for Crohn’s disease (SES-CD) after 12 weeks. The primary treatment comparison will be between treatment groups while on treatment during the 12 week induction period.&nbsp;</p>
+<p>Secondary Objective: Not applicable</p>",<p>21 December 2021</p>,<p>clintriage.rdg@boehringer-ingelheim.com</p>,
+EUCTR2021-002869-18 (AIM-CD),,PUB,26397125,"<p>A Randomized, Double-Blind, Placebo-Controlled Study to Evaluate the Safety and Efficacy of ABBV-154 in Subjects with Moderately to Severely Active Crohn's Disease (CD): AIM-CD</p>",<p>RCT</p>,<p>265</p>,<p>ABBV-154 vs Placebo</p>,"<p>Primary end point(s): The primary endpoint is the achievement of endoscopic response at Week 12 in the Induction Period defined as a decrease in Simple Endoscopic Score for Crohn’s Disease (SES-CD17) &gt; 50% from Baseline (or for subjects with isolated ileal disease and a Baseline SES-CD of 4, at least a 2-point reduction from Baseline).&nbsp;</p>
+<p>Secondary Objective: The secondary objectives are to assess the pharmacokinetics (PK), pharmacodynamics (PD), and immunogenicity of ABBV 154.</p>",<p>20 January 2022</p>,<p>AbbVie</p>,
+Jonkers 2021 - CoCros,2021,PUB,26397127,<p>Control Crohn Safe with episodic adalimumab monotherapy as first-line treatment study (CoCroS): study protocol for a randomised controlled trial</p>,<p>RCT</p>,<p>158</p>,"<p>Active Comparator: Adalimumab</p>
+<p>Episodic adalimumab monotherapy as first line treatment for 6 months</p>
+<p>Active Comparator: Standard step-up care</p>
+<p>Step-up care as first line treatment, starting with corticosteroids.</p>","<p><b>Primary Outcome Measures :</b></p>
+<p>Number of yearly-quarters of corticosteroid free remission as a measure of treatment efficacy [ Time Frame: at week 96 ]</p>
+<p><b>Secondary Outcome Measures :</b></p>
+<ul>
+ <li>Cumulative structural bowel damage as a measure of disease progression [ Time Frame: at week 96 ]</li>
+ <li>Incidence of drug related serious adverse events [ Time Frame: at week 24, 48 and 96 ]</li>
+ <li>Incidence of serious disease related adverse events [ Time Frame: at week 24, 48 and 96 ]</li>
+ <li>Integer amount of direct health care costs (in €) [ Time Frame: at week 96 ]</li>
+ <li>Integer amount of indirect health care costs (in €) [ Time Frame: at week 96 ]</li>
+ <li>Corticosteroid use [ Time Frame: at week 24, 48 and 96 ]</li>
+ <li>Endoscopic remission as assessed by SES-CD [ Time Frame: at week 24 ]</li>
+ <li>Time to remission [ Time Frame: at week 96 ]</li>
+ <li>Quality of life as assessed by QoL EQ-5D-5L questionnaire [ Time Frame: at week 24, 48 and 96 ]</li>
+</ul>",<p>23 December 2019</p>,<p>Laura Janssen - laura.janssen@maastrichtuniversity.nl</p>,"<p>Estimated Study Completion Date :</p>
+<p>September 2024</p>
+<p>Sponsor:&nbsp;<br>
+ Maastricht University Medical Center</p>"
+JRCT2031200406 - DUET,2021,PUB,26397129,<p>A Study of JNJ-64304500 as Add-on Therapy in Participants with Active Crohn's Disease (DUET)</p>,<p>RCT</p>,<p>70</p>,"<p>Group 1- Standard of Care (SOC) Biological Therapy: Adalimumab: Participants will receive JNJ-64304500 Dose 1 or matching placebo subcutaneous (SC) injection as induction dose (Week 0) followed by JNJ-64304500 Dose 2 or matching placebo SC injection from Week 2 through Week 10 as maintenance dose in addition to adalimumab or its biosimilar as SOC therapy.</p>
+<p>Group 2: SOC Biological Therapy: Ustekinumab: Participants will receive JNJ-64304500 Dose 1 or matching placebo SC injection as induction dose (Week 0) followed by JNJ-64304500 Dose 2 or matching placebo SC injection from Week 2 through Week 10 as maintenance dose in addition to ustekinumab as SOC therapy.</p>","<p>Primary outcome: - Number of Participants with Adverse Events (AEs) and Treatment Emergent Adverse Events - Number of Participants with TEAEs by System Organ Class with a Frequency Threshold of 5 Percent (%) or More; Up to Week 26;&nbsp;</p>
+<p>Number of participants with TEAEs by system organ class with a frequency threshold of 5 % or more will be reported. -&nbsp;</p>
+<p>Number of Participants with Infections, Serious Infections and Infections Requiring Antimicrobial Treatment; Up to Week 26;&nbsp;</p>
+<p>Number of participants with infections, serious infections and infections requiring antimicrobial treatment will be reported. -&nbsp;</p>
+<p>Number of Participants with Clinically Significant Abnormalities in Vital Signs; Up to Week 26;&nbsp;</p>
+<p>&nbsp;Number of Participants with Clinically Significant Abnormalities in Laboratory Tests;Up to Week 26;&nbsp;</p>
+<p>Number of participants with clinically significant abnormalities in laboratory tests will be reported. - Number of Participants with AEs Leading to Treatment Discontinuation; Up to Week 26;&nbsp;</p>
+<p>&nbsp;Change from Baseline in the Crohn's Disease Activity Index (CDAI) Score at Week 12;&nbsp;</p>
+<p>Secondary outcome:- Percentage of Participants Achieving Clinical Response; Week 12; Percentage of participants achieving a clinical response as measured by CDAI score (including greater than or equal to [&gt;=] 50, &gt;=70, &gt;=100, and &gt;=150 point reduction from baseline in CDAI) will be reported. -&nbsp;</p>
+<p>Percentage of Participants Achieving Clinical Remission; Week 12; Percentage of participants achieving a clinical remission as measured by CDAI score (CDAI less than [&lt;] 150) will be reported. - Change from Baseline in the Simple Endoscopic Score for Crohn's disease (SES-CD) at Week 12; Baseline and Week 12; Change from baseline in the SES-CD score at Week 12 will be reported.&nbsp;</p>
+<p>&nbsp;Percentage of Participants Achieving an Endoscopic Response; Week 12; Percentage of participants achieving an endoscopic response defined as at least a 50% improvement from baseline in the SES-CD. - Percentage of Participants Achieving an Endoscopic Remission; Week 12; Percentage of participants achieving an endoscopic remission defined as an SESCD score less than or equal to (&lt;=) 2. - Change From Baseline in Abdominal Pain (AP); Baseline up to Week 12;&nbsp;</p>
+<p>&nbsp;Percentage of Participants Achieving Patient-Reported Outcome (PRO)-2 Remission; Week 12;&nbsp;</p>
+<p>Percentage of participants achieving a PRO-2 remission defined as AP mean daily score (AP component of the CDAI score) at or below 1 and stool frequency (SF) mean daily score at or below 3, that is, AP &lt;=1 and SF &lt;=3. - Serum Concentrations of JNJ-64304500; Up to Week 26; &nbsp;Number of Participants with Antibodies to JNJ-64304500; Up to Week 26; &nbsp;Number of Participants with Neutralizing Antibodies to JNJ-64304500; Up to Week 26; Number of participants receiving at least one dose of JNJ-64304500 with neutralizing antibodies to JNJ-64304500 will be summarized. - Change in Pharmacodynamics (PD) Biomarker Levels of C-Reactive Protein (CRP) from Baseline Compared with Placebo; Baseline, up to Week 26; Change in PD biomarker levels of CRP from baseline compared with placebo will be reported.&nbsp;</p>
+<p>- Change in PD Biomarker Levels of Fecal Calprotectin from Baseline Compared with Placebo; Baseline, up to Week 26;&nbsp;</p>
+<p>Change in PD biomarker levels of fecal calprotectin from baseline compared with placebo will be reported. - Change in PD Biomarker Levels of Fecal Lactoferrin from Baseline Compared with Placebo; Baseline, up to Week 26; Change in PD biomarker levels of fecal lactoferrin from baseline compared with placebo will be reported.</p>",<p>Registered on March 10 2021</p>,<p>Numaguchi Hirotaka - DL-JANJP-JCO_TL_TSG_EMP@its.jnj.com</p>,<p>Sponsor: Janssen Pharmaceutical K.K.</p>
+KCT0007470 - CHAMELEON,,PUB,26397131,<p>CHAMELEON</p>,<p>RCT</p>,<p>100</p>,"<p>Patients with Crohn's disease will given IV (intravenous) infliximab 5 mg/kg at week 0 and 2. Then, they will be treated with SC (subcutaneous) infliximab every other week. At week 30. patients will be allocated to one of 3 arms according to their response to SC infliximab. - Non-responder at week 30: Switched to infliximab IV 10 mg/kg every 8 weeks [Arm 1] - Responder at week 30 will be randomly (1:1) allocated to one of the following two arms: [Arm 2] Switched to infliximab IV 5 mg/kg every 8 weeks or [Arm 3] Continued infliximab SC 120 mg every other week</p>","<p>Primary</p>
+<p>Non-inferiority of Arm 3 compared with Arm 2 in terms of deep remission rate&nbsp;</p>
+<p>Secondary</p>
+<p>Non-inferiority of Arm 3 compared with Arm 1 in terms of deep remission rate&nbsp;</p>
+<p>Corticoseroid-free endoscopic remission rate of each arm</p>
+<p>Corticoseroid-free complete mucosal healing rate of each arm</p>
+<p>Corticoseroid-free clincal response rate of each arm</p>
+<p>Corticoseroid-free clincal remission rate of each arm</p>
+<p>Corticoseroid-free clincal biochemical remission rate of each arm</p>
+<p>Rate of anti-drug antiboty positivity</p>
+<p>Safety evaluation (adverse event, vital sign, and laboratory results)</p>",<p>30 September 2022</p>,<p>Celltrion / Asan Medical Center&nbsp;</p>,
+NCT03759288 - INTREPID,2018,PUB,26397133,<p>An Active and Placebo-Controlled Study of Brazikumab in Participants With Moderately to Severely Active Crohn's Disease (INTREPID)</p>,<p>RCT</p>,<p>928</p>,"<p>Experimental: (Stage 1) Brazikumab high dose: Intravenous Brazikumab on Days 1, 29, and 57, followed by subcutaneous Brazikumab on Day 85 and every 4 weeks through Week 48</p>
+<p>Experimental: (Stage 1) Brazikumab low dose: Intravenous Brazikumab on Days 1, 29, and 57, followed by subcutaneous Brazikumab on Day 85 and every 4 weeks through Week 48</p>
+<p>Placebo Comparator: (Stage 1) Placebo: Intravenous placebo on Days 1, 29, and 57, followed by subcutaneous placebo on Day 85 and every 4 weeks through Week 48</p>
+<p>Experimental: (Stage 2) Brazikumab high dose: Intravenous Brazikumab on Days 1, 29, and 57, followed by subcutaneous Brazikumab on Day 85 and every 4 weeks through Week 48</p>
+<p>Experimental: (Stage 2) Brazikumab low dose: Intravenous Brazikumab on Days 1, 29, and 57, followed by subcutaneous on Day 85 and every 4 weeks through Week 48</p>
+<p>Active Comparator: (Stage 2) Humira®: Administered subcutaneously on Day 1, Day 15, and Day 29 and every 2 weeks through Week 50</p>","<p><b>Primary Outcome Measures :</b></p>
+<p>Stage 1. Percentage of patients with CDAI remission [ Time Frame: at Week 12 ]</p>
+<p>Stage 2. Percentage of patients with endoscopic response [ Time Frame: at Week 52 ]</p>
+<p>Stage 2. Percentage of patients with clinical remission [ Time Frame: at Week 52 ]</p>
+<p>&nbsp;</p>
+<p><b>Secondary Outcome Measures:</b></p>
+<p>Stage 1. Percentage of patients with endoscopic response [ Time Frame: at Week 12 ]&nbsp;</p>
+<p>Stage 1. Percentage of patients with clinical remission [ Time Frame: at Week 12 ]</p>
+<p>Stage 1. Percentage of patients with CDAI response [ Time Frame: at Week 12 ]</p>
+<p>Stage 1. Percentage of patients with CDAI remission [ Time Frame: at both Week 12 and Week 52 ]</p>
+<p>Stage 1. Percentage of patients with CDAI response [ Time Frame: at both Week 12 and Week 52 ]</p>
+<p>Stage 1. Percentage of patients with endoscopic response [ Time Frame: at both Week 12 and Week 52 ]</p>
+<p>Stage 1. Percentage of patients with clinical remission [ Time Frame: at both Week 12 and Week 52 ]</p>
+<p>Stage 1. Percentage of patients with endoscopic remission [ Time Frame: at Week 52 ]</p>
+<p>Stage 1. Percentage of patients with clinical remission [ Time Frame: at Week 52 ]</p>
+<p>Stage 1. Percentage of patients with CDAI response [ Time Frame: at Week 52 ]</p>
+<p>Stage 1. Percentage of patients with CDAI remission [ Time Frame: at Week 52 ]</p>
+<p>Stage 1. Percentage of patients with endoscopic response [ Time Frame: at Week 52 ]</p>
+<p>Stage 1. Percentage of patients with SES-CD total score of 0-2 [ Time Frame: at Week 52 ]</p>
+<p>Stage 1. Percentage of patients with endoscopic response and endoscopic remission [ Time Frame: Endoscopic response at Week 12, endoscopic remission at Week 52 ]</p>
+<p>Stage 1. Serum concentration of brazikumab [ Time Frame: Through Week 68 ]</p>
+<p>Stage 1. Incidence of anti-drug antibodies [ Time Frame: Through Week 68 ]</p>
+<p>Stage 1. Exposure-response [ Time Frame: Through Week 68 ]</p>
+<p>Stage 1. Serum IL-22 concentration clinical cutoff for Stage 2 [ Time Frame: at Week 12 ]</p>
+<p>Stage 1. Number and percentage of patients with adverse events [ Time Frame: Through Week 68 ]</p>
+<p>Stage 1. Percentage of patients with potentially clinically significant changes in laboratory values [ Time Frame: Through Week 68 ]</p>
+<p>Stage 1. Percentage of patients with potentially clinically significant changes in vital signs [ Time Frame: Through Week 68 ]&nbsp;</p>
+<p>Stage 1. Percentage of patients with potentially clinically significant changes in physical exams [ Time Frame: Through Week 68 ]</p>
+<p>Stage 1. Percentage of patients with potentially clinically significant changes in ECGs [ Time Frame: Through Week 68 ]</p>
+<p>&nbsp;</p>
+<p>Stage 2. Percentage of patients with endoscopic response [ Time Frame: at both Week 12 and Week 52 ]</p>
+<p>Stage 2. Percentage of patients with clinical remission [ Time Frame: at both Week 12 and Week 52 ]</p>
+<p>Stage 2: Percentage of patients with endoscopic remission [ Time Frame: at Week 52 ]</p>
+<p>Stage 2. Percentage of patients with clinical remission [ Time Frame: at Week 52 ]</p>
+<p>Stage 2: Percentage of patients with CS-free endoscopic remission [ Time Frame: at Week 52 ]</p>
+<p>Stage 2. Percentage of patients with CS-free clinical remission [ Time Frame: at Week 52 ]</p>
+<p>Stage 2: Percentage of patients with CS-free endoscopic remission [ Time Frame: at Week 52 ]</p>
+<p>Stage 2: Percentage of patients with CS-free clinical remission [ Time Frame: at Week 52 ]</p>
+<p>Stage 2. Percentage of patients with endoscopic response [ Time Frame: at Week 12 ]</p>
+<p>Stage 2. Percentage of patients with clinical remission [ Time Frame: at Week 12 ]</p>
+<p>Stage 2. Percentage of patients with endoscopic response and endoscopic remission [ Time Frame: Endoscopic response at Week 12, endoscopic remission at Week 52 ]</p>
+<p>Stage 2. Percentage of patients with clinical remission [ Time Frame: at both Week 12 and Week 52 ]</p>
+<p>Stage 2. Percentage of patients achieving CS-free endoscopic response [ Time Frame: at Week 52 ]</p>
+<p>Stage 2. Percentage of patients with clinical remission [ Time Frame: at Week 52 ]</p>
+<p>Stage 2. Serum concentration of brazikumab [ Time Frame: Through Week 68 ]</p>
+<p>Stage 2. Incidence of anti-drug antibodies [ Time Frame: Through Week 68 ]</p>
+<p>Stage 2. Exposure-response [ Time Frame: Through Week 68 ]</p>
+<p>Stage 2. Number and percentage of patients with adverse events [ Time Frame: Through Week 68 ]</p>
+<p>Stage 2. Percentage of patients with potentially clinically significant changes in laboratory values [ Time Frame: Through Week 68 ]</p>
+<p>Stage 2. Percentage of patients with potentially clinically significant changes in vital signs [ Time Frame: Through Week 68 ]</p>
+<p>Stage 2. Percentage of patients with potentially clinically significant changes in physical exams [ Time Frame: Through Week 68 ]</p>
+<p>Stage 2. Percentage of patients with potentially clinically significant changes in ECGs [ Time Frame: Through Week 68 ]</p>",<p>7 December 2018</p>,<p>information.center@astrazeneca.com</p>,"<p>Estimated Study Completion Date :</p>
+<p>June 10, 2027</p>
+<p>Sponsor: AstraZeneca</p>"
+NCT05837897,2023,PUB,26397137,<p>A Study of Vedolizumab in Adult Participants With Moderate to Severe Crohn's Disease</p>,<p>RCT</p>,<p>408</p>,<p>Vedolizumab vs Placebo</p>,"<p>Primary: Percentage of Participants Achieving Clinical Response at Week 14</p>
+<p>Secondary: Percentage of Participants Achieving Clinical Remission at Week 14; Percentage of Participants Achieving Endoscopic Response at Week 14; Percentage of Participants Achieving Both Clinical Response and Endoscopic Response at Week 14; Percentage of Participants With Adverse Events (AEs), Serious Adverse Events (SAEs), Adverse Events of Special Interest (AESIs) and AEs Leading to Discontinuation; Percentage of Participants With Abnormal Change from Baseline in Vital Sign Values; Percentage of Participants With Abnormal Change from Baseline in Laboratory Values; Percentage of Participants With Abnormal Change from Baseline in Electrocardiogram (ECG) Values</p>",<p>16 June 2023</p>,,
+NCT06227910 (VICTRIVIA),2024,PUB,28881063,<p>VICTRIVA</p>,"<p>randomized, double-blind, controlled, phase 3b trial</p>",<p>396 patients (198 in Groups 1 and 2) will be enrolled globally</p>,<p>Vedolizumab + Upadacitinib vs Vedolizumab</p>,"<p>Co-primary endpoints will be CDAI clinical remission (score &lt; 150) and SES-CD endoscopic response ( &gt;50% score reduction) at W12. Key secondary endpoints include PRO2 clinical remission at W12, and CDAI clinical remission, SES-CD endoscopic response and PRO2 clinical remission at W52. Safety endpoints will include adverse events and adverse events of special interest.</p>",<p>February 2025</p>,<p>Takeda</p><p>Silvio Danese</p>,<p>Estimated study completion August 2028</p>

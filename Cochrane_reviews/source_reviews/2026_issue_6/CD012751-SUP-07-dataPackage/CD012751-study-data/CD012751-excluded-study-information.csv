@@ -1,0 +1,22 @@
+﻿Study,Year,Data source,ID: CRS,ID: DOI,Char: Reason for exclusion
+D'Haens 2022 (SERENE - Induction),,PUB,26396999,,<p>Wrong intervention (different regimens of the same biologic)</p>
+D'Haens 2022 (SERENE - Maintenance),,PUB,26397003,,<p>Wrong intervention (different regimens of the same biologic)</p>
+JPRN-UMIN000023735,2016,PUB,26397006,,<p>Wrong intervention (assessing treatment strategy)</p>
+JPRN-UMIN000024566,2016,PUB,26397008,,<p>Wrong intervention (dose escalation trial)</p>
+Mantzaris 2004,2004,PUB,26397010,,<p>Wrong intervention</p>
+Moroi 2024,,PUB,28881053,,<p>Wrong study design (Phase 2a Ustekinumab with Budesonide vs Ustekinumab)</p>
+NCT00409682,2007,PUB,26397015,,<p>Wrong intervention (all recieving biologics)</p>
+NCT03599622 (LATTICE-CD),,PUB,28881055,,<p>Wrong study design (Phase 2a -terminated due to lack of efficacy)</p>
+NCT04835506,2021,PUB,26397017,,<p>Wrong intervention (trough levels)</p>
+Oldenburg 2025 (LOVE-CD),,PUB,28881057,,<p>Wrong study design (not RCT)</p>
+Reinisch 2009 (CARE),2009,PUB,26397019,,<p>Wrong study type</p>
+Reinisch 2024,,PUB,28881059,,<p>Wrong population</p>
+Sandborn 2008 (Population 2),2008,PUB,26397021,,<p>Wrong intervention (different regimens of the same biologic)</p>
+Sandborn 2010b (WELCOME),2010,PUB,26397023,,<p>Wrong intervention (different regimens of the same biologic)</p>
+Sandborn 2020d (CELEST) - Maintenance,2020,PUB,26397035,,<p>Wrong intervention (different regimens of the same biologic)</p>
+Sandborn 2023 - BERGAMOT (cohort 2),,PUB,26397037,,<p>Wrong intervention (comparison of different regimens of the same biologic)</p>
+Schreiber 2021,2021,PUB,26397039,,<p>Wrong intervention (different regimens of the same biologic)</p>
+Schulberg 2022 (STRIDENT),2022,PUB,26397044,,<p>Wrong intervention</p>
+Schwartz 2021 - ENTERPRISE,2021,PUB,26397047,,<p>Wrong intervention (comparison of different regimens of the same biologic)</p>
+Vermeire 2024,,PUB,28881061,,<p>Wrong population</p>
+Wu 2016a,2016a,PUB,26397051,http://dx.doi.org/10.1097/01.MIB.0000480212.77049.85,<p>Wrong intervention (comparison of different regimens of the same biologic)</p>

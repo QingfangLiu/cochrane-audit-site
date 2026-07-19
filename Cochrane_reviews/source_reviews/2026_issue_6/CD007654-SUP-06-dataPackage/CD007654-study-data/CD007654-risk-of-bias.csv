@@ -1,0 +1,347 @@
+﻿Study,Domain (judgement): Random sequence generation (selection bias),Domain (support): Random sequence generation (selection bias),Domain (judgement): Allocation concealment (selection bias),Domain (support): Allocation concealment (selection bias),Domain (judgement): Blinding of participants and personnel (performance bias): Total mortality,Domain (support): Blinding of participants and personnel (performance bias): Total mortality,Domain (judgement): Blinding of participants and personnel (performance bias): Cardiovascular morbidity,Domain (support): Blinding of participants and personnel (performance bias): Cardiovascular morbidity,Domain (judgement): Blinding of participants and personnel (performance bias): Adverse events,Domain (support): Blinding of participants and personnel (performance bias): Adverse events,Domain (judgement): Blinding of participants and personnel (performance bias): Blood pressure,Domain (support): Blinding of participants and personnel (performance bias): Blood pressure,Domain (judgement): Blinding of participants and personnel (performance bias): Body weight,Domain (support): Blinding of participants and personnel (performance bias): Body weight,Domain (judgement): Blinding of outcome assessment (detection bias): Total mortality,Domain (support): Blinding of outcome assessment (detection bias): Total mortality,Domain (judgement): Blinding of outcome assessment (detection bias): Cardiovascular morbidity,Domain (support): Blinding of outcome assessment (detection bias): Cardiovascular morbidity,Domain (judgement): Blinding of outcome assessment (detection bias): Adverse events,Domain (support): Blinding of outcome assessment (detection bias): Adverse events,Domain (judgement): Blinding of outcome assessment (detection bias): Blood pressure,Domain (support): Blinding of outcome assessment (detection bias): Blood pressure,Domain (judgement): Blinding of outcome assessment (detection bias): Body weight,Domain (support): Blinding of outcome assessment (detection bias): Body weight,Domain (judgement): Incomplete outcome data (attrition bias): Total mortality,Domain (support): Incomplete outcome data (attrition bias): Total mortality,Domain (judgement): Incomplete outcome data (attrition bias): Cardiovascular morbidity,Domain (support): Incomplete outcome data (attrition bias): Cardiovascular morbidity,Domain (judgement): Incomplete outcome data (attrition bias): Adverse events,Domain (support): Incomplete outcome data (attrition bias): Adverse events,Domain (judgement): Incomplete outcome data (attrition bias): Blood pressure,Domain (support): Incomplete outcome data (attrition bias): Blood pressure,Domain (judgement): Incomplete outcome data (attrition bias): Body weight,Domain (support): Incomplete outcome data (attrition bias): Body weight,Domain (judgement): Selective reporting (reporting bias),Domain (support): Selective reporting (reporting bias),Domain (judgement): Other bias,Domain (support): Other bias
+Bakris 2002,Unclear risk,<p><u><i>Comment:</i></u> No details on sequence generation are provided</p>,Unclear risk,<p><u><i>Comment:</i></u> Method of concealment is not described</p>,Low risk,"<p><u><i>Quote:</i></u> “We conducted a randomised, double-blind, placebo-controlled study…”</p>",Unclear risk,"<p><i><u>Quote:</u></i> “We conducted a randomised, double-blind, placebo-controlled study…”</p><p><i><u>Comment:</u></i> No indication that blinding of participants and key study personnel were not broken. As the studies also included patient-reported outcomes, in the case of non-blinding it could be influenced by the assessors, who are either patients or practitioners.&nbsp;</p>",Unclear risk,"<p><i><u>Quote:</u></i> “We conducted a randomised, double-blind, placebo-controlled study…”</p><p><i><u>Comment:</u></i> No indication that blinding of participants and key study personnel were not broken</p>",Unclear risk,"<p><u><i>Quote:</i></u> “We conducted a randomised, double-blind, placebo-controlled study…”</p>
+<p><u><i>Comment:</i></u> No indication that blinding of participants and key study personnel were not broken</p>",Unclear risk,"<p><u><i>Quote:</i></u> “We conducted a randomised, double-blind, placebo-controlled study…”</p>
+<p><u><i>Comment:</i></u> No indication that blinding of participants and key study personnel were not broken</p>",Low risk,"<p><u><i>Quote:</i></u> “We conducted a randomised, double-blind, placebo-controlled study…”</p>
+<p><u><i>Comment:</i></u> Investigator assessed</p>",Unclear risk,"<p><i><u>Quote:</u></i> “We conducted a randomised, double-blind, placebo-controlled study…”</p><p><i><u>Comment:</u></i> Investigator assessed or self-reported; no indication that blinding of participants and key study personnel were not broken. As the studies also included patient-reported outcomes, in the case of non-blinding it could be influenced by the assessors, who are either patients or practitioners.&nbsp;</p>",Unclear risk,"<p><i><u>Quote:</u></i> “We conducted a randomised, double-blind, placebo-controlled study…”</p><p><i><u>Comment:</u></i> Investigator assessed or self-reported; no indication that blinding of participants and key study personnel were not broken</p>",Unclear risk,"<p><u><i>Quote:</i></u> “We conducted a randomised, double-blind, placebo-controlled study…”</p>
+<p><u><i>Comment:</i></u> Investigator assessed; no indication that blinding of key study personnel was not broken</p>",Unclear risk,"<p><u><i>Quote:</i></u> “We conducted a randomised, double-blind, placebo-controlled study…”</p>
+<p><u><i>Comment:</i></u> Investigator assessed; no indication that blinding of key study personnel was not broken</p>",Low risk,"<p><u><i>Quote:</i></u> ""... statistical analyses were performed on an ITT basis ...""</p>
+<p><u><i>Comment: </i></u>Last observation was carried forward and reasons and description for withdrawals are provided</p>
+<p>Withdrawals: and reasons/descriptions (orlistat vs placebo):</p>
+<p>116 vs 168 (orlistat vs placebo)</p>
+<ul>
+ <li>adverse events: 18 vs 20</li>
+ <li>refused treatment: 40 vs 91</li>
+ <li>lost to follow-up: 48 vs 47</li>
+ <li>other: 8 vs 9</li>
+ <li>excluded: 2 vs 1</li>
+</ul>",High risk,"<p><i><u>Quote:</u></i> ""... statistical analyses were performed on an ITT basis ...""</p>
+<p><i><u>Comment: </u></i>Last observation was carried forward and reasons and description for withdrawals are provided</p>
+<p>Withdrawals: and reasons/descriptions (orlistat vs placebo):</p>
+<p>116 vs 168 (orlistat vs placebo)</p>
+<ul>
+ <li>adverse events: 18 vs 20</li>
+ <li>refused treatment: 40 vs 91</li>
+ <li>lost to follow-up: 48 vs 47</li>
+ <li>other: 8 vs 9</li>
+ <li>excluded: 2 vs 1</li>
+</ul>
+<p>Cardiovascular morbidity was reported only in the context of adverse events. The completeness of the information is unclear.</p>",Low risk,"<p><u><i>Quote:</i></u> ""... statistical analyses were performed on an ITT basis ...""</p>
+<p><u><i>Comment: </i></u>Last observation was carried forward and reasons and description for withdrawals are provided</p>
+<p>Withdrawals: and reasons/descriptions (orlistat vs placebo):</p>
+<p>116 vs 168 (orlistat vs placebo)</p>
+<p>· adverse events: 18 vs 20</p>
+<p>· refused treatment: 40 vs 91</p>
+<p>· lost to follow-up: 48 vs 47</p>
+<p>· other: 8 vs 9</p>
+<p>· excluded: 2 vs 1</p>",Low risk,"<p><u><i>Quote:</i></u> ""... statistical analyses were performed on an ITT basis ...""</p>
+<p>Last observation was carried forward and reasons and description for withdrawals are provided</p>
+<p><u><i>Comment:</i></u></p>
+<p>Withdrawals: and reasons/descriptions (orlistat vs placebo):</p>
+<p>116 vs 168 (orlistat vs placebo)</p>
+<ul>
+ <li>adverse events: 18 vs 20</li>
+ <li>refused treatment: 40 vs 91</li>
+ <li>lost to follow-up: 48 vs 47</li>
+ <li>other: 8 vs 9</li>
+ <li>excluded: 2 vs 1</li>
+</ul>",Low risk,"<p><u><i>Quote:</i></u> ""... statistical analyses were performed on an ITT basis ...""</p>
+<p><u><i>Comment: </i></u>Last observation was carried forward and reasons and description for withdrawals are provided</p>
+<p>Withdrawals: and reasons/descriptions (orlistat vs placebo):</p>
+<p>116 vs 168 (orlistat vs placebo)</p>
+<ul>
+ <li>adverse events: 18 vs 20</li>
+ <li>refused treatment: 40 vs 91</li>
+ <li>lost to follow-up: 48 vs 47</li>
+ <li>other: 8 vs 9</li>
+ <li>excluded: 2 vs 1</li>
+</ul>",Unclear risk,"<p><u><i>Comment:</i></u> No study protocol, outcomes reported that were not prespecified (e.g. systolic blood pressure).</p>",High risk,"<p><i><u>Comment:</u></i> The trial was sponsored by Roche Laboratories, New Jersey, USA.</p><p>The combination of a high withdrawal rate and the unknown duration of participation in the trial increases risk of bias even using the LOCF analysis. There are inconsistencies between text and flowchart for numbers of participants who finished the study.</p>"
+Cocco 2005,Low risk,"<p><u><i>Quote:</i></u> ""To ensure that each group would contain approximately equal numbers of risk factors, stratified randomisation was used with an algorithm generated from a random set of numbers.""</p>",Unclear risk,<p><u><i>Comment:</i></u> Method of concealment is not described</p>,Low risk,"<p><u><i>Comment:</i></u> Authors’ reply gave further detailed information that participants, study personnel, and outcome assessors were blinded.</p>",Not applicable,,Unclear risk,"<p><i><u>Comment:</u></i> Authors’ reply gave further detailed information that participants, study personnel, and outcome assessors were blinded. No indication that blinding of participants and key study personnel were not broken</p>",Unclear risk,"<p><u><i>Comment:</i></u> Authors’ reply gave further detailed information that participants, study personnel, and outcome assessors were blinded. No indication that blinding of participants and key study personnel were not broken</p>",Unclear risk,"<p><u><i>Comment:</i></u> Authors’ reply gave further detailed information that participants, study personnel, and outcome assessors were blinded. No indication that blinding of participants and key study personnel were not broken</p>",Low risk,"<p><u><i>Comment:</i></u> Authors’ reply gave further detailed information that participants, study personnel, and outcome assessors were blinded. Investigator assessed</p>",Not applicable,,Unclear risk,"<p><u><i>Comment:</i></u> Authors’ reply gave further detailed information that participants, study personnel, and outcome assessors were blinded. Investigator assessed or self-reported; no indication that blinding of participants and key study personnel were not broken</p>",Unclear risk,"<p><u><i>Comment:</i></u> Authors’ reply gave further detailed information that participants, study personnel, and outcome assessors were blinded. Investigator assessed; no indication that blinding of key study personnel was not broken</p>",Unclear risk,"<p><u><i>Comment:</i></u> Authors’ reply gave further detailed information that participants, study personnel, and outcome assessors were blinded. Investigator assessed; no indication that blinding of key study personnel was not broken</p>",Low risk,"<p><u><i>Quote: </i></u>“All 90 patients completed the trial”</p>
+<p><u><i>Comment:</i></u> No missing outcome data</p>",Not applicable,,Low risk,"<p><u><i>Quote: </i></u>“All 90 patients completed the trial”</p>
+<p><u><i>Comment:</i></u> No missing outcome data</p>",Low risk,"<p><u><i>Quote: </i></u>“All 90 patients completed the trial”</p>
+<p><u><i>Comment:</i></u> No missing outcome data</p>",Low risk,"<p><u><i>Quote: </i></u>“All 90 patients completed the trial”</p>
+<p><u><i>Comment:</i></u> No missing outcome data</p>",Unclear risk,"<p><u><i>Comment:</i></u> No study protocol or reporting on prespecified endpoint, no primary endpoint reported</p>",Low risk,"<p><i><u>Comment:</u></i> No sponsor information available. No indication that the study was commercially funded.</p><p>Small inconsistencies between changes in body weight reported in the table and text in comparison with changes in body weight calculated from ""baseline"" and ""after therapy"" measures reported in the table</p>"
+CONQUER 2013,Low risk,"<p><u><i>Quote:</i></u> ""... used a computer-generated algorithm that was implemented through an interactive voice response system to assign patients according to the random allocation sequence, with a block size of eight.""</p>",Low risk,<p><u><i>Comment:</i></u> Central allocation</p>,Low risk,"<p><u><i>Quote:</i></u> “…a randomised, double-blind, placebo controlled study…”. “Study drugs were administered as capsules that were identical in size and appearance. Investigators, patients, and study sponsors were masked to treatment assignment.”</p>",Low risk,"<p><u><i>Quote:</i></u> “…a randomised, double-blind, placebo controlled study…”. “Study drugs were administered as capsules that were identical in size and appearance. Investigators, patients, and study sponsors were masked to treatment assignment.”</p>",Low risk,"<p><u><i>Quote:</i></u> “…a randomised, double-blind, placebo controlled study…”. “Study drugs were administered as capsules that were identical in size and appearance. Investigators, patients, and study sponsors were masked to treatment assignment.”</p>",Low risk,"<p><u><i>Quote:</i></u> “…a randomised, double-blind, placebo controlled study…”. “Study drugs were administered as capsules that were identical in size and appearance. Investigators, patients, and study sponsors were masked to treatment assignment.”</p>",Low risk,"<p><u><i>Quote:</i></u> “…a randomised, double-blind, placebo controlled study…”. “Study drugs were administered as capsules that were identical in size and appearance. Investigators, patients, and study sponsors were masked to treatment assignment.”</p>",Low risk,"<p><u><i>Quote:</i></u> “…a randomised, double-blind, placebo controlled study…”. “Study drugs were administered as capsules that were identical in size and appearance. Investigators, patients, and study sponsors were masked to treatment assignment.”</p>
+<p><u><i>Comment:</i></u> Investigator assessed</p>",Low risk,"<p><u><i>Quote:</i></u> “…a randomised, double-blind, placebo controlled study…”. “Study drugs were administered as capsules that were identical in size and appearance. Investigators, patients, and study sponsors were masked to treatment assignment.”</p>
+<p><u><i>Comment:</i></u> Investigator assessed or self-reported</p>",Low risk,"<p><u><i>Quote:</i></u> “…a randomised, double-blind, placebo controlled study…”. “Study drugs were administered as capsules that were identical in size and appearance. Investigators, patients, and study sponsors were masked to treatment assignment.”</p>
+<p><u><i>Comment:</i></u> Investigator assessed or self-reported</p>",Low risk,"<p><u><i>Quote:</i></u> “…a randomised, double-blind, placebo controlled study…”. “Study drugs were administered as capsules that were identical in size and appearance. Investigators, patients, and study sponsors were masked to treatment assignment.”</p>
+<p><u><i>Comment:</i></u> Investigator assessed</p>",Low risk,"<p><u><i>Quote:</i></u> “…a randomised, double-blind, placebo controlled study…”. “Study drugs were administered as capsules that were identical in size and appearance. Investigators, patients, and study sponsors were masked to treatment assignment.”</p>
+<p><u><i>Comment:</i></u> Investigator assessed</p>",Unclear risk,"<p><u><i>Quote:</i></u> ""The primary analyses were done on the intention-to-treat sample, consisting of all patients who were randomly assigned, took at least one dose of the study drug or placebo, and had one post baseline bodyweight measurement.""</p>
+<p><u><i>Comment:</i></u></p>
+<p>Withdrawals and reasons/descriptions:</p>
+<p>Total number of withdrawals and reasons only reported for the whole study population having hypertension, dyslipidaemia, diabetes or prediabetes, or abdominal obesity</p>
+<p>Phen/Top – low dose vs Phen/Top – high dose vs placebo:</p>
+<p>30.9% vs 36.2% vs 43.2%</p>
+<ul>
+ <li>lost to follow-up: 41 vs 62 vs 126</li>
+ <li>adverse events: 58 vs 192 vs 89</li>
+ <li>withdrew consent: 34 vs 69 vs 139</li>
+ <li>lack of efficacy: 3 vs 5 vs 39</li>
+ <li>need restricted drugs: 5 vs 6 vs 14</li>
+ <li>protocol violations: 3 vs 10 vs 6</li>
+ <li>other: 9 vs 14 vs 16</li>
+</ul>
+<p>Hypertensive subgroup:</p>
+<ul>
+ <li>adverse events: 31 vs 103 vs 51</li>
+</ul>",High risk,"<p><i><u>Quote:</u></i> ""The primary analyses were done on the intention-to-treat sample, consisting of all patients who were randomly assigned, took at least one dose of the study drug or placebo, and had one post baseline bodyweight measurement.""</p>
+<p><i><u>Comment:</u></i></p>
+<p>Withdrawals and reasons/descriptions:</p>
+<p>Total number of withdrawals and reasons only reported for the whole study population having hypertension, dyslipidaemia, diabetes or prediabetes, or abdominal obesity</p>
+<p>Phen/Top – low dose vs Phen/Top – high dose vs placebo:</p>
+<p>30.9% vs 36.2% vs 43.2%</p>
+<ul>
+ <li>lost to follow-up: 41 vs 62 vs 126</li>
+ <li>adverse events: 58 vs 192 vs 89</li>
+ <li>withdrew consent: 34 vs 69 vs 139</li>
+ <li>lack of efficacy: 3 vs 5 vs 39</li>
+ <li>need restricted drugs: 5 vs 6 vs 14</li>
+ <li>protocol violations: 3 vs 10 vs 6</li>
+ <li>other: 9 vs 14 vs 16</li>
+</ul>
+<p>Hypertensive subgroup:</p>
+<ul>
+ <li>adverse events: 31 vs 103 vs 51</li>
+</ul>
+<p>Cardiovascular morbidity was reported only in the context of adverse events. The completeness of the information is unclear.</p>",Unclear risk,"<p><u><i>Quote:</i></u> ""The primary analyses were done on the intention-to-treat sample, consisting of all patients who were randomly assigned, took at least one dose of the study drug or placebo, and had one post baseline bodyweight measurement.""</p>
+<p><u><i>Comment:</i></u></p>
+<p>Withdrawals and reasons/descriptions:</p>
+<p>Total number of withdrawals and reasons only reported for the whole study population having hypertension, dyslipidaemia, diabetes or prediabetes, or abdominal obesity</p>
+<p>Phen/Top – low dose vs Phen/Top – high dose vs placebo:</p>
+<p>30.9% vs 36.2% vs 43.2%</p>
+<ul>
+ <li>lost to follow-up: 41 vs 62 vs 126</li>
+ <li>adverse events: 58 vs 192 vs 89</li>
+ <li>withdrew consent: 34 vs 69 vs 139</li>
+ <li>lack of efficacy: 3 vs 5 vs 39</li>
+ <li>need restricted drugs: 5 vs 6 vs 14</li>
+ <li>protocol violations: 3 vs 10 vs 6</li>
+ <li>other: 9 vs 14 vs 16</li>
+</ul>
+<p>Hypertensive subgroup:</p>
+<ul>
+ <li>adverse events: 31 vs 103 vs 51</li>
+</ul>",Unclear risk,"<p><u><i>Quote:</i></u> ""The primary analyses were done on the intention-to-treat sample, consisting of all patients who were randomly assigned, took at least one dose of the study drug or placebo, and had one post baseline bodyweight measurement.""</p>
+<p><u><i>Comment:</i></u></p>
+<p>Withdrawals and reasons/descriptions:</p>
+<p>Total number of withdrawals and reasons only reported for the whole study population having hypertension, dyslipidaemia, diabetes or prediabetes, or abdominal obesity</p>
+<p>Phen/Top – low dose vs Phen/Top – high dose vs placebo:</p>
+<p>30.9% vs 36.2% vs 43.2%</p>
+<ul>
+ <li>lost to follow-up: 41 vs 62 vs 126</li>
+ <li>adverse events: 58 vs 192 vs 89</li>
+ <li>withdrew consent: 34 vs 69 vs 139</li>
+ <li>lack of efficacy: 3 vs 5 vs 39</li>
+ <li>need restricted drugs: 5 vs 6 vs 14</li>
+ <li>protocol violations: 3 vs 10 vs 6</li>
+ <li>other: 9 vs 14 vs 16</li>
+</ul>
+<p>Hypertensive subgroup:</p>
+<ul>
+ <li>adverse events: 31 vs 103 vs 51</li>
+</ul>",Unclear risk,"<p><u><i>Quote:</i></u> ""The primary analyses were done on the intention-to-treat sample, consisting of all patients who were randomly assigned, took at least one dose of the study drug or placebo, and had one post baseline bodyweight measurement.""</p>
+<p><u><i>Comment:</i></u></p>
+<p>Withdrawals and reasons/descriptions:</p>
+<p>Total number of withdrawals and reasons only reported for the whole study population having hypertension, dyslipidaemia, diabetes or prediabetes, or abdominal obesity</p>
+<p>Phen/Top – low dose vs Phen/Top – high dose vs placebo:</p>
+<p>30.9% vs 36.2% vs 43.2%</p>
+<ul>
+ <li>lost to follow-up: 41 vs 62 vs 126</li>
+ <li>adverse events: 58 vs 192 vs 89</li>
+ <li>withdrew consent: 34 vs 69 vs 139</li>
+ <li>lack of efficacy: 3 vs 5 vs 39</li>
+ <li>need restricted drugs: 5 vs 6 vs 14</li>
+ <li>protocol violations: 3 vs 10 vs 6</li>
+ <li>other: 9 vs 14 vs 16</li>
+</ul>
+<p>Hypertensive subgroup:</p>
+<ul>
+ <li>adverse events: 31 vs 103 vs 51</li>
+</ul>",Unclear risk,<p><u><i>Comment:</i></u> No study protocol provided</p>,Unclear risk,"<p><i><u>Comment:</u></i> The trial was sponsored by VIVUS Inc., Mountain View (CA) USA.&nbsp;</p>"
+Guy-Grand 2004,Low risk,"<p><u><i>Quote:</i></u> ""Randomization was performed by a centralized procedure in which patients were stratified by both centre and comorbidity. According to minimization procedure, patients were randomised to ensure that treatment groups were well balanced by both centre and by concomitant disease. Patients who met the inclusion criteria for more than one group were assigned to the group that the investigator considered to be the most important treatment objective for weight loss.""</p>",Low risk,<p><u><i>Comment:</i></u> Central allocation</p>,Not applicable,,Not applicable,,Not applicable,,Unclear risk,"<p><u><i>Quote:</i></u> “... randomised, double-blind, placebo controlled, parallel-group study...”</p>
+<p><u><i>Comment:</i></u> no indication that blinding of participants and key study personnel were not broken</p>",Unclear risk,"<p><u><i>Quote:</i></u> “... randomised, double-blind, placebo controlled, parallel-group study...”</p>
+<p><u><i>Comment:</i></u> no indication that blinding of participants and key study personnel were not broken</p>",Not applicable,,Not applicable,,Not applicable,,Unclear risk,"<p><u><i>Quote:</i></u> “... randomised, double-blind, placebo controlled, parallel-group study...”</p>
+<p><u><i>Comment:</i></u> Investigator assessed; no indication that blinding of key study personnel was not broken</p>",Unclear risk,"<p><u><i>Quote:</i></u> “... randomised, double-blind, placebo controlled, parallel-group study...”</p>
+<p><u><i>Comment:</i></u> Investigator assessed; no indication that blinding of key study personnel was not broken</p>",Not applicable,,Not applicable,,Not applicable,,Unclear risk,"<p><u><i>Quote:</i></u> ""Efficacy was assessed on an intent-to-treat (ITT) basis. The ITT population included all randomised patients and the safety population consisted of all randomised patients who had received at least one dose of study treatment. Principal criteria missing at six months were replaced by the last-measured value (last observation carried forward, LOCF).""</p>
+<p><u><i>Comment: </i></u></p>
+<p>Withdrawals or lost to follow-up / reasons/descriptions:</p>
+<p>Only reported for the whole study population, which had diabetes type 2, hypertension, or hypercholesterolaemia.</p>
+<p>Orlistat vs placebo: 8.4% vs 9.3%</p>
+<p>adverse events: 19 vs 13</p>
+<ul>
+ <li>adverse events: 19 vs 13</li>
+ <li>lack of efficacy: 2 vs 11</li>
+ <li>withdrew consent: 10 vs 7</li>
+ <li>lost to follow-up: 5 vs 5</li>
+ <li>poor compliance: 2 vs 1</li>
+ <li>protocol violations: 1 vs 1</li>
+ <li>other: 3 vs 9</li>
+</ul>",Unclear risk,"<p><u><i>Quote:</i></u> ""Efficacy was assessed on an intent-to-treat (ITT) basis. The ITT population included all randomised patients and the safety population consisted of all randomised patients who had received at least one dose of study treatment. Principal criteria missing at six months were replaced by the last-measured value (last observation carried forward, LOCF).""</p>
+<p><u><i>Comment: </i></u></p>
+<p>Withdrawals or lost to follow-up / reasons/descriptions:</p>
+<p>Only reported for the whole study population, which had diabetes type 2, hypertension, or hypercholesterolaemia.</p>
+<p>Orlistat vs placebo: 8.4% vs 9.3%</p>
+<ul>
+ <li>adverse events: 19 vs 13</li>
+ <li>lack of efficacy: 2 vs 11</li>
+ <li>withdrew consent: 10 vs 7</li>
+ <li>lost to follow-up: 5 vs 5</li>
+ <li>poor compliance: 2 vs 1</li>
+ <li>protocol violations: 1 vs 1</li>
+ <li>other: 3 vs 9</li>
+</ul>",Unclear risk,<p><u><i>Comment:</i></u> No study protocol</p>,Unclear risk,"<p><i><u>Comment:</u></i> The trial was sponsored by Roche Pharma, Paris, France.</p>"
+Nissen 2016,Low risk,<p><u><i>Quote: </i></u>“Randomization occurred via an interactive voice recognition system using a permuted block size of 4 with no stratification factors.”</p>,Low risk,<p><u><i>Comment: </i></u>Central allocation</p>,Low risk,"<p><u><i>Quote:</i></u> “The study was a phase 3b, multicenter, randomized, double-blind, placebo-controlled trial …”</p>",Unclear risk,"<p><i><u>Quote:</u></i> “The study was a phase 3b, multicenter, randomized, double-blind, placebo-controlled trial …”</p><p><i><u>Comment:</u></i> No indication that blinding of participants and key study personnel were not broken</p>",Unclear risk,"<p><u><i>Quote:</i></u> “The study was a phase 3b, multicenter, randomized, double-blind, placebo-controlled trial …”</p>
+<p><u><i>Comment:</i></u> No indication that blinding of participants and key study personnel were not broken</p>",Unclear risk,"<p><u><i>Quote:</i></u> “The study was a phase 3b, multicenter, randomized, double-blind, placebo-controlled trial …”</p>
+<p><u><i>Comment:</i></u> No indication that blinding of participants and key study personnel were not broken</p>",Unclear risk,"<p><u><i>Quote:</i></u> “The study was a phase 3b, multicenter, randomized, double-blind, placebo-controlled trial …”</p>
+<p><u><i>Comment:</i></u> No indication that blinding of participants and key study personnel were not broken</p>",Low risk,"<p><u><i>Quote:</i></u> “A blinded independent clinical events committee at the Cleveland Clinic Center for Clinical Research adjudicated clinical outcomes, including cardiovascular death, nonfatal myocardial infarction, nonfatal stroke, hospitalization for unstable angina, and all-cause mortality.”</p>",Low risk,"<p><u><i>Quote:</i></u> “A blinded independent clinical events committee at the Cleveland Clinic Center for Clinical Research adjudicated clinical outcomes, including cardiovascular death, nonfatal myocardial infarction, nonfatal stroke, hospitalization for unstable angina, and all-cause mortality.”</p>",Unclear risk,"<p><u><i>Quote:</i></u> “The study was a phase 3b, multicenter, randomized, double-blind, placebo-controlled trial …”</p>
+<p><u><i>Comment:</i></u> Investigator assessed or self-reported; no indication that blinding of participants and key study personnel were not broken.</p>",Unclear risk,"<p><u><i>Quote:</i></u> “The study was a phase 3b, multicenter, randomized, double-blind, placebo-controlled trial …”</p>
+<p><u><i>Comment:</i></u> Investigator assessed or self-reported; no indication that blinding of participants and key study personnel were not broken.</p>",Unclear risk,"<p><u><i>Quote:</i></u> “The study was a phase 3b, multicenter, randomized, double-blind, placebo-controlled trial …”</p>
+<p><u><i>Comment:</i></u> Investigator assessed or self-reported; no indication that blinding of participants and key study personnel were not broken.</p>",Unclear risk,"<p><u><i>Quote:</i></u> “The primary analyses were performed for the intention-to-treat (ITT) population, defined as patients who underwent randomization into the treatment period and were dispensed study medication. No imputation was performed for missing data. Analyses were also performed for an “on-treatment” population, defined as ITT patients who took at least 1 dose of study medication, with censoring of events occurring more than 30 days after a patient’s last confirmed dose of study medication.”</p>
+<p><u><i>Comment:</i></u></p>
+<p>Withdrawals: and reasons/descriptions (naltrexone/bupropion vs placebo):</p>
+<p>4455 vs 4450 (naltrexone/bupropion vs placebo):</p>
+<ul>
+ <li>adverse events: 1309 vs 405</li>
+ <li>refused treatment: 944 vs 1097</li>
+ <li>lost to follow-up: 448 vs 455</li>
+ <li>did not meet treatment continuation criteria: 634 vs 1808</li>
+ <li>protocol deviation: 22 vs 34</li>
+ <li>sponsor decision: 19 vs 28</li>
+ <li>not treated: 1 vs 4</li>
+ <li>other: 175 vs 151</li>
+ <li>unknown: 5 vs 1</li>
+ <li>revoked contact with primary care physician or designated contact: 193 vs 192</li>
+</ul>
+<p>Number of withdrawals and reasons only reported for the whole study population which had hypertension, diabetes type 2 and/or dyslipidemia.</p>",High risk,"<p><u><i>Quote:</i></u> “The primary analyses were performed for the intention-to-treat (ITT) population, defined as patients who underwent randomization into the treatment period and were dispensed study medication. No imputation was performed for missing data. Analyses were also performed for an “on-treatment” population, defined as ITT patients who took at least 1 dose of study medication, with censoring of events occurring more than 30 days after a patient’s last confirmed dose of study medication.”</p>
+<p><u><i>Comment:</i></u></p>
+<p>The cardiovascular safety of naltrexone-bupropion remains inconclusive following publication of the final results for the prematurely terminated outcomes study; only 50% of the planned number of cardiovascular events were reported.</p>
+<p>Withdrawals: and reasons/descriptions (naltrexone/bupropion vs placebo):</p>
+<p>4455 vs 4450 (naltrexone/bupropion vs placebo):</p>
+<ul>
+ <li>adverse events: 1309 vs 405</li>
+ <li>refused treatment: 944 vs 1097</li>
+ <li>lost to follow-up: 448 vs 455</li>
+ <li>did not meet treatment continuation criteria: 634 vs 1808</li>
+ <li>protocol deviation: 22 vs 34</li>
+ <li>sponsor decision: 19 vs 28</li>
+ <li>not treated: 1 vs 4</li>
+ <li>other: 175 vs 151</li>
+ <li>unknown: 5 vs 1</li>
+ <li>revoked contact with primary care physician or designated contact: 193 vs 192</li>
+</ul>
+<p>Number of withdrawals and reasons only reported for the whole study population which had hypertension, diabetes type 2 and/or dyslipidemia.</p>",Unclear risk,"<p><u><i>Quote:</i></u> “The primary analyses were performed for the intention-to-treat (ITT) population, defined as patients who underwent randomization into the treatment period and were dispensed study medication. No imputation was performed for missing data. Analyses were also performed for an “on-treatment” population, defined as ITT patients who took at least 1 dose of study medication, with censoring of events occurring more than 30 days after a patient’s last confirmed dose of study medication.”</p>
+<p><u><i>Comment:</i></u></p>
+<p>Withdrawals: and reasons/descriptions (naltrexone/bupropion vs placebo):</p>
+<p>4455 vs 4450 (naltrexone/bupropion vs placebo):</p>
+<ul>
+ <li>adverse events: 1309 vs 405</li>
+ <li>refused treatment: 944 vs 1097</li>
+ <li>lost to follow-up: 448 vs 455</li>
+ <li>did not meet treatment continuation criteria: 634 vs 1808</li>
+ <li>protocol deviation: 22 vs 34</li>
+ <li>sponsor decision: 19 vs 28</li>
+ <li>not treated: 1 vs 4</li>
+ <li>other: 175 vs 151</li>
+ <li>unknown: 5 vs 1</li>
+ <li>revoked contact with primary care physician or designated contact: 193 vs 192</li>
+</ul>
+<p>Number of withdrawals and reasons only reported for the whole study population which had hypertension, diabetes type 2 and/or dyslipidemia.</p>",Unclear risk,"<p><u><i>Quote:</i></u> “The primary analyses were performed for the intention-to-treat (ITT) population, defined as patients who underwent randomization into the treatment period and were dispensed study medication. No imputation was performed for missing data. Analyses were also performed for an “on-treatment” population, defined as ITT patients who took at least 1 dose of study medication, with censoring of events occurring more than 30 days after a patient’s last confirmed dose of study medication.”</p>
+<p><u><i>Comment:</i></u></p>
+<p>Withdrawals: and reasons/descriptions (naltrexone/bupropion vs placebo):</p>
+<p>4455 vs 4450 (naltrexone/bupropion vs placebo):</p>
+<ul>
+ <li>adverse events: 1309 vs 405</li>
+ <li>refused treatment: 944 vs 1097</li>
+ <li>lost to follow-up: 448 vs 455</li>
+ <li>did not meet treatment continuation criteria: 634 vs 1808</li>
+ <li>protocol deviation: 22 vs 34</li>
+ <li>sponsor decision: 19 vs 28</li>
+ <li>not treated: 1 vs 4</li>
+ <li>other: 175 vs 151</li>
+ <li>unknown: 5 vs 1</li>
+ <li>revoked contact with primary care physician or designated contact: 193 vs 192</li>
+</ul>
+<p>Number of withdrawals and reasons only reported for the whole study population which had hypertension, diabetes type 2 and/or dyslipidemia.</p>",Unclear risk,"<p><u><i>Quote:</i></u> “The primary analyses were performed for the intention-to-treat (ITT) population, defined as patients who underwent randomization into the treatment period and were dispensed study medication. No imputation was performed for missing data. Analyses were also performed for an “on-treatment” population, defined as ITT patients who took at least 1 dose of study medication, with censoring of events occurring more than 30 days after a patient’s last confirmed dose of study medication.”</p>
+<p><u><i>Comment:</i></u></p>
+<p>Withdrawals: and reasons/descriptions (naltrexone/bupropion vs placebo):</p>
+<p>4455 vs 4450 (naltrexone/bupropion vs placebo):</p>
+<ul>
+ <li>adverse events: 1309 vs 405</li>
+ <li>refused treatment: 944 vs 1097</li>
+ <li>lost to follow-up: 448 vs 455</li>
+ <li>did not meet treatment continuation criteria: 634 vs 1808</li>
+ <li>protocol deviation: 22 vs 34</li>
+ <li>sponsor decision: 19 vs 28</li>
+ <li>not treated: 1 vs 4</li>
+ <li>other: 175 vs 151</li>
+ <li>unknown: 5 vs 1</li>
+</ul>
+<p>revoked contact with primary care physician or designated contact: 193 vs 192</p>
+<p>Number of withdrawals and reasons only reported for the whole study population which had hypertension, diabetes type 2 and/or dyslipidemia.</p>",Unclear risk,"<p><u><i>Comment:</i></u><i> </i>A study protocol is available. All prespecified outcomes are reported. The study was terminated prematurely after the unplanned release of the 25% interim data. Outcome measures data are based on the 50% interim analysis, designated as the primary analysis. Safety data are based on all available data at the time of database lock, which occurred after the 50% interim analysis</p>",Unclear risk,"<p><i><u>Comment:</u></i> The trial was sponsored by Orexigen Therapeutics Inc (La Jolla, California, USA) and Takeda Pharmaceuticals International (Deerfield, Illinois, USA).</p>"
+STEP 1 2023,Low risk,"<p>Quote: ""randomly assigned in a 2:1 ratio, through the use of an interactive Web-based response system""</p>",Low risk,"<p>Quote: ""...randomly assigned in a 2:1 ratio, through the use of an interactive Web-based response system""</p>",Not applicable,,Not applicable,,Not applicable,,Low risk,"<p>Comment: “Quadruple blinded (Participant, Care Provider, Investigator, Outcomes Assessor); no indication that blinding of participants and key study personnel were not broken.""</p>",Not applicable,,Not applicable,,Not applicable,,Not applicable,,Low risk,"<p>Comment: “Quadruple blinded (Participant, Care Provider, Investigator, Outcomes Assessor); Investigator assessed&nbsp;</p>",Not applicable,,Not applicable,,Not applicable,,Not applicable,,Unclear risk,"<p><u>Quote:</u> “Efficacy end points were analyzed in the full analysis population (all randomly assigned participants according to the intention-to-treat principle). This assesses the trial-population-average treatment effect of semaglutide or placebo and includes all randomized participants regardless of adherence to treatment or rescue interventions (other anti-obesity medication or bariatric surgery).”&nbsp;</p><p><u>Comment:</u></p><p>Withdrawals or lost to follow-up / reasons/descriptions:</p><p>Only reported for the whole study population, which included participants with and without hypertension.</p><p>Semaglutide vs placebo: 5.1% vs 7.0%</p><ul><li data-list-item-id=""eda1ce2797b468fec61d0ce4d8f3226ad"">withdrew consent: 26 vs 17</li><li data-list-item-id=""e5306c9b9dbcda7e4480f70761d550012"">lost to follow-up: 39 vs 28</li><li data-list-item-id=""e3d428918f95967b06db3060f23156b5b"">died: 1 vs 1</li></ul><p>No information for the subpopulation of patients with hypertension.</p>",Not applicable,,Unclear risk,"<p>Comment: A study protocol is available. All prespecified outcomes are reported for the whole study population. For subpopulation of patients with hypertension, only results on blood pressure reported. Results on safety outcomes not reported in the exploratory post-hoc analysis publication.</p>",Unclear risk,<p>Comment: &nbsp;The trial was sponsored by Novo Nordisk A/S.</p><p>Results for subpopulation of patients with hypertension only assessed and reported in an exploratory post-hoc analysis.&nbsp;</p>
+SURMOUNT-1 2024,Low risk,"<p><u>Quote</u>: “Assignment to treatment groups will be determined by a computer-generated, random sequence using an interactive web-response system. Participants will be randomized in a 1:1:1:1 ratio…” (Study protocol, p.57)</p><p><u>Comment</u>: Details on sequence generation are provided.</p>",Low risk,"<p><u>Quote</u>: “Assignment to treatment groups will be determined by a computer-generated, random sequence using an interactive web-response system. Participants will be randomized in a 1:1:1:1 ratio…If an investigator, site personnel performing assessments, or participant is unblinded, the participant must be discontinued from the study.” (Study protocol, p.57)</p><p><u>Comment</u>: Details on central allocation concealment are provided.</p>",Not applicable,,Not applicable,,Not applicable,,Low risk,"<p><u>Quote</u>: “This is a double-blind study. …Investigators, site staff, clinical monitors and participants will remain blinded to the treatment assignments until the study is complete. …If an investigator, site personnel performing assessments, or participant is unblinded, the participant must be discontinued from the study.” (Protocol, p57)</p><p><u>Comment</u>: No indication that blinding of participants and key study personnel were not broken.</p>",Not applicable,,Not applicable,,Not applicable,,Not applicable,,Low risk,"<p><u>Quote</u>: “This is a double-blind study. …Investigators, site staff, clinical monitors and participants will remain blinded to the treatment assignments until the study is complete. …If an investigator, site personnel performing assessments, or participant is unblinded, the participant must be discontinued from the study.” (Protocol, p57)</p>",Not applicable,,Not applicable,,Not applicable,,Not applicable,,High risk,"<p><u>Quote: </u>Randomised participants who took at least one dose of the study drug were included in the modified intent-to-treat population (mITT). Participants were analysed according to the treatment<br>they were randomly assigned, regardless of the treatment received. All analyses were conducted based on the efficacy analysis set, which included data obtained during the treatment period from mITT, excluding data after discontinuation of the study drug.</p><p><u>Comment:</u> Withdrawals or lost to follow-up / reasons/descriptions:</p><p>Only reported for the whole study population, which included participants with and without hypertension.</p><p>Tirzepatide vs placebo: 10.9% vs 23.0%</p><ul><li data-list-item-id=""efa552e57503c667cf7bda81e3362cb72"">adverse events: 26 vs 7</li><li data-list-item-id=""e8d8a93b99c20548604c38e94756b1f5f"">died: 7 vs 4</li><li data-list-item-id=""e42bde2bfddf3474f2e8d2f90530dc643"">lost to follow-up: 54 vs 41</li><li data-list-item-id=""e9c2ddd0372eb3dffa9717d6cad379d32"">missing weight at W72: 1 vs 1</li><li data-list-item-id=""e99244e7bb536c0948c1d4580e3be11d5"">physician decision: 4 vs 0</li><li data-list-item-id=""e88369555bd7f838a49a44350b3db6f80"">pregancy: 12 vs 4</li><li data-list-item-id=""e63ffcf9fc1cae662dbd1d79a4e703dba"">withdrew consent: 79 vs 68</li><li data-list-item-id=""e35d35fe33db146141987a0989d17fcfd"">protocol violations: 0 vs 1</li><li data-list-item-id=""e2bcceed7da6abbcd1149265f6bb971f7"">other: 24 vs 22</li></ul><p>Data from participants of the mITT population who discontinued study drug, were excluded from the efficiacy analyses. Only 84.8% (N=1607) of participants in the intervention group and 73.6% (N=473) of participants in the placebo group completed the study period on the study drug.&nbsp;</p>",Not applicable,,Unclear risk,<p><u>Comment</u>: A study protocol is available. All prespecified outcomes are reported for the whole study population. Results for subpopulation of patients with hypertension were assessed in a post hoc analysis.</p>,Unclear risk,<p><u>Comment</u>: The trial was sponsored by Eli Lilly and Company.</p><p>Results for subpopulation of patients with hypertension only assessed and reported in an exploratory post-hoc analysis.</p>
+XENDOS 2001-2006,Low risk,"<p><u><i>Comment:</i></u> no information from publication, but according to IQWIG report adequate (IQWiG 2006)</p>",Low risk,"<p><u><i>Comment:</i></u> no information from publication, but according to IQWIG report adequate (IQWiG 2006)</p>",Low risk,"<p><u><i>Quote:</i></u> “…4-year, double-blind, randomised, placebo controlled prospective study…”</p>",Unclear risk,"<p><u><i>Quote:</i></u> “…4-year, double-blind, randomised, placebo controlled prospective study…”</p>
+<p><u><i>Comment:</i></u> no indication that blinding of participants and key study personnel were not broken</p>",Unclear risk,"<p><u><i>Quote:</i></u> “…4-year, double-blind, randomised, placebo controlled prospective study…”</p>
+<p><u><i>Comment:</i></u> no indication that blinding of participants and key study personnel were not broken</p>",Unclear risk,"<p><u><i>Quote:</i></u> “…4-year, double-blind, randomised, placebo controlled prospective study…”</p>
+<p><u><i>Comment:</i></u> no indication that blinding of participants and key study personnel were not broken</p>",Unclear risk,"<p><u><i>Quote:</i></u> “…4-year, double-blind, randomised, placebo controlled prospective study…”</p>
+<p><u><i>Comment:</i></u> no indication that blinding of participants and key study personnel were not broken</p>",Low risk,"<p><u><i>Quote:</i></u> “…4-year, double-blind, randomised, placebo controlled prospective study…”</p>
+<p><u><i>Comment:</i></u> Investigator assessed</p>",Unclear risk,"<p><u><i>Quote:</i></u> “…4-year, double-blind, randomised, placebo controlled prospective study…”</p>
+<p><u><i>Comment:</i></u> Investigator assessed or self-reported; no indication that blinding of participants and key study personnel were not broken</p>",Unclear risk,"<p><u><i>Quote:</i></u> “…4-year, double-blind, randomised, placebo controlled prospective study…”</p>
+<p><u><i>Comment:</i></u> Investigator assessed or self-reported; no indication that blinding of participants and key study personnel were not broken</p>",Unclear risk,"<p><u><i>Quote:</i></u> “…4-year, double-blind, randomised, placebo controlled prospective study…”</p>
+<p><u><i>Comment:</i></u> Investigator assessed; no indication that blinding of key study personnel was not broken</p>",Unclear risk,"<p><u><i>Quote:</i></u> “…4-year, double-blind, randomised, placebo controlled prospective study…”</p>
+<p><u><i>Comment:</i></u> Investigator assessed; no indication that blinding of key study personnel was not broken</p>",Unclear risk,"<p><u><i>Quote:</i></u> ""Efficacy was assessed on an intention-to-treat (ITT) basis with a last observation carried forward principle (LOCF). The ITT population included all randomised patients who had received at least one dose of study treatment and one follow up examination.""</p>
+<p><u><i>Comment:</i></u></p>
+<p>Withdrawals and reasons/descriptions:</p>
+<p><b>First subgroup: </b>183 (45%) vs 268 (61%) (orlistat vs placebo)</p>
+<ul>
+ <li>study withdrawals: 22 (5%) vs 20 (5%)</li>
+ <li>adverse events: 9% vs 4%</li>
+ <li>no further reasons mentioned</li>
+</ul>
+<p><b>Second subgroup</b>: 215 (42%) vs 307 (60%) (orlistat vs placebo)</p>
+<ul>
+ <li>study withdrawals: 25 (4%) vs 22 (5%)</li>
+ <li>adverse events: 9% vs 4%</li>
+ <li>no further reasons mentioned</li>
+</ul>",High risk,"<p><i><u>Quote:</u></i> ""Efficacy was assessed on an intention-to-treat (ITT) basis with a last observation carried forward principle (LOCF). The ITT population included all randomised patients who had received at least one dose of study treatment and one follow up examination.""</p><p><i><u>Comment:</u></i></p><p>Withdrawals and reasons/descriptions:</p><p><b>First subgroup: </b>183 (45%) vs 268 (61%) (orlistat vs placebo)</p><ul><li data-list-item-id=""e1f0024bafb8c2d8ba9d09c96b4c5010d"">study withdrawals: 22 (5%) vs 20 (5%)</li><li data-list-item-id=""e90cb63e289f0041365a02b7d3cfc2720"">adverse events: 9% vs 4%</li><li data-list-item-id=""e7f2a4ee7fc59b79b37e202aeaf3606d6"">no further reasons mentioned</li></ul><p><b>Second subgroup</b>: 215 (42%) vs 307 (60%) (orlistat vs placebo)</p><ul><li data-list-item-id=""e7418c482faebc1bb814c3b3d73babd91"">study withdrawals: 25 (4%) vs 22 (5%)</li><li data-list-item-id=""e8873c98701c7d9268f2d0405c720658d"">adverse events: 9% vs 4%</li><li data-list-item-id=""e0ab188170c40dbc4edfd330bbb02ffb8"">no further reasons mentioned</li></ul><p>Data only reported in the context of adverse events. Unclear wether the reporting is complete.</p>",Unclear risk,"<p><u><i>Quote:</i></u> ""Efficacy was assessed on an intention-to-treat (ITT) basis with a last observation carried forward principle (LOCF). The ITT population included all randomised patients who had received at least one dose of study treatment and one follow up examination.""</p>
+<p><u><i>Comment:</i></u></p>
+<p>Withdrawals and reasons/descriptions:</p>
+<p><b>First subgroup: </b>183 (45%) vs 268 (61%) (orlistat vs placebo)</p>
+<ul>
+ <li>study withdrawals: 22 (5%) vs 20 (5%)</li>
+ <li>adverse events: 9% vs 4%</li>
+ <li>no further reasons mentioned</li>
+</ul>
+<p><b>Second subgroup</b>: 215 (42%) vs 307 (60%) (orlistat vs placebo)</p>
+<ul>
+ <li>study withdrawals: 25 (4%) vs 22 (5%)</li>
+ <li>adverse events: 9% vs 4%</li>
+ <li>no further reasons mentioned</li>
+</ul>",Unclear risk,"<p><u><i>Quote:</i></u> ""Efficacy was assessed on an intention-to-treat (ITT) basis with a last observation carried forward principle (LOCF). The ITT population included all randomised patients who had received at least one dose of study treatment and one follow up examination.""</p>
+<p><u><i>Comment:</i></u></p>
+<p>Withdrawals and reasons/descriptions:</p>
+<p><b>First subgroup: </b>183 (45%) vs 268 (61%) (orlistat vs placebo)</p>
+<ul>
+ <li>study withdrawals: 22 (5%) vs 20 (5%)</li>
+ <li>adverse events: 9% vs 4%</li>
+ <li>no further reasons mentioned</li>
+</ul>
+<p><b>Second subgroup</b>: 215 (42%) vs 307 (60%) (orlistat vs placebo)</p>
+<ul>
+ <li>study withdrawals: 25 (4%) vs 22 (5%)</li>
+ <li>adverse events: 9% vs 4%</li>
+ <li>no further reasons mentioned</li>
+</ul>",Unclear risk,"<p><u><i>Quote:</i></u> ""Efficacy was assessed on an intention-to-treat (ITT) basis with a last observation carried forward principle (LOCF). The ITT population included all randomised patients who had received at least one dose of study treatment and one follow up examination.""</p>
+<p><u><i>Comment:</i></u></p>
+<p>Withdrawals and reasons/descriptions:</p>
+<p><b>First subgroup: </b>183 (45%) vs 268 (61%) (orlistat vs placebo)</p>
+<ul>
+ <li>study withdrawals: 22 (5%) vs 20 (5%)</li>
+ <li>adverse events: 9% vs 4%</li>
+ <li>no further reasons mentioned</li>
+</ul>
+<p><b>Second subgroup</b>: 215 (42%) vs 307 (60%) (orlistat vs placebo)</p>
+<ul>
+ <li>study withdrawals: 25 (4%) vs 22 (5%)</li>
+ <li>adverse events: 9% vs 4%</li>
+ <li>no further reasons mentioned</li>
+</ul>",Unclear risk,<p><i><u>Comment:</u></i> No study protocol available. Information was obtained only from a scientific report (IQWiG 2006); no full publication was available to allow judgement of either yes or no</p>,Unclear risk,"<p><i><u>Comment:</u></i> The trial was sponsored by Hoffmann-La Roche, Nutley (NJ), USA.</p><p>Power calculation is only provided for the whole group. The combination of a high withdrawal rate and the unknown duration of participation in the trial increases risk of bias even using the LOCF analysis.</p>"
