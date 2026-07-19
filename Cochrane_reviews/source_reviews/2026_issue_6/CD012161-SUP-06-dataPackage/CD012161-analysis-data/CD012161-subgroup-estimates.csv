@@ -1,0 +1,3 @@
+﻿Analysis group,Analysis number,Subgroup,Subgroup number,Experimental cases,Experimental N,Control cases,Control N,Weight,Mean,CI start,CI end,Heterogeneity Tau²,Tau² CI start,Tau² CI end,Heterogeneity Chi²,Heterogeneity df,Heterogeneity P,Heterogeneity I²,Effect Z,Effect T,Effect P,ID
+5,8,Physical health,1,,347,,348,99.99999999999999,-0.990000000000002,-2.1223941810505553,0.14239418105055135,0,,,0,0,1,0,1.7135061069410726,,0.08661947082485069,subgroup:459777074248581522
+5,8,Mental health,2,,347,,348,100,-0.45999999999999375,-1.8964483587195935,0.976448358719606,0,,,0,0,1,0,0.6276476473488075,,0.5302347916620963,subgroup:459777086230135237

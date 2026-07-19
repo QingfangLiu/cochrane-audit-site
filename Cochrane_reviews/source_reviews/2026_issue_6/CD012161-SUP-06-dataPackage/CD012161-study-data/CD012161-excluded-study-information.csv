@@ -1,0 +1,67 @@
+﻿Study,Year,Data source,ID: CRS,Char: Reason for exclusion
+Bi 2007,2007,PUB,29401014,<p>Follow-up duration too short</p>
+Blevins 2022,2022,PUB,29401016,<p>Wrong comparison (biosimilar)</p>
+Caixàs 1998,1998,PUB,29401018,<p>Follow-up duration too short</p>
+Chan 2004,2004,PUB,29401020,<p>Follow-up duration too short</p>
+Chen 2011,2011,PUB,29401022,<p>Follow-up duration too short</p>
+ChiCTR2000031290,2020,PUB,29401024,<p>Wrong comparison (biosimilar)</p>
+ChiCTR2000034886,2020,PUB,29401026,<p>Wrong comparison (biosimilar)</p>
+ChiCTR-IPR-15007340,2015,PUB,29401028,<p>&nbsp;Mixed insulin</p>
+Cotticelli 2000,2000,PUB,29401030,<p>Short follow-up (&lt;24 weeks)</p>
+CTIS2023-509217-37-00 2024,2024,PUB,29401032,<p>Short follow-up (&lt;24 weeks)</p>
+CTRI/2024/02/062332,2024,PUB,29401034,<p>Wrong comparison (biosimilar)</p>
+Du 2023,2023,PUB,29401036,<p>Wrong study duration</p>
+EUCTR2015-004536-35-DE,2016,PUB,29401038,<p>Insulin Pump</p>
+EUCTR2016-002915-17-ES,2016,PUB,29401040,<p>Wrong comparator (different basal insulin)</p>
+EUCTR2017-000091-28-HU,2017,PUB,29401042,<p>Wrong comparison (biosimilar)</p>
+EUCTR2017-001657-13-ES,2019,PUB,29401044,<p>Wrong comparison (biosimilar)</p>
+EUCTR2017-002014-31-DE,2017,PUB,29401046,<p>Wrong study duration</p>
+EUCTR2017-003220-78-DE,2017,PUB,29401048,<p>Wrong comparison (biosimilar)</p>
+Gao 2009,2009,PUB,29401050,<p>Follow-up duration too short</p>
+Garg 2016,2016,PUB,29401052,<p>Wrong comparison (biosimilar)</p>
+Garg 2017,2017,PUB,29401054,<p>Wrong comparison (biosimilar)</p>
+Garg 2017a,2017,PUB,29401056,<p>Wrong comparison (biosimilar)</p>
+Garg 2019,2019,PUB,29401058,<p>Wrong comparison (biosimilar)</p>
+Garg 2020,2020,PUB,29401060,<p>Wrong comparison (biosimilar)</p>
+Garg 2020a,2020,PUB,29401062,<p>Wrong comparison (biosimilar)</p>
+Garg 2020b,2020,PUB,29401064,<p>Wrong comparison (biosimilar)</p>
+Haahr 2015,2015,PUB,29401066,<p>Short follow-up (&lt;24 weeks)</p>
+Haahr 2019,2019,PUB,29401068,<p>Short follow-up (&lt;24 weeks)</p>
+Heise 2016,2016,PUB,29401070,<p>Wrong study duration</p>
+Holleman 1997,2007,PUB,29401072,<p>Follow-up duration too short</p>
+Home 2017,2017,PUB,29401074,<p>Wrong comparison (biosimilar)</p>
+Home 2018,2018,PUB,29401076,<p>Wrong comparison (biosimilar)</p>
+Kapitza 2015,2015,PUB,29401078,<p>Wrong comparison (biosimilar)</p>
+Kaplan 2004,2004,PUB,29401080,<p>Follow-up duration too short</p>
+Karonova 2021,2021,PUB,29401082,<p>Wrong comparison (biosimilar)</p>
+Kazda 2022,2022,PUB,29401084,<p>Wrong study duration</p>
+Lalli 1999,1999,PUB,29401086,<p>Mixed insulin</p>
+Laube 1996,1996,PUB,29401088,<p>Follow-up duration too short</p>
+Leohr 2022,2022,PUB,29401090,<p>Insulin Pump</p>
+Lindholm 1999,1999,PUB,29401092,<p>Follow-up duration too short</p>
+Lindholm 2002,2002,PUB,29401094,<p>Mixed insulin</p>
+NCT01194245,2019,PUB,29401096,<p>Mixed insulin</p>
+NCT02490098,2018,PUB,29401098,<p>Insulin Pump</p>
+NCT02914886,2016,PUB,29401100,<p>Insulin Pump</p>
+NCT03328845,2017,PUB,29401102,<p>Wrong comparator (different basal insulin)</p>
+NCT03659799,2018,PUB,29401104,<p>Short follow-up (&lt;24 weeks)</p>
+NCT03760068,2018,PUB,29401106,<p>Wrong comparison (biosimilar)</p>
+NCT03874715,2020,PUB,29401108,<p>Wrong study duration</p>
+NCT04079413,2019,PUB,29401110,<p>Wrong comparison (biosimilar)</p>
+NCT04254380,2020,PUB,29401112,<p>Wrong comparison (biosimilar)</p>
+NCT04501107,2020,PUB,29401114,<p>Wrong comparison (biosimilar)</p>
+NCT04588259,2020,PUB,29401116,<p>Short follow-up (&lt;24 weeks)</p>
+Pérez-Maraver 2013,2013,PUB,29401118,<p>Wrong comparator (different basal insulin)</p>
+Pieber 2017,2017,PUB,29401120,<p>Short follow-up (&lt;24 weeks)</p>
+Plum-Moerschel 2018,2018,PUB,29401122,<p>Short follow-up (&lt;24 weeks)</p>
+Plum-Morschel 2018,2018,PUB,29401124,<p>Short follow-up (&lt;24 weeks)</p>
+Plum-Morschel 2019,2019,PUB,29401126,<p>Short follow-up (&lt;24 weeks)</p>
+Raiter 2021,2021,PUB,29401128,<p>Wrong comparison (biosimilar)</p>
+Rami 1997,1997,PUB,29401130,<p>Follow-up duration too short</p>
+Roach 2001,2001,PUB,29401132,<p>Mixed insulin</p>
+Rose 2019,2019,PUB,29401134,<p>Wrong comparator (different basal insulin)</p>
+Shah 2021,2021,PUB,29401136,<p>Wrong comparison (biosimilar)</p>
+Skrha 2002,2002,PUB,29401138,<p>Follow-up duration too short</p>
+Thorsteinsson 2015,2015,PUB,29401140,<p>Wrong comparator (different basal insulin)</p>
+Tubiana-Rufi 1997,1997,PUB,29401142,<p>Follow-up duration too short</p>
+Vignati 1997,1997,PUB,29401144,<p>Follow-up duration too short</p>
